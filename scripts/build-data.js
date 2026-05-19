@@ -450,7 +450,7 @@ function buildChronologyRecords() {
           ...shared,
           id: "contact-1995-10-23-memcon-hyde-park-lunch",
           date: "1995-10-23",
-          sortDate: "1995-10-23-lunch",
+          sortDate: "1995-10-23",
           title: "Memorandum of conversation: Lunch with Boris Yeltsin, President of Russian Federation",
           documentTitle: "Lunch with Boris Yeltsin, President of Russian Federation",
           pdfUrl: DERIVED_PDFS.hydeParkLunch,
