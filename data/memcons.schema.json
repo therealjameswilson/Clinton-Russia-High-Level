@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Clinton Russia High-Level Compiler Record",
+  "type": "object",
+  "required": [
+    "id",
+    "date",
+    "type",
+    "title",
+    "participants",
+    "countries",
+    "chapter",
+    "releaseStatus",
+    "naid",
+    "catalogUrl",
+    "frusVolume",
+    "frusTopics",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "sortDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["Memcon", "Telcon", "Release Packet", "Context", "Scout Lead"]
+    },
+    "title": {
+      "type": "string"
+    },
+    "documentTitle": {
+      "type": "string"
+    },
+    "participants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "chapter": {
+      "type": "object",
+      "required": ["number", "name"],
+      "properties": {
+        "number": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "name": {
+          "type": "string",
+          "enum": [
+            "Clinton-Yeltsin Chronology",
+            "Released Clinton Library Packets",
+            "Talbott FOIA Context",
+            "NARA Scout Leads"
+          ]
+        }
+      }
+    },
+    "releaseStatus": {
+      "type": "string",
+      "enum": ["Full", "Partial", "Mixed", "Unknown", "FOIA/MDR Lead", "Catalog Lead", "Search Lead"]
+    },
+    "naid": {
+      "type": "string"
+    },
+    "catalogUrl": {
+      "type": "string",
+      "format": "uri-reference"
+    },
+    "pdfUrl": {
+      "type": "string",
+      "format": "uri-reference"
+    },
+    "pageCount": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "localPdfPageCount": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "sourcePdfPages": {
+      "type": "string"
+    },
+    "markerPage": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "digitalObjects": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "dateLine": {
+      "type": "string"
+    },
+    "subjectLine": {
+      "type": "string"
+    },
+    "sourceNote": {
+      "type": "string"
+    },
+    "extractionStatus": {
+      "type": "string"
+    },
+    "extractionRule": {
+      "type": "object",
+      "required": ["rule", "exclude", "markerPosition"],
+      "properties": {
+        "rule": {
+          "type": "string"
+        },
+        "exclude": {
+          "type": "string"
+        },
+        "markerPosition": {
+          "type": "string",
+          "enum": ["append-last"]
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["name", "url"],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri-reference"
+        },
+        "pdfUrl": {
+          "type": "string",
+          "format": "uri-reference"
+        },
+        "caseNumber": {
+          "type": "string"
+        }
+      }
+    },
+    "frusVolume": {
+      "type": "object",
+      "required": ["id", "title", "url", "status"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+    "frusTopics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "relatedReleaseIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "scoutedAt": "2026-05-19T21:45:00-04:00",
+  "series": {
+    "naid": "7585721",
+    "title": "Presidential Records Series (PRS) Files",
+    "catalogUrl": "https://catalog.archives.gov/id/7585721",
+    "collection": "Records of the National Security Council Records Management Office (Clinton Administration)",
+    "collectionNaid": "7388808",
+    "catalogItemCount": 2,
+    "fileUnitCount": 1066,
+    "note": "The Catalog series description reports two item-level records. Both item records found in this PRS series are Clinton-Yeltsin memcon records; no PRS-series telcon item was found."
+  },
+  "confirmedItems": [
+    {
+      "naid": "163545404",
+      "title": "Memcons between President William Jefferson Clinton and President Boris Yeltsin",
+      "catalogUrl": "https://catalog.archives.gov/id/163545404",
+      "sourcePdf": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf",
+      "caseNumber": "2014-0901-M",
+      "documents": [
+        {
+          "recordId": "9302226",
+          "title": "Working Dinner with President Boris Yeltsin",
+          "date": "1993-04-03",
+          "sourcePages": "9-17",
+          "markerPage": 1,
+          "derivedPdf": "public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf"
+        },
+        {
+          "recordId": "9302226",
+          "title": "Meeting with Russian President Boris Yeltsin on Security Issues",
+          "date": "1993-04-04",
+          "sourcePages": "19-30",
+          "markerPage": 1,
+          "derivedPdf": "public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf"
+        }
+      ]
+    },
+    {
+      "naid": "163545436",
+      "title": "Memcon between President William Jefferson Clinton and President Boris Yeltsin",
+      "catalogUrl": "https://catalog.archives.gov/id/163545436",
+      "sourcePdf": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf",
+      "caseNumber": "2014-0948-M",
+      "documents": [
+        {
+          "recordId": "9507853",
+          "title": "Clinton-Yeltsin One-on-One",
+          "date": "1995-10-23",
+          "sourcePages": "5-16",
+          "markerPage": 1,
+          "derivedPdf": "public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf"
+        },
+        {
+          "recordId": "9507991",
+          "title": "Lunch with Boris Yeltsin, President of Russian Federation",
+          "date": "1995-10-23",
+          "sourcePages": "31-35",
+          "markerPage": 18,
+          "derivedPdf": "public/documents/1995-10-23-clinton-yeltsin-hyde-park-lunch.pdf",
+          "excludedPages": "24-27 duplicate lunch copy"
+        }
+      ]
+    }
+  ],
+  "extractionRule": "Only actual memcon/telcon pages are extracted. The original source marker page for the item is appended as the final provenance sheet."
+}
