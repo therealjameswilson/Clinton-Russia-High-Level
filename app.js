@@ -7,12 +7,26 @@ const CHAPTER_ORDER = [
 
 const recordsRoot = document.querySelector("#records-root");
 const totalRecords = document.querySelector("#total-records");
-const totalPages = document.querySelector("#total-pages");
+const candidateDocuments = document.querySelector("#candidate-documents");
+const countedPages = document.querySelector("#counted-pages");
+const pendingDocuments = document.querySelector("#pending-documents");
+const strobeSources = document.querySelector("#strobe-sources");
+const candidateSetCount = document.querySelector("#candidate-set-count");
+const candidateCountedCount = document.querySelector("#candidate-counted-count");
+const candidatePendingCount = document.querySelector("#candidate-pending-count");
+const candidatePageCount = document.querySelector("#candidate-page-count");
+const pendingSummary = document.querySelector("#pending-summary");
+const pendingList = document.querySelector("#pending-list");
+const sourceCopySummary = document.querySelector("#source-copy-summary");
 const searchInput = document.querySelector("#record-search");
 const filterButtons = [...document.querySelectorAll("[data-record-filter]")];
+const statusFilter = document.querySelector("#status-filter");
+const sourceFilter = document.querySelector("#source-filter");
+const yearFilter = document.querySelector("#year-filter");
+const clearFilters = document.querySelector("#clear-filters");
 
 let allRecords = [];
-let activeFilter = "all";
+let activeTypeFilter = "all";
 
 function chapterId(chapterName) {
   return `chapter-${chapterName.toLowerCase().replaceAll(" ", "-")}`;
@@ -37,18 +51,113 @@ function byChapterThenDate(a, b) {
   );
 }
 
+function isConversationCandidate(record) {
+  return (
+    record.chapter.name === "Clinton-Yeltsin Chronology" &&
+    (record.type === "Memcon" || record.type === "Telcon") &&
+    record.potentialFrusDocument !== false
+  );
+}
+
+function candidateRecords(records) {
+  return records.filter(isConversationCandidate);
+}
+
+function pageSum(records) {
+  return records.reduce((sum, record) => sum + (Number.isInteger(record.pageCount) ? record.pageCount : 0), 0);
+}
+
+function recordSourceLabel(record) {
+  return record.source?.caseNumber || record.source?.name || record.naid || "Unknown source";
+}
+
+function sourceCopyCount(record, field) {
+  return Array.isArray(record[field]) ? record[field].length : 0;
+}
+
+function setText(node, value) {
+  if (node) node.textContent = String(value);
+}
+
 function setChapterCounts(records) {
-  totalRecords.textContent = records.length.toString();
-  totalPages.textContent = records.reduce((sum, record) => sum + (record.pageCount || 0), 0).toString();
+  const candidates = candidateRecords(records);
+  const counted = candidates.filter((record) => Number.isInteger(record.pageCount));
+  const pending = candidates.filter((record) => !Number.isInteger(record.pageCount));
+  const strobeCount = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "strobeFiles"), 0);
+
+  setText(totalRecords, records.length);
+  setText(candidateDocuments, candidates.length);
+  setText(countedPages, pageSum(candidates));
+  setText(pendingDocuments, pending.length);
+  setText(strobeSources, strobeCount);
+  setText(candidateSetCount, candidates.length);
+  setText(candidateCountedCount, counted.length);
+  setText(candidatePendingCount, pending.length);
+  setText(candidatePageCount, pageSum(candidates));
 
   for (const chapterName of CHAPTER_ORDER) {
     const chapterRecords = records.filter((record) => record.chapter.name === chapterName);
     const countNode = document.querySelector(`[data-chapter-count="${chapterName}"]`);
     const pagesNode = document.querySelector(`[data-chapter-pages="${chapterName}"]`);
-    const pageTotal = chapterRecords.reduce((sum, record) => sum + (record.pageCount || 0), 0);
+    const pageTotal = pageSum(chapterRecords);
 
     if (countNode) countNode.textContent = chapterRecords.length.toString();
     if (pagesNode) pagesNode.textContent = pageTotal ? `${pageTotal}` : "source";
+  }
+}
+
+function populateSelect(select, values, fallbackLabel) {
+  if (!select) return;
+  select.replaceChildren(new Option(fallbackLabel, "all"));
+  for (const value of values) {
+    select.append(new Option(value, value));
+  }
+}
+
+function populateCompilerControls(records) {
+  const years = [...new Set(records.map((record) => record.date?.slice(0, 4)).filter(Boolean))].sort();
+  const sources = [...new Set(records.map(recordSourceLabel).filter(Boolean))].sort((a, b) =>
+    a.localeCompare(b)
+  );
+  populateSelect(yearFilter, years, "All years");
+  populateSelect(sourceFilter, sources, "All sources");
+}
+
+function renderWorkbench(records) {
+  const candidates = candidateRecords(records);
+  const pending = candidates
+    .filter((record) => !Number.isInteger(record.pageCount))
+    .sort(byChapterThenDate);
+  const strobeCount = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "strobeFiles"), 0);
+  const driveCount = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "googleDriveFiles"), 0);
+
+  if (pendingSummary) {
+    pendingSummary.textContent = pending.length
+      ? `${pending.length} candidate records still need actual-page verification.`
+      : "All candidate memcons and telcons have counted extents.";
+  }
+
+  if (pendingList) {
+    pendingList.replaceChildren(
+      ...pending.slice(0, 6).map((record) => {
+        const item = document.createElement("li");
+        const link = document.createElement("button");
+        link.type = "button";
+        link.textContent = `${formatDate(record.date)}: ${record.documentTitle || record.title}`;
+        link.addEventListener("click", () => {
+          applyQuickFilter("pending");
+          if (searchInput) searchInput.value = record.date;
+          filterRecords();
+          document.querySelector("#records")?.scrollIntoView({ block: "start" });
+        });
+        item.append(link);
+        return item;
+      })
+    );
+  }
+
+  if (sourceCopySummary) {
+    sourceCopySummary.textContent = `${strobeCount} Strobe FOIA references and ${driveCount} Drive references are attached to canonical conversation rows for deduped review.`;
   }
 }
 
@@ -96,9 +205,64 @@ function createParagraph(className, text) {
   return paragraph;
 }
 
+function createChecklistItem(label, value, tone = "") {
+  const item = document.createElement("div");
+  item.className = tone ? `check-item ${tone}` : "check-item";
+
+  const title = document.createElement("span");
+  title.textContent = label;
+
+  const body = document.createElement("strong");
+  body.textContent = value || "Needs review";
+
+  item.append(title, body);
+  return item;
+}
+
+function createCompilerChecklist(record) {
+  const checklist = document.createElement("div");
+  checklist.className = "record-checklist";
+
+  const extent = Number.isInteger(record.pageCount)
+    ? `${record.pageCount} actual pages`
+    : record.countStatus || "Extent pending";
+  const extentTone = Number.isInteger(record.pageCount) ? "ok" : "needs-review";
+  const sourcePages = record.sourcePdfPages || "Page map pending";
+  const provenance =
+    record.markerPage
+      ? `Marker page ${record.markerPage}`
+      : record.localPdfPageCount
+        ? "Derivative PDF checked"
+        : record.sourcePdfPages
+          ? "Source pages identified"
+          : "Provenance pending";
+  const copies = [
+    sourceCopyCount(record, "strobeFiles") ? `${sourceCopyCount(record, "strobeFiles")} Strobe` : "",
+    sourceCopyCount(record, "googleDriveFiles") ? `${sourceCopyCount(record, "googleDriveFiles")} Drive` : ""
+  ]
+    .filter(Boolean)
+    .join(" / ");
+  const accounting = record.extractionStatus
+    ? "Extraction note present"
+    : record.potentialFrusDocument === false
+      ? "Lead, not counted"
+      : "Needs extraction note";
+
+  checklist.append(
+    createChecklistItem("Placement", record.dateLine || formatDate(record.date)),
+    createChecklistItem("Extent", extent, extentTone),
+    createChecklistItem("Source Pages", sourcePages),
+    createChecklistItem("Provenance", provenance),
+    createChecklistItem("Copies", copies || "No duplicate copy logged"),
+    createChecklistItem("Accounting", accounting, record.extractionStatus ? "ok" : "")
+  );
+
+  return checklist;
+}
+
 function createRecordRow(record) {
   const row = document.createElement("article");
-  row.className = "record-row";
+  row.className = `record-row ${Number.isInteger(record.pageCount) ? "is-counted" : "is-pending"}`;
 
   const date = document.createElement("time");
   date.className = "record-date";
@@ -119,7 +283,8 @@ function createRecordRow(record) {
     createParagraph("record-date-line", record.dateLine || formatDate(record.date)),
     createParagraph("record-subject", record.subjectLine || record.title),
     createMeta(record),
-    createParagraph("record-source-note", record.sourceNote || "Source: Provenance pending.")
+    createParagraph("record-source-note", record.sourceNote || "Source: Provenance pending."),
+    createCompilerChecklist(record)
   );
 
   if (record.extractionStatus) {
@@ -199,9 +364,10 @@ function renderRecords(records) {
 
     const count = document.createElement("p");
     count.className = "record-count";
-    const pageTotal = chapterRecords.reduce((sum, record) => sum + (record.pageCount || 0), 0);
+    const pageTotal = pageSum(chapterRecords);
+    const pendingTotal = chapterRecords.filter((record) => !Number.isInteger(record.pageCount)).length;
     count.textContent = pageTotal
-      ? `${chapterRecords.length} records / ${pageTotal} pages or digital objects`
+      ? `${chapterRecords.length} records / ${pageTotal} pages or digital objects / ${pendingTotal} pending`
       : `${chapterRecords.length} records`;
     header.append(heading, count);
 
@@ -214,26 +380,91 @@ function renderRecords(records) {
   }
 }
 
+function statusMatches(record, status) {
+  if (status === "all") return true;
+  if (status === "candidate") return isConversationCandidate(record);
+  if (status === "counted") return isConversationCandidate(record) && Number.isInteger(record.pageCount);
+  if (status === "pending") return isConversationCandidate(record) && !Number.isInteger(record.pageCount);
+  if (status === "strobe") return sourceCopyCount(record, "strobeFiles") > 0;
+  if (status === "drive") return sourceCopyCount(record, "googleDriveFiles") > 0;
+  if (status === "partial") return record.releaseStatus === "Partial" || record.releaseStatus === "Mixed";
+  if (status === "unknown") return record.releaseStatus === "Unknown";
+  if (status === "lead") return record.type === "Scout Lead" || /Lead/i.test(record.releaseStatus || "");
+  return true;
+}
+
 function filterRecords() {
   const query = searchInput?.value.trim().toLowerCase() || "";
+  const status = statusFilter?.value || "all";
+  const source = sourceFilter?.value || "all";
+  const year = yearFilter?.value || "all";
   const records = allRecords.filter((record) => {
-    const matchesFilter = activeFilter === "all" || record.type === activeFilter;
+    const matchesFilter = activeTypeFilter === "all" || record.type === activeTypeFilter;
+    const matchesStatus = statusMatches(record, status);
+    const matchesSource = source === "all" || recordSourceLabel(record) === source;
+    const matchesYear = year === "all" || record.date?.startsWith(year);
     const haystack = JSON.stringify(record).toLowerCase();
-    return matchesFilter && (!query || haystack.includes(query));
+    return matchesFilter && matchesStatus && matchesSource && matchesYear && (!query || haystack.includes(query));
   });
   renderRecords(records);
 }
 
+function setTypeFilter(type) {
+  activeTypeFilter = type;
+  for (const item of filterButtons) {
+    item.setAttribute("aria-pressed", String(item.dataset.recordFilter === type));
+  }
+}
+
+function applyQuickFilter(kind) {
+  if (!kind) return;
+  if (searchInput) searchInput.value = "";
+  if (sourceFilter) sourceFilter.value = "all";
+  if (yearFilter) yearFilter.value = "all";
+  setTypeFilter("all");
+
+  const statusByKind = {
+    candidate: "candidate",
+    counted: "counted",
+    pending: "pending",
+    strobe: "strobe",
+    drive: "drive",
+    partial: "partial",
+    unknown: "unknown",
+    lead: "lead"
+  };
+
+  if (statusFilter) statusFilter.value = statusByKind[kind] || "all";
+  filterRecords();
+}
+
 function enableFilters() {
   searchInput?.addEventListener("input", filterRecords);
+  statusFilter?.addEventListener("change", filterRecords);
+  sourceFilter?.addEventListener("change", filterRecords);
+  yearFilter?.addEventListener("change", filterRecords);
+
+  clearFilters?.addEventListener("click", () => {
+    if (searchInput) searchInput.value = "";
+    if (statusFilter) statusFilter.value = "all";
+    if (sourceFilter) sourceFilter.value = "all";
+    if (yearFilter) yearFilter.value = "all";
+    setTypeFilter("all");
+    filterRecords();
+  });
 
   for (const button of filterButtons) {
     button.addEventListener("click", () => {
-      activeFilter = button.dataset.recordFilter;
-      for (const item of filterButtons) {
-        item.setAttribute("aria-pressed", String(item === button));
-      }
+      setTypeFilter(button.dataset.recordFilter);
       filterRecords();
+    });
+  }
+
+  for (const trigger of document.querySelectorAll("[data-quick-filter]")) {
+    trigger.addEventListener("click", (event) => {
+      event.preventDefault();
+      applyQuickFilter(trigger.dataset.quickFilter);
+      document.querySelector("#records")?.scrollIntoView({ block: "start" });
     });
   }
 }
@@ -264,6 +495,8 @@ async function init() {
   try {
     allRecords = window.MEMCONS || window.MEMCON_RECORDS || (await loadRecords());
     setChapterCounts(allRecords);
+    populateCompilerControls(allRecords);
+    renderWorkbench(allRecords);
     renderRecords(allRecords);
     enableFilters();
     enableChapterCards();

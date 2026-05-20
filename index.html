@@ -17,6 +17,7 @@
         <span>Russia High-Level Files</span>
       </a>
       <nav aria-label="Primary navigation">
+        <a href="#workbench">Workbench</a>
         <a href="#chapters">Chapters</a>
         <a href="#collection">Collection</a>
         <a href="#browse">Browse</a>
@@ -35,11 +36,12 @@
             A working compiler page for the planned <em>Foreign Relations of the United
             States, 1993-2000, Volume XVIII, Russia</em>. It starts with the Clinton-Yeltsin
             leader chronology, adds released Clinton Library MDR packets, draws in Strobe
-            Talbott FOIA policy context, and preserves NARA Scout leads for follow-up review.
+            Talbott FOIA policy context, and turns every source copy into a page-counted,
+            provenance-aware candidate for FRUS review.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="#records">Browse Records</a>
-            <a class="button secondary" href="#sources">Source Anchors</a>
+            <a class="button primary" href="#workbench">Open Workbench</a>
+            <a class="button secondary" href="#records" data-quick-filter="pending">Pending Extents</a>
           </div>
         </div>
         <aside class="brief" aria-label="Archive scope">
@@ -74,12 +76,97 @@
           <p>compiler records</p>
         </div>
         <div>
-          <span>4</span>
-          <p>research lanes</p>
+          <span id="candidate-documents">0</span>
+          <p>candidate memcons/telcons</p>
         </div>
         <div>
-          <span id="total-pages">0</span>
-          <p>counted pages or objects</p>
+          <span id="counted-pages">0</span>
+          <p>actual conversation pages</p>
+        </div>
+        <div>
+          <span id="pending-documents">0</span>
+          <p>pending page extents</p>
+        </div>
+        <div>
+          <span id="strobe-sources">0</span>
+          <p>Strobe source refs</p>
+        </div>
+      </section>
+
+      <section class="section workbench-section" id="workbench" aria-labelledby="workbench-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Compiler Workbench</p>
+            <h2 id="workbench-title">FRUS Production View</h2>
+          </div>
+          <a
+            class="section-link"
+            href="https://history.state.gov/historicaldocuments/frus1989-92v31/abouttheseries"
+            rel="noreferrer"
+          >
+            FRUS series method
+          </a>
+        </div>
+        <div class="workbench-grid">
+          <article class="workbench-card workbench-card-wide">
+            <h3>Candidate Set</h3>
+            <dl class="metric-list">
+              <div>
+                <dt>Potential documents</dt>
+                <dd id="candidate-set-count">0</dd>
+              </div>
+              <div>
+                <dt>Counted</dt>
+                <dd id="candidate-counted-count">0</dd>
+              </div>
+              <div>
+                <dt>Pending</dt>
+                <dd id="candidate-pending-count">0</dd>
+              </div>
+              <div>
+                <dt>Pages</dt>
+                <dd id="candidate-page-count">0</dd>
+              </div>
+            </dl>
+            <p>
+              The core queue is the Clinton-Yeltsin memcon/telcon chronology, arranged by
+              conversation date and counted only by actual conversation pages.
+            </p>
+            <div class="workbench-actions">
+              <a href="#records" data-quick-filter="candidate">Show candidates</a>
+              <a href="reports/document-page-tallies.json">Open tally JSON</a>
+            </div>
+          </article>
+
+          <article class="workbench-card">
+            <h3>Immediate Review Queue</h3>
+            <p id="pending-summary">Loading pending extents.</p>
+            <ul id="pending-list" class="compact-list"></ul>
+            <div class="workbench-actions">
+              <a href="#records" data-quick-filter="pending">Show pending records</a>
+            </div>
+          </article>
+
+          <article class="workbench-card">
+            <h3>Source Copy Control</h3>
+            <p id="source-copy-summary">Loading source-copy counts.</p>
+            <div class="source-copy-grid">
+              <button type="button" data-quick-filter="strobe">Strobe copies</button>
+              <button type="button" data-quick-filter="drive">Drive copies</button>
+              <button type="button" data-quick-filter="partial">Partial releases</button>
+              <button type="button" data-quick-filter="unknown">Unknown status</button>
+            </div>
+          </article>
+
+          <article class="workbench-card">
+            <h3>Selection Checks</h3>
+            <ul class="check-list">
+              <li>Chronological placement follows the conversation date.</li>
+              <li>Source notes preserve repository, case, document ID, and page map.</li>
+              <li>Extents account for withheld, duplicate, and non-conversation pages.</li>
+              <li>Context files remain available for editorial notes and cross-references.</li>
+            </ul>
+          </article>
         </div>
       </section>
 
@@ -220,6 +307,12 @@
               source notes, release packet identifiers, FOIA document IDs, NAIDs, and
               Scout query trails for follow-up research.
             </p>
+            <div class="browse-actions">
+              <button type="button" data-quick-filter="counted">Counted documents</button>
+              <button type="button" data-quick-filter="pending">Pending extents</button>
+              <button type="button" data-quick-filter="lead">Catalog leads</button>
+              <button type="button" data-quick-filter="strobe">Strobe copies</button>
+            </div>
           </div>
         </div>
       </section>
@@ -240,6 +333,35 @@
               Search records
               <input id="record-search" type="search" placeholder="Yeltsin, Kosovo, Primakov, 40482516" />
             </label>
+          </div>
+          <div class="compiler-filters" aria-label="Compiler filters">
+            <label for="status-filter">
+              Production status
+              <select id="status-filter">
+                <option value="all">All statuses</option>
+                <option value="candidate">Potential FRUS documents</option>
+                <option value="counted">Counted extents</option>
+                <option value="pending">Extent pending</option>
+                <option value="strobe">Strobe source copies</option>
+                <option value="drive">Drive source copies</option>
+                <option value="partial">Partial releases</option>
+                <option value="unknown">Unknown release status</option>
+                <option value="lead">Scout and catalog leads</option>
+              </select>
+            </label>
+            <label for="source-filter">
+              Source
+              <select id="source-filter">
+                <option value="all">All sources</option>
+              </select>
+            </label>
+            <label for="year-filter">
+              Year
+              <select id="year-filter">
+                <option value="all">All years</option>
+              </select>
+            </label>
+            <button id="clear-filters" type="button">Clear</button>
           </div>
           <div class="filter-buttons" aria-label="Filter by record type">
             <button type="button" data-record-filter="all" aria-pressed="true">All</button>
@@ -263,6 +385,9 @@
         <div class="source-list">
           <a href="https://history.state.gov/historicaldocuments/frus1993-00v18" rel="noreferrer">
             FRUS 1993-2000 Volume XVIII status page
+          </a>
+          <a href="https://history.state.gov/historicaldocuments/frus1989-92v31/abouttheseries" rel="noreferrer">
+            FRUS production and editorial methodology
           </a>
           <a href="https://www.clintonlibrary.gov/research/memcons-and-telcons" rel="noreferrer">
             Clinton Library Memcons and Telcons
