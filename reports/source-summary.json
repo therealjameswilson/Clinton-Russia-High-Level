@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-20T09:20:28.289Z",
-  "totalRecords": 147,
+  "generatedAt": "2026-05-20T09:42:03.420Z",
+  "totalRecords": 149,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 88,
     "Released Clinton Library Packets": 4,
     "Talbott FOIA Context": 45,
-    "NARA Scout Leads": 10
+    "NARA Scout Leads": 12
   },
   "byType": {
     "Telcon": 60,
     "Memcon": 28,
     "Release Packet": 4,
     "Context": 45,
-    "Scout Lead": 10
+    "Scout Lead": 12
   },
   "pageTallies": {
     "allRecords": {
-      "documents": 147,
+      "documents": 149,
       "countedDocuments": 89,
-      "pendingDocuments": 58,
+      "pendingDocuments": 60,
       "pages": 553
     },
     "potentialClintonYeltsinDocuments": {
@@ -47,9 +47,9 @@
         "pages": 0
       },
       "NARA Scout Leads": {
-        "documents": 10,
+        "documents": 12,
         "countedDocuments": 8,
-        "pendingDocuments": 2,
+        "pendingDocuments": 4,
         "pages": 133
       }
     }
@@ -61,6 +61,7 @@
   "sources": {
     "clintonText": "/private/tmp/clinton-foreign-meetings.txt",
     "strobeManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
-    "naraScout": "https://therealjameswilson.github.io/nara-scout/"
+    "naraScout": "https://therealjameswilson.github.io/nara-scout/",
+    "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json"
   }
 }

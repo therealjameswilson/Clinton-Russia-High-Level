@@ -9213,5 +9213,262 @@ window.MEMCONS = [
       "NARA Scout",
       "Search trail"
     ]
+  },
+  {
+    "id": "nara-scout-collection-pass-yeltsin-2026-05-20",
+    "date": "2026-05-20",
+    "sortDate": "2026-05-20",
+    "type": "Scout Lead",
+    "title": "NARA Scout collection pass: Yeltsin across Clinton administration collections",
+    "documentTitle": "NARA Scout collection pass: Yeltsin across Clinton administration collections",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Search Trail",
+    "naid": "nara-scout-yeltsin-collection-pass-2026-05-20",
+    "catalogUrl": "https://therealjameswilson.github.io/nara-scout/#q=Yeltsin&from=1993&to=2001&sort=relevance&perColl=25&perPage=50&scope=clinton",
+    "pdfUrl": "",
+    "pageCount": null,
+    "digitalObjects": null,
+    "dateLine": "Search run May 20, 2026",
+    "subjectLine": "Broad Scout pass over all 132 Clinton administration collection NAIDs found 4,260 Yeltsin matches across 60 collections; the high-yield collections were then searched with memcon/telcon-specific terms.",
+    "source": {
+      "name": "NARA Scout",
+      "url": "https://therealjameswilson.github.io/nara-scout/"
+    },
+    "sourceNote": "Source: NARA Scout browser/proxy search, query 'Yeltsin', Clinton administration scope, 1993-2001, 25 results per collection. Highest-value collections for this FRUS compiler are NSC Records Management Office, NSC European Affairs Office, Presidential Daily Diary, NSC Executive Secretary, Nonproliferation and Export Controls, Defense Policy and Arms Control, Central and Eastern European Affairs, and related speechwriting/press/trip collections.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "NARA Scout",
+      "Collection search",
+      "Search trail",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "NARA Scout",
+      "Search trail",
+      "Collection search",
+      "Yeltsin"
+    ],
+    "scoutAudit": {
+      "query": "Yeltsin",
+      "scope": "All 132 Clinton administration collections in the NARA Scout default Clinton scope",
+      "catalogDateRange": "1993-2001",
+      "collectionsSearched": 132,
+      "collectionsWithHits": 60,
+      "totalCatalogMatches": 4260,
+      "relevantCollections": [
+        {
+          "naid": "7388808",
+          "totalMatches": 337,
+          "collection": "Records of the National Security Council Records Management Office (Clinton Administration)",
+          "strongestSeries": "Presidential Records Series (PRS) Files",
+          "compilerUse": "Core collection for item-level Clinton-Yeltsin memcon records and PRS/RMS withdrawal or locator leads."
+        },
+        {
+          "naid": "7386505",
+          "totalMatches": 99,
+          "collection": "Records of the National Security Council European Affairs Office (Clinton Administration)",
+          "strongestSeries": "Alexander Vershbow's Files; Donald Kerrick's Files; Jane Holl's Files",
+          "compilerUse": "High-value regional NSC collection; includes the Telcons and Memcons file unit and Bosnia/Russia context."
+        },
+        {
+          "naid": "101784492",
+          "totalMatches": 40,
+          "collection": "Presidential Daily Diary (Clinton Administration)",
+          "strongestSeries": "Ellen McCathran's Files",
+          "compilerUse": "Chronology and schedule control source for leader meetings and calls, especially pending contacts."
+        },
+        {
+          "naid": "2525024",
+          "totalMatches": 415,
+          "collection": "Records of the National Security Council (Clinton Administration)",
+          "strongestSeries": "Emails",
+          "compilerUse": "Heavy Kosovo/Russia context; useful for policy reconstruction, not a primary conversation-text source."
+        },
+        {
+          "naid": "7388842",
+          "totalMatches": 291,
+          "collection": "Records of the National Security Council Speechwriting Office (Clinton Administration)",
+          "strongestSeries": "Robert Boorstin's Files and Antony Blinken's Files",
+          "compilerUse": "Public-statement, toast, and press-event material around Yeltsin visits; not a memcon/telcon source."
+        },
+        {
+          "naid": "7386739",
+          "totalMatches": 10,
+          "collection": "Records of the National Security Council Executive Secretary (Clinton Administration)",
+          "strongestSeries": "Executive Secretary's Subject Files",
+          "compilerUse": "Cross-cutting NSC subject-file lead for summit and CSCE/NATO material."
+        },
+        {
+          "naid": "7388773",
+          "totalMatches": 5,
+          "collection": "Records of the National Security Council Nonproliferation and Export Controls Office",
+          "strongestSeries": "Steven Aoki's Files",
+          "compilerUse": "Nonproliferation and export-control context for Clinton-Yeltsin security discussions."
+        },
+        {
+          "naid": "7386504",
+          "totalMatches": 76,
+          "collection": "Records of the National Security Council Defense Policy and Arms Control Office",
+          "strongestSeries": "Robert Bell's Files",
+          "compilerUse": "Arms-control and NATO/Russia context; searched for companion material."
+        },
+        {
+          "naid": "7385964",
+          "totalMatches": 33,
+          "collection": "Records of the National Security Council Central and Eastern European Affairs Office",
+          "strongestSeries": "Stephen Flanagan's Files",
+          "compilerUse": "NATO enlargement and Eastern Europe context for Yeltsin discussions."
+        }
+      ]
+    }
+  },
+  {
+    "id": "nara-scout-narrowed-memcon-telcon-pass-2026-05-20",
+    "date": "2026-05-20",
+    "sortDate": "2026-05-20",
+    "type": "Scout Lead",
+    "title": "NARA Scout narrowed pass: Clinton-Yeltsin memcon and telcon leads",
+    "documentTitle": "NARA Scout narrowed pass: Clinton-Yeltsin memcon and telcon leads",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Search Trail",
+    "naid": "nara-scout-yeltsin-memcon-telcon-pass-2026-05-20",
+    "catalogUrl": "https://therealjameswilson.github.io/nara-scout/#q=Yeltsin%20telcon&from=1993&to=2001&sort=relevance&perColl=50&perPage=50&scope=7388808,7386505,101784492,2525029,2525024,7386739,7388773,7386504,7385964,7388842,7388805,2525014",
+    "pdfUrl": "",
+    "pageCount": null,
+    "digitalObjects": null,
+    "dateLine": "Search run May 20, 2026",
+    "subjectLine": "Narrowed Scout pass across 18 high-relevance collections used nine Clinton-Yeltsin memcon/telcon queries, merged 1,262 unique records, and audited 57 PRS/RMS candidate PDFs.",
+    "source": {
+      "name": "NARA Scout",
+      "url": "https://therealjameswilson.github.io/nara-scout/"
+    },
+    "sourceNote": "Search result: no new actual Clinton-Yeltsin memcon or telcon pages were found beyond the already-counted Vancouver and Hyde Park NARA item records and existing MDR packet extractions. Candidate PDFs were schedule proposals, talking points, current-items guidance, public-statement files, withdrawal/locator sheets, or actual conversations with other leaders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Search trail only: do not create derivative PDFs from these candidate records unless an actual Clinton-Yeltsin conversation page is identified. The audited candidates did not contain new actual conversation pages.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "NARA Scout",
+      "Memcon",
+      "Telcon",
+      "Search trail",
+      "Deduplication"
+    ],
+    "topics": [
+      "NARA Scout",
+      "Search trail",
+      "Memcon",
+      "Telcon",
+      "Deduplication"
+    ],
+    "scoutAudit": {
+      "scope": "18 high-relevance Clinton collections selected from the broad Scout pass, including NSC Records Management, NSC European Affairs, Presidential Daily Diary, Executive Secretary, Nonproliferation, Defense Policy and Arms Control, Central/Eastern Europe, Press/Communications, speechwriting, trip, audio, and video collections.",
+      "queries": [
+        "Clinton Yeltsin",
+        "Yeltsin memcon",
+        "Yeltsin telcon",
+        "Yeltsin telephone conversation",
+        "memorandum conversation Yeltsin",
+        "President Yeltsin",
+        "Boris Yeltsin",
+        "Yeltsin Kosovo",
+        "Yeltsin NATO"
+      ],
+      "queryCollectionPairsWithHits": 137,
+      "uniqueMergedRecords": 1262,
+      "prsAndRmsCandidatePdfsAudited": 57,
+      "confirmedActualConversationRecords": [
+        {
+          "naid": "163545404",
+          "title": "Memcons between President William Jefferson Clinton and President Boris Yeltsin",
+          "status": "Already included; Vancouver actual memcons extracted with marker-page provenance."
+        },
+        {
+          "naid": "163545436",
+          "title": "Memcon between President William Jefferson Clinton and President Boris Yeltsin",
+          "status": "Already included; Hyde Park actual memcons extracted with marker-page provenance."
+        }
+      ],
+      "noNewActualConversationPages": "The candidate PDFs did not add new actual Clinton-Yeltsin memcon/telcon pages. They were withdrawal/locator sheets, talking points, schedule proposals, public-statement files, press guidance, or actual conversation records with non-Yeltsin leaders."
+    },
+    "reviewedCandidates": [
+      {
+        "naid": "40482516",
+        "title": "Telcons and Memcons",
+        "catalogUrl": "https://catalog.archives.gov/id/40482516",
+        "status": "Important file-unit lead, already on the page. Rechecked as part of the collection pass; visible pages are markers, talking points, COCOM background, cable, and letter material, not the actual Yeltsin telcon transcript."
+      },
+      {
+        "naid": "441675758",
+        "title": "9804329",
+        "catalogUrl": "https://catalog.archives.gov/id/441675758",
+        "status": "Contains memorandum and talking points for the June 15, 1998 POTUS-Yeltsin Kosovo call; no actual telcon transcript. Existing June 15, 1998 telcon remains counted from MDR packet 2015-0782-M-2 pages 342-346."
+      },
+      {
+        "naid": "23901998",
+        "title": "9405332",
+        "catalogUrl": "https://catalog.archives.gov/id/23901998",
+        "status": "Schedule proposal and Burns memo for the July 5, 1994 telephone call to Yeltsin; not the call transcript. Existing July 5, 1994 telcon remains counted from MDR packet 2015-0782-M-1 pages 202-204."
+      },
+      {
+        "naid": "236750778",
+        "title": "[05/07/1996 - 05/08/1996]",
+        "catalogUrl": "https://catalog.archives.gov/id/236750778",
+        "status": "Press/current-items guidance summarizing the May 7, 1996 POTUS-Yeltsin call; not an actual telcon transcript. Existing May 7, 1996 telcon remains counted from MDR packet 2015-0782-M-2 pages 25-28."
+      },
+      {
+        "naid": "23901979",
+        "title": "9400448",
+        "catalogUrl": "https://catalog.archives.gov/id/23901979",
+        "status": "Actual memorandum of telephone conversation, but with President Ulmanis of Latvia; Yeltsin appears only as the topic of discussion. Excluded from Clinton-Yeltsin page counts."
+      },
+      {
+        "naid": "158702744",
+        "title": "[07/01/1997-08/24/2000]",
+        "catalogUrl": "https://catalog.archives.gov/id/158702744",
+        "status": "False-positive memcon shell for President Obasanjo of Nigeria, not Yeltsin. Excluded."
+      },
+      {
+        "naid": "404512727",
+        "title": "9602199",
+        "catalogUrl": "https://catalog.archives.gov/id/404512727",
+        "status": "Actual memorandum of conversation with President Demirel of Turkey; not a Clinton-Yeltsin conversation. Excluded."
+      }
+    ]
   }
 ];
