@@ -283,7 +283,7 @@ function createRecordRow(record) {
     createParagraph("record-date-line", record.dateLine || formatDate(record.date)),
     createParagraph("record-subject", record.subjectLine || record.title),
     createMeta(record),
-    createParagraph("record-source-note", record.sourceNote || "Source: Provenance pending."),
+    createParagraph("record-source-note", record.frusSourceNote || record.sourceNote || "Source: Provenance pending."),
     createCompilerChecklist(record)
   );
 

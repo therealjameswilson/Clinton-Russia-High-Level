@@ -1246,6 +1246,121 @@ function appendNote(base, note) {
   return base ? `${base} ${note}` : note;
 }
 
+function extractStateFoiaDocumentId(record) {
+  const text = [
+    record.naid,
+    record.sourcePdfPages,
+    record.sourceNote,
+    record.extractionStatus,
+    record.id
+  ]
+    .filter(Boolean)
+    .join(" ");
+  const match = text.match(/\bC\d{8}\b/i);
+  return match ? match[0].toUpperCase() : "";
+}
+
+function extractMarkerDocumentId(record) {
+  const text = [record.sourceNote, record.extractionStatus].filter(Boolean).join(" ");
+  const match = text.match(/\bDocument ID\s+([A-Z0-9-]+)/i);
+  return match ? match[1] : "";
+}
+
+function stripCatalogPrefix(name = "") {
+  return name.replace(/^National Archives Catalog,\s*/i, "").trim();
+}
+
+function buildFrusSourceNote(record) {
+  if (record.frusSourceNote) return record.frusSourceNote;
+
+  const source = record.source || {};
+  const sourceName = source.name || "";
+  const sourceCase = source.caseNumber || "";
+  const documentId = extractMarkerDocumentId(record);
+  const foiaDocumentId = extractStateFoiaDocumentId(record);
+
+  if (sourceCase === SOURCES.vancouverMemcons.caseNumber) {
+    return `Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case ${sourceCase}, Memcons between President William Jefferson Clinton and President Boris Yeltsin, Document ID ${documentId || "9302226"}, NAID ${record.naid}.`;
+  }
+
+  if (sourceCase === SOURCES.hydeParkMemcons.caseNumber) {
+    return `Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case ${sourceCase}, Memcon between President William Jefferson Clinton and President Boris Yeltsin${documentId ? `, Document ID ${documentId}` : ""}, NAID ${record.naid}.`;
+  }
+
+  if (sourceCase === SOURCES.kerrickTelconsMemcons.caseNumber) {
+    return `Source: William J. Clinton Presidential Library, National Security Council European Affairs Office, Donald Kerrick's Files, Telcons and Memcons, Box 26/OA 368, FOIA case ${sourceCase}, NAID ${record.naid}.`;
+  }
+
+  if (sourceCase === SOURCES.m1.caseNumber || sourceCase === SOURCES.m2.caseNumber) {
+    return `Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case ${sourceCase}, Declassified Documents Concerning Russian President Boris Yeltsin.`;
+  }
+
+  if (sourceCase === SOURCES.tokyo.caseNumber) {
+    return `Source: William J. Clinton Presidential Library, Mandatory Declassification Review case ${sourceCase}, Declassified Documents Concerning Russian President Boris Yeltsin.`;
+  }
+
+  if (sourceCase === SOURCES.kosovoLetter.caseNumber) {
+    return `Source: William J. Clinton Presidential Library, Mandatory Declassification Review case ${sourceCase}, Declassified Documents Concerning Russian President Boris Yeltsin and Kosovo.`;
+  }
+
+  if (sourceCase === SOURCES.sharmCable.caseNumber) {
+    return `Source: William J. Clinton Presidential Library, Mandatory Declassification Review case ${sourceCase}, source copy reviewed from Google Drive.`;
+  }
+
+  if (sourceCase === SOURCES.clinton20160620.caseNumber) {
+    return `Source: William J. Clinton Presidential Library, Clinton Digital Library item 100503, Mandatory Declassification Review case ${sourceCase}.`;
+  }
+
+  if (sourceCase === SOURCES.clintonIraq19981230.caseNumber) {
+    return "Source: William J. Clinton Presidential Library, Clinton Digital Library item 119190, Telcons - Memoranda of Telephone Conversation.";
+  }
+
+  if (sourceCase === SOURCES.strobe.caseNumber || /Strobe Talbott/i.test(sourceName)) {
+    return `Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case ${sourceCase || SOURCES.strobe.caseNumber}${foiaDocumentId ? `, document ${foiaDocumentId}` : ""}.`;
+  }
+
+  if (/Google Drive/i.test(sourceName)) {
+    return `Source: Google Drive candidate copy${foiaDocumentId ? ` of Department of State FOIA document ${foiaDocumentId}` : ""}. Repository citation pending verification against the original release.`;
+  }
+
+  if (/Meetings and Telephone Calls with Foreign Leaders/i.test(sourceName)) {
+    return "Source: William J. Clinton Presidential Library, Meetings and Telephone Calls with Foreign Leaders, master chronology.";
+  }
+
+  if (/Presidential Daily Diary/i.test(sourceName)) {
+    return `Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID ${record.naid}.`;
+  }
+
+  if (/Advance Office Trip Books/i.test(sourceName)) {
+    return `Source: National Archives Catalog, Records of the Advance Office (Clinton Administration), Trip Books, NAID ${record.naid}.`;
+  }
+
+  if (/Records of the NSC European Affairs Office/i.test(sourceName)) {
+    return `Source: National Archives Catalog, Records of the National Security Council European Affairs Office (Clinton Administration), Donald Kerrick's Files, NAID ${record.naid}.`;
+  }
+
+  if (/Donald Kerrick/i.test(sourceName)) {
+    return `Source: National Archives Catalog, Records of the National Security Council European Affairs Office (Clinton Administration), Donald Kerrick's Files, NAID ${record.naid}.`;
+  }
+
+  if (sourceName === SOURCES.naraScout.name || /NARA Scout/i.test(sourceName)) {
+    return `Source: NARA Scout search trail, ${record.dateLine || "search run date pending"}.`;
+  }
+
+  if (/^https:\/\/catalog\.archives\.gov/i.test(record.catalogUrl || "") && record.naid) {
+    return `Source: National Archives Catalog, ${stripCatalogPrefix(sourceName) || record.documentTitle}, NAID ${record.naid}.`;
+  }
+
+  return `Source: ${sourceName || "Provenance pending"}.`;
+}
+
+function addFrusSourceNotes(records) {
+  return records.map((record) => ({
+    ...record,
+    frusSourceNote: buildFrusSourceNote(record)
+  }));
+}
+
 function auditExtractionStatus(record, audit) {
   if (audit.extractionStatus) return audit.extractionStatus;
 
@@ -2533,6 +2648,7 @@ function buildDocumentPageTallies(records) {
       documentTitle: record.documentTitle,
       countStatus: record.countStatus || "Extent pending",
       source: record.source?.caseNumber || record.source?.name || "Unknown",
+      frusSourceNote: record.frusSourceNote || "",
       sourcePdfPages: record.sourcePdfPages || "",
       extractionStatus: record.extractionStatus || "",
       googleDriveFiles: record.googleDriveFiles || [],
@@ -2546,6 +2662,7 @@ function buildDocumentPageTallies(records) {
       pageCount: record.pageCount,
       countStatus: record.countStatus || (record.pageCount ? "Counted" : "Extent pending"),
       source: record.source?.caseNumber || record.source?.name || "Unknown",
+      frusSourceNote: record.frusSourceNote || "",
       sourcePdfPages: record.sourcePdfPages || null,
       sourcePdfPageCount: record.sourcePdfPageCount || null,
       markerPage: record.markerPage || null,
@@ -2660,12 +2777,14 @@ function writeOutputs(records) {
   console.log(JSON.stringify(summary, null, 2));
 }
 
-const records = dedupeCompilerRecords([
-  ...buildChronologyRecords(),
-  ...buildDriveOnlyCandidateRecords(),
-  ...buildReleasePackets(),
-  ...buildStrobeRecords(),
-  ...buildNaraScoutRecords()
-]);
+const records = addFrusSourceNotes(
+  dedupeCompilerRecords([
+    ...buildChronologyRecords(),
+    ...buildDriveOnlyCandidateRecords(),
+    ...buildReleasePackets(),
+    ...buildStrobeRecords(),
+    ...buildNaraScoutRecords()
+  ])
+);
 
 writeOutputs(records);

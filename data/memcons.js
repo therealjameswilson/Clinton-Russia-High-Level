@@ -68,7 +68,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 9-11 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 9-11 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-02-10-telcon-02",
@@ -139,7 +140,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 19-21 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 19-21 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-04-01-telcon-03",
@@ -202,7 +204,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 397,
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located after rechecking the Clinton Library digital collection and National Security Archive. Do not substitute the nearby Vancouver summit memcons or April 26 telcon."
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located after rechecking the Clinton Library digital collection and National Security Archive. Do not substitute the nearby Vancouver summit memcons or April 26 telcon.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
@@ -285,7 +288,8 @@ window.MEMCONS = [
     "localPdfPageCount": 10,
     "sourcePdfPages": "9-17",
     "markerPage": 1,
-    "extractionStatus": "Extracted actual memcon pages 9-17 from the source PDF; appended original marker page 1 as the final provenance sheet."
+    "extractionStatus": "Extracted actual memcon pages 9-17 from the source PDF; appended original marker page 1 as the final provenance sheet.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case 2014-0901-M, Memcons between President William Jefferson Clinton and President Boris Yeltsin, Document ID 9302226, NAID 163545404."
   },
   {
     "id": "contact-1993-04-04-memcon-vancouver-security-issues",
@@ -372,7 +376,8 @@ window.MEMCONS = [
     "localPdfPageCount": 13,
     "sourcePdfPages": "19-30",
     "markerPage": 1,
-    "extractionStatus": "Extracted actual memcon pages 19-30 from the source PDF; appended original marker page 1 as the final provenance sheet."
+    "extractionStatus": "Extracted actual memcon pages 19-30 from the source PDF; appended original marker page 1 as the final provenance sheet.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case 2014-0901-M, Memcons between President William Jefferson Clinton and President Boris Yeltsin, Document ID 9302226, NAID 163545404."
   },
   {
     "id": "contact-1993-04-26-telcon-05",
@@ -443,7 +448,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 51-52 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 51-52 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-05-02-telcon-06",
@@ -514,7 +520,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 60-61 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 60-61 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-05-10-telcon-07",
@@ -577,7 +584,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 397,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 68-69 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 68-69 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-06-28-telcon-08",
@@ -648,7 +656,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 76-79 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 76-79 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-07-10-memcon-09",
@@ -730,7 +739,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 81-89 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 81-89 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-09-07-telcon-10",
@@ -801,7 +811,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 95-98 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 95-98 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-09-21-telcon-11",
@@ -872,7 +883,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 107-109 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 107-109 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-10-05-telcon-12",
@@ -943,7 +955,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 119-121 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 119-121 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1993-12-22-telcon-13",
@@ -1014,7 +1027,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 142-145 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 142-145 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-01-13-memcon-moscow-summit-lead",
@@ -1078,7 +1092,8 @@ window.MEMCONS = [
     "candidateStatus": "Chronology lead; individual actual memcons counted separately",
     "countStatus": "Not counted as a document extent",
     "potentialFrusDocument": false,
-    "extractionStatus": "Chronology lead only: no pages counted here. Use the separate Jan. 14 bilateral and trilateral memcon records for actual document-page totals."
+    "extractionStatus": "Chronology lead only: no pages counted here. Use the separate Jan. 14 bilateral and trilateral memcon records for actual document-page totals.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-01-14-memcon-trilateral-yeltsin-kravchuk",
@@ -1160,7 +1175,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694499, conversation pages 1-3 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694499, conversation pages 1-3 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694499."
   },
   {
     "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
@@ -1244,7 +1260,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694502, conversation pages 1-8 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694502, conversation pages 1-8 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694502."
   },
   {
     "id": "contact-1994-02-20-telcon-16",
@@ -1315,7 +1332,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 155-157 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 155-157 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-04-10-telcon-17",
@@ -1394,7 +1412,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 164-166 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 164-166 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-04-20-telcon-18",
@@ -1465,7 +1484,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 181-184 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 181-184 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-06-03-telcon-19",
@@ -1529,7 +1549,8 @@ window.MEMCONS = [
     "markerPage": 187,
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text; later Clinton Library/NSA searches found confirmation of the call but no released conversation pages."
+    "extractionStatus": "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text; later Clinton Library/NSA searches found confirmation of the call but no released conversation pages.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-06-13-telcon-20",
@@ -1600,7 +1621,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 191-194 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 191-194 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-07-05-telcon-21",
@@ -1671,7 +1693,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 202-204 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 202-204 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-07-10-memcon-22",
@@ -1734,7 +1757,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 397,
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed Clinton Library packet, Clinton Digital Library/public-record searches, or National Security Archive postings; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon."
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed Clinton Library packet, Clinton Digital Library/public-record searches, or National Security Archive postings; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "drive-candidate-1994-09-27-memcon-one-on-one",
@@ -1809,7 +1833,8 @@ window.MEMCONS = [
     "sourcePdfPages": "213-219",
     "sourcePdfPageCount": 397,
     "markerPage": 208,
-    "countStatus": "Counted actual conversation pages only"
+    "countStatus": "Counted actual conversation pages only",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-09-27-memcon-23",
@@ -1881,7 +1906,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: extracted actual expanded-session memcon pages 251-260 from 2015-0782-M-1 and appended original marker page 244. Transmittal/profile/action pages were excluded."
+    "extractionStatus": "Potential FRUS document: extracted actual expanded-session memcon pages 251-260 from 2015-0782-M-1 and appended original marker page 244. Transmittal/profile/action pages were excluded.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-10-05-telcon-24",
@@ -1953,7 +1979,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 227-230 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 227-230 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1994-10-10-telcon-25",
@@ -2025,7 +2052,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: extracted actual October 10, 1994 telcon pages 238-241 from 2015-0782-M-1 and appended original marker page 232. Transmittal/action/receipt pages were excluded."
+    "extractionStatus": "Potential FRUS document: extracted actual October 10, 1994 telcon pages 238-241 from 2015-0782-M-1 and appended original marker page 232. Transmittal/action/receipt pages were excluded.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1995-02-13-telcon-26",
@@ -2096,7 +2124,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 268-271 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 268-271 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1995-04-27-telcon-27",
@@ -2159,7 +2188,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 397,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 280-283 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 280-283 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1995-05-10-memcon-28",
@@ -2223,7 +2253,8 @@ window.MEMCONS = [
     "markerPage": 301,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 285-300 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. Marker page 301 should be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 285-300 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. Marker page 301 should be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1995-06-17-memcon-29",
@@ -2294,7 +2325,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only the actual Halifax memcon pages 1-8 in Strobe FOIA document C06835181. No separate marker/provenance page was present in the reviewed Strobe PDF."
+    "extractionStatus": "Potential FRUS document: counted only the actual Halifax memcon pages 1-8 in Strobe FOIA document C06835181. No separate marker/provenance page was present in the reviewed Strobe PDF.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835181."
   },
   {
     "id": "contact-1995-07-28-telcon-30",
@@ -2365,7 +2397,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 309-313 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 309-313 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1995-09-27-telcon-31",
@@ -2436,7 +2469,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 324-326 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 324-326 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
@@ -2528,7 +2562,8 @@ window.MEMCONS = [
         "status": "Strobe FOIA copy of the October 23, 1995 Hyde Park one-on-one; duplicate source copy, not counted again."
       }
     ],
-    "extractionStatus": "Extracted actual memcon pages 5-16 from the source PDF; appended original marker page 1 as the final provenance sheet."
+    "extractionStatus": "Extracted actual memcon pages 5-16 from the source PDF; appended original marker page 1 as the final provenance sheet.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case 2014-0948-M, Memcon between President William Jefferson Clinton and President Boris Yeltsin, Document ID 9507853, NAID 163545436."
   },
   {
     "id": "contact-1995-10-23-memcon-hyde-park-lunch",
@@ -2609,7 +2644,8 @@ window.MEMCONS = [
     "localPdfPageCount": 6,
     "sourcePdfPages": "31-35",
     "markerPage": 18,
-    "extractionStatus": "Extracted complete lunch memcon pages 31-35 from the source PDF; appended original marker page 18 as the final provenance sheet. Duplicate lunch pages 24-27 were excluded."
+    "extractionStatus": "Extracted complete lunch memcon pages 31-35 from the source PDF; appended original marker page 18 as the final provenance sheet. Duplicate lunch pages 24-27 were excluded.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case 2014-0948-M, Memcon between President William Jefferson Clinton and President Boris Yeltsin, Document ID 9507991, NAID 163545436."
   },
   {
     "id": "contact-1996-01-26-telcon-33",
@@ -2680,7 +2716,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 342-346 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 342-346 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1996-02-21-telcon-34",
@@ -2751,7 +2788,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 354-357 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 354-357 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1996-03-13-memcon-35",
@@ -2829,7 +2867,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: extracted actual cable memcon pages 2-5 from the 2016-0118-M-4 Drive copy and appended source page 1, the Clinton Library withdrawal/provenance sheet. Page 6 is cable distribution metadata and was excluded."
+    "extractionStatus": "Potential FRUS document: extracted actual cable memcon pages 2-5 from the 2016-0118-M-4 Drive copy and appended source page 1, the Clinton Library withdrawal/provenance sheet. Page 6 is cable distribution metadata and was excluded.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Mandatory Declassification Review case 2016-0118-M-4, source copy reviewed from Google Drive."
   },
   {
     "id": "contact-1996-04-09-telcon-36",
@@ -2900,7 +2939,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 369-373 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 369-373 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1996-04-21-memcon-moscow-one-on-one",
@@ -2983,7 +3023,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 381-393 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 381-393 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1996-04-21-memcon-moscow-luncheon",
@@ -3057,7 +3098,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 7-13 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 7-13 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1996-05-07-telcon-38",
@@ -3128,7 +3170,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 25-28 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 25-28 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1996-06-18-telcon-39",
@@ -3215,7 +3258,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 39-40 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 39-40 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1996-07-05-telcon-40",
@@ -3286,7 +3330,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 49-51 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 49-51 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1996-09-15-telcon-41",
@@ -3349,7 +3394,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 64-65 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 64-65 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1996-12-05-telcon-42",
@@ -3421,7 +3467,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 77-79 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 77-79 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-02-27-telcon-43",
@@ -3494,7 +3541,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 87-89 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 87-89 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-03-21-memcon-helsinki-morning",
@@ -3572,7 +3620,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 105-115 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 105-115 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-03-21-memcon-helsinki-working-lunch",
@@ -3650,7 +3699,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 116-123 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 116-123 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-03-21-memcon-helsinki-afternoon",
@@ -3728,7 +3778,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 124-127 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 124-127 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-03-21-memcon-helsinki-private-dinner",
@@ -3806,7 +3857,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 128-133 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 128-133 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-05-27-memcon-45",
@@ -3881,7 +3933,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 143-150 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 143-150 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-06-20-memcon-46",
@@ -3956,7 +4009,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 165-172 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 165-172 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-10-30-telcon-47",
@@ -4038,7 +4092,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 183-188 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 183-188 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-11-16-telcon-48",
@@ -4111,7 +4166,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 206-208 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 206-208 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1997-11-22-telcon-49",
@@ -4184,7 +4240,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 218-223 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 218-223 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-02-02-telcon-50",
@@ -4257,7 +4314,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 236-239 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 236-239 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-02-23-telcon-51",
@@ -4330,7 +4388,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 253-256 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 253-256 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-04-06-telcon-52",
@@ -4412,7 +4471,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 274-278 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 274-278 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-05-12-telcon-53",
@@ -4494,7 +4554,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 286-290 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 286-290 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-05-17-memcon-54",
@@ -4576,7 +4637,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 312-319 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 312-319 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-05-21-telcon-55",
@@ -4649,7 +4711,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 301-303 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 301-303 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-05-28-telcon-56",
@@ -4731,7 +4794,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 329-332 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 329-332 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-06-15-telcon-57",
@@ -4807,7 +4871,8 @@ window.MEMCONS = [
     "extractionStatus": "Potential FRUS document: counted only actual telcon pages 342-346 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
     "deduplicatedRecordIds": [
       "contact-1998-06-15-telcon-58"
-    ]
+    ],
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-06-16-telcon-59",
@@ -4872,7 +4937,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 359-360 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 359-360 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-07-10-telcon-60",
@@ -4954,7 +5020,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 371-374 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 371-374 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-08-14-telcon-61",
@@ -5027,7 +5094,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 384-389 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 384-389 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-08-25-telcon-62",
@@ -5100,7 +5168,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 405-408 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 405-408 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-09-01-memcon-63",
@@ -5165,7 +5234,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed MDR packet, Google Drive search, Clinton Digital Library trip-book release, or National Security Archive postings."
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed MDR packet, Google Drive search, Clinton Digital Library trip-book release, or National Security Archive postings.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-09-12-telcon-64",
@@ -5238,7 +5308,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 422-425 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 422-425 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1998-10-05-telcon-65",
@@ -5303,7 +5374,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 6,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: extracted actual October 5, 1998 telcon pages 3-5 from the 2016-0620-M source PDF. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible."
+    "extractionStatus": "Potential FRUS document: extracted actual October 5, 1998 telcon pages 3-5 from the 2016-0620-M source PDF. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 100503, Mandatory Declassification Review case 2016-0620-M."
   },
   {
     "id": "contact-1998-12-30-telcon-66",
@@ -5368,7 +5440,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 5,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: retained actual December 30, 1998 telcon pages 1-5 from Clinton Digital Library item 119190. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible."
+    "extractionStatus": "Potential FRUS document: retained actual December 30, 1998 telcon pages 1-5 from Clinton Digital Library item 119190. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 119190, Telcons - Memoranda of Telephone Conversation."
   },
   {
     "id": "contact-1999-02-08-memcon-67",
@@ -5431,7 +5504,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located; public White House reporting confirms only a brief interaction, not an available conversation record."
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located; public White House reporting confirms only a brief interaction, not an available conversation record.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-03-24-telcon-68",
@@ -5498,7 +5572,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 432-436 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 432-436 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-04-19-telcon-69",
@@ -5565,7 +5640,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 438-443 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 438-443 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-04-25-telcon-70",
@@ -5640,7 +5716,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 445-456 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 445-456 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-05-02-telcon-71",
@@ -5715,7 +5792,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 470-473 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 470-473 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-06-07-telcon-72",
@@ -5783,7 +5861,8 @@ window.MEMCONS = [
     "markerPage": 481,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 479-480 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. Marker page 481 should be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 479-480 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. Marker page 481 should be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-06-08-telcon-73",
@@ -5850,7 +5929,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 482-484 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 482-484 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-06-10-telcon-74",
@@ -5917,7 +5997,8 @@ window.MEMCONS = [
     "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 488-489 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 488-489 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-06-13-telcon-75",
@@ -5992,7 +6073,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 531-537 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 531-537 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-06-14-telcon-76",
@@ -6067,7 +6149,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 521-524 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 521-524 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-06-20-memcon-77",
@@ -6144,7 +6227,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 497-505 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 497-505 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-09-08-telcon-78",
@@ -6215,7 +6299,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 548-552 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 548-552 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-11-18-memcon-79",
@@ -6288,7 +6373,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 560-566 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 560-566 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-1999-12-31-telcon-80",
@@ -6359,7 +6445,8 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 582-584 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 582-584 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "contact-2000-06-05-memcon-81",
@@ -6420,7 +6507,8 @@ window.MEMCONS = [
     "sourcePdfPages": "Leader chronology lead only; no released memcon PDF located",
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located in the leader chronology follow-up, Clinton Digital Library trip release, or National Security Archive searches."
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located in the leader chronology follow-up, Clinton Digital Library trip release, or National Security Archive searches.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Meetings and Telephone Calls with Foreign Leaders, master chronology."
   },
   {
     "id": "release-2015-0782-m-1",
@@ -6469,7 +6557,8 @@ window.MEMCONS = [
     "topics": [
       "MDR release",
       "Clinton Library"
-    ]
+    ],
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "release-2014-0996-m",
@@ -6518,7 +6607,8 @@ window.MEMCONS = [
     "topics": [
       "MDR release",
       "Tokyo G7"
-    ]
+    ],
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Mandatory Declassification Review case 2014-0996-M, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "release-2015-0782-m-2",
@@ -6567,7 +6657,8 @@ window.MEMCONS = [
     "topics": [
       "MDR release",
       "Clinton Library"
-    ]
+    ],
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
     "id": "release-2014-0546-m-a",
@@ -6616,7 +6707,8 @@ window.MEMCONS = [
     "topics": [
       "Kosovo",
       "MDR release"
-    ]
+    ],
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Mandatory Declassification Review case 2014-0546-M-Release-A, Declassified Documents Concerning Russian President Boris Yeltsin and Kosovo."
   },
   {
     "id": "strobe-c06835707",
@@ -6661,7 +6753,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 70
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835707."
   },
   {
     "id": "strobe-c06695297",
@@ -6706,7 +6799,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 70
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06695297."
   },
   {
     "id": "strobe-c06695261",
@@ -6753,7 +6847,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Yeltsin"
     ],
-    "relevanceScore": 70
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06695261."
   },
   {
     "id": "strobe-c06694734",
@@ -6798,7 +6893,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 70
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694734."
   },
   {
     "id": "strobe-c06698191",
@@ -6843,7 +6939,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 70
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698191."
   },
   {
     "id": "strobe-c06698129",
@@ -6888,7 +6985,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 70
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698129."
   },
   {
     "id": "strobe-c06698076",
@@ -6933,7 +7031,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698076."
   },
   {
     "id": "strobe-c06698198",
@@ -6978,7 +7077,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698198."
   },
   {
     "id": "strobe-c06697702",
@@ -7025,7 +7125,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Yeltsin"
     ],
-    "relevanceScore": 120
+    "relevanceScore": 120,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697702."
   },
   {
     "id": "strobe-c06697694",
@@ -7072,7 +7173,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Chernomyrdin"
     ],
-    "relevanceScore": 70
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697694."
   },
   {
     "id": "strobe-c06697692",
@@ -7119,7 +7221,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Chernomyrdin"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697692."
   },
   {
     "id": "strobe-c06698357",
@@ -7164,7 +7267,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698357."
   },
   {
     "id": "strobe-c06698213",
@@ -7209,7 +7313,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 70
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698213."
   },
   {
     "id": "strobe-c06698358",
@@ -7254,7 +7359,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698358."
   },
   {
     "id": "strobe-c06698360",
@@ -7299,7 +7405,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698360."
   },
   {
     "id": "strobe-c06698212",
@@ -7346,7 +7453,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698212."
   },
   {
     "id": "strobe-c06699025",
@@ -7393,7 +7501,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06699025."
   },
   {
     "id": "strobe-c06698121",
@@ -7440,7 +7549,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698121."
   },
   {
     "id": "strobe-c06699023",
@@ -7487,7 +7597,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06699023."
   },
   {
     "id": "strobe-c06698745",
@@ -7532,7 +7643,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698745."
   },
   {
     "id": "strobe-c06703698",
@@ -7581,7 +7693,8 @@ window.MEMCONS = [
       "NATO/Russia",
       "Chubais"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703698."
   },
   {
     "id": "strobe-c06703692",
@@ -7628,7 +7741,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703692."
   },
   {
     "id": "strobe-c06702980",
@@ -7675,7 +7789,8 @@ window.MEMCONS = [
       "Russia policy context",
       "NATO/Russia"
     ],
-    "relevanceScore": 110
+    "relevanceScore": 110,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702980."
   },
   {
     "id": "strobe-c06703418",
@@ -7722,7 +7837,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Chernomyrdin"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703418."
   },
   {
     "id": "strobe-c06703490",
@@ -7769,7 +7885,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Chernomyrdin"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703490."
   },
   {
     "id": "strobe-c06702929",
@@ -7816,7 +7933,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Chernomyrdin"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702929."
   },
   {
     "id": "strobe-c06702916",
@@ -7863,7 +7981,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702916."
   },
   {
     "id": "strobe-c06702920",
@@ -7910,7 +8029,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702920."
   },
   {
     "id": "strobe-c06702926",
@@ -7957,7 +8077,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702926."
   },
   {
     "id": "strobe-c06703521",
@@ -8004,7 +8125,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Yeltsin"
     ],
-    "relevanceScore": 120
+    "relevanceScore": 120,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703521."
   },
   {
     "id": "strobe-c06702848",
@@ -8051,7 +8173,8 @@ window.MEMCONS = [
       "Russia policy context",
       "NATO/Russia"
     ],
-    "relevanceScore": 110
+    "relevanceScore": 110,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702848."
   },
   {
     "id": "strobe-c06703457",
@@ -8098,7 +8221,8 @@ window.MEMCONS = [
       "Russia policy context",
       "NATO/Russia"
     ],
-    "relevanceScore": 110
+    "relevanceScore": 110,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703457."
   },
   {
     "id": "strobe-c06702903",
@@ -8145,7 +8269,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702903."
   },
   {
     "id": "strobe-c06703637",
@@ -8192,7 +8317,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703637."
   },
   {
     "id": "strobe-c06703656",
@@ -8239,7 +8365,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703656."
   },
   {
     "id": "strobe-c06703640",
@@ -8286,7 +8413,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703640."
   },
   {
     "id": "strobe-c06703379",
@@ -8333,7 +8461,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703379."
   },
   {
     "id": "strobe-c06703643",
@@ -8380,7 +8509,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703643."
   },
   {
     "id": "strobe-c06771698",
@@ -8427,7 +8557,8 @@ window.MEMCONS = [
       "Russia policy context",
       "NATO/Russia"
     ],
-    "relevanceScore": 75
+    "relevanceScore": 75,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771698."
   },
   {
     "id": "strobe-c06771454",
@@ -8476,7 +8607,8 @@ window.MEMCONS = [
       "Kosovo",
       "Chernomyrdin"
     ],
-    "relevanceScore": 160
+    "relevanceScore": 160,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771454."
   },
   {
     "id": "strobe-c06771369",
@@ -8525,7 +8657,8 @@ window.MEMCONS = [
       "Kosovo",
       "Chernomyrdin"
     ],
-    "relevanceScore": 160
+    "relevanceScore": 160,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771369."
   },
   {
     "id": "strobe-c06772037",
@@ -8574,7 +8707,8 @@ window.MEMCONS = [
       "Kosovo",
       "Chernomyrdin"
     ],
-    "relevanceScore": 130
+    "relevanceScore": 130,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06772037."
   },
   {
     "id": "strobe-c06814653",
@@ -8619,7 +8753,8 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context"
     ],
-    "relevanceScore": 115
+    "relevanceScore": 115,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814653."
   },
   {
     "id": "strobe-c06815112",
@@ -8666,7 +8801,8 @@ window.MEMCONS = [
       "Russia policy context",
       "NATO/Russia"
     ],
-    "relevanceScore": 110
+    "relevanceScore": 110,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06815112."
   },
   {
     "id": "strobe-c06814917",
@@ -8713,7 +8849,8 @@ window.MEMCONS = [
       "Russia policy context",
       "Primakov"
     ],
-    "relevanceScore": 100
+    "relevanceScore": 100,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814917."
   },
   {
     "id": "nara-scout-40482510",
@@ -8760,7 +8897,8 @@ window.MEMCONS = [
       "NARA Scout",
       "FOIA lead",
       "Bosnia"
-    ]
+    ],
+    "frusSourceNote": "Source: National Archives Catalog, Records of the National Security Council European Affairs Office (Clinton Administration), Donald Kerrick's Files, NAID 40482510."
   },
   {
     "id": "nara-scout-7585486",
@@ -8807,7 +8945,8 @@ window.MEMCONS = [
     "topics": [
       "NARA Scout",
       "Series lead"
-    ]
+    ],
+    "frusSourceNote": "Source: National Archives Catalog, Records of the National Security Council European Affairs Office (Clinton Administration), Donald Kerrick's Files, NAID 7585486."
   },
   {
     "id": "nara-scout-40482516",
@@ -8872,7 +9011,8 @@ window.MEMCONS = [
       "Bosnia",
       "COCOM",
       "Yeltsin"
-    ]
+    ],
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council European Affairs Office, Donald Kerrick's Files, Telcons and Memcons, Box 26/OA 368, FOIA case 2008-0994-F, NAID 40482516."
   },
   {
     "id": "nara-scout-147870741",
@@ -8921,7 +9061,8 @@ window.MEMCONS = [
       "NARA Scout",
       "FOIA lead",
       "Daily diary"
-    ]
+    ],
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870741."
   },
   {
     "id": "nara-scout-147870751",
@@ -8970,7 +9111,8 @@ window.MEMCONS = [
       "NARA Scout",
       "FOIA lead",
       "Daily diary"
-    ]
+    ],
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870751."
   },
   {
     "id": "nara-scout-257664339",
@@ -9020,7 +9162,8 @@ window.MEMCONS = [
       "NARA Scout",
       "FOIA lead",
       "Trip book"
-    ]
+    ],
+    "frusSourceNote": "Source: National Archives Catalog, Records of the Advance Office (Clinton Administration), Trip Books, NAID 257664339."
   },
   {
     "id": "nara-scout-147870931",
@@ -9069,7 +9212,8 @@ window.MEMCONS = [
       "NARA Scout",
       "FOIA lead",
       "Daily diary"
-    ]
+    ],
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870931."
   },
   {
     "id": "nara-scout-147870967",
@@ -9119,7 +9263,8 @@ window.MEMCONS = [
       "FOIA lead",
       "Daily diary",
       "Kosovo"
-    ]
+    ],
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870967."
   },
   {
     "id": "nara-scout-147870995",
@@ -9168,7 +9313,8 @@ window.MEMCONS = [
       "NARA Scout",
       "FOIA lead",
       "Daily diary"
-    ]
+    ],
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870995."
   },
   {
     "id": "nara-scout-query-yeltsin",
@@ -9212,7 +9358,8 @@ window.MEMCONS = [
     "topics": [
       "NARA Scout",
       "Search trail"
-    ]
+    ],
+    "frusSourceNote": "Source: NARA Scout search trail, Search run May 19, 2026."
   },
   {
     "id": "nara-scout-collection-pass-yeltsin-2026-05-20",
@@ -9336,7 +9483,8 @@ window.MEMCONS = [
           "compilerUse": "NATO enlargement and Eastern Europe context for Yeltsin discussions."
         }
       ]
-    }
+    },
+    "frusSourceNote": "Source: NARA Scout search trail, Search run May 20, 2026."
   },
   {
     "id": "nara-scout-narrowed-memcon-telcon-pass-2026-05-20",
@@ -9469,6 +9617,7 @@ window.MEMCONS = [
         "catalogUrl": "https://catalog.archives.gov/id/404512727",
         "status": "Actual memorandum of conversation with President Demirel of Turkey; not a Clinton-Yeltsin conversation. Excluded."
       }
-    ]
+    ],
+    "frusSourceNote": "Source: NARA Scout search trail, Search run May 20, 2026."
   }
 ];

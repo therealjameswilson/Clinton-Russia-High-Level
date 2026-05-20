@@ -73,7 +73,16 @@
     },
     "releaseStatus": {
       "type": "string",
-      "enum": ["Full", "Partial", "Mixed", "Unknown", "FOIA/MDR Lead", "Catalog Lead", "Search Lead"]
+      "enum": [
+        "Full",
+        "Partial",
+        "Mixed",
+        "Unknown",
+        "FOIA/MDR Lead",
+        "Catalog Lead",
+        "Search Lead",
+        "Search Trail"
+      ]
     },
     "naid": {
       "type": "string"
@@ -175,6 +184,9 @@
       "type": "string"
     },
     "sourceNote": {
+      "type": "string"
+    },
+    "frusSourceNote": {
       "type": "string"
     },
     "extractionStatus": {
