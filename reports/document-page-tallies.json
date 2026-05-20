@@ -1,0 +1,1928 @@
+{
+  "generatedAt": "2026-05-20T01:02:55.371Z",
+  "scope": "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, briefing material, and withdrawal sheets are excluded.",
+  "consolidated": {
+    "potentialDocuments": 88,
+    "countedDocuments": 77,
+    "pendingDocuments": 11,
+    "totalConversationPages": 400,
+    "totalMemconPages": 180,
+    "totalTelconPages": 220
+  },
+  "byType": {
+    "Telcon": {
+      "documents": 62,
+      "countedDocuments": 56,
+      "pendingDocuments": 6,
+      "pages": 220
+    },
+    "Memcon": {
+      "documents": 26,
+      "countedDocuments": 21,
+      "pendingDocuments": 5,
+      "pages": 180
+    }
+  },
+  "byYear": {
+    "1993": {
+      "documents": 15,
+      "countedDocuments": 13,
+      "pendingDocuments": 2,
+      "pages": 60
+    },
+    "1994": {
+      "documents": 13,
+      "countedDocuments": 11,
+      "pendingDocuments": 2,
+      "pages": 53
+    },
+    "1995": {
+      "documents": 8,
+      "countedDocuments": 7,
+      "pendingDocuments": 1,
+      "pages": 49
+    },
+    "1996": {
+      "documents": 11,
+      "countedDocuments": 10,
+      "pendingDocuments": 1,
+      "pages": 48
+    },
+    "1997": {
+      "documents": 10,
+      "countedDocuments": 10,
+      "pendingDocuments": 0,
+      "pages": 63
+    },
+    "1998": {
+      "documents": 16,
+      "countedDocuments": 13,
+      "pendingDocuments": 3,
+      "pages": 58
+    },
+    "1999": {
+      "documents": 14,
+      "countedDocuments": 13,
+      "pendingDocuments": 1,
+      "pages": 69
+    },
+    "2000": {
+      "documents": 1,
+      "countedDocuments": 0,
+      "pendingDocuments": 1,
+      "pages": 0
+    }
+  },
+  "bySource": {
+    "2015-0782-M-1": {
+      "documents": 32,
+      "countedDocuments": 29,
+      "pendingDocuments": 3,
+      "pages": 140
+    },
+    "2014-0901-M": {
+      "documents": 2,
+      "countedDocuments": 2,
+      "pendingDocuments": 0,
+      "pages": 21
+    },
+    "Google Drive Clinton-Yeltsin candidate files": {
+      "documents": 3,
+      "countedDocuments": 0,
+      "pendingDocuments": 3,
+      "pages": 0
+    },
+    "F-2017-13804": {
+      "documents": 2,
+      "countedDocuments": 2,
+      "pendingDocuments": 0,
+      "pages": 11
+    },
+    "2014-0948-M": {
+      "documents": 2,
+      "countedDocuments": 2,
+      "pendingDocuments": 0,
+      "pages": 17
+    },
+    "2015-0782-M-2": {
+      "documents": 46,
+      "countedDocuments": 42,
+      "pendingDocuments": 4,
+      "pages": 211
+    },
+    "Clinton Library, Meetings and Telephone Calls with Foreign Leaders": {
+      "documents": 1,
+      "countedDocuments": 0,
+      "pendingDocuments": 1,
+      "pages": 0
+    }
+  },
+  "pending": [
+    {
+      "id": "contact-1993-04-01-telcon-03",
+      "date": "1993-04-01",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 1, 1993, Portland, Oregon",
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-1",
+      "googleDriveFiles": []
+    },
+    {
+      "id": "drive-candidate-1993-10-10-telcon-yeltsin",
+      "date": "1993-10-10",
+      "type": "Telcon",
+      "documentTitle": "Clinton-Yeltsin telcon, October 10, 1993",
+      "countStatus": "Extent pending",
+      "source": "Google Drive Clinton-Yeltsin candidate files",
+      "googleDriveFiles": [
+        {
+          "id": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
+          "title": "931010 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
+          "status": "Google Drive search match"
+        }
+      ]
+    },
+    {
+      "id": "contact-1994-06-03-telcon-19",
+      "date": "1994-06-03",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 3, 1994, Rome, Italy",
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-1",
+      "googleDriveFiles": []
+    },
+    {
+      "id": "drive-candidate-1994-09-27-telcon-yeltsin",
+      "date": "1994-09-27",
+      "type": "Telcon",
+      "documentTitle": "Clinton-Yeltsin telcon, September 27, 1994",
+      "countStatus": "Extent pending",
+      "source": "Google Drive Clinton-Yeltsin candidate files",
+      "googleDriveFiles": [
+        {
+          "id": "15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z",
+          "title": "940927 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z/view",
+          "status": "Google Drive search match"
+        }
+      ]
+    },
+    {
+      "id": "contact-1995-06-17-memcon-29",
+      "date": "1995-06-17",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada",
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-1",
+      "googleDriveFiles": []
+    },
+    {
+      "id": "contact-1996-03-13-memcon-35",
+      "date": "1996-03-13",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt",
+      "countStatus": "Extent pending",
+      "source": "Google Drive Clinton-Yeltsin candidate files",
+      "googleDriveFiles": [
+        {
+          "id": "1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c",
+          "title": "960313 Cable Memcon with Yeltsin Sharm el-Sheikh Egypt.pdf",
+          "url": "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view",
+          "status": "Google Drive search match"
+        },
+        {
+          "id": "1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2",
+          "title": "960313 Clinton and Yeltsin memcon cable.pdf",
+          "url": "https://drive.google.com/file/d/1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2/view",
+          "status": "Google Drive search match"
+        }
+      ]
+    },
+    {
+      "id": "contact-1998-09-01-memcon-63",
+      "date": "1998-09-01",
+      "type": "Memcon",
+      "documentTitle": "Meetings with President Boris Yeltsin of Russia, September 1-2, 1998, Moscow, Russia",
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-2",
+      "googleDriveFiles": []
+    },
+    {
+      "id": "contact-1998-10-05-telcon-65",
+      "date": "1998-10-05",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House",
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-2",
+      "googleDriveFiles": []
+    },
+    {
+      "id": "contact-1998-12-30-telcon-66",
+      "date": "1998-12-30",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House",
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-2",
+      "googleDriveFiles": []
+    },
+    {
+      "id": "contact-1999-02-08-memcon-67",
+      "date": "1999-02-08",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, February 8, 1999, Amman, Jordan",
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-2",
+      "googleDriveFiles": []
+    },
+    {
+      "id": "contact-2000-06-05-memcon-81",
+      "date": "2000-06-05",
+      "type": "Memcon",
+      "documentTitle": "Meeting with former President Boris Yeltsin of Russia, June 5, 2000, Moscow, Russia",
+      "countStatus": "Extent pending",
+      "source": "Clinton Library, Meetings and Telephone Calls with Foreign Leaders",
+      "googleDriveFiles": []
+    }
+  ],
+  "documents": [
+    {
+      "id": "contact-1993-01-23-telcon-01",
+      "date": "1993-01-23",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, January 23, 1993, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "9-11",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1NxhemfjqE_hcdqHtQKlLDBumnl1Mbz7K",
+          "title": "930123 Clinton Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1NxhemfjqE_hcdqHtQKlLDBumnl1Mbz7K/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 9-11 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1993-02-10-telcon-02",
+      "date": "1993-02-10",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, February 10, 1993, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "19-21",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "15AYs4fgvbYNfhuAAJ96QewfB7HktZ2gb",
+          "title": "930210 Clinton Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/15AYs4fgvbYNfhuAAJ96QewfB7HktZ2gb/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 19-21 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1993-04-01-telcon-03",
+      "date": "1993-04-01",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 1, 1993, Portland, Oregon",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": null
+    },
+    {
+      "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
+      "date": "1993-04-03",
+      "type": "Memcon",
+      "documentTitle": "Working Dinner with President Boris Yeltsin",
+      "pageCount": 9,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2014-0901-M",
+      "sourcePdfPages": "9-17",
+      "sourcePdfPageCount": null,
+      "markerPage": 1,
+      "googleDriveFiles": [],
+      "extractionStatus": "Extracted actual memcon pages 9-17 from the source PDF; appended original marker page 1 as the final provenance sheet."
+    },
+    {
+      "id": "contact-1993-04-04-memcon-vancouver-security-issues",
+      "date": "1993-04-04",
+      "type": "Memcon",
+      "documentTitle": "Meeting with Russian President Boris Yeltsin on Security Issues",
+      "pageCount": 12,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2014-0901-M",
+      "sourcePdfPages": "19-30",
+      "sourcePdfPageCount": null,
+      "markerPage": 1,
+      "googleDriveFiles": [],
+      "extractionStatus": "Extracted actual memcon pages 19-30 from the source PDF; appended original marker page 1 as the final provenance sheet."
+    },
+    {
+      "id": "contact-1993-04-26-telcon-05",
+      "date": "1993-04-26",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 26, 1993, White House",
+      "pageCount": 2,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "51-52",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1EgHtw2tYu5lakv8QZX3dd519uhZZ_7kF",
+          "title": "930426 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1EgHtw2tYu5lakv8QZX3dd519uhZZ_7kF/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 51-52 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1993-05-02-telcon-06",
+      "date": "1993-05-02",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, May 2, 1993, White House",
+      "pageCount": 2,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "60-61",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1I6JITyg6F8GGaL-udA_mJywVtIwZ4fIU",
+          "title": "930502 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1I6JITyg6F8GGaL-udA_mJywVtIwZ4fIU/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 60-61 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1993-05-10-telcon-07",
+      "date": "1993-05-10",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, May 10, 1993, White House",
+      "pageCount": 2,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "68-69",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 68-69 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1993-06-28-telcon-08",
+      "date": "1993-06-28",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 28, 1993, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "76-79",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1fonmBkzM0qhOUmDP74PVYmQYEBrQGpq2",
+          "title": "930628 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1fonmBkzM0qhOUmDP74PVYmQYEBrQGpq2/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 76-79 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1993-07-10-memcon-09",
+      "date": "1993-07-10",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan",
+      "pageCount": 9,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "81-89",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1oLH4zCmIub-kgvXXs0wZDGELWehL9Pqh",
+          "title": "930710 Clinton and Yeltsin in Tokyo memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1oLH4zCmIub-kgvXXs0wZDGELWehL9Pqh/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 81-89 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1993-09-07-telcon-10",
+      "date": "1993-09-07",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, September 7, 1993, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "95-98",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "15VrM1_b_ytYNKHKn78ZKANgfJBVY72fn",
+          "title": "930907 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/15VrM1_b_ytYNKHKn78ZKANgfJBVY72fn/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 95-98 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1993-09-21-telcon-11",
+      "date": "1993-09-21",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, September 21, 1993, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "107-109",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "17KnXzjPdKqJGPUWyC4ge5PVBSyOJ03QO",
+          "title": "930921 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/17KnXzjPdKqJGPUWyC4ge5PVBSyOJ03QO/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 107-109 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1993-10-05-telcon-12",
+      "date": "1993-10-05",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, October 5, 1993, Air Force One",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "119-121",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1jf6_8GhGV5MGQN3G4OxgrCthB5FHhfaT",
+          "title": "931005 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1jf6_8GhGV5MGQN3G4OxgrCthB5FHhfaT/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 119-121 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "drive-candidate-1993-10-10-telcon-yeltsin",
+      "date": "1993-10-10",
+      "type": "Telcon",
+      "documentTitle": "Clinton-Yeltsin telcon, October 10, 1993",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "Google Drive Clinton-Yeltsin candidate files",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
+          "title": "931010 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified."
+    },
+    {
+      "id": "contact-1993-12-22-telcon-13",
+      "date": "1993-12-22",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "142-145",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1u1uO_zeA0GNNX8nPkvsTHJ3rALOOn6pZ",
+          "title": "931222 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1u1uO_zeA0GNNX8nPkvsTHJ3rALOOn6pZ/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 142-145 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-01-14-memcon-trilateral-yeltsin-kravchuk",
+      "date": "1994-01-14",
+      "type": "Memcon",
+      "documentTitle": "Trilateral Meeting with President Boris Yeltsin of Russia on Security Issues",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "F-2017-13804",
+      "sourcePdfPages": "State FOIA document C06694499, conversation pages 1-3",
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r",
+          "title": "940114 Clinton and Yeltsin and Kravchuk memcon.pdf",
+          "url": "https://drive.google.com/file/d/1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694499, conversation pages 1-3 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+      "date": "1994-01-14",
+      "type": "Memcon",
+      "documentTitle": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+      "pageCount": 8,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "F-2017-13804",
+      "sourcePdfPages": "State FOIA document C06694502, conversation pages 1-8",
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1pr42yhINujL_px_Y5aXD_MmChhc5sy9v",
+          "title": "940114 Clinton and Yeltsin Memcon.pdf",
+          "url": "https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view",
+          "status": "Google Drive search match"
+        },
+        {
+          "id": "1bhiipjnmQh_WU-WC9XUGKIrzW93q4r38",
+          "title": "940114 Clinton and Yeltsin Morning Session memcon.pdf",
+          "url": "https://drive.google.com/file/d/1bhiipjnmQh_WU-WC9XUGKIrzW93q4r38/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694502, conversation pages 1-8 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-02-20-telcon-16",
+      "date": "1994-02-20",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, February 20, 1994, White House White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "155-157",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1-Czdq2907N9Zq6Rt7civTm-xPwkK9h6y",
+          "title": "940220 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1-Czdq2907N9Zq6Rt7civTm-xPwkK9h6y/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 155-157 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-04-10-telcon-17",
+      "date": "1994-04-10",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 10, 1994, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "164-166",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1qihIq6mo51EnA3ufb089tvkxIRp4kVnN",
+          "title": "940410 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1qihIq6mo51EnA3ufb089tvkxIRp4kVnN/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 164-166 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-04-20-telcon-18",
+      "date": "1994-04-20",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 20, 1994, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "181-184",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1ak-28O0E3npmQFlhnktlHR9h7Jze_RQq",
+          "title": "940420 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1ak-28O0E3npmQFlhnktlHR9h7Jze_RQq/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 181-184 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-06-03-telcon-19",
+      "date": "1994-06-03",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 3, 1994, Rome, Italy",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": null
+    },
+    {
+      "id": "contact-1994-06-13-telcon-20",
+      "date": "1994-06-13",
+      "type": "Telcon",
+      "documentTitle": "Telephone Call with President Boris Yeltsin of Russia, June 13, 1994, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "191-194",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1FTGT_4HHEl4j1Z7nG2n8Oo36AMCY9rUX",
+          "title": "940611 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1FTGT_4HHEl4j1Z7nG2n8Oo36AMCY9rUX/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 191-194 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-07-05-telcon-21",
+      "date": "1994-07-05",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, July 5, 1994, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "202-204",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1EMCFtfaOX3jrb7Pcncsjcij86vCVFqHx",
+          "title": "940705 Clinto and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1EMCFtfaOX3jrb7Pcncsjcij86vCVFqHx/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 202-204 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-07-10-memcon-22",
+      "date": "1994-07-10",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, July 10, 1994, Naples Italy",
+      "pageCount": 7,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "213-219",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 213-219 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "drive-candidate-1994-09-27-telcon-yeltsin",
+      "date": "1994-09-27",
+      "type": "Telcon",
+      "documentTitle": "Clinton-Yeltsin telcon, September 27, 1994",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "Google Drive Clinton-Yeltsin candidate files",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z",
+          "title": "940927 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified."
+    },
+    {
+      "id": "contact-1994-09-27-memcon-23",
+      "date": "1994-09-27",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House",
+      "pageCount": 10,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "251-260",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "13ojhHQejsL_uYgVxz_GHe8u_ponQ_FFj",
+          "title": "940927 Clinton and Yeltsin in DC memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/13ojhHQejsL_uYgVxz_GHe8u_ponQ_FFj/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 251-260 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-10-05-telcon-24",
+      "date": "1994-10-05",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin, October 5, 1994, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "227-230",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 227-230 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1994-10-10-telcon-25",
+      "date": "1994-10-10",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, October 10, 1994, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "238-241",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 238-241 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1995-02-13-telcon-26",
+      "date": "1995-02-13",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, February 13, 1995, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "268-271",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1EgGoQhfX4a7Fq8fEWtIhjUISe6hko4ai",
+          "title": "950213 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1EgGoQhfX4a7Fq8fEWtIhjUISe6hko4ai/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 268-271 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1995-04-27-telcon-27",
+      "date": "1995-04-27",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 27, 1995, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "280-283",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 280-283 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1995-05-10-memcon-28",
+      "date": "1995-05-10",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia",
+      "pageCount": 16,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "285-300",
+      "sourcePdfPageCount": 397,
+      "markerPage": 301,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 285-300 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. Marker page 301 should be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1995-06-17-memcon-29",
+      "date": "1995-06-17",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": null
+    },
+    {
+      "id": "contact-1995-07-28-telcon-30",
+      "date": "1995-07-28",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House",
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "309-313",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1-VyJatd2iE4fjlYtr3YM6930R3dRVHVU",
+          "title": "950728 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1-VyJatd2iE4fjlYtr3YM6930R3dRVHVU/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 309-313 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1995-09-27-telcon-31",
+      "date": "1995-09-27",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, September 27, 1995, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "324-326",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "13wiC3-DXoaYOXFvnwFGZ2EoaL39Z6oCh",
+          "title": "950927 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/13wiC3-DXoaYOXFvnwFGZ2EoaL39Z6oCh/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 324-326 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
+      "date": "1995-10-23",
+      "type": "Memcon",
+      "documentTitle": "Clinton-Yeltsin One-on-One",
+      "pageCount": 12,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2014-0948-M",
+      "sourcePdfPages": "5-16",
+      "sourcePdfPageCount": null,
+      "markerPage": 1,
+      "googleDriveFiles": [],
+      "extractionStatus": "Extracted actual memcon pages 5-16 from the source PDF; appended original marker page 1 as the final provenance sheet."
+    },
+    {
+      "id": "contact-1995-10-23-memcon-hyde-park-lunch",
+      "date": "1995-10-23",
+      "type": "Memcon",
+      "documentTitle": "Lunch with Boris Yeltsin, President of Russian Federation",
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2014-0948-M",
+      "sourcePdfPages": "31-35",
+      "sourcePdfPageCount": null,
+      "markerPage": 18,
+      "googleDriveFiles": [],
+      "extractionStatus": "Extracted complete lunch memcon pages 31-35 from the source PDF; appended original marker page 18 as the final provenance sheet. Duplicate lunch pages 24-27 were excluded."
+    },
+    {
+      "id": "contact-1996-01-26-telcon-33",
+      "date": "1996-01-26",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House",
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "342-346",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1yNha4AfK3kD6rPBPbSwA7RXGD_RLjz_e",
+          "title": "960126 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1yNha4AfK3kD6rPBPbSwA7RXGD_RLjz_e/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 342-346 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1996-02-21-telcon-34",
+      "date": "1996-02-21",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "354-357",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1tsAEajB4pmA2K-uxgCE3uIGe3Ek-PSMl",
+          "title": "960221 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1tsAEajB4pmA2K-uxgCE3uIGe3Ek-PSMl/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 354-357 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1996-03-13-memcon-35",
+      "date": "1996-03-13",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "Google Drive Clinton-Yeltsin candidate files",
+      "sourcePdfPages": "Extent pending",
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c",
+          "title": "960313 Cable Memcon with Yeltsin Sharm el-Sheikh Egypt.pdf",
+          "url": "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view",
+          "status": "Google Drive search match"
+        },
+        {
+          "id": "1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2",
+          "title": "960313 Clinton and Yeltsin memcon cable.pdf",
+          "url": "https://drive.google.com/file/d/1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document found in Google Drive search; actual conversation-page extent remains pending."
+    },
+    {
+      "id": "contact-1996-04-09-telcon-36",
+      "date": "1996-04-09",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 9, 1996, White House",
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "369-373",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1lGJCeA3FFPSqmmsNnXNA64B6koOy56ZB",
+          "title": "960409 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1lGJCeA3FFPSqmmsNnXNA64B6koOy56ZB/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 369-373 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1996-04-21-memcon-moscow-one-on-one",
+      "date": "1996-04-21",
+      "type": "Memcon",
+      "documentTitle": "POTUS-Yeltsin One-on-One",
+      "pageCount": 13,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "381-393",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "14NhGIMpynoxRlqbrA48-tTTGziPFz-B_",
+          "title": "960421 Clinton and Yeltsin in the Kremlin memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/14NhGIMpynoxRlqbrA48-tTTGziPFz-B_/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 381-393 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1996-04-21-memcon-moscow-luncheon",
+      "date": "1996-04-21",
+      "type": "Memcon",
+      "documentTitle": "Luncheon Meeting with Russian President Boris Yeltsin",
+      "pageCount": 7,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "7-13",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1jOjVAVkV8IeRD0SJmY4krQCH_Jr1oJQl",
+          "title": "960421 Clinton and Yeltsin lunch meeting memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1jOjVAVkV8IeRD0SJmY4krQCH_Jr1oJQl/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 7-13 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1996-05-07-telcon-38",
+      "date": "1996-05-07",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, May 7, 1996, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "25-28",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1C9TLIGhTQ1RQQ6CuX9UG0eQsksrFHvO5",
+          "title": "960507 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1C9TLIGhTQ1RQQ6CuX9UG0eQsksrFHvO5/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 25-28 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1996-06-18-telcon-39",
+      "date": "1996-06-18",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House",
+      "pageCount": 2,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "39-40",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1WFu5nHDo4uSM89CiS2CvB-vhCG76XUy3",
+          "title": "960618 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1WFu5nHDo4uSM89CiS2CvB-vhCG76XUy3/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 39-40 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1996-07-05-telcon-40",
+      "date": "1996-07-05",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, July 5, 1996, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "49-51",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "17IU8SnZtm4swpzXILw5JnpUXQ3PEx1ql",
+          "title": "960705 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/17IU8SnZtm4swpzXILw5JnpUXQ3PEx1ql/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 49-51 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1996-09-15-telcon-41",
+      "date": "1996-09-15",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, September 15, 1996, White House",
+      "pageCount": 2,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "64-65",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 64-65 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1996-12-05-telcon-42",
+      "date": "1996-12-05",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, December 5, 1996, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "77-79",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 77-79 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-02-27-telcon-43",
+      "date": "1997-02-27",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "87-89",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1HVoBqp-n_57yMZlA7nWh-mMXEdBUum5Q",
+          "title": "970227 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1HVoBqp-n_57yMZlA7nWh-mMXEdBUum5Q/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 87-89 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-03-21-memcon-helsinki-morning",
+      "date": "1997-03-21",
+      "type": "Memcon",
+      "documentTitle": "Helsinki Morning Meeting with President Boris Yeltsin",
+      "pageCount": 11,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "105-115",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1sBvI46_5rIq0yKZ1b7nf67To2f5foPmf",
+          "title": "970321 950am to 1155am Clinton and Yeltsin in Helsinki memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1sBvI46_5rIq0yKZ1b7nf67To2f5foPmf/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 105-115 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-03-21-memcon-helsinki-working-lunch",
+      "date": "1997-03-21",
+      "type": "Memcon",
+      "documentTitle": "Helsinki Working Lunch with President Boris Yeltsin",
+      "pageCount": 8,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "116-123",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1FvtlBsBnOZu4uFuqxfjLe9Fdj9iaT8dY",
+          "title": "970321 Working Lunch Clinton and Yeltsin in Helsinki memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1FvtlBsBnOZu4uFuqxfjLe9Fdj9iaT8dY/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 116-123 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-03-21-memcon-helsinki-afternoon",
+      "date": "1997-03-21",
+      "type": "Memcon",
+      "documentTitle": "Helsinki Afternoon Meeting with President Boris Yeltsin",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "124-127",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1zmToE2EEbOlex2gl6Nv1ULdECLF8PDWM",
+          "title": "970321 Afternoon Meeting Clinton and Yeltsin in Helsinki memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1zmToE2EEbOlex2gl6Nv1ULdECLF8PDWM/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 124-127 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-03-21-memcon-helsinki-private-dinner",
+      "date": "1997-03-21",
+      "type": "Memcon",
+      "documentTitle": "Helsinki Private Dinner with President Boris Yeltsin",
+      "pageCount": 6,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "128-133",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1KLOMwJsMKTaMp-3fsDHGk24zWvqLh6ou",
+          "title": "970321 815pm to 930pm Clinton and Yeltsin in Helsinki memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1KLOMwJsMKTaMp-3fsDHGk24zWvqLh6ou/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 128-133 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-05-27-memcon-45",
+      "date": "1997-05-27",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+      "pageCount": 8,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "143-150",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1VNFoDJYteyNDoWqrRuAWT8iLIAiHpFzh",
+          "title": "970527 Clinton and Yeltsin in Paris memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1VNFoDJYteyNDoWqrRuAWT8iLIAiHpFzh/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 143-150 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-06-20-memcon-46",
+      "date": "1997-06-20",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+      "pageCount": 8,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "165-172",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1068D97hQCXClJSz5sIQkmPDuuW_yCf5K",
+          "title": "970620 Clinton and Yeltsin in Denver memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1068D97hQCXClJSz5sIQkmPDuuW_yCf5K/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 165-172 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-10-30-telcon-47",
+      "date": "1997-10-30",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House",
+      "pageCount": 6,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "183-188",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1fT5AgUtzJunIagUVKSoKio6YudL2rLEx",
+          "title": "971030 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1fT5AgUtzJunIagUVKSoKio6YudL2rLEx/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 183-188 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-11-16-telcon-48",
+      "date": "1997-11-16",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, November 16, 1997, Malibu, California",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "206-208",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1c64v-q0n_DF-5kg16qrNjXxT6o4O7iEZ",
+          "title": "971116 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1c64v-q0n_DF-5kg16qrNjXxT6o4O7iEZ/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 206-208 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1997-11-22-telcon-49",
+      "date": "1997-11-22",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, November 22, 1997, White House",
+      "pageCount": 6,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "218-223",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1PgRJZpQqXva-Kp6ogOhraQElJZl0GXdk",
+          "title": "971122 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1PgRJZpQqXva-Kp6ogOhraQElJZl0GXdk/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 218-223 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-02-02-telcon-50",
+      "date": "1998-02-02",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "236-239",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1mGa3d3xnEIbCrsJNqsQPjAWifdli0Xar",
+          "title": "980202 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1mGa3d3xnEIbCrsJNqsQPjAWifdli0Xar/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 236-239 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-02-23-telcon-51",
+      "date": "1998-02-23",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, February 23, 1998, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "253-256",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1j7AvpVjmjdRTEhJ4Al4KvPD0ZMiqDVwj",
+          "title": "980223 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1j7AvpVjmjdRTEhJ4Al4KvPD0ZMiqDVwj/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 253-256 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-04-06-telcon-52",
+      "date": "1998-04-06",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House",
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "274-278",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1BCpDN6EIDJyq188YS46cjJgYs2kyzNui",
+          "title": "980406 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1BCpDN6EIDJyq188YS46cjJgYs2kyzNui/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 274-278 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-05-12-telcon-53",
+      "date": "1998-05-12",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, May 12, 1998, White House",
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "286-290",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1j3wB3sjgDr43yH8nbu9W4eX35XNb5vTo",
+          "title": "980512 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1j3wB3sjgDr43yH8nbu9W4eX35XNb5vTo/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 286-290 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-05-17-memcon-54",
+      "date": "1998-05-17",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England",
+      "pageCount": 8,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "312-319",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1IkQrGGfVtGl1fkXMaHmkwjSnmcpTyA7S",
+          "title": "980517 Clinton and Yeltsin in Birmingham memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1IkQrGGfVtGl1fkXMaHmkwjSnmcpTyA7S/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 312-319 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-05-21-telcon-55",
+      "date": "1998-05-21",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, May 21, 1998, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "301-303",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1_cus2DmP8sCA7HtsHoGspBGaKG5MvjMI",
+          "title": "980521 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1_cus2DmP8sCA7HtsHoGspBGaKG5MvjMI/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 301-303 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-05-28-telcon-56",
+      "date": "1998-05-28",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, May 28, 1998, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "329-332",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1F2aVY9zTrKysoGW-6-bn5tGdsTGDQ4y5",
+          "title": "980528 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1F2aVY9zTrKysoGW-6-bn5tGdsTGDQ4y5/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 329-332 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-06-15-telcon-57",
+      "date": "1998-06-15",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House",
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "342-346",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1hhBx6lIoQXXnyXsHoZxDo7oYNvYHbKsw",
+          "title": "980615 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1hhBx6lIoQXXnyXsHoZxDo7oYNvYHbKsw/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 342-346 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-06-16-telcon-59",
+      "date": "1998-06-16",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 16, 1998, White House",
+      "pageCount": 2,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "359-360",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 359-360 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-07-10-telcon-60",
+      "date": "1998-07-10",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, July 10, 1998, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "371-374",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1rfsHmNUqd_CG69JwlpHp3gb91PiFko5A",
+          "title": "980710 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1rfsHmNUqd_CG69JwlpHp3gb91PiFko5A/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 371-374 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-08-14-telcon-61",
+      "date": "1998-08-14",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House",
+      "pageCount": 6,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "384-389",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1_Dekfu38Q_Gk1IwYiEJqitsrnsvSX9Qh",
+          "title": "980814 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1_Dekfu38Q_Gk1IwYiEJqitsrnsvSX9Qh/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 384-389 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-08-25-telcon-62",
+      "date": "1998-08-25",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, August 25, 1998, Martha's Vineyard, Massachusetts",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "405-408",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1HMmaeeYPmG7x8ueyovnZXgGBpb55xkRz",
+          "title": "980825 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1HMmaeeYPmG7x8ueyovnZXgGBpb55xkRz/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 405-408 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-09-01-memcon-63",
+      "date": "1998-09-01",
+      "type": "Memcon",
+      "documentTitle": "Meetings with President Boris Yeltsin of Russia, September 1-2, 1998, Moscow, Russia",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": null
+    },
+    {
+      "id": "contact-1998-09-12-telcon-64",
+      "date": "1998-09-12",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, September 12, 1998, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "422-425",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1zL_1vQEJbvq4SWhIAqKpjAa3J2VR_AxW",
+          "title": "980912 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1zL_1vQEJbvq4SWhIAqKpjAa3J2VR_AxW/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 422-425 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1998-10-05-telcon-65",
+      "date": "1998-10-05",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": null
+    },
+    {
+      "id": "contact-1998-12-30-telcon-66",
+      "date": "1998-12-30",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": null
+    },
+    {
+      "id": "contact-1999-02-08-memcon-67",
+      "date": "1999-02-08",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, February 8, 1999, Amman, Jordan",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": null
+    },
+    {
+      "id": "contact-1999-03-24-telcon-68",
+      "date": "1999-03-24",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, March 24, 1999, White House",
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "432-436",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 432-436 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-04-19-telcon-69",
+      "date": "1999-04-19",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House",
+      "pageCount": 6,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "438-443",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 438-443 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-04-25-telcon-70",
+      "date": "1999-04-25",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.",
+      "pageCount": 12,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "445-456",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1YBmo26tprmItE4dS_dXX5Ic6QShZpn4h",
+          "title": "990425 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1YBmo26tprmItE4dS_dXX5Ic6QShZpn4h/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 445-456 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-05-02-telcon-71",
+      "date": "1999-05-02",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, May 2, 1999, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "470-473",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1ix1Ii-rAWelKeQi7jC6_PI4qRZlMinle",
+          "title": "990502 Clinton Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1ix1Ii-rAWelKeQi7jC6_PI4qRZlMinle/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 470-473 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-06-07-telcon-72",
+      "date": "1999-06-07",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 7, 1999, White House",
+      "pageCount": 2,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "479-480",
+      "sourcePdfPageCount": 591,
+      "markerPage": 481,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 479-480 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. Marker page 481 should be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-06-08-telcon-73",
+      "date": "1999-06-08",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 8, 1999, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "482-484",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 482-484 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-06-10-telcon-74",
+      "date": "1999-06-10",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 10, 1999, White House",
+      "pageCount": 2,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "488-489",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 488-489 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-06-13-telcon-75",
+      "date": "1999-06-13",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 13, 1999, White House",
+      "pageCount": 7,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "531-537",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1wt8YvzsjTSpf3H4JMgUXJMU-hMk0bA74",
+          "title": "990613 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1wt8YvzsjTSpf3H4JMgUXJMU-hMk0bA74/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 531-537 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-06-14-telcon-76",
+      "date": "1999-06-14",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 14, 1999, White House",
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "521-524",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "17_TAwdKBILpcBjzOK6fFzttzMxXLHc5P",
+          "title": "990614 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/17_TAwdKBILpcBjzOK6fFzttzMxXLHc5P/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 521-524 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-06-20-memcon-77",
+      "date": "1999-06-20",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany",
+      "pageCount": 9,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "497-505",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1sQzV-Sy-8geFSdknDtdp9xlzQCBI3QhN",
+          "title": "990620 Clinton and Yeltsin in Colognepdf.pdf",
+          "url": "https://drive.google.com/file/d/1sQzV-Sy-8geFSdknDtdp9xlzQCBI3QhN/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 497-505 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-09-08-telcon-78",
+      "date": "1999-09-08",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, September 8, 1999, White House",
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "548-552",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1wxPSyI3jA335DIh43d6VJ4BLULbLKIPR",
+          "title": "990908 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1wxPSyI3jA335DIh43d6VJ4BLULbLKIPR/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 548-552 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-11-18-memcon-79",
+      "date": "1999-11-18",
+      "type": "Memcon",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, November 18, 1999, Istanbul, Turkey",
+      "pageCount": 7,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "560-566",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1MgSg0Iph1k9aGeSZqpsXiYJd0eJP9crE",
+          "title": "991119 Clinton and Yeltsin in Istanbul memconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1MgSg0Iph1k9aGeSZqpsXiYJd0eJP9crE/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 560-566 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-1999-12-31-telcon-80",
+      "date": "1999-12-31",
+      "type": "Telcon",
+      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, December 31, 1999, White House",
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2015-0782-M-2",
+      "sourcePdfPages": "582-584",
+      "sourcePdfPageCount": 591,
+      "markerPage": null,
+      "googleDriveFiles": [
+        {
+          "id": "1ruK9pfEPeuBWuqAJD8TLhrQUEqIirk1v",
+          "title": "991231 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1ruK9pfEPeuBWuqAJD8TLhrQUEqIirk1v/view",
+          "status": "Google Drive search match"
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 582-584 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    },
+    {
+      "id": "contact-2000-06-05-memcon-81",
+      "date": "2000-06-05",
+      "type": "Memcon",
+      "documentTitle": "Meeting with former President Boris Yeltsin of Russia, June 5, 2000, Moscow, Russia",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "Clinton Library, Meetings and Telephone Calls with Foreign Leaders",
+      "sourcePdfPages": null,
+      "sourcePdfPageCount": null,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "extractionStatus": null
+    }
+  ]
+}

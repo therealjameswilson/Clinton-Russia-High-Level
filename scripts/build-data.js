@@ -75,6 +75,15 @@ const SOURCES = {
     caseNumber: "F-2017-13804",
     url: "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
   },
+  googleDrive: {
+    name: "Google Drive Clinton-Yeltsin candidate files",
+    url: "https://drive.google.com/"
+  },
+  stateFoiaDrive: {
+    name: "Department of State FOIA / Google Drive candidate copy",
+    caseNumber: "F-2017-13804",
+    url: "https://drive.google.com/"
+  },
   naraScout: {
     name: "NARA Scout",
     url: "https://therealjameswilson.github.io/nara-scout/"
@@ -108,6 +117,516 @@ const DERIVED_PDFS = {
     "public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf",
   hydeParkOneOnOne: "public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf",
   hydeParkLunch: "public/documents/1995-10-23-clinton-yeltsin-hyde-park-lunch.pdf"
+};
+
+const SOURCE_PDF_PAGE_COUNTS = {
+  [SOURCES.m1.caseNumber]: 397,
+  [SOURCES.m2.caseNumber]: 591
+};
+
+function driveFileUrl(id) {
+  return `https://drive.google.com/file/d/${id}/view`;
+}
+
+const DRIVE_CANDIDATES = {
+  telcon19930123: {
+    id: "1NxhemfjqE_hcdqHtQKlLDBumnl1Mbz7K",
+    title: "930123 Clinton Yeltsin telconpdf.pdf"
+  },
+  telcon19930210: {
+    id: "15AYs4fgvbYNfhuAAJ96QewfB7HktZ2gb",
+    title: "930210 Clinton Yeltsin telconpdf.pdf"
+  },
+  telcon19930426: {
+    id: "1EgHtw2tYu5lakv8QZX3dd519uhZZ_7kF",
+    title: "930426 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19930502: {
+    id: "1I6JITyg6F8GGaL-udA_mJywVtIwZ4fIU",
+    title: "930502 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19930628: {
+    id: "1fonmBkzM0qhOUmDP74PVYmQYEBrQGpq2",
+    title: "930628 Clinton and Yeltsin telconpdf.pdf"
+  },
+  memcon19930710: {
+    id: "1oLH4zCmIub-kgvXXs0wZDGELWehL9Pqh",
+    title: "930710 Clinton and Yeltsin in Tokyo memconpdf.pdf"
+  },
+  telcon19930907: {
+    id: "15VrM1_b_ytYNKHKn78ZKANgfJBVY72fn",
+    title: "930907 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19930921: {
+    id: "17KnXzjPdKqJGPUWyC4ge5PVBSyOJ03QO",
+    title: "930921 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19931005: {
+    id: "1jf6_8GhGV5MGQN3G4OxgrCthB5FHhfaT",
+    title: "931005 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19931010: {
+    id: "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
+    title: "931010 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19931222: {
+    id: "1u1uO_zeA0GNNX8nPkvsTHJ3rALOOn6pZ",
+    title: "931222 Clinton and Yeltsin telconpdf.pdf"
+  },
+  memcon19940114Bilateral: {
+    id: "1pr42yhINujL_px_Y5aXD_MmChhc5sy9v",
+    title: "940114 Clinton and Yeltsin Memcon.pdf"
+  },
+  memcon19940114BilateralDuplicate: {
+    id: "1bhiipjnmQh_WU-WC9XUGKIrzW93q4r38",
+    title: "940114 Clinton and Yeltsin Morning Session memcon.pdf"
+  },
+  memcon19940114Trilateral: {
+    id: "1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r",
+    title: "940114 Clinton and Yeltsin and Kravchuk memcon.pdf"
+  },
+  telcon19940220: {
+    id: "1-Czdq2907N9Zq6Rt7civTm-xPwkK9h6y",
+    title: "940220 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19940410: {
+    id: "1qihIq6mo51EnA3ufb089tvkxIRp4kVnN",
+    title: "940410 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19940420: {
+    id: "1ak-28O0E3npmQFlhnktlHR9h7Jze_RQq",
+    title: "940420 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19940613: {
+    id: "1FTGT_4HHEl4j1Z7nG2n8Oo36AMCY9rUX",
+    title: "940611 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19940705: {
+    id: "1EMCFtfaOX3jrb7Pcncsjcij86vCVFqHx",
+    title: "940705 Clinto and Yeltsin telconpdf.pdf"
+  },
+  memcon19940927: {
+    id: "13ojhHQejsL_uYgVxz_GHe8u_ponQ_FFj",
+    title: "940927 Clinton and Yeltsin in DC memconpdf.pdf"
+  },
+  telcon19940927: {
+    id: "15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z",
+    title: "940927 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19950213: {
+    id: "1EgGoQhfX4a7Fq8fEWtIhjUISe6hko4ai",
+    title: "950213 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19950728: {
+    id: "1-VyJatd2iE4fjlYtr3YM6930R3dRVHVU",
+    title: "950728 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19950927: {
+    id: "13wiC3-DXoaYOXFvnwFGZ2EoaL39Z6oCh",
+    title: "950927 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19960126: {
+    id: "1yNha4AfK3kD6rPBPbSwA7RXGD_RLjz_e",
+    title: "960126 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19960221: {
+    id: "1tsAEajB4pmA2K-uxgCE3uIGe3Ek-PSMl",
+    title: "960221 Clinton and Yeltsin telconpdf.pdf"
+  },
+  memcon19960313Cable: {
+    id: "1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c",
+    title: "960313 Cable Memcon with Yeltsin Sharm el-Sheikh Egypt.pdf"
+  },
+  memcon19960313CableDuplicate: {
+    id: "1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2",
+    title: "960313 Clinton and Yeltsin memcon cable.pdf"
+  },
+  telcon19960409: {
+    id: "1lGJCeA3FFPSqmmsNnXNA64B6koOy56ZB",
+    title: "960409 Clinton and Yeltsin telconpdf.pdf"
+  },
+  memcon19960421OneOnOne: {
+    id: "14NhGIMpynoxRlqbrA48-tTTGziPFz-B_",
+    title: "960421 Clinton and Yeltsin in the Kremlin memconpdf.pdf"
+  },
+  memcon19960421Lunch: {
+    id: "1jOjVAVkV8IeRD0SJmY4krQCH_Jr1oJQl",
+    title: "960421 Clinton and Yeltsin lunch meeting memconpdf.pdf"
+  },
+  telcon19960507: {
+    id: "1C9TLIGhTQ1RQQ6CuX9UG0eQsksrFHvO5",
+    title: "960507 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19960618: {
+    id: "1WFu5nHDo4uSM89CiS2CvB-vhCG76XUy3",
+    title: "960618 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19960705: {
+    id: "17IU8SnZtm4swpzXILw5JnpUXQ3PEx1ql",
+    title: "960705 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19970227: {
+    id: "1HVoBqp-n_57yMZlA7nWh-mMXEdBUum5Q",
+    title: "970227 Clinton and Yeltsin telconpdf.pdf"
+  },
+  memcon19970321Morning: {
+    id: "1sBvI46_5rIq0yKZ1b7nf67To2f5foPmf",
+    title: "970321 950am to 1155am Clinton and Yeltsin in Helsinki memconpdf.pdf"
+  },
+  memcon19970321Lunch: {
+    id: "1FvtlBsBnOZu4uFuqxfjLe9Fdj9iaT8dY",
+    title: "970321 Working Lunch Clinton and Yeltsin in Helsinki memconpdf.pdf"
+  },
+  memcon19970321Afternoon: {
+    id: "1zmToE2EEbOlex2gl6Nv1ULdECLF8PDWM",
+    title: "970321 Afternoon Meeting Clinton and Yeltsin in Helsinki memconpdf.pdf"
+  },
+  memcon19970321Dinner: {
+    id: "1KLOMwJsMKTaMp-3fsDHGk24zWvqLh6ou",
+    title: "970321 815pm to 930pm Clinton and Yeltsin in Helsinki memconpdf.pdf"
+  },
+  memcon19970527: {
+    id: "1VNFoDJYteyNDoWqrRuAWT8iLIAiHpFzh",
+    title: "970527 Clinton and Yeltsin in Paris memconpdf.pdf"
+  },
+  memcon19970620: {
+    id: "1068D97hQCXClJSz5sIQkmPDuuW_yCf5K",
+    title: "970620 Clinton and Yeltsin in Denver memconpdf.pdf"
+  },
+  telcon19971030: {
+    id: "1fT5AgUtzJunIagUVKSoKio6YudL2rLEx",
+    title: "971030 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19971116: {
+    id: "1c64v-q0n_DF-5kg16qrNjXxT6o4O7iEZ",
+    title: "971116 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19971122: {
+    id: "1PgRJZpQqXva-Kp6ogOhraQElJZl0GXdk",
+    title: "971122 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980202: {
+    id: "1mGa3d3xnEIbCrsJNqsQPjAWifdli0Xar",
+    title: "980202 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980223: {
+    id: "1j7AvpVjmjdRTEhJ4Al4KvPD0ZMiqDVwj",
+    title: "980223 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980406: {
+    id: "1BCpDN6EIDJyq188YS46cjJgYs2kyzNui",
+    title: "980406 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980512: {
+    id: "1j3wB3sjgDr43yH8nbu9W4eX35XNb5vTo",
+    title: "980512 Clinton and Yeltsin telconpdf.pdf"
+  },
+  memcon19980517: {
+    id: "1IkQrGGfVtGl1fkXMaHmkwjSnmcpTyA7S",
+    title: "980517 Clinton and Yeltsin in Birmingham memconpdf.pdf"
+  },
+  telcon19980521: {
+    id: "1_cus2DmP8sCA7HtsHoGspBGaKG5MvjMI",
+    title: "980521 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980528: {
+    id: "1F2aVY9zTrKysoGW-6-bn5tGdsTGDQ4y5",
+    title: "980528 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980615: {
+    id: "1hhBx6lIoQXXnyXsHoZxDo7oYNvYHbKsw",
+    title: "980615 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980710: {
+    id: "1rfsHmNUqd_CG69JwlpHp3gb91PiFko5A",
+    title: "980710 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980814: {
+    id: "1_Dekfu38Q_Gk1IwYiEJqitsrnsvSX9Qh",
+    title: "980814 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980825: {
+    id: "1HMmaeeYPmG7x8ueyovnZXgGBpb55xkRz",
+    title: "980825 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19980912: {
+    id: "1zL_1vQEJbvq4SWhIAqKpjAa3J2VR_AxW",
+    title: "980912 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19990425: {
+    id: "1YBmo26tprmItE4dS_dXX5Ic6QShZpn4h",
+    title: "990425 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19990502: {
+    id: "1ix1Ii-rAWelKeQi7jC6_PI4qRZlMinle",
+    title: "990502 Clinton Yeltsin telconpdf.pdf"
+  },
+  telcon19990613: {
+    id: "1wt8YvzsjTSpf3H4JMgUXJMU-hMk0bA74",
+    title: "990613 Clinton and Yeltsin telconpdf.pdf"
+  },
+  telcon19990614: {
+    id: "17_TAwdKBILpcBjzOK6fFzttzMxXLHc5P",
+    title: "990614 Clinton and Yeltsin telconpdf.pdf"
+  },
+  memcon19990620: {
+    id: "1sQzV-Sy-8geFSdknDtdp9xlzQCBI3QhN",
+    title: "990620 Clinton and Yeltsin in Colognepdf.pdf"
+  },
+  telcon19990908: {
+    id: "1wxPSyI3jA335DIh43d6VJ4BLULbLKIPR",
+    title: "990908 Clinton and Yeltsin telconpdf.pdf"
+  },
+  memcon19991119: {
+    id: "1MgSg0Iph1k9aGeSZqpsXiYJd0eJP9crE",
+    title: "991119 Clinton and Yeltsin in Istanbul memconpdf.pdf"
+  },
+  telcon19991231: {
+    id: "1ruK9pfEPeuBWuqAJD8TLhrQUEqIirk1v",
+    title: "991231 Clinton and Yeltsin telconpdf.pdf"
+  }
+};
+
+const CONVERSATION_PAGE_AUDITS = {
+  "1993-01-23|Telcon": { source: SOURCES.m1, sourcePdfPages: "9-11", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930123] },
+  "1993-02-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "19-21", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930210] },
+  "1993-04-26|Telcon": { source: SOURCES.m1, sourcePdfPages: "51-52", pageCount: 2, driveFiles: [DRIVE_CANDIDATES.telcon19930426] },
+  "1993-05-02|Telcon": { source: SOURCES.m1, sourcePdfPages: "60-61", pageCount: 2, driveFiles: [DRIVE_CANDIDATES.telcon19930502] },
+  "1993-05-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "68-69", pageCount: 2 },
+  "1993-06-28|Telcon": { source: SOURCES.m1, sourcePdfPages: "76-79", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19930628] },
+  "1993-07-10|Memcon": { source: SOURCES.m1, sourcePdfPages: "81-89", pageCount: 9, driveFiles: [DRIVE_CANDIDATES.memcon19930710] },
+  "1993-09-07|Telcon": { source: SOURCES.m1, sourcePdfPages: "95-98", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19930907] },
+  "1993-09-21|Telcon": { source: SOURCES.m1, sourcePdfPages: "107-109", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930921] },
+  "1993-10-05|Telcon": {
+    source: SOURCES.m1,
+    sourcePdfPages: "119-121",
+    pageCount: 3,
+    driveFiles: [DRIVE_CANDIDATES.telcon19931005],
+    excluded: "Duplicate attachment pages 132-134 in the Lake clarification packet were excluded."
+  },
+  "1993-12-22|Telcon": { source: SOURCES.m1, sourcePdfPages: "142-145", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19931222] },
+  "1994-01-14-bilateral": {
+    source: SOURCES.stateFoiaDrive,
+    pageCount: 8,
+    driveFiles: [
+      DRIVE_CANDIDATES.memcon19940114Bilateral,
+      DRIVE_CANDIDATES.memcon19940114BilateralDuplicate
+    ],
+    sourcePdfPages: "State FOIA document C06694502, conversation pages 1-8",
+    excluded: "The duplicate Drive title for the same State FOIA document was deduplicated."
+  },
+  "1994-01-14-trilateral": {
+    source: SOURCES.stateFoiaDrive,
+    pageCount: 3,
+    driveFiles: [DRIVE_CANDIDATES.memcon19940114Trilateral],
+    sourcePdfPages: "State FOIA document C06694499, conversation pages 1-3"
+  },
+  "1994-02-20|Telcon": { source: SOURCES.m1, sourcePdfPages: "155-157", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19940220] },
+  "1994-04-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "164-166", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19940410] },
+  "1994-04-20|Telcon": { source: SOURCES.m1, sourcePdfPages: "181-184", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19940420] },
+  "1994-06-13|Telcon": {
+    source: SOURCES.m1,
+    sourcePdfPages: "191-194",
+    pageCount: 4,
+    driveFiles: [DRIVE_CANDIDATES.telcon19940613],
+    note: "The Drive hit is titled 940611; the Clinton Library chronology and packet text identify the contact as June 13, 1994."
+  },
+  "1994-07-05|Telcon": { source: SOURCES.m1, sourcePdfPages: "202-204", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19940705] },
+  "1994-07-10|Memcon": { source: SOURCES.m1, sourcePdfPages: "213-219", pageCount: 7 },
+  "1994-09-27|Memcon": { source: SOURCES.m1, sourcePdfPages: "251-260", pageCount: 10, driveFiles: [DRIVE_CANDIDATES.memcon19940927] },
+  "1994-10-05|Telcon": { source: SOURCES.m1, sourcePdfPages: "227-230", pageCount: 4 },
+  "1994-10-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "238-241", pageCount: 4 },
+  "1995-02-13|Telcon": { source: SOURCES.m1, sourcePdfPages: "268-271", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19950213] },
+  "1995-04-27|Telcon": { source: SOURCES.m1, sourcePdfPages: "280-283", pageCount: 4 },
+  "1995-05-10|Memcon": {
+    source: SOURCES.m1,
+    sourcePdfPages: "285-300",
+    markerPage: 301,
+    pageCount: 16,
+    note: "The packet item is a summary report of the one-on-one meeting and is counted as the actual meeting record."
+  },
+  "1995-07-28|Telcon": { source: SOURCES.m1, sourcePdfPages: "309-313", pageCount: 5, driveFiles: [DRIVE_CANDIDATES.telcon19950728] },
+  "1995-09-27|Telcon": { source: SOURCES.m1, sourcePdfPages: "324-326", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19950927] },
+  "1996-01-26|Telcon": { source: SOURCES.m1, sourcePdfPages: "342-346", pageCount: 5, driveFiles: [DRIVE_CANDIDATES.telcon19960126] },
+  "1996-02-21|Telcon": { source: SOURCES.m1, sourcePdfPages: "354-357", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19960221] },
+  "1996-03-13|Memcon": {
+    source: SOURCES.googleDrive,
+    pageCount: null,
+    driveFiles: [DRIVE_CANDIDATES.memcon19960313Cable, DRIVE_CANDIDATES.memcon19960313CableDuplicate],
+    sourcePdfPages: "Extent pending",
+    excluded: "The duplicate cable title is treated as a duplicate candidate until the original PDF pages are reviewed.",
+    extractionStatus:
+      "Potential FRUS document found in Google Drive search; actual conversation-page extent remains pending."
+  },
+  "1996-04-09|Telcon": { source: SOURCES.m1, sourcePdfPages: "369-373", pageCount: 5, driveFiles: [DRIVE_CANDIDATES.telcon19960409] },
+  "1996-04-21-one-on-one": { source: SOURCES.m1, sourcePdfPages: "381-393", pageCount: 13, driveFiles: [DRIVE_CANDIDATES.memcon19960421OneOnOne] },
+  "1996-04-21-luncheon": { source: SOURCES.m2, sourcePdfPages: "7-13", pageCount: 7, driveFiles: [DRIVE_CANDIDATES.memcon19960421Lunch] },
+  "1996-05-07|Telcon": { source: SOURCES.m2, sourcePdfPages: "25-28", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19960507] },
+  "1996-06-18|Telcon": { source: SOURCES.m2, sourcePdfPages: "39-40", pageCount: 2, driveFiles: [DRIVE_CANDIDATES.telcon19960618] },
+  "1996-07-05|Telcon": { source: SOURCES.m2, sourcePdfPages: "49-51", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19960705] },
+  "1996-09-15|Telcon": { source: SOURCES.m2, sourcePdfPages: "64-65", pageCount: 2 },
+  "1996-12-05|Telcon": { source: SOURCES.m2, sourcePdfPages: "77-79", pageCount: 3 },
+  "1997-02-27|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "87-89",
+    pageCount: 3,
+    driveFiles: [DRIVE_CANDIDATES.telcon19970227],
+    excluded: "Duplicate packet pages 93-95 were excluded."
+  },
+  "1997-03-21-morning": { source: SOURCES.m2, sourcePdfPages: "105-115", pageCount: 11, driveFiles: [DRIVE_CANDIDATES.memcon19970321Morning] },
+  "1997-03-21-lunch": { source: SOURCES.m2, sourcePdfPages: "116-123", pageCount: 8, driveFiles: [DRIVE_CANDIDATES.memcon19970321Lunch] },
+  "1997-03-21-afternoon": { source: SOURCES.m2, sourcePdfPages: "124-127", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.memcon19970321Afternoon] },
+  "1997-03-21-dinner": { source: SOURCES.m2, sourcePdfPages: "128-133", pageCount: 6, driveFiles: [DRIVE_CANDIDATES.memcon19970321Dinner] },
+  "1997-05-27|Memcon": { source: SOURCES.m2, sourcePdfPages: "143-150", pageCount: 8, driveFiles: [DRIVE_CANDIDATES.memcon19970527] },
+  "1997-06-20|Memcon": { source: SOURCES.m2, sourcePdfPages: "165-172", pageCount: 8, driveFiles: [DRIVE_CANDIDATES.memcon19970620] },
+  "1997-10-30|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "183-188",
+    pageCount: 6,
+    driveFiles: [DRIVE_CANDIDATES.telcon19971030],
+    excluded: "Duplicate packet pages 193-198 were excluded."
+  },
+  "1997-11-16|Telcon": { source: SOURCES.m2, sourcePdfPages: "206-208", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19971116] },
+  "1997-11-22|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "218-223",
+    pageCount: 6,
+    driveFiles: [DRIVE_CANDIDATES.telcon19971122],
+    excluded: "Partial duplicate packet pages 227-228 were excluded."
+  },
+  "1998-02-02|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "236-239",
+    pageCount: 4,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980202],
+    excluded: "Duplicate packet pages 240-243 were excluded."
+  },
+  "1998-02-23|Telcon": { source: SOURCES.m2, sourcePdfPages: "253-256", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19980223] },
+  "1998-04-06|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "274-278",
+    pageCount: 5,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980406],
+    excluded: "Earlier duplicate packet pages 267-270 were excluded in favor of the complete copy."
+  },
+  "1998-05-12|Telcon": { source: SOURCES.m2, sourcePdfPages: "286-290", pageCount: 5, driveFiles: [DRIVE_CANDIDATES.telcon19980512] },
+  "1998-05-17|Memcon": { source: SOURCES.m2, sourcePdfPages: "312-319", pageCount: 8, driveFiles: [DRIVE_CANDIDATES.memcon19980517] },
+  "1998-05-21|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "301-303",
+    pageCount: 3,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980521],
+    excluded: "Duplicate packet pages 308-310 were excluded."
+  },
+  "1998-05-28|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "329-332",
+    pageCount: 4,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980528],
+    excluded: "Duplicate first-page copy on packet page 334 was excluded."
+  },
+  "1998-06-15|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "342-346",
+    pageCount: 5,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980615],
+    excluded: "Later duplicate copy in the packet was excluded; duplicate chronology row was suppressed."
+  },
+  "1998-06-16|Telcon": { source: SOURCES.m2, sourcePdfPages: "359-360", pageCount: 2 },
+  "1998-07-10|Telcon": { source: SOURCES.m2, sourcePdfPages: "371-374", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19980710] },
+  "1998-08-14|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "384-389",
+    pageCount: 6,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980814],
+    excluded: "Duplicate packet copy beginning at page 393 was excluded."
+  },
+  "1998-08-25|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "405-408",
+    pageCount: 4,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980825],
+    excluded: "Duplicate packet pages 411-412 were excluded."
+  },
+  "1998-09-12|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "422-425",
+    pageCount: 4,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980912],
+    excluded: "Duplicate/continued packet pages 426-431 were excluded."
+  },
+  "1999-03-24|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "432-436",
+    pageCount: 5,
+    note: "The packet header has a date typo, but the marker, document ID, and leader chronology identify this as March 24, 1999."
+  },
+  "1999-04-19|Telcon": { source: SOURCES.m2, sourcePdfPages: "438-443", pageCount: 6 },
+  "1999-04-25|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "445-456",
+    pageCount: 12,
+    driveFiles: [DRIVE_CANDIDATES.telcon19990425],
+    excluded: "Duplicate packet pages 457-468 were excluded."
+  },
+  "1999-05-02|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "470-473",
+    pageCount: 4,
+    driveFiles: [DRIVE_CANDIDATES.telcon19990502],
+    excluded: "Duplicate packet pages 474-477 were excluded."
+  },
+  "1999-06-07|Telcon": { source: SOURCES.m2, sourcePdfPages: "479-480", pageCount: 2, markerPage: 481 },
+  "1999-06-08|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "482-484",
+    pageCount: 3,
+    excluded: "Duplicate packet pages 485-486 were excluded."
+  },
+  "1999-06-10|Telcon": { source: SOURCES.m2, sourcePdfPages: "488-489", pageCount: 2 },
+  "1999-06-13|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "531-537",
+    pageCount: 7,
+    driveFiles: [DRIVE_CANDIDATES.telcon19990613],
+    excluded: "Duplicate continuation page 539 was excluded."
+  },
+  "1999-06-14|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "521-524",
+    pageCount: 4,
+    driveFiles: [DRIVE_CANDIDATES.telcon19990614],
+    excluded: "Duplicate packet pages 525-528 were excluded."
+  },
+  "1999-06-20|Memcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "497-505",
+    pageCount: 9,
+    driveFiles: [DRIVE_CANDIDATES.memcon19990620],
+    excluded: "Duplicate packet pages 508-516 were excluded."
+  },
+  "1999-09-08|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "548-552",
+    pageCount: 5,
+    driveFiles: [DRIVE_CANDIDATES.telcon19990908],
+    excluded: "Duplicate packet pages 554-558 were excluded."
+  },
+  "1999-11-18|Memcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "560-566",
+    pageCount: 7,
+    driveFiles: [DRIVE_CANDIDATES.memcon19991119],
+    excluded: "Duplicate packet pages 568-574 were excluded.",
+    note: "The foreign-leader chronology dates the meeting November 18; the packet/Drive title identifies the Istanbul memcon as November 19, 1999."
+  },
+  "1999-12-31|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "582-584",
+    pageCount: 3,
+    driveFiles: [DRIVE_CANDIDATES.telcon19991231],
+    excluded: "Duplicate packet pages 589-591 were excluded."
+  }
 };
 
 const MONTHS = {
@@ -182,6 +701,89 @@ function contactTopics(entry, iso, type) {
   if (iso === "1994-04-10") topics.push("Bosnia", "COCOM", "Export controls");
   if (/Helsinki|Denver|Paris|Cologne|Istanbul/i.test(entry)) topics.push("Summit diplomacy");
   return [...new Set(topics)];
+}
+
+function normalizeDriveFiles(files = []) {
+  return files
+    .filter(Boolean)
+    .map((file) => ({
+      id: file.id,
+      title: file.title,
+      url: driveFileUrl(file.id),
+      status: file.status || "Google Drive search match"
+    }));
+}
+
+function auditSourcePageCount(source) {
+  return source?.caseNumber ? SOURCE_PDF_PAGE_COUNTS[source.caseNumber] || null : null;
+}
+
+function appendNote(base, note) {
+  if (!note) return base || "";
+  return base ? `${base} ${note}` : note;
+}
+
+function auditExtractionStatus(record, audit) {
+  if (audit.extractionStatus) return audit.extractionStatus;
+
+  const sourceLabel = audit.source?.caseNumber || audit.source?.name || record.source?.caseNumber || "source";
+  if (audit.pageCount) {
+    const markerText = audit.markerPage
+      ? ` Marker page ${audit.markerPage} should be appended as the provenance sheet if a derivative PDF is generated.`
+      : " The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.";
+    return `Potential FRUS document: counted only actual ${record.type.toLowerCase()} pages ${audit.sourcePdfPages} in ${sourceLabel}; surrounding administrative material and duplicate copies excluded.${markerText}`;
+  }
+
+  return `Potential FRUS document: Google Drive search surfaced a matching ${record.type.toLowerCase()}, but the actual conversation-page extent still needs verification against the original PDF.`;
+}
+
+function applyConversationAudit(record, auditKey = `${record.date}|${record.type}`) {
+  const audit = CONVERSATION_PAGE_AUDITS[auditKey];
+  const potentialTopics = [...new Set([...(record.frusTopics || []), "Potential FRUS document"])];
+
+  if (!audit) {
+    return {
+      ...record,
+      potentialFrusDocument: true,
+      countStatus: "Extent pending",
+      frusTopics: potentialTopics,
+      topics: [...new Set([...(record.topics || []), "Potential FRUS document"])]
+    };
+  }
+
+  const source = audit.source || record.source;
+  const driveFiles = normalizeDriveFiles(audit.driveFiles);
+  const countStatus = audit.pageCount ? "Counted actual conversation pages only" : "Extent pending";
+  const auditNote =
+    audit.note ||
+    (audit.pageCount
+      ? `Page count audit: ${audit.pageCount} actual conversation pages${
+          audit.sourcePdfPages ? ` from ${audit.sourcePdfPages}` : ""
+        }; non-conversation pages and duplicate copies excluded.`
+      : "Page count audit: extent pending; Drive candidate retained for compiler review.");
+  const duplicateNote = audit.excluded ? `Dedup/exclusion note: ${audit.excluded}` : "";
+
+  return {
+    ...record,
+    source,
+    catalogUrl: audit.catalogUrl || record.catalogUrl,
+    pdfUrl: audit.pdfUrl || record.pdfUrl,
+    pageCount: Object.prototype.hasOwnProperty.call(audit, "pageCount")
+      ? audit.pageCount
+      : record.pageCount,
+    sourcePdfPages: audit.sourcePdfPages || record.sourcePdfPages,
+    sourcePdfPageCount: audit.sourcePdfPageCount || auditSourcePageCount(source) || undefined,
+    markerPage: Object.prototype.hasOwnProperty.call(audit, "markerPage")
+      ? audit.markerPage
+      : record.markerPage,
+    googleDriveFiles: driveFiles.length ? driveFiles : undefined,
+    potentialFrusDocument: true,
+    countStatus,
+    extractionStatus: auditExtractionStatus(record, audit),
+    sourceNote: appendNote(appendNote(record.sourceNote, auditNote), duplicateNote),
+    frusTopics: [...new Set([...potentialTopics, ...(audit.topics || [])])],
+    topics: [...new Set([...(record.topics || []), "Potential FRUS document", ...(audit.topics || [])])]
+  };
 }
 
 function extractClintonYeltsinEntries(text) {
@@ -277,6 +879,209 @@ function buildChronologyRecords() {
       relatedReleaseIds: related
     };
 
+    if (date.iso === "1994-01-13" && /January 13-15, 1994/i.test(entry)) {
+      const lead = {
+        ...record,
+        id: "contact-1994-01-13-memcon-moscow-summit-lead",
+        title:
+          "Chronology lead: Clinton-Yeltsin Moscow summit meetings, January 13-15, 1994",
+        documentTitle:
+          "Chronology lead: Clinton-Yeltsin Moscow summit meetings, January 13-15, 1994",
+        pageCount: null,
+        candidateStatus: "Chronology lead; individual actual memcons counted separately",
+        countStatus: "Not counted as a document extent",
+        potentialFrusDocument: false,
+        subjectLine:
+          "Broad foreign-leader chronology entry retained as a summit lead; actual Jan. 14 memcons identified in Google Drive are listed separately.",
+        extractionStatus:
+          "Chronology lead only: no pages counted here. Use the separate Jan. 14 bilateral and trilateral memcon records for actual document-page totals.",
+        frusTopics: [...new Set([...record.frusTopics, "Moscow summit", "Chronology lead"])],
+        topics: [...new Set([...record.topics, "Moscow summit", "Chronology lead"])]
+      };
+
+      const bilateral = applyConversationAudit(
+        {
+          ...record,
+          id: "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+          date: "1994-01-14",
+          sortDate: "1994-01-14",
+          sortOrder: 2,
+          type: "Memcon",
+          title:
+            "Memorandum of conversation: Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+          documentTitle:
+            "Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+          participants: [
+            "Bill Clinton",
+            "Boris Yeltsin",
+            "Warren Christopher",
+            "Anthony Lake",
+            "Strobe Talbott",
+            "Andrei Kozyrev"
+          ],
+          countries: ["United States", "Russia"],
+          releaseStatus: "Full",
+          naid: "C06694502",
+          catalogUrl: driveFileUrl(DRIVE_CANDIDATES.memcon19940114Bilateral.id),
+          pdfUrl: driveFileUrl(DRIVE_CANDIDATES.memcon19940114Bilateral.id),
+          dateLine:
+            "January 14, 1994, 9:35-11:15 a.m., St. Catherine's Hall, The Kremlin, Moscow",
+          subjectLine:
+            "State FOIA / Drive candidate memcon for the second expanded Clinton-Yeltsin bilateral session in Moscow.",
+          source: SOURCES.stateFoiaDrive,
+          sourceNote:
+            "Source: Google Drive search result for Department of State FOIA document C06694502, surfaced as a Clinton-Yeltsin memcon candidate.",
+          relatedReleaseIds: ["Google Drive", "C06694502", "F-2017-13804"]
+        },
+        "1994-01-14-bilateral"
+      );
+
+      return [lead, bilateral];
+    }
+
+    if (date.iso === "1994-01-14" && /Kravchuk/i.test(entry)) {
+      return [
+        applyConversationAudit(
+          {
+            ...record,
+            id: "contact-1994-01-14-memcon-trilateral-yeltsin-kravchuk",
+            sortOrder: 1,
+            title:
+              "Memorandum of conversation: Trilateral Meeting with President Boris Yeltsin of Russia on Security Issues",
+            documentTitle:
+              "Trilateral Meeting with President Boris Yeltsin of Russia on Security Issues",
+            participants: [
+              "Bill Clinton",
+              "Boris Yeltsin",
+              "Leonid Kravchuk",
+              "Warren Christopher",
+              "Anthony Lake",
+              "Strobe Talbott",
+              "Andrei Kozyrev"
+            ],
+            countries: ["United States", "Russia", "Ukraine"],
+            releaseStatus: "Full",
+            naid: "C06694499",
+            catalogUrl: driveFileUrl(DRIVE_CANDIDATES.memcon19940114Trilateral.id),
+            pdfUrl: driveFileUrl(DRIVE_CANDIDATES.memcon19940114Trilateral.id),
+            dateLine:
+              "January 14, 1994, 8:35-8:55 a.m., St. Catherine's Hall, The Kremlin, Moscow",
+            subjectLine:
+              "State FOIA / Drive candidate trilateral Clinton-Yeltsin-Kravchuk security memcon.",
+            source: SOURCES.stateFoiaDrive,
+            sourceNote:
+              "Source: Google Drive search result for Department of State FOIA document C06694499, surfaced as a Clinton-Yeltsin-Kravchuk memcon candidate.",
+            relatedReleaseIds: ["Google Drive", "C06694499", "F-2017-13804"]
+          },
+          "1994-01-14-trilateral"
+        )
+      ];
+    }
+
+    if (date.iso === "1996-04-21" && /Moscow, Russia/i.test(entry)) {
+      return [
+        applyConversationAudit(
+          {
+            ...record,
+            id: "contact-1996-04-21-memcon-moscow-one-on-one",
+            sortOrder: 1,
+            title: "Memorandum of conversation: POTUS-Yeltsin One-on-One",
+            documentTitle: "POTUS-Yeltsin One-on-One",
+            dateLine: "April 21, 1996, 10:00-11:45 a.m., Moscow, Russia",
+            subjectLine:
+              "Moscow summit one-on-one memcon between Clinton and Yeltsin before the expanded luncheon.",
+            source: SOURCES.m1,
+            catalogUrl: SOURCES.m1.url,
+            pdfUrl: SOURCES.m1.pdfUrl,
+            relatedReleaseIds: ["2015-0782-M-1"]
+          },
+          "1996-04-21-one-on-one"
+        ),
+        applyConversationAudit(
+          {
+            ...record,
+            id: "contact-1996-04-21-memcon-moscow-luncheon",
+            sortOrder: 2,
+            title: "Memorandum of conversation: Luncheon Meeting with Russian President Boris Yeltsin",
+            documentTitle: "Luncheon Meeting with Russian President Boris Yeltsin",
+            dateLine: "April 21, 1996, 12:50-2:15 p.m., Moscow, Russia",
+            subjectLine:
+              "Moscow summit luncheon memcon with expanded U.S. and Russian delegations.",
+            source: SOURCES.m2,
+            catalogUrl: SOURCES.m2.url,
+            pdfUrl: SOURCES.m2.pdfUrl,
+            relatedReleaseIds: ["2015-0782-M-2"]
+          },
+          "1996-04-21-luncheon"
+        )
+      ];
+    }
+
+    if (date.iso === "1997-03-21" && /Helsinki/i.test(entry)) {
+      const helsinkiShared = {
+        ...record,
+        source: SOURCES.m2,
+        catalogUrl: SOURCES.m2.url,
+        pdfUrl: SOURCES.m2.pdfUrl,
+        relatedReleaseIds: ["2015-0782-M-2"]
+      };
+
+      return [
+        applyConversationAudit(
+          {
+            ...helsinkiShared,
+            id: "contact-1997-03-21-memcon-helsinki-morning",
+            sortOrder: 1,
+            title: "Memorandum of conversation: Helsinki Morning Meeting with President Boris Yeltsin",
+            documentTitle: "Helsinki Morning Meeting with President Boris Yeltsin",
+            dateLine: "March 21, 1997, 9:50-11:55 a.m., Helsinki, Finland",
+            subjectLine:
+              "Helsinki summit morning memcon covering NATO/Russia, arms control, and summit issues."
+          },
+          "1997-03-21-morning"
+        ),
+        applyConversationAudit(
+          {
+            ...helsinkiShared,
+            id: "contact-1997-03-21-memcon-helsinki-working-lunch",
+            sortOrder: 2,
+            title: "Memorandum of conversation: Helsinki Working Lunch with President Boris Yeltsin",
+            documentTitle: "Helsinki Working Lunch with President Boris Yeltsin",
+            dateLine: "March 21, 1997, 1:00-2:00 p.m., Helsinki, Finland",
+            subjectLine:
+              "Helsinki summit working-lunch memcon continuing the NATO/Russia and European security discussion."
+          },
+          "1997-03-21-lunch"
+        ),
+        applyConversationAudit(
+          {
+            ...helsinkiShared,
+            id: "contact-1997-03-21-memcon-helsinki-afternoon",
+            sortOrder: 3,
+            title: "Memorandum of conversation: Helsinki Afternoon Meeting with President Boris Yeltsin",
+            documentTitle: "Helsinki Afternoon Meeting with President Boris Yeltsin",
+            dateLine: "March 21, 1997, 4:00-4:50 p.m., Helsinki, Finland",
+            subjectLine:
+              "Helsinki summit afternoon memcon following the main morning and lunch sessions."
+          },
+          "1997-03-21-afternoon"
+        ),
+        applyConversationAudit(
+          {
+            ...helsinkiShared,
+            id: "contact-1997-03-21-memcon-helsinki-private-dinner",
+            sortOrder: 4,
+            title: "Memorandum of conversation: Helsinki Private Dinner with President Boris Yeltsin",
+            documentTitle: "Helsinki Private Dinner with President Boris Yeltsin",
+            dateLine: "March 21, 1997, 8:15-9:30 p.m., Helsinki, Finland",
+            subjectLine:
+              "Helsinki summit private-dinner memcon closing the March 21 Clinton-Yeltsin sequence."
+          },
+          "1997-03-21-dinner"
+        )
+      ];
+    }
+
     if (date.iso === "1993-04-03" && /April 3-4, 1993, Vancouver/i.test(entry)) {
       const shared = {
         participants: [
@@ -296,7 +1101,9 @@ function buildChronologyRecords() {
         catalogUrl: SOURCES.vancouverMemcons.url,
         source: SOURCES.vancouverMemcons,
         extractionRule: EXTRACTION_RULE,
-        relatedReleaseIds: ["2014-0901-M", "NARA NAID 163545404"]
+        relatedReleaseIds: ["2014-0901-M", "NARA NAID 163545404"],
+        potentialFrusDocument: true,
+        countStatus: "Counted actual conversation pages only"
       };
 
       return [
@@ -413,7 +1220,9 @@ function buildChronologyRecords() {
         catalogUrl: SOURCES.hydeParkMemcons.url,
         source: SOURCES.hydeParkMemcons,
         extractionRule: EXTRACTION_RULE,
-        relatedReleaseIds: ["2014-0948-M", "NARA NAID 163545436"]
+        relatedReleaseIds: ["2014-0948-M", "NARA NAID 163545436"],
+        potentialFrusDocument: true,
+        countStatus: "Counted actual conversation pages only"
       };
 
       return [
@@ -500,8 +1309,67 @@ function buildChronologyRecords() {
       ];
     }
 
-    return [record];
+    return [applyConversationAudit(record)];
   });
+}
+
+function makeDriveOnlyCandidate({ id, date, type, title, documentTitle, file, subjectLine }) {
+  const topics = contactTopics(title, date, type);
+  return {
+    id,
+    date,
+    sortDate: date,
+    type,
+    title,
+    documentTitle: documentTitle || title,
+    participants: ["Bill Clinton", "Boris Yeltsin"],
+    countries: ["United States", "Russia"],
+    chapter: CHAPTERS.chronology,
+    releaseStatus: "Unknown",
+    naid: file.id,
+    catalogUrl: driveFileUrl(file.id),
+    pdfUrl: driveFileUrl(file.id),
+    pageCount: null,
+    dateLine: date,
+    subjectLine,
+    source: SOURCES.googleDrive,
+    sourceNote:
+      "Source: Google Drive Clinton-Yeltsin search result. This exact-title hit is retained as a potential FRUS document because it was not represented as a separate counted record in the current Clinton Library foreign-leader chronology extract.",
+    extractionRule: EXTRACTION_RULE,
+    extractionStatus:
+      "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified.",
+    frusVolume: FRUS_VOLUME,
+    frusTopics: [...new Set([...topics, "Potential FRUS document", "Google Drive candidate"])],
+    topics: [...new Set([...topics, "Potential FRUS document", "Google Drive candidate"])],
+    googleDriveFiles: normalizeDriveFiles([file]),
+    potentialFrusDocument: true,
+    countStatus: "Extent pending"
+  };
+}
+
+function buildDriveOnlyCandidateRecords() {
+  return [
+    makeDriveOnlyCandidate({
+      id: "drive-candidate-1993-10-10-telcon-yeltsin",
+      date: "1993-10-10",
+      type: "Telcon",
+      title: "Google Drive candidate: Clinton-Yeltsin telcon, October 10, 1993",
+      documentTitle: "Clinton-Yeltsin telcon, October 10, 1993",
+      file: DRIVE_CANDIDATES.telcon19931010,
+      subjectLine:
+        "Exact-title Drive hit for a Clinton-Yeltsin telcon not counted in the current foreign-leader chronology extract; extent pending."
+    }),
+    makeDriveOnlyCandidate({
+      id: "drive-candidate-1994-09-27-telcon-yeltsin",
+      date: "1994-09-27",
+      type: "Telcon",
+      title: "Google Drive candidate: Clinton-Yeltsin telcon, September 27, 1994",
+      documentTitle: "Clinton-Yeltsin telcon, September 27, 1994",
+      file: DRIVE_CANDIDATES.telcon19940927,
+      subjectLine:
+        "Exact-title Drive hit for a same-day Clinton-Yeltsin telcon candidate; kept separate from the September 27, 1994 White House memcon until the PDF extent is verified."
+    })
+  ];
 }
 
 function buildReleasePackets() {
@@ -976,11 +1844,131 @@ function buildNaraScoutRecords() {
   ];
 }
 
+function pageSum(records) {
+  return records.reduce((sum, record) => sum + (Number.isInteger(record.pageCount) ? record.pageCount : 0), 0);
+}
+
+function countedStatus(records) {
+  const counted = records.filter((record) => Number.isInteger(record.pageCount));
+  return {
+    documents: records.length,
+    countedDocuments: counted.length,
+    pendingDocuments: records.length - counted.length,
+    pages: pageSum(records)
+  };
+}
+
+function groupTallies(records, field) {
+  return records.reduce((acc, record) => {
+    const key =
+      typeof field === "function"
+        ? field(record)
+        : record[field] || "Unknown";
+    if (!acc[key]) acc[key] = { documents: 0, countedDocuments: 0, pendingDocuments: 0, pages: 0 };
+    acc[key].documents += 1;
+    if (Number.isInteger(record.pageCount)) {
+      acc[key].countedDocuments += 1;
+      acc[key].pages += record.pageCount;
+    } else {
+      acc[key].pendingDocuments += 1;
+    }
+    return acc;
+  }, {});
+}
+
+function buildDocumentPageTallies(records) {
+  const potentialDocuments = records.filter(
+    (record) =>
+      record.chapter.name === CHAPTERS.chronology.name &&
+      (record.type === "Memcon" || record.type === "Telcon") &&
+      record.potentialFrusDocument !== false
+  );
+  const countedDocuments = potentialDocuments.filter((record) => Number.isInteger(record.pageCount));
+  const pendingDocuments = potentialDocuments.filter((record) => !Number.isInteger(record.pageCount));
+
+  return {
+    generatedAt: new Date().toISOString(),
+    scope:
+      "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, briefing material, and withdrawal sheets are excluded.",
+    consolidated: {
+      potentialDocuments: potentialDocuments.length,
+      countedDocuments: countedDocuments.length,
+      pendingDocuments: pendingDocuments.length,
+      totalConversationPages: pageSum(potentialDocuments),
+      totalMemconPages: pageSum(potentialDocuments.filter((record) => record.type === "Memcon")),
+      totalTelconPages: pageSum(potentialDocuments.filter((record) => record.type === "Telcon"))
+    },
+    byType: groupTallies(potentialDocuments, "type"),
+    byYear: groupTallies(potentialDocuments, (record) => record.date.slice(0, 4)),
+    bySource: groupTallies(
+      potentialDocuments,
+      (record) => record.source?.caseNumber || record.source?.name || "Unknown"
+    ),
+    pending: pendingDocuments.map((record) => ({
+      id: record.id,
+      date: record.date,
+      type: record.type,
+      documentTitle: record.documentTitle,
+      countStatus: record.countStatus || "Extent pending",
+      source: record.source?.caseNumber || record.source?.name || "Unknown",
+      googleDriveFiles: record.googleDriveFiles || []
+    })),
+    documents: potentialDocuments.map((record) => ({
+      id: record.id,
+      date: record.date,
+      type: record.type,
+      documentTitle: record.documentTitle,
+      pageCount: record.pageCount,
+      countStatus: record.countStatus || (record.pageCount ? "Counted" : "Extent pending"),
+      source: record.source?.caseNumber || record.source?.name || "Unknown",
+      sourcePdfPages: record.sourcePdfPages || null,
+      sourcePdfPageCount: record.sourcePdfPageCount || null,
+      markerPage: record.markerPage || null,
+      googleDriveFiles: record.googleDriveFiles || [],
+      extractionStatus: record.extractionStatus || null
+    }))
+  };
+}
+
+function dedupeCompilerRecords(records) {
+  const seen = new Map();
+  const deduped = [];
+
+  for (const record of records) {
+    const key =
+      record.dedupeKey ||
+      [
+        record.chapter.name,
+        record.date,
+        record.type,
+        record.sortOrder || "",
+        ascii(record.documentTitle || record.title).toLowerCase(),
+        record.sourcePdfPages || ""
+      ].join("|");
+
+    if (seen.has(key)) {
+      const original = seen.get(key);
+      original.deduplicatedRecordIds = [...(original.deduplicatedRecordIds || []), record.id];
+      original.sourceNote = appendNote(
+        original.sourceNote,
+        `Deduplicated generated duplicate record ${record.id}.`
+      );
+      continue;
+    }
+
+    seen.set(key, record);
+    deduped.push(record);
+  }
+
+  return deduped;
+}
+
 function writeOutputs(records) {
   records.sort(
     (a, b) =>
       a.chapter.number - b.chapter.number ||
       a.sortDate.localeCompare(b.sortDate) ||
+      (a.sortOrder || 0) - (b.sortOrder || 0) ||
       a.title.localeCompare(b.title)
   );
 
@@ -1005,21 +1993,43 @@ function writeOutputs(records) {
       acc[record.type] = (acc[record.type] || 0) + 1;
       return acc;
     }, {}),
+    pageTallies: {
+      allRecords: countedStatus(records),
+      potentialClintonYeltsinDocuments: countedStatus(
+        records.filter(
+          (record) =>
+            record.chapter.name === CHAPTERS.chronology.name &&
+            (record.type === "Memcon" || record.type === "Telcon") &&
+            record.potentialFrusDocument !== false
+        )
+      ),
+      byChapter: Object.fromEntries(
+        Object.values(CHAPTERS).map((chapter) => [
+          chapter.name,
+          countedStatus(records.filter((record) => record.chapter.name === chapter.name))
+        ])
+      )
+    },
     sources: {
       clintonText: CLINTON_TEXT,
       strobeManifest: STROBE_MANIFEST,
       naraScout: SOURCES.naraScout.url
     }
   };
+  fs.writeFileSync(
+    path.join(reportsDir, "document-page-tallies.json"),
+    `${JSON.stringify(buildDocumentPageTallies(records), null, 2)}\n`
+  );
   fs.writeFileSync(path.join(reportsDir, "source-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
   console.log(JSON.stringify(summary, null, 2));
 }
 
-const records = [
+const records = dedupeCompilerRecords([
   ...buildChronologyRecords(),
+  ...buildDriveOnlyCandidateRecords(),
   ...buildReleasePackets(),
   ...buildStrobeRecords(),
   ...buildNaraScoutRecords()
-];
+]);
 
 writeOutputs(records);

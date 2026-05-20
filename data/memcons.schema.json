@@ -97,9 +97,47 @@
     "sourcePdfPages": {
       "type": "string"
     },
+    "sourcePdfPageCount": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
     "markerPage": {
       "type": ["integer", "null"],
       "minimum": 1
+    },
+    "sortOrder": {
+      "type": "integer"
+    },
+    "potentialFrusDocument": {
+      "type": "boolean"
+    },
+    "countStatus": {
+      "type": "string"
+    },
+    "candidateStatus": {
+      "type": "string"
+    },
+    "googleDriveFiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "url", "status"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
     },
     "digitalObjects": {
       "type": ["integer", "null"],
@@ -185,6 +223,12 @@
       }
     },
     "relatedReleaseIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "deduplicatedRecordIds": {
       "type": "array",
       "items": {
         "type": "string"

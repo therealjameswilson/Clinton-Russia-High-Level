@@ -32,6 +32,7 @@ function byChapterThenDate(a, b) {
   return (
     a.chapter.number - b.chapter.number ||
     a.sortDate.localeCompare(b.sortDate) ||
+    (a.sortOrder || 0) - (b.sortOrder || 0) ||
     a.title.localeCompare(b.title)
   );
 }
@@ -136,13 +137,25 @@ function createRecordRow(record) {
     links.append(source);
   }
 
-  if (record.pdfUrl) {
+  if (record.pdfUrl && record.pdfUrl !== record.catalogUrl) {
     const pdf = document.createElement("a");
     pdf.href = record.pdfUrl;
     pdf.rel = "noreferrer";
     pdf.target = "_blank";
     pdf.textContent = "Open PDF";
     links.append(pdf);
+  }
+
+  for (const file of record.googleDriveFiles || []) {
+    if (!file.url) continue;
+    if (file.url === record.catalogUrl || file.url === record.pdfUrl) continue;
+    const drive = document.createElement("a");
+    drive.href = file.url;
+    drive.rel = "noreferrer";
+    drive.target = "_blank";
+    drive.textContent = "Drive";
+    drive.title = file.title || "Google Drive candidate";
+    links.append(drive);
   }
 
   row.append(date, body, links);
