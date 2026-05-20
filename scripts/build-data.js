@@ -228,6 +228,17 @@ function buildChronologyRecords() {
     if (date.iso >= "1999-03-24" && date.iso <= "1999-06-20") {
       related.push(SOURCES.kosovoLetter.caseNumber);
     }
+    const supportingSourceNotes = [];
+    if (date.iso === "1994-07-05") {
+      supportingSourceNotes.push(
+        "Clinton Digital Library item 48591, Russia [1] (2011-0516-S), includes July 5, 1994 press contingency points stating that Clinton called Yeltsin from the Oval Office for about 20 minutes; the surrounding Lake memo, Yeltsin-call talking points, and June 28 Yeltsin letter are withdrawal markers, not a telcon transcript."
+      );
+    }
+    if (date.iso === "1996-04-09") {
+      supportingSourceNotes.push(
+        "Clinton Digital Library item 48591, Russia [1] (2011-0516-S), includes withdrawal markers for April 8, 1996 briefing paper and talking points prepared for Clinton's April 9 Yeltsin call; it does not include the telcon transcript."
+      );
+    }
 
     const record = {
       id: `contact-${date.iso}-${slug(type)}-${String(index + 1).padStart(2, "0")}`,
@@ -256,7 +267,9 @@ function buildChronologyRecords() {
       source,
       sourceNote: `Source: ${SOURCES.leaderList.name}, master chronology; release packet ${
         source.caseNumber || "not assigned"
-      }${related.length ? `; related packet(s): ${related.join(", ")}` : ""}.`,
+      }${related.length ? `; related packet(s): ${related.join(", ")}` : ""}.${
+        supportingSourceNotes.length ? ` Supporting source: ${supportingSourceNotes.join(" ")}` : ""
+      }`,
       extractionRule: EXTRACTION_RULE,
       frusVolume: FRUS_VOLUME,
       frusTopics: contactTopics(entry, date.iso, type),

@@ -1275,7 +1275,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Supporting source: Clinton Digital Library item 48591, Russia [1] (2011-0516-S), includes July 5, 1994 press contingency points stating that Clinton called Yeltsin from the Oval Office for about 20 minutes; the surrounding Lake memo, Yeltsin-call talking points, and June 28 Yeltsin letter are withdrawal markers, not a telcon transcript.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -2219,7 +2219,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Supporting source: Clinton Digital Library item 48591, Russia [1] (2011-0516-S), includes withdrawal markers for April 8, 1996 briefing paper and talking points prepared for Clinton's April 9 Yeltsin call; it does not include the telcon transcript.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
