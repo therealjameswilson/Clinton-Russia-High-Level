@@ -679,7 +679,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1; related packet(s): 2014-0996-M. Page count audit: 9 actual conversation pages from 81-89; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1; related packet(s): 2014-0996-M. Page count audit: 9 actual conversation pages from 81-89; non-conversation pages and duplicate copies excluded. Strobe FOIA review: C09000001 (Strobe FOIA cable copy of the July 10, 1993 Clinton-Yeltsin Tokyo memcon; cover sheet excluded.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -714,6 +714,15 @@
         "title": "930710 Clinton and Yeltsin in Tokyo memconpdf.pdf",
         "url": "https://drive.google.com/file/d/1oLH4zCmIub-kgvXXs0wZDGELWehL9Pqh/view",
         "status": "Google Drive search match"
+      }
+    ],
+    "strobeFiles": [
+      {
+        "id": "C09000001",
+        "date": "1993-07-16",
+        "title": "Memon with President Boris Yeltsin of Russia w/Attached Cover Sheet",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2023/FL-2017-13804/DOC_0C09000001/C09000001.pdf",
+        "status": "Strobe FOIA cable copy of the July 10, 1993 Clinton-Yeltsin Tokyo memcon; cover sheet excluded."
       }
     ],
     "potentialFrusDocument": true,
@@ -1959,7 +1968,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page count audit: 4 actual conversation pages from 227-230; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page count audit: 4 actual conversation pages from 227-230; non-conversation pages and duplicate copies excluded. Strobe FOIA review: C06694711 (Strobe FOIA copy of the actual October 5, 1994 telcon; duplicate source copy, not counted again.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -1986,6 +1995,15 @@
     "relatedReleaseIds": [],
     "sourcePdfPages": "227-230",
     "sourcePdfPageCount": 397,
+    "strobeFiles": [
+      {
+        "id": "C06694711",
+        "date": "1994-10-05",
+        "title": "Telephone Conversation with Russian President Yeltsin",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694711/C06694711.pdf",
+        "status": "Strobe FOIA copy of the actual October 5, 1994 telcon; duplicate source copy, not counted again."
+      }
+    ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
     "extractionStatus": "Potential FRUS document: counted only actual telcon pages 227-230 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -2272,18 +2290,17 @@
     },
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
-    "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
-    "pageCount": null,
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+    "pageCount": 8,
     "dateLine": "June 17, 1995, Halifax, Nova Scotia, Canada",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
     "source": {
-      "name": "Clinton Library MDR release 2015-0782-M-1",
-      "caseNumber": "2015-0782-M-1",
-      "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Strobe FOIA document C06835181 supplies the actual Halifax Clinton-Yeltsin meeting record; counted pages 1-8 only. Strobe FOIA review: C06835181 (Strobe FOIA copy with the actual Halifax Clinton-Yeltsin meeting pages 1-8.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -2308,8 +2325,20 @@
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
+    "sourcePdfPages": "Strobe FOIA document C06835181, conversation pages 1-8",
+    "sourcePdfPageCount": 8,
+    "strobeFiles": [
+      {
+        "id": "C06835181",
+        "date": "1995-06-17",
+        "title": "Clinton-Yeltsin Meeting",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+        "status": "Strobe FOIA copy with the actual Halifax Clinton-Yeltsin meeting pages 1-8."
+      }
+    ],
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
+    "countStatus": "Counted actual conversation pages only",
+    "extractionStatus": "Potential FRUS document: counted only the actual Halifax memcon pages 1-8 in Strobe FOIA document C06835181. No separate marker/provenance page was present in the reviewed Strobe PDF."
   },
   {
     "id": "contact-1995-07-28-telcon-30",
@@ -2493,7 +2522,7 @@
       "url": "https://catalog.archives.gov/id/163545436",
       "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf"
     },
-    "sourceNote": "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507853. Derivative PDF extracts source pages 5-16 and appends source marker page 1 as provenance sheet.",
+    "sourceNote": "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507853. Derivative PDF extracts source pages 5-16 and appends source marker page 1 as provenance sheet. Strobe FOIA document C06835137 is a duplicate source copy of the same one-on-one and is not counted again.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -2534,6 +2563,15 @@
     "localPdfPageCount": 13,
     "sourcePdfPages": "5-16",
     "markerPage": 1,
+    "strobeFiles": [
+      {
+        "id": "C06835137",
+        "date": "1995-10-23",
+        "title": "Clinton-Yeltsin One-on-One",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835137/C06835137.pdf",
+        "status": "Strobe FOIA copy of the October 23, 1995 Hyde Park one-on-one; duplicate source copy, not counted again."
+      }
+    ],
     "extractionStatus": "Extracted actual memcon pages 5-16 from the source PDF; appended original marker page 1 as the final provenance sheet."
   },
   {
@@ -2936,7 +2974,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page count audit: 13 actual conversation pages from 381-393; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page count audit: 13 actual conversation pages from 381-393; non-conversation pages and duplicate copies excluded. Strobe FOIA review: C06697699 (Strobe FOIA copy of the April 21, 1996 Moscow one-on-one pages 1-13; duplicate source copy, not counted again.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -2972,6 +3010,15 @@
         "title": "960421 Clinton and Yeltsin in the Kremlin memconpdf.pdf",
         "url": "https://drive.google.com/file/d/14NhGIMpynoxRlqbrA48-tTTGziPFz-B_/view",
         "status": "Google Drive search match"
+      }
+    ],
+    "strobeFiles": [
+      {
+        "id": "C06697699",
+        "date": "1996-04-21",
+        "title": "POTUS-Yeltsin One-on-One",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697699/C06697699.pdf",
+        "status": "Strobe FOIA copy of the April 21, 1996 Moscow one-on-one pages 1-13; duplicate source copy, not counted again."
       }
     ],
     "potentialFrusDocument": true,
@@ -3155,7 +3202,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 2 actual conversation pages from 39-40; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 2 actual conversation pages from 39-40; non-conversation pages and duplicate copies excluded. Strobe FOIA review: C09000056 (Strobe FOIA packet; actual June 18, 1996 telcon is pages 3-4, with transmittal and unrelated attachments excluded.) C09000028 (Strobe FOIA cable copy of the June 18, 1996 call; duplicate source copy, not counted again.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -3188,6 +3235,22 @@
         "title": "960618 Clinton and Yeltsin telconpdf.pdf",
         "url": "https://drive.google.com/file/d/1WFu5nHDo4uSM89CiS2CvB-vhCG76XUy3/view",
         "status": "Google Drive search match"
+      }
+    ],
+    "strobeFiles": [
+      {
+        "id": "C09000056",
+        "date": "1996-06-18",
+        "title": "Transmittal Memorandum of Telephone Conversation with Russian Boris Yeltsin w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000056/C09000056.pdf",
+        "status": "Strobe FOIA packet; actual June 18, 1996 telcon is pages 3-4, with transmittal and unrelated attachments excluded."
+      },
+      {
+        "id": "C09000028",
+        "date": "1996-06-20",
+        "title": "Memorandum of Conversation between President Clinton and President Yeltsin on 6/18/96",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+        "status": "Strobe FOIA cable copy of the June 18, 1996 call; duplicate source copy, not counted again."
       }
     ],
     "potentialFrusDocument": true,
@@ -3360,7 +3423,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 3 actual conversation pages from 77-79; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 3 actual conversation pages from 77-79; non-conversation pages and duplicate copies excluded. Strobe FOIA review: C06699017 (Strobe FOIA copy of the December 5, 1996 telcon pages 1-3; duplicate source copy, not counted again.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -3387,6 +3450,15 @@
     "relatedReleaseIds": [],
     "sourcePdfPages": "77-79",
     "sourcePdfPageCount": 591,
+    "strobeFiles": [
+      {
+        "id": "C06699017",
+        "date": "1996-12-05",
+        "title": "Conversation with President Boris Yeltsin of Russia",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699017/C06699017.pdf",
+        "status": "Strobe FOIA copy of the December 5, 1996 telcon pages 1-3; duplicate source copy, not counted again."
+      }
+    ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
     "extractionStatus": "Potential FRUS document: counted only actual telcon pages 77-79 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -3958,7 +4030,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 6 actual conversation pages from 183-188; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Duplicate packet pages 193-198 were excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 6 actual conversation pages from 183-188; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Duplicate packet pages 193-198 were excluded. Strobe FOIA review: C09000014 (Strobe FOIA copy of the October 30, 1997 telcon; duplicate source copy, not counted again.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -3993,6 +4065,15 @@
         "title": "971030 Clinton and Yeltsin telconpdf.pdf",
         "url": "https://drive.google.com/file/d/1fT5AgUtzJunIagUVKSoKio6YudL2rLEx/view",
         "status": "Google Drive search match"
+      }
+    ],
+    "strobeFiles": [
+      {
+        "id": "C09000014",
+        "date": "1997-10-30",
+        "title": "Memorandum of Telephone Conversation",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000014/C09000014.pdf",
+        "status": "Strobe FOIA copy of the October 30, 1997 telcon; duplicate source copy, not counted again."
       }
     ],
     "potentialFrusDocument": true,
@@ -4323,7 +4404,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 5 actual conversation pages from 274-278; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Earlier duplicate packet pages 267-270 were excluded in favor of the complete copy.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 5 actual conversation pages from 274-278; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Earlier duplicate packet pages 267-270 were excluded in favor of the complete copy. Strobe FOIA review: C09000007 (Strobe FOIA packet includes an attached copy of the April 6, 1998 telcon after the May 17 memcon; duplicate source copy, not counted again.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -4358,6 +4439,15 @@
         "title": "980406 Clinton and Yeltsin telconpdf.pdf",
         "url": "https://drive.google.com/file/d/1BCpDN6EIDJyq188YS46cjJgYs2kyzNui/view",
         "status": "Google Drive search match"
+      }
+    ],
+    "strobeFiles": [
+      {
+        "id": "C09000007",
+        "date": "1998-05-17",
+        "title": "POTUS-Yeltsin Memcon w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+        "status": "Strobe FOIA packet includes an attached copy of the April 6, 1998 telcon after the May 17 memcon; duplicate source copy, not counted again."
       }
     ],
     "potentialFrusDocument": true,
@@ -4396,7 +4486,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 5 actual conversation pages from 286-290; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 5 actual conversation pages from 286-290; non-conversation pages and duplicate copies excluded. Strobe FOIA review: C09000006 (Strobe FOIA cable copy of the May 12, 1998 Clinton-Yeltsin call; duplicate source copy, not counted again.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -4431,6 +4521,15 @@
         "title": "980512 Clinton and Yeltsin telconpdf.pdf",
         "url": "https://drive.google.com/file/d/1j3wB3sjgDr43yH8nbu9W4eX35XNb5vTo/view",
         "status": "Google Drive search match"
+      }
+    ],
+    "strobeFiles": [
+      {
+        "id": "C09000006",
+        "date": "1998-05-20",
+        "title": "Memorandum of Conversation between President Clinton and the President of Russia Boris Yeltsin on 5/12/1998",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000006/C09000006.pdf",
+        "status": "Strobe FOIA cable copy of the May 12, 1998 Clinton-Yeltsin call; duplicate source copy, not counted again."
       }
     ],
     "potentialFrusDocument": true,
@@ -4469,7 +4568,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 8 actual conversation pages from 312-319; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 8 actual conversation pages from 312-319; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: The Strobe FOIA packet's informal copy runs pages 1-13 and also carries an April 6, 1998 telcon attachment; the canonical count remains the released MDR packet pages 312-319. Strobe FOIA review: C09000007 (Strobe FOIA informal copy of the May 17, 1998 Birmingham memcon on pages 1-13; duplicate source copy, not counted again.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -4504,6 +4603,15 @@
         "title": "980517 Clinton and Yeltsin in Birmingham memconpdf.pdf",
         "url": "https://drive.google.com/file/d/1IkQrGGfVtGl1fkXMaHmkwjSnmcpTyA7S/view",
         "status": "Google Drive search match"
+      }
+    ],
+    "strobeFiles": [
+      {
+        "id": "C09000007",
+        "date": "1998-05-17",
+        "title": "POTUS-Yeltsin Memcon w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+        "status": "Strobe FOIA informal copy of the May 17, 1998 Birmingham memcon on pages 1-13; duplicate source copy, not counted again."
       }
     ],
     "potentialFrusDocument": true,
@@ -4615,7 +4723,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 4 actual conversation pages from 329-332; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Duplicate first-page copy on packet page 334 was excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 4 actual conversation pages from 329-332; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Duplicate first-page copy on packet page 334 was excluded. Strobe FOIA review: C09000028 (Strobe FOIA packet; actual May 28, 1998 telcon is pages 2-5, with transmittal excluded.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -4650,6 +4758,15 @@
         "title": "980528 Clinton and Yeltsin telconpdf.pdf",
         "url": "https://drive.google.com/file/d/1F2aVY9zTrKysoGW-6-bn5tGdsTGDQ4y5/view",
         "status": "Google Drive search match"
+      }
+    ],
+    "strobeFiles": [
+      {
+        "id": "C09000028",
+        "date": "1998-06-02",
+        "title": "Transmittal Memorandum of Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+        "status": "Strobe FOIA packet; actual May 28, 1998 telcon is pages 2-5, with transmittal excluded."
       }
     ],
     "potentialFrusDocument": true,
@@ -4829,7 +4946,7 @@
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 4 actual conversation pages from 371-374; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page count audit: 4 actual conversation pages from 371-374; non-conversation pages and duplicate copies excluded. Strobe FOIA review: C09000004 (Strobe FOIA packet; actual July 10, 1998 telcon is pages 1-4, with tasking/transmittal pages excluded.)",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -4864,6 +4981,15 @@
         "title": "980710 Clinton and Yeltsin telconpdf.pdf",
         "url": "https://drive.google.com/file/d/1rfsHmNUqd_CG69JwlpHp3gb91PiFko5A/view",
         "status": "Google Drive search match"
+      }
+    ],
+    "strobeFiles": [
+      {
+        "id": "C09000004",
+        "date": "1998-07-10",
+        "title": "Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+        "status": "Strobe FOIA packet; actual July 10, 1998 telcon is pages 1-4, with tasking/transmittal pages excluded."
       }
     ],
     "potentialFrusDocument": true,
@@ -6564,51 +6690,6 @@
     "relevanceScore": 70
   },
   {
-    "id": "strobe-c06694711",
-    "date": "1993-10-05",
-    "sortDate": "1993-10-05",
-    "type": "Context",
-    "title": "TELEPHONE CONVERSATION WITH RUSSIAN PRESIDENT YELSTIN",
-    "documentTitle": "TELEPHONE CONVERSATION WITH RUSSIAN PRESIDENT YELSTIN",
-    "participants": [],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 3,
-      "name": "Talbott FOIA Context"
-    },
-    "releaseStatus": "Full",
-    "naid": "C06694711",
-    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694711/C06694711.pdf",
-    "pageCount": null,
-    "dateLine": "1993-10-05",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
-    "source": {
-      "name": "Strobe Talbott FOIA manifest",
-      "caseNumber": "F-2017-13804",
-      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
-    },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06694711; release status RELEASE IN FULL.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Talbott FOIA",
-      "Russia policy context"
-    ],
-    "topics": [
-      "Talbott FOIA",
-      "Russia policy context"
-    ],
-    "relevanceScore": 150
-  },
-  {
     "id": "strobe-c06695297",
     "date": "1994-09-12",
     "sortDate": "1994-09-12",
@@ -6654,12 +6735,12 @@
     "relevanceScore": 70
   },
   {
-    "id": "strobe-c06694708",
-    "date": "1994-10-07",
-    "sortDate": "1994-10-07",
+    "id": "strobe-c06695261",
+    "date": "1994-09-23",
+    "sortDate": "1994-09-23",
     "type": "Context",
-    "title": "TRANSMITTAL OF PRESIDENTIAL TELCON WITH PRESIDENT BORIS YELTSIN OF RUSSIA",
-    "documentTitle": "TRANSMITTAL OF PRESIDENTIAL TELCON WITH PRESIDENT BORIS YELTSIN OF RUSSIA",
+    "title": "MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN",
+    "documentTitle": "MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN",
     "participants": [],
     "countries": [
       "United States",
@@ -6670,18 +6751,18 @@
       "name": "Talbott FOIA Context"
     },
     "releaseStatus": "Full",
-    "naid": "C06694708",
+    "naid": "C06695261",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694708/C06694708.pdf",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695261/C06695261.pdf",
     "pageCount": null,
-    "dateLine": "1994-10-07",
+    "dateLine": "1994-09-23",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06694708; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06695261; release status RELEASE IN FULL.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -6698,15 +6779,15 @@
       "Russia policy context",
       "Yeltsin"
     ],
-    "relevanceScore": 150
+    "relevanceScore": 70
   },
   {
-    "id": "strobe-c06835181",
-    "date": "1995-06-17",
-    "sortDate": "1995-06-17",
+    "id": "strobe-c06694734",
+    "date": "1994-12-16",
+    "sortDate": "1994-12-16",
     "type": "Context",
-    "title": "Clinton-Yeltsin Meeting",
-    "documentTitle": "Clinton-Yeltsin Meeting",
+    "title": "DECEMBER 15 TALBOTT-RYURIKOV MEETING ON",
+    "documentTitle": "DECEMBER 15 TALBOTT-RYURIKOV MEETING ON",
     "participants": [],
     "countries": [
       "United States",
@@ -6716,19 +6797,19 @@
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Unknown",
-    "naid": "C06835181",
+    "releaseStatus": "Full",
+    "naid": "C06694734",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694734/C06694734.pdf",
     "pageCount": null,
-    "dateLine": "1995-06-17",
+    "dateLine": "1994-12-16",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06835181; release status UNKNOWN.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06694734; release status RELEASE IN FULL.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -6737,15 +6818,103 @@
     },
     "frusTopics": [
       "Talbott FOIA",
-      "Russia policy context",
-      "Yeltsin"
+      "Russia policy context"
     ],
     "topics": [
       "Talbott FOIA",
-      "Russia policy context",
-      "Yeltsin"
+      "Russia policy context"
     ],
-    "relevanceScore": 120
+    "relevanceScore": 70
+  },
+  {
+    "id": "strobe-c06698191",
+    "date": "1995-07-09",
+    "sortDate": "1995-07-09",
+    "type": "Context",
+    "title": "TALBOTT-MAMEDOV MEETING IN BUENOS AIRES ON THE MARGINS OF MENEM INAUGURAL",
+    "documentTitle": "TALBOTT-MAMEDOV MEETING IN BUENOS AIRES ON THE MARGINS OF MENEM INAUGURAL",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06698191",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698191/C06698191.pdf",
+    "pageCount": null,
+    "dateLine": "1995-07-09",
+    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698191; release status RELEASE IN FULL.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context"
+    ],
+    "relevanceScore": 70
+  },
+  {
+    "id": "strobe-c06698129",
+    "date": "1995-09-15",
+    "sortDate": "1995-09-15",
+    "type": "Context",
+    "title": "KOZYREV MEETING",
+    "documentTitle": "KOZYREV MEETING",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06698129",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698129/C06698129.pdf",
+    "pageCount": null,
+    "dateLine": "1995-09-15",
+    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698129; release status RELEASE IN FULL.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context"
+    ],
+    "relevanceScore": 70
   },
   {
     "id": "strobe-c06698076",
@@ -6791,53 +6960,6 @@
       "Russia policy context"
     ],
     "relevanceScore": 100
-  },
-  {
-    "id": "strobe-c06835137",
-    "date": "1995-10-23",
-    "sortDate": "1995-10-23",
-    "type": "Context",
-    "title": "Clinton-Yeltsin One-on-One",
-    "documentTitle": "Clinton-Yeltsin One-on-One",
-    "participants": [],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 3,
-      "name": "Talbott FOIA Context"
-    },
-    "releaseStatus": "Unknown",
-    "naid": "C06835137",
-    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835137/C06835137.pdf",
-    "pageCount": null,
-    "dateLine": "1995-10-23",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
-    "source": {
-      "name": "Strobe Talbott FOIA manifest",
-      "caseNumber": "F-2017-13804",
-      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
-    },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06835137; release status UNKNOWN.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Yeltsin"
-    ],
-    "topics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Yeltsin"
-    ],
-    "relevanceScore": 120
   },
   {
     "id": "strobe-c06698198",
@@ -6932,12 +7054,12 @@
     "relevanceScore": 120
   },
   {
-    "id": "strobe-c06697699",
-    "date": "1996-04-21",
-    "sortDate": "1996-04-21",
+    "id": "strobe-c06697694",
+    "date": "1996-06-29",
+    "sortDate": "1996-06-29",
     "type": "Context",
-    "title": "POTUS-YELTSIN ONE-ON-ONE",
-    "documentTitle": "POTUS-YELTSIN ONE-ON-ONE",
+    "title": "MEETING WITH PRIME MINISTER CHERNOMYRDIN",
+    "documentTitle": "MEETING WITH PRIME MINISTER CHERNOMYRDIN",
     "participants": [],
     "countries": [
       "United States",
@@ -6948,18 +7070,18 @@
       "name": "Talbott FOIA Context"
     },
     "releaseStatus": "Full",
-    "naid": "C06697699",
+    "naid": "C06697694",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697699/C06697699.pdf",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf",
     "pageCount": null,
-    "dateLine": "1996-04-21",
+    "dateLine": "1996-06-29",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06697699; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06697694; release status RELEASE IN FULL.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -6969,14 +7091,14 @@
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Yeltsin"
+      "Chernomyrdin"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Yeltsin"
+      "Chernomyrdin"
     ],
-    "relevanceScore": 120
+    "relevanceScore": 70
   },
   {
     "id": "strobe-c06697692",
@@ -7069,6 +7191,51 @@
       "Russia policy context"
     ],
     "relevanceScore": 100
+  },
+  {
+    "id": "strobe-c06698213",
+    "date": "1996-08-28",
+    "sortDate": "1996-08-28",
+    "type": "Context",
+    "title": "HERE'S A REPORT ON MY SESSION WITH MAMEDOV IN OTTAWA",
+    "documentTitle": "HERE'S A REPORT ON MY SESSION WITH MAMEDOV IN OTTAWA",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06698213",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698213/C06698213.pdf",
+    "pageCount": null,
+    "dateLine": "1996-08-28",
+    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698213; release status RELEASE IN FULL.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context"
+    ],
+    "relevanceScore": 70
   },
   {
     "id": "strobe-c06698358",
@@ -7392,53 +7559,6 @@
       "Russia policy context"
     ],
     "relevanceScore": 100
-  },
-  {
-    "id": "strobe-c06699017",
-    "date": "1996-12-05",
-    "sortDate": "1996-12-05",
-    "type": "Context",
-    "title": "CONVERSATION WITH PRESIDENT BORIS YELTSIN OF RUSSIA",
-    "documentTitle": "CONVERSATION WITH PRESIDENT BORIS YELTSIN OF RUSSIA",
-    "participants": [],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 3,
-      "name": "Talbott FOIA Context"
-    },
-    "releaseStatus": "Full",
-    "naid": "C06699017",
-    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699017/C06699017.pdf",
-    "pageCount": null,
-    "dateLine": "1996-12-05",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
-    "source": {
-      "name": "Strobe Talbott FOIA manifest",
-      "caseNumber": "F-2017-13804",
-      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
-    },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06699017; release status RELEASE IN FULL.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Yeltsin"
-    ],
-    "topics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Yeltsin"
-    ],
-    "relevanceScore": 150
   },
   {
     "id": "strobe-c06703698",

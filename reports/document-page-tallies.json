@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-20T01:02:55.371Z",
-  "scope": "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, briefing material, and withdrawal sheets are excluded.",
+  "generatedAt": "2026-05-20T01:18:52.419Z",
+  "scope": "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, Strobe cross-reference copies, briefing material, and withdrawal sheets are excluded.",
   "consolidated": {
     "potentialDocuments": 88,
-    "countedDocuments": 77,
-    "pendingDocuments": 11,
-    "totalConversationPages": 400,
-    "totalMemconPages": 180,
+    "countedDocuments": 78,
+    "pendingDocuments": 10,
+    "totalConversationPages": 408,
+    "totalMemconPages": 188,
     "totalTelconPages": 220
   },
   "byType": {
@@ -18,9 +18,9 @@
     },
     "Memcon": {
       "documents": 26,
-      "countedDocuments": 21,
-      "pendingDocuments": 5,
-      "pages": 180
+      "countedDocuments": 22,
+      "pendingDocuments": 4,
+      "pages": 188
     }
   },
   "byYear": {
@@ -38,9 +38,9 @@
     },
     "1995": {
       "documents": 8,
-      "countedDocuments": 7,
-      "pendingDocuments": 1,
-      "pages": 49
+      "countedDocuments": 8,
+      "pendingDocuments": 0,
+      "pages": 57
     },
     "1996": {
       "documents": 11,
@@ -75,9 +75,9 @@
   },
   "bySource": {
     "2015-0782-M-1": {
-      "documents": 32,
+      "documents": 31,
       "countedDocuments": 29,
-      "pendingDocuments": 3,
+      "pendingDocuments": 2,
       "pages": 140
     },
     "2014-0901-M": {
@@ -93,10 +93,10 @@
       "pages": 0
     },
     "F-2017-13804": {
-      "documents": 2,
-      "countedDocuments": 2,
+      "documents": 3,
+      "countedDocuments": 3,
       "pendingDocuments": 0,
-      "pages": 11
+      "pages": 19
     },
     "2014-0948-M": {
       "documents": 2,
@@ -125,7 +125,8 @@
       "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 1, 1993, Portland, Oregon",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-1",
-      "googleDriveFiles": []
+      "googleDriveFiles": [],
+      "strobeFiles": []
     },
     {
       "id": "drive-candidate-1993-10-10-telcon-yeltsin",
@@ -141,7 +142,8 @@
           "url": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
           "status": "Google Drive search match"
         }
-      ]
+      ],
+      "strobeFiles": []
     },
     {
       "id": "contact-1994-06-03-telcon-19",
@@ -150,7 +152,8 @@
       "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 3, 1994, Rome, Italy",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-1",
-      "googleDriveFiles": []
+      "googleDriveFiles": [],
+      "strobeFiles": []
     },
     {
       "id": "drive-candidate-1994-09-27-telcon-yeltsin",
@@ -166,16 +169,8 @@
           "url": "https://drive.google.com/file/d/15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z/view",
           "status": "Google Drive search match"
         }
-      ]
-    },
-    {
-      "id": "contact-1995-06-17-memcon-29",
-      "date": "1995-06-17",
-      "type": "Memcon",
-      "documentTitle": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada",
-      "countStatus": "Extent pending",
-      "source": "2015-0782-M-1",
-      "googleDriveFiles": []
+      ],
+      "strobeFiles": []
     },
     {
       "id": "contact-1996-03-13-memcon-35",
@@ -197,7 +192,8 @@
           "url": "https://drive.google.com/file/d/1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2/view",
           "status": "Google Drive search match"
         }
-      ]
+      ],
+      "strobeFiles": []
     },
     {
       "id": "contact-1998-09-01-memcon-63",
@@ -206,7 +202,8 @@
       "documentTitle": "Meetings with President Boris Yeltsin of Russia, September 1-2, 1998, Moscow, Russia",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-2",
-      "googleDriveFiles": []
+      "googleDriveFiles": [],
+      "strobeFiles": []
     },
     {
       "id": "contact-1998-10-05-telcon-65",
@@ -215,7 +212,8 @@
       "documentTitle": "Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-2",
-      "googleDriveFiles": []
+      "googleDriveFiles": [],
+      "strobeFiles": []
     },
     {
       "id": "contact-1998-12-30-telcon-66",
@@ -224,7 +222,8 @@
       "documentTitle": "Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-2",
-      "googleDriveFiles": []
+      "googleDriveFiles": [],
+      "strobeFiles": []
     },
     {
       "id": "contact-1999-02-08-memcon-67",
@@ -233,7 +232,8 @@
       "documentTitle": "Meeting with President Boris Yeltsin of Russia, February 8, 1999, Amman, Jordan",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-2",
-      "googleDriveFiles": []
+      "googleDriveFiles": [],
+      "strobeFiles": []
     },
     {
       "id": "contact-2000-06-05-memcon-81",
@@ -242,7 +242,8 @@
       "documentTitle": "Meeting with former President Boris Yeltsin of Russia, June 5, 2000, Moscow, Russia",
       "countStatus": "Extent pending",
       "source": "Clinton Library, Meetings and Telephone Calls with Foreign Leaders",
-      "googleDriveFiles": []
+      "googleDriveFiles": [],
+      "strobeFiles": []
     }
   ],
   "documents": [
@@ -265,6 +266,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 9-11 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -286,6 +288,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 19-21 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -300,6 +303,7 @@
       "sourcePdfPageCount": null,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": null
     },
     {
@@ -314,6 +318,7 @@
       "sourcePdfPageCount": null,
       "markerPage": 1,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Extracted actual memcon pages 9-17 from the source PDF; appended original marker page 1 as the final provenance sheet."
     },
     {
@@ -328,6 +333,7 @@
       "sourcePdfPageCount": null,
       "markerPage": 1,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Extracted actual memcon pages 19-30 from the source PDF; appended original marker page 1 as the final provenance sheet."
     },
     {
@@ -349,6 +355,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 51-52 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -370,6 +377,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 60-61 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -384,6 +392,7 @@
       "sourcePdfPageCount": 397,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 68-69 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -405,6 +414,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 76-79 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -424,6 +434,15 @@
           "title": "930710 Clinton and Yeltsin in Tokyo memconpdf.pdf",
           "url": "https://drive.google.com/file/d/1oLH4zCmIub-kgvXXs0wZDGELWehL9Pqh/view",
           "status": "Google Drive search match"
+        }
+      ],
+      "strobeFiles": [
+        {
+          "id": "C09000001",
+          "date": "1993-07-16",
+          "title": "Memon with President Boris Yeltsin of Russia w/Attached Cover Sheet",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2023/FL-2017-13804/DOC_0C09000001/C09000001.pdf",
+          "status": "Strobe FOIA cable copy of the July 10, 1993 Clinton-Yeltsin Tokyo memcon; cover sheet excluded."
         }
       ],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 81-89 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -447,6 +466,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 95-98 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -468,6 +488,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 107-109 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -489,6 +510,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 119-121 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -510,6 +532,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified."
     },
     {
@@ -531,6 +554,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 142-145 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -552,6 +576,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694499, conversation pages 1-3 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -579,6 +604,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694502, conversation pages 1-8 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -600,6 +626,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 155-157 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -621,6 +648,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 164-166 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -642,6 +670,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 181-184 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -656,6 +685,7 @@
       "sourcePdfPageCount": null,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": null
     },
     {
@@ -677,6 +707,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 191-194 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -698,6 +729,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 202-204 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -712,6 +744,7 @@
       "sourcePdfPageCount": 397,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 213-219 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -733,6 +766,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified."
     },
     {
@@ -754,6 +788,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 251-260 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -768,6 +803,15 @@
       "sourcePdfPageCount": 397,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [
+        {
+          "id": "C06694711",
+          "date": "1994-10-05",
+          "title": "Telephone Conversation with Russian President Yeltsin",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694711/C06694711.pdf",
+          "status": "Strobe FOIA copy of the actual October 5, 1994 telcon; duplicate source copy, not counted again."
+        }
+      ],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 227-230 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -782,6 +826,7 @@
       "sourcePdfPageCount": 397,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 238-241 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -803,6 +848,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 268-271 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -817,6 +863,7 @@
       "sourcePdfPageCount": 397,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 280-283 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -831,6 +878,7 @@
       "sourcePdfPageCount": 397,
       "markerPage": 301,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 285-300 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. Marker page 301 should be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -838,14 +886,23 @@
       "date": "1995-06-17",
       "type": "Memcon",
       "documentTitle": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada",
-      "pageCount": null,
-      "countStatus": "Extent pending",
-      "source": "2015-0782-M-1",
-      "sourcePdfPages": null,
-      "sourcePdfPageCount": null,
+      "pageCount": 8,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "F-2017-13804",
+      "sourcePdfPages": "Strobe FOIA document C06835181, conversation pages 1-8",
+      "sourcePdfPageCount": 8,
       "markerPage": null,
       "googleDriveFiles": [],
-      "extractionStatus": null
+      "strobeFiles": [
+        {
+          "id": "C06835181",
+          "date": "1995-06-17",
+          "title": "Clinton-Yeltsin Meeting",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+          "status": "Strobe FOIA copy with the actual Halifax Clinton-Yeltsin meeting pages 1-8."
+        }
+      ],
+      "extractionStatus": "Potential FRUS document: counted only the actual Halifax memcon pages 1-8 in Strobe FOIA document C06835181. No separate marker/provenance page was present in the reviewed Strobe PDF."
     },
     {
       "id": "contact-1995-07-28-telcon-30",
@@ -866,6 +923,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 309-313 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -887,6 +945,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 324-326 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -901,6 +960,15 @@
       "sourcePdfPageCount": null,
       "markerPage": 1,
       "googleDriveFiles": [],
+      "strobeFiles": [
+        {
+          "id": "C06835137",
+          "date": "1995-10-23",
+          "title": "Clinton-Yeltsin One-on-One",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835137/C06835137.pdf",
+          "status": "Strobe FOIA copy of the October 23, 1995 Hyde Park one-on-one; duplicate source copy, not counted again."
+        }
+      ],
       "extractionStatus": "Extracted actual memcon pages 5-16 from the source PDF; appended original marker page 1 as the final provenance sheet."
     },
     {
@@ -915,6 +983,7 @@
       "sourcePdfPageCount": null,
       "markerPage": 18,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Extracted complete lunch memcon pages 31-35 from the source PDF; appended original marker page 18 as the final provenance sheet. Duplicate lunch pages 24-27 were excluded."
     },
     {
@@ -936,6 +1005,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 342-346 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -957,6 +1027,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 354-357 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -984,6 +1055,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document found in Google Drive search; actual conversation-page extent remains pending."
     },
     {
@@ -1005,6 +1077,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 369-373 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1024,6 +1097,15 @@
           "title": "960421 Clinton and Yeltsin in the Kremlin memconpdf.pdf",
           "url": "https://drive.google.com/file/d/14NhGIMpynoxRlqbrA48-tTTGziPFz-B_/view",
           "status": "Google Drive search match"
+        }
+      ],
+      "strobeFiles": [
+        {
+          "id": "C06697699",
+          "date": "1996-04-21",
+          "title": "POTUS-Yeltsin One-on-One",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697699/C06697699.pdf",
+          "status": "Strobe FOIA copy of the April 21, 1996 Moscow one-on-one pages 1-13; duplicate source copy, not counted again."
         }
       ],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 381-393 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -1047,6 +1129,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 7-13 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1068,6 +1151,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 25-28 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1087,6 +1171,22 @@
           "title": "960618 Clinton and Yeltsin telconpdf.pdf",
           "url": "https://drive.google.com/file/d/1WFu5nHDo4uSM89CiS2CvB-vhCG76XUy3/view",
           "status": "Google Drive search match"
+        }
+      ],
+      "strobeFiles": [
+        {
+          "id": "C09000056",
+          "date": "1996-06-18",
+          "title": "Transmittal Memorandum of Telephone Conversation with Russian Boris Yeltsin w/Attachment(s)",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000056/C09000056.pdf",
+          "status": "Strobe FOIA packet; actual June 18, 1996 telcon is pages 3-4, with transmittal and unrelated attachments excluded."
+        },
+        {
+          "id": "C09000028",
+          "date": "1996-06-20",
+          "title": "Memorandum of Conversation between President Clinton and President Yeltsin on 6/18/96",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+          "status": "Strobe FOIA cable copy of the June 18, 1996 call; duplicate source copy, not counted again."
         }
       ],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 39-40 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -1110,6 +1210,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 49-51 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1124,6 +1225,7 @@
       "sourcePdfPageCount": 591,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 64-65 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1138,6 +1240,15 @@
       "sourcePdfPageCount": 591,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [
+        {
+          "id": "C06699017",
+          "date": "1996-12-05",
+          "title": "Conversation with President Boris Yeltsin of Russia",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699017/C06699017.pdf",
+          "status": "Strobe FOIA copy of the December 5, 1996 telcon pages 1-3; duplicate source copy, not counted again."
+        }
+      ],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 77-79 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1159,6 +1270,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 87-89 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1180,6 +1292,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 105-115 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1201,6 +1314,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 116-123 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1222,6 +1336,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 124-127 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1243,6 +1358,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 128-133 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1264,6 +1380,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 143-150 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1285,6 +1402,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 165-172 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1304,6 +1422,15 @@
           "title": "971030 Clinton and Yeltsin telconpdf.pdf",
           "url": "https://drive.google.com/file/d/1fT5AgUtzJunIagUVKSoKio6YudL2rLEx/view",
           "status": "Google Drive search match"
+        }
+      ],
+      "strobeFiles": [
+        {
+          "id": "C09000014",
+          "date": "1997-10-30",
+          "title": "Memorandum of Telephone Conversation",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000014/C09000014.pdf",
+          "status": "Strobe FOIA copy of the October 30, 1997 telcon; duplicate source copy, not counted again."
         }
       ],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 183-188 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -1327,6 +1454,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 206-208 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1348,6 +1476,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 218-223 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1369,6 +1498,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 236-239 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1390,6 +1520,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 253-256 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1409,6 +1540,15 @@
           "title": "980406 Clinton and Yeltsin telconpdf.pdf",
           "url": "https://drive.google.com/file/d/1BCpDN6EIDJyq188YS46cjJgYs2kyzNui/view",
           "status": "Google Drive search match"
+        }
+      ],
+      "strobeFiles": [
+        {
+          "id": "C09000007",
+          "date": "1998-05-17",
+          "title": "POTUS-Yeltsin Memcon w/Attachment(s)",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+          "status": "Strobe FOIA packet includes an attached copy of the April 6, 1998 telcon after the May 17 memcon; duplicate source copy, not counted again."
         }
       ],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 274-278 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -1432,6 +1572,15 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [
+        {
+          "id": "C09000006",
+          "date": "1998-05-20",
+          "title": "Memorandum of Conversation between President Clinton and the President of Russia Boris Yeltsin on 5/12/1998",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000006/C09000006.pdf",
+          "status": "Strobe FOIA cable copy of the May 12, 1998 Clinton-Yeltsin call; duplicate source copy, not counted again."
+        }
+      ],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 286-290 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1451,6 +1600,15 @@
           "title": "980517 Clinton and Yeltsin in Birmingham memconpdf.pdf",
           "url": "https://drive.google.com/file/d/1IkQrGGfVtGl1fkXMaHmkwjSnmcpTyA7S/view",
           "status": "Google Drive search match"
+        }
+      ],
+      "strobeFiles": [
+        {
+          "id": "C09000007",
+          "date": "1998-05-17",
+          "title": "POTUS-Yeltsin Memcon w/Attachment(s)",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+          "status": "Strobe FOIA informal copy of the May 17, 1998 Birmingham memcon on pages 1-13; duplicate source copy, not counted again."
         }
       ],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 312-319 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -1474,6 +1632,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 301-303 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1493,6 +1652,15 @@
           "title": "980528 Clinton and Yeltsin telconpdf.pdf",
           "url": "https://drive.google.com/file/d/1F2aVY9zTrKysoGW-6-bn5tGdsTGDQ4y5/view",
           "status": "Google Drive search match"
+        }
+      ],
+      "strobeFiles": [
+        {
+          "id": "C09000028",
+          "date": "1998-06-02",
+          "title": "Transmittal Memorandum of Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+          "status": "Strobe FOIA packet; actual May 28, 1998 telcon is pages 2-5, with transmittal excluded."
         }
       ],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 329-332 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -1516,6 +1684,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 342-346 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1530,6 +1699,7 @@
       "sourcePdfPageCount": 591,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 359-360 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1549,6 +1719,15 @@
           "title": "980710 Clinton and Yeltsin telconpdf.pdf",
           "url": "https://drive.google.com/file/d/1rfsHmNUqd_CG69JwlpHp3gb91PiFko5A/view",
           "status": "Google Drive search match"
+        }
+      ],
+      "strobeFiles": [
+        {
+          "id": "C09000004",
+          "date": "1998-07-10",
+          "title": "Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+          "status": "Strobe FOIA packet; actual July 10, 1998 telcon is pages 1-4, with tasking/transmittal pages excluded."
         }
       ],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 371-374 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
@@ -1572,6 +1751,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 384-389 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1593,6 +1773,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 405-408 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1607,6 +1788,7 @@
       "sourcePdfPageCount": null,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": null
     },
     {
@@ -1628,6 +1810,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 422-425 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1642,6 +1825,7 @@
       "sourcePdfPageCount": null,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": null
     },
     {
@@ -1656,6 +1840,7 @@
       "sourcePdfPageCount": null,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": null
     },
     {
@@ -1670,6 +1855,7 @@
       "sourcePdfPageCount": null,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": null
     },
     {
@@ -1684,6 +1870,7 @@
       "sourcePdfPageCount": 591,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 432-436 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1698,6 +1885,7 @@
       "sourcePdfPageCount": 591,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 438-443 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1719,6 +1907,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 445-456 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1740,6 +1929,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 470-473 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1754,6 +1944,7 @@
       "sourcePdfPageCount": 591,
       "markerPage": 481,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 479-480 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. Marker page 481 should be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1768,6 +1959,7 @@
       "sourcePdfPageCount": 591,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 482-484 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1782,6 +1974,7 @@
       "sourcePdfPageCount": 591,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 488-489 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1803,6 +1996,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 531-537 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1824,6 +2018,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 521-524 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1845,6 +2040,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 497-505 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1866,6 +2062,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 548-552 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1887,6 +2084,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual memcon pages 560-566 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1908,6 +2106,7 @@
           "status": "Google Drive search match"
         }
       ],
+      "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 582-584 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
@@ -1922,7 +2121,28 @@
       "sourcePdfPageCount": null,
       "markerPage": null,
       "googleDriveFiles": [],
+      "strobeFiles": [],
       "extractionStatus": null
+    }
+  ],
+  "reviewedStrobeNonConversationFiles": [
+    {
+      "id": "C06694708",
+      "date": "1994-10-07",
+      "title": "Transmittal of Presidential Telcon with President Boris Yeltsin of Russia",
+      "status": "Transmittal only; no actual Clinton-Yeltsin telcon pages counted."
+    },
+    {
+      "id": "C09000003",
+      "date": null,
+      "title": "POTUS-Yeltsin Bilat and Next Steps",
+      "status": "Talbott-Mamedov debrief/context note, not a Clinton-Yeltsin memcon or telcon."
+    },
+    {
+      "id": "C09000076",
+      "date": null,
+      "title": "The Moscow Script: The Presidential One-on-One",
+      "status": "Script/planning document, not an actual Clinton-Yeltsin memcon or telcon."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T01:02:55.370Z",
+  "generatedAt": "2026-05-20T01:18:52.416Z",
   "totalRecords": 148,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 89,
@@ -17,22 +17,22 @@
   "pageTallies": {
     "allRecords": {
       "documents": 148,
-      "countedDocuments": 85,
-      "pendingDocuments": 63,
-      "pages": 533
+      "countedDocuments": 86,
+      "pendingDocuments": 62,
+      "pages": 541
     },
     "potentialClintonYeltsinDocuments": {
       "documents": 88,
-      "countedDocuments": 77,
-      "pendingDocuments": 11,
-      "pages": 400
+      "countedDocuments": 78,
+      "pendingDocuments": 10,
+      "pages": 408
     },
     "byChapter": {
       "Clinton-Yeltsin Chronology": {
         "documents": 89,
-        "countedDocuments": 77,
-        "pendingDocuments": 12,
-        "pages": 400
+        "countedDocuments": 78,
+        "pendingDocuments": 11,
+        "pages": 408
       },
       "Released Clinton Library Packets": {
         "documents": 4,
@@ -53,6 +53,10 @@
         "pages": 133
       }
     }
+  },
+  "strobeConversationFiles": {
+    "includedCrossReferences": 14,
+    "reviewedNonConversationFiles": 3
   },
   "sources": {
     "clintonText": "/private/tmp/clinton-foreign-meetings.txt",

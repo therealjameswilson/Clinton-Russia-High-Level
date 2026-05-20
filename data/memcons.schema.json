@@ -139,6 +139,31 @@
         }
       }
     },
+    "strobeFiles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "url", "status"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "date": {
+            "type": ["string", "null"]
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "digitalObjects": {
       "type": ["integer", "null"],
       "minimum": 1

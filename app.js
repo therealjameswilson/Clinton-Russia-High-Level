@@ -158,6 +158,18 @@ function createRecordRow(record) {
     links.append(drive);
   }
 
+  for (const file of record.strobeFiles || []) {
+    if (!file.url) continue;
+    if (file.url === record.catalogUrl || file.url === record.pdfUrl) continue;
+    const strobe = document.createElement("a");
+    strobe.href = file.url;
+    strobe.rel = "noreferrer";
+    strobe.target = "_blank";
+    strobe.textContent = "Strobe";
+    strobe.title = file.title || "Strobe FOIA source copy";
+    links.append(strobe);
+  }
+
   row.append(date, body, links);
   return row;
 }

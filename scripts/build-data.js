@@ -387,6 +387,148 @@ const DRIVE_CANDIDATES = {
   }
 };
 
+const STROBE_CONVERSATION_FILES = {
+  memcon19930710TokyoCable: {
+    id: "C09000001",
+    date: "1993-07-16",
+    title: "Memon with President Boris Yeltsin of Russia w/Attached Cover Sheet",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2023/FL-2017-13804/DOC_0C09000001/C09000001.pdf",
+    status: "Strobe FOIA cable copy of the July 10, 1993 Clinton-Yeltsin Tokyo memcon; cover sheet excluded."
+  },
+  telcon19941005: {
+    id: "C06694711",
+    date: "1994-10-05",
+    title: "Telephone Conversation with Russian President Yeltsin",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694711/C06694711.pdf",
+    status: "Strobe FOIA copy of the actual October 5, 1994 telcon; duplicate source copy, not counted again."
+  },
+  memcon19950617Halifax: {
+    id: "C06835181",
+    date: "1995-06-17",
+    title: "Clinton-Yeltsin Meeting",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+    status: "Strobe FOIA copy with the actual Halifax Clinton-Yeltsin meeting pages 1-8."
+  },
+  memcon19951023HydePark: {
+    id: "C06835137",
+    date: "1995-10-23",
+    title: "Clinton-Yeltsin One-on-One",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835137/C06835137.pdf",
+    status: "Strobe FOIA copy of the October 23, 1995 Hyde Park one-on-one; duplicate source copy, not counted again."
+  },
+  memcon19960421OneOnOne: {
+    id: "C06697699",
+    date: "1996-04-21",
+    title: "POTUS-Yeltsin One-on-One",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697699/C06697699.pdf",
+    status: "Strobe FOIA copy of the April 21, 1996 Moscow one-on-one pages 1-13; duplicate source copy, not counted again."
+  },
+  telcon19960618Transmittal: {
+    id: "C09000056",
+    date: "1996-06-18",
+    title: "Transmittal Memorandum of Telephone Conversation with Russian Boris Yeltsin w/Attachment(s)",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000056/C09000056.pdf",
+    status: "Strobe FOIA packet; actual June 18, 1996 telcon is pages 3-4, with transmittal and unrelated attachments excluded."
+  },
+  telcon19960618Cable: {
+    id: "C09000028",
+    date: "1996-06-20",
+    title: "Memorandum of Conversation between President Clinton and President Yeltsin on 6/18/96",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+    status: "Strobe FOIA cable copy of the June 18, 1996 call; duplicate source copy, not counted again."
+  },
+  telcon19961205: {
+    id: "C06699017",
+    date: "1996-12-05",
+    title: "Conversation with President Boris Yeltsin of Russia",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699017/C06699017.pdf",
+    status: "Strobe FOIA copy of the December 5, 1996 telcon pages 1-3; duplicate source copy, not counted again."
+  },
+  telcon19971030: {
+    id: "C09000014",
+    date: "1997-10-30",
+    title: "Memorandum of Telephone Conversation",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000014/C09000014.pdf",
+    status: "Strobe FOIA copy of the October 30, 1997 telcon; duplicate source copy, not counted again."
+  },
+  telcon19980406Attachment: {
+    id: "C09000007",
+    date: "1998-05-17",
+    title: "POTUS-Yeltsin Memcon w/Attachment(s)",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+    status: "Strobe FOIA packet includes an attached copy of the April 6, 1998 telcon after the May 17 memcon; duplicate source copy, not counted again."
+  },
+  telcon19980512: {
+    id: "C09000006",
+    date: "1998-05-20",
+    title:
+      "Memorandum of Conversation between President Clinton and the President of Russia Boris Yeltsin on 5/12/1998",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000006/C09000006.pdf",
+    status: "Strobe FOIA cable copy of the May 12, 1998 Clinton-Yeltsin call; duplicate source copy, not counted again."
+  },
+  memcon19980517Birmingham: {
+    id: "C09000007",
+    date: "1998-05-17",
+    title: "POTUS-Yeltsin Memcon w/Attachment(s)",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+    status: "Strobe FOIA informal copy of the May 17, 1998 Birmingham memcon on pages 1-13; duplicate source copy, not counted again."
+  },
+  telcon19980528: {
+    id: "C09000028",
+    date: "1998-06-02",
+    title: "Transmittal Memorandum of Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+    status: "Strobe FOIA packet; actual May 28, 1998 telcon is pages 2-5, with transmittal excluded."
+  },
+  telcon19980710: {
+    id: "C09000004",
+    date: "1998-07-10",
+    title: "Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+    status: "Strobe FOIA packet; actual July 10, 1998 telcon is pages 1-4, with tasking/transmittal pages excluded."
+  }
+};
+
+const STROBE_REVIEWED_NON_CONVERSATION_FILES = [
+  {
+    id: "C06694708",
+    date: "1994-10-07",
+    title: "Transmittal of Presidential Telcon with President Boris Yeltsin of Russia",
+    status: "Transmittal only; no actual Clinton-Yeltsin telcon pages counted."
+  },
+  {
+    id: "C09000003",
+    date: null,
+    title: "POTUS-Yeltsin Bilat and Next Steps",
+    status: "Talbott-Mamedov debrief/context note, not a Clinton-Yeltsin memcon or telcon."
+  },
+  {
+    id: "C09000076",
+    date: null,
+    title: "The Moscow Script: The Presidential One-on-One",
+    status: "Script/planning document, not an actual Clinton-Yeltsin memcon or telcon."
+  }
+];
+
+const STROBE_SUPPRESSED_CONTEXT_IDS = new Set([
+  ...Object.values(STROBE_CONVERSATION_FILES).map((file) => file.id),
+  ...STROBE_REVIEWED_NON_CONVERSATION_FILES.map((file) => file.id)
+]);
+
 const CONVERSATION_PAGE_AUDITS = {
   "1993-01-23|Telcon": { source: SOURCES.m1, sourcePdfPages: "9-11", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930123] },
   "1993-02-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "19-21", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930210] },
@@ -394,7 +536,13 @@ const CONVERSATION_PAGE_AUDITS = {
   "1993-05-02|Telcon": { source: SOURCES.m1, sourcePdfPages: "60-61", pageCount: 2, driveFiles: [DRIVE_CANDIDATES.telcon19930502] },
   "1993-05-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "68-69", pageCount: 2 },
   "1993-06-28|Telcon": { source: SOURCES.m1, sourcePdfPages: "76-79", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19930628] },
-  "1993-07-10|Memcon": { source: SOURCES.m1, sourcePdfPages: "81-89", pageCount: 9, driveFiles: [DRIVE_CANDIDATES.memcon19930710] },
+  "1993-07-10|Memcon": {
+    source: SOURCES.m1,
+    sourcePdfPages: "81-89",
+    pageCount: 9,
+    driveFiles: [DRIVE_CANDIDATES.memcon19930710],
+    strobeFiles: [STROBE_CONVERSATION_FILES.memcon19930710TokyoCable]
+  },
   "1993-09-07|Telcon": { source: SOURCES.m1, sourcePdfPages: "95-98", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19930907] },
   "1993-09-21|Telcon": { source: SOURCES.m1, sourcePdfPages: "107-109", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930921] },
   "1993-10-05|Telcon": {
@@ -434,7 +582,12 @@ const CONVERSATION_PAGE_AUDITS = {
   "1994-07-05|Telcon": { source: SOURCES.m1, sourcePdfPages: "202-204", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19940705] },
   "1994-07-10|Memcon": { source: SOURCES.m1, sourcePdfPages: "213-219", pageCount: 7 },
   "1994-09-27|Memcon": { source: SOURCES.m1, sourcePdfPages: "251-260", pageCount: 10, driveFiles: [DRIVE_CANDIDATES.memcon19940927] },
-  "1994-10-05|Telcon": { source: SOURCES.m1, sourcePdfPages: "227-230", pageCount: 4 },
+  "1994-10-05|Telcon": {
+    source: SOURCES.m1,
+    sourcePdfPages: "227-230",
+    pageCount: 4,
+    strobeFiles: [STROBE_CONVERSATION_FILES.telcon19941005]
+  },
   "1994-10-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "238-241", pageCount: 4 },
   "1995-02-13|Telcon": { source: SOURCES.m1, sourcePdfPages: "268-271", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19950213] },
   "1995-04-27|Telcon": { source: SOURCES.m1, sourcePdfPages: "280-283", pageCount: 4 },
@@ -444,6 +597,19 @@ const CONVERSATION_PAGE_AUDITS = {
     markerPage: 301,
     pageCount: 16,
     note: "The packet item is a summary report of the one-on-one meeting and is counted as the actual meeting record."
+  },
+  "1995-06-17|Memcon": {
+    source: SOURCES.strobe,
+    catalogUrl: SOURCES.strobe.url,
+    pdfUrl: STROBE_CONVERSATION_FILES.memcon19950617Halifax.url,
+    sourcePdfPages: "Strobe FOIA document C06835181, conversation pages 1-8",
+    sourcePdfPageCount: 8,
+    pageCount: 8,
+    strobeFiles: [STROBE_CONVERSATION_FILES.memcon19950617Halifax],
+    note:
+      "Strobe FOIA document C06835181 supplies the actual Halifax Clinton-Yeltsin meeting record; counted pages 1-8 only.",
+    extractionStatus:
+      "Potential FRUS document: counted only the actual Halifax memcon pages 1-8 in Strobe FOIA document C06835181. No separate marker/provenance page was present in the reviewed Strobe PDF."
   },
   "1995-07-28|Telcon": { source: SOURCES.m1, sourcePdfPages: "309-313", pageCount: 5, driveFiles: [DRIVE_CANDIDATES.telcon19950728] },
   "1995-09-27|Telcon": { source: SOURCES.m1, sourcePdfPages: "324-326", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19950927] },
@@ -459,13 +625,33 @@ const CONVERSATION_PAGE_AUDITS = {
       "Potential FRUS document found in Google Drive search; actual conversation-page extent remains pending."
   },
   "1996-04-09|Telcon": { source: SOURCES.m1, sourcePdfPages: "369-373", pageCount: 5, driveFiles: [DRIVE_CANDIDATES.telcon19960409] },
-  "1996-04-21-one-on-one": { source: SOURCES.m1, sourcePdfPages: "381-393", pageCount: 13, driveFiles: [DRIVE_CANDIDATES.memcon19960421OneOnOne] },
+  "1996-04-21-one-on-one": {
+    source: SOURCES.m1,
+    sourcePdfPages: "381-393",
+    pageCount: 13,
+    driveFiles: [DRIVE_CANDIDATES.memcon19960421OneOnOne],
+    strobeFiles: [STROBE_CONVERSATION_FILES.memcon19960421OneOnOne]
+  },
   "1996-04-21-luncheon": { source: SOURCES.m2, sourcePdfPages: "7-13", pageCount: 7, driveFiles: [DRIVE_CANDIDATES.memcon19960421Lunch] },
   "1996-05-07|Telcon": { source: SOURCES.m2, sourcePdfPages: "25-28", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19960507] },
-  "1996-06-18|Telcon": { source: SOURCES.m2, sourcePdfPages: "39-40", pageCount: 2, driveFiles: [DRIVE_CANDIDATES.telcon19960618] },
+  "1996-06-18|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "39-40",
+    pageCount: 2,
+    driveFiles: [DRIVE_CANDIDATES.telcon19960618],
+    strobeFiles: [
+      STROBE_CONVERSATION_FILES.telcon19960618Transmittal,
+      STROBE_CONVERSATION_FILES.telcon19960618Cable
+    ]
+  },
   "1996-07-05|Telcon": { source: SOURCES.m2, sourcePdfPages: "49-51", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19960705] },
   "1996-09-15|Telcon": { source: SOURCES.m2, sourcePdfPages: "64-65", pageCount: 2 },
-  "1996-12-05|Telcon": { source: SOURCES.m2, sourcePdfPages: "77-79", pageCount: 3 },
+  "1996-12-05|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "77-79",
+    pageCount: 3,
+    strobeFiles: [STROBE_CONVERSATION_FILES.telcon19961205]
+  },
   "1997-02-27|Telcon": {
     source: SOURCES.m2,
     sourcePdfPages: "87-89",
@@ -484,6 +670,7 @@ const CONVERSATION_PAGE_AUDITS = {
     sourcePdfPages: "183-188",
     pageCount: 6,
     driveFiles: [DRIVE_CANDIDATES.telcon19971030],
+    strobeFiles: [STROBE_CONVERSATION_FILES.telcon19971030],
     excluded: "Duplicate packet pages 193-198 were excluded."
   },
   "1997-11-16|Telcon": { source: SOURCES.m2, sourcePdfPages: "206-208", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19971116] },
@@ -507,10 +694,25 @@ const CONVERSATION_PAGE_AUDITS = {
     sourcePdfPages: "274-278",
     pageCount: 5,
     driveFiles: [DRIVE_CANDIDATES.telcon19980406],
+    strobeFiles: [STROBE_CONVERSATION_FILES.telcon19980406Attachment],
     excluded: "Earlier duplicate packet pages 267-270 were excluded in favor of the complete copy."
   },
-  "1998-05-12|Telcon": { source: SOURCES.m2, sourcePdfPages: "286-290", pageCount: 5, driveFiles: [DRIVE_CANDIDATES.telcon19980512] },
-  "1998-05-17|Memcon": { source: SOURCES.m2, sourcePdfPages: "312-319", pageCount: 8, driveFiles: [DRIVE_CANDIDATES.memcon19980517] },
+  "1998-05-12|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "286-290",
+    pageCount: 5,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980512],
+    strobeFiles: [STROBE_CONVERSATION_FILES.telcon19980512]
+  },
+  "1998-05-17|Memcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "312-319",
+    pageCount: 8,
+    driveFiles: [DRIVE_CANDIDATES.memcon19980517],
+    strobeFiles: [STROBE_CONVERSATION_FILES.memcon19980517Birmingham],
+    excluded:
+      "The Strobe FOIA packet's informal copy runs pages 1-13 and also carries an April 6, 1998 telcon attachment; the canonical count remains the released MDR packet pages 312-319."
+  },
   "1998-05-21|Telcon": {
     source: SOURCES.m2,
     sourcePdfPages: "301-303",
@@ -523,6 +725,7 @@ const CONVERSATION_PAGE_AUDITS = {
     sourcePdfPages: "329-332",
     pageCount: 4,
     driveFiles: [DRIVE_CANDIDATES.telcon19980528],
+    strobeFiles: [STROBE_CONVERSATION_FILES.telcon19980528],
     excluded: "Duplicate first-page copy on packet page 334 was excluded."
   },
   "1998-06-15|Telcon": {
@@ -533,7 +736,13 @@ const CONVERSATION_PAGE_AUDITS = {
     excluded: "Later duplicate copy in the packet was excluded; duplicate chronology row was suppressed."
   },
   "1998-06-16|Telcon": { source: SOURCES.m2, sourcePdfPages: "359-360", pageCount: 2 },
-  "1998-07-10|Telcon": { source: SOURCES.m2, sourcePdfPages: "371-374", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19980710] },
+  "1998-07-10|Telcon": {
+    source: SOURCES.m2,
+    sourcePdfPages: "371-374",
+    pageCount: 4,
+    driveFiles: [DRIVE_CANDIDATES.telcon19980710],
+    strobeFiles: [STROBE_CONVERSATION_FILES.telcon19980710]
+  },
   "1998-08-14|Telcon": {
     source: SOURCES.m2,
     sourcePdfPages: "384-389",
@@ -714,6 +923,18 @@ function normalizeDriveFiles(files = []) {
     }));
 }
 
+function normalizeStrobeFiles(files = []) {
+  return files
+    .filter(Boolean)
+    .map((file) => ({
+      id: file.id,
+      date: file.date || null,
+      title: file.title,
+      url: file.url,
+      status: file.status || "Strobe Talbott FOIA match"
+    }));
+}
+
 function auditSourcePageCount(source) {
   return source?.caseNumber ? SOURCE_PDF_PAGE_COUNTS[source.caseNumber] || null : null;
 }
@@ -753,6 +974,7 @@ function applyConversationAudit(record, auditKey = `${record.date}|${record.type
 
   const source = audit.source || record.source;
   const driveFiles = normalizeDriveFiles(audit.driveFiles);
+  const strobeFiles = normalizeStrobeFiles([...(record.strobeFiles || []), ...(audit.strobeFiles || [])]);
   const countStatus = audit.pageCount ? "Counted actual conversation pages only" : "Extent pending";
   const auditNote =
     audit.note ||
@@ -762,6 +984,13 @@ function applyConversationAudit(record, auditKey = `${record.date}|${record.type
         }; non-conversation pages and duplicate copies excluded.`
       : "Page count audit: extent pending; Drive candidate retained for compiler review.");
   const duplicateNote = audit.excluded ? `Dedup/exclusion note: ${audit.excluded}` : "";
+  const strobeNote =
+    audit.strobeNote ||
+    (strobeFiles.length
+      ? `Strobe FOIA review: ${strobeFiles
+          .map((file) => `${file.id} (${file.status})`)
+          .join(" ")}`
+      : "");
 
   return {
     ...record,
@@ -777,10 +1006,11 @@ function applyConversationAudit(record, auditKey = `${record.date}|${record.type
       ? audit.markerPage
       : record.markerPage,
     googleDriveFiles: driveFiles.length ? driveFiles : undefined,
+    strobeFiles: strobeFiles.length ? strobeFiles : undefined,
     potentialFrusDocument: true,
     countStatus,
     extractionStatus: auditExtractionStatus(record, audit),
-    sourceNote: appendNote(appendNote(record.sourceNote, auditNote), duplicateNote),
+    sourceNote: appendNote(appendNote(appendNote(record.sourceNote, auditNote), duplicateNote), strobeNote),
     frusTopics: [...new Set([...potentialTopics, ...(audit.topics || [])])],
     topics: [...new Set([...(record.topics || []), "Potential FRUS document", ...(audit.topics || [])])]
   };
@@ -1239,11 +1469,12 @@ function buildChronologyRecords() {
           localPdfPageCount: 13,
           sourcePdfPages: "5-16",
           markerPage: 1,
+          strobeFiles: normalizeStrobeFiles([STROBE_CONVERSATION_FILES.memcon19951023HydePark]),
           dateLine: "October 23, 1995, 11:30 a.m.-1:35 p.m., Hyde Park, New York",
           subjectLine:
             "Hyde Park one-on-one memcon covering Bosnia, NATO command arrangements, CFE, nuclear issues, Russia policy, and the Clinton-Yeltsin partnership.",
           sourceNote:
-            "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507853. Derivative PDF extracts source pages 5-16 and appends source marker page 1 as provenance sheet.",
+            "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507853. Derivative PDF extracts source pages 5-16 and appends source marker page 1 as provenance sheet. Strobe FOIA document C06835137 is a duplicate source copy of the same one-on-one and is not counted again.",
           extractionStatus:
             "Extracted actual memcon pages 5-16 from the source PDF; appended original marker page 1 as the final provenance sheet.",
           frusTopics: [
@@ -1498,6 +1729,7 @@ function buildStrobeRecords() {
   const seen = new Set();
   const ranked = manifest
     .filter((record) => record.date && record.date >= "1993-01-01" && record.date <= "2000-12-31")
+    .filter((record) => !STROBE_SUPPRESSED_CONTEXT_IDS.has(record.id))
     .map((record) => ({ record, score: strobeScore(record) }))
     .filter(({ score }) => score >= 70)
     .sort((a, b) => b.score - a.score || a.record.date.localeCompare(b.record.date));
@@ -1889,7 +2121,7 @@ function buildDocumentPageTallies(records) {
   return {
     generatedAt: new Date().toISOString(),
     scope:
-      "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, briefing material, and withdrawal sheets are excluded.",
+      "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, Strobe cross-reference copies, briefing material, and withdrawal sheets are excluded.",
     consolidated: {
       potentialDocuments: potentialDocuments.length,
       countedDocuments: countedDocuments.length,
@@ -1911,7 +2143,8 @@ function buildDocumentPageTallies(records) {
       documentTitle: record.documentTitle,
       countStatus: record.countStatus || "Extent pending",
       source: record.source?.caseNumber || record.source?.name || "Unknown",
-      googleDriveFiles: record.googleDriveFiles || []
+      googleDriveFiles: record.googleDriveFiles || [],
+      strobeFiles: record.strobeFiles || []
     })),
     documents: potentialDocuments.map((record) => ({
       id: record.id,
@@ -1925,8 +2158,10 @@ function buildDocumentPageTallies(records) {
       sourcePdfPageCount: record.sourcePdfPageCount || null,
       markerPage: record.markerPage || null,
       googleDriveFiles: record.googleDriveFiles || [],
+      strobeFiles: record.strobeFiles || [],
       extractionStatus: record.extractionStatus || null
-    }))
+    })),
+    reviewedStrobeNonConversationFiles: STROBE_REVIEWED_NON_CONVERSATION_FILES
   };
 }
 
@@ -2009,6 +2244,10 @@ function writeOutputs(records) {
           countedStatus(records.filter((record) => record.chapter.name === chapter.name))
         ])
       )
+    },
+    strobeConversationFiles: {
+      includedCrossReferences: Object.keys(STROBE_CONVERSATION_FILES).length,
+      reviewedNonConversationFiles: STROBE_REVIEWED_NON_CONVERSATION_FILES.length
     },
     sources: {
       clintonText: CLINTON_TEXT,
