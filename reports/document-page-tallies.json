@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T06:49:41.817Z",
+  "generatedAt": "2026-05-20T09:20:28.290Z",
   "scope": "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, Strobe cross-reference copies, briefing material, and withdrawal sheets are excluded.",
   "consolidated": {
     "potentialDocuments": 87,
@@ -137,6 +137,8 @@
       "documentTitle": "Telephone call with President Boris Yeltsin of Russia, April 1, 1993, Portland, Oregon",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-1",
+      "sourcePdfPages": "No released April 1 telcon pages located in 2015-0782-M-1",
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located after rechecking the Clinton Library digital collection and National Security Archive. Do not substitute the nearby Vancouver summit memcons or April 26 telcon.",
       "googleDriveFiles": [],
       "strobeFiles": []
     },
@@ -147,6 +149,8 @@
       "documentTitle": "Telephone call with President Boris Yeltsin of Russia, June 3, 1994, Rome, Italy",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-1",
+      "sourcePdfPages": "Marker/withdrawal packet pages 187-190 only; no released telcon pages",
+      "extractionStatus": "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text; later Clinton Library/NSA searches found confirmation of the call but no released conversation pages.",
       "googleDriveFiles": [],
       "strobeFiles": []
     },
@@ -157,6 +161,8 @@
       "documentTitle": "Meeting with President Boris Yeltsin of Russia, July 10, 1994, Naples Italy",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-1",
+      "sourcePdfPages": "No released July 10, 1994 Naples memcon pages located in 2015-0782-M-1",
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed Clinton Library packet, Clinton Digital Library/public-record searches, or National Security Archive postings; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon.",
       "googleDriveFiles": [],
       "strobeFiles": []
     },
@@ -167,6 +173,8 @@
       "documentTitle": "Meetings with President Boris Yeltsin of Russia, September 1-2, 1998, Moscow, Russia",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-2",
+      "sourcePdfPages": "No released September 1-2, 1998 Moscow memcon pages located in 2015-0782-M-2",
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed MDR packet, Google Drive search, Clinton Digital Library trip-book release, or National Security Archive postings.",
       "googleDriveFiles": [],
       "strobeFiles": []
     },
@@ -177,6 +185,8 @@
       "documentTitle": "Meeting with President Boris Yeltsin of Russia, February 8, 1999, Amman, Jordan",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-2",
+      "sourcePdfPages": "No released February 8, 1999 Amman memcon pages located in 2015-0782-M-2",
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located; public White House reporting confirms only a brief interaction, not an available conversation record.",
       "googleDriveFiles": [],
       "strobeFiles": []
     },
@@ -187,6 +197,8 @@
       "documentTitle": "Meeting with former President Boris Yeltsin of Russia, June 5, 2000, Moscow, Russia",
       "countStatus": "Extent pending",
       "source": "Clinton Library, Meetings and Telephone Calls with Foreign Leaders",
+      "sourcePdfPages": "Leader chronology lead only; no released memcon PDF located",
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located in the leader chronology follow-up, Clinton Digital Library trip release, or National Security Archive searches.",
       "googleDriveFiles": [],
       "strobeFiles": []
     }
@@ -249,7 +261,7 @@
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located. Do not substitute the nearby Vancouver summit memcons or April 26 telcon."
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located after rechecking the Clinton Library digital collection and National Security Archive. Do not substitute the nearby Vancouver summit memcons or April 26 telcon."
     },
     {
       "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
@@ -609,7 +621,7 @@
       "markerPage": 187,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text."
+      "extractionStatus": "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text; later Clinton Library/NSA searches found confirmation of the call but no released conversation pages."
     },
     {
       "id": "contact-1994-06-13-telcon-20",
@@ -668,7 +680,7 @@
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed packet; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon."
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed Clinton Library packet, Clinton Digital Library/public-record searches, or National Security Archive postings; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon."
     },
     {
       "id": "drive-candidate-1994-09-27-memcon-one-on-one",
@@ -1719,7 +1731,7 @@
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed packet or Google Drive search."
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed MDR packet, Google Drive search, Clinton Digital Library trip-book release, or National Security Archive postings."
     },
     {
       "id": "contact-1998-09-12-telcon-64",
@@ -1786,7 +1798,7 @@
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located."
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located; public White House reporting confirms only a brief interaction, not an available conversation record."
     },
     {
       "id": "contact-1999-03-24-telcon-68",
@@ -2052,7 +2064,7 @@
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located."
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located in the leader chronology follow-up, Clinton Digital Library trip release, or National Security Archive searches."
     }
   ],
   "reviewedStrobeNonConversationFiles": [

@@ -565,9 +565,9 @@ const CONVERSATION_PAGE_AUDITS = {
     pageCount: null,
     sourcePdfPages: "No released April 1 telcon pages located in 2015-0782-M-1",
     note:
-      "Page audit: the April 1, 1993 Portland telcon remains a leader-chronology/NARA Scout lead; no released conversation pages were found in the reviewed MDR packet.",
+      "Page audit: the April 1, 1993 Portland telcon remains a leader-chronology/NARA Scout lead; no released conversation pages were found in the reviewed MDR packet. Clinton Library recheck found April 1 photo/schedule context but no telcon text. National Security Archive's first-six-months posting publishes the April 3-4 Vancouver memcons and April 26, 1993 telcon, but not an April 1 telcon.",
     extractionStatus:
-      "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located. Do not substitute the nearby Vancouver summit memcons or April 26 telcon."
+      "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located after rechecking the Clinton Library digital collection and National Security Archive. Do not substitute the nearby Vancouver summit memcons or April 26 telcon."
   },
   "1993-04-26|Telcon": { source: SOURCES.m1, sourcePdfPages: "51-52", pageCount: 2, driveFiles: [DRIVE_CANDIDATES.telcon19930426] },
   "1993-05-02|Telcon": { source: SOURCES.m1, sourcePdfPages: "60-61", pageCount: 2, driveFiles: [DRIVE_CANDIDATES.telcon19930502] },
@@ -615,9 +615,9 @@ const CONVERSATION_PAGE_AUDITS = {
     sourcePdfPages: "Marker/withdrawal packet pages 187-190 only; no released telcon pages",
     markerPage: 187,
     note:
-      "Page audit: packet pages 187-190 contain marker/withdrawal/profile material for Document ID 9404692; the actual June 3, 1994 telcon was not released in the reviewed packet.",
+      "Page audit: packet pages 187-190 contain marker/withdrawal/profile material for Document ID 9404692; the actual June 3, 1994 telcon was not released in the reviewed packet. A Public Papers/GovInfo item confirms the call occurred and identifies North Korea as the topic, but it is a press statement, not the telcon text. Clinton Library and National Security Archive rechecks did not surface a released telcon.",
     extractionStatus:
-      "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text."
+      "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text; later Clinton Library/NSA searches found confirmation of the call but no released conversation pages."
   },
   "1994-06-13|Telcon": {
     source: SOURCES.m1,
@@ -632,9 +632,9 @@ const CONVERSATION_PAGE_AUDITS = {
     pageCount: null,
     sourcePdfPages: "No released July 10, 1994 Naples memcon pages located in 2015-0782-M-1",
     note:
-      "Page audit correction: the previous 213-219 range is the September 27, 1994 White House one-on-one memcon, not the July 10, 1994 Naples meeting.",
+      "Page audit correction: the previous 213-219 range is the September 27, 1994 White House one-on-one memcon, not the July 10, 1994 Naples meeting. Clinton Library/GovInfo searches found the July 10 Naples joint news conference, and National Security Archive's Budapest posting uses the Naples meeting as context while publishing the July 5 telcon and September 28 memcon, but no July 10 memcon text was found.",
     extractionStatus:
-      "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed packet; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon."
+      "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed Clinton Library packet, Clinton Digital Library/public-record searches, or National Security Archive postings; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon."
   },
   "1994-09-27|Memcon": {
     source: SOURCES.m1,
@@ -843,9 +843,9 @@ const CONVERSATION_PAGE_AUDITS = {
     pageCount: null,
     sourcePdfPages: "No released September 1-2, 1998 Moscow memcon pages located in 2015-0782-M-2",
     note:
-      "Page audit: the September 1-2, 1998 Moscow meetings remain a leader-chronology/NARA Scout lead; the reviewed MDR packet jumps from August 25/September 12 telephone material to later records.",
+      "Page audit: the September 1-2, 1998 Moscow meetings remain a leader-chronology/NARA Scout lead; the reviewed MDR packet jumps from August 25/September 12 telephone material to later records. Clinton Digital Library item 101277 (2016-0143-M) was downloaded and searched; it is a 77-page trip briefing book with scenesetters, schedules, and talking points, not actual memcons. National Security Archive publishes the August 14 preparatory telcon and September 12 follow-up telcon, but not the September 1-2 Moscow meeting memcons.",
     extractionStatus:
-      "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed packet or Google Drive search."
+      "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed MDR packet, Google Drive search, Clinton Digital Library trip-book release, or National Security Archive postings."
   },
   "1998-09-12|Telcon": {
     source: SOURCES.m2,
@@ -881,9 +881,9 @@ const CONVERSATION_PAGE_AUDITS = {
     pageCount: null,
     sourcePdfPages: "No released February 8, 1999 Amman memcon pages located in 2015-0782-M-2",
     note:
-      "Page audit: the February 8, 1999 Amman meeting remains a leader-chronology lead; no released memcon pages were found in the reviewed MDR packet, Google Drive search, or Clinton Digital Library search.",
+      "Page audit: the February 8, 1999 Amman meeting remains a leader-chronology lead; no released memcon pages were found in the reviewed MDR packet, Google Drive search, Clinton Digital Library search, or National Security Archive search. A White House press briefing from Amman confirms Clinton and Yeltsin spoke briefly at King Hussein's funeral, but describes it as brief/personal chatter rather than a released memcon.",
     extractionStatus:
-      "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located."
+      "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located; public White House reporting confirms only a brief interaction, not an available conversation record."
   },
   "1999-03-24|Telcon": {
     source: SOURCES.m2,
@@ -962,9 +962,9 @@ const CONVERSATION_PAGE_AUDITS = {
     pageCount: null,
     sourcePdfPages: "Leader chronology lead only; no released memcon PDF located",
     note:
-      "Page audit: the June 5, 2000 meeting with former President Yeltsin is documented in the leader chronology and contemporary public/narrative sources, but no released memcon PDF was located.",
+      "Page audit: the June 5, 2000 meeting with former President Yeltsin is documented in the leader chronology and contemporary public/narrative sources, but no released memcon PDF was located. Clinton Digital Library item 118907 (2016-0114-M) was downloaded and searched; it contains a Yeltsin courtesy-call briefing section and talking points, plus Putin/Kuchma material, but no actual Clinton-Yeltsin memcon. National Security Archive's June 2000 posting focuses on Clinton-Putin notes and states the official Putin memcon was still classified; no Yeltsin courtesy-call memcon was found.",
     extractionStatus:
-      "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located."
+      "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located in the leader chronology follow-up, Clinton Digital Library trip release, or National Security Archive searches."
   }
 };
 
@@ -2299,6 +2299,8 @@ function buildDocumentPageTallies(records) {
       documentTitle: record.documentTitle,
       countStatus: record.countStatus || "Extent pending",
       source: record.source?.caseNumber || record.source?.name || "Unknown",
+      sourcePdfPages: record.sourcePdfPages || "",
+      extractionStatus: record.extractionStatus || "",
       googleDriveFiles: record.googleDriveFiles || [],
       strobeFiles: record.strobeFiles || []
     })),
