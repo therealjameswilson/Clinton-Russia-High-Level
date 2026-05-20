@@ -88,6 +88,24 @@ const SOURCES = {
     name: "NARA Scout",
     url: "https://therealjameswilson.github.io/nara-scout/"
   },
+  sharmCable: {
+    name: "Clinton Library MDR release 2016-0118-M-4 / Google Drive cable copy",
+    caseNumber: "2016-0118-M-4",
+    url: "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view",
+    pdfUrl: "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view"
+  },
+  clinton20160620: {
+    name: "Clinton Digital Library item 100503, MDR release 2016-0620-M",
+    caseNumber: "2016-0620-M",
+    url: "https://clinton.presidentiallibraries.us/items/show/100503",
+    pdfUrl: "https://clinton.presidentiallibraries.us/files/original/dac856cd6bbd10b93c2eb815862bce44.pdf"
+  },
+  clintonIraq19981230: {
+    name: "Clinton Digital Library item 119190, Telcons - Memoranda of Telephone Conversation",
+    caseNumber: "clinton-item-119190",
+    url: "https://clinton.presidentiallibraries.us/items/show/119190",
+    pdfUrl: "https://clinton.presidentiallibraries.us/files/original/1ec29c3214c0ccb6c6ed30fd7e5b06af.pdf"
+  },
   kerrickTelconsMemcons: {
     name: "National Archives Catalog, Telcons and Memcons, Donald Kerrick's Files",
     caseNumber: "2008-0994-F",
@@ -116,12 +134,22 @@ const DERIVED_PDFS = {
   vancouverSecurity:
     "public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf",
   hydeParkOneOnOne: "public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf",
-  hydeParkLunch: "public/documents/1995-10-23-clinton-yeltsin-hyde-park-lunch.pdf"
+  hydeParkLunch: "public/documents/1995-10-23-clinton-yeltsin-hyde-park-lunch.pdf",
+  iraqTelcon19941010: "public/documents/1994-10-10-clinton-yeltsin-iraq-telcon.pdf",
+  sep1994OneOnOne: "public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf",
+  sep1994ExpandedSecurity:
+    "public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf",
+  sharmMemconCable: "public/documents/1996-03-13-clinton-yeltsin-sharm-el-sheikh-memcon-cable.pdf",
+  oct1998Telcon: "public/documents/1998-10-05-clinton-yeltsin-telcon-actual-pages.pdf",
+  dec1998Telcon: "public/documents/1998-12-30-clinton-yeltsin-telcon-actual-pages.pdf"
 };
 
 const SOURCE_PDF_PAGE_COUNTS = {
   [SOURCES.m1.caseNumber]: 397,
-  [SOURCES.m2.caseNumber]: 591
+  [SOURCES.m2.caseNumber]: 591,
+  [SOURCES.sharmCable.caseNumber]: 6,
+  [SOURCES.clinton20160620.caseNumber]: 6,
+  [SOURCES.clintonIraq19981230.caseNumber]: 5
 };
 
 function driveFileUrl(id) {
@@ -532,6 +560,15 @@ const STROBE_SUPPRESSED_CONTEXT_IDS = new Set([
 const CONVERSATION_PAGE_AUDITS = {
   "1993-01-23|Telcon": { source: SOURCES.m1, sourcePdfPages: "9-11", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930123] },
   "1993-02-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "19-21", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930210] },
+  "1993-04-01|Telcon": {
+    source: SOURCES.m1,
+    pageCount: null,
+    sourcePdfPages: "No released April 1 telcon pages located in 2015-0782-M-1",
+    note:
+      "Page audit: the April 1, 1993 Portland telcon remains a leader-chronology/NARA Scout lead; no released conversation pages were found in the reviewed MDR packet.",
+    extractionStatus:
+      "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located. Do not substitute the nearby Vancouver summit memcons or April 26 telcon."
+  },
   "1993-04-26|Telcon": { source: SOURCES.m1, sourcePdfPages: "51-52", pageCount: 2, driveFiles: [DRIVE_CANDIDATES.telcon19930426] },
   "1993-05-02|Telcon": { source: SOURCES.m1, sourcePdfPages: "60-61", pageCount: 2, driveFiles: [DRIVE_CANDIDATES.telcon19930502] },
   "1993-05-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "68-69", pageCount: 2 },
@@ -572,6 +609,16 @@ const CONVERSATION_PAGE_AUDITS = {
   "1994-02-20|Telcon": { source: SOURCES.m1, sourcePdfPages: "155-157", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19940220] },
   "1994-04-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "164-166", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19940410] },
   "1994-04-20|Telcon": { source: SOURCES.m1, sourcePdfPages: "181-184", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19940420] },
+  "1994-06-03|Telcon": {
+    source: SOURCES.m1,
+    pageCount: null,
+    sourcePdfPages: "Marker/withdrawal packet pages 187-190 only; no released telcon pages",
+    markerPage: 187,
+    note:
+      "Page audit: packet pages 187-190 contain marker/withdrawal/profile material for Document ID 9404692; the actual June 3, 1994 telcon was not released in the reviewed packet.",
+    extractionStatus:
+      "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text."
+  },
   "1994-06-13|Telcon": {
     source: SOURCES.m1,
     sourcePdfPages: "191-194",
@@ -580,15 +627,45 @@ const CONVERSATION_PAGE_AUDITS = {
     note: "The Drive hit is titled 940611; the Clinton Library chronology and packet text identify the contact as June 13, 1994."
   },
   "1994-07-05|Telcon": { source: SOURCES.m1, sourcePdfPages: "202-204", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19940705] },
-  "1994-07-10|Memcon": { source: SOURCES.m1, sourcePdfPages: "213-219", pageCount: 7 },
-  "1994-09-27|Memcon": { source: SOURCES.m1, sourcePdfPages: "251-260", pageCount: 10, driveFiles: [DRIVE_CANDIDATES.memcon19940927] },
+  "1994-07-10|Memcon": {
+    source: SOURCES.m1,
+    pageCount: null,
+    sourcePdfPages: "No released July 10, 1994 Naples memcon pages located in 2015-0782-M-1",
+    note:
+      "Page audit correction: the previous 213-219 range is the September 27, 1994 White House one-on-one memcon, not the July 10, 1994 Naples meeting.",
+    extractionStatus:
+      "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed packet; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon."
+  },
+  "1994-09-27|Memcon": {
+    source: SOURCES.m1,
+    sourcePdfPages: "251-260",
+    markerPage: 244,
+    pageCount: 10,
+    pdfUrl: DERIVED_PDFS.sep1994ExpandedSecurity,
+    driveFiles: [DRIVE_CANDIDATES.memcon19940927],
+    note:
+      "Counted as the September 27, 1994 4:35-5:35 p.m. expanded security session. The separate 11:00 a.m.-1:00 p.m. one-on-one memcon is retained as its own counted Drive/MDR candidate.",
+    extractionStatus:
+      "Potential FRUS document: extracted actual expanded-session memcon pages 251-260 from 2015-0782-M-1 and appended original marker page 244. Transmittal/profile/action pages were excluded."
+  },
   "1994-10-05|Telcon": {
     source: SOURCES.m1,
     sourcePdfPages: "227-230",
     pageCount: 4,
     strobeFiles: [STROBE_CONVERSATION_FILES.telcon19941005]
   },
-  "1994-10-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "238-241", pageCount: 4 },
+  "1994-10-10|Telcon": {
+    source: SOURCES.m1,
+    sourcePdfPages: "238-241",
+    markerPage: 232,
+    pageCount: 4,
+    pdfUrl: DERIVED_PDFS.iraqTelcon19941010,
+    driveFiles: [DRIVE_CANDIDATES.telcon19931010],
+    note:
+      "The source date line reads October 10, 1993, but the leader chronology, October 1994 Iraq crisis subject matter, and surrounding Document ID 9408229 packet context identify this as the October 10, 1994 telcon. The Google Drive file titled 931010 is treated as a misdated duplicate source copy.",
+    extractionStatus:
+      "Potential FRUS document: extracted actual October 10, 1994 telcon pages 238-241 from 2015-0782-M-1 and appended original marker page 232. Transmittal/action/receipt pages were excluded."
+  },
   "1995-02-13|Telcon": { source: SOURCES.m1, sourcePdfPages: "268-271", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19950213] },
   "1995-04-27|Telcon": { source: SOURCES.m1, sourcePdfPages: "280-283", pageCount: 4 },
   "1995-05-10|Memcon": {
@@ -616,13 +693,17 @@ const CONVERSATION_PAGE_AUDITS = {
   "1996-01-26|Telcon": { source: SOURCES.m1, sourcePdfPages: "342-346", pageCount: 5, driveFiles: [DRIVE_CANDIDATES.telcon19960126] },
   "1996-02-21|Telcon": { source: SOURCES.m1, sourcePdfPages: "354-357", pageCount: 4, driveFiles: [DRIVE_CANDIDATES.telcon19960221] },
   "1996-03-13|Memcon": {
-    source: SOURCES.googleDrive,
-    pageCount: null,
+    source: SOURCES.sharmCable,
+    pageCount: 4,
     driveFiles: [DRIVE_CANDIDATES.memcon19960313Cable, DRIVE_CANDIDATES.memcon19960313CableDuplicate],
-    sourcePdfPages: "Extent pending",
-    excluded: "The duplicate cable title is treated as a duplicate candidate until the original PDF pages are reviewed.",
+    sourcePdfPages: "Google Drive file 1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c, pages 2-5",
+    sourcePdfPageCount: 6,
+    markerPage: 1,
+    pdfUrl: DERIVED_PDFS.sharmMemconCable,
+    excluded:
+      "The second Drive title is the same State cable text without a separate provenance sheet; counted once from the 2016-0118-M-4 copy.",
     extractionStatus:
-      "Potential FRUS document found in Google Drive search; actual conversation-page extent remains pending."
+      "Potential FRUS document: extracted actual cable memcon pages 2-5 from the 2016-0118-M-4 Drive copy and appended source page 1, the Clinton Library withdrawal/provenance sheet. Page 6 is cable distribution metadata and was excluded."
   },
   "1996-04-09|Telcon": { source: SOURCES.m1, sourcePdfPages: "369-373", pageCount: 5, driveFiles: [DRIVE_CANDIDATES.telcon19960409] },
   "1996-04-21-one-on-one": {
@@ -757,12 +838,52 @@ const CONVERSATION_PAGE_AUDITS = {
     driveFiles: [DRIVE_CANDIDATES.telcon19980825],
     excluded: "Duplicate packet pages 411-412 were excluded."
   },
+  "1998-09-01|Memcon": {
+    source: SOURCES.m2,
+    pageCount: null,
+    sourcePdfPages: "No released September 1-2, 1998 Moscow memcon pages located in 2015-0782-M-2",
+    note:
+      "Page audit: the September 1-2, 1998 Moscow meetings remain a leader-chronology/NARA Scout lead; the reviewed MDR packet jumps from August 25/September 12 telephone material to later records.",
+    extractionStatus:
+      "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed packet or Google Drive search."
+  },
   "1998-09-12|Telcon": {
     source: SOURCES.m2,
     sourcePdfPages: "422-425",
     pageCount: 4,
     driveFiles: [DRIVE_CANDIDATES.telcon19980912],
     excluded: "Duplicate/continued packet pages 426-431 were excluded."
+  },
+  "1998-10-05|Telcon": {
+    source: SOURCES.clinton20160620,
+    sourcePdfPages: "3-5",
+    sourcePdfPageCount: 6,
+    pageCount: 3,
+    pdfUrl: DERIVED_PDFS.oct1998Telcon,
+    note:
+      "Counted from Clinton Digital Library item 100503, MDR release 2016-0620-M. Source PDF pages 1-2 are an August 24 briefing memorandum and page 6 is a separate Berger memorandum; only telcon pages 3-5 were counted.",
+    extractionStatus:
+      "Potential FRUS document: extracted actual October 5, 1998 telcon pages 3-5 from the 2016-0620-M source PDF. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible."
+  },
+  "1998-12-30|Telcon": {
+    source: SOURCES.clintonIraq19981230,
+    sourcePdfPages: "1-5",
+    sourcePdfPageCount: 5,
+    pageCount: 5,
+    pdfUrl: DERIVED_PDFS.dec1998Telcon,
+    note:
+      "Counted from Clinton Digital Library item 119190. The source PDF appears to consist only of the December 30, 1998 Clinton-Yeltsin telcon.",
+    extractionStatus:
+      "Potential FRUS document: retained actual December 30, 1998 telcon pages 1-5 from Clinton Digital Library item 119190. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible."
+  },
+  "1999-02-08|Memcon": {
+    source: SOURCES.m2,
+    pageCount: null,
+    sourcePdfPages: "No released February 8, 1999 Amman memcon pages located in 2015-0782-M-2",
+    note:
+      "Page audit: the February 8, 1999 Amman meeting remains a leader-chronology lead; no released memcon pages were found in the reviewed MDR packet, Google Drive search, or Clinton Digital Library search.",
+    extractionStatus:
+      "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located."
   },
   "1999-03-24|Telcon": {
     source: SOURCES.m2,
@@ -835,6 +956,15 @@ const CONVERSATION_PAGE_AUDITS = {
     pageCount: 3,
     driveFiles: [DRIVE_CANDIDATES.telcon19991231],
     excluded: "Duplicate packet pages 589-591 were excluded."
+  },
+  "2000-06-05|Memcon": {
+    source: SOURCES.leaderList,
+    pageCount: null,
+    sourcePdfPages: "Leader chronology lead only; no released memcon PDF located",
+    note:
+      "Page audit: the June 5, 2000 meeting with former President Yeltsin is documented in the leader chronology and contemporary public/narrative sources, but no released memcon PDF was located.",
+    extractionStatus:
+      "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located."
   }
 };
 
@@ -1544,8 +1674,28 @@ function buildChronologyRecords() {
   });
 }
 
-function makeDriveOnlyCandidate({ id, date, type, title, documentTitle, file, subjectLine }) {
+function makeDriveOnlyCandidate({
+  id,
+  date,
+  type,
+  title,
+  documentTitle,
+  file,
+  subjectLine,
+  source = SOURCES.googleDrive,
+  catalogUrl,
+  pdfUrl,
+  pageCount = null,
+  sourcePdfPages,
+  sourcePdfPageCount,
+  markerPage,
+  sourceNote,
+  extractionStatus,
+  countStatus,
+  topics: extraTopics = []
+}) {
   const topics = contactTopics(title, date, type);
+  const candidateTopics = [...new Set([...topics, "Potential FRUS document", "Google Drive candidate", ...extraTopics])];
   return {
     id,
     date,
@@ -1558,47 +1708,53 @@ function makeDriveOnlyCandidate({ id, date, type, title, documentTitle, file, su
     chapter: CHAPTERS.chronology,
     releaseStatus: "Unknown",
     naid: file.id,
-    catalogUrl: driveFileUrl(file.id),
-    pdfUrl: driveFileUrl(file.id),
-    pageCount: null,
+    catalogUrl: catalogUrl || driveFileUrl(file.id),
+    pdfUrl: pdfUrl || driveFileUrl(file.id),
+    pageCount,
     dateLine: date,
     subjectLine,
-    source: SOURCES.googleDrive,
+    source,
     sourceNote:
+      sourceNote ||
       "Source: Google Drive Clinton-Yeltsin search result. This exact-title hit is retained as a potential FRUS document because it was not represented as a separate counted record in the current Clinton Library foreign-leader chronology extract.",
     extractionRule: EXTRACTION_RULE,
     extractionStatus:
+      extractionStatus ||
       "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified.",
     frusVolume: FRUS_VOLUME,
-    frusTopics: [...new Set([...topics, "Potential FRUS document", "Google Drive candidate"])],
-    topics: [...new Set([...topics, "Potential FRUS document", "Google Drive candidate"])],
+    frusTopics: candidateTopics,
+    topics: candidateTopics,
     googleDriveFiles: normalizeDriveFiles([file]),
     potentialFrusDocument: true,
-    countStatus: "Extent pending"
+    sourcePdfPages,
+    sourcePdfPageCount: sourcePdfPageCount || auditSourcePageCount(source) || undefined,
+    markerPage,
+    countStatus: countStatus || (pageCount ? "Counted actual conversation pages only" : "Extent pending")
   };
 }
 
 function buildDriveOnlyCandidateRecords() {
   return [
     makeDriveOnlyCandidate({
-      id: "drive-candidate-1993-10-10-telcon-yeltsin",
-      date: "1993-10-10",
-      type: "Telcon",
-      title: "Google Drive candidate: Clinton-Yeltsin telcon, October 10, 1993",
-      documentTitle: "Clinton-Yeltsin telcon, October 10, 1993",
-      file: DRIVE_CANDIDATES.telcon19931010,
-      subjectLine:
-        "Exact-title Drive hit for a Clinton-Yeltsin telcon not counted in the current foreign-leader chronology extract; extent pending."
-    }),
-    makeDriveOnlyCandidate({
-      id: "drive-candidate-1994-09-27-telcon-yeltsin",
+      id: "drive-candidate-1994-09-27-memcon-one-on-one",
       date: "1994-09-27",
-      type: "Telcon",
-      title: "Google Drive candidate: Clinton-Yeltsin telcon, September 27, 1994",
-      documentTitle: "Clinton-Yeltsin telcon, September 27, 1994",
+      type: "Memcon",
+      title: "Google Drive candidate: Clinton-Yeltsin one-on-one memcon, September 27, 1994",
+      documentTitle: "Clinton-Yeltsin one-on-one memcon, September 27, 1994",
       file: DRIVE_CANDIDATES.telcon19940927,
+      source: SOURCES.m1,
+      catalogUrl: SOURCES.m1.url,
+      pdfUrl: DERIVED_PDFS.sep1994OneOnOne,
+      pageCount: 7,
+      sourcePdfPages: "213-219",
+      markerPage: 208,
       subjectLine:
-        "Exact-title Drive hit for a same-day Clinton-Yeltsin telcon candidate; kept separate from the September 27, 1994 White House memcon until the PDF extent is verified."
+        "The Drive file title says telcon, but the file text is the September 27, 1994 11:00 a.m.-1:00 p.m. White House one-on-one memcon.",
+      sourceNote:
+        "Source: Google Drive file title flagged this as a telcon candidate; direct review shows it is the September 27, 1994 one-on-one memcon from Clinton Library MDR packet 2015-0782-M-1, Document ID 9408090. It is retained separately from the 4:35-5:35 p.m. expanded-session memcon.",
+      extractionStatus:
+        "Potential FRUS document: extracted actual one-on-one memcon pages 213-219 from 2015-0782-M-1 and appended original marker page 208. The Drive title mislabels this as a telcon; no separate September 27, 1994 telcon was found.",
+      topics: ["Corrected Drive title"]
     })
   ];
 }

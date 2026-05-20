@@ -173,7 +173,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page audit: the April 1, 1993 Portland telcon remains a leader-chronology/NARA Scout lead; no released conversation pages were found in the reviewed MDR packet.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -198,8 +198,11 @@ window.MEMCONS = [
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
+    "sourcePdfPages": "No released April 1 telcon pages located in 2015-0782-M-1",
+    "sourcePdfPageCount": 397,
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
+    "countStatus": "Extent pending",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located. Do not substitute the nearby Vancouver summit memcons or April 26 telcon."
   },
   {
     "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
@@ -943,74 +946,6 @@ window.MEMCONS = [
     "extractionStatus": "Potential FRUS document: counted only actual telcon pages 119-121 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
   },
   {
-    "id": "drive-candidate-1993-10-10-telcon-yeltsin",
-    "date": "1993-10-10",
-    "sortDate": "1993-10-10",
-    "type": "Telcon",
-    "title": "Google Drive candidate: Clinton-Yeltsin telcon, October 10, 1993",
-    "documentTitle": "Clinton-Yeltsin telcon, October 10, 1993",
-    "participants": [
-      "Bill Clinton",
-      "Boris Yeltsin"
-    ],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 1,
-      "name": "Clinton-Yeltsin Chronology"
-    },
-    "releaseStatus": "Unknown",
-    "naid": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
-    "catalogUrl": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
-    "pdfUrl": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
-    "pageCount": null,
-    "dateLine": "1993-10-10",
-    "subjectLine": "Exact-title Drive hit for a Clinton-Yeltsin telcon not counted in the current foreign-leader chronology extract; extent pending.",
-    "source": {
-      "name": "Google Drive Clinton-Yeltsin candidate files",
-      "url": "https://drive.google.com/"
-    },
-    "sourceNote": "Source: Google Drive Clinton-Yeltsin search result. This exact-title hit is retained as a potential FRUS document because it was not represented as a separate counted record in the current Clinton Library foreign-leader chronology extract.",
-    "extractionRule": {
-      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
-      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
-      "markerPosition": "append-last"
-    },
-    "extractionStatus": "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Clinton-Yeltsin",
-      "Russia high-level contacts",
-      "Telcon",
-      "Potential FRUS document",
-      "Google Drive candidate"
-    ],
-    "topics": [
-      "Clinton-Yeltsin",
-      "Russia high-level contacts",
-      "Telcon",
-      "Potential FRUS document",
-      "Google Drive candidate"
-    ],
-    "googleDriveFiles": [
-      {
-        "id": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
-        "title": "931010 Clinton and Yeltsin telconpdf.pdf",
-        "url": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
-        "status": "Google Drive search match"
-      }
-    ],
-    "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
-  },
-  {
     "id": "contact-1993-12-22-telcon-13",
     "date": "1993-12-22",
     "sortDate": "1993-12-22",
@@ -1564,7 +1499,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page audit: packet pages 187-190 contain marker/withdrawal/profile material for Document ID 9404692; the actual June 3, 1994 telcon was not released in the reviewed packet.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -1589,8 +1524,12 @@ window.MEMCONS = [
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
+    "sourcePdfPages": "Marker/withdrawal packet pages 187-190 only; no released telcon pages",
+    "sourcePdfPageCount": 397,
+    "markerPage": 187,
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
+    "countStatus": "Extent pending",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text."
   },
   {
     "id": "contact-1994-06-13-telcon-20",
@@ -1757,7 +1696,7 @@ window.MEMCONS = [
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
     "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
-    "pageCount": 7,
+    "pageCount": null,
     "dateLine": "July 10, 1994, Naples Italy",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
     "source": {
@@ -1766,7 +1705,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page count audit: 7 actual conversation pages from 213-219; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page audit correction: the previous 213-219 range is the September 27, 1994 White House one-on-one memcon, not the July 10, 1994 Naples meeting.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -1791,19 +1730,19 @@ window.MEMCONS = [
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
-    "sourcePdfPages": "213-219",
+    "sourcePdfPages": "No released July 10, 1994 Naples memcon pages located in 2015-0782-M-1",
     "sourcePdfPageCount": 397,
     "potentialFrusDocument": true,
-    "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 213-219 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "countStatus": "Extent pending",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed packet; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon."
   },
   {
-    "id": "drive-candidate-1994-09-27-telcon-yeltsin",
+    "id": "drive-candidate-1994-09-27-memcon-one-on-one",
     "date": "1994-09-27",
     "sortDate": "1994-09-27",
-    "type": "Telcon",
-    "title": "Google Drive candidate: Clinton-Yeltsin telcon, September 27, 1994",
-    "documentTitle": "Clinton-Yeltsin telcon, September 27, 1994",
+    "type": "Memcon",
+    "title": "Google Drive candidate: Clinton-Yeltsin one-on-one memcon, September 27, 1994",
+    "documentTitle": "Clinton-Yeltsin one-on-one memcon, September 27, 1994",
     "participants": [
       "Bill Clinton",
       "Boris Yeltsin"
@@ -1818,22 +1757,24 @@ window.MEMCONS = [
     },
     "releaseStatus": "Unknown",
     "naid": "15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z",
-    "catalogUrl": "https://drive.google.com/file/d/15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z/view",
-    "pdfUrl": "https://drive.google.com/file/d/15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z/view",
-    "pageCount": null,
+    "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
+    "pdfUrl": "public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf",
+    "pageCount": 7,
     "dateLine": "1994-09-27",
-    "subjectLine": "Exact-title Drive hit for a same-day Clinton-Yeltsin telcon candidate; kept separate from the September 27, 1994 White House memcon until the PDF extent is verified.",
+    "subjectLine": "The Drive file title says telcon, but the file text is the September 27, 1994 11:00 a.m.-1:00 p.m. White House one-on-one memcon.",
     "source": {
-      "name": "Google Drive Clinton-Yeltsin candidate files",
-      "url": "https://drive.google.com/"
+      "name": "Clinton Library MDR release 2015-0782-M-1",
+      "caseNumber": "2015-0782-M-1",
+      "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Google Drive Clinton-Yeltsin search result. This exact-title hit is retained as a potential FRUS document because it was not represented as a separate counted record in the current Clinton Library foreign-leader chronology extract.",
+    "sourceNote": "Source: Google Drive file title flagged this as a telcon candidate; direct review shows it is the September 27, 1994 one-on-one memcon from Clinton Library MDR packet 2015-0782-M-1, Document ID 9408090. It is retained separately from the 4:35-5:35 p.m. expanded-session memcon.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified.",
+    "extractionStatus": "Potential FRUS document: extracted actual one-on-one memcon pages 213-219 from 2015-0782-M-1 and appended original marker page 208. The Drive title mislabels this as a telcon; no separate September 27, 1994 telcon was found.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -1843,16 +1784,18 @@ window.MEMCONS = [
     "frusTopics": [
       "Clinton-Yeltsin",
       "Russia high-level contacts",
-      "Telcon",
+      "Memcon",
       "Potential FRUS document",
-      "Google Drive candidate"
+      "Google Drive candidate",
+      "Corrected Drive title"
     ],
     "topics": [
       "Clinton-Yeltsin",
       "Russia high-level contacts",
-      "Telcon",
+      "Memcon",
       "Potential FRUS document",
-      "Google Drive candidate"
+      "Google Drive candidate",
+      "Corrected Drive title"
     ],
     "googleDriveFiles": [
       {
@@ -1863,7 +1806,10 @@ window.MEMCONS = [
       }
     ],
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
+    "sourcePdfPages": "213-219",
+    "sourcePdfPageCount": 397,
+    "markerPage": 208,
+    "countStatus": "Counted actual conversation pages only"
   },
   {
     "id": "contact-1994-09-27-memcon-23",
@@ -1887,7 +1833,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf",
     "pageCount": 10,
     "dateLine": "September 27, 1994, White House",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
@@ -1897,7 +1843,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page count audit: 10 actual conversation pages from 251-260; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Counted as the September 27, 1994 4:35-5:35 p.m. expanded security session. The separate 11:00 a.m.-1:00 p.m. one-on-one memcon is retained as its own counted Drive/MDR candidate.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -1924,6 +1870,7 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "251-260",
     "sourcePdfPageCount": 397,
+    "markerPage": 244,
     "googleDriveFiles": [
       {
         "id": "13ojhHQejsL_uYgVxz_GHe8u_ponQ_FFj",
@@ -1934,7 +1881,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 251-260 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: extracted actual expanded-session memcon pages 251-260 from 2015-0782-M-1 and appended original marker page 244. Transmittal/profile/action pages were excluded."
   },
   {
     "id": "contact-1994-10-05-telcon-24",
@@ -2030,7 +1977,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1994-10-10-clinton-yeltsin-iraq-telcon.pdf",
     "pageCount": 4,
     "dateLine": "October 10, 1994, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -2040,7 +1987,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page count audit: 4 actual conversation pages from 238-241; non-conversation pages and duplicate copies excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. The source date line reads October 10, 1993, but the leader chronology, October 1994 Iraq crisis subject matter, and surrounding Document ID 9408229 packet context identify this as the October 10, 1994 telcon. The Google Drive file titled 931010 is treated as a misdated duplicate source copy.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -2067,9 +2014,18 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "238-241",
     "sourcePdfPageCount": 397,
+    "markerPage": 232,
+    "googleDriveFiles": [
+      {
+        "id": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
+        "title": "931010 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
+        "status": "Google Drive search match"
+      }
+    ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 238-241 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+    "extractionStatus": "Potential FRUS document: extracted actual October 10, 1994 telcon pages 238-241 from 2015-0782-M-1 and appended original marker page 232. Transmittal/action/receipt pages were excluded."
   },
   {
     "id": "contact-1995-02-13-telcon-26",
@@ -2819,15 +2775,17 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
-    "pageCount": null,
+    "pdfUrl": "public/documents/1996-03-13-clinton-yeltsin-sharm-el-sheikh-memcon-cable.pdf",
+    "pageCount": 4,
     "dateLine": "March 13, 1996, Sharm El-Sheikh, Egypt",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
     "source": {
-      "name": "Google Drive Clinton-Yeltsin candidate files",
-      "url": "https://drive.google.com/"
+      "name": "Clinton Library MDR release 2016-0118-M-4 / Google Drive cable copy",
+      "caseNumber": "2016-0118-M-4",
+      "url": "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view",
+      "pdfUrl": "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page count audit: extent pending; Drive candidate retained for compiler review. Dedup/exclusion note: The duplicate cable title is treated as a duplicate candidate until the original PDF pages are reviewed.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page count audit: 4 actual conversation pages from Google Drive file 1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c, pages 2-5; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: The second Drive title is the same State cable text without a separate provenance sheet; counted once from the 2016-0118-M-4 copy.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -2852,7 +2810,9 @@ window.MEMCONS = [
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
-    "sourcePdfPages": "Extent pending",
+    "sourcePdfPages": "Google Drive file 1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c, pages 2-5",
+    "sourcePdfPageCount": 6,
+    "markerPage": 1,
     "googleDriveFiles": [
       {
         "id": "1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c",
@@ -2868,8 +2828,8 @@ window.MEMCONS = [
       }
     ],
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending",
-    "extractionStatus": "Potential FRUS document found in Google Drive search; actual conversation-page extent remains pending."
+    "countStatus": "Counted actual conversation pages only",
+    "extractionStatus": "Potential FRUS document: extracted actual cable memcon pages 2-5 from the 2016-0118-M-4 Drive copy and appended source page 1, the Clinton Library withdrawal/provenance sheet. Page 6 is cable distribution metadata and was excluded."
   },
   {
     "id": "contact-1996-04-09-telcon-36",
@@ -5174,7 +5134,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page audit: the September 1-2, 1998 Moscow meetings remain a leader-chronology/NARA Scout lead; the reviewed MDR packet jumps from August 25/September 12 telephone material to later records.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -5201,8 +5161,11 @@ window.MEMCONS = [
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
+    "sourcePdfPages": "No released September 1-2, 1998 Moscow memcon pages located in 2015-0782-M-2",
+    "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
+    "countStatus": "Extent pending",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed packet or Google Drive search."
   },
   {
     "id": "contact-1998-09-12-telcon-64",
@@ -5299,17 +5262,17 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-    "pageCount": null,
+    "pdfUrl": "public/documents/1998-10-05-clinton-yeltsin-telcon-actual-pages.pdf",
+    "pageCount": 3,
     "dateLine": "October 5, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
     "source": {
-      "name": "Clinton Library MDR release 2015-0782-M-2",
-      "caseNumber": "2015-0782-M-2",
-      "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+      "name": "Clinton Digital Library item 100503, MDR release 2016-0620-M",
+      "caseNumber": "2016-0620-M",
+      "url": "https://clinton.presidentiallibraries.us/items/show/100503",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/dac856cd6bbd10b93c2eb815862bce44.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Counted from Clinton Digital Library item 100503, MDR release 2016-0620-M. Source PDF pages 1-2 are an August 24 briefing memorandum and page 6 is a separate Berger memorandum; only telcon pages 3-5 were counted.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -5336,8 +5299,11 @@ window.MEMCONS = [
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
+    "sourcePdfPages": "3-5",
+    "sourcePdfPageCount": 6,
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
+    "countStatus": "Counted actual conversation pages only",
+    "extractionStatus": "Potential FRUS document: extracted actual October 5, 1998 telcon pages 3-5 from the 2016-0620-M source PDF. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible."
   },
   {
     "id": "contact-1998-12-30-telcon-66",
@@ -5361,17 +5327,17 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-    "pageCount": null,
+    "pdfUrl": "public/documents/1998-12-30-clinton-yeltsin-telcon-actual-pages.pdf",
+    "pageCount": 5,
     "dateLine": "December 30, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
     "source": {
-      "name": "Clinton Library MDR release 2015-0782-M-2",
-      "caseNumber": "2015-0782-M-2",
-      "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+      "name": "Clinton Digital Library item 119190, Telcons - Memoranda of Telephone Conversation",
+      "caseNumber": "clinton-item-119190",
+      "url": "https://clinton.presidentiallibraries.us/items/show/119190",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1ec29c3214c0ccb6c6ed30fd7e5b06af.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Counted from Clinton Digital Library item 119190. The source PDF appears to consist only of the December 30, 1998 Clinton-Yeltsin telcon.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -5398,8 +5364,11 @@ window.MEMCONS = [
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
+    "sourcePdfPages": "1-5",
+    "sourcePdfPageCount": 5,
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
+    "countStatus": "Counted actual conversation pages only",
+    "extractionStatus": "Potential FRUS document: retained actual December 30, 1998 telcon pages 1-5 from Clinton Digital Library item 119190. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible."
   },
   {
     "id": "contact-1999-02-08-memcon-67",
@@ -5433,7 +5402,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page audit: the February 8, 1999 Amman meeting remains a leader-chronology lead; no released memcon pages were found in the reviewed MDR packet, Google Drive search, or Clinton Digital Library search.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -5458,8 +5427,11 @@ window.MEMCONS = [
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
+    "sourcePdfPages": "No released February 8, 1999 Amman memcon pages located in 2015-0782-M-2",
+    "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
+    "countStatus": "Extent pending",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located."
   },
   {
     "id": "contact-1999-03-24-telcon-68",
@@ -6420,7 +6392,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/meetings-and-telephone-calls-foreign-leaders",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/documents/clinton-foreign-meetings.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet not assigned.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet not assigned. Page audit: the June 5, 2000 meeting with former President Yeltsin is documented in the leader chronology and contemporary public/narrative sources, but no released memcon PDF was located.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -6445,8 +6417,10 @@ window.MEMCONS = [
       "Potential FRUS document"
     ],
     "relatedReleaseIds": [],
+    "sourcePdfPages": "Leader chronology lead only; no released memcon PDF located",
     "potentialFrusDocument": true,
-    "countStatus": "Extent pending"
+    "countStatus": "Extent pending",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located."
   },
   {
     "id": "release-2015-0782-m-1",

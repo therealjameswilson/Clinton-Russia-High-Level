@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-05-20T01:18:52.419Z",
+  "generatedAt": "2026-05-20T06:49:41.817Z",
   "scope": "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, Strobe cross-reference copies, briefing material, and withdrawal sheets are excluded.",
   "consolidated": {
-    "potentialDocuments": 88,
-    "countedDocuments": 78,
-    "pendingDocuments": 10,
-    "totalConversationPages": 408,
-    "totalMemconPages": 188,
-    "totalTelconPages": 220
+    "potentialDocuments": 87,
+    "countedDocuments": 81,
+    "pendingDocuments": 6,
+    "totalConversationPages": 420,
+    "totalMemconPages": 192,
+    "totalTelconPages": 228
   },
   "byType": {
     "Telcon": {
-      "documents": 62,
-      "countedDocuments": 56,
-      "pendingDocuments": 6,
-      "pages": 220
+      "documents": 60,
+      "countedDocuments": 58,
+      "pendingDocuments": 2,
+      "pages": 228
     },
     "Memcon": {
-      "documents": 26,
-      "countedDocuments": 22,
+      "documents": 27,
+      "countedDocuments": 23,
       "pendingDocuments": 4,
-      "pages": 188
+      "pages": 192
     }
   },
   "byYear": {
     "1993": {
-      "documents": 15,
+      "documents": 14,
       "countedDocuments": 13,
-      "pendingDocuments": 2,
+      "pendingDocuments": 1,
       "pages": 60
     },
     "1994": {
@@ -44,9 +44,9 @@
     },
     "1996": {
       "documents": 11,
-      "countedDocuments": 10,
-      "pendingDocuments": 1,
-      "pages": 48
+      "countedDocuments": 11,
+      "pendingDocuments": 0,
+      "pages": 52
     },
     "1997": {
       "documents": 10,
@@ -56,9 +56,9 @@
     },
     "1998": {
       "documents": 16,
-      "countedDocuments": 13,
-      "pendingDocuments": 3,
-      "pages": 58
+      "countedDocuments": 15,
+      "pendingDocuments": 1,
+      "pages": 66
     },
     "1999": {
       "documents": 14,
@@ -75,9 +75,9 @@
   },
   "bySource": {
     "2015-0782-M-1": {
-      "documents": 31,
+      "documents": 32,
       "countedDocuments": 29,
-      "pendingDocuments": 2,
+      "pendingDocuments": 3,
       "pages": 140
     },
     "2014-0901-M": {
@@ -85,12 +85,6 @@
       "countedDocuments": 2,
       "pendingDocuments": 0,
       "pages": 21
-    },
-    "Google Drive Clinton-Yeltsin candidate files": {
-      "documents": 3,
-      "countedDocuments": 0,
-      "pendingDocuments": 3,
-      "pages": 0
     },
     "F-2017-13804": {
       "documents": 3,
@@ -104,11 +98,29 @@
       "pendingDocuments": 0,
       "pages": 17
     },
+    "2016-0118-M-4": {
+      "documents": 1,
+      "countedDocuments": 1,
+      "pendingDocuments": 0,
+      "pages": 4
+    },
     "2015-0782-M-2": {
-      "documents": 46,
+      "documents": 44,
       "countedDocuments": 42,
-      "pendingDocuments": 4,
+      "pendingDocuments": 2,
       "pages": 211
+    },
+    "2016-0620-M": {
+      "documents": 1,
+      "countedDocuments": 1,
+      "pendingDocuments": 0,
+      "pages": 3
+    },
+    "clinton-item-119190": {
+      "documents": 1,
+      "countedDocuments": 1,
+      "pendingDocuments": 0,
+      "pages": 5
     },
     "Clinton Library, Meetings and Telephone Calls with Foreign Leaders": {
       "documents": 1,
@@ -129,23 +141,6 @@
       "strobeFiles": []
     },
     {
-      "id": "drive-candidate-1993-10-10-telcon-yeltsin",
-      "date": "1993-10-10",
-      "type": "Telcon",
-      "documentTitle": "Clinton-Yeltsin telcon, October 10, 1993",
-      "countStatus": "Extent pending",
-      "source": "Google Drive Clinton-Yeltsin candidate files",
-      "googleDriveFiles": [
-        {
-          "id": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
-          "title": "931010 Clinton and Yeltsin telconpdf.pdf",
-          "url": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
-          "status": "Google Drive search match"
-        }
-      ],
-      "strobeFiles": []
-    },
-    {
       "id": "contact-1994-06-03-telcon-19",
       "date": "1994-06-03",
       "type": "Telcon",
@@ -156,43 +151,13 @@
       "strobeFiles": []
     },
     {
-      "id": "drive-candidate-1994-09-27-telcon-yeltsin",
-      "date": "1994-09-27",
-      "type": "Telcon",
-      "documentTitle": "Clinton-Yeltsin telcon, September 27, 1994",
-      "countStatus": "Extent pending",
-      "source": "Google Drive Clinton-Yeltsin candidate files",
-      "googleDriveFiles": [
-        {
-          "id": "15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z",
-          "title": "940927 Clinton and Yeltsin telconpdf.pdf",
-          "url": "https://drive.google.com/file/d/15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z/view",
-          "status": "Google Drive search match"
-        }
-      ],
-      "strobeFiles": []
-    },
-    {
-      "id": "contact-1996-03-13-memcon-35",
-      "date": "1996-03-13",
+      "id": "contact-1994-07-10-memcon-22",
+      "date": "1994-07-10",
       "type": "Memcon",
-      "documentTitle": "Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, July 10, 1994, Naples Italy",
       "countStatus": "Extent pending",
-      "source": "Google Drive Clinton-Yeltsin candidate files",
-      "googleDriveFiles": [
-        {
-          "id": "1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c",
-          "title": "960313 Cable Memcon with Yeltsin Sharm el-Sheikh Egypt.pdf",
-          "url": "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view",
-          "status": "Google Drive search match"
-        },
-        {
-          "id": "1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2",
-          "title": "960313 Clinton and Yeltsin memcon cable.pdf",
-          "url": "https://drive.google.com/file/d/1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2/view",
-          "status": "Google Drive search match"
-        }
-      ],
+      "source": "2015-0782-M-1",
+      "googleDriveFiles": [],
       "strobeFiles": []
     },
     {
@@ -200,26 +165,6 @@
       "date": "1998-09-01",
       "type": "Memcon",
       "documentTitle": "Meetings with President Boris Yeltsin of Russia, September 1-2, 1998, Moscow, Russia",
-      "countStatus": "Extent pending",
-      "source": "2015-0782-M-2",
-      "googleDriveFiles": [],
-      "strobeFiles": []
-    },
-    {
-      "id": "contact-1998-10-05-telcon-65",
-      "date": "1998-10-05",
-      "type": "Telcon",
-      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House",
-      "countStatus": "Extent pending",
-      "source": "2015-0782-M-2",
-      "googleDriveFiles": [],
-      "strobeFiles": []
-    },
-    {
-      "id": "contact-1998-12-30-telcon-66",
-      "date": "1998-12-30",
-      "type": "Telcon",
-      "documentTitle": "Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House",
       "countStatus": "Extent pending",
       "source": "2015-0782-M-2",
       "googleDriveFiles": [],
@@ -299,12 +244,12 @@
       "pageCount": null,
       "countStatus": "Extent pending",
       "source": "2015-0782-M-1",
-      "sourcePdfPages": null,
-      "sourcePdfPageCount": null,
+      "sourcePdfPages": "No released April 1 telcon pages located in 2015-0782-M-1",
+      "sourcePdfPageCount": 397,
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": null
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located. Do not substitute the nearby Vancouver summit memcons or April 26 telcon."
     },
     {
       "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
@@ -514,28 +459,6 @@
       "extractionStatus": "Potential FRUS document: counted only actual telcon pages 119-121 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
     },
     {
-      "id": "drive-candidate-1993-10-10-telcon-yeltsin",
-      "date": "1993-10-10",
-      "type": "Telcon",
-      "documentTitle": "Clinton-Yeltsin telcon, October 10, 1993",
-      "pageCount": null,
-      "countStatus": "Extent pending",
-      "source": "Google Drive Clinton-Yeltsin candidate files",
-      "sourcePdfPages": null,
-      "sourcePdfPageCount": null,
-      "markerPage": null,
-      "googleDriveFiles": [
-        {
-          "id": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
-          "title": "931010 Clinton and Yeltsin telconpdf.pdf",
-          "url": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
-          "status": "Google Drive search match"
-        }
-      ],
-      "strobeFiles": [],
-      "extractionStatus": "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified."
-    },
-    {
       "id": "contact-1993-12-22-telcon-13",
       "date": "1993-12-22",
       "type": "Telcon",
@@ -681,12 +604,12 @@
       "pageCount": null,
       "countStatus": "Extent pending",
       "source": "2015-0782-M-1",
-      "sourcePdfPages": null,
-      "sourcePdfPageCount": null,
-      "markerPage": null,
+      "sourcePdfPages": "Marker/withdrawal packet pages 187-190 only; no released telcon pages",
+      "sourcePdfPageCount": 397,
+      "markerPage": 187,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": null
+      "extractionStatus": "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text."
     },
     {
       "id": "contact-1994-06-13-telcon-20",
@@ -737,27 +660,27 @@
       "date": "1994-07-10",
       "type": "Memcon",
       "documentTitle": "Meeting with President Boris Yeltsin of Russia, July 10, 1994, Naples Italy",
+      "pageCount": null,
+      "countStatus": "Extent pending",
+      "source": "2015-0782-M-1",
+      "sourcePdfPages": "No released July 10, 1994 Naples memcon pages located in 2015-0782-M-1",
+      "sourcePdfPageCount": 397,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "strobeFiles": [],
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed packet; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon."
+    },
+    {
+      "id": "drive-candidate-1994-09-27-memcon-one-on-one",
+      "date": "1994-09-27",
+      "type": "Memcon",
+      "documentTitle": "Clinton-Yeltsin one-on-one memcon, September 27, 1994",
       "pageCount": 7,
       "countStatus": "Counted actual conversation pages only",
       "source": "2015-0782-M-1",
       "sourcePdfPages": "213-219",
       "sourcePdfPageCount": 397,
-      "markerPage": null,
-      "googleDriveFiles": [],
-      "strobeFiles": [],
-      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 213-219 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
-    },
-    {
-      "id": "drive-candidate-1994-09-27-telcon-yeltsin",
-      "date": "1994-09-27",
-      "type": "Telcon",
-      "documentTitle": "Clinton-Yeltsin telcon, September 27, 1994",
-      "pageCount": null,
-      "countStatus": "Extent pending",
-      "source": "Google Drive Clinton-Yeltsin candidate files",
-      "sourcePdfPages": null,
-      "sourcePdfPageCount": null,
-      "markerPage": null,
+      "markerPage": 208,
       "googleDriveFiles": [
         {
           "id": "15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z",
@@ -767,7 +690,7 @@
         }
       ],
       "strobeFiles": [],
-      "extractionStatus": "Potential FRUS document: Drive hit retained for compiler review; actual conversation pages and provenance marker page have not yet been verified."
+      "extractionStatus": "Potential FRUS document: extracted actual one-on-one memcon pages 213-219 from 2015-0782-M-1 and appended original marker page 208. The Drive title mislabels this as a telcon; no separate September 27, 1994 telcon was found."
     },
     {
       "id": "contact-1994-09-27-memcon-23",
@@ -779,7 +702,7 @@
       "source": "2015-0782-M-1",
       "sourcePdfPages": "251-260",
       "sourcePdfPageCount": 397,
-      "markerPage": null,
+      "markerPage": 244,
       "googleDriveFiles": [
         {
           "id": "13ojhHQejsL_uYgVxz_GHe8u_ponQ_FFj",
@@ -789,7 +712,7 @@
         }
       ],
       "strobeFiles": [],
-      "extractionStatus": "Potential FRUS document: counted only actual memcon pages 251-260 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+      "extractionStatus": "Potential FRUS document: extracted actual expanded-session memcon pages 251-260 from 2015-0782-M-1 and appended original marker page 244. Transmittal/profile/action pages were excluded."
     },
     {
       "id": "contact-1994-10-05-telcon-24",
@@ -824,10 +747,17 @@
       "source": "2015-0782-M-1",
       "sourcePdfPages": "238-241",
       "sourcePdfPageCount": 397,
-      "markerPage": null,
-      "googleDriveFiles": [],
+      "markerPage": 232,
+      "googleDriveFiles": [
+        {
+          "id": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
+          "title": "931010 Clinton and Yeltsin telconpdf.pdf",
+          "url": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
+          "status": "Google Drive search match"
+        }
+      ],
       "strobeFiles": [],
-      "extractionStatus": "Potential FRUS document: counted only actual telcon pages 238-241 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated."
+      "extractionStatus": "Potential FRUS document: extracted actual October 10, 1994 telcon pages 238-241 from 2015-0782-M-1 and appended original marker page 232. Transmittal/action/receipt pages were excluded."
     },
     {
       "id": "contact-1995-02-13-telcon-26",
@@ -1035,12 +965,12 @@
       "date": "1996-03-13",
       "type": "Memcon",
       "documentTitle": "Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt",
-      "pageCount": null,
-      "countStatus": "Extent pending",
-      "source": "Google Drive Clinton-Yeltsin candidate files",
-      "sourcePdfPages": "Extent pending",
-      "sourcePdfPageCount": null,
-      "markerPage": null,
+      "pageCount": 4,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2016-0118-M-4",
+      "sourcePdfPages": "Google Drive file 1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c, pages 2-5",
+      "sourcePdfPageCount": 6,
+      "markerPage": 1,
       "googleDriveFiles": [
         {
           "id": "1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c",
@@ -1056,7 +986,7 @@
         }
       ],
       "strobeFiles": [],
-      "extractionStatus": "Potential FRUS document found in Google Drive search; actual conversation-page extent remains pending."
+      "extractionStatus": "Potential FRUS document: extracted actual cable memcon pages 2-5 from the 2016-0118-M-4 Drive copy and appended source page 1, the Clinton Library withdrawal/provenance sheet. Page 6 is cable distribution metadata and was excluded."
     },
     {
       "id": "contact-1996-04-09-telcon-36",
@@ -1784,12 +1714,12 @@
       "pageCount": null,
       "countStatus": "Extent pending",
       "source": "2015-0782-M-2",
-      "sourcePdfPages": null,
-      "sourcePdfPageCount": null,
+      "sourcePdfPages": "No released September 1-2, 1998 Moscow memcon pages located in 2015-0782-M-2",
+      "sourcePdfPageCount": 591,
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": null
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed packet or Google Drive search."
     },
     {
       "id": "contact-1998-09-12-telcon-64",
@@ -1818,30 +1748,30 @@
       "date": "1998-10-05",
       "type": "Telcon",
       "documentTitle": "Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House",
-      "pageCount": null,
-      "countStatus": "Extent pending",
-      "source": "2015-0782-M-2",
-      "sourcePdfPages": null,
-      "sourcePdfPageCount": null,
+      "pageCount": 3,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "2016-0620-M",
+      "sourcePdfPages": "3-5",
+      "sourcePdfPageCount": 6,
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": null
+      "extractionStatus": "Potential FRUS document: extracted actual October 5, 1998 telcon pages 3-5 from the 2016-0620-M source PDF. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible."
     },
     {
       "id": "contact-1998-12-30-telcon-66",
       "date": "1998-12-30",
       "type": "Telcon",
       "documentTitle": "Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House",
-      "pageCount": null,
-      "countStatus": "Extent pending",
-      "source": "2015-0782-M-2",
-      "sourcePdfPages": null,
-      "sourcePdfPageCount": null,
+      "pageCount": 5,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "clinton-item-119190",
+      "sourcePdfPages": "1-5",
+      "sourcePdfPageCount": 5,
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": null
+      "extractionStatus": "Potential FRUS document: retained actual December 30, 1998 telcon pages 1-5 from Clinton Digital Library item 119190. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible."
     },
     {
       "id": "contact-1999-02-08-memcon-67",
@@ -1851,12 +1781,12 @@
       "pageCount": null,
       "countStatus": "Extent pending",
       "source": "2015-0782-M-2",
-      "sourcePdfPages": null,
-      "sourcePdfPageCount": null,
+      "sourcePdfPages": "No released February 8, 1999 Amman memcon pages located in 2015-0782-M-2",
+      "sourcePdfPageCount": 591,
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": null
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released February 8, 1999 Amman memcon pages were located."
     },
     {
       "id": "contact-1999-03-24-telcon-68",
@@ -2117,12 +2047,12 @@
       "pageCount": null,
       "countStatus": "Extent pending",
       "source": "Clinton Library, Meetings and Telephone Calls with Foreign Leaders",
-      "sourcePdfPages": null,
+      "sourcePdfPages": "Leader chronology lead only; no released memcon PDF located",
       "sourcePdfPageCount": null,
       "markerPage": null,
       "googleDriveFiles": [],
       "strobeFiles": [],
-      "extractionStatus": null
+      "extractionStatus": "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located."
     }
   ],
   "reviewedStrobeNonConversationFiles": [
