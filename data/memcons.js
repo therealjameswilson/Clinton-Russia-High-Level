@@ -179,7 +179,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page audit: the April 1, 1993 Portland telcon remains a leader-chronology/NARA Scout lead; no released conversation pages were found in the reviewed MDR packet. Clinton Library recheck found April 1 photo/schedule context but no telcon text. National Security Archive's first-six-months posting publishes the April 3-4 Vancouver memcons and April 26, 1993 telcon, but not an April 1 telcon.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page audit: the April 1, 1993 Portland telcon remains a leader-chronology/NARA Scout lead; no released conversation pages were found in MDR packet 2015-0782-M-1. The May 21, 2026 recheck reviewed the fresh Clinton Library chronology PDF, the 1,440-item CDL Yeltsin Solr corpus and 92 memorandum/telcon item records, Google Drive exact-date results, NARA Scout exact-date searches, and NSA postings. False/context hits were a 930401 Moscow-to-DC Vancouver preview cable in Drive, CDL photograph/press context, and nearby NSA Vancouver/April 26 releases; none is the April 1 telcon.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -208,7 +208,7 @@ window.MEMCONS = [
     "sourcePdfPageCount": 397,
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located after rechecking the Clinton Library digital collection and National Security Archive. Do not substitute the nearby Vancouver summit memcons or April 26 telcon.",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released April 1, 1993 telcon pages were located after rechecking the Clinton Library chronology and digital collection, Google Drive, NARA Scout/Catalog, and National Security Archive. Do not substitute the nearby Vancouver summit memcons, 930401 preview cable, or April 26 telcon.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721. Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin, Clinton-Yeltsin memcons and telcons, January 23, 1993 through April 21, 1996."
   },
   {
@@ -1804,7 +1804,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page audit: packet pages 187-190 contain marker/withdrawal/profile material for Document ID 9404692; the actual June 3, 1994 telcon was not released in the reviewed packet. A Public Papers/GovInfo item confirms the call occurred and identifies North Korea as the topic, but it is a press statement, not the telcon text. Clinton Library and National Security Archive rechecks did not surface a released telcon.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page audit: packet pages 187-190 contain marker/withdrawal/profile material for Document ID 9404692; the actual June 3, 1994 telcon was not released in the reviewed packet. A Public Papers/GovInfo item confirms the call occurred and identifies North Korea as the topic, but it is a press statement, not the telcon text. The May 21, 2026 recheck found no CDL, Drive, NSA, or NARA Scout transcript. NARA Catalog false lead 9404405/NAID 23901993 is a July 1994 trip briefing-material packet, not the Rome telcon.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -1834,8 +1834,8 @@ window.MEMCONS = [
     "markerPage": 187,
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text; later Clinton Library/NSA searches found confirmation of the call but no released conversation pages.",
-    "frusSourceNote": "Source: William J. Clinton Presidential Library, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721. Folder Title/Record ID 9404692; Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin, Clinton-Yeltsin memcons and telcons, January 23, 1993 through April 21, 1996. Provenance sheet: source PDF page 187 appended."
+    "extractionStatus": "Pending source problem: no derivative PDF generated because the source packet contains marker/withdrawal/profile pages only, not released June 3, 1994 telcon text; later Clinton Library, Google Drive, NARA Scout/Catalog, and NSA searches found confirmation/context only.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721. Folder Title/Record ID 9404692; Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin, Clinton-Yeltsin memcons and telcons, January 23, 1993 through April 21, 1996. Marker/provenance page located at source PDF page 187; no derivative PDF generated until actual conversation pages are located."
   },
   {
     "id": "contact-1994-06-13-telcon-20",
@@ -2017,7 +2017,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page audit correction: the previous 213-219 range is the September 27, 1994 White House one-on-one memcon, not the July 10, 1994 Naples meeting. Clinton Library/GovInfo searches found the July 10 Naples joint news conference, and National Security Archive's Budapest posting uses the Naples meeting as context while publishing the July 5 telcon and September 28 memcon, but no July 10 memcon text was found.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-1. Page audit correction: the previous 213-219 range is the September 27, 1994 White House one-on-one memcon, not the July 10, 1994 Naples meeting. The May 21, 2026 recheck found Naples trip binders, public-event material, CDL item 115036/NARA NAID 192122252 WHCA news-conference audio, and NSA Budapest/NATO context using the Naples meeting as background while publishing the July 5 telcon and September 28 memcon. No July 10 Naples memcon text was found in Clinton Library, Drive, NARA Scout/Catalog, or NSA sources.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -2046,7 +2046,7 @@ window.MEMCONS = [
     "sourcePdfPageCount": 397,
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed Clinton Library packet, Clinton Digital Library/public-record searches, or National Security Archive postings; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon.",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released July 10, 1994 Naples memcon pages were located in the reviewed Clinton Library packet, Clinton Digital Library/public-record searches, Google Drive, NARA Scout/Catalog, or National Security Archive postings; pages 213-219 have been reassigned to the September 27, 1994 one-on-one memcon.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721. Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin, Clinton-Yeltsin memcons and telcons, January 23, 1993 through April 21, 1996."
   },
   {
@@ -5658,7 +5658,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page audit: the September 1-2, 1998 Moscow meetings remain a leader-chronology/NARA Scout lead; the reviewed MDR packet jumps from August 25/September 12 telephone material to later records. Clinton Digital Library item 101277 (2016-0143-M) was downloaded and searched; it is a 77-page trip briefing book with scenesetters, schedules, and talking points, not actual memcons. National Security Archive publishes the August 14 preparatory telcon and September 12 follow-up telcon, but not the September 1-2 Moscow meeting memcons.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page audit: the September 1-2, 1998 Moscow meetings remain a leader-chronology/NARA Scout lead; the reviewed MDR packet jumps from August 25/September 12 telephone material to later records. The May 21, 2026 recheck found Google Drive's 980901 briefing book copy and Clinton Digital Library item 101277 (2016-0143-M), a 77-page trip briefing book with scenesetters, schedules, and talking points, not actual memcons. CDL item 11555 is a Yeltsin toast and item 117090 is WHCA news-conference audio. National Security Archive publishes the August 14 preparatory telcon and September 12 follow-up telcon, but not the September 1-2 Moscow meeting memcons.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -5689,7 +5689,7 @@ window.MEMCONS = [
     "sourcePdfPageCount": 591,
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed MDR packet, Google Drive search, Clinton Digital Library trip-book release, or National Security Archive postings.",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released September 1-2, 1998 Moscow memcon pages were located in the reviewed MDR packet, Google Drive search, Clinton Digital Library trip-book/audio/toast releases, NARA Scout/Catalog searches, or National Security Archive postings.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721. Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin, Clinton-Yeltsin memcons and telcons, April 21, 1996 through December 31, 1999."
   },
   {
@@ -5936,7 +5936,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page audit: the February 8, 1999 Amman meeting remains a leader-chronology lead; no released memcon pages were found in the reviewed MDR packet, Google Drive search, Clinton Digital Library search, or National Security Archive search. A White House press briefing from Amman confirms Clinton and Yeltsin spoke briefly at King Hussein's funeral, but describes it as brief/personal chatter rather than a released memcon.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. Page audit: the February 8, 1999 Amman meeting remains a leader-chronology lead; no released memcon pages were found in the reviewed MDR packet, Google Drive exact-date/place searches, Clinton Digital Library Yeltsin/memcon/telcon/declassified searches, NARA Scout/Catalog searches, or National Security Archive search. A White House press briefing from Amman confirms Clinton and Yeltsin spoke briefly at King Hussein's funeral, but describes it as brief/personal chatter rather than a released memcon.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -6965,7 +6965,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/meetings-and-telephone-calls-foreign-leaders",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/documents/clinton-foreign-meetings.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet not assigned. Page audit: the June 5, 2000 meeting with former President Yeltsin is documented in the leader chronology and contemporary public/narrative sources, but no released memcon PDF was located. Clinton Digital Library item 118907 (2016-0114-M) was downloaded and searched; it contains a Yeltsin courtesy-call briefing section and talking points, plus Putin/Kuchma material, but no actual Clinton-Yeltsin memcon. National Security Archive's June 2000 posting focuses on Clinton-Putin notes and states the official Putin memcon was still classified; no Yeltsin courtesy-call memcon was found.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet not assigned. Page audit: the June 5, 2000 meeting with former President Yeltsin is documented in the leader chronology and contemporary public/narrative sources, but no released memcon PDF was located. The May 21, 2026 recheck found no Drive, CDL, NARA Scout/Catalog, or NSA Yeltsin memcon. Clinton Digital Library item 118907 (2016-0114-M) contains a Yeltsin courtesy-call briefing section and talking points, plus Putin/Kuchma material and the June 4 Clinton-Putin memcon, but no actual Clinton-Yeltsin memcon. National Security Archive's June 2000 posting focuses on Clinton-Putin notes and states the official Putin memcon was still classified; no Yeltsin courtesy-call memcon was found.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -6993,7 +6993,7 @@ window.MEMCONS = [
     "sourcePdfPages": "Leader chronology lead only; no released memcon PDF located",
     "potentialFrusDocument": true,
     "countStatus": "Extent pending",
-    "extractionStatus": "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located in the leader chronology follow-up, Clinton Digital Library trip release, or National Security Archive searches.",
+    "extractionStatus": "Pending source problem: no derivative PDF generated because no released June 5, 2000 former President Yeltsin memcon pages were located in the leader chronology follow-up, Google Drive, Clinton Digital Library trip release, NARA Scout/Catalog, or National Security Archive searches.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Meetings and Telephone Calls with Foreign Leaders, master chronology."
   },
   {
@@ -15768,6 +15768,24 @@ window.MEMCONS = [
         "title": "9602199",
         "catalogUrl": "https://catalog.archives.gov/id/404512727",
         "status": "Actual memorandum of conversation with President Demirel of Turkey; not a Clinton-Yeltsin conversation. Excluded."
+      },
+      {
+        "naid": "23901993",
+        "title": "9404405",
+        "catalogUrl": "https://catalog.archives.gov/id/23901993",
+        "status": "False June 3, 1994 lead. The downloaded 21-page PDF is FOIA 2011-1037-F briefing materials for Clinton's July 1994 Latvia/Poland/Italy/Germany trip, not a Yeltsin telcon."
+      },
+      {
+        "naid": "192122252",
+        "title": "Audio Recording of President Clinton's News Conference with President Boris Yeltsin of Russia in Naples",
+        "catalogUrl": "https://catalog.archives.gov/id/192122252",
+        "status": "Confirms the July 10, 1994 Naples public event/audio context, but it is WHCA news-conference audio, not a memorandum of conversation."
+      },
+      {
+        "naid": "17368189",
+        "title": "Daily Diary hardcopy for September 1998 travel",
+        "catalogUrl": "https://catalog.archives.gov/id/17368189",
+        "status": "Chronology/schedule support for the Moscow trip; no actual September 1-2, 1998 Clinton-Yeltsin memcon pages."
       }
     ],
     "frusSourceNote": "Source: NARA Scout search trail, Search run May 20, 2026."
@@ -15866,8 +15884,35 @@ window.MEMCONS = [
           "pages": 4
         }
       ],
+      "yeltsinMemorandumAndTelconItemRecordsReviewed": 92,
       "downloadedPdfCandidates": 94,
       "downloadedSourcePages": 534,
+      "pendingExtentDateRecheck": [
+        {
+          "date": "1993-04-01",
+          "status": "No Clinton Digital Library memorandum/telcon item for the Portland call. Visible hits are photograph contact sheets and press/news context, not conversation text."
+        },
+        {
+          "date": "1994-06-03",
+          "status": "No CDL memorandum/telcon item for the Rome/North Korea call. Exact-date search surfaced North Korea background/statement files and photo/finding-aid context, not a telcon."
+        },
+        {
+          "date": "1994-07-10",
+          "status": "No Naples memcon item found. CDL item 115036 is WHCA audio of the joint news conference; Naples trip binders are briefing/speech/travel material."
+        },
+        {
+          "date": "1998-09-01",
+          "status": "No Moscow meeting memcon found. CDL item 101277 is a trip briefing book; item 11555 is a Yeltsin toast; item 117090 is WHCA news-conference audio."
+        },
+        {
+          "date": "1999-02-08",
+          "status": "No Amman memcon found in CDL Yeltsin, memcon, telcon, or declassified facets."
+        },
+        {
+          "date": "2000-06-05",
+          "status": "No former-President Yeltsin memcon found. CDL item 118907 is the Russia/Ukraine trip release and includes Putin/Kuchma material, including the June 4 Clinton-Putin memcon, but no Yeltsin courtesy-call memcon."
+        }
+      ],
       "newlyCountedStandaloneDocuments": [
         {
           "itemId": "101363",
@@ -15918,5 +15963,140 @@ window.MEMCONS = [
       ]
     },
     "frusSourceNote": "Source: Clinton Digital Library Solr search: Yeltsin."
+  },
+  {
+    "id": "pending-extents-recheck-2026-05-21",
+    "date": "2026-05-21",
+    "sortDate": "2026-05-21",
+    "sortOrder": 1,
+    "type": "Scout Lead",
+    "title": "Pending extents recheck: six Clinton-Yeltsin chronology contacts",
+    "documentTitle": "Pending extents recheck: six Clinton-Yeltsin chronology contacts",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Negative Search Trail",
+    "naid": "pending-extents-recheck-2026-05-21",
+    "catalogUrl": "https://therealjameswilson.github.io/nara-scout/#q=Yeltsin%20telcon&from=1993&to=2001&sort=relevance&perColl=50&perPage=50&scope=7388808,7386505,101784492,2525029,2525024,7386739,7388773,7386504,7385964,7388842,7388805,2525014",
+    "pdfUrl": "",
+    "pageCount": null,
+    "digitalObjects": 6,
+    "dateLine": "Search run May 21, 2026",
+    "subjectLine": "Second-pass verification for the six chronology-documented Clinton-Yeltsin contacts that still lack released actual conversation pages.",
+    "source": {
+      "name": "NARA Scout",
+      "url": "https://therealjameswilson.github.io/nara-scout/"
+    },
+    "sourceNote": "Search result: no additional released actual Clinton-Yeltsin memcon or telcon pages were found for April 1, 1993; June 3, 1994; July 10, 1994; September 1-2, 1998; February 8, 1999; or June 5, 2000. Rechecked sources included the current Clinton Library foreign-leader chronology PDF, the Clinton Digital Library Yeltsin Solr corpus, Google Drive exact-date/place searches, NARA Scout/Catalog exact-date searches, and National Security Archive postings.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Search trail only: keep these as pending contacts. Do not generate a derivative PDF unless a released actual conversation page is located; false/context leads were briefing books, press/audio events, trip binders, schedule/context records, and nearby but distinct memcons/telcons.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "NARA Scout",
+      "Pending extents",
+      "Search trail",
+      "Deduplication"
+    ],
+    "topics": [
+      "NARA Scout",
+      "Pending extents",
+      "Search trail",
+      "Deduplication"
+    ],
+    "scoutAudit": {
+      "searchedAt": "2026-05-21T19:45:00-04:00",
+      "purpose": "Second-pass verification for the six Clinton-Yeltsin chronology contacts that still lack released actual conversation pages.",
+      "sourcesRechecked": [
+        "Fresh download of the Clinton Library foreign-leader chronology PDF",
+        "Clinton Digital Library Solr Yeltsin corpus: 1,440 unique items and 92 Yeltsin memorandum/telcon item records",
+        "Google Drive exact-date and place/title searches for the six pending contacts",
+        "NARA Scout/NARA Catalog exact-date searches across high-value Clinton NSC, Daily Diary, WHCA audio, speechwriting, trip, and press collections",
+        "National Security Archive targeted Clinton-Yeltsin postings and exact-date searches"
+      ],
+      "outcome": "No additional released actual Clinton-Yeltsin memcon or telcon pages were located. The six rows remain chronology-documented contacts, not countable document extents.",
+      "pendingContacts": [
+        {
+          "date": "1993-04-01",
+          "type": "Telcon",
+          "status": "Chronology contact only. Drive surfaced a 930401 Moscow-to-DC Vancouver preview cable; Clinton Digital Library surfaced photo/press context; no April 1 telcon transcript was found."
+        },
+        {
+          "date": "1994-06-03",
+          "type": "Telcon",
+          "status": "MDR packet pages 187-190 are marker/withdrawal/profile pages for Document ID 9404692. NARA false lead 9404405/NAID 23901993 is a July 1994 trip briefing-material packet, not the telcon."
+        },
+        {
+          "date": "1994-07-10",
+          "type": "Memcon",
+          "status": "NARA/CDL leads are Naples trip materials and WHCA news-conference audio, including NAID 192122252/CDL item 115036; no Naples memcon text was found."
+        },
+        {
+          "date": "1998-09-01",
+          "type": "Memcon",
+          "status": "Drive and Clinton Digital Library item 101277 are the 2016-0143-M trip briefing book. CDL also has a Yeltsin toast file and WHCA press-conference audio, not meeting memcons."
+        },
+        {
+          "date": "1999-02-08",
+          "type": "Memcon",
+          "status": "Chronology and public reporting document a brief Amman funeral interaction; Drive, CDL, NARA Scout, and NSA searches found no released memcon."
+        },
+        {
+          "date": "2000-06-05",
+          "type": "Memcon",
+          "status": "Clinton Digital Library item 118907 is the Russia/Ukraine trip release with Putin/Kuchma material and June 4 Clinton-Putin memcon; it has no former-President Yeltsin memcon."
+        }
+      ]
+    },
+    "reviewedCandidates": [
+      {
+        "date": "1993-04-01",
+        "type": "Telcon",
+        "status": "Chronology contact only. Drive surfaced a 930401 Moscow-to-DC Vancouver preview cable; Clinton Digital Library surfaced photo/press context; no April 1 telcon transcript was found."
+      },
+      {
+        "date": "1994-06-03",
+        "type": "Telcon",
+        "status": "MDR packet pages 187-190 are marker/withdrawal/profile pages for Document ID 9404692. NARA false lead 9404405/NAID 23901993 is a July 1994 trip briefing-material packet, not the telcon."
+      },
+      {
+        "date": "1994-07-10",
+        "type": "Memcon",
+        "status": "NARA/CDL leads are Naples trip materials and WHCA news-conference audio, including NAID 192122252/CDL item 115036; no Naples memcon text was found."
+      },
+      {
+        "date": "1998-09-01",
+        "type": "Memcon",
+        "status": "Drive and Clinton Digital Library item 101277 are the 2016-0143-M trip briefing book. CDL also has a Yeltsin toast file and WHCA press-conference audio, not meeting memcons."
+      },
+      {
+        "date": "1999-02-08",
+        "type": "Memcon",
+        "status": "Chronology and public reporting document a brief Amman funeral interaction; Drive, CDL, NARA Scout, and NSA searches found no released memcon."
+      },
+      {
+        "date": "2000-06-05",
+        "type": "Memcon",
+        "status": "Clinton Digital Library item 118907 is the Russia/Ukraine trip release with Putin/Kuchma material and June 4 Clinton-Putin memcon; it has no former-President Yeltsin memcon."
+      }
+    ],
+    "frusSourceNote": "Source: NARA Scout search trail, Search run May 21, 2026."
   }
 ];

@@ -34,8 +34,35 @@
       "pages": 4
     }
   ],
+  "yeltsinMemorandumAndTelconItemRecordsReviewed": 92,
   "downloadedPdfCandidates": 94,
   "downloadedSourcePages": 534,
+  "pendingExtentDateRecheck": [
+    {
+      "date": "1993-04-01",
+      "status": "No Clinton Digital Library memorandum/telcon item for the Portland call. Visible hits are photograph contact sheets and press/news context, not conversation text."
+    },
+    {
+      "date": "1994-06-03",
+      "status": "No CDL memorandum/telcon item for the Rome/North Korea call. Exact-date search surfaced North Korea background/statement files and photo/finding-aid context, not a telcon."
+    },
+    {
+      "date": "1994-07-10",
+      "status": "No Naples memcon item found. CDL item 115036 is WHCA audio of the joint news conference; Naples trip binders are briefing/speech/travel material."
+    },
+    {
+      "date": "1998-09-01",
+      "status": "No Moscow meeting memcon found. CDL item 101277 is a trip briefing book; item 11555 is a Yeltsin toast; item 117090 is WHCA news-conference audio."
+    },
+    {
+      "date": "1999-02-08",
+      "status": "No Amman memcon found in CDL Yeltsin, memcon, telcon, or declassified facets."
+    },
+    {
+      "date": "2000-06-05",
+      "status": "No former-President Yeltsin memcon found. CDL item 118907 is the Russia/Ukraine trip release and includes Putin/Kuchma material, including the June 4 Clinton-Putin memcon, but no Yeltsin courtesy-call memcon."
+    }
+  ],
   "newlyCountedStandaloneDocuments": [
     {
       "itemId": "101363",

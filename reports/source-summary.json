@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-21T22:52:01.675Z",
-  "totalRecords": 232,
+  "generatedAt": "2026-05-21T23:37:47.527Z",
+  "totalRecords": 233,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
     "Released Clinton Library Packets": 4,
     "Talbott FOIA Context": 123,
-    "NARA Scout Leads": 13
+    "NARA Scout Leads": 14
   },
   "byType": {
     "Telcon": 60,
     "Memcon": 32,
     "Release Packet": 4,
     "Context": 123,
-    "Scout Lead": 13
+    "Scout Lead": 14
   },
   "pageTallies": {
     "allRecords": {
-      "documents": 232,
+      "documents": 233,
       "countedDocuments": 93,
-      "pendingDocuments": 139,
+      "pendingDocuments": 140,
       "pages": 578
     },
     "potentialClintonYeltsinDocuments": {
@@ -47,9 +47,9 @@
         "pages": 0
       },
       "NARA Scout Leads": {
-        "documents": 13,
+        "documents": 14,
         "countedDocuments": 8,
-        "pendingDocuments": 5,
+        "pendingDocuments": 6,
         "pages": 133
       }
     }
@@ -68,6 +68,7 @@
     "strobeManifestPdfAudit": "reports/strobe-manifest-pdf-audit.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",
+    "pendingExtentVerificationRecheck": "reports/pending-extent-verification-recheck.json",
     "clintonDigitalLibrarySolrAudit": "reports/clinton-digital-library-solr-audit.json"
   }
 }

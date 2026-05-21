@@ -634,6 +634,14 @@ function createParagraph(className, text) {
   return paragraph;
 }
 
+function sourceAuditText(record) {
+  if (!record.sourceNote || record.sourceNote === record.frusSourceNote) return "";
+  const isPendingCandidate = isConversationCandidate(record) && !Number.isInteger(record.pageCount);
+  const isSearchTrail = /Search Trail/i.test(record.releaseStatus || "");
+  const hasAuditLanguage = /Page audit|Search result|recheck|false/i.test(record.sourceNote);
+  return isPendingCandidate || isSearchTrail || hasAuditLanguage ? record.sourceNote : "";
+}
+
 function createChecklistItem(label, value, tone = "") {
   const item = document.createElement("div");
   item.className = tone ? `check-item ${tone}` : "check-item";
@@ -776,9 +784,15 @@ function createRecordRow(record) {
     createParagraph("record-date-line", record.dateLine || formatDate(record.date)),
     createParagraph("record-subject", record.subjectLine || record.title),
     createMeta(record),
-    createParagraph("record-source-note", record.frusSourceNote || record.sourceNote || "Source: Provenance pending."),
-    createCompilerChecklist(record)
+    createParagraph("record-source-note", record.frusSourceNote || record.sourceNote || "Source: Provenance pending.")
   );
+
+  const auditText = sourceAuditText(record);
+  if (auditText) {
+    body.append(createParagraph("record-source-audit", `Audit: ${auditText}`));
+  }
+
+  body.append(createCompilerChecklist(record));
 
   body.append(createSourceNoteDetails(record));
 

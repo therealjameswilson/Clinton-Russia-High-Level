@@ -104,6 +104,50 @@
     ],
     "noNewActualConversationPages": "The candidate PDFs did not add new actual Clinton-Yeltsin memcon/telcon pages. They were withdrawal/locator sheets, talking points, schedule proposals, public-statement files, press guidance, or actual conversation records with non-Yeltsin leaders."
   },
+  "pendingExtentRecheck": {
+    "searchedAt": "2026-05-21T19:45:00-04:00",
+    "purpose": "Second-pass verification for the six Clinton-Yeltsin chronology contacts that still lack released actual conversation pages.",
+    "sourcesRechecked": [
+      "Fresh download of the Clinton Library foreign-leader chronology PDF",
+      "Clinton Digital Library Solr Yeltsin corpus: 1,440 unique items and 92 Yeltsin memorandum/telcon item records",
+      "Google Drive exact-date and place/title searches for the six pending contacts",
+      "NARA Scout/NARA Catalog exact-date searches across high-value Clinton NSC, Daily Diary, WHCA audio, speechwriting, trip, and press collections",
+      "National Security Archive targeted Clinton-Yeltsin postings and exact-date searches"
+    ],
+    "outcome": "No additional released actual Clinton-Yeltsin memcon or telcon pages were located. The six rows remain chronology-documented contacts, not countable document extents.",
+    "pendingContacts": [
+      {
+        "date": "1993-04-01",
+        "type": "Telcon",
+        "status": "Chronology contact only. Drive surfaced a 930401 Moscow-to-DC Vancouver preview cable; Clinton Digital Library surfaced photo/press context; no April 1 telcon transcript was found."
+      },
+      {
+        "date": "1994-06-03",
+        "type": "Telcon",
+        "status": "MDR packet pages 187-190 are marker/withdrawal/profile pages for Document ID 9404692. NARA false lead 9404405/NAID 23901993 is a July 1994 trip briefing-material packet, not the telcon."
+      },
+      {
+        "date": "1994-07-10",
+        "type": "Memcon",
+        "status": "NARA/CDL leads are Naples trip materials and WHCA news-conference audio, including NAID 192122252/CDL item 115036; no Naples memcon text was found."
+      },
+      {
+        "date": "1998-09-01",
+        "type": "Memcon",
+        "status": "Drive and Clinton Digital Library item 101277 are the 2016-0143-M trip briefing book. CDL also has a Yeltsin toast file and WHCA press-conference audio, not meeting memcons."
+      },
+      {
+        "date": "1999-02-08",
+        "type": "Memcon",
+        "status": "Chronology and public reporting document a brief Amman funeral interaction; Drive, CDL, NARA Scout, and NSA searches found no released memcon."
+      },
+      {
+        "date": "2000-06-05",
+        "type": "Memcon",
+        "status": "Clinton Digital Library item 118907 is the Russia/Ukraine trip release with Putin/Kuchma material and June 4 Clinton-Putin memcon; it has no former-President Yeltsin memcon."
+      }
+    ]
+  },
   "auditedCandidateExamples": [
     {
       "naid": "40482516",
@@ -146,6 +190,24 @@
       "title": "9602199",
       "catalogUrl": "https://catalog.archives.gov/id/404512727",
       "status": "Actual memorandum of conversation with President Demirel of Turkey; not a Clinton-Yeltsin conversation. Excluded."
+    },
+    {
+      "naid": "23901993",
+      "title": "9404405",
+      "catalogUrl": "https://catalog.archives.gov/id/23901993",
+      "status": "False June 3, 1994 lead. The downloaded 21-page PDF is FOIA 2011-1037-F briefing materials for Clinton's July 1994 Latvia/Poland/Italy/Germany trip, not a Yeltsin telcon."
+    },
+    {
+      "naid": "192122252",
+      "title": "Audio Recording of President Clinton's News Conference with President Boris Yeltsin of Russia in Naples",
+      "catalogUrl": "https://catalog.archives.gov/id/192122252",
+      "status": "Confirms the July 10, 1994 Naples public event/audio context, but it is WHCA news-conference audio, not a memorandum of conversation."
+    },
+    {
+      "naid": "17368189",
+      "title": "Daily Diary hardcopy for September 1998 travel",
+      "catalogUrl": "https://catalog.archives.gov/id/17368189",
+      "status": "Chronology/schedule support for the Moscow trip; no actual September 1-2, 1998 Clinton-Yeltsin memcon pages."
     }
   ]
 }
