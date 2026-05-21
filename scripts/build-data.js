@@ -8,6 +8,9 @@ const CLINTON_TEXT =
 const STROBE_MANIFEST =
   process.env.STROBE_MANIFEST ||
   path.join(WORKSPACE, "strobe-talbott-foia", "data", "manifest.json");
+const STROBE_LIVE_YELTSIN_PDF_LEADS =
+  process.env.STROBE_LIVE_YELTSIN_PDF_LEADS ||
+  path.join(ROOT, "data", "strobe-live-yeltsin-pdf-leads.json");
 
 const FRUS_VOLUME = {
   id: "frus1993-00v18",
@@ -723,21 +726,33 @@ const STROBE_REVIEWED_NON_CONVERSATION_FILES = [
     id: "C06694708",
     date: "1994-10-07",
     title: "Transmittal of Presidential Telcon with President Boris Yeltsin of Russia",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694708/C06694708.pdf",
     status: "Transmittal only; no actual Clinton-Yeltsin telcon pages counted."
   },
   {
     id: "C09000003",
     date: null,
     title: "POTUS-Yeltsin Bilat and Next Steps",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000003/C09000003.pdf",
     status: "Talbott-Mamedov debrief/context note, not a Clinton-Yeltsin memcon or telcon."
   },
   {
     id: "C09000076",
     date: null,
-    title: "The Moscow Script: The Presidential One-on-One",
+    title: "The Moscow Script The Presidential One-on-One",
+    url:
+      "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000076/C09000076.pdf",
     status: "Script/planning document, not an actual Clinton-Yeltsin memcon or telcon."
   }
 ];
+
+const STROBE_YELTSIN_TITLE_RE =
+  /\bYELTSIN\b|\bYELSTIN\b|POTUS-YELTSIN|CLINTON-YELTSIN|PRESIDENT BORIS YELTSIN|PRESIDENT OF RUSSIA BORIS YELTSIN/i;
+const STROBE_LIVE_YELTSIN_PDF_LEADS_SNAPSHOT = readJsonOptional(
+  STROBE_LIVE_YELTSIN_PDF_LEADS
+);
 
 const STROBE_SUPPRESSED_CONTEXT_IDS = new Set([
   ...Object.values(STROBE_CONVERSATION_FILES).map((file) => file.id),
@@ -2723,12 +2738,17 @@ function strobeScore(record) {
   return score;
 }
 
+function isStrobeYeltsinTitleRecord(record) {
+  return STROBE_YELTSIN_TITLE_RE.test(ascii(record.title));
+}
+
 function buildStrobeRecords() {
   const manifest = JSON.parse(fs.readFileSync(STROBE_MANIFEST, "utf8"));
   const seen = new Set();
   const ranked = manifest
     .filter((record) => record.date && record.date >= "1993-01-01" && record.date <= "2000-12-31")
     .filter((record) => !STROBE_SUPPRESSED_CONTEXT_IDS.has(record.id))
+    .filter((record) => !isStrobeYeltsinTitleRecord(record))
     .map((record) => ({ record, score: strobeScore(record) }))
     .filter(({ score }) => score >= 70)
     .sort((a, b) => b.score - a.score || a.record.date.localeCompare(b.record.date));
@@ -2778,6 +2798,213 @@ function buildStrobeRecords() {
       relevanceScore: record.score
     };
   });
+}
+
+function stableHash(value) {
+  let hash = 0;
+  for (const char of String(value || "")) {
+    hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
+  }
+  return hash.toString(36);
+}
+
+function strobeLeadUrl(lead) {
+  return lead.url || lead.pdf_url || lead.pdfUrl || lead.source_pdf_url || "";
+}
+
+function normalizeManifestDate(value) {
+  const raw = ascii(value);
+  if (!raw || /^n\/a$/i.test(raw)) return null;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) return raw;
+  const slash = raw.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (slash) {
+    const [, month, day, year] = slash;
+    return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+  }
+  return null;
+}
+
+function strobeLeadDocumentId(lead) {
+  return lead.id || lead.document_id || lead.documentId || "";
+}
+
+function addStrobePdfLead(groups, rawLead, category) {
+  const url = strobeLeadUrl(rawLead);
+  if (!url) return;
+
+  const title = ascii(rawLead.title);
+  const date = normalizeManifestDate(rawLead.date);
+  const key = url;
+  const lead =
+    groups.get(key) ||
+    {
+      id: strobeLeadDocumentId(rawLead),
+      date,
+      rawDates: new Set(),
+      title,
+      url,
+      categories: new Set(),
+      statuses: new Set(),
+      descriptions: new Set(),
+      releaseStatuses: new Set()
+    };
+
+  if (!lead.id) lead.id = strobeLeadDocumentId(rawLead);
+  if (!lead.date && date) lead.date = date;
+  if (!lead.title || title.length > lead.title.length) lead.title = title;
+  if (rawLead.date) lead.rawDates.add(ascii(rawLead.date));
+  if (category) lead.categories.add(category);
+  if (rawLead.status) lead.statuses.add(ascii(rawLead.status));
+  if (rawLead.description) lead.descriptions.add(ascii(rawLead.description));
+  if (rawLead.release_status || rawLead.releaseStatus) {
+    lead.releaseStatuses.add(ascii(rawLead.release_status || rawLead.releaseStatus));
+  }
+
+  groups.set(key, lead);
+}
+
+function buildLocalStrobeYeltsinPdfLeadRows() {
+  const manifest = JSON.parse(fs.readFileSync(STROBE_MANIFEST, "utf8"));
+  return manifest
+    .filter((record) => isStrobeYeltsinTitleRecord(record))
+    .map((record) => ({
+      id: record.id,
+      date: record.date,
+      title: record.title,
+      url: record.source_pdf_url,
+      release_status: record.release_status,
+      status: "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    }));
+}
+
+function strobeLeadReleaseStatus(lead) {
+  const rawRelease = [...lead.releaseStatuses].find(Boolean);
+  const normalized = releaseStatus(rawRelease || "");
+  if (normalized !== "Unknown") return normalized;
+  if (lead.categories.has("Conversation source copy")) return "Source Copy";
+  if (lead.categories.has("Reviewed non-conversation")) return "Reviewed Context";
+  return "Manifest PDF";
+}
+
+function strobeLeadDateLine(lead, sortDate) {
+  if (!lead.date) return "Date not stated in Strobe manifest";
+  if (lead.date > "2000-12-31") {
+    return `Manifest/index date ${lead.date}; document date requires PDF review`;
+  }
+  const rawDates = [...lead.rawDates].filter(Boolean);
+  return rawDates.length ? `Manifest date ${rawDates[0]}` : lead.date || sortDate;
+}
+
+function strobeLeadSubject(lead) {
+  const text = [lead.title, ...lead.descriptions, ...lead.statuses].join(" ");
+  if (lead.categories.has("Conversation source copy")) {
+    return "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.";
+  }
+  if (lead.categories.has("Reviewed non-conversation")) {
+    return [...lead.statuses].join(" ") || "Reviewed Strobe PDF; context only, not a counted conversation record.";
+  }
+  if (/MEMORANDUM OF CONVERSATION|TELEPHONE CONVERSATION|TELCON|MEMCON|ONE-ON-ONE/i.test(text)) {
+    return "Strobe manifest PDF surfaced as a high-level Clinton-Yeltsin conversation/source-copy lead; review against canonical chronology rows before counting pages.";
+  }
+  if (/LETTER|MESSAGE/i.test(text)) {
+    return "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.";
+  }
+  if (/SCRIPT|PREPARE|PREPARATION|TALKING POINTS|REMARKS|VENUE|SUMMIT|MEETING/i.test(text)) {
+    return "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.";
+  }
+  return "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.";
+}
+
+function strobeLeadExtractionStatus(lead) {
+  const statuses = [...lead.statuses].filter(Boolean);
+  const prefix = lead.categories.has("Conversation source copy")
+    ? "Duplicate source-copy control"
+    : "Manifest lead control";
+  return `${prefix}: not added to the consolidated memcon/telcon page total. ${statuses.join(" ")}`.trim();
+}
+
+function strobeLeadParticipants(lead) {
+  const text = [lead.title, ...lead.descriptions].join(" ");
+  const participants = [];
+  if (/CLINTON|POTUS|WILLIAM|BILL/i.test(text)) participants.push("Bill Clinton");
+  if (/YELTSIN|YELSTIN|BORIS/i.test(text)) participants.push("Boris Yeltsin");
+  return [...new Set(participants)];
+}
+
+function strobeLeadTopics(lead) {
+  const text = [lead.title, ...lead.descriptions].join(" ");
+  const topics = ["Talbott FOIA", "Strobe manifest PDF", "Russia policy context"];
+  if (/YELTSIN|YELSTIN|BORIS/i.test(text)) topics.push("Yeltsin");
+  if (/CLINTON|POTUS|WILLIAM|BILL/i.test(text)) topics.push("Clinton-Yeltsin");
+  if (/NATO/i.test(text)) topics.push("NATO/Russia");
+  if (/KOSOVO/i.test(text)) topics.push("Kosovo");
+  if (/IRAQ/i.test(text)) topics.push("Iraq");
+  if (/SUMMIT|MOSCOW|LYON|BIRMINGHAM|DENVER|HALIFAX/i.test(text)) topics.push("Summit diplomacy");
+  if (lead.categories.has("Conversation source copy")) topics.push("Source copy", "Deduplication");
+  return [...new Set(topics)];
+}
+
+function makeStrobePdfLeadRecord(lead) {
+  const sortDate = lead.date || "1993-01-01";
+  const title = ascii(lead.title);
+  const id = strobeLeadDocumentId(lead);
+  const categories = [...lead.categories].sort();
+  const sourceNote = `Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case ${SOURCES.strobe.caseNumber}, document ${id}; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.`;
+  const topics = strobeLeadTopics(lead);
+
+  return {
+    id: `strobe-pdf-${id.toLowerCase()}-${stableHash(lead.url)}`,
+    dedupeKey: `strobe-pdf-url|${lead.url}`,
+    date: sortDate,
+    sortDate,
+    dateDisplay: lead.date ? "" : "n.d.",
+    type: "Context",
+    title,
+    documentTitle: title,
+    participants: strobeLeadParticipants(lead),
+    countries: ["United States", "Russia"],
+    chapter: CHAPTERS.strobe,
+    releaseStatus: strobeLeadReleaseStatus(lead),
+    naid: id,
+    catalogUrl: SOURCES.strobe.url,
+    pdfUrl: lead.url,
+    pageCount: null,
+    countStatus: "Context only",
+    potentialFrusDocument: false,
+    dateLine: strobeLeadDateLine(lead, sortDate),
+    subjectLine: strobeLeadSubject(lead),
+    source: SOURCES.strobe,
+    sourceNote,
+    frusSourceNote: sourceNote,
+    extractionRule: EXTRACTION_RULE,
+    extractionStatus: strobeLeadExtractionStatus(lead),
+    frusVolume: FRUS_VOLUME,
+    frusTopics: topics,
+    topics,
+    strobeManifestPdf: true,
+    strobePdfCategory: categories.join("; "),
+    strobePdfCategories: categories,
+    strobeManifestDescriptions: [...lead.descriptions],
+    strobeManifestStatuses: [...lead.statuses]
+  };
+}
+
+function buildStrobeManifestPdfRecords() {
+  const groups = new Map();
+  for (const file of Object.values(STROBE_CONVERSATION_FILES)) {
+    addStrobePdfLead(groups, file, "Conversation source copy");
+  }
+  for (const file of STROBE_REVIEWED_NON_CONVERSATION_FILES) {
+    addStrobePdfLead(groups, file, "Reviewed non-conversation");
+  }
+  for (const file of STROBE_LIVE_YELTSIN_PDF_LEADS_SNAPSHOT.documents || []) {
+    addStrobePdfLead(groups, file, "Live Strobe manifest Yeltsin/POTUS hit");
+  }
+  for (const file of buildLocalStrobeYeltsinPdfLeadRows()) {
+    addStrobePdfLead(groups, file, "Local Strobe manifest Yeltsin title hit");
+  }
+
+  return [...groups.values()].map(makeStrobePdfLeadRecord);
 }
 
 function buildNaraScoutRecords() {
@@ -3371,6 +3598,48 @@ function buildDocumentPageTallies(records, sourceFileInventory = null) {
   };
 }
 
+function buildStrobeManifestPdfAudit(records) {
+  const strobePdfRecords = records.filter((record) => record.strobeManifestPdf);
+  const byCategory = {};
+  for (const record of strobePdfRecords) {
+    for (const category of record.strobePdfCategories || ["Uncategorized"]) {
+      byCategory[category] = (byCategory[category] || 0) + 1;
+    }
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    scope:
+      "Visible Strobe Talbott FOIA manifest PDFs added for compiler review. These records are context/source-copy rows and are excluded from consolidated Clinton-Yeltsin memcon/telcon page totals unless represented by a canonical chronology record.",
+    liveManifest: {
+      page: SOURCES.strobe.url,
+      snapshotPath: path.relative(ROOT, STROBE_LIVE_YELTSIN_PDF_LEADS),
+      generatedAt: STROBE_LIVE_YELTSIN_PDF_LEADS_SNAPSHOT.generatedAt || null,
+      entryCount: STROBE_LIVE_YELTSIN_PDF_LEADS_SNAPSHOT.entryCount || null,
+      leadCount: STROBE_LIVE_YELTSIN_PDF_LEADS_SNAPSHOT.leadCount || null,
+      filter: STROBE_LIVE_YELTSIN_PDF_LEADS_SNAPSHOT.filter || null
+    },
+    localManifest: {
+      path: STROBE_MANIFEST,
+      titleHitCount: buildLocalStrobeYeltsinPdfLeadRows().length
+    },
+    visiblePdfRecords: strobePdfRecords.length,
+    uniquePdfUrls: new Set(strobePdfRecords.map((record) => record.pdfUrl).filter(Boolean)).size,
+    byCategory,
+    records: strobePdfRecords.map((record) => ({
+      id: record.id,
+      documentId: record.naid,
+      date: record.date,
+      dateLine: record.dateLine,
+      title: record.documentTitle,
+      pdfUrl: record.pdfUrl,
+      releaseStatus: record.releaseStatus,
+      category: record.strobePdfCategory,
+      extractionStatus: record.extractionStatus
+    }))
+  };
+}
+
 function dedupeCompilerRecords(records) {
   const seen = new Map();
   const deduped = [];
@@ -3423,6 +3692,7 @@ function writeOutputs(records) {
 
   const sourceFileInventory = buildSourceFileInventory(candidateConversationRecords(records));
   const pageTallies = buildDocumentPageTallies(records, sourceFileInventory);
+  const strobeManifestPdfAudit = buildStrobeManifestPdfAudit(records);
 
   const summary = {
     generatedAt: new Date().toISOString(),
@@ -3457,11 +3727,15 @@ function writeOutputs(records) {
     strobeConversationFiles: {
       includedCrossReferences: Object.keys(STROBE_CONVERSATION_FILES).length,
       uniqueSourceFiles: new Set(Object.values(STROBE_CONVERSATION_FILES).map(sourceFileKey)).size,
-      reviewedNonConversationFiles: STROBE_REVIEWED_NON_CONVERSATION_FILES.length
+      reviewedNonConversationFiles: STROBE_REVIEWED_NON_CONVERSATION_FILES.length,
+      visibleManifestPdfRecords: strobeManifestPdfAudit.visiblePdfRecords,
+      uniqueManifestPdfUrls: strobeManifestPdfAudit.uniquePdfUrls
     },
     sources: {
       clintonText: CLINTON_TEXT,
       strobeManifest: STROBE_MANIFEST,
+      strobeLiveManifestPdfLeads: STROBE_LIVE_YELTSIN_PDF_LEADS,
+      strobeManifestPdfAudit: "reports/strobe-manifest-pdf-audit.json",
       naraScout: SOURCES.naraScout.url,
       naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
       clintonDigitalLibrarySolrAudit: "reports/clinton-digital-library-solr-audit.json"
@@ -3483,6 +3757,10 @@ function writeOutputs(records) {
     path.join(reportsDir, "clinton-digital-library-solr-audit.json"),
     `${JSON.stringify(CLINTON_DIGITAL_LIBRARY_SOLR_AUDIT, null, 2)}\n`
   );
+  fs.writeFileSync(
+    path.join(reportsDir, "strobe-manifest-pdf-audit.json"),
+    `${JSON.stringify(strobeManifestPdfAudit, null, 2)}\n`
+  );
   fs.writeFileSync(path.join(reportsDir, "source-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
   console.log(JSON.stringify(summary, null, 2));
 }
@@ -3495,6 +3773,7 @@ const records = addFrusSourceNotes(
       ...buildClintonStandaloneCandidateRecords(),
       ...buildReleasePackets(),
       ...buildStrobeRecords(),
+      ...buildStrobeManifestPdfRecords(),
       ...buildNaraScoutRecords()
     ])
   )

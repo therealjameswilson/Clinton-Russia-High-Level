@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T22:20:47.790Z",
+  "generatedAt": "2026-05-21T22:52:01.668Z",
   "scope": "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, Strobe cross-reference copies, briefing material, and withdrawal sheets are excluded.",
   "consolidated": {
     "potentialDocuments": 91,
@@ -2281,18 +2281,21 @@
       "id": "C06694708",
       "date": "1994-10-07",
       "title": "Transmittal of Presidential Telcon with President Boris Yeltsin of Russia",
+      "url": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694708/C06694708.pdf",
       "status": "Transmittal only; no actual Clinton-Yeltsin telcon pages counted."
     },
     {
       "id": "C09000003",
       "date": null,
       "title": "POTUS-Yeltsin Bilat and Next Steps",
+      "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000003/C09000003.pdf",
       "status": "Talbott-Mamedov debrief/context note, not a Clinton-Yeltsin memcon or telcon."
     },
     {
       "id": "C09000076",
       "date": null,
-      "title": "The Moscow Script: The Presidential One-on-One",
+      "title": "The Moscow Script The Presidential One-on-One",
+      "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000076/C09000076.pdf",
       "status": "Script/planning document, not an actual Clinton-Yeltsin memcon or telcon."
     }
   ]

@@ -7197,6 +7197,1074 @@ window.MEMCONS = [
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721. Mandatory Declassification Review 2014-0546-M-Release-A, Declassified documents concerning Russian President Boris Yeltsin and Kosovo."
   },
   {
+    "id": "strobe-pdf-c09000004-10hwvd9",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "Boris Yeltsin Letter on Iraq",
+    "documentTitle": "Boris Yeltsin Letter on Iraq",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000004",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000004; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000004; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Iraq"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Iraq"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000004, dated n/a, released in the Feb 2024 FOIA Library release, is titled \"Boris Yeltsin Letter on Iraq\". The released text begins: \"A sensible sites\". sensible solution solution should be found here which would, on into account the interests the one hand, take into interests of the Special Commission, anci and on the other would spare the national national feelings fee… I have acquainted myself myself with satisfaction with with satisfaction with your opinion regarding opinion regarding the necessity necessity to increase increase humanitarian humanitarian aid aid to Iraq.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000005-1xm3nq8",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000005/C09000005.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "Bullet points: Yeltsin",
+    "documentTitle": "Bullet points: Yeltsin",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000005",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000005/C09000005.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000005; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000005; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000005, dated n/a, released in the July 2022 FOIA Library release, is titled \"Bullet points: Yeltsin\". The released text begins: \"President, there is no question that the U.S. has an interest in Yeltsin's being re-elected. For all his faults and for all the tacking to his opponents he's been doing lately, he's still far preferable to Zyuganov.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000039-1ualfkh",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "from amherst speech?.",
+    "documentTitle": "from amherst speech?.",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000039",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000039; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000039; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000039, dated n/a, released in the Feb 2024 FOIA Library release, is titled \"from amherst speech?.\". The released text begins: \"A few hours after this meeting, when he was back aboard Air Force One heading home, the President commented that what was most striking about this trip was the openness and intensity of the political debate. Every Russian he met, from a school teacher shepherding her pupils through Red Square to the leading Presidential candidates, notably including the incumbent President Boris Yeltsin, understands that Russia faces a turning point in its tho…\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000012-14kwi7b",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000012/C09000012.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "JOINT RUSSIAN-U.S. STATEMENT ON EUROPEAN SECURITY w/Attachment(s)",
+    "documentTitle": "JOINT RUSSIAN-U.S. STATEMENT ON EUROPEAN SECURITY w/Attachment(s)",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000012",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000012/C09000012.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000012; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000012; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000012, dated n/a, released in the Apr 2024 FOIA Library release, is titled \"JOINT RUSSIAN-U.S. STATEMENT ON EUROPEAN SECURITY w/Attachment(s)\". The released text begins: \"Yeltsin and B.Clinton discussed the present security B.YeItsin situation in the Euro-Atlantic region. They reaffirmed their commitment to their shared goal to build a stable, secure and democratic Europe free of dividing lines.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000059-1ykf0h9",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_May2022/FL-2017-13804/DOC_0C09000059/C09000059.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "Letter from B. Yeltsin to Bill Clinton",
+    "documentTitle": "Letter from B. Yeltsin to Bill Clinton",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000059",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_May2022/FL-2017-13804/DOC_0C09000059/C09000059.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000059; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000059; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Iraq"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Iraq"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000059, dated n/a, released in the May 2022 FOIA Library release, is titled \"Letter from B. Yeltsin to Bill Clinton\". The released text begins: \"Kozyrev urgently visited Baghdad and, as a result of difficult negotiations with the Iraqis, brought them to the point of being ready to recognize the sovereignty and borders of Kuwait, about which there has been an official declaration. Firm , assurances have been received that the Iraqi forces are being withdrawn to positions in the rear.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000005-1pg0qdr",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000005/C09000005.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "NEA Views on Yeltsin Letter on Iraq w/Attachment(s)",
+    "documentTitle": "NEA Views on Yeltsin Letter on Iraq w/Attachment(s)",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000005",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000005/C09000005.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000005; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000005; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Iraq"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Iraq"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000005, dated n/a, released in the Feb 2024 FOIA Library release, is titled \"NEA Views on Yeltsin Letter on Iraq w/Attachment(s)\". The released text begins: \"US views 1) We have sought from the beginning heginning to resolve the current crisis diplomatically. Force deployments support diplomacy and cover possible contingencies.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000003-18mrcdt",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000003/C09000003.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "POTUS-Yeltsin Bilat and Next Steps",
+    "documentTitle": "POTUS-Yeltsin Bilat and Next Steps",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Reviewed Context",
+    "naid": "C09000003",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000003/C09000003.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Talbott-Mamedov debrief/context note, not a Clinton-Yeltsin memcon or telcon.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000003; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000003; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Talbott-Mamedov debrief/context note, not a Clinton-Yeltsin memcon or telcon.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit; Reviewed non-conversation",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit",
+      "Reviewed non-conversation"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000003, dated n/a, released in the Mar 2023 FOIA Library release, is titled \"POTUS-YELTSIN BILAT AND NEXT STEPS\". The released text begins: \"II said the way back to his hotel room, there was said there was about. We've got to nothing to worry about. keep going to keep and not going and not ourseIves be thrown off stride let ourselves ..\""
+    ],
+    "strobeManifestStatuses": [
+      "Talbott-Mamedov debrief/context note, not a Clinton-Yeltsin memcon or telcon."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000055-trj68m",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000055/C09000055.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "President Yeltsin's Post-Referendum Letter: His Message and Your Response",
+    "documentTitle": "President Yeltsin's Post-Referendum Letter: His Message and Your Response",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000055",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000055/C09000055.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000055; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000055; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000055, dated n/a, released in the July 2022 FOIA Library release, is titled \"President Yeltsin's Post-Referendum Letter: His Message and Your Response\". The released text begins: \"Chapman, Senior Reviewer, A/GIS/IPS FROM: ANTHONY LAKE 8/11/2020 SUBJECT: President Yeltsin's Post-Referendum Letter: His Message and Your Response Purpose To respond to President Yeltsin's letter and set out a post- Vancouver followup age… Background Vice President Gore received a letter on Wednesday from President Yeltsin to you.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000052-8p8x0f",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000052/C09000052.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "REMARKS FOR POSSIBLE POOL SPRAY DURING BILATERAL MEETING WITH PRESIDENT YELTSIN",
+    "documentTitle": "REMARKS FOR POSSIBLE POOL SPRAY DURING BILATERAL MEETING WITH PRESIDENT YELTSIN",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000052",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000052/C09000052.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000052; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000052; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000052, dated n/a, released in the Apr 2024 FOIA Library release, is titled \"REMARKS FOR POSSIBLE POOL SPRAY DURING BILATERAL MEETING WITH PRESIDENT YELTSIN\". The released text begins: \"Expect Expect to to cover cover broan broao and varied agenda. and varied agenda. •• U.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000023-zlpxoq",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000023/C09000023.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "RUSSIAN ELECTION SCENARIOS",
+    "documentTitle": "RUSSIAN ELECTION SCENARIOS",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000023",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000023/C09000023.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000023; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000023; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000023, dated n/a, released in the Oct 2024 FOIA Library release, is titled \"RUSSIAN ELECTION SCENARIOS\". The released text begins: \"The likely constitutional in Russia this June - July. The likely constitutional outcomes outcomes are are aa Yeltsin Yeltsin oror Zyuganov Zyuganov victory victory inin aa free free and and fair fair election, election, with with aa Presidential Presidential inauguration inauguration thirty t…\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000002-qlfv9o",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000002/C09000002.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "RUSSIAN SUCCESSION SCENARIOS",
+    "documentTitle": "RUSSIAN SUCCESSION SCENARIOS",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000002",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000002/C09000002.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000002; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000002; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000002, dated n/a, released in the Oct 2024 FOIA Library release, is titled \"RUSSIAN SUCCESSION SCENARIOS\". The released text begins: \"It was to to become a was bound to major major issue inin Russian domestic politics during Yeltsin's second term , given questions about term, about Yeltsin's health and the fact fact that that t h e 1993 constitution limits Russian presid… In effect, the race toto succeed Yeltsin in in 2000 began immediately led by National after his reelection, led National Security Advisor Advisor Lebed and Prime Minister Prime Minister Chernomyrdin.. the prospect Yeltsin's health crisis h…\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000019-jde3ja",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000019/C09000019.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "Talking Points",
+    "documentTitle": "Talking Points",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000019",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000019/C09000019.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000019; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000019; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000019, dated n/a, released in the July 2022 FOIA Library release, is titled \"Talking Points\". The released text begins: \"I remember when I sat down with Jacques Chirac (or Boris Yeltsin, or Zhang, or Hashimoto, or PM Netanyahu) and grappled with the problem. I'm convinced that because of where we were able to come out, the American people are better off.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000076-12gt9dw",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000076/C09000076.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "The Moscow Script The Presidential One-on-One",
+    "documentTitle": "The Moscow Script The Presidential One-on-One",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Reviewed Context",
+    "naid": "C09000076",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000076/C09000076.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Script/planning document, not an actual Clinton-Yeltsin memcon or telcon.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000076; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000076; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Script/planning document, not an actual Clinton-Yeltsin memcon or telcon.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Reviewed non-conversation",
+    "strobePdfCategories": [
+      "Reviewed non-conversation"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Script/planning document, not an actual Clinton-Yeltsin memcon or telcon."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000061-1j34uqn",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000061/C09000061.pdf",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "dateDisplay": "n.d.",
+    "type": "Context",
+    "title": "The Newly Independent States: Looking Ahead",
+    "documentTitle": "The Newly Independent States: Looking Ahead",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000061",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000061/C09000061.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Date not stated in Strobe manifest",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000061; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000061; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000061, dated n/a, released in the Mar 2025 FOIA Library release, is titled \"The Newly Independent States: Looking Ahead\". The released text begins: \"Collins SUBJECT: The Newly Independent States: Looking Ahead We will be busy NIS-wide over the coming year, but the most immediate problems that we face will be related to Russia. Two events will define our relationship with the Kremlin in the months to come: Yeltsin's health and NATO enlargement.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000054-4tfb84",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000054/C09000054.pdf",
+    "date": "1993-04-28",
+    "sortDate": "1993-04-28",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Proposed Message to President Yeltsin",
+    "documentTitle": "Proposed Message to President Yeltsin",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000054",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000054/C09000054.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1993-04-28",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000054; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000054; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000054, dated 4/28/1993, released in the July 2022 FOIA Library release, is titled \"Proposed Message to President Yeltsin\". The released text begins: \"I have also attached a proposed response to Yeltsin (which I have reviewed with Strobe Talbott). The proposed message includes our views on a variety of the most important issues on the agenda with Russia.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
     "id": "strobe-c06835707",
     "date": "1993-07-11",
     "sortDate": "1993-07-11",
@@ -7241,6 +8309,155 @@ window.MEMCONS = [
     ],
     "relevanceScore": 70,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835707."
+  },
+  {
+    "id": "strobe-pdf-c09000001-iler57",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2023/FL-2017-13804/DOC_0C09000001/C09000001.pdf",
+    "date": "1993-07-16",
+    "sortDate": "1993-07-16",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Memon with President Boris Yeltsin of Russia w/Attached Cover Sheet",
+    "documentTitle": "Memon with President Boris Yeltsin of Russia w/Attached Cover Sheet",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C09000001",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2023/FL-2017-13804/DOC_0C09000001/C09000001.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1993-07-16",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000001; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000001; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA cable copy of the July 10, 1993 Clinton-Yeltsin Tokyo memcon; cover sheet excluded.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000001, dated 7/16/1993, released in the Oct 2023 FOIA Library release, is titled \"Memon with President Boris Yeltsin of Russia w/Attached Cover Sheet\". The released text begins: \"S. ___A~ jlcnatio_ RETURN TO - RETURN-T4 TO9- STAFF ~ FAsSrSTAN7 NT STAFF ASSISTANT ASSISTANT STAFF ASSISTANT COPY NO. MOSCOW EYES ONLY FOR AMBASSADOR PICKERING.\""
+    ],
+    "strobeManifestStatuses": [
+      "Strobe FOIA cable copy of the July 10, 1993 Clinton-Yeltsin Tokyo memcon; cover sheet excluded."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06690909-11uvn46",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Aug2021_C/F-2017-13804/DOC_0C06690909/C06690909.pdf",
+    "date": "1994-01-05",
+    "sortDate": "1994-01-05",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "U.S. policy should support Yeltsin - but judiciously",
+    "documentTitle": "U.S. policy should support Yeltsin - but judiciously",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06690909",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Aug2021_C/F-2017-13804/DOC_0C06690909/C06690909.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1994-01-05",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06690909; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06690909; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
   },
   {
     "id": "strobe-c06695297",
@@ -7289,13 +8506,17 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06695297."
   },
   {
-    "id": "strobe-c06695261",
+    "id": "strobe-pdf-c06695261-1fa2sk9",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695261/C06695261.pdf",
     "date": "1994-09-23",
     "sortDate": "1994-09-23",
+    "dateDisplay": "",
     "type": "Context",
     "title": "MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN",
     "documentTitle": "MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN",
-    "participants": [],
+    "participants": [
+      "Boris Yeltsin"
+    ],
     "countries": [
       "United States",
       "Russia"
@@ -7309,14 +8530,23 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695261/C06695261.pdf",
     "pageCount": null,
-    "dateLine": "1994-09-23",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1994-09-23",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06695261; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06695261; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06695261; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -7325,16 +8555,243 @@ window.MEMCONS = [
     },
     "frusTopics": [
       "Talbott FOIA",
+      "Strobe manifest PDF",
       "Russia policy context",
       "Yeltsin"
     ],
     "topics": [
       "Talbott FOIA",
+      "Strobe manifest PDF",
       "Russia policy context",
       "Yeltsin"
     ],
-    "relevanceScore": 70,
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06695261."
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000144-wku6ch",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000144/C09000144.pdf",
+    "date": "1994-09-27",
+    "sortDate": "1994-09-27",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Handling Yeltsin",
+    "documentTitle": "Handling Yeltsin",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C09000144",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000144/C09000144.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1994-09-27",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000144; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000144; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06694711-1ezxecv",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694711/C06694711.pdf",
+    "date": "1994-10-05",
+    "sortDate": "1994-10-05",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Telephone Conversation with Russian President Yeltsin",
+    "documentTitle": "Telephone Conversation with Russian President Yeltsin",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06694711",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694711/C06694711.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1994-10-05",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694711; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694711; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA copy of the actual October 5, 1994 telcon; duplicate source copy, not counted again. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Strobe FOIA copy of the actual October 5, 1994 telcon; duplicate source copy, not counted again.",
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06694708-ki95tr",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694708/C06694708.pdf",
+    "date": "1994-10-07",
+    "sortDate": "1994-10-07",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Transmittal of Presidential Telcon with President Boris Yeltsin of Russia",
+    "documentTitle": "Transmittal of Presidential Telcon with President Boris Yeltsin of Russia",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06694708",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694708/C06694708.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1994-10-07",
+    "subjectLine": "Transmittal only; no actual Clinton-Yeltsin telcon pages counted. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694708; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694708; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Transmittal only; no actual Clinton-Yeltsin telcon pages counted. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit; Reviewed non-conversation",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit",
+      "Reviewed non-conversation"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Transmittal only; no actual Clinton-Yeltsin telcon pages counted.",
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
   },
   {
     "id": "strobe-c06694734",
@@ -7381,6 +8838,157 @@ window.MEMCONS = [
     ],
     "relevanceScore": 70,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694734."
+  },
+  {
+    "id": "strobe-pdf-c06835149-1cjc7so",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835149/C06835149.pdf",
+    "date": "1995-06-12",
+    "sortDate": "1995-06-12",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Your Meeting with Yeltsin in Halifax",
+    "documentTitle": "Your Meeting with Yeltsin in Halifax",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06835149",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835149/C06835149.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1995-06-12",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835149; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835149; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06835181-u65wf4",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+    "date": "1995-06-17",
+    "sortDate": "1995-06-17",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Clinton-Yeltsin Meeting",
+    "documentTitle": "Clinton-Yeltsin Meeting",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C06835181",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1995-06-17",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835181; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835181; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA copy with the actual Halifax Clinton-Yeltsin meeting pages 1-8. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Strobe FOIA copy with the actual Halifax Clinton-Yeltsin meeting pages 1-8.",
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
   },
   {
     "id": "strobe-c06698191",
@@ -7521,6 +9129,295 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698076."
   },
   {
+    "id": "strobe-pdf-c06835175-1uwe6sq",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835175/C06835175.pdf",
+    "date": "1995-10-20",
+    "sortDate": "1995-10-20",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Your Meeting with Boris Yeltsin",
+    "documentTitle": "Your Meeting with Boris Yeltsin",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06835175",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835175/C06835175.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1995-10-20",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835175; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835175; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06835150-t4sqas",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835150/C06835150.pdf",
+    "date": "1995-10-22",
+    "sortDate": "1995-10-22",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Your meeting with Boris Yeltsin (II)",
+    "documentTitle": "Your meeting with Boris Yeltsin (II)",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06835150",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835150/C06835150.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1995-10-22",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835150; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835150; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06698066-16fcivv",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698066/C06698066.pdf",
+    "date": "1995-10-22",
+    "sortDate": "1995-10-22",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "YOUR MEETING WITH BORIS YELTSIN (II)",
+    "documentTitle": "YOUR MEETING WITH BORIS YELTSIN (II)",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06698066",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698066/C06698066.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1995-10-22",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698066; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698066; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06835137-6m1e2e",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835137/C06835137.pdf",
+    "date": "1995-10-23",
+    "sortDate": "1995-10-23",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Clinton-Yeltsin One-on-One",
+    "documentTitle": "Clinton-Yeltsin One-on-One",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C06835137",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835137/C06835137.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1995-10-23",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835137; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835137; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA copy of the October 23, 1995 Hyde Park one-on-one; duplicate source copy, not counted again. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Strobe FOIA copy of the October 23, 1995 Hyde Park one-on-one; duplicate source copy, not counted again.",
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
     "id": "strobe-c06698198",
     "date": "1995-10-23",
     "sortDate": "1995-10-23",
@@ -7567,13 +9464,87 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698198."
   },
   {
-    "id": "strobe-c06697702",
+    "id": "strobe-pdf-c09000072-9phvb0",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000072/C09000072.pdf",
     "date": "1996-04-12",
     "sortDate": "1996-04-12",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "April 12, 1996 Note From Strobe To Chris",
+    "documentTitle": "April 12, 1996 Note From Strobe To Chris",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000072",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000072/C09000072.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-04-12",
+    "subjectLine": "Strobe manifest PDF surfaced as a high-level Clinton-Yeltsin conversation/source-copy lead; review against canonical chronology rows before counting pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000072; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000072; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000072, dated 4/12/1996, released in the Apr 2023 FOIA Library release, is titled \"April 12, 1996 Note From Strobe To Chris\". The released text begins: \"But I felt that it might be a good way of helping you prepare for next week. This version -- which exists only in this one copy -- includes, italicized, passages from the Yeltsin memcon that I left out of what I sent in earlier.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c06697702-1dvtd0t",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697702/C06697702.pdf",
+    "date": "1996-04-12",
+    "sortDate": "1996-04-12",
+    "dateDisplay": "",
     "type": "Context",
     "title": "YELTSIN-TALBOTT MEETING, APRIL 11, 1996",
     "documentTitle": "YELTSIN-TALBOTT MEETING, APRIL 11, 1996",
-    "participants": [],
+    "participants": [
+      "Boris Yeltsin"
+    ],
     "countries": [
       "United States",
       "Russia"
@@ -7587,14 +9558,23 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697702/C06697702.pdf",
     "pageCount": null,
-    "dateLine": "1996-04-12",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-04-12",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06697702; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697702; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697702; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -7603,16 +9583,550 @@ window.MEMCONS = [
     },
     "frusTopics": [
       "Talbott FOIA",
+      "Strobe manifest PDF",
       "Russia policy context",
       "Yeltsin"
     ],
     "topics": [
       "Talbott FOIA",
+      "Strobe manifest PDF",
       "Russia policy context",
       "Yeltsin"
     ],
-    "relevanceScore": 120,
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697702."
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000077-1rex4ee",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000077/C09000077.pdf",
+    "date": "1996-04-16",
+    "sortDate": "1996-04-16",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "DRAFT MEMORANDUM TO THE PRESIDENT",
+    "documentTitle": "DRAFT MEMORANDUM TO THE PRESIDENT",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000077",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000077/C09000077.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-04-16",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000077; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000077; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000077, dated 4/16/1996, released in the Apr 2023 FOIA Library release, is titled \"DRAFT MEMORANDUM TO THE PRESIDENT\". The released text begins: \"(U) Classified Classified by by Strobe Strobe Talbott, Talbott, Deputy Deputy Secretary Secretary of of State, reasons State, reasons 1.5 1.5 (d) (d) 2. 2. Yeltsin Yeltsin is utterly is utterly preoccupied with his his uphill re-election uphill re-election campaign, and he tends to campaign, to blame everyone but but himself for himself for the difficulties he the he faces. faces.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c06697699-18p3usn",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697699/C06697699.pdf",
+    "date": "1996-04-21",
+    "sortDate": "1996-04-21",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "POTUS-Yeltsin One-on-One",
+    "documentTitle": "POTUS-Yeltsin One-on-One",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06697699",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697699/C06697699.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-04-21",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697699; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697699; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA copy of the April 21, 1996 Moscow one-on-one pages 1-13; duplicate source copy, not counted again. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Strobe FOIA copy of the April 21, 1996 Moscow one-on-one pages 1-13; duplicate source copy, not counted again.",
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000036-vg0kge",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000036/C09000036.pdf",
+    "date": "1996-06-10",
+    "sortDate": "1996-06-10",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "BILATERAL PRESIDENTIAL MEETING AT LYON SUMMIT",
+    "documentTitle": "BILATERAL PRESIDENTIAL MEETING AT LYON SUMMIT",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000036",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000036/C09000036.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-06-10",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000036; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000036; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000036, dated 6/10/1996, released in the Oct 2024 FOIA Library release, is titled \"BILATERAL PRESIDENTIAL MEETING AT LYON SUMMIT\". The released text begins: \"STATE 111644 STATE 111644 (U) CLASSIFIED CLASSIFIED BY: BY: AMBASSADOR PICKERING. MAMEDOV YELTSIN HAS PRESIDENT YELTSIN HIS MEETING HAS ANOTHER MEETING WITH MAMEDOV EXPLAINED ANOTHER COMMITMENT PRESIDENT CLINTON WITH PRESIDENT CONFERENCE START WHICH REQUIRES THAT THE PRESS CONFERENCE EXPLAINED COMMITMENT CLINTON START E…\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000057-1yogt65",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000057/C09000057.pdf",
+    "date": "1996-06-10",
+    "sortDate": "1996-06-10",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Message to Yeltsin w/Attachment(s)",
+    "documentTitle": "Message to Yeltsin w/Attachment(s)",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000057",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000057/C09000057.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-06-10",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000057; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000057; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000057, dated 6/10/1996, released in the Mar 2025 FOIA Library release, is titled \"Message to Yeltsin w/Attachment(s)\". The released text begins: \"Addressees outside the Department of State should handle the document in accordance with the above instructions. When this document is no longer needed, the recipient is responsible for seeing that it is destroyed.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000056-19qcy5n",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000056/C09000056.pdf",
+    "date": "1996-06-18",
+    "sortDate": "1996-06-18",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Transmittal Memorandum of Telephone Conversation with Russian Boris Yeltsin w/Attachment(s)",
+    "documentTitle": "Transmittal Memorandum of Telephone Conversation with Russian Boris Yeltsin w/Attachment(s)",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C09000056",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000056/C09000056.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-06-18",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000056; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000056; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA packet; actual June 18, 1996 telcon is pages 3-4, with transmittal and unrelated attachments excluded.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000056, dated 6/18/1996, released in the Mar 2025 FOIA Library release, is titled \"Transmittal Memorandum of Telephone Conversation with Russian Boris Yeltsin w/Attachment(s)\". The released text begins: \"It may also be sent via NODIS channels to Embassy Moscow for Ambassador Pickering. -(-6.1 (b)(6) Andrew D. Sens Executive Secretary Attachment Tab A Memorandum of Telephone Conversation GON-FIDENTIAL Classified by: Andrew D.\""
+    ],
+    "strobeManifestStatuses": [
+      "Strobe FOIA packet; actual June 18, 1996 telcon is pages 3-4, with transmittal and unrelated attachments excluded."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000029-1784zti",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000029/C09000029.pdf",
+    "date": "1996-06-19",
+    "sortDate": "1996-06-19",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "G-7 working Dinner w/Attached Fax Cover Sheet",
+    "documentTitle": "G-7 working Dinner w/Attached Fax Cover Sheet",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000029",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000029/C09000029.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-06-19",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000029; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000029; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000029, dated 6/19/1996, released in the Oct 2024 FOIA Library release, is titled \"G-7 working Dinner w/Attached Fax Cover Sheet\". The released text begins: \"AsAP Scene: Scene: This This ·is 'is ·the .the first first working working session session of of the the Lyon Lyon Surnmi Summit.t. Discussion: Discussion: Russia: Russia: election Discussion Discussion will round and will focus focus on Yeltsin's prospects the first of the results of the results on the in the run-off first .\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000028-ia14t0",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+    "date": "1996-06-20",
+    "sortDate": "1996-06-20",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Memorandum of Conversation between President Clinton and President Yeltsin on 6/18/96",
+    "documentTitle": "Memorandum of Conversation between President Clinton and President Yeltsin on 6/18/96",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C09000028",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-06-20",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000028; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000028; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA cable copy of the June 18, 1996 call; duplicate source copy, not counted again.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000028, dated 6/20/1996, released in the Oct 2024 FOIA Library release, is titled \"MEMORANDUM OF CONVERSATION BETWEEN PRESIDENT CLINTON AND PRESIDENT YELTSIN ON 6/18/96\". The released text begins: \"COLLINS COLLINS TD(0l) TD(01) 96 JDM (TOTAL COPIES:007) JDM (TOTAL INR E.O. TAGS: EYE3 OHLY 12958: DECL: E.O. 12958: PREL, RS TAGS: PREL, DECL: 6/19/2016 RS THE AMBASSADOR FOR THE OtH.Y FOR 6/19/2016 AMBASSADOR S SUBJECT: MEMORANDUM SUBJECT: CLINTON AND CLINTON S/S No.\""
+    ],
+    "strobeManifestStatuses": [
+      "Strobe FOIA cable copy of the June 18, 1996 call; duplicate source copy, not counted again."
+    ]
   },
   {
     "id": "strobe-c06697694",
@@ -7757,6 +10271,152 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698357."
   },
   {
+    "id": "strobe-pdf-c09000080-mvhaye",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000080/C09000080.pdf",
+    "date": "1996-08-05",
+    "sortDate": "1996-08-05",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "August 5, 1996 Letter From B. Yeltsin To William J. Clinton",
+    "documentTitle": "August 5, 1996 Letter From B. Yeltsin To William J. Clinton",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000080",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000080/C09000080.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-08-05",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000080; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000080; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000080, dated 8/5/1996, released in the Apr 2023 FOIA Library release, is titled \"August 5, 1996 Letter From B. Yeltsin To William J. Clinton\". The released text begins: \"You our relations. and II You and have exchanged extremely haveexchanged important letters. extremelyimportant consider your letters. Sound results the end marked the results marked ofthe end of last session the last ofthe session of the Chernomyrdin- Chernomyrdin- Gore Commissio Gore n.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000047-1ydl2ej",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000047/C09000047.pdf",
+    "date": "1996-08-05",
+    "sortDate": "1996-08-05",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "August 5, 1996 Letter From B. Yeltsin To WILLIAM J. CLINTON w/Attachment(s)",
+    "documentTitle": "August 5, 1996 Letter From B. Yeltsin To WILLIAM J. CLINTON w/Attachment(s)",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000047",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000047/C09000047.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-08-05",
+    "subjectLine": "Strobe manifest PDF surfaced as a high-level Clinton-Yeltsin conversation/source-copy lead; review against canonical chronology rows before counting pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000047; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000047; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000047, dated 8/5/1996, released in the Apr 2024 FOIA Library release, is titled \"August 5, 1996 Letter From B. Yeltsin To WILLIAM J. CLINTON w/Attachment(s)\". The released text begins: \"The month ofkme The telephone conversation which we had on July 5 after my victory in the elections, however brief it was, still allowed us to coordinate our positions on key issues of our relations. You and I have exchanged extremely important letters.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
     "id": "strobe-c06698213",
     "date": "1996-08-28",
     "sortDate": "1996-08-28",
@@ -7895,6 +10555,100 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698360."
   },
   {
+    "id": "strobe-c06698220",
+    "date": "1996-09-11",
+    "sortDate": "1996-09-11",
+    "type": "Context",
+    "title": "PARIS ST-MAMEDOV",
+    "documentTitle": "PARIS ST-MAMEDOV",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06698220",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698220/C06698220.pdf",
+    "pageCount": null,
+    "dateLine": "1996-09-11",
+    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698220; release status RELEASE IN FULL.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context"
+    ],
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698220."
+  },
+  {
+    "id": "strobe-c06698208",
+    "date": "1996-09-17",
+    "sortDate": "1996-09-17",
+    "type": "Context",
+    "title": "ATTACHED REPORT FROM TOM PICKERING ON HIS MEETING WITH PRIMAKOV",
+    "documentTitle": "ATTACHED REPORT FROM TOM PICKERING ON HIS MEETING WITH PRIMAKOV",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06698208",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698208/C06698208.pdf",
+    "pageCount": null,
+    "dateLine": "1996-09-17",
+    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698208; release status RELEASE IN FULL.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov"
+    ],
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698208."
+  },
+  {
     "id": "strobe-c06698212",
     "date": "1996-09-17",
     "sortDate": "1996-09-17",
@@ -7941,6 +10695,79 @@ window.MEMCONS = [
     ],
     "relevanceScore": 100,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698212."
+  },
+  {
+    "id": "strobe-pdf-c09000050-tu58yj",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000050/C09000050.pdf",
+    "date": "1996-09-23",
+    "sortDate": "1996-09-23",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "September 23, 1996 Letter From Boris Yeltsin To William J. Clinton w/Attachment(s)",
+    "documentTitle": "September 23, 1996 Letter From Boris Yeltsin To William J. Clinton w/Attachment(s)",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000050",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000050/C09000050.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-09-23",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000050; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000050; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000050, dated 9/23/1996, released in the Apr 2024 FOIA Library release, is titled \"September 23, 1996 Letter From Boris Yeltsin To William J. Clinton w/Attachment(s)\". The released text begins: \"I am sure that I am that consultations by Dr. Roberts with our our specialists will will be successful and fruitful. successful fruitful.\""
+    ],
+    "strobeManifestStatuses": []
   },
   {
     "id": "strobe-c06699025",
@@ -8133,6 +10960,346 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698745."
   },
   {
+    "id": "strobe-pdf-c09000053-xncs0x",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000053/C09000053.pdf",
+    "date": "1996-11-29",
+    "sortDate": "1996-11-29",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "November 29, 1996 Letter From Bill To Boris Yeltsin",
+    "documentTitle": "November 29, 1996 Letter From Bill To Boris Yeltsin",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000053",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000053/C09000053.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-11-29",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000053; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000053; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000053, dated 11/29/1996, released in the Apr 2024 FOIA Library release, is titled \"November 29, 1996 Letter From Bill To Boris Yeltsin\". The released text begins: \"t-L-:0:::Ul (-1 3804 f-7;:Jlj04 A-00000748436 \"UNCLASSIFIED\" [2/15/24] [2/15/24] 247 THE WHITE HOUSE WASHINGTON WASH INGTON November 29, 1996 November Dear Boris: Dear I have been following I following the reports of of your am your recove… ItIt sounds as though you will will be back performing your full duties in the very near your full near future. future.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-c06699013",
+    "date": "1996-12-04",
+    "sortDate": "1996-12-04",
+    "type": "Context",
+    "title": "MEETING WITH PRIMAKOV IN LONDON",
+    "documentTitle": "MEETING WITH PRIMAKOV IN LONDON",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06699013",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699013/C06699013.pdf",
+    "pageCount": null,
+    "dateLine": "1996-12-04",
+    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06699013; release status RELEASE IN FULL.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov"
+    ],
+    "relevanceScore": 70,
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06699013."
+  },
+  {
+    "id": "strobe-pdf-c06699017-1pse6wj",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699017/C06699017.pdf",
+    "date": "1996-12-05",
+    "sortDate": "1996-12-05",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Conversation with President Boris Yeltsin of Russia",
+    "documentTitle": "Conversation with President Boris Yeltsin of Russia",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Full",
+    "naid": "C06699017",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699017/C06699017.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-12-05",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06699017; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06699017; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA copy of the December 5, 1996 telcon pages 1-3; duplicate source copy, not counted again. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Strobe FOIA copy of the December 5, 1996 telcon pages 1-3; duplicate source copy, not counted again.",
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000029-beh78k",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000029/C09000029.pdf",
+    "date": "1996-12-20",
+    "sortDate": "1996-12-20",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Key West as possible POTUS-Yeltsin venue",
+    "documentTitle": "Key West as possible POTUS-Yeltsin venue",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000029",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000029/C09000029.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1996-12-20",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000029; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000029; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000029, dated 12/20/1996, released in the July 2022 FOIA Library release, is titled \"Key West as possible POTUS-Yeltsin venue\". The released text begins: \"The Naval Air Air Station there offers offers aa number nuniber of facilities facilities that could be used for the official party. party. The Truman Annex Annex in particular is scenic, overlooking the the ocean from the the southernmost point point in the Continental U.S., and would would, I think, be be fairly easy to secure. secure.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000051-1is93z1",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000051/C09000051.pdf",
+    "date": "1997-01-02",
+    "sortDate": "1997-01-02",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Text of Yeltsin's New Year Address",
+    "documentTitle": "Text of Yeltsin's New Year Address",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000051",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000051/C09000051.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-01-02",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000051; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000051; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000051, dated 1/2/1997, released in the Apr 2024 FOIA Library release, is titled \"Text of Yeltsin's New Year Address\". The released text begins: \"Bjorkman avddite'v55 60 Vee -r.:1 .4, FROM: Martin Swartz (Av e, 4/tieJ • 7 0-,5, -) a SUBJECT: Text of Yertsin's Yel'tsin's New Year Address : REFERENCE: Brian said you were interested in a copy of Yertsin's Yel'tsin's remarks Tuesday. IT HAS BEEN A YEAR FULL OF EMOTION noN AND HOPES.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
     "id": "strobe-c06703698",
     "date": "1997-01-23",
     "sortDate": "1997-01-23",
@@ -8277,6 +11444,81 @@ window.MEMCONS = [
     ],
     "relevanceScore": 110,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702980."
+  },
+  {
+    "id": "strobe-pdf-c09000075-5nmgap",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000075/C09000075.pdf",
+    "date": "1997-02-12",
+    "sortDate": "1997-02-12",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "February 12, 1997 Letter From Boris Yeltsin To William J. Clinton w/Attachment(s)",
+    "documentTitle": "February 12, 1997 Letter From Boris Yeltsin To William J. Clinton w/Attachment(s)",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000075",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000075/C09000075.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-02-12",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000075; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000075; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000075, dated 2/12/1997, released in the Feb 2024 FOIA Library release, is titled \"February 12, 1997 Letter From Boris Yeltsin To William J. Clinton w/Attachment(s)\". The released text begins: \"First of First of all I I would like like to to stress: Russia is is interested interested in in a success and solid results of of the Denver Denver Summit. In In this connection I I believe it it important important to to note the f 11 owing. following.\""
+    ],
+    "strobeManifestStatuses": []
   },
   {
     "id": "strobe-c06703418",
@@ -8567,13 +11809,18 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702926."
   },
   {
-    "id": "strobe-c06703521",
+    "id": "strobe-pdf-c06703521-18ziquf",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703521/C06703521.pdf",
     "date": "1997-03-06",
     "sortDate": "1997-03-06",
+    "dateDisplay": "",
     "type": "Context",
     "title": "MEMORANDUM OF CONVERSATION MEETING PRESIDENT CLINTON AND PRESIDENT YELTSIN",
     "documentTitle": "MEMORANDUM OF CONVERSATION MEETING PRESIDENT CLINTON AND PRESIDENT YELTSIN",
-    "participants": [],
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
     "countries": [
       "United States",
       "Russia"
@@ -8587,14 +11834,23 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703521/C06703521.pdf",
     "pageCount": null,
-    "dateLine": "1997-03-06",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-03-06",
+    "subjectLine": "Strobe manifest PDF surfaced as a high-level Clinton-Yeltsin conversation/source-copy lead; review against canonical chronology rows before counting pages.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703521; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703521; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703521; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -8603,16 +11859,27 @@ window.MEMCONS = [
     },
     "frusTopics": [
       "Talbott FOIA",
+      "Strobe manifest PDF",
       "Russia policy context",
-      "Yeltsin"
+      "Yeltsin",
+      "Clinton-Yeltsin"
     ],
     "topics": [
       "Talbott FOIA",
+      "Strobe manifest PDF",
       "Russia policy context",
-      "Yeltsin"
+      "Yeltsin",
+      "Clinton-Yeltsin"
     ],
-    "relevanceScore": 120,
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703521."
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
   },
   {
     "id": "strobe-c06702848",
@@ -8757,6 +12024,81 @@ window.MEMCONS = [
     ],
     "relevanceScore": 100,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702903."
+  },
+  {
+    "id": "strobe-pdf-c09000062-1dt2jgg",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000062/C09000062.pdf",
+    "date": "1997-03-20",
+    "sortDate": "1997-03-20",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "CLINTON, YELTSIN PREPARE FOR SUMMIT TALKS",
+    "documentTitle": "CLINTON, YELTSIN PREPARE FOR SUMMIT TALKS",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000062",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000062/C09000062.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-03-20",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000062; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000062; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000062, dated 3/20/1997, released in the Oct 2024 FOIA Library release, is titled \"CLINTON, YELTSIN PREPARE FOR SUMMIT TALKS\". The released text begins: \"I don't think that there you think there's some kind of strategy behind it? I are specific things that one should look for as mean - benchmarks.\""
+    ],
+    "strobeManifestStatuses": []
   },
   {
     "id": "strobe-c06703637",
@@ -8999,6 +12341,1546 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703643."
   },
   {
+    "id": "strobe-pdf-c09000076-ulqbb7",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000076/C09000076.pdf",
+    "date": "1997-05-19",
+    "sortDate": "1997-05-19",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "May 19, 1997 Letter From Boris Yeltsin To William J. Clinton",
+    "documentTitle": "May 19, 1997 Letter From Boris Yeltsin To William J. Clinton",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000076",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000076/C09000076.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-05-19",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000076; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000076; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "NATO/Russia",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "NATO/Russia",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000076, dated 5/19/1997, released in the Feb 2024 FOIA Library release, is titled \"May 19, 1997 Letter From Boris Yeltsin To William J. Clinton\". The released text begins: \"Ph-758 Moscow, the Kremlin Dear Bill: I was gratified to read your message that I received immediately after the negotiations between Yevgeny Primakov and Javier Solana, which resulted in the agreement on the Russia- NATO document. I also consider this document doctunent historic.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000077-1jju6bp",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000077/C09000077.pdf",
+    "date": "1997-05-19",
+    "sortDate": "1997-05-19",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "May 19, 1997 Letter From Boris Yeltsin To William J. Clinton w/Attachment(s)",
+    "documentTitle": "May 19, 1997 Letter From Boris Yeltsin To William J. Clinton w/Attachment(s)",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000077",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000077/C09000077.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-05-19",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000077; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000077; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000077, dated 5/19/1997, released in the Feb 2024 FOIA Library release, is titled \"May 19, 1997 Letter From Boris Yeltsin To William J. Clinton w/Attachment(s)\". The released text begins: \"What is crucial - as the result of the succesful conclusion agreement of this work there are neither winners nor losers. Everybody won - first and foremost - the peoples of our countries, which have borne the major burden of the \"cold war\".\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000060-lv8cnt",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000060/C09000060.pdf",
+    "date": "1997-07-22",
+    "sortDate": "1997-07-22",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "July 22, 1997 Letter From Strobe Talbott To H.E. Anatoly Chubais",
+    "documentTitle": "July 22, 1997 Letter From Strobe Talbott To H.E. Anatoly Chubais",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000060",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000060/C09000060.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-07-22",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000060; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000060; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000060, dated 7/22/1997, released in the Apr 2024 FOIA Library release, is titled \"July 22, 1997 Letter From Strobe Talbott To H.E. Anatoly Chubais\". The released text begins: \"Anatol), Anatoly Chubais First Deputy Prime Minister The Russian Federation Dear· Anatoly Borisovich: Dear This will be a much shorter letter Washington lette1· than my last one. Those of us in Washingtm1 who are committed to broadening and deepening U.S.-Russian relations are, yet again, in admiration of President Yeltsin's political cour-age. courage.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000078-hxtcdo",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000078/C09000078.pdf",
+    "date": "1997-09-17",
+    "sortDate": "1997-09-17",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Highlights from 9/17/97 TG-Berezovskiy Conversation",
+    "documentTitle": "Highlights from 9/17/97 TG-Berezovskiy Conversation",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000078",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000078/C09000078.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-09-17",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000078; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000078; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000078, dated 9/17/1997, released in the June 2024 FOIA Library release, is titled \"Highlights from 9/17/97 TG-Berezovskiy Conversation\". The released text begins: \"Very good spirited.. said everyone came BB said came away from from the the yeltsin Yeltsin session with the six \"victorious.\" six \"victorious. got something.. BNY: Everyone got BNY: \"you \"you guys support me, support support you.\" me, and I'll support .\" BNY also also made made a big pitch for supporting freedom freedom ofof the press.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000039-1l7lmr5",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf",
+    "date": "1997-09-30",
+    "sortDate": "1997-09-30",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "AMBASSADOR MEETS WITH YASTRZHEMBSKIY",
+    "documentTitle": "AMBASSADOR MEETS WITH YASTRZHEMBSKIY",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000039",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-09-30",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000039; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000039; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000039, dated 9/30/1997, released in the Apr 2024 FOIA Library release, is titled \"AMBASSADOR MEETS WITH YASTRZHEMBSKIY\". The released text begins: \"(D). 1. ~ SUMMARY: 1. 444- SUMMARY: AMBASSADOR AND NSC DIRECTOR BILLBILL COURTNEY MET PRESID PRESID ENTIAL SPOKESMAN AND NATIONAL SECURITY SPOKESMAN SECURITY ADVISOR ADVISOR YASTRZHEMBSKIY YASTRZHEMBSKIY ON SEPTEMBER SEPTEMBER 29. 29. HAS EVOKED WHICH HAS EVOKED A ATTI DO-NOTHING, CONFRONTATIONAL ATTI THE DUMA'S DO-NOTHING, ATTACKED THE A STRONG STRONG REACTION REACTION FROM FROM PRESIDENT PRESIDENT YELTSIN.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000023-soxjsd",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000023/C09000023.pdf",
+    "date": "1997-10-19",
+    "sortDate": "1997-10-19",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "October 19, 1997 Talking Points From S/NIS",
+    "documentTitle": "October 19, 1997 Talking Points From S/NIS",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000023",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000023/C09000023.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-10-19",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000023; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000023; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000023, dated 10/19/1997, released in the Mar 2023 FOIA Library release, is titled \"October 19, 1997 Talking Points From S/NIS\". The released text begins: \"Lavrov. • Lukashenko Lukasbenko very very dangerous. dangerous. • Thinks Thinks Chechnya is is his his great triumph triumph -- kinship kinship with RCH! RCH! • Yeltsin may well run again, Yeltsin may again, via via interpreting 91 91 election as not pertinent to to the the Constitution.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000014-jg0697",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000014/C09000014.pdf",
+    "date": "1997-10-30",
+    "sortDate": "1997-10-30",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Memorandum of Telephone Conversation",
+    "documentTitle": "Memorandum of Telephone Conversation",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C09000014",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000014/C09000014.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-10-30",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000014; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000014; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA copy of the October 30, 1997 telcon; duplicate source copy, not counted again.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy",
+    "strobePdfCategories": [
+      "Conversation source copy"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Strobe FOIA copy of the October 30, 1997 telcon; duplicate source copy, not counted again."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000005-uenec2",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000005/C09000005.pdf",
+    "date": "1997-12-02",
+    "sortDate": "1997-12-02",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "CHANCELLOR KOHL'S MEETING WITH PRESIDENT YELTSIN, NOVEMBER 30",
+    "documentTitle": "CHANCELLOR KOHL'S MEETING WITH PRESIDENT YELTSIN, NOVEMBER 30",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000005",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000005/C09000005.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1997-12-02",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000005; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000005; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000005, dated 12/2/1997, released in the Oct 2024 FOIA Library release, is titled \"CHANCELLOR KOHL'S MEETING WITH PRESIDENT YELTSIN, NOVEMBER 30\". The released text begins: \"Flora, Political Minister Counselor Counselor for for reasons 1.5 1.5 (b) (b) and (d). During Chancellor 419* During lor Kohl's November November 30 meeting with with President President Yeltsin Yeltsin o outside Moscow, Moscow, Yeltsin promised to send a clear to clear message message toto appropriate Russian to \"do officia…\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000025-vewcmn",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2023/FL-2017-13804/DOC_0C09000025/C09000025.pdf",
+    "date": "1998-03-06",
+    "sortDate": "1998-03-06",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "LETTER FROM PRESIDENT CLINTON TO PRESIDENT YELSTIN",
+    "documentTitle": "LETTER FROM PRESIDENT CLINTON TO PRESIDENT YELSTIN",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000025",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2023/FL-2017-13804/DOC_0C09000025/C09000025.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-03-06",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000025; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000025; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000025, dated 3/6/1998, released in the Oct 2023 FOIA Library release, is titled \"LETTER FROM PRESIDENT CLINTON TO PRESIDENT YELSTIN\". The released text begins: \"U.S. /..) .,_ -...+ \" i DEPARTMENT OF DEPARTMENT OF STATE STATE i icr? ' O_ .*? 4f R' 4' c) 0 44, • ,- 4 .- r- +.0 &,-\"'\"1\"1:s of ~ ....1 '7-.% -,.. of 0.$.s k? -410 \\1 % \\ ,...-, 4'6, INCOMING IMMEDIATE 9 INCOMING OFFICE : D OFFICE: D \\r… Dx Check box to exempt exempt telegram telegram from from automatic decaptioning. decaptioning.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000004-18cztfy",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+    "date": "1998-03-26",
+    "sortDate": "1998-03-26",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Weekly Report from the Department of State",
+    "documentTitle": "Weekly Report from the Department of State",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000004",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-03-26",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000004; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000004; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000004, dated 3/26/1998, released in the Apr 2023 FOIA Library release, is titled \"Weekly Report from the Department of State\". The released text begins: \"WASHINGTON S D:EO March 26, 1998 P:EO C:EO USUWW:EckihmTripaTT_BL S/S DECL: 03/26/08 MEMORANDUM FOR ERSKINE BOWLES, THE WHITE HOUSE FROM: Strobe Talbott, Acting STJBJECT: Weekly Report from the Department of State I. KEY DEPARTMENT NEWS • -4C.-)- Russia Leadership Changes: Following Prime Minister Chernomyrdin's dismissal, President Yeltsin appears committed to following constitutional procedures in appointing a new government; Yeltsin has until April…\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000038-1d7kimo",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000038/C09000038.pdf",
+    "date": "1998-05-04",
+    "sortDate": "1998-05-04",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "BERGER-KOKOSHIN SCRIPT",
+    "documentTitle": "BERGER-KOKOSHIN SCRIPT",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000038",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000038/C09000038.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-05-04",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000038; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000038; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000038, dated 5/4/1998, released in the Apr 2023 FOIA Library release, is titled \"BERGER-KOKOSHIN SCRIPT\". The released text begins: \"Yeltsin; VP-PM (previous and current, we hope); Sec. On our side, it brings together the senior advisors to the President, VP and SecState. • The President wanted us to make this trip because he feels we're at a critical juncture in Russian-American relations.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000007-2cyohl",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+    "date": "1998-05-17",
+    "sortDate": "1998-05-17",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "POTUS-Yeltsin Memcon w/Attachment(s)",
+    "documentTitle": "POTUS-Yeltsin Memcon w/Attachment(s)",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C09000007",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-05-17",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000007; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000007; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA packet includes an attached copy of the April 6, 1998 telcon after the May 17 memcon; duplicate source copy, not counted again. Strobe FOIA informal copy of the May 17, 1998 Birmingham memcon on pages 1-13; duplicate source copy, not counted again.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000007, dated 5/17/1998, released in the Mar 2023 FOIA Library release, is titled \"POTUS-YELTSIN MEMCON w/Attachment(s)\". The released text begins: \"I've asked Jacques if he'd be willing to to do something around the millennium, and he said yes. yes. I'm working on it and will keep working on it.\""
+    ],
+    "strobeManifestStatuses": [
+      "Strobe FOIA packet includes an attached copy of the April 6, 1998 telcon after the May 17 memcon; duplicate source copy, not counted again.",
+      "Strobe FOIA informal copy of the May 17, 1998 Birmingham memcon on pages 1-13; duplicate source copy, not counted again."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000051-p7svy",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000051/C09000051.pdf",
+    "date": "1998-05-18",
+    "sortDate": "1998-05-18",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "May 18, 1998 Note From Strobe Talbott To Leon Fuerth",
+    "documentTitle": "May 18, 1998 Note From Strobe Talbott To Leon Fuerth",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000051",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000051/C09000051.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-05-18",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000051; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000051; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000051, dated 5/18/1998, released in the Apr 2023 FOIA Library release, is titled \"May 18, 1998 Note From Strobe Talbott To Leon Fuerth\". The released text begins: \"3/16/2023 FL-2017-13804 3-16-23 1 FL-2017-13804 B-00002120095 SECRET Sh, lyyb Monday, May 18, 1998 (-)ep - Leon: t • Sandy has still got the POTUS-Yeltsin rnemcon. I'm not going to put it into the system until he's signed off on it.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000006-1cfyvg7",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000006/C09000006.pdf",
+    "date": "1998-05-20",
+    "sortDate": "1998-05-20",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "MEMORANDUM OF CONVERSATION BETWEEN PREISDENT CLINTON AND THE PRESIDENT OF RUSSIA BORIS YELTSIN ON 5/12/1998, S/S#9808780 w/Attached Cover Sheet",
+    "documentTitle": "MEMORANDUM OF CONVERSATION BETWEEN PREISDENT CLINTON AND THE PRESIDENT OF RUSSIA BORIS YELTSIN ON 5/12/1998, S/S#9808780 w/Attached Cover Sheet",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C09000006",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000006/C09000006.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-05-20",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000006; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000006; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA cable copy of the May 12, 1998 Clinton-Yeltsin call; duplicate source copy, not counted again.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000006, dated 5/20/1998, released in the Mar 2023 FOIA Library release, is titled \"MEMORANDUM OF CONVERSATION BETWEEN PREISDENT CLINTON AND THE PRESIDENT OF RUSSIA BORIS YELTSIN ON 5/12/1998, S/S#9808780 w/Attached Cover Sheet\". The released text begins: \"D x Check box to check to exempt exempt telegram telegram from from automatic decaptioning. Addressees outside outside the the Department of State must Department of must handle the document document in accordance with the above instructions and with current in current Department Department of of State instructions on NODIS.\""
+    ],
+    "strobeManifestStatuses": [
+      "Strobe FOIA cable copy of the May 12, 1998 Clinton-Yeltsin call; duplicate source copy, not counted again."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000005-nhv0fp",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000005/C09000005.pdf",
+    "date": "1998-05-31",
+    "sortDate": "1998-05-31",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "PRESIDENT'S MAY 17 MEETING WITH YELSTIN IN BIRMINGHAM (S/S 9809343)",
+    "documentTitle": "PRESIDENT'S MAY 17 MEETING WITH YELSTIN IN BIRMINGHAM (S/S 9809343)",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000005",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000005/C09000005.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-05-31",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000005; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000005; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000005, dated 5/31/1998, released in the Mar 2023 FOIA Library release, is titled \"PRESIDENT'S MAY 17 MEETING WITH YELSTIN IN BIRMINGHAM (S/S 9809343)\". The released text begins: \"DAVIES DAVIES FOR FOR REASON: REASON: 1.5 1 .5 (B) . (U) THIS THIS CABLE CABLE CONTAINS CONTAINS AA MEMORANDUM OF OF THE THE PRESIDENT1S PRESIDENT l S MAY 17 MAY 17 CONVERSATION CONVERSAT I ON WITH WITH RUSSIAN RUSSIAN PRESIDENT PRESIDENT BORIS BORI YELTSIN.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000028-1ci7b3p",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+    "date": "1998-06-02",
+    "sortDate": "1998-06-02",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Transmittal Memorandum of Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+    "documentTitle": "Transmittal Memorandum of Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C09000028",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-06-02",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000028; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000028; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA packet; actual May 28, 1998 telcon is pages 2-5, with transmittal excluded.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000028, dated 6/2/1998, released in the Mar 2025 FOIA Library release, is titled \"Transmittal Memorandum of Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)\". The released text begins: \"It must be distributed via NODIS channels. Davies Executive Secretary Attachment Tab A Memorandum of Conversation CONFIDENTIhi, Classified by: Glyn T.\""
+    ],
+    "strobeManifestStatuses": [
+      "Strobe FOIA packet; actual May 28, 1998 telcon is pages 2-5, with transmittal excluded."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000048-158nmby",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000048/C09000048.pdf",
+    "date": "1998-07-06",
+    "sortDate": "1998-07-06",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "POTUS's VISIT TO MOSCOW IN SEPTEMBER w/Attached Facsimile Transmission",
+    "documentTitle": "POTUS's VISIT TO MOSCOW IN SEPTEMBER w/Attached Facsimile Transmission",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000048",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000048/C09000048.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-07-06",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000048; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000048; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000048, dated 7/6/1998, released in the Apr 2023 FOIA Library release, is titled \"POTUS's VISIT TO MOSCOW IN SEPTEMBER w/Attached Facsimile Transmission\". The released text begins: \"Indeed, it's more than that: the P0TUS- Yeltsin connection has had a salutary and, on several occasions, perhaps even decisive effect on Russian internal politics. Unlike anyone else in Yeltsin's Universe, POTUS is able to steady yeltsin in times of stress and turmoil, to counteract the bad and often mischievous advice yeltsin is getting from the nationalists and hard-liners and to reassure Yeltsin t…\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000004-1xkv7eb",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+    "date": "1998-07-10",
+    "sortDate": "1998-07-10",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+    "documentTitle": "Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Source Copy",
+    "naid": "C09000004",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-07-10",
+    "subjectLine": "Visible Strobe FOIA source-copy PDF for deduplication and page-control review; canonical chronology rows carry any counted conversation pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000004; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000004; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Duplicate source-copy control: not added to the consolidated memcon/telcon page total. Strobe FOIA packet; actual July 10, 1998 telcon is pages 1-4, with tasking/transmittal pages excluded.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Source copy",
+      "Deduplication"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Conversation source copy; Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Conversation source copy",
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000004, dated 7/10/1998, released in the Mar 2023 FOIA Library release, is titled \"Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)\". The released text begins: \"EDT, AND PLACE: PLACE: Oval Office Oval THE PRESIDENT: PRESIDENT : Hello . (U) YELTSIN : PRESIDENT YELTS1N: Good afternoon, Bill.\""
+    ],
+    "strobeManifestStatuses": [
+      "Strobe FOIA packet; actual July 10, 1998 telcon is pages 1-4, with tasking/transmittal pages excluded."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000019-1mv3ou3",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2023/FL-2017-13804/DOC_0C09000019/C09000019.pdf",
+    "date": "1998-08-21",
+    "sortDate": "1998-08-21",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "MAKING THE MOST OF THE MOSCOW SUMMIT",
+    "documentTitle": "MAKING THE MOST OF THE MOSCOW SUMMIT",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000019",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2023/FL-2017-13804/DOC_0C09000019/C09000019.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-08-21",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000019; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000019; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000019, dated 8/21/1998, released in the Sep 2023 FOIA Library release, is titled \"MAKING THE MOST OF THE MOSCOW SUMMIT\". The released text begins: \"The Summit obviously can not serve, as we had once planned, to celebrate the Duma's ratification of START II. Yeltsin's hope, expressed first in Denver, for a grandiose and upbeat look-ahead, rings hollow today.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000031-7yrhnp",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000031/C09000031.pdf",
+    "date": "1998-09-25",
+    "sortDate": "1998-09-25",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "YOUR RUSSIA SPEECH",
+    "documentTitle": "YOUR RUSSIA SPEECH",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000031",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000031/C09000031.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-09-25",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000031; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000031; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000031, dated 9/25/1998, released in the Mar 2025 FOIA Library release, is titled \"YOUR RUSSIA SPEECH\". The released text begins: \"The timing of the speech is auspicious because we are only now beginning to get a somewhat clearer sense of the composition and direction of the Primakov government. You'll also be speaking five days before the nationwide strike that the Communists have called for October 7th, which represents the first major test for the yeltsin-Primakov government.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000021-fxodyf",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000021/C09000021.pdf",
+    "date": "1998-11-13",
+    "sortDate": "1998-11-13",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Russia's Constitutional Debates",
+    "documentTitle": "Russia's Constitutional Debates",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000021",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000021/C09000021.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1998-11-13",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000021; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000021; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000021, dated 11/13/1998, released in the Mar 2025 FOIA Library release, is titled \"Russia's Constitutional Debates\". The released text begins: \"C. 20520 Has Seen NOy,. 1,6' A 8 :19 November 13, 1998 9819907X / DECL: 1.6X1 DECLASSIFIED 10°) INFORMATION MEMORANDUM S/S TO: The Acting S y FROM: INR - Phyll = E. Oakley SUBJECT:, Russia's Constitutional Debates As Russia faces the post-Yeltsin era, the country's main political forces are. searching for a more workable political system.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
     "id": "strobe-c06771698",
     "date": "1999-03-01",
     "sortDate": "1999-03-01",
@@ -9045,6 +13927,360 @@ window.MEMCONS = [
     ],
     "relevanceScore": 75,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771698."
+  },
+  {
+    "id": "strobe-pdf-c06770717-224bs6",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770717/C06770717.pdf",
+    "date": "1999-03-17",
+    "sortDate": "1999-03-17",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "YAVLINSKIY - - ON YELTSIN, PRIMAKOV'S GOVERNMENT, CHECHNYA, AND PRESIDENTIAL POLITICS",
+    "documentTitle": "YAVLINSKIY - - ON YELTSIN, PRIMAKOV'S GOVERNMENT, CHECHNYA, AND PRESIDENTIAL POLITICS",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06770717",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770717/C06770717.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1999-03-17",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06770717; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06770717; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06770352-1gd02q4",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770352/C06770352.pdf",
+    "date": "1999-03-17",
+    "sortDate": "1999-03-17",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "YAVLINSKIY CLAIMS YELTSIN ORDERING STUDY OF COOPERATIVE U.S. RUSSIA NMD CONCEPT",
+    "documentTitle": "YAVLINSKIY CLAIMS YELTSIN ORDERING STUDY OF COOPERATIVE U.S. RUSSIA NMD CONCEPT",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06770352",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770352/C06770352.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1999-03-17",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06770352; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06770352; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c09000040-1jd1b36",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000040/C09000040.pdf",
+    "date": "1999-04-11",
+    "sortDate": "1999-04-11",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "MESSAGE TO PRESIDENT YELTSIN REGARDING THE SITUATION IN KOSOVO",
+    "documentTitle": "MESSAGE TO PRESIDENT YELTSIN REGARDING THE SITUATION IN KOSOVO",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000040",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000040/C09000040.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1999-04-11",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000040; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000040; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Kosovo"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Kosovo"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000040, dated 4/11/1999, released in the June 2024 FOIA Library release, is titled \"MESSAGE TO PRESIDENT YELTSIN REGARDING THE SITUATION IN KOSOVO\". The released text begins: \"A COPY COPY MAY MAY ALSO ALSO BE BE PROVIDED PROVIDED TO TO PRIME PRIME MINISTER MINISTER PRIMAKOV'S OFFICE. NO SIGNED SIGNED ORIGINAL WILL FOLLOW.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000019-joaj7e",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000019/C09000019.pdf",
+    "date": "1999-04-29",
+    "sortDate": "1999-04-29",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "UPDATE FROM STROBE",
+    "documentTitle": "UPDATE FROM STROBE",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000019",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000019/C09000019.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1999-04-29",
+    "subjectLine": "Strobe manifest PDF surfaced by the Yeltsin/POTUS-Yeltsin manifest pass; context only unless actual conversation pages are identified.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000019; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000019; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000019, dated 4/29/1999, released in the June 2024 FOIA Library release, is titled \"UPDATE FROM STROBE\". The released text begins: \"Interestingly, Yeltsin Yeltsin affirmed affirmed to to Kofi Kofi several several times times that he that he regards regards Ivanov Ivanov as as the the coordinator coordinator and and team team for the Russian captain for Russian side. si… This This was borne out was borne out by by what what Kofi heard Kofi heard from from Chernomyrdin Chernomyrdin and and Primakov.\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-pdf-c09000028-1lsdtva",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+    "date": "1999-04-30",
+    "sortDate": "1999-04-30",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Chernomyrdin-Talbott one-on-one (Tuesday, April 27, 1999)",
+    "documentTitle": "Chernomyrdin-Talbott one-on-one (Tuesday, April 27, 1999)",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000028",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 1999-04-30",
+    "subjectLine": "Strobe manifest PDF surfaced as a high-level Clinton-Yeltsin conversation/source-copy lead; review against canonical chronology rows before counting pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000028; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000028; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000028, dated 4/30/1999, released in the June 2024 FOIA Library release, is titled \"Chernomyrdin-Talbott one-on-one (Tuesday, April 27, 1999)\". The released text begins: \"We've all taken it as a positive sign that President Yeltsin would ask you to take on this assignment. It demonstrates his personal engagement, and it brings into the mix someone who's well known and much respected, including for his proven ability to get serious work done and to deal effectively with tough problems.\""
+    ],
+    "strobeManifestStatuses": []
   },
   {
     "id": "strobe-c06771454",
@@ -9291,6 +14527,81 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06815112."
   },
   {
+    "id": "strobe-pdf-c09000042-oxygdh",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000042/C09000042.pdf",
+    "date": "2000-05-15",
+    "sortDate": "2000-05-15",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "U.S.-RUSSIAN RELATIONS - ON THE EVE OF THE FIRST CLINTON-PUTIN SUMMIT",
+    "documentTitle": "U.S.-RUSSIAN RELATIONS - ON THE EVE OF THE FIRST CLINTON-PUTIN SUMMIT",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C09000042",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000042/C09000042.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest date 2000-05-15",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000042; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C09000042; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Live Strobe manifest Yeltsin/POTUS hit",
+    "strobePdfCategories": [
+      "Live Strobe manifest Yeltsin/POTUS hit"
+    ],
+    "strobeManifestDescriptions": [
+      "State Department FOIA record C09000042, dated 5/15/2000, released in the Mar 2025 FOIA Library release, is titled \"U.S.-RUSSIAN RELATIONS - ON THE EVE OF THE FIRST CLINTON-PUTIN SUMMIT\". The released text begins: \"From Gorbachev to Yeltsin... • Starting with Gorbachev and continuing under Yeltsin, Russia underwent an epochal transformation. Having failed to lick the Western capitalists (which was the goal/prediction of Marxism- Leninism-Stalinism), it joined 'em. - That transformation came about largely because of the rivalry, with its underlying symbiosis, between two leader…\""
+    ],
+    "strobeManifestStatuses": []
+  },
+  {
     "id": "strobe-c06814917",
     "date": "2000-07-12",
     "sortDate": "2000-07-12",
@@ -9337,6 +14648,361 @@ window.MEMCONS = [
     ],
     "relevanceScore": 100,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814917."
+  },
+  {
+    "id": "strobe-pdf-c06835143-14wx5nw",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835143/C06835143.pdf",
+    "date": "2021-02-01",
+    "sortDate": "2021-02-01",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Gore Debrief on One-on-One w/Yeltsin",
+    "documentTitle": "Gore Debrief on One-on-One w/Yeltsin",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06835143",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835143/C06835143.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest/index date 2021-02-01; document date requires PDF review",
+    "subjectLine": "Strobe manifest PDF surfaced as a high-level Clinton-Yeltsin conversation/source-copy lead; review against canonical chronology rows before counting pages.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835143; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835143; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06835142-fytane",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835142/C06835142.pdf",
+    "date": "2021-02-01",
+    "sortDate": "2021-02-01",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Message from President Clinton to President Yeltsin",
+    "documentTitle": "Message from President Clinton to President Yeltsin",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06835142",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835142/C06835142.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest/index date 2021-02-01; document date requires PDF review",
+    "subjectLine": "Strobe manifest PDF surfaced as Clinton-Yeltsin leader correspondence or message context for compiler review.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835142; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835142; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Clinton-Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06835134-2stv00",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835134/C06835134.pdf",
+    "date": "2021-02-01",
+    "sortDate": "2021-02-01",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Your Meeting with Boris Yeltsin",
+    "documentTitle": "Your Meeting with Boris Yeltsin",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06835134",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835134/C06835134.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest/index date 2021-02-01; document date requires PDF review",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835134; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835134; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06835148-nl8cs6",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835148/C06835148.pdf",
+    "date": "2021-02-01",
+    "sortDate": "2021-02-01",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "Your meeting with Yeltsin will be very compressed -- an hour, with very little time for sprillover",
+    "documentTitle": "Your meeting with Yeltsin will be very compressed -- an hour, with very little time for sprillover",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06835148",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835148/C06835148.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest/index date 2021-02-01; document date requires PDF review",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835148; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835148; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
+  },
+  {
+    "id": "strobe-pdf-c06687128-1czn18e",
+    "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jun2021_LC/F-2017-13804/DOC_0C06687128/C06687128.pdf",
+    "date": "2021-06-30",
+    "sortDate": "2021-06-30",
+    "dateDisplay": "",
+    "type": "Context",
+    "title": "PROGRESS REPORT ON OPTIONS FOR SUMMIT WITH YELTSIN",
+    "documentTitle": "PROGRESS REPORT ON OPTIONS FOR SUMMIT WITH YELTSIN",
+    "participants": [
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Manifest PDF",
+    "naid": "C06687128",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jun2021_LC/F-2017-13804/DOC_0C06687128/C06687128.pdf",
+    "pageCount": null,
+    "countStatus": "Context only",
+    "potentialFrusDocument": false,
+    "dateLine": "Manifest/index date 2021-06-30; document date requires PDF review",
+    "subjectLine": "Strobe manifest PDF surfaced as meeting preparation, summit planning, or policy context for the Clinton-Yeltsin channel.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06687128; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06687128; listed in the Strobe Talbott FOIA manifest. PDF URL is retained as the row-level locator because State FOIA document IDs repeat across monthly release folders.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Manifest lead control: not added to the consolidated memcon/telcon page total. Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Strobe manifest PDF",
+      "Russia policy context",
+      "Yeltsin",
+      "Summit diplomacy"
+    ],
+    "strobeManifestPdf": true,
+    "strobePdfCategory": "Local Strobe manifest Yeltsin title hit",
+    "strobePdfCategories": [
+      "Local Strobe manifest Yeltsin title hit"
+    ],
+    "strobeManifestDescriptions": [],
+    "strobeManifestStatuses": [
+      "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
+    ]
   },
   {
     "id": "nara-scout-40482510",

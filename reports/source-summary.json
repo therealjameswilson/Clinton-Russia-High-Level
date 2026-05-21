@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-21T22:20:47.794Z",
-  "totalRecords": 154,
+  "generatedAt": "2026-05-21T22:52:01.675Z",
+  "totalRecords": 232,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
     "Released Clinton Library Packets": 4,
-    "Talbott FOIA Context": 45,
+    "Talbott FOIA Context": 123,
     "NARA Scout Leads": 13
   },
   "byType": {
     "Telcon": 60,
     "Memcon": 32,
     "Release Packet": 4,
-    "Context": 45,
+    "Context": 123,
     "Scout Lead": 13
   },
   "pageTallies": {
     "allRecords": {
-      "documents": 154,
+      "documents": 232,
       "countedDocuments": 93,
-      "pendingDocuments": 61,
+      "pendingDocuments": 139,
       "pages": 578
     },
     "potentialClintonYeltsinDocuments": {
@@ -41,9 +41,9 @@
         "pages": 0
       },
       "Talbott FOIA Context": {
-        "documents": 45,
+        "documents": 123,
         "countedDocuments": 0,
-        "pendingDocuments": 45,
+        "pendingDocuments": 123,
         "pages": 0
       },
       "NARA Scout Leads": {
@@ -57,11 +57,15 @@
   "strobeConversationFiles": {
     "includedCrossReferences": 14,
     "uniqueSourceFiles": 13,
-    "reviewedNonConversationFiles": 3
+    "reviewedNonConversationFiles": 3,
+    "visibleManifestPdfRecords": 78,
+    "uniqueManifestPdfUrls": 78
   },
   "sources": {
     "clintonText": "/private/tmp/clinton-foreign-meetings.txt",
     "strobeManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
+    "strobeLiveManifestPdfLeads": "/Users/jameswilson/Documents/New project/Clinton-Russia-High-Level/data/strobe-live-yeltsin-pdf-leads.json",
+    "strobeManifestPdfAudit": "reports/strobe-manifest-pdf-audit.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",
     "clintonDigitalLibrarySolrAudit": "reports/clinton-digital-library-solr-audit.json"

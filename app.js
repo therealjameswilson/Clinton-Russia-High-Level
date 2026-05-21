@@ -213,6 +213,7 @@ function renderWorkbench(records) {
   const driveRefs = sourceFileReferenceCount(candidates, "googleDriveFiles");
   const strobeFiles = uniqueSourceFileCount(candidates, "strobeFiles");
   const driveFiles = uniqueSourceFileCount(candidates, "googleDriveFiles");
+  const strobeManifestPdfs = records.filter((record) => record.strobeManifestPdf).length;
 
   if (pendingSummary) {
     pendingSummary.textContent = pending.length
@@ -240,7 +241,7 @@ function renderWorkbench(records) {
   }
 
   if (sourceCopySummary) {
-    sourceCopySummary.textContent = `${strobeFiles} unique Strobe FOIA files (${strobeRefs} row refs) and ${driveFiles} unique Drive files (${driveRefs} row refs) are attached to canonical conversation rows for deduped review.`;
+    sourceCopySummary.textContent = `${strobeFiles} unique Strobe FOIA source-copy files (${strobeRefs} row refs) and ${driveFiles} unique Drive files (${driveRefs} row refs) are attached to canonical conversation rows. The Talbott chapter also lists ${strobeManifestPdfs} visible Strobe manifest PDF rows for context review.`;
   }
 }
 
@@ -759,7 +760,7 @@ function createRecordRow(record) {
   const date = document.createElement("time");
   date.className = "record-date";
   date.dateTime = record.date;
-  date.textContent = formatDate(record.date);
+  date.textContent = record.dateDisplay || formatDate(record.date);
 
   const body = document.createElement("div");
   const title = document.createElement(record.catalogUrl || record.pdfUrl ? "a" : "span");
@@ -885,7 +886,13 @@ function statusMatches(record, status) {
   if (status === "candidate") return isConversationCandidate(record);
   if (status === "counted") return isConversationCandidate(record) && Number.isInteger(record.pageCount);
   if (status === "pending") return isConversationCandidate(record) && !Number.isInteger(record.pageCount);
-  if (status === "strobe") return sourceCopyCount(record, "strobeFiles") > 0;
+  if (status === "strobe") {
+    return (
+      sourceCopyCount(record, "strobeFiles") > 0 ||
+      record.strobeManifestPdf ||
+      /Strobe Talbott/i.test(record.source?.name || "")
+    );
+  }
   if (status === "drive") return sourceCopyCount(record, "googleDriveFiles") > 0;
   if (status === "partial") return record.releaseStatus === "Partial" || record.releaseStatus === "Mixed";
   if (status === "unknown") return record.releaseStatus === "Unknown";
@@ -964,6 +971,7 @@ function exportFilteredRecords() {
     "citationOpenItems",
     "catalogUrl",
     "pdfUrl",
+    "strobePdfCategory",
     "googleDriveFiles",
     "strobeFiles"
   ];
@@ -983,6 +991,7 @@ function exportFilteredRecords() {
       citationOpenItems(record),
       record.catalogUrl || "",
       record.pdfUrl || "",
+      record.strobePdfCategory || "",
       recordUrlList(record, "googleDriveFiles"),
       recordUrlList(record, "strobeFiles")
     ]);
