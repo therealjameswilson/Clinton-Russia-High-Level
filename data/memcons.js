@@ -1118,6 +1118,179 @@ window.MEMCONS = [
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721. Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin, Clinton-Yeltsin memcons and telcons, January 23, 1993 through April 21, 1996."
   },
   {
+    "id": "clinton-standalone-1994-01-13-memcon-one-on-one",
+    "date": "1994-01-13",
+    "sortDate": "1994-01-13",
+    "sortOrder": 1,
+    "type": "Memcon",
+    "title": "Memorandum of conversation: One-on-One Meeting with President Boris Yeltsin of Russia",
+    "documentTitle": "One-on-One Meeting with President Boris Yeltsin of Russia",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Clinton-Yeltsin Chronology"
+    },
+    "releaseStatus": "Unknown",
+    "naid": "Clinton Digital Library item 101363",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/101363",
+    "pdfUrl": "public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf",
+    "pageCount": 6,
+    "dateLine": "January 13, 1994, 9:00-9:45 a.m., The Kremlin, Moscow",
+    "subjectLine": "Standalone Clinton Digital Library copy of the Moscow summit one-on-one memcon before the expanded January 14 sessions.",
+    "source": {
+      "name": "Clinton Digital Library item 101363, Memcons - Memoranda of Conversation",
+      "caseNumber": "clinton-item-101363",
+      "url": "https://clinton.presidentiallibraries.us/items/show/101363",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/19662f645b0b622a95717322e238c1ec.pdf"
+    },
+    "sourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101363, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Source PDF label: \"62 Memcon President Boris Yeltsin of Russia Jan 13 1994.pdf.\"",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101363, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Source PDF label: \"62 Memcon President Boris Yeltsin of Russia Jan 13 1994.pdf.\"",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 1-6 from clinton-item-101363; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Clinton-Yeltsin",
+      "Russia high-level contacts",
+      "Memcon",
+      "Potential FRUS document",
+      "Clinton Digital Library",
+      "Standalone source item",
+      "Moscow summit",
+      "Russian reform",
+      "Duma"
+    ],
+    "topics": [
+      "Clinton-Yeltsin",
+      "Russia high-level contacts",
+      "Memcon",
+      "Potential FRUS document",
+      "Clinton Digital Library",
+      "Standalone source item",
+      "Moscow summit",
+      "Russian reform",
+      "Duma"
+    ],
+    "potentialFrusDocument": true,
+    "sourcePdfPages": "1-6",
+    "sourcePdfPageCount": 6,
+    "markerPage": null,
+    "countStatus": "Counted actual conversation pages only",
+    "relatedReleaseIds": [
+      "clinton-item-101363",
+      "101363"
+    ],
+    "localPdfPageCount": 6
+  },
+  {
+    "id": "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+    "date": "1994-01-13",
+    "sortDate": "1994-01-13",
+    "sortOrder": 2,
+    "type": "Memcon",
+    "title": "NSC cable/memcon report: President's dinner with President Yeltsin, January 13/14, 1994",
+    "documentTitle": "President's dinner with President Yeltsin, January 13/14, 1994",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Warren Christopher",
+      "Lloyd Bentsen",
+      "Anthony Lake",
+      "Strobe Talbott",
+      "Thomas Pickering",
+      "Viktor Chernomyrdin",
+      "Andrei Kozyrev",
+      "Pavel Grachev"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Clinton-Yeltsin Chronology"
+    },
+    "releaseStatus": "Unknown",
+    "naid": "Clinton Digital Library item 101370",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/101370",
+    "pdfUrl": "public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf",
+    "pageCount": 11,
+    "dateLine": "January 13/14, 1994, Nova Ogareva, outside Moscow (source item date January 13; cable subject says January 14)",
+    "subjectLine": "Standalone NSC cable/memcon report of the Yeltsin dinner discussion on Ukraine, Russian politics, arms trade, Iraq, Bosnia, and Partnership for Peace.",
+    "source": {
+      "name": "Clinton Digital Library item 101370, Memcons - Memoranda of Conversation",
+      "caseNumber": "clinton-item-101370",
+      "url": "https://clinton.presidentiallibraries.us/items/show/101370",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/c016beef71be071cd9c96fcf0972fd57.pdf"
+    },
+    "sourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101370, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Item description: \"This Memcon was received as a NSC Cable.\" Source PDF label: \"69 Memcon Cable President Boris Yeltsin of Russia (not really a memcon) Jan 13 1994.pdf.\"",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101370, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Item description: \"This Memcon was received as a NSC Cable.\" Source PDF label: \"69 Memcon Cable President Boris Yeltsin of Russia (not really a memcon) Jan 13 1994.pdf.\"",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionNote": "The item is retained as a high-level interaction report even though the source label cautions that it is an NSC cable rather than a formal White House memcon.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 1-11 from clinton-item-101370; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded. The item is retained as a high-level interaction report even though the source label cautions that it is an NSC cable rather than a formal White House memcon.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Clinton-Yeltsin",
+      "Russia high-level contacts",
+      "Memcon",
+      "Potential FRUS document",
+      "Clinton Digital Library",
+      "Standalone source item",
+      "Moscow summit",
+      "Ukraine",
+      "Bosnia",
+      "Partnership for Peace",
+      "Iraq"
+    ],
+    "topics": [
+      "Clinton-Yeltsin",
+      "Russia high-level contacts",
+      "Memcon",
+      "Potential FRUS document",
+      "Clinton Digital Library",
+      "Standalone source item",
+      "Moscow summit",
+      "Ukraine",
+      "Bosnia",
+      "Partnership for Peace",
+      "Iraq"
+    ],
+    "potentialFrusDocument": true,
+    "sourcePdfPages": "1-11",
+    "sourcePdfPageCount": 11,
+    "markerPage": null,
+    "countStatus": "Counted actual conversation pages only",
+    "relatedReleaseIds": [
+      "clinton-item-101370",
+      "101370"
+    ],
+    "localPdfPageCount": 11
+  },
+  {
     "id": "contact-1994-01-14-memcon-trilateral-yeltsin-kravchuk",
     "date": "1994-01-14",
     "sortDate": "1994-01-14",
@@ -1288,6 +1461,86 @@ window.MEMCONS = [
     "countStatus": "Counted actual conversation pages only",
     "extractionStatus": "Potential FRUS document: extracted actual memcon pages State FOIA document C06694502, conversation pages 1-8 from F-2017-13804; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694502."
+  },
+  {
+    "id": "clinton-standalone-1994-01-15-memcon-one-on-one",
+    "date": "1994-01-15",
+    "sortDate": "1994-01-15",
+    "sortOrder": 1,
+    "type": "Memcon",
+    "title": "Memorandum of conversation: One-on-One Meeting with President Boris Yeltsin of Russia",
+    "documentTitle": "One-on-One Meeting with President Boris Yeltsin of Russia",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Clinton-Yeltsin Chronology"
+    },
+    "releaseStatus": "Unknown",
+    "naid": "Clinton Digital Library item 101364",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/101364",
+    "pdfUrl": "public/documents/clinton-standalone-1994-01-15-memcon-one-on-one.pdf",
+    "pageCount": 2,
+    "dateLine": "January 15, 1994, 9:00-9:20 a.m., The Kremlin, Moscow",
+    "subjectLine": "Standalone Clinton Digital Library copy of Clinton's private economic-reform conversation with Yeltsin at the end of the Moscow summit.",
+    "source": {
+      "name": "Clinton Digital Library item 101364, Memcons - Memoranda of Conversation",
+      "caseNumber": "clinton-item-101364",
+      "url": "https://clinton.presidentiallibraries.us/items/show/101364",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/67bc3e4fc7cc0ed1ba4f438e510624d8.pdf"
+    },
+    "sourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101364, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 15, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Source PDF label: \"63 Memcon President Boris Yeltsin of Russia Jan 15 1994.pdf.\"",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101364, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 15, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Source PDF label: \"63 Memcon President Boris Yeltsin of Russia Jan 15 1994.pdf.\"",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 1-2 from clinton-item-101364; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Clinton-Yeltsin",
+      "Russia high-level contacts",
+      "Memcon",
+      "Potential FRUS document",
+      "Clinton Digital Library",
+      "Standalone source item",
+      "Moscow summit",
+      "Russian reform",
+      "G-7"
+    ],
+    "topics": [
+      "Clinton-Yeltsin",
+      "Russia high-level contacts",
+      "Memcon",
+      "Potential FRUS document",
+      "Clinton Digital Library",
+      "Standalone source item",
+      "Moscow summit",
+      "Russian reform",
+      "G-7"
+    ],
+    "potentialFrusDocument": true,
+    "sourcePdfPages": "1-2",
+    "sourcePdfPageCount": 2,
+    "markerPage": null,
+    "countStatus": "Counted actual conversation pages only",
+    "relatedReleaseIds": [
+      "clinton-item-101364",
+      "101364"
+    ],
+    "localPdfPageCount": 2
   },
   {
     "id": "contact-1994-02-20-telcon-16",
@@ -1946,6 +2199,91 @@ window.MEMCONS = [
     "countStatus": "Counted actual conversation pages only",
     "extractionStatus": "Potential FRUS document: extracted actual memcon pages 251-260 from 2015-0782-M-1 and appended original marker page 245 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721. Clinton Presidential Records, NSC Records Management, [Yeltsin and Telcons]; OA/Box Number 482; Folder Title/Record ID 9408513; Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin, Clinton-Yeltsin memcons and telcons, January 23, 1993 through April 21, 1996. Provenance sheet: source PDF page 245 appended."
+  },
+  {
+    "id": "clinton-standalone-1994-09-28-second-one-on-one",
+    "date": "1994-09-28",
+    "sortDate": "1994-09-28",
+    "sortOrder": 1,
+    "type": "Memcon",
+    "title": "Informal record: Second Clinton/Yeltsin One-on-One",
+    "documentTitle": "Second Clinton/Yeltsin One-on-One",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 1,
+      "name": "Clinton-Yeltsin Chronology"
+    },
+    "releaseStatus": "Unknown",
+    "naid": "Clinton Digital Library item 101758",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/101758",
+    "pdfUrl": "public/documents/clinton-standalone-1994-09-28-second-one-on-one.pdf",
+    "pageCount": 6,
+    "dateLine": "September 28, 1994, 1:00-2:30 p.m.",
+    "subjectLine": "Standalone Clinton Digital Library item for the September 28 second one-on-one on CW/BW, Ukraine, Nagorno-Karabakh, CoCom, NATO, and European security.",
+    "source": {
+      "name": "Clinton Digital Library item 101758, Declassified Documents",
+      "caseNumber": "clinton-item-101758",
+      "url": "https://clinton.presidentiallibraries.us/items/show/101758",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2509827ca57f98e07eec584b3d69250f.pdf"
+    },
+    "sourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101758, \"Declassified documents concerning telcon between the President and Boris Yeltsin on September 28, 1994,\" identifier 2018-1215-M; creators National Security Council, NSC European Affairs Office, and Alexander Vershbow; part of National Archives Catalog Description, NAID 7585499; Clinton Presidential Records: White House Staff and Office Files; Declassified Documents collection. Direct review shows the extracted pages are the complete \"Second Clinton/Yeltsin One-on-One\" meeting text.",
+    "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101758, \"Declassified documents concerning telcon between the President and Boris Yeltsin on September 28, 1994,\" identifier 2018-1215-M; creators National Security Council, NSC European Affairs Office, and Alexander Vershbow; part of National Archives Catalog Description, NAID 7585499; Clinton Presidential Records: White House Staff and Office Files; Declassified Documents collection. Direct review shows the extracted pages are the complete \"Second Clinton/Yeltsin One-on-One\" meeting text.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionNote": "Source pages 1-2 are a duplicate tail fragment and source page 8 is blank; only pages 3-7 and 9 are included in the local derivative PDF.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 3-7,9 from clinton-item-101758; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded. Source pages 1-2 are a duplicate tail fragment and source page 8 is blank; only pages 3-7 and 9 are included in the local derivative PDF.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Clinton-Yeltsin",
+      "Russia high-level contacts",
+      "Memcon",
+      "Potential FRUS document",
+      "Clinton Digital Library",
+      "Standalone source item",
+      "NATO/Russia",
+      "CoCom",
+      "Ukraine",
+      "Nagorno-Karabakh",
+      "Chemical weapons"
+    ],
+    "topics": [
+      "Clinton-Yeltsin",
+      "Russia high-level contacts",
+      "Memcon",
+      "Potential FRUS document",
+      "Clinton Digital Library",
+      "Standalone source item",
+      "NATO/Russia",
+      "CoCom",
+      "Ukraine",
+      "Nagorno-Karabakh",
+      "Chemical weapons"
+    ],
+    "potentialFrusDocument": true,
+    "sourcePdfPages": "3-7,9",
+    "sourcePdfPageCount": 9,
+    "markerPage": null,
+    "countStatus": "Counted actual conversation pages only",
+    "relatedReleaseIds": [
+      "clinton-item-101758",
+      "101758"
+    ],
+    "localPdfPageCount": 6
   },
   {
     "id": "contact-1994-10-05-telcon-24",
@@ -6448,11 +6786,11 @@ window.MEMCONS = [
   },
   {
     "id": "contact-1999-11-18-memcon-79",
-    "date": "1999-11-18",
-    "sortDate": "1999-11-18",
+    "date": "1999-11-19",
+    "sortDate": "1999-11-19",
     "type": "Memcon",
-    "title": "Meeting with President Boris Yeltsin of Russia, November 18, 1999, Istanbul, Turkey declassified in full",
-    "documentTitle": "Meeting with President Boris Yeltsin of Russia, November 18, 1999, Istanbul, Turkey",
+    "title": "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
+    "documentTitle": "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
     "participants": [
       "Bill Clinton",
       "Boris Yeltsin"
@@ -6470,7 +6808,7 @@ window.MEMCONS = [
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
     "pdfUrl": "public/documents/1999-11-18-memcon-79.pdf",
     "pageCount": 7,
-    "dateLine": "November 18, 1999, Istanbul, Turkey",
+    "dateLine": "November 19, 1999, Istanbul, Turkey",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
     "source": {
       "name": "Clinton Library MDR release 2015-0782-M-2",
@@ -6478,7 +6816,7 @@ window.MEMCONS = [
       "url": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
     },
-    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. The foreign-leader chronology dates the meeting November 18; the packet/Drive title identifies the Istanbul memcon as November 19, 1999. Dedup/exclusion note: Duplicate packet pages 568-574 were excluded.",
+    "sourceNote": "Source: Clinton Library, Meetings and Telephone Calls with Foreign Leaders, master chronology; release packet 2015-0782-M-2. The foreign-leader chronology dates the meeting November 18; the packet text, standalone Clinton Library copies, and Drive title identify the Istanbul memcon as November 19, 1999. Dedup/exclusion note: Duplicate packet pages 568-574 were excluded.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -9767,5 +10105,152 @@ window.MEMCONS = [
       }
     ],
     "frusSourceNote": "Source: NARA Scout search trail, Search run May 20, 2026."
+  },
+  {
+    "id": "clinton-digital-library-yeltsin-solr-2026-05-21",
+    "date": "2026-05-21",
+    "sortDate": "2026-05-21",
+    "type": "Scout Lead",
+    "title": "Clinton Digital Library Solr pass: Yeltsin standalone memcon/telcon items",
+    "documentTitle": "Clinton Digital Library Solr pass: Yeltsin standalone memcon/telcon items",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Search Trail",
+    "naid": "clinton-digital-library-yeltsin-solr-2026-05-21",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/solr-search?q=yeltsin",
+    "pdfUrl": "",
+    "pageCount": null,
+    "digitalObjects": 1440,
+    "dateLine": "Search run May 21, 2026",
+    "subjectLine": "Clinton Digital Library Solr pass harvested the full Yeltsin result set plus memcon, telcon, tag, and declassified facets, then audited standalone PDF hits for additional high-level Clinton-Yeltsin interaction records.",
+    "source": {
+      "name": "Clinton Digital Library Solr search: Yeltsin",
+      "url": "https://clinton.presidentiallibraries.us/solr-search?q=yeltsin"
+    },
+    "sourceNote": "Source: Clinton Digital Library Solr search, query 'yeltsin', with collection/tag/declassified facets. The pass harvested 1,440 unique items and downloaded 94 high-signal PDF candidates from the Memcons, Telcons, tag, and Declassified Documents facets.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Search trail only: four newly counted standalone high-level interaction records were added; duplicate source copies and non-conversation search hits were excluded from page totals.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Clinton Digital Library",
+      "Search trail",
+      "Memcon",
+      "Telcon",
+      "Deduplication"
+    ],
+    "topics": [
+      "Clinton Digital Library",
+      "Search trail",
+      "Memcon",
+      "Telcon",
+      "Deduplication"
+    ],
+    "scoutAudit": {
+      "searchedAt": "2026-05-21T18:06:31-04:00",
+      "source": "https://clinton.presidentiallibraries.us/solr-search?q=yeltsin",
+      "uniqueItems": 1440,
+      "facets": [
+        {
+          "label": "all-yeltsin",
+          "results": 1440,
+          "pages": 72
+        },
+        {
+          "label": "collection-memcons",
+          "results": 36,
+          "pages": 2
+        },
+        {
+          "label": "collection-telcons",
+          "results": 57,
+          "pages": 3
+        },
+        {
+          "label": "tag-memcon",
+          "results": 15,
+          "pages": 1
+        },
+        {
+          "label": "tag-telcon",
+          "results": 7,
+          "pages": 1
+        },
+        {
+          "label": "declassified",
+          "results": 74,
+          "pages": 4
+        }
+      ],
+      "downloadedPdfCandidates": 94,
+      "downloadedSourcePages": 534,
+      "newlyCountedStandaloneDocuments": [
+        {
+          "itemId": "101363",
+          "date": "1994-01-13",
+          "pages": 6,
+          "status": "Added as standalone Moscow one-on-one memcon."
+        },
+        {
+          "itemId": "101370",
+          "date": "1994-01-13",
+          "pages": 11,
+          "status": "Added as standalone NSC cable/memcon report for the Yeltsin dinner discussion."
+        },
+        {
+          "itemId": "101364",
+          "date": "1994-01-15",
+          "pages": 2,
+          "status": "Added as standalone Moscow one-on-one memcon."
+        },
+        {
+          "itemId": "101758",
+          "date": "1994-09-28",
+          "pages": 6,
+          "status": "Added as the complete Second Clinton/Yeltsin One-on-One text; duplicate tail pages 1-2 and blank page 8 excluded."
+        }
+      ],
+      "duplicateOrNoNewConversationExamples": [
+        {
+          "itemId": "101345",
+          "status": "Duplicate of the already-counted October 10, 1994 Iraq-crisis telcon."
+        },
+        {
+          "itemId": "101387",
+          "status": "Duplicate source copy for the already-counted June 13, 1994 telcon."
+        },
+        {
+          "itemId": "101432",
+          "status": "Duplicate/cross-reference for the already-counted June 17, 1995 Halifax memcon."
+        },
+        {
+          "itemId": "101536",
+          "status": "Duplicate/source copy for the already-counted March 24, 1999 Kosovo telcon."
+        },
+        {
+          "itemId": "101582/101610",
+          "status": "Duplicate/source copies for the Istanbul memcon; the counted chronology record is corrected to November 19, 1999."
+        }
+      ]
+    },
+    "frusSourceNote": "Source: Clinton Digital Library Solr search: Yeltsin."
   }
 ];

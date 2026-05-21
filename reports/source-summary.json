@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-05-21T22:00:30.277Z",
-  "totalRecords": 149,
+  "generatedAt": "2026-05-21T22:20:47.794Z",
+  "totalRecords": 154,
   "byChapter": {
-    "Clinton-Yeltsin Chronology": 88,
+    "Clinton-Yeltsin Chronology": 92,
     "Released Clinton Library Packets": 4,
     "Talbott FOIA Context": 45,
-    "NARA Scout Leads": 12
+    "NARA Scout Leads": 13
   },
   "byType": {
     "Telcon": 60,
-    "Memcon": 28,
+    "Memcon": 32,
     "Release Packet": 4,
     "Context": 45,
-    "Scout Lead": 12
+    "Scout Lead": 13
   },
   "pageTallies": {
     "allRecords": {
-      "documents": 149,
-      "countedDocuments": 89,
-      "pendingDocuments": 60,
-      "pages": 553
+      "documents": 154,
+      "countedDocuments": 93,
+      "pendingDocuments": 61,
+      "pages": 578
     },
     "potentialClintonYeltsinDocuments": {
-      "documents": 87,
-      "countedDocuments": 81,
+      "documents": 91,
+      "countedDocuments": 85,
       "pendingDocuments": 6,
-      "pages": 420
+      "pages": 445
     },
     "byChapter": {
       "Clinton-Yeltsin Chronology": {
-        "documents": 88,
-        "countedDocuments": 81,
+        "documents": 92,
+        "countedDocuments": 85,
         "pendingDocuments": 7,
-        "pages": 420
+        "pages": 445
       },
       "Released Clinton Library Packets": {
         "documents": 4,
@@ -47,9 +47,9 @@
         "pages": 0
       },
       "NARA Scout Leads": {
-        "documents": 12,
+        "documents": 13,
         "countedDocuments": 8,
-        "pendingDocuments": 4,
+        "pendingDocuments": 5,
         "pages": 133
       }
     }
@@ -63,6 +63,7 @@
     "clintonText": "/private/tmp/clinton-foreign-meetings.txt",
     "strobeManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
-    "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json"
+    "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",
+    "clintonDigitalLibrarySolrAudit": "reports/clinton-digital-library-solr-audit.json"
   }
 }

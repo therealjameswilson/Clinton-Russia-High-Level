@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-05-21T22:00:30.274Z",
+  "generatedAt": "2026-05-21T22:20:47.790Z",
   "scope": "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, Strobe cross-reference copies, briefing material, and withdrawal sheets are excluded.",
   "consolidated": {
-    "potentialDocuments": 87,
-    "countedDocuments": 81,
+    "potentialDocuments": 91,
+    "countedDocuments": 85,
     "pendingDocuments": 6,
-    "totalConversationPages": 420,
-    "totalMemconPages": 192,
+    "totalConversationPages": 445,
+    "totalMemconPages": 217,
     "totalTelconPages": 228
   },
   "sourceFileInventory": {
     "localDerivativePdfs": {
-      "rowReferences": 81,
-      "uniqueFiles": 81,
+      "rowReferences": 85,
+      "uniqueFiles": 85,
       "repeatedFiles": []
     },
     "googleDriveFiles": {
@@ -45,10 +45,10 @@
       "pages": 228
     },
     "Memcon": {
-      "documents": 27,
-      "countedDocuments": 23,
+      "documents": 31,
+      "countedDocuments": 27,
       "pendingDocuments": 4,
-      "pages": 192
+      "pages": 217
     }
   },
   "byYear": {
@@ -59,10 +59,10 @@
       "pages": 60
     },
     "1994": {
-      "documents": 13,
-      "countedDocuments": 11,
+      "documents": 17,
+      "countedDocuments": 15,
       "pendingDocuments": 2,
-      "pages": 53
+      "pages": 78
     },
     "1995": {
       "documents": 8,
@@ -114,11 +114,35 @@
       "pendingDocuments": 0,
       "pages": 21
     },
+    "clinton-item-101363": {
+      "documents": 1,
+      "countedDocuments": 1,
+      "pendingDocuments": 0,
+      "pages": 6
+    },
+    "clinton-item-101370": {
+      "documents": 1,
+      "countedDocuments": 1,
+      "pendingDocuments": 0,
+      "pages": 11
+    },
     "F-2017-13804": {
       "documents": 3,
       "countedDocuments": 3,
       "pendingDocuments": 0,
       "pages": 19
+    },
+    "clinton-item-101364": {
+      "documents": 1,
+      "countedDocuments": 1,
+      "pendingDocuments": 0,
+      "pages": 2
+    },
+    "clinton-item-101758": {
+      "documents": 1,
+      "countedDocuments": 1,
+      "pendingDocuments": 0,
+      "pages": 6
     },
     "2014-0948-M": {
       "documents": 2,
@@ -541,6 +565,38 @@
       "extractionStatus": "Potential FRUS document: extracted actual telcon pages 142-145 from 2015-0782-M-1 and appended original marker page 136 as the provenance sheet. Surrounding administrative material and duplicate copies excluded."
     },
     {
+      "id": "clinton-standalone-1994-01-13-memcon-one-on-one",
+      "date": "1994-01-13",
+      "type": "Memcon",
+      "documentTitle": "One-on-One Meeting with President Boris Yeltsin of Russia",
+      "pageCount": 6,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "clinton-item-101363",
+      "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101363, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Source PDF label: \"62 Memcon President Boris Yeltsin of Russia Jan 13 1994.pdf.\"",
+      "sourcePdfPages": "1-6",
+      "sourcePdfPageCount": 6,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "strobeFiles": [],
+      "extractionStatus": "Potential FRUS document: extracted actual memcon pages 1-6 from clinton-item-101363; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded."
+    },
+    {
+      "id": "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+      "date": "1994-01-13",
+      "type": "Memcon",
+      "documentTitle": "President's dinner with President Yeltsin, January 13/14, 1994",
+      "pageCount": 11,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "clinton-item-101370",
+      "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101370, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Item description: \"This Memcon was received as a NSC Cable.\" Source PDF label: \"69 Memcon Cable President Boris Yeltsin of Russia (not really a memcon) Jan 13 1994.pdf.\"",
+      "sourcePdfPages": "1-11",
+      "sourcePdfPageCount": 11,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "strobeFiles": [],
+      "extractionStatus": "Potential FRUS document: extracted actual memcon pages 1-11 from clinton-item-101370; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded. The item is retained as a high-level interaction report even though the source label cautions that it is an NSC cable rather than a formal White House memcon."
+    },
+    {
       "id": "contact-1994-01-14-memcon-trilateral-yeltsin-kravchuk",
       "date": "1994-01-14",
       "type": "Memcon",
@@ -591,6 +647,22 @@
       ],
       "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: extracted actual memcon pages State FOIA document C06694502, conversation pages 1-8 from F-2017-13804; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded."
+    },
+    {
+      "id": "clinton-standalone-1994-01-15-memcon-one-on-one",
+      "date": "1994-01-15",
+      "type": "Memcon",
+      "documentTitle": "One-on-One Meeting with President Boris Yeltsin of Russia",
+      "pageCount": 2,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "clinton-item-101364",
+      "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101364, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 15, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Source PDF label: \"63 Memcon President Boris Yeltsin of Russia Jan 15 1994.pdf.\"",
+      "sourcePdfPages": "1-2",
+      "sourcePdfPageCount": 2,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "strobeFiles": [],
+      "extractionStatus": "Potential FRUS document: extracted actual memcon pages 1-2 from clinton-item-101364; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded."
     },
     {
       "id": "contact-1994-02-20-telcon-16",
@@ -784,6 +856,22 @@
       ],
       "strobeFiles": [],
       "extractionStatus": "Potential FRUS document: extracted actual memcon pages 251-260 from 2015-0782-M-1 and appended original marker page 245 as the provenance sheet. Surrounding administrative material and duplicate copies excluded."
+    },
+    {
+      "id": "clinton-standalone-1994-09-28-second-one-on-one",
+      "date": "1994-09-28",
+      "type": "Memcon",
+      "documentTitle": "Second Clinton/Yeltsin One-on-One",
+      "pageCount": 6,
+      "countStatus": "Counted actual conversation pages only",
+      "source": "clinton-item-101758",
+      "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101758, \"Declassified documents concerning telcon between the President and Boris Yeltsin on September 28, 1994,\" identifier 2018-1215-M; creators National Security Council, NSC European Affairs Office, and Alexander Vershbow; part of National Archives Catalog Description, NAID 7585499; Clinton Presidential Records: White House Staff and Office Files; Declassified Documents collection. Direct review shows the extracted pages are the complete \"Second Clinton/Yeltsin One-on-One\" meeting text.",
+      "sourcePdfPages": "3-7,9",
+      "sourcePdfPageCount": 9,
+      "markerPage": null,
+      "googleDriveFiles": [],
+      "strobeFiles": [],
+      "extractionStatus": "Potential FRUS document: extracted actual memcon pages 3-7,9 from clinton-item-101758; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded. Source pages 1-2 are a duplicate tail fragment and source page 8 is blank; only pages 3-7 and 9 are included in the local derivative PDF."
     },
     {
       "id": "contact-1994-10-05-telcon-24",
@@ -2127,9 +2215,9 @@
     },
     {
       "id": "contact-1999-11-18-memcon-79",
-      "date": "1999-11-18",
+      "date": "1999-11-19",
       "type": "Memcon",
-      "documentTitle": "Meeting with President Boris Yeltsin of Russia, November 18, 1999, Istanbul, Turkey",
+      "documentTitle": "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
       "pageCount": 7,
       "countStatus": "Counted actual conversation pages only",
       "source": "2015-0782-M-2",

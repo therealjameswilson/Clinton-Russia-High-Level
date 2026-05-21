@@ -1,7 +1,7 @@
 {
   "localDerivativePdfs": {
-    "rowReferences": 81,
-    "uniqueFiles": 81,
+    "rowReferences": 85,
+    "uniqueFiles": 85,
     "repeatedFiles": [],
     "files": [
       {
@@ -1036,9 +1036,9 @@
         "records": [
           {
             "id": "contact-1999-11-18-memcon-79",
-            "date": "1999-11-18",
+            "date": "1999-11-19",
             "type": "Memcon",
-            "title": "Meeting with President Boris Yeltsin of Russia, November 18, 1999, Istanbul, Turkey",
+            "title": "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
             "conversationPages": 7,
             "localPdfPages": 8
           }
@@ -1054,6 +1054,58 @@
             "title": "Telephone call with President Boris Yeltsin of Russia, December 31, 1999, White House",
             "conversationPages": 3,
             "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf",
+        "records": [
+          {
+            "id": "clinton-standalone-1994-01-13-memcon-one-on-one",
+            "date": "1994-01-13",
+            "type": "Memcon",
+            "title": "One-on-One Meeting with President Boris Yeltsin of Russia",
+            "conversationPages": 6,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf",
+        "records": [
+          {
+            "id": "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+            "date": "1994-01-13",
+            "type": "Memcon",
+            "title": "President's dinner with President Yeltsin, January 13/14, 1994",
+            "conversationPages": 11,
+            "localPdfPages": 11
+          }
+        ]
+      },
+      {
+        "path": "public/documents/clinton-standalone-1994-01-15-memcon-one-on-one.pdf",
+        "records": [
+          {
+            "id": "clinton-standalone-1994-01-15-memcon-one-on-one",
+            "date": "1994-01-15",
+            "type": "Memcon",
+            "title": "One-on-One Meeting with President Boris Yeltsin of Russia",
+            "conversationPages": 2,
+            "localPdfPages": 2
+          }
+        ]
+      },
+      {
+        "path": "public/documents/clinton-standalone-1994-09-28-second-one-on-one.pdf",
+        "records": [
+          {
+            "id": "clinton-standalone-1994-09-28-second-one-on-one",
+            "date": "1994-09-28",
+            "type": "Memcon",
+            "title": "Second Clinton/Yeltsin One-on-One",
+            "conversationPages": 6,
+            "localPdfPages": 6
           }
         ]
       }
@@ -2003,9 +2055,9 @@
         "records": [
           {
             "id": "contact-1999-11-18-memcon-79",
-            "date": "1999-11-18",
+            "date": "1999-11-19",
             "type": "Memcon",
-            "title": "Meeting with President Boris Yeltsin of Russia, November 18, 1999, Istanbul, Turkey"
+            "title": "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey"
           }
         ]
       },

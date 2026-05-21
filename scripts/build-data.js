@@ -106,6 +106,34 @@ const SOURCES = {
     url: "https://clinton.presidentiallibraries.us/items/show/119190",
     pdfUrl: "https://clinton.presidentiallibraries.us/files/original/1ec29c3214c0ccb6c6ed30fd7e5b06af.pdf"
   },
+  clintonItem101363: {
+    name: "Clinton Digital Library item 101363, Memcons - Memoranda of Conversation",
+    caseNumber: "clinton-item-101363",
+    url: "https://clinton.presidentiallibraries.us/items/show/101363",
+    pdfUrl: "https://clinton.presidentiallibraries.us/files/original/19662f645b0b622a95717322e238c1ec.pdf"
+  },
+  clintonItem101364: {
+    name: "Clinton Digital Library item 101364, Memcons - Memoranda of Conversation",
+    caseNumber: "clinton-item-101364",
+    url: "https://clinton.presidentiallibraries.us/items/show/101364",
+    pdfUrl: "https://clinton.presidentiallibraries.us/files/original/67bc3e4fc7cc0ed1ba4f438e510624d8.pdf"
+  },
+  clintonItem101370: {
+    name: "Clinton Digital Library item 101370, Memcons - Memoranda of Conversation",
+    caseNumber: "clinton-item-101370",
+    url: "https://clinton.presidentiallibraries.us/items/show/101370",
+    pdfUrl: "https://clinton.presidentiallibraries.us/files/original/c016beef71be071cd9c96fcf0972fd57.pdf"
+  },
+  clintonItem101758: {
+    name: "Clinton Digital Library item 101758, Declassified Documents",
+    caseNumber: "clinton-item-101758",
+    url: "https://clinton.presidentiallibraries.us/items/show/101758",
+    pdfUrl: "https://clinton.presidentiallibraries.us/files/original/2509827ca57f98e07eec584b3d69250f.pdf"
+  },
+  clintonDigitalLibrarySolr: {
+    name: "Clinton Digital Library Solr search: Yeltsin",
+    url: "https://clinton.presidentiallibraries.us/solr-search?q=yeltsin"
+  },
   kerrickTelconsMemcons: {
     name: "National Archives Catalog, Telcons and Memcons, Donald Kerrick's Files",
     caseNumber: "2008-0994-F",
@@ -217,6 +245,32 @@ const MDR_CASE_DETAILS = {
     url: SOURCES.clintonIraq19981230.url,
     provenance: "Telcons - Memoranda of Telephone Conversation"
   },
+  "clinton-item-101363": {
+    title: "Memorandum of Conversation - President Boris Yeltsin of Russia",
+    type: "Clinton Digital Library item",
+    url: SOURCES.clintonItem101363.url,
+    provenance: "2016-0117-M; Memcons - Memoranda of Conversation"
+  },
+  "clinton-item-101364": {
+    title: "Memorandum of Conversation - President Boris Yeltsin of Russia",
+    type: "Clinton Digital Library item",
+    url: SOURCES.clintonItem101364.url,
+    provenance: "2016-0117-M; Memcons - Memoranda of Conversation"
+  },
+  "clinton-item-101370": {
+    title: "Memorandum of Conversation - President Boris Yeltsin of Russia",
+    type: "Clinton Digital Library item",
+    url: SOURCES.clintonItem101370.url,
+    provenance: "2016-0117-M; Memcons - Memoranda of Conversation; item description says the memcon was received as an NSC cable"
+  },
+  "clinton-item-101758": {
+    title:
+      "Declassified documents concerning telcon between the President and Boris Yeltsin on September 28, 1994",
+    type: "Clinton Digital Library item",
+    url: SOURCES.clintonItem101758.url,
+    provenance:
+      "2018-1215-M; Clinton Presidential Records: White House Staff and Office Files; National Security Council, NSC European Affairs Office, Alexander Vershbow; Declassified Documents collection; related National Archives Catalog Description NAID 7585499"
+  },
   "2006-1185-F": {
     title:
       "Records on Telephone Calls between William J. Clinton and Boris Yeltsin, June 13 and 14, 1999",
@@ -262,7 +316,11 @@ const SOURCE_PDF_PAGE_COUNTS = {
   [SOURCES.m2.caseNumber]: 591,
   [SOURCES.sharmCable.caseNumber]: 6,
   [SOURCES.clinton20160620.caseNumber]: 6,
-  [SOURCES.clintonIraq19981230.caseNumber]: 5
+  [SOURCES.clintonIraq19981230.caseNumber]: 5,
+  [SOURCES.clintonItem101363.caseNumber]: 6,
+  [SOURCES.clintonItem101364.caseNumber]: 2,
+  [SOURCES.clintonItem101370.caseNumber]: 11,
+  [SOURCES.clintonItem101758.caseNumber]: 9
 };
 
 const EXTRACTED_PDF_MANIFEST =
@@ -858,6 +916,72 @@ const NARA_SCOUT_COLLECTION_SEARCH = {
   ]
 };
 
+const CLINTON_DIGITAL_LIBRARY_SOLR_AUDIT = {
+  searchedAt: "2026-05-21T18:06:31-04:00",
+  source: SOURCES.clintonDigitalLibrarySolr.url,
+  uniqueItems: 1440,
+  facets: [
+    { label: "all-yeltsin", results: 1440, pages: 72 },
+    { label: "collection-memcons", results: 36, pages: 2 },
+    { label: "collection-telcons", results: 57, pages: 3 },
+    { label: "tag-memcon", results: 15, pages: 1 },
+    { label: "tag-telcon", results: 7, pages: 1 },
+    { label: "declassified", results: 74, pages: 4 }
+  ],
+  downloadedPdfCandidates: 94,
+  downloadedSourcePages: 534,
+  newlyCountedStandaloneDocuments: [
+    {
+      itemId: "101363",
+      date: "1994-01-13",
+      pages: 6,
+      status: "Added as standalone Moscow one-on-one memcon."
+    },
+    {
+      itemId: "101370",
+      date: "1994-01-13",
+      pages: 11,
+      status: "Added as standalone NSC cable/memcon report for the Yeltsin dinner discussion."
+    },
+    {
+      itemId: "101364",
+      date: "1994-01-15",
+      pages: 2,
+      status: "Added as standalone Moscow one-on-one memcon."
+    },
+    {
+      itemId: "101758",
+      date: "1994-09-28",
+      pages: 6,
+      status:
+        "Added as the complete Second Clinton/Yeltsin One-on-One text; duplicate tail pages 1-2 and blank page 8 excluded."
+    }
+  ],
+  duplicateOrNoNewConversationExamples: [
+    {
+      itemId: "101345",
+      status: "Duplicate of the already-counted October 10, 1994 Iraq-crisis telcon."
+    },
+    {
+      itemId: "101387",
+      status: "Duplicate source copy for the already-counted June 13, 1994 telcon."
+    },
+    {
+      itemId: "101432",
+      status: "Duplicate/cross-reference for the already-counted June 17, 1995 Halifax memcon."
+    },
+    {
+      itemId: "101536",
+      status: "Duplicate/source copy for the already-counted March 24, 1999 Kosovo telcon."
+    },
+    {
+      itemId: "101582/101610",
+      status:
+        "Duplicate/source copies for the Istanbul memcon; the counted chronology record is corrected to November 19, 1999."
+    }
+  ]
+};
+
 const CONVERSATION_PAGE_AUDITS = {
   "1993-01-23|Telcon": { source: SOURCES.m1, sourcePdfPages: "9-11", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930123] },
   "1993-02-10|Telcon": { source: SOURCES.m1, sourcePdfPages: "19-21", pageCount: 3, driveFiles: [DRIVE_CANDIDATES.telcon19930210] },
@@ -1245,11 +1369,17 @@ const CONVERSATION_PAGE_AUDITS = {
   },
   "1999-11-18|Memcon": {
     source: SOURCES.m2,
+    date: "1999-11-19",
+    sortDate: "1999-11-19",
+    dateLine: "November 19, 1999, Istanbul, Turkey",
+    title: "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
+    documentTitle: "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
     sourcePdfPages: "560-566",
     pageCount: 7,
     driveFiles: [DRIVE_CANDIDATES.memcon19991119],
     excluded: "Duplicate packet pages 568-574 were excluded.",
-    note: "The foreign-leader chronology dates the meeting November 18; the packet/Drive title identifies the Istanbul memcon as November 19, 1999."
+    note:
+      "The foreign-leader chronology dates the meeting November 18; the packet text, standalone Clinton Library copies, and Drive title identify the Istanbul memcon as November 19, 1999."
   },
   "1999-12-31|Telcon": {
     source: SOURCES.m2,
@@ -1616,9 +1746,10 @@ function manifestExtractionStatus(record, extractedPdf) {
   const markerText = extractedPdf.markerPage
     ? ` and appended original marker page ${extractedPdf.markerPage} as the provenance sheet`
     : "; no original marker/provenance page was identified in the source PDF";
-  return `Potential FRUS document: extracted actual ${record.type.toLowerCase()} pages ${
+  const base = `Potential FRUS document: extracted actual ${record.type.toLowerCase()} pages ${
     record.sourcePdfPages || extractedPdf.extractedPages
   } from ${sourceLabel}${markerText}. Surrounding administrative material and duplicate copies excluded.`;
+  return appendNote(base, record.extractionNote);
 }
 
 function applyConversationAudit(record, auditKey = `${record.date}|${record.type}`) {
@@ -1658,6 +1789,10 @@ function applyConversationAudit(record, auditKey = `${record.date}|${record.type
 
   return {
     ...record,
+    date: audit.date || record.date,
+    sortDate: audit.sortDate || audit.date || record.sortDate || record.date,
+    title: audit.title || record.title,
+    documentTitle: audit.documentTitle || record.documentTitle,
     source,
     catalogUrl: audit.catalogUrl || record.catalogUrl,
     pdfUrl: extractedPdf?.output || audit.pdfUrl || record.pdfUrl,
@@ -1667,6 +1802,7 @@ function applyConversationAudit(record, auditKey = `${record.date}|${record.type
     sourcePdfPages: audit.sourcePdfPages || record.sourcePdfPages,
     sourcePdfPageCount: audit.sourcePdfPageCount || auditSourcePageCount(source) || undefined,
     localPdfPageCount: extractedPdf?.localPdfPageCount || audit.localPdfPageCount || record.localPdfPageCount,
+    dateLine: audit.dateLine || record.dateLine,
     markerPage:
       extractedPdf?.markerPage ||
       (Object.prototype.hasOwnProperty.call(audit, "markerPage") ? audit.markerPage : record.markerPage),
@@ -2309,6 +2445,163 @@ function buildDriveOnlyCandidateRecords() {
   ];
 }
 
+function makeClintonStandaloneCandidate({
+  id,
+  date,
+  sortOrder,
+  title,
+  documentTitle,
+  source,
+  itemId,
+  pageCount,
+  sourcePdfPages,
+  dateLine,
+  subjectLine,
+  participants = ["Bill Clinton", "Boris Yeltsin"],
+  topics: extraTopics = [],
+  sourceNote,
+  extractionNote
+}) {
+  const topics = [
+    ...contactTopics(title, date, "Memcon"),
+    "Potential FRUS document",
+    "Clinton Digital Library",
+    "Standalone source item",
+    ...extraTopics
+  ];
+  const cleanTopics = [...new Set(topics)];
+  const sourcePdfPageCount = auditSourcePageCount(source);
+  return {
+    id,
+    date,
+    sortDate: date,
+    sortOrder,
+    type: "Memcon",
+    title,
+    documentTitle: documentTitle || title,
+    participants,
+    countries: ["United States", "Russia"],
+    chapter: CHAPTERS.chronology,
+    releaseStatus: "Unknown",
+    naid: `Clinton Digital Library item ${itemId}`,
+    catalogUrl: source.url,
+    pdfUrl: source.pdfUrl,
+    pageCount,
+    dateLine,
+    subjectLine,
+    source,
+    sourceNote,
+    frusSourceNote: sourceNote,
+    extractionRule: EXTRACTION_RULE,
+    extractionNote,
+    extractionStatus:
+      `Potential FRUS document: counted actual conversation/report pages ${sourcePdfPages} from Clinton Digital Library item ${itemId}.` +
+      " A derivative PDF should include only those pages; no marker/provenance page was identified in the source PDF.",
+    frusVolume: FRUS_VOLUME,
+    frusTopics: cleanTopics,
+    topics: cleanTopics,
+    potentialFrusDocument: true,
+    sourcePdfPages,
+    sourcePdfPageCount,
+    markerPage: null,
+    countStatus: "Counted actual conversation pages only",
+    relatedReleaseIds: [source.caseNumber, itemId]
+  };
+}
+
+function buildClintonStandaloneCandidateRecords() {
+  return [
+    makeClintonStandaloneCandidate({
+      id: "clinton-standalone-1994-01-13-memcon-one-on-one",
+      date: "1994-01-13",
+      sortOrder: 1,
+      title:
+        "Memorandum of conversation: One-on-One Meeting with President Boris Yeltsin of Russia",
+      documentTitle: "One-on-One Meeting with President Boris Yeltsin of Russia",
+      source: SOURCES.clintonItem101363,
+      itemId: "101363",
+      pageCount: 6,
+      sourcePdfPages: "1-6",
+      dateLine: "January 13, 1994, 9:00-9:45 a.m., The Kremlin, Moscow",
+      subjectLine:
+        "Standalone Clinton Digital Library copy of the Moscow summit one-on-one memcon before the expanded January 14 sessions.",
+      sourceNote:
+        "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101363, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Source PDF label: \"62 Memcon President Boris Yeltsin of Russia Jan 13 1994.pdf.\"",
+      topics: ["Moscow summit", "Russian reform", "Duma"]
+    }),
+    makeClintonStandaloneCandidate({
+      id: "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+      date: "1994-01-13",
+      sortOrder: 2,
+      title:
+        "NSC cable/memcon report: President's dinner with President Yeltsin, January 13/14, 1994",
+      documentTitle: "President's dinner with President Yeltsin, January 13/14, 1994",
+      source: SOURCES.clintonItem101370,
+      itemId: "101370",
+      pageCount: 11,
+      sourcePdfPages: "1-11",
+      dateLine:
+        "January 13/14, 1994, Nova Ogareva, outside Moscow (source item date January 13; cable subject says January 14)",
+      subjectLine:
+        "Standalone NSC cable/memcon report of the Yeltsin dinner discussion on Ukraine, Russian politics, arms trade, Iraq, Bosnia, and Partnership for Peace.",
+      participants: [
+        "Bill Clinton",
+        "Boris Yeltsin",
+        "Warren Christopher",
+        "Lloyd Bentsen",
+        "Anthony Lake",
+        "Strobe Talbott",
+        "Thomas Pickering",
+        "Viktor Chernomyrdin",
+        "Andrei Kozyrev",
+        "Pavel Grachev"
+      ],
+      sourceNote:
+        "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101370, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Item description: \"This Memcon was received as a NSC Cable.\" Source PDF label: \"69 Memcon Cable President Boris Yeltsin of Russia (not really a memcon) Jan 13 1994.pdf.\"",
+      extractionNote:
+        "The item is retained as a high-level interaction report even though the source label cautions that it is an NSC cable rather than a formal White House memcon.",
+      topics: ["Moscow summit", "Ukraine", "Bosnia", "Partnership for Peace", "Iraq"]
+    }),
+    makeClintonStandaloneCandidate({
+      id: "clinton-standalone-1994-01-15-memcon-one-on-one",
+      date: "1994-01-15",
+      sortOrder: 1,
+      title:
+        "Memorandum of conversation: One-on-One Meeting with President Boris Yeltsin of Russia",
+      documentTitle: "One-on-One Meeting with President Boris Yeltsin of Russia",
+      source: SOURCES.clintonItem101364,
+      itemId: "101364",
+      pageCount: 2,
+      sourcePdfPages: "1-2",
+      dateLine: "January 15, 1994, 9:00-9:20 a.m., The Kremlin, Moscow",
+      subjectLine:
+        "Standalone Clinton Digital Library copy of Clinton's private economic-reform conversation with Yeltsin at the end of the Moscow summit.",
+      sourceNote:
+        "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101364, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 15, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Source PDF label: \"63 Memcon President Boris Yeltsin of Russia Jan 15 1994.pdf.\"",
+      topics: ["Moscow summit", "Russian reform", "G-7"]
+    }),
+    makeClintonStandaloneCandidate({
+      id: "clinton-standalone-1994-09-28-second-one-on-one",
+      date: "1994-09-28",
+      sortOrder: 1,
+      title: "Informal record: Second Clinton/Yeltsin One-on-One",
+      documentTitle: "Second Clinton/Yeltsin One-on-One",
+      source: SOURCES.clintonItem101758,
+      itemId: "101758",
+      pageCount: 6,
+      sourcePdfPages: "3-7,9",
+      dateLine: "September 28, 1994, 1:00-2:30 p.m.",
+      subjectLine:
+        "Standalone Clinton Digital Library item for the September 28 second one-on-one on CW/BW, Ukraine, Nagorno-Karabakh, CoCom, NATO, and European security.",
+      sourceNote:
+        "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101758, \"Declassified documents concerning telcon between the President and Boris Yeltsin on September 28, 1994,\" identifier 2018-1215-M; creators National Security Council, NSC European Affairs Office, and Alexander Vershbow; part of National Archives Catalog Description, NAID 7585499; Clinton Presidential Records: White House Staff and Office Files; Declassified Documents collection. Direct review shows the extracted pages are the complete \"Second Clinton/Yeltsin One-on-One\" meeting text.",
+      extractionNote:
+        "Source pages 1-2 are a duplicate tail fragment and source page 8 is blank; only pages 3-7 and 9 are included in the local derivative PDF.",
+      topics: ["NATO/Russia", "CoCom", "Ukraine", "Nagorno-Karabakh", "Chemical weapons"]
+    })
+  ];
+}
+
 function buildReleasePackets() {
   return [
     {
@@ -2495,6 +2788,42 @@ function buildNaraScoutRecords() {
   const narrowedPassUrl =
     "https://therealjameswilson.github.io/nara-scout/#q=Yeltsin%20telcon&from=1993&to=2001&sort=relevance&perColl=50&perPage=50&scope=7388808,7386505,101784492,2525029,2525024,7386739,7388773,7386504,7385964,7388842,7388805,2525014";
   return [
+    {
+      id: "clinton-digital-library-yeltsin-solr-2026-05-21",
+      date: "2026-05-21",
+      sortDate: "2026-05-21",
+      type: "Scout Lead",
+      title: "Clinton Digital Library Solr pass: Yeltsin standalone memcon/telcon items",
+      documentTitle: "Clinton Digital Library Solr pass: Yeltsin standalone memcon/telcon items",
+      participants: ["Bill Clinton", "Boris Yeltsin"],
+      countries: ["United States", "Russia"],
+      chapter: CHAPTERS.scout,
+      releaseStatus: "Search Trail",
+      naid: "clinton-digital-library-yeltsin-solr-2026-05-21",
+      catalogUrl: SOURCES.clintonDigitalLibrarySolr.url,
+      pdfUrl: "",
+      pageCount: null,
+      digitalObjects: CLINTON_DIGITAL_LIBRARY_SOLR_AUDIT.uniqueItems,
+      dateLine: "Search run May 21, 2026",
+      subjectLine:
+        "Clinton Digital Library Solr pass harvested the full Yeltsin result set plus memcon, telcon, tag, and declassified facets, then audited standalone PDF hits for additional high-level Clinton-Yeltsin interaction records.",
+      source: SOURCES.clintonDigitalLibrarySolr,
+      sourceNote:
+        "Source: Clinton Digital Library Solr search, query 'yeltsin', with collection/tag/declassified facets. The pass harvested 1,440 unique items and downloaded 94 high-signal PDF candidates from the Memcons, Telcons, tag, and Declassified Documents facets.",
+      extractionRule: EXTRACTION_RULE,
+      extractionStatus:
+        "Search trail only: four newly counted standalone high-level interaction records were added; duplicate source copies and non-conversation search hits were excluded from page totals.",
+      frusVolume: FRUS_VOLUME,
+      frusTopics: [
+        "Clinton Digital Library",
+        "Search trail",
+        "Memcon",
+        "Telcon",
+        "Deduplication"
+      ],
+      topics: ["Clinton Digital Library", "Search trail", "Memcon", "Telcon", "Deduplication"],
+      scoutAudit: CLINTON_DIGITAL_LIBRARY_SOLR_AUDIT
+    },
     {
       id: "nara-scout-collection-pass-yeltsin-2026-05-20",
       date: "2026-05-20",
@@ -3134,7 +3463,8 @@ function writeOutputs(records) {
       clintonText: CLINTON_TEXT,
       strobeManifest: STROBE_MANIFEST,
       naraScout: SOURCES.naraScout.url,
-      naraScoutCollectionSearch: "reports/nara-scout-collection-search.json"
+      naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
+      clintonDigitalLibrarySolrAudit: "reports/clinton-digital-library-solr-audit.json"
     }
   };
   fs.writeFileSync(
@@ -3149,6 +3479,10 @@ function writeOutputs(records) {
     path.join(reportsDir, "nara-scout-collection-search.json"),
     `${JSON.stringify(NARA_SCOUT_COLLECTION_SEARCH, null, 2)}\n`
   );
+  fs.writeFileSync(
+    path.join(reportsDir, "clinton-digital-library-solr-audit.json"),
+    `${JSON.stringify(CLINTON_DIGITAL_LIBRARY_SOLR_AUDIT, null, 2)}\n`
+  );
   fs.writeFileSync(path.join(reportsDir, "source-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
   console.log(JSON.stringify(summary, null, 2));
 }
@@ -3158,6 +3492,7 @@ const records = addFrusSourceNotes(
     dedupeCompilerRecords([
       ...buildChronologyRecords(),
       ...buildDriveOnlyCandidateRecords(),
+      ...buildClintonStandaloneCandidateRecords(),
       ...buildReleasePackets(),
       ...buildStrobeRecords(),
       ...buildNaraScoutRecords()

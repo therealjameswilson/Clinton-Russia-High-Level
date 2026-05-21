@@ -1,0 +1,87 @@
+{
+  "searchedAt": "2026-05-21T18:06:31-04:00",
+  "source": "https://clinton.presidentiallibraries.us/solr-search?q=yeltsin",
+  "uniqueItems": 1440,
+  "facets": [
+    {
+      "label": "all-yeltsin",
+      "results": 1440,
+      "pages": 72
+    },
+    {
+      "label": "collection-memcons",
+      "results": 36,
+      "pages": 2
+    },
+    {
+      "label": "collection-telcons",
+      "results": 57,
+      "pages": 3
+    },
+    {
+      "label": "tag-memcon",
+      "results": 15,
+      "pages": 1
+    },
+    {
+      "label": "tag-telcon",
+      "results": 7,
+      "pages": 1
+    },
+    {
+      "label": "declassified",
+      "results": 74,
+      "pages": 4
+    }
+  ],
+  "downloadedPdfCandidates": 94,
+  "downloadedSourcePages": 534,
+  "newlyCountedStandaloneDocuments": [
+    {
+      "itemId": "101363",
+      "date": "1994-01-13",
+      "pages": 6,
+      "status": "Added as standalone Moscow one-on-one memcon."
+    },
+    {
+      "itemId": "101370",
+      "date": "1994-01-13",
+      "pages": 11,
+      "status": "Added as standalone NSC cable/memcon report for the Yeltsin dinner discussion."
+    },
+    {
+      "itemId": "101364",
+      "date": "1994-01-15",
+      "pages": 2,
+      "status": "Added as standalone Moscow one-on-one memcon."
+    },
+    {
+      "itemId": "101758",
+      "date": "1994-09-28",
+      "pages": 6,
+      "status": "Added as the complete Second Clinton/Yeltsin One-on-One text; duplicate tail pages 1-2 and blank page 8 excluded."
+    }
+  ],
+  "duplicateOrNoNewConversationExamples": [
+    {
+      "itemId": "101345",
+      "status": "Duplicate of the already-counted October 10, 1994 Iraq-crisis telcon."
+    },
+    {
+      "itemId": "101387",
+      "status": "Duplicate source copy for the already-counted June 13, 1994 telcon."
+    },
+    {
+      "itemId": "101432",
+      "status": "Duplicate/cross-reference for the already-counted June 17, 1995 Halifax memcon."
+    },
+    {
+      "itemId": "101536",
+      "status": "Duplicate/source copy for the already-counted March 24, 1999 Kosovo telcon."
+    },
+    {
+      "itemId": "101582/101610",
+      "status": "Duplicate/source copies for the Istanbul memcon; the counted chronology record is corrected to November 19, 1999."
+    }
+  ]
+}

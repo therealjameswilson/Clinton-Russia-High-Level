@@ -15,7 +15,15 @@ const SOURCE_FILES = {
   "2014-0901-M": process.env.VANCOUVER_PDF || "/private/tmp/6-YeltsinVancouver.pdf",
   "2014-0948-M": process.env.HYDE_PARK_PDF || "/private/tmp/7-YeltsinHydePark.pdf",
   "2016-0620-M": process.env.OCT1998_PDF || "/private/tmp/2016-0620-M-item100503.pdf",
-  "clinton-item-119190": process.env.DEC1998_PDF || "/private/tmp/item119190-dec1998.pdf"
+  "clinton-item-119190": process.env.DEC1998_PDF || "/private/tmp/item119190-dec1998.pdf",
+  "clinton-item-101363":
+    process.env.CLINTON_ITEM_101363_PDF || "/private/tmp/clinton-yeltsin-solr/101363.pdf",
+  "clinton-item-101364":
+    process.env.CLINTON_ITEM_101364_PDF || "/private/tmp/clinton-yeltsin-solr/101364.pdf",
+  "clinton-item-101370":
+    process.env.CLINTON_ITEM_101370_PDF || "/private/tmp/clinton-yeltsin-solr/101370.pdf",
+  "clinton-item-101758":
+    process.env.CLINTON_ITEM_101758_PDF || "/private/tmp/clinton-yeltsin-solr/101758.pdf"
 };
 
 const SPECIAL_SOURCE_FILES = {
@@ -220,8 +228,11 @@ function pageTextLooksLikeConversation(pageTexts, pages) {
     (/MEM[O0]R.{0,6}NDUM OF (TELEPHONE )?CONVERSATION/i.test(text) ||
       /MEM[O0]R.{0,6}NDUM OF GONVERSATION/i.test(text) ||
       /Cl.?inton-Yeltsin Meeting/i.test(text) ||
+      /Clinton[\/\s-]+Yeltsin.*One[-\s]On[-\s]One/i.test(text) ||
       /(?:Clinton|POTUS)[-\s]Yeltsin.*One[-\s]On[-\s]One/i.test(text) ||
-      /One[-\s]On[-\s]One Meeting\s+Between Presidents Clinton and Yeltsin/i.test(text)) &&
+      /One[-\s]On[-\s]One Meeting\s+Between Presidents Clinton and Yeltsin/i.test(text) ||
+      /PRESIDENT'S DINNER WITH PRESIDENT YELTSIN/i.test(text) ||
+      /THIS MEMC[O0]M RECORDS THE BUSINESS DISCUSSION/i.test(text)) &&
     /Yeltsin/i.test(text) &&
     /(President|Clinton|The President|WJC|BNY)/i.test(text)
   );
