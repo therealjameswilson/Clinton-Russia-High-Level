@@ -17,10 +17,10 @@
         <span>Russia High-Level Files</span>
       </a>
       <nav aria-label="Primary navigation">
+        <a href="#audit">Audit</a>
+        <a href="#frus-method">Method</a>
         <a href="#workbench">Workbench</a>
         <a href="#chapters">Chapters</a>
-        <a href="#collection">Collection</a>
-        <a href="#browse">Browse</a>
         <a href="#records">Records</a>
         <a href="#sources">Sources</a>
         <a href="#ingest">Ingest</a>
@@ -90,6 +90,43 @@
         <div>
           <span id="strobe-sources">0</span>
           <p>Strobe source refs</p>
+        </div>
+      </section>
+
+      <section class="section audit-section" id="audit" aria-labelledby="audit-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Evidence Control</p>
+            <h2 id="audit-title">Compiler Audit Board</h2>
+          </div>
+          <p class="section-note">
+            A quick-read control panel for the candidate conversation set, source-copy
+            duplication, page counts, and follow-up risk.
+          </p>
+        </div>
+        <div id="audit-root" class="audit-grid" aria-live="polite"></div>
+        <div class="evidence-layout">
+          <div id="coverage-root" class="coverage-panel" aria-live="polite"></div>
+          <div id="source-ledger-root" class="source-ledger-panel" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section frus-method-section" id="frus-method" aria-labelledby="frus-method-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Inventory Controls</p>
+            <h2 id="frus-method-title">FRUS Compiler Method</h2>
+          </div>
+          <p class="section-note">
+            This inventory follows the FRUS source-note discipline: citation stems are
+            separated from extraction notes, and unresolved PDF-level facts are kept in a
+            visible worklist.
+          </p>
+        </div>
+        <div id="frus-method-root" class="frus-method-grid" aria-live="polite"></div>
+        <div class="readiness-layout">
+          <div id="readiness-root" class="readiness-panel" aria-live="polite"></div>
+          <div id="source-note-root" class="source-note-panel" aria-live="polite"></div>
         </div>
       </section>
 
@@ -362,6 +399,7 @@
               </select>
             </label>
             <button id="clear-filters" type="button">Clear</button>
+            <button id="export-records" type="button">Export CSV</button>
           </div>
           <div class="filter-buttons" aria-label="Filter by record type">
             <button type="button" data-record-filter="all" aria-pressed="true">All</button>
@@ -372,6 +410,7 @@
             <button type="button" data-record-filter="Scout Lead" aria-pressed="false">Scout Leads</button>
           </div>
         </div>
+        <p id="records-summary" class="records-summary" aria-live="polite"></p>
         <div id="records-root" class="records-root" aria-live="polite">
           <p class="loading">Loading compiler records...</p>
         </div>

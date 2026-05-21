@@ -18,12 +18,20 @@ const candidatePageCount = document.querySelector("#candidate-page-count");
 const pendingSummary = document.querySelector("#pending-summary");
 const pendingList = document.querySelector("#pending-list");
 const sourceCopySummary = document.querySelector("#source-copy-summary");
+const auditRoot = document.querySelector("#audit-root");
+const coverageRoot = document.querySelector("#coverage-root");
+const sourceLedgerRoot = document.querySelector("#source-ledger-root");
+const frusMethodRoot = document.querySelector("#frus-method-root");
+const readinessRoot = document.querySelector("#readiness-root");
+const sourceNoteRoot = document.querySelector("#source-note-root");
 const searchInput = document.querySelector("#record-search");
+const recordsSummary = document.querySelector("#records-summary");
 const filterButtons = [...document.querySelectorAll("[data-record-filter]")];
 const statusFilter = document.querySelector("#status-filter");
 const sourceFilter = document.querySelector("#source-filter");
 const yearFilter = document.querySelector("#year-filter");
 const clearFilters = document.querySelector("#clear-filters");
+const exportRecords = document.querySelector("#export-records");
 
 let allRecords = [];
 let activeTypeFilter = "all";
@@ -77,6 +85,63 @@ function sourceCopyCount(record, field) {
 
 function setText(node, value) {
   if (node) node.textContent = String(value);
+}
+
+function formatNumber(value) {
+  return Number(value || 0).toLocaleString("en-US");
+}
+
+function sortByValueDesc(items) {
+  return items.sort((a, b) => b.value - a.value || a.label.localeCompare(b.label));
+}
+
+function groupCounts(records, labelFor) {
+  const groups = new Map();
+  for (const record of records) {
+    const label = labelFor(record) || "Unsorted";
+    const item = groups.get(label) || { label, count: 0, pages: 0 };
+    item.count += 1;
+    item.pages += Number.isInteger(record.pageCount) ? record.pageCount : 0;
+    groups.set(label, item);
+  }
+  return [...groups.values()];
+}
+
+function hasAnyPdf(record) {
+  return Boolean(record.pdfUrl || record.catalogUrl);
+}
+
+function isDerivativePdf(record) {
+  return /^public\/documents\//.test(record.pdfUrl || "");
+}
+
+function hasProvenanceSheet(record) {
+  const status = record.extractionStatus || "";
+  return (
+    (isDerivativePdf(record) && Number.isInteger(record.localPdfPageCount)) ||
+    /appended .*provenance sheet|appended original marker page|appended source page 1|final provenance sheet/i.test(status)
+  );
+}
+
+function readinessClass(status) {
+  return status.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+}
+
+function pageLabel(record) {
+  return Number.isInteger(record.pageCount) ? `${record.pageCount} pages` : record.countStatus || "Extent pending";
+}
+
+function citationOpenItems(record) {
+  const items = [
+    "classification and handling controls",
+    record.type === "Telcon" ? "call time, participants, and notetakers" : "meeting place/time, participants, and notetakers",
+    "drafting, clearance, approval, and distribution lines",
+    "annotations, attachments, excisions, and withheld-text accounting"
+  ];
+
+  if (!Number.isInteger(record.pageCount)) items.unshift("actual conversation-page extent");
+  if (!hasProvenanceSheet(record) && isConversationCandidate(record)) items.push("marker/provenance sheet");
+  return items.join("; ");
 }
 
 function setChapterCounts(records) {
@@ -159,6 +224,347 @@ function renderWorkbench(records) {
   if (sourceCopySummary) {
     sourceCopySummary.textContent = `${strobeCount} Strobe FOIA references and ${driveCount} Drive references are attached to canonical conversation rows for deduped review.`;
   }
+}
+
+function auditCard(title, value, detail, meta) {
+  const card = document.createElement("article");
+  card.className = "audit-card";
+
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  const stat = document.createElement("p");
+  stat.className = "audit-stat";
+  stat.textContent = value;
+  const body = document.createElement("p");
+  body.textContent = detail;
+
+  card.append(heading, stat, body);
+
+  if (meta) {
+    const note = document.createElement("p");
+    note.className = "audit-meta";
+    note.textContent = meta;
+    card.append(note);
+  }
+
+  return card;
+}
+
+function renderCoverage(records) {
+  if (!coverageRoot) return;
+
+  const candidates = candidateRecords(records);
+  const byYear = groupCounts(candidates, (record) => record.date.slice(0, 4)).sort((a, b) =>
+    a.label.localeCompare(b.label)
+  );
+  const byType = groupCounts(candidates, (record) => record.type).sort((a, b) => a.label.localeCompare(b.label));
+  const maxPages = Math.max(...byYear.map((item) => item.pages), ...byType.map((item) => item.pages), 1);
+
+  const heading = document.createElement("h3");
+  heading.textContent = "Coverage by Year and Form";
+  const list = document.createElement("div");
+  list.className = "coverage-list";
+
+  for (const item of [...byYear, ...byType]) {
+    const row = document.createElement("div");
+    row.className = "coverage-row";
+    const label = document.createElement("span");
+    label.textContent = item.label;
+    const meter = document.createElement("span");
+    meter.className = "coverage-meter";
+    meter.style.setProperty("--meter-width", `${Math.max(8, (item.pages / maxPages) * 100)}%`);
+    const value = document.createElement("span");
+    value.textContent = `${formatNumber(item.count)} records / ${formatNumber(item.pages)} pages`;
+    row.append(label, meter, value);
+    list.append(row);
+  }
+
+  coverageRoot.replaceChildren(heading, list);
+}
+
+function renderSourceLedger(records) {
+  if (!sourceLedgerRoot) return;
+
+  const candidates = candidateRecords(records);
+  const sources = groupCounts(candidates, recordSourceLabel)
+    .sort((a, b) => b.count - a.count || b.pages - a.pages || a.label.localeCompare(b.label))
+    .slice(0, 10);
+
+  const heading = document.createElement("h3");
+  heading.textContent = "Source Ledger";
+  const list = document.createElement("div");
+  list.className = "source-ledger-list";
+
+  for (const item of sources) {
+    const row = document.createElement("div");
+    row.className = "source-ledger-row";
+    const label = document.createElement("span");
+    label.textContent = item.label;
+    const value = document.createElement("span");
+    value.textContent = `${formatNumber(item.count)} / ${formatNumber(item.pages)} pp.`;
+    row.append(label, value);
+    list.append(row);
+  }
+
+  sourceLedgerRoot.replaceChildren(heading, list);
+}
+
+function renderCompilerAudit(records) {
+  if (!auditRoot) return;
+
+  const candidates = candidateRecords(records);
+  const counted = candidates.filter((record) => Number.isInteger(record.pageCount));
+  const pending = candidates.filter((record) => !Number.isInteger(record.pageCount));
+  const memcons = candidates.filter((record) => record.type === "Memcon");
+  const telcons = candidates.filter((record) => record.type === "Telcon");
+  const derivativePdfs = candidates.filter(isDerivativePdf);
+  const provenanceSheets = candidates.filter(hasProvenanceSheet);
+  const strobeRefs = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "strobeFiles"), 0);
+  const driveRefs = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "googleDriveFiles"), 0);
+  const scoutLeads = records.filter((record) => record.chapter.name === "NARA Scout Leads");
+  const denseYear = sortByValueDesc(
+    groupCounts(candidates, (record) => record.date.slice(0, 4)).map((item) => ({
+      label: item.label,
+      value: item.count,
+      pages: item.pages
+    }))
+  )[0];
+
+  auditRoot.replaceChildren(
+    auditCard(
+      "Candidate Evidence",
+      `${formatNumber(candidates.length)} records`,
+      `${formatNumber(pageSum(candidates))} actual conversation pages across ${formatNumber(memcons.length)} memcons and ${formatNumber(telcons.length)} telcons.`,
+      `${formatNumber(counted.length)} counted; ${formatNumber(pending.length)} still pending.`
+    ),
+    auditCard(
+      "PDF Provenance",
+      `${formatNumber(derivativePdfs.length)} derivatives`,
+      `${formatNumber(provenanceSheets.length)} candidate records have a marker/provenance sheet or equivalent note.`,
+      `${formatNumber(candidates.filter(hasAnyPdf).length)} candidates have a source or PDF locator.`
+    ),
+    auditCard(
+      "Source Copies",
+      `${formatNumber(strobeRefs + driveRefs)} refs`,
+      `${formatNumber(strobeRefs)} Strobe FOIA references and ${formatNumber(driveRefs)} Google Drive references are attached for deduped source-copy review.`,
+      "Canonical rows keep duplicate source copies out of the page tally."
+    ),
+    auditCard(
+      "Search Coverage",
+      `${formatNumber(scoutLeads.length)} Scout leads`,
+      denseYear
+        ? `${denseYear.label} is the densest year with ${formatNumber(denseYear.value)} candidate records and ${formatNumber(denseYear.pages)} pages.`
+        : "No dated candidate records available.",
+      "NARA Scout search trails document the negative pass as well as confirmed Vancouver and Hyde Park records."
+    )
+  );
+
+  renderCoverage(records);
+  renderSourceLedger(records);
+}
+
+function methodCard(title, status, detail, measure) {
+  const card = document.createElement("article");
+  card.className = "frus-method-card";
+
+  const top = document.createElement("div");
+  top.className = "method-card-top";
+  const heading = document.createElement("h3");
+  heading.textContent = title;
+  const badge = document.createElement("span");
+  badge.className = `readiness-status ${readinessClass(status)}`;
+  badge.textContent = status;
+  top.append(heading, badge);
+
+  const body = document.createElement("p");
+  body.textContent = detail;
+  const foot = document.createElement("p");
+  foot.className = "audit-meta";
+  foot.textContent = measure;
+
+  card.append(top, body, foot);
+  return card;
+}
+
+function readinessRow(label, status, count, detail) {
+  const row = document.createElement("div");
+  row.className = "readiness-row";
+
+  const labelWrap = document.createElement("div");
+  const name = document.createElement("strong");
+  name.textContent = label;
+  const note = document.createElement("p");
+  note.textContent = detail;
+  labelWrap.append(name, note);
+
+  const countItem = document.createElement("span");
+  countItem.className = "readiness-count";
+  countItem.textContent = count;
+
+  const statusItem = document.createElement("span");
+  statusItem.className = `readiness-status ${readinessClass(status)}`;
+  statusItem.textContent = status;
+
+  row.append(labelWrap, countItem, statusItem);
+  return row;
+}
+
+function renderReadinessPanel(records) {
+  if (!readinessRoot) return;
+
+  const candidates = candidateRecords(records);
+  const withSourceNotes = records.filter((record) => record.frusSourceNote);
+  const withPages = candidates.filter((record) => Number.isInteger(record.pageCount));
+  const withSourceRanges = candidates.filter((record) => record.sourcePdfPages);
+  const withPdf = candidates.filter(hasAnyPdf);
+  const withExtractionNotes = candidates.filter((record) => record.extractionStatus);
+  const withProvenance = candidates.filter(hasProvenanceSheet);
+
+  const heading = document.createElement("h3");
+  heading.textContent = "Inventory Readiness";
+  const list = document.createElement("div");
+  list.className = "readiness-list";
+  list.append(
+    readinessRow(
+      "FRUS-style citation stems",
+      withSourceNotes.length === records.length ? "Ready" : "Gap",
+      `${withSourceNotes.length}/${records.length}`,
+      "Visible source notes start with repository, collection/control, case, document ID, or NAID where known."
+    ),
+    readinessRow(
+      "Candidate page counts",
+      withPages.length === candidates.length ? "Ready" : "Partial",
+      `${withPages.length}/${candidates.length}`,
+      "Only actual memcon/telcon pages count toward the consolidated page total."
+    ),
+    readinessRow(
+      "Source page ranges",
+      withSourceRanges.length === candidates.length ? "Ready" : "Partial",
+      `${withSourceRanges.length}/${candidates.length}`,
+      "Source packet pages are preserved separately from displayed document-page counts."
+    ),
+    readinessRow(
+      "PDF and source links",
+      withPdf.length === candidates.length ? "Ready" : "Partial",
+      `${withPdf.length}/${candidates.length}`,
+      "Each candidate should open to either a PDF, a catalog item, or a source packet."
+    ),
+    readinessRow(
+      "Extraction accounting",
+      withExtractionNotes.length === candidates.length ? "Ready" : "Partial",
+      `${withExtractionNotes.length}/${candidates.length}`,
+      "Extraction notes explain excluded administrative, duplicate, withheld, and non-conversation pages."
+    ),
+    readinessRow(
+      "Marker/provenance control",
+      withProvenance.length === candidates.length ? "Ready" : "Partial",
+      `${withProvenance.length}/${candidates.length}`,
+      "Derivative PDFs should append the original marker page where one exists."
+    )
+  );
+
+  readinessRoot.replaceChildren(heading, list);
+}
+
+function renderSourceNotePanel(records) {
+  if (!sourceNoteRoot) return;
+
+  const candidates = candidateRecords(records);
+  const pending = candidates.filter((record) => !Number.isInteger(record.pageCount));
+  const derivativePdfs = candidates.filter(isDerivativePdf);
+  const notes = candidates.filter((record) => record.frusSourceNote);
+
+  const heading = document.createElement("h3");
+  heading.textContent = "Source Note Worklist";
+  const list = document.createElement("div");
+  list.className = "source-note-list";
+  list.append(
+    readinessRow(
+      "Source locator stem",
+      "Ready",
+      `${notes.length}/${candidates.length}`,
+      "Repository and source-control fields are now separated from extraction audit prose."
+    ),
+    readinessRow(
+      "Pending extents",
+      pending.length ? "Next" : "Ready",
+      `${pending.length}`,
+      "Resolve only if released actual conversation pages can be located; do not substitute briefing or schedule material."
+    ),
+    readinessRow(
+      "Classification / handling",
+      "Next",
+      "PDF/OCR",
+      "Extract original markings from the face page or header before final FRUS treatment."
+    ),
+    readinessRow(
+      "Drafting / clearance / distribution",
+      "Next",
+      "PDF/OCR",
+      "Capture drafter, notetaker, clearance, approval, sent/received, and distribution lines where present."
+    ),
+    readinessRow(
+      "Annotations / attachments / excisions",
+      "Next",
+      "Manual",
+      "Record marginalia, attached-but-not-printed tabs, deletion counts, and wholly withheld cross-references."
+    ),
+    readinessRow(
+      "Derivative PDF audit",
+      derivativePdfs.length ? "Partial" : "Next",
+      `${derivativePdfs.length}`,
+      "Open each local derivative to confirm it contains only actual conversation pages plus the provenance sheet."
+    )
+  );
+
+  sourceNoteRoot.replaceChildren(heading, list);
+}
+
+function renderFrusMethod(records) {
+  if (!frusMethodRoot) return;
+
+  const candidates = candidateRecords(records);
+  const counted = candidates.filter((record) => Number.isInteger(record.pageCount));
+  const years = groupCounts(candidates, (record) => record.date.slice(0, 4))
+    .sort((a, b) => a.label.localeCompare(b.label))
+    .map((item) => `${item.label}: ${item.count}`)
+    .join(" / ");
+  const sourceNotes = records.filter((record) => record.frusSourceNote);
+  const extractionNotes = candidates.filter((record) => record.extractionStatus);
+  const sourceCopies = candidates.reduce(
+    (sum, record) => sum + sourceCopyCount(record, "strobeFiles") + sourceCopyCount(record, "googleDriveFiles"),
+    0
+  );
+
+  frusMethodRoot.replaceChildren(
+    methodCard(
+      "Mission Boundary",
+      "Set",
+      "This page is an evidence inventory for compiler review. It is not a proposed document selection list or volume outline.",
+      "Records stay in research lanes but candidate conversations remain chronologically sortable."
+    ),
+    methodCard(
+      "Chronological Control",
+      "Ready",
+      "Candidate memcons and telcons are ordered by conversation date, with source packet and context records kept nearby for provenance.",
+      years
+    ),
+    methodCard(
+      "Citation Discipline",
+      sourceNotes.length === records.length ? "Ready" : "Partial",
+      "Displayed citations use a FRUS-style source-note stem while extraction, duplicate, and page-count notes stay separate.",
+      `${sourceNotes.length}/${records.length} records have FRUS-style source-note text.`
+    ),
+    methodCard(
+      "Declassification Accounting",
+      counted.length === candidates.length ? "Ready" : "Partial",
+      "Actual conversation pages, source packet pages, duplicate source copies, and pending extents are tracked as separate fields.",
+      `${pageSum(candidates)} pages; ${extractionNotes.length}/${candidates.length} extraction notes; ${sourceCopies} duplicate source refs.`
+    )
+  );
+
+  renderReadinessPanel(records);
+  renderSourceNotePanel(records);
 }
 
 function createMeta(record) {
@@ -260,6 +666,70 @@ function createCompilerChecklist(record) {
   return checklist;
 }
 
+function citationLedgerRow(label, status, value) {
+  const item = document.createElement("div");
+  item.className = "citation-ledger-row";
+  const term = document.createElement("dt");
+  term.textContent = label;
+  const definition = document.createElement("dd");
+  const badge = document.createElement("span");
+  badge.className = `citation-status ${readinessClass(status)}`;
+  badge.textContent = status;
+  definition.append(badge, document.createTextNode(value || "Needs review"));
+  item.append(term, definition);
+  return item;
+}
+
+function citationRows(record) {
+  const sourceId = [recordSourceLabel(record), record.naid ? `NAID/control ${record.naid}` : ""]
+    .filter(Boolean)
+    .join("; ");
+  const pdfLabel = [
+    pageLabel(record),
+    record.sourcePdfPages ? `source pages ${record.sourcePdfPages}` : "source page map pending",
+    record.localPdfPageCount ? `${record.localPdfPageCount} local PDF pages` : "",
+    record.markerPage ? `marker page ${record.markerPage}` : ""
+  ]
+    .filter(Boolean)
+    .join("; ");
+  const metadata =
+    record.type === "Telcon" || record.type === "Memcon"
+      ? `${record.type}; ${record.dateLine || formatDate(record.date)}; participants: ${(record.participants || []).join(", ") || "verify"}.`
+      : `${record.type}; ${record.dateLine || formatDate(record.date)}.`;
+
+  return [
+    ["Repository / source", "Ready", record.frusSourceNote || record.sourceNote],
+    ["Control locator", "Ready", sourceId],
+    ["PDF / page range", Number.isInteger(record.pageCount) ? "Ready" : "Partial", pdfLabel],
+    ["Classification / handling", "PDF", "Extract from original markings in the source PDF before final source-note treatment."],
+    ["Meeting / call metadata", record.type === "Telcon" || record.type === "Memcon" ? "Check" : "Ready", metadata],
+    ["Drafting / distribution", "PDF", "Verify drafter, notetaker, clearance, approval, distribution, and sent/received lines."],
+    ["Declassification accounting", record.extractionStatus ? "Partial" : "Next", record.extractionStatus || "Add excisions, annotations, attachments, deletion counts, and withheld cross-references."],
+    ["Open items", "Next", citationOpenItems(record)]
+  ];
+}
+
+function createSourceNoteDetails(record) {
+  const details = document.createElement("details");
+  details.className = "source-note-details";
+
+  const summary = document.createElement("summary");
+  summary.textContent = "Compiler citation ledger";
+
+  const draft = document.createElement("p");
+  draft.className = "source-note-draft";
+  draft.textContent = record.frusSourceNote || record.sourceNote || "Source: Provenance pending.";
+
+  const ledger = document.createElement("dl");
+  ledger.className = "citation-ledger";
+  for (const [label, status, value] of citationRows(record)) {
+    ledger.append(citationLedgerRow(label, status, value));
+  }
+
+  details.append(summary, draft, ledger);
+  return details;
+}
+
 function createRecordRow(record) {
   const row = document.createElement("article");
   row.className = `record-row ${Number.isInteger(record.pageCount) ? "is-counted" : "is-pending"}`;
@@ -286,6 +756,8 @@ function createRecordRow(record) {
     createParagraph("record-source-note", record.frusSourceNote || record.sourceNote || "Source: Provenance pending."),
     createCompilerChecklist(record)
   );
+
+  body.append(createSourceNoteDetails(record));
 
   if (record.extractionStatus) {
     body.append(createParagraph("record-extraction-note", `Extraction: ${record.extractionStatus}`));
@@ -343,6 +815,12 @@ function renderRecords(records) {
   const sorted = [...records].sort(byChapterThenDate);
   recordsRoot.replaceChildren();
 
+  if (recordsSummary) {
+    const candidates = records.filter(isConversationCandidate);
+    const pending = candidates.filter((record) => !Number.isInteger(record.pageCount));
+    recordsSummary.textContent = `Showing ${formatNumber(records.length)} of ${formatNumber(allRecords.length)} records; ${formatNumber(candidates.length)} candidate memcons/telcons; ${formatNumber(pageSum(candidates))} actual conversation pages; ${formatNumber(pending.length)} pending extents.`;
+  }
+
   if (!sorted.length) {
     recordsRoot.innerHTML = '<p class="loading">No records match this filter.</p>';
     return;
@@ -393,12 +871,12 @@ function statusMatches(record, status) {
   return true;
 }
 
-function filterRecords() {
+function currentFilteredRecords() {
   const query = searchInput?.value.trim().toLowerCase() || "";
   const status = statusFilter?.value || "all";
   const source = sourceFilter?.value || "all";
   const year = yearFilter?.value || "all";
-  const records = allRecords.filter((record) => {
+  return allRecords.filter((record) => {
     const matchesFilter = activeTypeFilter === "all" || record.type === activeTypeFilter;
     const matchesStatus = statusMatches(record, status);
     const matchesSource = source === "all" || recordSourceLabel(record) === source;
@@ -406,7 +884,10 @@ function filterRecords() {
     const haystack = JSON.stringify(record).toLowerCase();
     return matchesFilter && matchesStatus && matchesSource && matchesYear && (!query || haystack.includes(query));
   });
-  renderRecords(records);
+}
+
+function filterRecords() {
+  renderRecords(currentFilteredRecords());
 }
 
 function setTypeFilter(type) {
@@ -438,11 +919,69 @@ function applyQuickFilter(kind) {
   filterRecords();
 }
 
+function csvCell(value) {
+  return `"${String(value ?? "").replace(/"/g, '""')}"`;
+}
+
+function recordUrlList(record, field) {
+  return (record[field] || []).map((file) => file.url || file.id || file.title).filter(Boolean).join(" | ");
+}
+
+function exportFilteredRecords() {
+  const fields = [
+    "date",
+    "type",
+    "title",
+    "source",
+    "releaseStatus",
+    "pageCount",
+    "sourcePdfPages",
+    "markerPage",
+    "frusSourceNote",
+    "extractionStatus",
+    "citationOpenItems",
+    "catalogUrl",
+    "pdfUrl",
+    "googleDriveFiles",
+    "strobeFiles"
+  ];
+  const rows = currentFilteredRecords()
+    .sort(byChapterThenDate)
+    .map((record) => [
+      record.date,
+      record.type,
+      record.documentTitle || record.title,
+      recordSourceLabel(record),
+      record.releaseStatus,
+      Number.isInteger(record.pageCount) ? record.pageCount : "",
+      record.sourcePdfPages || "",
+      record.markerPage || "",
+      record.frusSourceNote || record.sourceNote || "",
+      record.extractionStatus || "",
+      citationOpenItems(record),
+      record.catalogUrl || "",
+      record.pdfUrl || "",
+      recordUrlList(record, "googleDriveFiles"),
+      recordUrlList(record, "strobeFiles")
+    ]);
+  const csv = [fields, ...rows].map((row) => row.map(csvCell).join(",")).join("\n");
+  const blob = new Blob([`${csv}\n`], { type: "text/csv;charset=utf-8" });
+  const link = document.createElement("a");
+  const url = URL.createObjectURL(blob);
+  link.href = url;
+  link.download = "clinton-russia-frus-filtered-records.csv";
+  document.body.append(link);
+  link.click();
+  link.remove();
+  window.setTimeout(() => URL.revokeObjectURL(url), 0);
+}
+
 function enableFilters() {
   searchInput?.addEventListener("input", filterRecords);
   statusFilter?.addEventListener("change", filterRecords);
   sourceFilter?.addEventListener("change", filterRecords);
   yearFilter?.addEventListener("change", filterRecords);
+  exportRecords?.addEventListener("click", exportFilteredRecords);
 
   clearFilters?.addEventListener("click", () => {
     if (searchInput) searchInput.value = "";
@@ -496,6 +1035,8 @@ async function init() {
     allRecords = window.MEMCONS || window.MEMCON_RECORDS || (await loadRecords());
     setChapterCounts(allRecords);
     populateCompilerControls(allRecords);
+    renderCompilerAudit(allRecords);
+    renderFrusMethod(allRecords);
     renderWorkbench(allRecords);
     renderRecords(allRecords);
     enableFilters();
