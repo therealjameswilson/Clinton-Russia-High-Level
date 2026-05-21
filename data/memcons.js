@@ -21,7 +21,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-01-23-telcon-01.pdf",
     "pageCount": 3,
     "dateLine": "January 23, 1993, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -58,6 +58,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "9-11",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 4,
+    "markerPage": 1,
     "googleDriveFiles": [
       {
         "id": "1NxhemfjqE_hcdqHtQKlLDBumnl1Mbz7K",
@@ -68,7 +70,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 9-11 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 9-11 from 2015-0782-M-1 and appended original marker page 1 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -93,7 +95,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-02-10-telcon-02.pdf",
     "pageCount": 3,
     "dateLine": "February 10, 1993, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -130,6 +132,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "19-21",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 4,
+    "markerPage": 14,
     "googleDriveFiles": [
       {
         "id": "15AYs4fgvbYNfhuAAJ96QewfB7HktZ2gb",
@@ -140,7 +144,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 19-21 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 19-21 from 2015-0782-M-1 and appended original marker page 14 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -245,7 +249,7 @@ window.MEMCONS = [
       "url": "https://catalog.archives.gov/id/163545404",
       "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf"
     },
-    "sourceNote": "Source: National Archives Catalog item 163545404, Clinton Library case 2014-0901-M, NSC Records Management PRS Files, Document ID 9302226. Derivative PDF extracts source pages 9-17 and appends source marker page 1 as provenance sheet.",
+    "sourceNote": "Source: National Archives Catalog item 163545404, Clinton Library case 2014-0901-M, NSC Records Management PRS Files, Document ID 9302226. Derivative PDF extracts source pages 9-17 and appends source marker page 2 as provenance sheet.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -287,8 +291,8 @@ window.MEMCONS = [
     "countStatus": "Counted actual conversation pages only",
     "localPdfPageCount": 10,
     "sourcePdfPages": "9-17",
-    "markerPage": 1,
-    "extractionStatus": "Extracted actual memcon pages 9-17 from the source PDF; appended original marker page 1 as the final provenance sheet.",
+    "markerPage": 2,
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 9-17 from 2014-0901-M and appended original marker page 2 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case 2014-0901-M, Memcons between President William Jefferson Clinton and President Boris Yeltsin, Document ID 9302226, NAID 163545404."
   },
   {
@@ -329,7 +333,7 @@ window.MEMCONS = [
       "url": "https://catalog.archives.gov/id/163545404",
       "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf"
     },
-    "sourceNote": "Source: National Archives Catalog item 163545404, Clinton Library case 2014-0901-M, NSC Records Management PRS Files, Document ID 9302226. Derivative PDF extracts source pages 19-30 and appends source marker page 1 as provenance sheet.",
+    "sourceNote": "Source: National Archives Catalog item 163545404, Clinton Library case 2014-0901-M, NSC Records Management PRS Files, Document ID 9302226. Derivative PDF extracts source pages 19-30 and appends source marker page 2 as provenance sheet.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -375,8 +379,8 @@ window.MEMCONS = [
     "countStatus": "Counted actual conversation pages only",
     "localPdfPageCount": 13,
     "sourcePdfPages": "19-30",
-    "markerPage": 1,
-    "extractionStatus": "Extracted actual memcon pages 19-30 from the source PDF; appended original marker page 1 as the final provenance sheet.",
+    "markerPage": 2,
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 19-30 from 2014-0901-M and appended original marker page 2 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case 2014-0901-M, Memcons between President William Jefferson Clinton and President Boris Yeltsin, Document ID 9302226, NAID 163545404."
   },
   {
@@ -401,7 +405,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-04-26-telcon-05.pdf",
     "pageCount": 2,
     "dateLine": "April 26, 1993, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -438,6 +442,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "51-52",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 3,
+    "markerPage": 45,
     "googleDriveFiles": [
       {
         "id": "1EgHtw2tYu5lakv8QZX3dd519uhZZ_7kF",
@@ -448,7 +454,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 51-52 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 51-52 from 2015-0782-M-1 and appended original marker page 45 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -473,7 +479,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-05-02-telcon-06.pdf",
     "pageCount": 2,
     "dateLine": "May 2, 1993, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -510,6 +516,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "60-61",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 3,
+    "markerPage": 55,
     "googleDriveFiles": [
       {
         "id": "1I6JITyg6F8GGaL-udA_mJywVtIwZ4fIU",
@@ -520,7 +528,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 60-61 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 60-61 from 2015-0782-M-1 and appended original marker page 55 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -545,7 +553,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-05-10-telcon-07.pdf",
     "pageCount": 2,
     "dateLine": "May 10, 1993, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -582,9 +590,11 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "68-69",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 3,
+    "markerPage": 63,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 68-69 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 68-69 from 2015-0782-M-1 and appended original marker page 63 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -609,7 +619,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-06-28-telcon-08.pdf",
     "pageCount": 4,
     "dateLine": "June 28, 1993, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -646,6 +656,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "76-79",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 5,
+    "markerPage": 71,
     "googleDriveFiles": [
       {
         "id": "1fonmBkzM0qhOUmDP74PVYmQYEBrQGpq2",
@@ -656,7 +668,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 76-79 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 76-79 from 2015-0782-M-1 and appended original marker page 71 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -681,7 +693,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-07-10-memcon-09.pdf",
     "pageCount": 9,
     "dateLine": "July 10, 1993, Tokyo, Japan",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
@@ -720,6 +732,8 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "81-89",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 10,
+    "markerPage": 80,
     "googleDriveFiles": [
       {
         "id": "1oLH4zCmIub-kgvXXs0wZDGELWehL9Pqh",
@@ -739,7 +753,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 81-89 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 81-89 from 2015-0782-M-1 and appended original marker page 80 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -764,7 +778,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-09-07-telcon-10.pdf",
     "pageCount": 4,
     "dateLine": "September 7, 1993, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -801,6 +815,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "95-98",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 5,
+    "markerPage": 91,
     "googleDriveFiles": [
       {
         "id": "15VrM1_b_ytYNKHKn78ZKANgfJBVY72fn",
@@ -811,7 +827,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 95-98 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 95-98 from 2015-0782-M-1 and appended original marker page 91 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -836,7 +852,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-09-21-telcon-11.pdf",
     "pageCount": 3,
     "dateLine": "September 21, 1993, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -873,6 +889,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "107-109",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 4,
+    "markerPage": 100,
     "googleDriveFiles": [
       {
         "id": "17KnXzjPdKqJGPUWyC4ge5PVBSyOJ03QO",
@@ -883,7 +901,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 107-109 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 107-109 from 2015-0782-M-1 and appended original marker page 100 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -908,7 +926,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-10-05-telcon-12.pdf",
     "pageCount": 3,
     "dateLine": "October 5, 1993, Air Force One",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -945,6 +963,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "119-121",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 4,
+    "markerPage": 112,
     "googleDriveFiles": [
       {
         "id": "1jf6_8GhGV5MGQN3G4OxgrCthB5FHhfaT",
@@ -955,7 +975,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 119-121 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 119-121 from 2015-0782-M-1 and appended original marker page 112 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -980,7 +1000,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1993-12-22-telcon-13.pdf",
     "pageCount": 4,
     "dateLine": "December 22, 1993, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -1017,6 +1037,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "142-145",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 5,
+    "markerPage": 136,
     "googleDriveFiles": [
       {
         "id": "1u1uO_zeA0GNNX8nPkvsTHJ3rALOOn6pZ",
@@ -1027,7 +1049,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 142-145 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 142-145 from 2015-0782-M-1 and appended original marker page 136 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -1123,7 +1145,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "C06694499",
     "catalogUrl": "https://drive.google.com/file/d/1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r/view",
-    "pdfUrl": "https://drive.google.com/file/d/1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r/view",
+    "pdfUrl": "public/documents/1994-01-14-memcon-trilateral-yeltsin-kravchuk.pdf",
     "pageCount": 3,
     "dateLine": "January 14, 1994, 8:35-8:55 a.m., St. Catherine's Hall, The Kremlin, Moscow",
     "subjectLine": "State FOIA / Drive candidate trilateral Clinton-Yeltsin-Kravchuk security memcon.",
@@ -1165,6 +1187,8 @@ window.MEMCONS = [
     ],
     "sortOrder": 1,
     "sourcePdfPages": "State FOIA document C06694499, conversation pages 1-3",
+    "localPdfPageCount": 3,
+    "markerPage": null,
     "googleDriveFiles": [
       {
         "id": "1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r",
@@ -1175,7 +1199,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694499, conversation pages 1-3 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages State FOIA document C06694499, conversation pages 1-3 from F-2017-13804; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694499."
   },
   {
@@ -1204,7 +1228,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "C06694502",
     "catalogUrl": "https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view",
-    "pdfUrl": "https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view",
+    "pdfUrl": "public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf",
     "pageCount": 8,
     "dateLine": "January 14, 1994, 9:35-11:15 a.m., St. Catherine's Hall, The Kremlin, Moscow",
     "subjectLine": "State FOIA / Drive candidate memcon for the second expanded Clinton-Yeltsin bilateral session in Moscow.",
@@ -1244,6 +1268,8 @@ window.MEMCONS = [
     ],
     "sortOrder": 2,
     "sourcePdfPages": "State FOIA document C06694502, conversation pages 1-8",
+    "localPdfPageCount": 8,
+    "markerPage": null,
     "googleDriveFiles": [
       {
         "id": "1pr42yhINujL_px_Y5aXD_MmChhc5sy9v",
@@ -1260,7 +1286,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages State FOIA document C06694502, conversation pages 1-8 in F-2017-13804; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages State FOIA document C06694502, conversation pages 1-8 from F-2017-13804; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694502."
   },
   {
@@ -1285,7 +1311,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1994-02-20-telcon-16.pdf",
     "pageCount": 3,
     "dateLine": "February 20, 1994, White House White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -1322,6 +1348,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "155-157",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 4,
+    "markerPage": 148,
     "googleDriveFiles": [
       {
         "id": "1-Czdq2907N9Zq6Rt7civTm-xPwkK9h6y",
@@ -1332,7 +1360,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 155-157 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 155-157 from 2015-0782-M-1 and appended original marker page 148 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -1357,7 +1385,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1994-04-10-telcon-17.pdf",
     "pageCount": 3,
     "dateLine": "April 10, 1994, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -1402,6 +1430,8 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "164-166",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 4,
+    "markerPage": 159,
     "googleDriveFiles": [
       {
         "id": "1qihIq6mo51EnA3ufb089tvkxIRp4kVnN",
@@ -1412,7 +1442,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 164-166 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 164-166 from 2015-0782-M-1 and appended original marker page 159 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -1437,7 +1467,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1994-04-20-telcon-18.pdf",
     "pageCount": 4,
     "dateLine": "April 20, 1994, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -1474,6 +1504,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "181-184",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 5,
+    "markerPage": 171,
     "googleDriveFiles": [
       {
         "id": "1ak-28O0E3npmQFlhnktlHR9h7Jze_RQq",
@@ -1484,7 +1516,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 181-184 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 181-184 from 2015-0782-M-1 and appended original marker page 171 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -1574,7 +1606,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1994-06-13-telcon-20.pdf",
     "pageCount": 4,
     "dateLine": "June 13, 1994, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -1611,6 +1643,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "191-194",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 5,
+    "markerPage": 187,
     "googleDriveFiles": [
       {
         "id": "1FTGT_4HHEl4j1Z7nG2n8Oo36AMCY9rUX",
@@ -1621,7 +1655,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 191-194 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 191-194 from 2015-0782-M-1 and appended original marker page 187 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -1646,7 +1680,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1994-07-05-telcon-21.pdf",
     "pageCount": 3,
     "dateLine": "July 5, 1994, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -1683,6 +1717,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "202-204",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 4,
+    "markerPage": 196,
     "googleDriveFiles": [
       {
         "id": "1EMCFtfaOX3jrb7Pcncsjcij86vCVFqHx",
@@ -1693,7 +1729,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 202-204 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 202-204 from 2015-0782-M-1 and appended original marker page 196 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -1798,7 +1834,7 @@ window.MEMCONS = [
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Potential FRUS document: extracted actual one-on-one memcon pages 213-219 from 2015-0782-M-1 and appended original marker page 208. The Drive title mislabels this as a telcon; no separate September 27, 1994 telcon was found.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 213-219 from 2015-0782-M-1 and appended original marker page 209 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -1832,8 +1868,9 @@ window.MEMCONS = [
     "potentialFrusDocument": true,
     "sourcePdfPages": "213-219",
     "sourcePdfPageCount": 397,
-    "markerPage": 208,
+    "markerPage": 209,
     "countStatus": "Counted actual conversation pages only",
+    "localPdfPageCount": 8,
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -1895,7 +1932,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "251-260",
     "sourcePdfPageCount": 397,
-    "markerPage": 244,
+    "localPdfPageCount": 11,
+    "markerPage": 245,
     "googleDriveFiles": [
       {
         "id": "13ojhHQejsL_uYgVxz_GHe8u_ponQ_FFj",
@@ -1906,7 +1944,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: extracted actual expanded-session memcon pages 251-260 from 2015-0782-M-1 and appended original marker page 244. Transmittal/profile/action pages were excluded.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 251-260 from 2015-0782-M-1 and appended original marker page 245 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -1931,7 +1969,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1994-10-05-telcon-24.pdf",
     "pageCount": 4,
     "dateLine": "October 5, 1994, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -1968,6 +2006,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "227-230",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 5,
+    "markerPage": 221,
     "strobeFiles": [
       {
         "id": "C06694711",
@@ -1979,7 +2019,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 227-230 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 227-230 from 2015-0782-M-1 and appended original marker page 221 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2041,7 +2081,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "238-241",
     "sourcePdfPageCount": 397,
-    "markerPage": 232,
+    "localPdfPageCount": 5,
+    "markerPage": 233,
     "googleDriveFiles": [
       {
         "id": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
@@ -2052,7 +2093,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: extracted actual October 10, 1994 telcon pages 238-241 from 2015-0782-M-1 and appended original marker page 232. Transmittal/action/receipt pages were excluded.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 238-241 from 2015-0782-M-1 and appended original marker page 233 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2077,7 +2118,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1995-02-13-telcon-26.pdf",
     "pageCount": 4,
     "dateLine": "February 13, 1995, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -2114,6 +2155,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "268-271",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 5,
+    "markerPage": 263,
     "googleDriveFiles": [
       {
         "id": "1EgGoQhfX4a7Fq8fEWtIhjUISe6hko4ai",
@@ -2124,7 +2167,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 268-271 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 268-271 from 2015-0782-M-1 and appended original marker page 263 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2149,7 +2192,7 @@ window.MEMCONS = [
     "releaseStatus": "Partial",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1995-04-27-telcon-27.pdf",
     "pageCount": 4,
     "dateLine": "April 27, 1995, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -2186,9 +2229,11 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "280-283",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 5,
+    "markerPage": 275,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 280-283 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 280-283 from 2015-0782-M-1 and appended original marker page 275 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2213,7 +2258,7 @@ window.MEMCONS = [
     "releaseStatus": "Partial",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1995-05-10-memcon-28.pdf",
     "pageCount": 16,
     "dateLine": "May 10, 1995, The Kremlin, Moscow, Russia",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
@@ -2250,10 +2295,11 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "285-300",
     "sourcePdfPageCount": 397,
-    "markerPage": 301,
+    "localPdfPageCount": 17,
+    "markerPage": 284,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 285-300 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. Marker page 301 should be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 285-300 from 2015-0782-M-1 and appended original marker page 284 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2278,7 +2324,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+    "pdfUrl": "public/documents/1995-06-17-memcon-29.pdf",
     "pageCount": 8,
     "dateLine": "June 17, 1995, Halifax, Nova Scotia, Canada",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
@@ -2314,6 +2360,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "Strobe FOIA document C06835181, conversation pages 1-8",
     "sourcePdfPageCount": 8,
+    "localPdfPageCount": 8,
+    "markerPage": null,
     "strobeFiles": [
       {
         "id": "C06835181",
@@ -2325,7 +2373,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only the actual Halifax memcon pages 1-8 in Strobe FOIA document C06835181. No separate marker/provenance page was present in the reviewed Strobe PDF.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages Strobe FOIA document C06835181, conversation pages 1-8 from F-2017-13804; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835181."
   },
   {
@@ -2350,7 +2398,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1995-07-28-telcon-30.pdf",
     "pageCount": 5,
     "dateLine": "July 28, 1995, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -2387,6 +2435,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "309-313",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 6,
+    "markerPage": 302,
     "googleDriveFiles": [
       {
         "id": "1-VyJatd2iE4fjlYtr3YM6930R3dRVHVU",
@@ -2397,7 +2447,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 309-313 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 309-313 from 2015-0782-M-1 and appended original marker page 302 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2422,7 +2472,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1995-09-27-telcon-31.pdf",
     "pageCount": 3,
     "dateLine": "September 27, 1995, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -2459,6 +2509,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "324-326",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 4,
+    "markerPage": 318,
     "googleDriveFiles": [
       {
         "id": "13wiC3-DXoaYOXFvnwFGZ2EoaL39Z6oCh",
@@ -2469,7 +2521,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 324-326 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 324-326 from 2015-0782-M-1 and appended original marker page 318 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2512,7 +2564,7 @@ window.MEMCONS = [
       "url": "https://catalog.archives.gov/id/163545436",
       "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf"
     },
-    "sourceNote": "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507853. Derivative PDF extracts source pages 5-16 and appends source marker page 1 as provenance sheet. Strobe FOIA document C06835137 is a duplicate source copy of the same one-on-one and is not counted again.",
+    "sourceNote": "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507853. Derivative PDF extracts source pages 5-16 and appends source marker page 2 as provenance sheet. Strobe FOIA document C06835137 is a duplicate source copy of the same one-on-one and is not counted again.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -2552,7 +2604,7 @@ window.MEMCONS = [
     "countStatus": "Counted actual conversation pages only",
     "localPdfPageCount": 13,
     "sourcePdfPages": "5-16",
-    "markerPage": 1,
+    "markerPage": 2,
     "strobeFiles": [
       {
         "id": "C06835137",
@@ -2562,7 +2614,7 @@ window.MEMCONS = [
         "status": "Strobe FOIA copy of the October 23, 1995 Hyde Park one-on-one; duplicate source copy, not counted again."
       }
     ],
-    "extractionStatus": "Extracted actual memcon pages 5-16 from the source PDF; appended original marker page 1 as the final provenance sheet.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 5-16 from 2014-0948-M and appended original marker page 2 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case 2014-0948-M, Memcon between President William Jefferson Clinton and President Boris Yeltsin, Document ID 9507853, NAID 163545436."
   },
   {
@@ -2605,7 +2657,7 @@ window.MEMCONS = [
       "url": "https://catalog.archives.gov/id/163545436",
       "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf"
     },
-    "sourceNote": "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507991. Derivative PDF extracts the complete lunch memcon from source pages 31-35 and appends source marker page 18 as provenance sheet; earlier pages 24-27 are a duplicate copy and were not included.",
+    "sourceNote": "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507991. Derivative PDF extracts the complete lunch memcon from source pages 31-35 and appends source marker page 19 as provenance sheet; earlier pages 24-27 are a duplicate copy and were not included.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
@@ -2643,8 +2695,8 @@ window.MEMCONS = [
     "countStatus": "Counted actual conversation pages only",
     "localPdfPageCount": 6,
     "sourcePdfPages": "31-35",
-    "markerPage": 18,
-    "extractionStatus": "Extracted complete lunch memcon pages 31-35 from the source PDF; appended original marker page 18 as the final provenance sheet. Duplicate lunch pages 24-27 were excluded.",
+    "markerPage": 19,
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 31-35 from 2014-0948-M and appended original marker page 19 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case 2014-0948-M, Memcon between President William Jefferson Clinton and President Boris Yeltsin, Document ID 9507991, NAID 163545436."
   },
   {
@@ -2669,7 +2721,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1996-01-26-telcon-33.pdf",
     "pageCount": 5,
     "dateLine": "January 26, 1996, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -2706,6 +2758,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "342-346",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 6,
+    "markerPage": 336,
     "googleDriveFiles": [
       {
         "id": "1yNha4AfK3kD6rPBPbSwA7RXGD_RLjz_e",
@@ -2716,7 +2770,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 342-346 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 342-346 from 2015-0782-M-1 and appended original marker page 336 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2741,7 +2795,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1996-02-21-telcon-34.pdf",
     "pageCount": 4,
     "dateLine": "February 21, 1996, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -2778,6 +2832,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "354-357",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 5,
+    "markerPage": 348,
     "googleDriveFiles": [
       {
         "id": "1tsAEajB4pmA2K-uxgCE3uIGe3Ek-PSMl",
@@ -2788,7 +2844,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 354-357 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 354-357 from 2015-0782-M-1 and appended original marker page 348 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2850,6 +2906,7 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "Google Drive file 1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c, pages 2-5",
     "sourcePdfPageCount": 6,
+    "localPdfPageCount": 5,
     "markerPage": 1,
     "googleDriveFiles": [
       {
@@ -2867,7 +2924,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: extracted actual cable memcon pages 2-5 from the 2016-0118-M-4 Drive copy and appended source page 1, the Clinton Library withdrawal/provenance sheet. Page 6 is cable distribution metadata and was excluded.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages Google Drive file 1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c, pages 2-5 from 2016-0118-M-4 and appended original marker page 1 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Mandatory Declassification Review case 2016-0118-M-4, source copy reviewed from Google Drive."
   },
   {
@@ -2892,7 +2949,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1996-04-09-telcon-36.pdf",
     "pageCount": 5,
     "dateLine": "April 9, 1996, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -2929,6 +2986,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "369-373",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 6,
+    "markerPage": 362,
     "googleDriveFiles": [
       {
         "id": "1lGJCeA3FFPSqmmsNnXNA64B6koOy56ZB",
@@ -2939,7 +2998,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 369-373 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 369-373 from 2015-0782-M-1 and appended original marker page 362 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -2964,7 +3023,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+    "pdfUrl": "public/documents/1996-04-21-memcon-moscow-one-on-one.pdf",
     "pageCount": 13,
     "dateLine": "April 21, 1996, 10:00-11:45 a.m., Moscow, Russia",
     "subjectLine": "Moscow summit one-on-one memcon between Clinton and Yeltsin before the expanded luncheon.",
@@ -3004,6 +3063,8 @@ window.MEMCONS = [
     "sortOrder": 1,
     "sourcePdfPages": "381-393",
     "sourcePdfPageCount": 397,
+    "localPdfPageCount": 14,
+    "markerPage": 377,
     "googleDriveFiles": [
       {
         "id": "14NhGIMpynoxRlqbrA48-tTTGziPFz-B_",
@@ -3023,7 +3084,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 381-393 in 2015-0782-M-1; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 381-393 from 2015-0782-M-1 and appended original marker page 377 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-1, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3048,7 +3109,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-1",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1996-04-21-memcon-moscow-luncheon.pdf",
     "pageCount": 7,
     "dateLine": "April 21, 1996, 12:50-2:15 p.m., Moscow, Russia",
     "subjectLine": "Moscow summit luncheon memcon with expanded U.S. and Russian delegations.",
@@ -3088,6 +3149,8 @@ window.MEMCONS = [
     "sortOrder": 2,
     "sourcePdfPages": "7-13",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 8,
+    "markerPage": 2,
     "googleDriveFiles": [
       {
         "id": "1jOjVAVkV8IeRD0SJmY4krQCH_Jr1oJQl",
@@ -3098,7 +3161,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 7-13 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 7-13 from 2015-0782-M-2 and appended original marker page 2 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3123,7 +3186,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1996-05-07-telcon-38.pdf",
     "pageCount": 4,
     "dateLine": "May 7, 1996, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -3160,6 +3223,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "25-28",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 19,
     "googleDriveFiles": [
       {
         "id": "1C9TLIGhTQ1RQQ6CuX9UG0eQsksrFHvO5",
@@ -3170,7 +3235,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 25-28 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 25-28 from 2015-0782-M-2 and appended original marker page 19 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3195,7 +3260,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1996-06-18-telcon-39.pdf",
     "pageCount": 2,
     "dateLine": "June 18, 1996, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -3232,6 +3297,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "39-40",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 3,
+    "markerPage": 33,
     "googleDriveFiles": [
       {
         "id": "1WFu5nHDo4uSM89CiS2CvB-vhCG76XUy3",
@@ -3258,7 +3325,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 39-40 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 39-40 from 2015-0782-M-2 and appended original marker page 33 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3283,7 +3350,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1996-07-05-telcon-40.pdf",
     "pageCount": 3,
     "dateLine": "July 5, 1996, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -3320,6 +3387,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "49-51",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 4,
+    "markerPage": 44,
     "googleDriveFiles": [
       {
         "id": "17IU8SnZtm4swpzXILw5JnpUXQ3PEx1ql",
@@ -3330,7 +3399,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 49-51 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 49-51 from 2015-0782-M-2 and appended original marker page 44 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3355,7 +3424,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1996-09-15-telcon-41.pdf",
     "pageCount": 2,
     "dateLine": "September 15, 1996, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -3392,9 +3461,11 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "64-65",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 3,
+    "markerPage": 58,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 64-65 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 64-65 from 2015-0782-M-2 and appended original marker page 58 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3419,7 +3490,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1996-12-05-telcon-42.pdf",
     "pageCount": 3,
     "dateLine": "December 5, 1996, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -3456,6 +3527,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "77-79",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 4,
+    "markerPage": 70,
     "strobeFiles": [
       {
         "id": "C06699017",
@@ -3467,7 +3540,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 77-79 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 77-79 from 2015-0782-M-2 and appended original marker page 70 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3492,7 +3565,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-02-27-telcon-43.pdf",
     "pageCount": 3,
     "dateLine": "February 27, 1997, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -3531,6 +3604,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "87-89",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 4,
+    "markerPage": 82,
     "googleDriveFiles": [
       {
         "id": "1HVoBqp-n_57yMZlA7nWh-mMXEdBUum5Q",
@@ -3541,7 +3616,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 87-89 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 87-89 from 2015-0782-M-2 and appended original marker page 82 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3566,7 +3641,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-03-21-memcon-helsinki-morning.pdf",
     "pageCount": 11,
     "dateLine": "March 21, 1997, 9:50-11:55 a.m., Helsinki, Finland",
     "subjectLine": "Helsinki summit morning memcon covering NATO/Russia, arms control, and summit issues.",
@@ -3610,6 +3685,8 @@ window.MEMCONS = [
     "sortOrder": 1,
     "sourcePdfPages": "105-115",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 12,
+    "markerPage": 97,
     "googleDriveFiles": [
       {
         "id": "1sBvI46_5rIq0yKZ1b7nf67To2f5foPmf",
@@ -3620,7 +3697,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 105-115 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 105-115 from 2015-0782-M-2 and appended original marker page 97 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3645,7 +3722,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf",
     "pageCount": 8,
     "dateLine": "March 21, 1997, 1:00-2:00 p.m., Helsinki, Finland",
     "subjectLine": "Helsinki summit working-lunch memcon continuing the NATO/Russia and European security discussion.",
@@ -3689,6 +3766,8 @@ window.MEMCONS = [
     "sortOrder": 2,
     "sourcePdfPages": "116-123",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 9,
+    "markerPage": 97,
     "googleDriveFiles": [
       {
         "id": "1FvtlBsBnOZu4uFuqxfjLe9Fdj9iaT8dY",
@@ -3699,7 +3778,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 116-123 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 116-123 from 2015-0782-M-2 and appended original marker page 97 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3724,7 +3803,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-03-21-memcon-helsinki-afternoon.pdf",
     "pageCount": 4,
     "dateLine": "March 21, 1997, 4:00-4:50 p.m., Helsinki, Finland",
     "subjectLine": "Helsinki summit afternoon memcon following the main morning and lunch sessions.",
@@ -3768,6 +3847,8 @@ window.MEMCONS = [
     "sortOrder": 3,
     "sourcePdfPages": "124-127",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 97,
     "googleDriveFiles": [
       {
         "id": "1zmToE2EEbOlex2gl6Nv1ULdECLF8PDWM",
@@ -3778,7 +3859,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 124-127 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 124-127 from 2015-0782-M-2 and appended original marker page 97 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3803,7 +3884,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf",
     "pageCount": 6,
     "dateLine": "March 21, 1997, 8:15-9:30 p.m., Helsinki, Finland",
     "subjectLine": "Helsinki summit private-dinner memcon closing the March 21 Clinton-Yeltsin sequence.",
@@ -3847,6 +3928,8 @@ window.MEMCONS = [
     "sortOrder": 4,
     "sourcePdfPages": "128-133",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 7,
+    "markerPage": 97,
     "googleDriveFiles": [
       {
         "id": "1KLOMwJsMKTaMp-3fsDHGk24zWvqLh6ou",
@@ -3857,7 +3940,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 128-133 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 128-133 from 2015-0782-M-2 and appended original marker page 97 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3882,7 +3965,7 @@ window.MEMCONS = [
     "releaseStatus": "Partial",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-05-27-memcon-45.pdf",
     "pageCount": 8,
     "dateLine": "May 27, 1997, Paris, France",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
@@ -3923,6 +4006,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "143-150",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 9,
+    "markerPage": 137,
     "googleDriveFiles": [
       {
         "id": "1VNFoDJYteyNDoWqrRuAWT8iLIAiHpFzh",
@@ -3933,7 +4018,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 143-150 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 143-150 from 2015-0782-M-2 and appended original marker page 137 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -3958,7 +4043,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-06-20-memcon-46.pdf",
     "pageCount": 8,
     "dateLine": "June 20, 1997, Denver, Colorado",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
@@ -3999,6 +4084,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "165-172",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 9,
+    "markerPage": 158,
     "googleDriveFiles": [
       {
         "id": "1068D97hQCXClJSz5sIQkmPDuuW_yCf5K",
@@ -4009,7 +4096,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 165-172 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 165-172 from 2015-0782-M-2 and appended original marker page 158 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4034,7 +4121,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-10-30-telcon-47.pdf",
     "pageCount": 6,
     "dateLine": "October 30, 1997, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4073,6 +4160,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "183-188",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 7,
+    "markerPage": 177,
     "googleDriveFiles": [
       {
         "id": "1fT5AgUtzJunIagUVKSoKio6YudL2rLEx",
@@ -4092,7 +4181,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 183-188 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 183-188 from 2015-0782-M-2 and appended original marker page 177 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4117,7 +4206,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-11-16-telcon-48.pdf",
     "pageCount": 3,
     "dateLine": "November 16, 1997, Malibu, California",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4156,6 +4245,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "206-208",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 4,
+    "markerPage": 200,
     "googleDriveFiles": [
       {
         "id": "1c64v-q0n_DF-5kg16qrNjXxT6o4O7iEZ",
@@ -4166,7 +4257,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 206-208 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 206-208 from 2015-0782-M-2 and appended original marker page 200 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4191,7 +4282,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1997-11-22-telcon-49.pdf",
     "pageCount": 6,
     "dateLine": "November 22, 1997, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4230,6 +4321,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "218-223",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 7,
+    "markerPage": 213,
     "googleDriveFiles": [
       {
         "id": "1PgRJZpQqXva-Kp6ogOhraQElJZl0GXdk",
@@ -4240,7 +4333,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 218-223 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 218-223 from 2015-0782-M-2 and appended original marker page 213 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4265,7 +4358,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-02-02-telcon-50.pdf",
     "pageCount": 4,
     "dateLine": "February 2, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4304,6 +4397,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "236-239",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 229,
     "googleDriveFiles": [
       {
         "id": "1mGa3d3xnEIbCrsJNqsQPjAWifdli0Xar",
@@ -4314,7 +4409,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 236-239 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 236-239 from 2015-0782-M-2 and appended original marker page 229 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4339,7 +4434,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-02-23-telcon-51.pdf",
     "pageCount": 4,
     "dateLine": "February 23, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4378,6 +4473,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "253-256",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 247,
     "googleDriveFiles": [
       {
         "id": "1j7AvpVjmjdRTEhJ4Al4KvPD0ZMiqDVwj",
@@ -4388,7 +4485,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 253-256 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 253-256 from 2015-0782-M-2 and appended original marker page 247 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4413,7 +4510,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-04-06-telcon-52.pdf",
     "pageCount": 5,
     "dateLine": "April 6, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4452,6 +4549,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "274-278",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 6,
+    "markerPage": 260,
     "googleDriveFiles": [
       {
         "id": "1BCpDN6EIDJyq188YS46cjJgYs2kyzNui",
@@ -4471,7 +4570,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 274-278 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 274-278 from 2015-0782-M-2 and appended original marker page 260 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4496,7 +4595,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-05-12-telcon-53.pdf",
     "pageCount": 5,
     "dateLine": "May 12, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4535,6 +4634,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "286-290",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 6,
+    "markerPage": 280,
     "googleDriveFiles": [
       {
         "id": "1j3wB3sjgDr43yH8nbu9W4eX35XNb5vTo",
@@ -4554,7 +4655,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 286-290 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 286-290 from 2015-0782-M-2 and appended original marker page 280 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4579,7 +4680,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-05-17-memcon-54.pdf",
     "pageCount": 8,
     "dateLine": "May 17, 1998, Birmingham, England",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
@@ -4618,6 +4719,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "312-319",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 9,
+    "markerPage": 311,
     "googleDriveFiles": [
       {
         "id": "1IkQrGGfVtGl1fkXMaHmkwjSnmcpTyA7S",
@@ -4637,7 +4740,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 312-319 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 312-319 from 2015-0782-M-2 and appended original marker page 311 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4662,7 +4765,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-05-21-telcon-55.pdf",
     "pageCount": 3,
     "dateLine": "May 21, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4701,6 +4804,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "301-303",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 4,
+    "markerPage": 295,
     "googleDriveFiles": [
       {
         "id": "1_cus2DmP8sCA7HtsHoGspBGaKG5MvjMI",
@@ -4711,7 +4816,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 301-303 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 301-303 from 2015-0782-M-2 and appended original marker page 295 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4736,7 +4841,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-05-28-telcon-56.pdf",
     "pageCount": 4,
     "dateLine": "May 28, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4775,6 +4880,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "329-332",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 322,
     "googleDriveFiles": [
       {
         "id": "1F2aVY9zTrKysoGW-6-bn5tGdsTGDQ4y5",
@@ -4794,7 +4901,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 329-332 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 329-332 from 2015-0782-M-2 and appended original marker page 322 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4819,7 +4926,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-06-15-telcon-57.pdf",
     "pageCount": 5,
     "dateLine": "June 15, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4858,6 +4965,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "342-346",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 6,
+    "markerPage": 336,
     "googleDriveFiles": [
       {
         "id": "1hhBx6lIoQXXnyXsHoZxDo7oYNvYHbKsw",
@@ -4868,7 +4977,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 342-346 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 342-346 from 2015-0782-M-2 and appended original marker page 336 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "deduplicatedRecordIds": [
       "contact-1998-06-15-telcon-58"
     ],
@@ -4896,7 +5005,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-06-16-telcon-59.pdf",
     "pageCount": 2,
     "dateLine": "June 16, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -4935,9 +5044,11 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "359-360",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 3,
+    "markerPage": 352,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 359-360 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 359-360 from 2015-0782-M-2 and appended original marker page 352 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -4962,7 +5073,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-07-10-telcon-60.pdf",
     "pageCount": 4,
     "dateLine": "July 10, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5001,6 +5112,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "371-374",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 365,
     "googleDriveFiles": [
       {
         "id": "1rfsHmNUqd_CG69JwlpHp3gb91PiFko5A",
@@ -5020,7 +5133,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 371-374 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 371-374 from 2015-0782-M-2 and appended original marker page 365 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5045,7 +5158,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-08-14-telcon-61.pdf",
     "pageCount": 6,
     "dateLine": "August 14, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5084,6 +5197,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "384-389",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 7,
+    "markerPage": 378,
     "googleDriveFiles": [
       {
         "id": "1_Dekfu38Q_Gk1IwYiEJqitsrnsvSX9Qh",
@@ -5094,7 +5209,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 384-389 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 384-389 from 2015-0782-M-2 and appended original marker page 378 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5119,7 +5234,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-08-25-telcon-62.pdf",
     "pageCount": 4,
     "dateLine": "August 25, 1998, Martha's Vineyard, Massachusetts",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5158,6 +5273,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "405-408",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 399,
     "googleDriveFiles": [
       {
         "id": "1HMmaeeYPmG7x8ueyovnZXgGBpb55xkRz",
@@ -5168,7 +5285,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 405-408 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 405-408 from 2015-0782-M-2 and appended original marker page 399 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5259,7 +5376,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1998-09-12-telcon-64.pdf",
     "pageCount": 4,
     "dateLine": "September 12, 1998, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5298,6 +5415,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "422-425",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 415,
     "googleDriveFiles": [
       {
         "id": "1zL_1vQEJbvq4SWhIAqKpjAa3J2VR_AxW",
@@ -5308,7 +5427,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 422-425 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 422-425 from 2015-0782-M-2 and appended original marker page 415 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5372,9 +5491,11 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "3-5",
     "sourcePdfPageCount": 6,
+    "localPdfPageCount": 3,
+    "markerPage": null,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: extracted actual October 5, 1998 telcon pages 3-5 from the 2016-0620-M source PDF. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 3-5 from 2016-0620-M; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 100503, Mandatory Declassification Review case 2016-0620-M."
   },
   {
@@ -5438,9 +5559,11 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "1-5",
     "sourcePdfPageCount": 5,
+    "localPdfPageCount": 5,
+    "markerPage": null,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: retained actual December 30, 1998 telcon pages 1-5 from Clinton Digital Library item 119190. The source PDF has no marker/provenance sheet, so the local PDF is actual pages only and no marker-appended derivative was possible.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 1-5 from clinton-item-119190; no original marker/provenance page was identified in the source PDF. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 119190, Telcons - Memoranda of Telephone Conversation."
   },
   {
@@ -5529,7 +5652,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-03-24-telcon-68.pdf",
     "pageCount": 5,
     "dateLine": "March 24, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5570,9 +5693,11 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "432-436",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 6,
+    "markerPage": 431,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 432-436 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 432-436 from 2015-0782-M-2 and appended original marker page 431 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5597,7 +5722,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-04-19-telcon-69.pdf",
     "pageCount": 6,
     "dateLine": "April 19, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5638,9 +5763,11 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "438-443",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 7,
+    "markerPage": 437,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 438-443 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 438-443 from 2015-0782-M-2 and appended original marker page 437 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5665,7 +5792,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-04-25-telcon-70.pdf",
     "pageCount": 12,
     "dateLine": "April 25, 1999, Washington, D.C.",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5706,6 +5833,8 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "445-456",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 13,
+    "markerPage": 444,
     "googleDriveFiles": [
       {
         "id": "1YBmo26tprmItE4dS_dXX5Ic6QShZpn4h",
@@ -5716,7 +5845,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 445-456 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 445-456 from 2015-0782-M-2 and appended original marker page 444 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5741,7 +5870,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-05-02-telcon-71.pdf",
     "pageCount": 4,
     "dateLine": "May 2, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5782,6 +5911,8 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "470-473",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 469,
     "googleDriveFiles": [
       {
         "id": "1ix1Ii-rAWelKeQi7jC6_PI4qRZlMinle",
@@ -5792,7 +5923,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 470-473 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 470-473 from 2015-0782-M-2 and appended original marker page 469 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5817,7 +5948,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-06-07-telcon-72.pdf",
     "pageCount": 2,
     "dateLine": "June 7, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5858,10 +5989,11 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "479-480",
     "sourcePdfPageCount": 591,
-    "markerPage": 481,
+    "localPdfPageCount": 3,
+    "markerPage": 478,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 479-480 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. Marker page 481 should be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 479-480 from 2015-0782-M-2 and appended original marker page 478 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5886,7 +6018,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-06-08-telcon-73.pdf",
     "pageCount": 3,
     "dateLine": "June 8, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5927,9 +6059,11 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "482-484",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 4,
+    "markerPage": 481,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 482-484 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 482-484 from 2015-0782-M-2 and appended original marker page 481 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -5954,7 +6088,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-06-10-telcon-74.pdf",
     "pageCount": 2,
     "dateLine": "June 10, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -5995,9 +6129,11 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "488-489",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 3,
+    "markerPage": 487,
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 488-489 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 488-489 from 2015-0782-M-2 and appended original marker page 487 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -6022,7 +6158,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-06-13-telcon-75.pdf",
     "pageCount": 7,
     "dateLine": "June 13, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -6063,6 +6199,8 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "531-537",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 8,
+    "markerPage": 530,
     "googleDriveFiles": [
       {
         "id": "1wt8YvzsjTSpf3H4JMgUXJMU-hMk0bA74",
@@ -6073,7 +6211,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 531-537 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 531-537 from 2015-0782-M-2 and appended original marker page 530 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -6098,7 +6236,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-06-14-telcon-76.pdf",
     "pageCount": 4,
     "dateLine": "June 14, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -6139,6 +6277,8 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "521-524",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 5,
+    "markerPage": 519,
     "googleDriveFiles": [
       {
         "id": "17_TAwdKBILpcBjzOK6fFzttzMxXLHc5P",
@@ -6149,7 +6289,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 521-524 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 521-524 from 2015-0782-M-2 and appended original marker page 519 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -6174,7 +6314,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-06-20-memcon-77.pdf",
     "pageCount": 9,
     "dateLine": "June 20, 1999, Cologne, Germany",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
@@ -6217,6 +6357,8 @@ window.MEMCONS = [
     ],
     "sourcePdfPages": "497-505",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 10,
+    "markerPage": 491,
     "googleDriveFiles": [
       {
         "id": "1sQzV-Sy-8geFSdknDtdp9xlzQCBI3QhN",
@@ -6227,7 +6369,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 497-505 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 497-505 from 2015-0782-M-2 and appended original marker page 491 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -6252,7 +6394,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-09-08-telcon-78.pdf",
     "pageCount": 5,
     "dateLine": "September 8, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -6289,6 +6431,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "548-552",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 6,
+    "markerPage": 541,
     "googleDriveFiles": [
       {
         "id": "1wxPSyI3jA335DIh43d6VJ4BLULbLKIPR",
@@ -6299,7 +6443,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 548-552 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 548-552 from 2015-0782-M-2 and appended original marker page 541 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -6324,7 +6468,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-11-18-memcon-79.pdf",
     "pageCount": 7,
     "dateLine": "November 18, 1999, Istanbul, Turkey",
     "subjectLine": "Leader meeting or memorandum of conversation in the Clinton-Yeltsin channel.",
@@ -6363,6 +6507,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "560-566",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 8,
+    "markerPage": 559,
     "googleDriveFiles": [
       {
         "id": "1MgSg0Iph1k9aGeSZqpsXiYJd0eJP9crE",
@@ -6373,7 +6519,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual memcon pages 560-566 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual memcon pages 560-566 from 2015-0782-M-2 and appended original marker page 559 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {
@@ -6398,7 +6544,7 @@ window.MEMCONS = [
     "releaseStatus": "Full",
     "naid": "2015-0782-M-2",
     "catalogUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "pdfUrl": "public/documents/1999-12-31-telcon-80.pdf",
     "pageCount": 3,
     "dateLine": "December 31, 1999, White House",
     "subjectLine": "Leader telephone conversation in the Clinton-Yeltsin channel.",
@@ -6435,6 +6581,8 @@ window.MEMCONS = [
     "relatedReleaseIds": [],
     "sourcePdfPages": "582-584",
     "sourcePdfPageCount": 591,
+    "localPdfPageCount": 4,
+    "markerPage": 576,
     "googleDriveFiles": [
       {
         "id": "1ruK9pfEPeuBWuqAJD8TLhrQUEqIirk1v",
@@ -6445,7 +6593,7 @@ window.MEMCONS = [
     ],
     "potentialFrusDocument": true,
     "countStatus": "Counted actual conversation pages only",
-    "extractionStatus": "Potential FRUS document: counted only actual telcon pages 582-584 in 2015-0782-M-2; surrounding administrative material and duplicate copies excluded. The original source marker page still needs to be appended as the provenance sheet if a derivative PDF is generated.",
+    "extractionStatus": "Potential FRUS document: extracted actual telcon pages 582-584 from 2015-0782-M-2 and appended original marker page 576 as the provenance sheet. Surrounding administrative material and duplicate copies excluded.",
     "frusSourceNote": "Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case 2015-0782-M-2, Declassified Documents Concerning Russian President Boris Yeltsin."
   },
   {

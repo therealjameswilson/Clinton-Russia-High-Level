@@ -152,6 +152,22 @@ const SOURCE_PDF_PAGE_COUNTS = {
   [SOURCES.clintonIraq19981230.caseNumber]: 5
 };
 
+const EXTRACTED_PDF_MANIFEST =
+  process.env.EXTRACTED_PDF_MANIFEST ||
+  path.join(ROOT, "reports", "extracted-pdf-manifest.json");
+const EXTRACTED_PDFS_BY_RECORD_ID = new Map(
+  (readJsonOptional(EXTRACTED_PDF_MANIFEST).documents || []).map((item) => [item.recordId, item])
+);
+
+function readJsonOptional(filePath) {
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (error) {
+    if (error.code === "ENOENT") return {};
+    throw error;
+  }
+}
+
 function driveFileUrl(id) {
   return `https://drive.google.com/file/d/${id}/view`;
 }
@@ -1361,10 +1377,17 @@ function addFrusSourceNotes(records) {
   }));
 }
 
-function auditExtractionStatus(record, audit) {
+function auditExtractionStatus(record, audit, extractedPdf) {
   if (audit.extractionStatus) return audit.extractionStatus;
 
   const sourceLabel = audit.source?.caseNumber || audit.source?.name || record.source?.caseNumber || "source";
+  if (audit.pageCount && extractedPdf) {
+    const markerText = extractedPdf.markerPage
+      ? ` and appended original marker page ${extractedPdf.markerPage} as the provenance sheet`
+      : "; no original marker/provenance page was identified in the source PDF";
+    return `Potential FRUS document: extracted actual ${record.type.toLowerCase()} pages ${audit.sourcePdfPages} from ${sourceLabel}${markerText}. Surrounding administrative material and duplicate copies excluded.`;
+  }
+
   if (audit.pageCount) {
     const markerText = audit.markerPage
       ? ` Marker page ${audit.markerPage} should be appended as the provenance sheet if a derivative PDF is generated.`
@@ -1373,6 +1396,16 @@ function auditExtractionStatus(record, audit) {
   }
 
   return `Potential FRUS document: Google Drive search surfaced a matching ${record.type.toLowerCase()}, but the actual conversation-page extent still needs verification against the original PDF.`;
+}
+
+function manifestExtractionStatus(record, extractedPdf) {
+  const sourceLabel = record.source?.caseNumber || record.source?.name || record.source?.url || "source";
+  const markerText = extractedPdf.markerPage
+    ? ` and appended original marker page ${extractedPdf.markerPage} as the provenance sheet`
+    : "; no original marker/provenance page was identified in the source PDF";
+  return `Potential FRUS document: extracted actual ${record.type.toLowerCase()} pages ${
+    record.sourcePdfPages || extractedPdf.extractedPages
+  } from ${sourceLabel}${markerText}. Surrounding administrative material and duplicate copies excluded.`;
 }
 
 function applyConversationAudit(record, auditKey = `${record.date}|${record.type}`) {
@@ -1392,6 +1425,7 @@ function applyConversationAudit(record, auditKey = `${record.date}|${record.type
   const source = audit.source || record.source;
   const driveFiles = normalizeDriveFiles(audit.driveFiles);
   const strobeFiles = normalizeStrobeFiles([...(record.strobeFiles || []), ...(audit.strobeFiles || [])]);
+  const extractedPdf = EXTRACTED_PDFS_BY_RECORD_ID.get(record.id);
   const countStatus = audit.pageCount ? "Counted actual conversation pages only" : "Extent pending";
   const auditNote =
     audit.note ||
@@ -1413,24 +1447,40 @@ function applyConversationAudit(record, auditKey = `${record.date}|${record.type
     ...record,
     source,
     catalogUrl: audit.catalogUrl || record.catalogUrl,
-    pdfUrl: audit.pdfUrl || record.pdfUrl,
+    pdfUrl: extractedPdf?.output || audit.pdfUrl || record.pdfUrl,
     pageCount: Object.prototype.hasOwnProperty.call(audit, "pageCount")
       ? audit.pageCount
       : record.pageCount,
     sourcePdfPages: audit.sourcePdfPages || record.sourcePdfPages,
     sourcePdfPageCount: audit.sourcePdfPageCount || auditSourcePageCount(source) || undefined,
-    markerPage: Object.prototype.hasOwnProperty.call(audit, "markerPage")
-      ? audit.markerPage
-      : record.markerPage,
+    localPdfPageCount: extractedPdf?.localPdfPageCount || audit.localPdfPageCount || record.localPdfPageCount,
+    markerPage:
+      extractedPdf?.markerPage ||
+      (Object.prototype.hasOwnProperty.call(audit, "markerPage") ? audit.markerPage : record.markerPage),
     googleDriveFiles: driveFiles.length ? driveFiles : undefined,
     strobeFiles: strobeFiles.length ? strobeFiles : undefined,
     potentialFrusDocument: true,
     countStatus,
-    extractionStatus: auditExtractionStatus(record, audit),
+    extractionStatus: auditExtractionStatus(record, audit, extractedPdf),
     sourceNote: appendNote(appendNote(appendNote(record.sourceNote, auditNote), duplicateNote), strobeNote),
     frusTopics: [...new Set([...potentialTopics, ...(audit.topics || [])])],
     topics: [...new Set([...(record.topics || []), "Potential FRUS document", ...(audit.topics || [])])]
   };
+}
+
+function applyExtractedPdfManifest(records) {
+  return records.map((record) => {
+    const extractedPdf = EXTRACTED_PDFS_BY_RECORD_ID.get(record.id);
+    if (!extractedPdf) return record;
+
+    return {
+      ...record,
+      pdfUrl: extractedPdf.output,
+      localPdfPageCount: extractedPdf.localPdfPageCount,
+      markerPage: extractedPdf.markerPage || null,
+      extractionStatus: manifestExtractionStatus(record, extractedPdf)
+    };
+  });
 }
 
 function extractClintonYeltsinEntries(text) {
@@ -1771,9 +1821,9 @@ function buildChronologyRecords() {
           subjectLine:
             "Vancouver summit working-dinner memcon covering Russian reform, economic support, energy, space cooperation, nuclear issues, and Bosnia.",
           sourceNote:
-            "Source: National Archives Catalog item 163545404, Clinton Library case 2014-0901-M, NSC Records Management PRS Files, Document ID 9302226. Derivative PDF extracts source pages 9-17 and appends source marker page 1 as provenance sheet.",
+            "Source: National Archives Catalog item 163545404, Clinton Library case 2014-0901-M, NSC Records Management PRS Files, Document ID 9302226. Derivative PDF extracts source pages 9-17 and appends source marker page 2 as provenance sheet.",
           extractionStatus:
-            "Extracted actual memcon pages 9-17 from the source PDF; appended original marker page 1 as the final provenance sheet.",
+            "Extracted actual memcon pages 9-17 from the source PDF; appended original marker page 2 as the final provenance sheet.",
           frusTopics: [
             "Clinton-Yeltsin",
             "Russia high-level contacts",
@@ -1814,9 +1864,9 @@ function buildChronologyRecords() {
           subjectLine:
             "Vancouver summit security-issues memcon covering HEU, Jackson-Vanik, COCOM, arms sales, nuclear testing, Ukraine, START, regional conflicts, and the G-7 package.",
           sourceNote:
-            "Source: National Archives Catalog item 163545404, Clinton Library case 2014-0901-M, NSC Records Management PRS Files, Document ID 9302226. Derivative PDF extracts source pages 19-30 and appends source marker page 1 as provenance sheet.",
+            "Source: National Archives Catalog item 163545404, Clinton Library case 2014-0901-M, NSC Records Management PRS Files, Document ID 9302226. Derivative PDF extracts source pages 19-30 and appends source marker page 2 as provenance sheet.",
           extractionStatus:
-            "Extracted actual memcon pages 19-30 from the source PDF; appended original marker page 1 as the final provenance sheet.",
+            "Extracted actual memcon pages 19-30 from the source PDF; appended original marker page 2 as the final provenance sheet.",
           frusTopics: [
             "Clinton-Yeltsin",
             "Russia high-level contacts",
@@ -1891,9 +1941,9 @@ function buildChronologyRecords() {
           subjectLine:
             "Hyde Park one-on-one memcon covering Bosnia, NATO command arrangements, CFE, nuclear issues, Russia policy, and the Clinton-Yeltsin partnership.",
           sourceNote:
-            "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507853. Derivative PDF extracts source pages 5-16 and appends source marker page 1 as provenance sheet. Strobe FOIA document C06835137 is a duplicate source copy of the same one-on-one and is not counted again.",
+            "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507853. Derivative PDF extracts source pages 5-16 and appends source marker page 2 as provenance sheet. Strobe FOIA document C06835137 is a duplicate source copy of the same one-on-one and is not counted again.",
           extractionStatus:
-            "Extracted actual memcon pages 5-16 from the source PDF; appended original marker page 1 as the final provenance sheet.",
+            "Extracted actual memcon pages 5-16 from the source PDF; appended original marker page 2 as the final provenance sheet.",
           frusTopics: [
             "Clinton-Yeltsin",
             "Russia high-level contacts",
@@ -1932,9 +1982,9 @@ function buildChronologyRecords() {
           subjectLine:
             "Hyde Park lunch memcon continuing the Clinton-Yeltsin discussion of Bosnia implementation, NATO/Russia arrangements, China, and relationship management.",
           sourceNote:
-            "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507991. Derivative PDF extracts the complete lunch memcon from source pages 31-35 and appends source marker page 18 as provenance sheet; earlier pages 24-27 are a duplicate copy and were not included.",
+            "Source: National Archives Catalog item 163545436, Clinton Library case 2014-0948-M, NSC Records Management PRS Files, Document ID 9507991. Derivative PDF extracts the complete lunch memcon from source pages 31-35 and appends source marker page 19 as provenance sheet; earlier pages 24-27 are a duplicate copy and were not included.",
           extractionStatus:
-            "Extracted complete lunch memcon pages 31-35 from the source PDF; appended original marker page 18 as the final provenance sheet. Duplicate lunch pages 24-27 were excluded.",
+            "Extracted complete lunch memcon pages 31-35 from the source PDF; appended original marker page 19 as the final provenance sheet. Duplicate lunch pages 24-27 were excluded.",
           frusTopics: [
             "Clinton-Yeltsin",
             "Russia high-level contacts",
@@ -2778,13 +2828,15 @@ function writeOutputs(records) {
 }
 
 const records = addFrusSourceNotes(
-  dedupeCompilerRecords([
-    ...buildChronologyRecords(),
-    ...buildDriveOnlyCandidateRecords(),
-    ...buildReleasePackets(),
-    ...buildStrobeRecords(),
-    ...buildNaraScoutRecords()
-  ])
+  applyExtractedPdfManifest(
+    dedupeCompilerRecords([
+      ...buildChronologyRecords(),
+      ...buildDriveOnlyCandidateRecords(),
+      ...buildReleasePackets(),
+      ...buildStrobeRecords(),
+      ...buildNaraScoutRecords()
+    ])
+  )
 );
 
 writeOutputs(records);
