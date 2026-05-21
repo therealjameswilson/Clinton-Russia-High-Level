@@ -2663,15 +2663,119 @@ function groupTallies(records, field) {
   }, {});
 }
 
-function buildDocumentPageTallies(records) {
-  const potentialDocuments = records.filter(
+function sourceFileKey(file) {
+  return file?.url || file?.id || file?.title || JSON.stringify(file || {});
+}
+
+function collectSourceFiles(records, field) {
+  const files = new Map();
+  let rowReferences = 0;
+
+  for (const record of records) {
+    for (const file of record[field] || []) {
+      rowReferences += 1;
+      const key = sourceFileKey(file);
+      const entry =
+        files.get(key) ||
+        {
+          key,
+          id: file.id || "",
+          title: file.title || "",
+          url: file.url || "",
+          date: file.date || "",
+          records: []
+        };
+      entry.records.push({
+        id: record.id,
+        date: record.date,
+        type: record.type,
+        title: record.documentTitle || record.title
+      });
+      files.set(key, entry);
+    }
+  }
+
+  const fileList = [...files.values()].sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));
+  return {
+    rowReferences,
+    uniqueFiles: fileList.length,
+    repeatedFiles: fileList.filter((file) => file.records.length > 1),
+    files: fileList
+  };
+}
+
+function collectDerivativeFiles(records) {
+  const files = new Map();
+
+  for (const record of records) {
+    if (!/^public\/documents\//.test(record.pdfUrl || "")) continue;
+    const entry =
+      files.get(record.pdfUrl) ||
+      {
+        path: record.pdfUrl,
+        records: []
+      };
+    entry.records.push({
+      id: record.id,
+      date: record.date,
+      type: record.type,
+      title: record.documentTitle || record.title,
+      conversationPages: record.pageCount || null,
+      localPdfPages: record.localPdfPageCount || null
+    });
+    files.set(record.pdfUrl, entry);
+  }
+
+  const fileList = [...files.values()].sort((a, b) => a.path.localeCompare(b.path));
+  return {
+    rowReferences: fileList.reduce((sum, file) => sum + file.records.length, 0),
+    uniqueFiles: fileList.length,
+    repeatedFiles: fileList.filter((file) => file.records.length > 1),
+    files: fileList
+  };
+}
+
+function buildSourceFileInventory(records) {
+  return {
+    localDerivativePdfs: collectDerivativeFiles(records),
+    googleDriveFiles: collectSourceFiles(records, "googleDriveFiles"),
+    strobeFiles: collectSourceFiles(records, "strobeFiles")
+  };
+}
+
+function summarizeSourceFileInventory(inventory) {
+  return Object.fromEntries(
+    Object.entries(inventory).map(([key, value]) => [
+      key,
+      {
+        rowReferences: value.rowReferences,
+        uniqueFiles: value.uniqueFiles,
+        repeatedFiles: value.repeatedFiles.map((file) => ({
+          key: file.key || file.path,
+          id: file.id || "",
+          title: file.title || "",
+          url: file.url || file.path || "",
+          recordIds: file.records.map((record) => record.id)
+        }))
+      }
+    ])
+  );
+}
+
+function candidateConversationRecords(records) {
+  return records.filter(
     (record) =>
       record.chapter.name === CHAPTERS.chronology.name &&
       (record.type === "Memcon" || record.type === "Telcon") &&
       record.potentialFrusDocument !== false
   );
+}
+
+function buildDocumentPageTallies(records, sourceFileInventory = null) {
+  const potentialDocuments = candidateConversationRecords(records);
   const countedDocuments = potentialDocuments.filter((record) => Number.isInteger(record.pageCount));
   const pendingDocuments = potentialDocuments.filter((record) => !Number.isInteger(record.pageCount));
+  const inventory = sourceFileInventory || buildSourceFileInventory(potentialDocuments);
 
   return {
     generatedAt: new Date().toISOString(),
@@ -2685,6 +2789,7 @@ function buildDocumentPageTallies(records) {
       totalMemconPages: pageSum(potentialDocuments.filter((record) => record.type === "Memcon")),
       totalTelconPages: pageSum(potentialDocuments.filter((record) => record.type === "Telcon"))
     },
+    sourceFileInventory: summarizeSourceFileInventory(inventory),
     byType: groupTallies(potentialDocuments, "type"),
     byYear: groupTallies(potentialDocuments, (record) => record.date.slice(0, 4)),
     bySource: groupTallies(
@@ -2774,6 +2879,9 @@ function writeOutputs(records) {
   fs.writeFileSync(path.join(dataDir, "memcons.json"), `${JSON.stringify(records, null, 2)}\n`);
   fs.writeFileSync(path.join(dataDir, "memcons.js"), `window.MEMCONS = ${JSON.stringify(records, null, 2)};\n`);
 
+  const sourceFileInventory = buildSourceFileInventory(candidateConversationRecords(records));
+  const pageTallies = buildDocumentPageTallies(records, sourceFileInventory);
+
   const summary = {
     generatedAt: new Date().toISOString(),
     totalRecords: records.length,
@@ -2806,6 +2914,7 @@ function writeOutputs(records) {
     },
     strobeConversationFiles: {
       includedCrossReferences: Object.keys(STROBE_CONVERSATION_FILES).length,
+      uniqueSourceFiles: new Set(Object.values(STROBE_CONVERSATION_FILES).map(sourceFileKey)).size,
       reviewedNonConversationFiles: STROBE_REVIEWED_NON_CONVERSATION_FILES.length
     },
     sources: {
@@ -2817,7 +2926,11 @@ function writeOutputs(records) {
   };
   fs.writeFileSync(
     path.join(reportsDir, "document-page-tallies.json"),
-    `${JSON.stringify(buildDocumentPageTallies(records), null, 2)}\n`
+    `${JSON.stringify(pageTallies, null, 2)}\n`
+  );
+  fs.writeFileSync(
+    path.join(reportsDir, "source-file-inventory.json"),
+    `${JSON.stringify(sourceFileInventory, null, 2)}\n`
   );
   fs.writeFileSync(
     path.join(reportsDir, "nara-scout-collection-search.json"),

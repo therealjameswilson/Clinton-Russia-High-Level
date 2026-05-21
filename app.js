@@ -83,6 +83,22 @@ function sourceCopyCount(record, field) {
   return Array.isArray(record[field]) ? record[field].length : 0;
 }
 
+function sourceFileKey(file) {
+  return file?.url || file?.id || file?.title || JSON.stringify(file || {});
+}
+
+function sourceFileReferenceCount(records, field) {
+  return records.reduce((sum, record) => sum + sourceCopyCount(record, field), 0);
+}
+
+function uniqueSourceFileCount(records, field) {
+  const keys = new Set();
+  for (const record of records) {
+    for (const file of record[field] || []) keys.add(sourceFileKey(file));
+  }
+  return keys.size;
+}
+
 function setText(node, value) {
   if (node) node.textContent = String(value);
 }
@@ -148,7 +164,7 @@ function setChapterCounts(records) {
   const candidates = candidateRecords(records);
   const counted = candidates.filter((record) => Number.isInteger(record.pageCount));
   const pending = candidates.filter((record) => !Number.isInteger(record.pageCount));
-  const strobeCount = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "strobeFiles"), 0);
+  const strobeCount = uniqueSourceFileCount(candidates, "strobeFiles");
 
   setText(totalRecords, records.length);
   setText(candidateDocuments, candidates.length);
@@ -193,8 +209,10 @@ function renderWorkbench(records) {
   const pending = candidates
     .filter((record) => !Number.isInteger(record.pageCount))
     .sort(byChapterThenDate);
-  const strobeCount = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "strobeFiles"), 0);
-  const driveCount = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "googleDriveFiles"), 0);
+  const strobeRefs = sourceFileReferenceCount(candidates, "strobeFiles");
+  const driveRefs = sourceFileReferenceCount(candidates, "googleDriveFiles");
+  const strobeFiles = uniqueSourceFileCount(candidates, "strobeFiles");
+  const driveFiles = uniqueSourceFileCount(candidates, "googleDriveFiles");
 
   if (pendingSummary) {
     pendingSummary.textContent = pending.length
@@ -222,7 +240,7 @@ function renderWorkbench(records) {
   }
 
   if (sourceCopySummary) {
-    sourceCopySummary.textContent = `${strobeCount} Strobe FOIA references and ${driveCount} Drive references are attached to canonical conversation rows for deduped review.`;
+    sourceCopySummary.textContent = `${strobeFiles} unique Strobe FOIA files (${strobeRefs} row refs) and ${driveFiles} unique Drive files (${driveRefs} row refs) are attached to canonical conversation rows for deduped review.`;
   }
 }
 
@@ -319,8 +337,10 @@ function renderCompilerAudit(records) {
   const telcons = candidates.filter((record) => record.type === "Telcon");
   const derivativePdfs = candidates.filter(isDerivativePdf);
   const provenanceSheets = candidates.filter(hasProvenanceSheet);
-  const strobeRefs = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "strobeFiles"), 0);
-  const driveRefs = candidates.reduce((sum, record) => sum + sourceCopyCount(record, "googleDriveFiles"), 0);
+  const strobeRefs = sourceFileReferenceCount(candidates, "strobeFiles");
+  const driveRefs = sourceFileReferenceCount(candidates, "googleDriveFiles");
+  const strobeFiles = uniqueSourceFileCount(candidates, "strobeFiles");
+  const driveFiles = uniqueSourceFileCount(candidates, "googleDriveFiles");
   const scoutLeads = records.filter((record) => record.chapter.name === "NARA Scout Leads");
   const denseYear = sortByValueDesc(
     groupCounts(candidates, (record) => record.date.slice(0, 4)).map((item) => ({
@@ -344,9 +364,9 @@ function renderCompilerAudit(records) {
       `${formatNumber(candidates.filter(hasAnyPdf).length)} candidates have a source or PDF locator.`
     ),
     auditCard(
-      "Source Copies",
-      `${formatNumber(strobeRefs + driveRefs)} refs`,
-      `${formatNumber(strobeRefs)} Strobe FOIA references and ${formatNumber(driveRefs)} Google Drive references are attached for deduped source-copy review.`,
+      "Source Files",
+      `${formatNumber(strobeFiles + driveFiles)} unique`,
+      `${formatNumber(strobeRefs)} Strobe FOIA row references and ${formatNumber(driveRefs)} Google Drive row references collapse to ${formatNumber(strobeFiles + driveFiles)} unique files.`,
       "Canonical rows keep duplicate source copies out of the page tally."
     ),
     auditCard(
@@ -531,10 +551,12 @@ function renderFrusMethod(records) {
     .join(" / ");
   const sourceNotes = records.filter((record) => record.frusSourceNote);
   const extractionNotes = candidates.filter((record) => record.extractionStatus);
-  const sourceCopies = candidates.reduce(
-    (sum, record) => sum + sourceCopyCount(record, "strobeFiles") + sourceCopyCount(record, "googleDriveFiles"),
-    0
-  );
+  const sourceCopyRefs =
+    sourceFileReferenceCount(candidates, "strobeFiles") +
+    sourceFileReferenceCount(candidates, "googleDriveFiles");
+  const sourceFiles =
+    uniqueSourceFileCount(candidates, "strobeFiles") +
+    uniqueSourceFileCount(candidates, "googleDriveFiles");
 
   frusMethodRoot.replaceChildren(
     methodCard(
@@ -559,7 +581,7 @@ function renderFrusMethod(records) {
       "Declassification Accounting",
       counted.length === candidates.length ? "Ready" : "Partial",
       "Actual conversation pages, source packet pages, duplicate source copies, and pending extents are tracked as separate fields.",
-      `${pageSum(candidates)} pages; ${extractionNotes.length}/${candidates.length} extraction notes; ${sourceCopies} duplicate source refs.`
+      `${pageSum(candidates)} pages; ${extractionNotes.length}/${candidates.length} extraction notes; ${sourceFiles} unique source-copy files from ${sourceCopyRefs} row refs.`
     )
   );
 

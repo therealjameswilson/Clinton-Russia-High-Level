@@ -1,0 +1,2259 @@
+{
+  "localDerivativePdfs": {
+    "rowReferences": 81,
+    "uniqueFiles": 81,
+    "repeatedFiles": [],
+    "files": [
+      {
+        "path": "public/documents/1993-01-23-telcon-01.pdf",
+        "records": [
+          {
+            "id": "contact-1993-01-23-telcon-01",
+            "date": "1993-01-23",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, January 23, 1993, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-02-10-telcon-02.pdf",
+        "records": [
+          {
+            "id": "contact-1993-02-10-telcon-02",
+            "date": "1993-02-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 10, 1993, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf",
+        "records": [
+          {
+            "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
+            "date": "1993-04-03",
+            "type": "Memcon",
+            "title": "Working Dinner with President Boris Yeltsin",
+            "conversationPages": 9,
+            "localPdfPages": 10
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf",
+        "records": [
+          {
+            "id": "contact-1993-04-04-memcon-vancouver-security-issues",
+            "date": "1993-04-04",
+            "type": "Memcon",
+            "title": "Meeting with Russian President Boris Yeltsin on Security Issues",
+            "conversationPages": 12,
+            "localPdfPages": 13
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-04-26-telcon-05.pdf",
+        "records": [
+          {
+            "id": "contact-1993-04-26-telcon-05",
+            "date": "1993-04-26",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 26, 1993, White House",
+            "conversationPages": 2,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-05-02-telcon-06.pdf",
+        "records": [
+          {
+            "id": "contact-1993-05-02-telcon-06",
+            "date": "1993-05-02",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 2, 1993, White House",
+            "conversationPages": 2,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-05-10-telcon-07.pdf",
+        "records": [
+          {
+            "id": "contact-1993-05-10-telcon-07",
+            "date": "1993-05-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 10, 1993, White House",
+            "conversationPages": 2,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-06-28-telcon-08.pdf",
+        "records": [
+          {
+            "id": "contact-1993-06-28-telcon-08",
+            "date": "1993-06-28",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 28, 1993, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-07-10-memcon-09.pdf",
+        "records": [
+          {
+            "id": "contact-1993-07-10-memcon-09",
+            "date": "1993-07-10",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan",
+            "conversationPages": 9,
+            "localPdfPages": 10
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-09-07-telcon-10.pdf",
+        "records": [
+          {
+            "id": "contact-1993-09-07-telcon-10",
+            "date": "1993-09-07",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 7, 1993, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-09-21-telcon-11.pdf",
+        "records": [
+          {
+            "id": "contact-1993-09-21-telcon-11",
+            "date": "1993-09-21",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 21, 1993, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-10-05-telcon-12.pdf",
+        "records": [
+          {
+            "id": "contact-1993-10-05-telcon-12",
+            "date": "1993-10-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, October 5, 1993, Air Force One",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1993-12-22-telcon-13.pdf",
+        "records": [
+          {
+            "id": "contact-1993-12-22-telcon-13",
+            "date": "1993-12-22",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf",
+        "records": [
+          {
+            "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+            "date": "1994-01-14",
+            "type": "Memcon",
+            "title": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+            "conversationPages": 8,
+            "localPdfPages": 8
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-01-14-memcon-trilateral-yeltsin-kravchuk.pdf",
+        "records": [
+          {
+            "id": "contact-1994-01-14-memcon-trilateral-yeltsin-kravchuk",
+            "date": "1994-01-14",
+            "type": "Memcon",
+            "title": "Trilateral Meeting with President Boris Yeltsin of Russia on Security Issues",
+            "conversationPages": 3,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-02-20-telcon-16.pdf",
+        "records": [
+          {
+            "id": "contact-1994-02-20-telcon-16",
+            "date": "1994-02-20",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 20, 1994, White House White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-04-10-telcon-17.pdf",
+        "records": [
+          {
+            "id": "contact-1994-04-10-telcon-17",
+            "date": "1994-04-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 10, 1994, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-04-20-telcon-18.pdf",
+        "records": [
+          {
+            "id": "contact-1994-04-20-telcon-18",
+            "date": "1994-04-20",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 20, 1994, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-06-13-telcon-20.pdf",
+        "records": [
+          {
+            "id": "contact-1994-06-13-telcon-20",
+            "date": "1994-06-13",
+            "type": "Telcon",
+            "title": "Telephone Call with President Boris Yeltsin of Russia, June 13, 1994, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-07-05-telcon-21.pdf",
+        "records": [
+          {
+            "id": "contact-1994-07-05-telcon-21",
+            "date": "1994-07-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, July 5, 1994, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf",
+        "records": [
+          {
+            "id": "contact-1994-09-27-memcon-23",
+            "date": "1994-09-27",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House",
+            "conversationPages": 10,
+            "localPdfPages": 11
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf",
+        "records": [
+          {
+            "id": "drive-candidate-1994-09-27-memcon-one-on-one",
+            "date": "1994-09-27",
+            "type": "Memcon",
+            "title": "Clinton-Yeltsin one-on-one memcon, September 27, 1994",
+            "conversationPages": 7,
+            "localPdfPages": 8
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-10-05-telcon-24.pdf",
+        "records": [
+          {
+            "id": "contact-1994-10-05-telcon-24",
+            "date": "1994-10-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin, October 5, 1994, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1994-10-10-clinton-yeltsin-iraq-telcon.pdf",
+        "records": [
+          {
+            "id": "contact-1994-10-10-telcon-25",
+            "date": "1994-10-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, October 10, 1994, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1995-02-13-telcon-26.pdf",
+        "records": [
+          {
+            "id": "contact-1995-02-13-telcon-26",
+            "date": "1995-02-13",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 13, 1995, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1995-04-27-telcon-27.pdf",
+        "records": [
+          {
+            "id": "contact-1995-04-27-telcon-27",
+            "date": "1995-04-27",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 27, 1995, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1995-05-10-memcon-28.pdf",
+        "records": [
+          {
+            "id": "contact-1995-05-10-memcon-28",
+            "date": "1995-05-10",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia",
+            "conversationPages": 16,
+            "localPdfPages": 17
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1995-06-17-memcon-29.pdf",
+        "records": [
+          {
+            "id": "contact-1995-06-17-memcon-29",
+            "date": "1995-06-17",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada",
+            "conversationPages": 8,
+            "localPdfPages": 8
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1995-07-28-telcon-30.pdf",
+        "records": [
+          {
+            "id": "contact-1995-07-28-telcon-30",
+            "date": "1995-07-28",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House",
+            "conversationPages": 5,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1995-09-27-telcon-31.pdf",
+        "records": [
+          {
+            "id": "contact-1995-09-27-telcon-31",
+            "date": "1995-09-27",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 27, 1995, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1995-10-23-clinton-yeltsin-hyde-park-lunch.pdf",
+        "records": [
+          {
+            "id": "contact-1995-10-23-memcon-hyde-park-lunch",
+            "date": "1995-10-23",
+            "type": "Memcon",
+            "title": "Lunch with Boris Yeltsin, President of Russian Federation",
+            "conversationPages": 5,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf",
+        "records": [
+          {
+            "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
+            "date": "1995-10-23",
+            "type": "Memcon",
+            "title": "Clinton-Yeltsin One-on-One",
+            "conversationPages": 12,
+            "localPdfPages": 13
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-01-26-telcon-33.pdf",
+        "records": [
+          {
+            "id": "contact-1996-01-26-telcon-33",
+            "date": "1996-01-26",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House",
+            "conversationPages": 5,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-02-21-telcon-34.pdf",
+        "records": [
+          {
+            "id": "contact-1996-02-21-telcon-34",
+            "date": "1996-02-21",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-03-13-clinton-yeltsin-sharm-el-sheikh-memcon-cable.pdf",
+        "records": [
+          {
+            "id": "contact-1996-03-13-memcon-35",
+            "date": "1996-03-13",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-04-09-telcon-36.pdf",
+        "records": [
+          {
+            "id": "contact-1996-04-09-telcon-36",
+            "date": "1996-04-09",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 9, 1996, White House",
+            "conversationPages": 5,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-04-21-memcon-moscow-luncheon.pdf",
+        "records": [
+          {
+            "id": "contact-1996-04-21-memcon-moscow-luncheon",
+            "date": "1996-04-21",
+            "type": "Memcon",
+            "title": "Luncheon Meeting with Russian President Boris Yeltsin",
+            "conversationPages": 7,
+            "localPdfPages": 8
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-04-21-memcon-moscow-one-on-one.pdf",
+        "records": [
+          {
+            "id": "contact-1996-04-21-memcon-moscow-one-on-one",
+            "date": "1996-04-21",
+            "type": "Memcon",
+            "title": "POTUS-Yeltsin One-on-One",
+            "conversationPages": 13,
+            "localPdfPages": 14
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-05-07-telcon-38.pdf",
+        "records": [
+          {
+            "id": "contact-1996-05-07-telcon-38",
+            "date": "1996-05-07",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 7, 1996, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-06-18-telcon-39.pdf",
+        "records": [
+          {
+            "id": "contact-1996-06-18-telcon-39",
+            "date": "1996-06-18",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House",
+            "conversationPages": 2,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-07-05-telcon-40.pdf",
+        "records": [
+          {
+            "id": "contact-1996-07-05-telcon-40",
+            "date": "1996-07-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, July 5, 1996, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-09-15-telcon-41.pdf",
+        "records": [
+          {
+            "id": "contact-1996-09-15-telcon-41",
+            "date": "1996-09-15",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 15, 1996, White House",
+            "conversationPages": 2,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1996-12-05-telcon-42.pdf",
+        "records": [
+          {
+            "id": "contact-1996-12-05-telcon-42",
+            "date": "1996-12-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, December 5, 1996, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-02-27-telcon-43.pdf",
+        "records": [
+          {
+            "id": "contact-1997-02-27-telcon-43",
+            "date": "1997-02-27",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-03-21-memcon-helsinki-afternoon.pdf",
+        "records": [
+          {
+            "id": "contact-1997-03-21-memcon-helsinki-afternoon",
+            "date": "1997-03-21",
+            "type": "Memcon",
+            "title": "Helsinki Afternoon Meeting with President Boris Yeltsin",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-03-21-memcon-helsinki-morning.pdf",
+        "records": [
+          {
+            "id": "contact-1997-03-21-memcon-helsinki-morning",
+            "date": "1997-03-21",
+            "type": "Memcon",
+            "title": "Helsinki Morning Meeting with President Boris Yeltsin",
+            "conversationPages": 11,
+            "localPdfPages": 12
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf",
+        "records": [
+          {
+            "id": "contact-1997-03-21-memcon-helsinki-private-dinner",
+            "date": "1997-03-21",
+            "type": "Memcon",
+            "title": "Helsinki Private Dinner with President Boris Yeltsin",
+            "conversationPages": 6,
+            "localPdfPages": 7
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf",
+        "records": [
+          {
+            "id": "contact-1997-03-21-memcon-helsinki-working-lunch",
+            "date": "1997-03-21",
+            "type": "Memcon",
+            "title": "Helsinki Working Lunch with President Boris Yeltsin",
+            "conversationPages": 8,
+            "localPdfPages": 9
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-05-27-memcon-45.pdf",
+        "records": [
+          {
+            "id": "contact-1997-05-27-memcon-45",
+            "date": "1997-05-27",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+            "conversationPages": 8,
+            "localPdfPages": 9
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-06-20-memcon-46.pdf",
+        "records": [
+          {
+            "id": "contact-1997-06-20-memcon-46",
+            "date": "1997-06-20",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+            "conversationPages": 8,
+            "localPdfPages": 9
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-10-30-telcon-47.pdf",
+        "records": [
+          {
+            "id": "contact-1997-10-30-telcon-47",
+            "date": "1997-10-30",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House",
+            "conversationPages": 6,
+            "localPdfPages": 7
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-11-16-telcon-48.pdf",
+        "records": [
+          {
+            "id": "contact-1997-11-16-telcon-48",
+            "date": "1997-11-16",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, November 16, 1997, Malibu, California",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1997-11-22-telcon-49.pdf",
+        "records": [
+          {
+            "id": "contact-1997-11-22-telcon-49",
+            "date": "1997-11-22",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, November 22, 1997, White House",
+            "conversationPages": 6,
+            "localPdfPages": 7
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-02-02-telcon-50.pdf",
+        "records": [
+          {
+            "id": "contact-1998-02-02-telcon-50",
+            "date": "1998-02-02",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-02-23-telcon-51.pdf",
+        "records": [
+          {
+            "id": "contact-1998-02-23-telcon-51",
+            "date": "1998-02-23",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 23, 1998, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-04-06-telcon-52.pdf",
+        "records": [
+          {
+            "id": "contact-1998-04-06-telcon-52",
+            "date": "1998-04-06",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House",
+            "conversationPages": 5,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-05-12-telcon-53.pdf",
+        "records": [
+          {
+            "id": "contact-1998-05-12-telcon-53",
+            "date": "1998-05-12",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 12, 1998, White House",
+            "conversationPages": 5,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-05-17-memcon-54.pdf",
+        "records": [
+          {
+            "id": "contact-1998-05-17-memcon-54",
+            "date": "1998-05-17",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England",
+            "conversationPages": 8,
+            "localPdfPages": 9
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-05-21-telcon-55.pdf",
+        "records": [
+          {
+            "id": "contact-1998-05-21-telcon-55",
+            "date": "1998-05-21",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 21, 1998, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-05-28-telcon-56.pdf",
+        "records": [
+          {
+            "id": "contact-1998-05-28-telcon-56",
+            "date": "1998-05-28",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 28, 1998, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-06-15-telcon-57.pdf",
+        "records": [
+          {
+            "id": "contact-1998-06-15-telcon-57",
+            "date": "1998-06-15",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House",
+            "conversationPages": 5,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-06-16-telcon-59.pdf",
+        "records": [
+          {
+            "id": "contact-1998-06-16-telcon-59",
+            "date": "1998-06-16",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 16, 1998, White House",
+            "conversationPages": 2,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-07-10-telcon-60.pdf",
+        "records": [
+          {
+            "id": "contact-1998-07-10-telcon-60",
+            "date": "1998-07-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, July 10, 1998, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-08-14-telcon-61.pdf",
+        "records": [
+          {
+            "id": "contact-1998-08-14-telcon-61",
+            "date": "1998-08-14",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House",
+            "conversationPages": 6,
+            "localPdfPages": 7
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-08-25-telcon-62.pdf",
+        "records": [
+          {
+            "id": "contact-1998-08-25-telcon-62",
+            "date": "1998-08-25",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, August 25, 1998, Martha's Vineyard, Massachusetts",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-09-12-telcon-64.pdf",
+        "records": [
+          {
+            "id": "contact-1998-09-12-telcon-64",
+            "date": "1998-09-12",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 12, 1998, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-10-05-clinton-yeltsin-telcon-actual-pages.pdf",
+        "records": [
+          {
+            "id": "contact-1998-10-05-telcon-65",
+            "date": "1998-10-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House",
+            "conversationPages": 3,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1998-12-30-clinton-yeltsin-telcon-actual-pages.pdf",
+        "records": [
+          {
+            "id": "contact-1998-12-30-telcon-66",
+            "date": "1998-12-30",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House",
+            "conversationPages": 5,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-03-24-telcon-68.pdf",
+        "records": [
+          {
+            "id": "contact-1999-03-24-telcon-68",
+            "date": "1999-03-24",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, March 24, 1999, White House",
+            "conversationPages": 5,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-04-19-telcon-69.pdf",
+        "records": [
+          {
+            "id": "contact-1999-04-19-telcon-69",
+            "date": "1999-04-19",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House",
+            "conversationPages": 6,
+            "localPdfPages": 7
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-04-25-telcon-70.pdf",
+        "records": [
+          {
+            "id": "contact-1999-04-25-telcon-70",
+            "date": "1999-04-25",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.",
+            "conversationPages": 12,
+            "localPdfPages": 13
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-05-02-telcon-71.pdf",
+        "records": [
+          {
+            "id": "contact-1999-05-02-telcon-71",
+            "date": "1999-05-02",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 2, 1999, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-06-07-telcon-72.pdf",
+        "records": [
+          {
+            "id": "contact-1999-06-07-telcon-72",
+            "date": "1999-06-07",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 7, 1999, White House",
+            "conversationPages": 2,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-06-08-telcon-73.pdf",
+        "records": [
+          {
+            "id": "contact-1999-06-08-telcon-73",
+            "date": "1999-06-08",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 8, 1999, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-06-10-telcon-74.pdf",
+        "records": [
+          {
+            "id": "contact-1999-06-10-telcon-74",
+            "date": "1999-06-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 10, 1999, White House",
+            "conversationPages": 2,
+            "localPdfPages": 3
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-06-13-telcon-75.pdf",
+        "records": [
+          {
+            "id": "contact-1999-06-13-telcon-75",
+            "date": "1999-06-13",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 13, 1999, White House",
+            "conversationPages": 7,
+            "localPdfPages": 8
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-06-14-telcon-76.pdf",
+        "records": [
+          {
+            "id": "contact-1999-06-14-telcon-76",
+            "date": "1999-06-14",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 14, 1999, White House",
+            "conversationPages": 4,
+            "localPdfPages": 5
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-06-20-memcon-77.pdf",
+        "records": [
+          {
+            "id": "contact-1999-06-20-memcon-77",
+            "date": "1999-06-20",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany",
+            "conversationPages": 9,
+            "localPdfPages": 10
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-09-08-telcon-78.pdf",
+        "records": [
+          {
+            "id": "contact-1999-09-08-telcon-78",
+            "date": "1999-09-08",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 8, 1999, White House",
+            "conversationPages": 5,
+            "localPdfPages": 6
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-11-18-memcon-79.pdf",
+        "records": [
+          {
+            "id": "contact-1999-11-18-memcon-79",
+            "date": "1999-11-18",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, November 18, 1999, Istanbul, Turkey",
+            "conversationPages": 7,
+            "localPdfPages": 8
+          }
+        ]
+      },
+      {
+        "path": "public/documents/1999-12-31-telcon-80.pdf",
+        "records": [
+          {
+            "id": "contact-1999-12-31-telcon-80",
+            "date": "1999-12-31",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, December 31, 1999, White House",
+            "conversationPages": 3,
+            "localPdfPages": 4
+          }
+        ]
+      }
+    ]
+  },
+  "googleDriveFiles": {
+    "rowReferences": 64,
+    "uniqueFiles": 64,
+    "repeatedFiles": [],
+    "files": [
+      {
+        "key": "https://drive.google.com/file/d/1NxhemfjqE_hcdqHtQKlLDBumnl1Mbz7K/view",
+        "id": "1NxhemfjqE_hcdqHtQKlLDBumnl1Mbz7K",
+        "title": "930123 Clinton Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1NxhemfjqE_hcdqHtQKlLDBumnl1Mbz7K/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-01-23-telcon-01",
+            "date": "1993-01-23",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, January 23, 1993, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/15AYs4fgvbYNfhuAAJ96QewfB7HktZ2gb/view",
+        "id": "15AYs4fgvbYNfhuAAJ96QewfB7HktZ2gb",
+        "title": "930210 Clinton Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/15AYs4fgvbYNfhuAAJ96QewfB7HktZ2gb/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-02-10-telcon-02",
+            "date": "1993-02-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 10, 1993, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1EgHtw2tYu5lakv8QZX3dd519uhZZ_7kF/view",
+        "id": "1EgHtw2tYu5lakv8QZX3dd519uhZZ_7kF",
+        "title": "930426 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1EgHtw2tYu5lakv8QZX3dd519uhZZ_7kF/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-04-26-telcon-05",
+            "date": "1993-04-26",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 26, 1993, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1I6JITyg6F8GGaL-udA_mJywVtIwZ4fIU/view",
+        "id": "1I6JITyg6F8GGaL-udA_mJywVtIwZ4fIU",
+        "title": "930502 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1I6JITyg6F8GGaL-udA_mJywVtIwZ4fIU/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-05-02-telcon-06",
+            "date": "1993-05-02",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 2, 1993, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1fonmBkzM0qhOUmDP74PVYmQYEBrQGpq2/view",
+        "id": "1fonmBkzM0qhOUmDP74PVYmQYEBrQGpq2",
+        "title": "930628 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1fonmBkzM0qhOUmDP74PVYmQYEBrQGpq2/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-06-28-telcon-08",
+            "date": "1993-06-28",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 28, 1993, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1oLH4zCmIub-kgvXXs0wZDGELWehL9Pqh/view",
+        "id": "1oLH4zCmIub-kgvXXs0wZDGELWehL9Pqh",
+        "title": "930710 Clinton and Yeltsin in Tokyo memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1oLH4zCmIub-kgvXXs0wZDGELWehL9Pqh/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-07-10-memcon-09",
+            "date": "1993-07-10",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/15VrM1_b_ytYNKHKn78ZKANgfJBVY72fn/view",
+        "id": "15VrM1_b_ytYNKHKn78ZKANgfJBVY72fn",
+        "title": "930907 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/15VrM1_b_ytYNKHKn78ZKANgfJBVY72fn/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-09-07-telcon-10",
+            "date": "1993-09-07",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 7, 1993, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/17KnXzjPdKqJGPUWyC4ge5PVBSyOJ03QO/view",
+        "id": "17KnXzjPdKqJGPUWyC4ge5PVBSyOJ03QO",
+        "title": "930921 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/17KnXzjPdKqJGPUWyC4ge5PVBSyOJ03QO/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-09-21-telcon-11",
+            "date": "1993-09-21",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 21, 1993, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1jf6_8GhGV5MGQN3G4OxgrCthB5FHhfaT/view",
+        "id": "1jf6_8GhGV5MGQN3G4OxgrCthB5FHhfaT",
+        "title": "931005 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1jf6_8GhGV5MGQN3G4OxgrCthB5FHhfaT/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-10-05-telcon-12",
+            "date": "1993-10-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, October 5, 1993, Air Force One"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
+        "id": "1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD",
+        "title": "931010 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1fClpMfna1KtDo3cWvis5vnkYWBjNRPwD/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-10-10-telcon-25",
+            "date": "1994-10-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, October 10, 1994, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1u1uO_zeA0GNNX8nPkvsTHJ3rALOOn6pZ/view",
+        "id": "1u1uO_zeA0GNNX8nPkvsTHJ3rALOOn6pZ",
+        "title": "931222 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1u1uO_zeA0GNNX8nPkvsTHJ3rALOOn6pZ/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1993-12-22-telcon-13",
+            "date": "1993-12-22",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r/view",
+        "id": "1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r",
+        "title": "940114 Clinton and Yeltsin and Kravchuk memcon.pdf",
+        "url": "https://drive.google.com/file/d/1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-01-14-memcon-trilateral-yeltsin-kravchuk",
+            "date": "1994-01-14",
+            "type": "Memcon",
+            "title": "Trilateral Meeting with President Boris Yeltsin of Russia on Security Issues"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view",
+        "id": "1pr42yhINujL_px_Y5aXD_MmChhc5sy9v",
+        "title": "940114 Clinton and Yeltsin Memcon.pdf",
+        "url": "https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+            "date": "1994-01-14",
+            "type": "Memcon",
+            "title": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1bhiipjnmQh_WU-WC9XUGKIrzW93q4r38/view",
+        "id": "1bhiipjnmQh_WU-WC9XUGKIrzW93q4r38",
+        "title": "940114 Clinton and Yeltsin Morning Session memcon.pdf",
+        "url": "https://drive.google.com/file/d/1bhiipjnmQh_WU-WC9XUGKIrzW93q4r38/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+            "date": "1994-01-14",
+            "type": "Memcon",
+            "title": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1-Czdq2907N9Zq6Rt7civTm-xPwkK9h6y/view",
+        "id": "1-Czdq2907N9Zq6Rt7civTm-xPwkK9h6y",
+        "title": "940220 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1-Czdq2907N9Zq6Rt7civTm-xPwkK9h6y/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-02-20-telcon-16",
+            "date": "1994-02-20",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 20, 1994, White House White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1qihIq6mo51EnA3ufb089tvkxIRp4kVnN/view",
+        "id": "1qihIq6mo51EnA3ufb089tvkxIRp4kVnN",
+        "title": "940410 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1qihIq6mo51EnA3ufb089tvkxIRp4kVnN/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-04-10-telcon-17",
+            "date": "1994-04-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 10, 1994, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1ak-28O0E3npmQFlhnktlHR9h7Jze_RQq/view",
+        "id": "1ak-28O0E3npmQFlhnktlHR9h7Jze_RQq",
+        "title": "940420 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1ak-28O0E3npmQFlhnktlHR9h7Jze_RQq/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-04-20-telcon-18",
+            "date": "1994-04-20",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 20, 1994, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1FTGT_4HHEl4j1Z7nG2n8Oo36AMCY9rUX/view",
+        "id": "1FTGT_4HHEl4j1Z7nG2n8Oo36AMCY9rUX",
+        "title": "940611 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1FTGT_4HHEl4j1Z7nG2n8Oo36AMCY9rUX/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-06-13-telcon-20",
+            "date": "1994-06-13",
+            "type": "Telcon",
+            "title": "Telephone Call with President Boris Yeltsin of Russia, June 13, 1994, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1EMCFtfaOX3jrb7Pcncsjcij86vCVFqHx/view",
+        "id": "1EMCFtfaOX3jrb7Pcncsjcij86vCVFqHx",
+        "title": "940705 Clinto and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1EMCFtfaOX3jrb7Pcncsjcij86vCVFqHx/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-07-05-telcon-21",
+            "date": "1994-07-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, July 5, 1994, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/13ojhHQejsL_uYgVxz_GHe8u_ponQ_FFj/view",
+        "id": "13ojhHQejsL_uYgVxz_GHe8u_ponQ_FFj",
+        "title": "940927 Clinton and Yeltsin in DC memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/13ojhHQejsL_uYgVxz_GHe8u_ponQ_FFj/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1994-09-27-memcon-23",
+            "date": "1994-09-27",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z/view",
+        "id": "15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z",
+        "title": "940927 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/15MpCXy-fCB8_KdvadCV1ypsw12ejYX3Z/view",
+        "date": "",
+        "records": [
+          {
+            "id": "drive-candidate-1994-09-27-memcon-one-on-one",
+            "date": "1994-09-27",
+            "type": "Memcon",
+            "title": "Clinton-Yeltsin one-on-one memcon, September 27, 1994"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1EgGoQhfX4a7Fq8fEWtIhjUISe6hko4ai/view",
+        "id": "1EgGoQhfX4a7Fq8fEWtIhjUISe6hko4ai",
+        "title": "950213 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1EgGoQhfX4a7Fq8fEWtIhjUISe6hko4ai/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1995-02-13-telcon-26",
+            "date": "1995-02-13",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 13, 1995, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1-VyJatd2iE4fjlYtr3YM6930R3dRVHVU/view",
+        "id": "1-VyJatd2iE4fjlYtr3YM6930R3dRVHVU",
+        "title": "950728 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1-VyJatd2iE4fjlYtr3YM6930R3dRVHVU/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1995-07-28-telcon-30",
+            "date": "1995-07-28",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/13wiC3-DXoaYOXFvnwFGZ2EoaL39Z6oCh/view",
+        "id": "13wiC3-DXoaYOXFvnwFGZ2EoaL39Z6oCh",
+        "title": "950927 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/13wiC3-DXoaYOXFvnwFGZ2EoaL39Z6oCh/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1995-09-27-telcon-31",
+            "date": "1995-09-27",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 27, 1995, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1yNha4AfK3kD6rPBPbSwA7RXGD_RLjz_e/view",
+        "id": "1yNha4AfK3kD6rPBPbSwA7RXGD_RLjz_e",
+        "title": "960126 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1yNha4AfK3kD6rPBPbSwA7RXGD_RLjz_e/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-01-26-telcon-33",
+            "date": "1996-01-26",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1tsAEajB4pmA2K-uxgCE3uIGe3Ek-PSMl/view",
+        "id": "1tsAEajB4pmA2K-uxgCE3uIGe3Ek-PSMl",
+        "title": "960221 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1tsAEajB4pmA2K-uxgCE3uIGe3Ek-PSMl/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-02-21-telcon-34",
+            "date": "1996-02-21",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view",
+        "id": "1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c",
+        "title": "960313 Cable Memcon with Yeltsin Sharm el-Sheikh Egypt.pdf",
+        "url": "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-03-13-memcon-35",
+            "date": "1996-03-13",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2/view",
+        "id": "1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2",
+        "title": "960313 Clinton and Yeltsin memcon cable.pdf",
+        "url": "https://drive.google.com/file/d/1Qr896gBJeiMDZ1hO5PNnmI2OtyAaBMU2/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-03-13-memcon-35",
+            "date": "1996-03-13",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1lGJCeA3FFPSqmmsNnXNA64B6koOy56ZB/view",
+        "id": "1lGJCeA3FFPSqmmsNnXNA64B6koOy56ZB",
+        "title": "960409 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1lGJCeA3FFPSqmmsNnXNA64B6koOy56ZB/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-04-09-telcon-36",
+            "date": "1996-04-09",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 9, 1996, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/14NhGIMpynoxRlqbrA48-tTTGziPFz-B_/view",
+        "id": "14NhGIMpynoxRlqbrA48-tTTGziPFz-B_",
+        "title": "960421 Clinton and Yeltsin in the Kremlin memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/14NhGIMpynoxRlqbrA48-tTTGziPFz-B_/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-04-21-memcon-moscow-one-on-one",
+            "date": "1996-04-21",
+            "type": "Memcon",
+            "title": "POTUS-Yeltsin One-on-One"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1jOjVAVkV8IeRD0SJmY4krQCH_Jr1oJQl/view",
+        "id": "1jOjVAVkV8IeRD0SJmY4krQCH_Jr1oJQl",
+        "title": "960421 Clinton and Yeltsin lunch meeting memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1jOjVAVkV8IeRD0SJmY4krQCH_Jr1oJQl/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-04-21-memcon-moscow-luncheon",
+            "date": "1996-04-21",
+            "type": "Memcon",
+            "title": "Luncheon Meeting with Russian President Boris Yeltsin"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1C9TLIGhTQ1RQQ6CuX9UG0eQsksrFHvO5/view",
+        "id": "1C9TLIGhTQ1RQQ6CuX9UG0eQsksrFHvO5",
+        "title": "960507 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1C9TLIGhTQ1RQQ6CuX9UG0eQsksrFHvO5/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-05-07-telcon-38",
+            "date": "1996-05-07",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 7, 1996, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1WFu5nHDo4uSM89CiS2CvB-vhCG76XUy3/view",
+        "id": "1WFu5nHDo4uSM89CiS2CvB-vhCG76XUy3",
+        "title": "960618 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1WFu5nHDo4uSM89CiS2CvB-vhCG76XUy3/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-06-18-telcon-39",
+            "date": "1996-06-18",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/17IU8SnZtm4swpzXILw5JnpUXQ3PEx1ql/view",
+        "id": "17IU8SnZtm4swpzXILw5JnpUXQ3PEx1ql",
+        "title": "960705 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/17IU8SnZtm4swpzXILw5JnpUXQ3PEx1ql/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1996-07-05-telcon-40",
+            "date": "1996-07-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, July 5, 1996, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1HVoBqp-n_57yMZlA7nWh-mMXEdBUum5Q/view",
+        "id": "1HVoBqp-n_57yMZlA7nWh-mMXEdBUum5Q",
+        "title": "970227 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1HVoBqp-n_57yMZlA7nWh-mMXEdBUum5Q/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-02-27-telcon-43",
+            "date": "1997-02-27",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1KLOMwJsMKTaMp-3fsDHGk24zWvqLh6ou/view",
+        "id": "1KLOMwJsMKTaMp-3fsDHGk24zWvqLh6ou",
+        "title": "970321 815pm to 930pm Clinton and Yeltsin in Helsinki memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1KLOMwJsMKTaMp-3fsDHGk24zWvqLh6ou/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-03-21-memcon-helsinki-private-dinner",
+            "date": "1997-03-21",
+            "type": "Memcon",
+            "title": "Helsinki Private Dinner with President Boris Yeltsin"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1sBvI46_5rIq0yKZ1b7nf67To2f5foPmf/view",
+        "id": "1sBvI46_5rIq0yKZ1b7nf67To2f5foPmf",
+        "title": "970321 950am to 1155am Clinton and Yeltsin in Helsinki memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1sBvI46_5rIq0yKZ1b7nf67To2f5foPmf/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-03-21-memcon-helsinki-morning",
+            "date": "1997-03-21",
+            "type": "Memcon",
+            "title": "Helsinki Morning Meeting with President Boris Yeltsin"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1zmToE2EEbOlex2gl6Nv1ULdECLF8PDWM/view",
+        "id": "1zmToE2EEbOlex2gl6Nv1ULdECLF8PDWM",
+        "title": "970321 Afternoon Meeting Clinton and Yeltsin in Helsinki memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1zmToE2EEbOlex2gl6Nv1ULdECLF8PDWM/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-03-21-memcon-helsinki-afternoon",
+            "date": "1997-03-21",
+            "type": "Memcon",
+            "title": "Helsinki Afternoon Meeting with President Boris Yeltsin"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1FvtlBsBnOZu4uFuqxfjLe9Fdj9iaT8dY/view",
+        "id": "1FvtlBsBnOZu4uFuqxfjLe9Fdj9iaT8dY",
+        "title": "970321 Working Lunch Clinton and Yeltsin in Helsinki memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1FvtlBsBnOZu4uFuqxfjLe9Fdj9iaT8dY/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-03-21-memcon-helsinki-working-lunch",
+            "date": "1997-03-21",
+            "type": "Memcon",
+            "title": "Helsinki Working Lunch with President Boris Yeltsin"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1VNFoDJYteyNDoWqrRuAWT8iLIAiHpFzh/view",
+        "id": "1VNFoDJYteyNDoWqrRuAWT8iLIAiHpFzh",
+        "title": "970527 Clinton and Yeltsin in Paris memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1VNFoDJYteyNDoWqrRuAWT8iLIAiHpFzh/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-05-27-memcon-45",
+            "date": "1997-05-27",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1068D97hQCXClJSz5sIQkmPDuuW_yCf5K/view",
+        "id": "1068D97hQCXClJSz5sIQkmPDuuW_yCf5K",
+        "title": "970620 Clinton and Yeltsin in Denver memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1068D97hQCXClJSz5sIQkmPDuuW_yCf5K/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-06-20-memcon-46",
+            "date": "1997-06-20",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1fT5AgUtzJunIagUVKSoKio6YudL2rLEx/view",
+        "id": "1fT5AgUtzJunIagUVKSoKio6YudL2rLEx",
+        "title": "971030 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1fT5AgUtzJunIagUVKSoKio6YudL2rLEx/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-10-30-telcon-47",
+            "date": "1997-10-30",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1c64v-q0n_DF-5kg16qrNjXxT6o4O7iEZ/view",
+        "id": "1c64v-q0n_DF-5kg16qrNjXxT6o4O7iEZ",
+        "title": "971116 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1c64v-q0n_DF-5kg16qrNjXxT6o4O7iEZ/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-11-16-telcon-48",
+            "date": "1997-11-16",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, November 16, 1997, Malibu, California"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1PgRJZpQqXva-Kp6ogOhraQElJZl0GXdk/view",
+        "id": "1PgRJZpQqXva-Kp6ogOhraQElJZl0GXdk",
+        "title": "971122 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1PgRJZpQqXva-Kp6ogOhraQElJZl0GXdk/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1997-11-22-telcon-49",
+            "date": "1997-11-22",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, November 22, 1997, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1mGa3d3xnEIbCrsJNqsQPjAWifdli0Xar/view",
+        "id": "1mGa3d3xnEIbCrsJNqsQPjAWifdli0Xar",
+        "title": "980202 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1mGa3d3xnEIbCrsJNqsQPjAWifdli0Xar/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-02-02-telcon-50",
+            "date": "1998-02-02",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1j7AvpVjmjdRTEhJ4Al4KvPD0ZMiqDVwj/view",
+        "id": "1j7AvpVjmjdRTEhJ4Al4KvPD0ZMiqDVwj",
+        "title": "980223 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1j7AvpVjmjdRTEhJ4Al4KvPD0ZMiqDVwj/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-02-23-telcon-51",
+            "date": "1998-02-23",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, February 23, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1BCpDN6EIDJyq188YS46cjJgYs2kyzNui/view",
+        "id": "1BCpDN6EIDJyq188YS46cjJgYs2kyzNui",
+        "title": "980406 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1BCpDN6EIDJyq188YS46cjJgYs2kyzNui/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-04-06-telcon-52",
+            "date": "1998-04-06",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1j3wB3sjgDr43yH8nbu9W4eX35XNb5vTo/view",
+        "id": "1j3wB3sjgDr43yH8nbu9W4eX35XNb5vTo",
+        "title": "980512 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1j3wB3sjgDr43yH8nbu9W4eX35XNb5vTo/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-05-12-telcon-53",
+            "date": "1998-05-12",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 12, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1IkQrGGfVtGl1fkXMaHmkwjSnmcpTyA7S/view",
+        "id": "1IkQrGGfVtGl1fkXMaHmkwjSnmcpTyA7S",
+        "title": "980517 Clinton and Yeltsin in Birmingham memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1IkQrGGfVtGl1fkXMaHmkwjSnmcpTyA7S/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-05-17-memcon-54",
+            "date": "1998-05-17",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1_cus2DmP8sCA7HtsHoGspBGaKG5MvjMI/view",
+        "id": "1_cus2DmP8sCA7HtsHoGspBGaKG5MvjMI",
+        "title": "980521 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1_cus2DmP8sCA7HtsHoGspBGaKG5MvjMI/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-05-21-telcon-55",
+            "date": "1998-05-21",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 21, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1F2aVY9zTrKysoGW-6-bn5tGdsTGDQ4y5/view",
+        "id": "1F2aVY9zTrKysoGW-6-bn5tGdsTGDQ4y5",
+        "title": "980528 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1F2aVY9zTrKysoGW-6-bn5tGdsTGDQ4y5/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-05-28-telcon-56",
+            "date": "1998-05-28",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 28, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1hhBx6lIoQXXnyXsHoZxDo7oYNvYHbKsw/view",
+        "id": "1hhBx6lIoQXXnyXsHoZxDo7oYNvYHbKsw",
+        "title": "980615 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1hhBx6lIoQXXnyXsHoZxDo7oYNvYHbKsw/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-06-15-telcon-57",
+            "date": "1998-06-15",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1rfsHmNUqd_CG69JwlpHp3gb91PiFko5A/view",
+        "id": "1rfsHmNUqd_CG69JwlpHp3gb91PiFko5A",
+        "title": "980710 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1rfsHmNUqd_CG69JwlpHp3gb91PiFko5A/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-07-10-telcon-60",
+            "date": "1998-07-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, July 10, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1_Dekfu38Q_Gk1IwYiEJqitsrnsvSX9Qh/view",
+        "id": "1_Dekfu38Q_Gk1IwYiEJqitsrnsvSX9Qh",
+        "title": "980814 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1_Dekfu38Q_Gk1IwYiEJqitsrnsvSX9Qh/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-08-14-telcon-61",
+            "date": "1998-08-14",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1HMmaeeYPmG7x8ueyovnZXgGBpb55xkRz/view",
+        "id": "1HMmaeeYPmG7x8ueyovnZXgGBpb55xkRz",
+        "title": "980825 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1HMmaeeYPmG7x8ueyovnZXgGBpb55xkRz/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-08-25-telcon-62",
+            "date": "1998-08-25",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, August 25, 1998, Martha's Vineyard, Massachusetts"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1zL_1vQEJbvq4SWhIAqKpjAa3J2VR_AxW/view",
+        "id": "1zL_1vQEJbvq4SWhIAqKpjAa3J2VR_AxW",
+        "title": "980912 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1zL_1vQEJbvq4SWhIAqKpjAa3J2VR_AxW/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1998-09-12-telcon-64",
+            "date": "1998-09-12",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 12, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1YBmo26tprmItE4dS_dXX5Ic6QShZpn4h/view",
+        "id": "1YBmo26tprmItE4dS_dXX5Ic6QShZpn4h",
+        "title": "990425 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1YBmo26tprmItE4dS_dXX5Ic6QShZpn4h/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1999-04-25-telcon-70",
+            "date": "1999-04-25",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C."
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1ix1Ii-rAWelKeQi7jC6_PI4qRZlMinle/view",
+        "id": "1ix1Ii-rAWelKeQi7jC6_PI4qRZlMinle",
+        "title": "990502 Clinton Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1ix1Ii-rAWelKeQi7jC6_PI4qRZlMinle/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1999-05-02-telcon-71",
+            "date": "1999-05-02",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 2, 1999, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1wt8YvzsjTSpf3H4JMgUXJMU-hMk0bA74/view",
+        "id": "1wt8YvzsjTSpf3H4JMgUXJMU-hMk0bA74",
+        "title": "990613 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1wt8YvzsjTSpf3H4JMgUXJMU-hMk0bA74/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1999-06-13-telcon-75",
+            "date": "1999-06-13",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 13, 1999, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/17_TAwdKBILpcBjzOK6fFzttzMxXLHc5P/view",
+        "id": "17_TAwdKBILpcBjzOK6fFzttzMxXLHc5P",
+        "title": "990614 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/17_TAwdKBILpcBjzOK6fFzttzMxXLHc5P/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1999-06-14-telcon-76",
+            "date": "1999-06-14",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 14, 1999, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1sQzV-Sy-8geFSdknDtdp9xlzQCBI3QhN/view",
+        "id": "1sQzV-Sy-8geFSdknDtdp9xlzQCBI3QhN",
+        "title": "990620 Clinton and Yeltsin in Colognepdf.pdf",
+        "url": "https://drive.google.com/file/d/1sQzV-Sy-8geFSdknDtdp9xlzQCBI3QhN/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1999-06-20-memcon-77",
+            "date": "1999-06-20",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1wxPSyI3jA335DIh43d6VJ4BLULbLKIPR/view",
+        "id": "1wxPSyI3jA335DIh43d6VJ4BLULbLKIPR",
+        "title": "990908 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1wxPSyI3jA335DIh43d6VJ4BLULbLKIPR/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1999-09-08-telcon-78",
+            "date": "1999-09-08",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, September 8, 1999, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1MgSg0Iph1k9aGeSZqpsXiYJd0eJP9crE/view",
+        "id": "1MgSg0Iph1k9aGeSZqpsXiYJd0eJP9crE",
+        "title": "991119 Clinton and Yeltsin in Istanbul memconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1MgSg0Iph1k9aGeSZqpsXiYJd0eJP9crE/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1999-11-18-memcon-79",
+            "date": "1999-11-18",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, November 18, 1999, Istanbul, Turkey"
+          }
+        ]
+      },
+      {
+        "key": "https://drive.google.com/file/d/1ruK9pfEPeuBWuqAJD8TLhrQUEqIirk1v/view",
+        "id": "1ruK9pfEPeuBWuqAJD8TLhrQUEqIirk1v",
+        "title": "991231 Clinton and Yeltsin telconpdf.pdf",
+        "url": "https://drive.google.com/file/d/1ruK9pfEPeuBWuqAJD8TLhrQUEqIirk1v/view",
+        "date": "",
+        "records": [
+          {
+            "id": "contact-1999-12-31-telcon-80",
+            "date": "1999-12-31",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, December 31, 1999, White House"
+          }
+        ]
+      }
+    ]
+  },
+  "strobeFiles": {
+    "rowReferences": 14,
+    "uniqueFiles": 13,
+    "repeatedFiles": [
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+        "id": "C09000007",
+        "title": "POTUS-Yeltsin Memcon w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+        "date": "1998-05-17",
+        "records": [
+          {
+            "id": "contact-1998-04-06-telcon-52",
+            "date": "1998-04-06",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House"
+          },
+          {
+            "id": "contact-1998-05-17-memcon-54",
+            "date": "1998-05-17",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2023/FL-2017-13804/DOC_0C09000001/C09000001.pdf",
+        "id": "C09000001",
+        "title": "Memon with President Boris Yeltsin of Russia w/Attached Cover Sheet",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2023/FL-2017-13804/DOC_0C09000001/C09000001.pdf",
+        "date": "1993-07-16",
+        "records": [
+          {
+            "id": "contact-1993-07-10-memcon-09",
+            "date": "1993-07-10",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694711/C06694711.pdf",
+        "id": "C06694711",
+        "title": "Telephone Conversation with Russian President Yeltsin",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694711/C06694711.pdf",
+        "date": "1994-10-05",
+        "records": [
+          {
+            "id": "contact-1994-10-05-telcon-24",
+            "date": "1994-10-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin, October 5, 1994, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+        "id": "C06835181",
+        "title": "Clinton-Yeltsin Meeting",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf",
+        "date": "1995-06-17",
+        "records": [
+          {
+            "id": "contact-1995-06-17-memcon-29",
+            "date": "1995-06-17",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835137/C06835137.pdf",
+        "id": "C06835137",
+        "title": "Clinton-Yeltsin One-on-One",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835137/C06835137.pdf",
+        "date": "1995-10-23",
+        "records": [
+          {
+            "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
+            "date": "1995-10-23",
+            "type": "Memcon",
+            "title": "Clinton-Yeltsin One-on-One"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697699/C06697699.pdf",
+        "id": "C06697699",
+        "title": "POTUS-Yeltsin One-on-One",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697699/C06697699.pdf",
+        "date": "1996-04-21",
+        "records": [
+          {
+            "id": "contact-1996-04-21-memcon-moscow-one-on-one",
+            "date": "1996-04-21",
+            "type": "Memcon",
+            "title": "POTUS-Yeltsin One-on-One"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000056/C09000056.pdf",
+        "id": "C09000056",
+        "title": "Transmittal Memorandum of Telephone Conversation with Russian Boris Yeltsin w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000056/C09000056.pdf",
+        "date": "1996-06-18",
+        "records": [
+          {
+            "id": "contact-1996-06-18-telcon-39",
+            "date": "1996-06-18",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+        "id": "C09000028",
+        "title": "Memorandum of Conversation between President Clinton and President Yeltsin on 6/18/96",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+        "date": "1996-06-20",
+        "records": [
+          {
+            "id": "contact-1996-06-18-telcon-39",
+            "date": "1996-06-18",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699017/C06699017.pdf",
+        "id": "C06699017",
+        "title": "Conversation with President Boris Yeltsin of Russia",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699017/C06699017.pdf",
+        "date": "1996-12-05",
+        "records": [
+          {
+            "id": "contact-1996-12-05-telcon-42",
+            "date": "1996-12-05",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, December 5, 1996, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000014/C09000014.pdf",
+        "id": "C09000014",
+        "title": "Memorandum of Telephone Conversation",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2024/FL-2017-13804/DOC_0C09000014/C09000014.pdf",
+        "date": "1997-10-30",
+        "records": [
+          {
+            "id": "contact-1997-10-30-telcon-47",
+            "date": "1997-10-30",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+        "id": "C09000007",
+        "title": "POTUS-Yeltsin Memcon w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+        "date": "1998-05-17",
+        "records": [
+          {
+            "id": "contact-1998-04-06-telcon-52",
+            "date": "1998-04-06",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House"
+          },
+          {
+            "id": "contact-1998-05-17-memcon-54",
+            "date": "1998-05-17",
+            "type": "Memcon",
+            "title": "Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000006/C09000006.pdf",
+        "id": "C09000006",
+        "title": "Memorandum of Conversation between President Clinton and the President of Russia Boris Yeltsin on 5/12/1998",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000006/C09000006.pdf",
+        "date": "1998-05-20",
+        "records": [
+          {
+            "id": "contact-1998-05-12-telcon-53",
+            "date": "1998-05-12",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 12, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+        "id": "C09000028",
+        "title": "Transmittal Memorandum of Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2025/FL-2017-13804/DOC_0C09000028/C09000028.pdf",
+        "date": "1998-06-02",
+        "records": [
+          {
+            "id": "contact-1998-05-28-telcon-56",
+            "date": "1998-05-28",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, May 28, 1998, White House"
+          }
+        ]
+      },
+      {
+        "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+        "id": "C09000004",
+        "title": "Telephone Conversation with Russian President Boris Yeltsin w/Attachment(s)",
+        "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000004/C09000004.pdf",
+        "date": "1998-07-10",
+        "records": [
+          {
+            "id": "contact-1998-07-10-telcon-60",
+            "date": "1998-07-10",
+            "type": "Telcon",
+            "title": "Telephone call with President Boris Yeltsin of Russia, July 10, 1998, White House"
+          }
+        ]
+      }
+    ]
+  }
+}

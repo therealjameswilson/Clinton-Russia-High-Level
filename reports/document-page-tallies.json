@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T21:26:08.090Z",
+  "generatedAt": "2026-05-21T21:40:21.718Z",
   "scope": "Potential Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII. Page counts include only actual conversation pages; administrative pages, duplicate packet copies, Strobe cross-reference copies, briefing material, and withdrawal sheets are excluded.",
   "consolidated": {
     "potentialDocuments": 87,
@@ -8,6 +8,34 @@
     "totalConversationPages": 420,
     "totalMemconPages": 192,
     "totalTelconPages": 228
+  },
+  "sourceFileInventory": {
+    "localDerivativePdfs": {
+      "rowReferences": 81,
+      "uniqueFiles": 81,
+      "repeatedFiles": []
+    },
+    "googleDriveFiles": {
+      "rowReferences": 64,
+      "uniqueFiles": 64,
+      "repeatedFiles": []
+    },
+    "strobeFiles": {
+      "rowReferences": 14,
+      "uniqueFiles": 13,
+      "repeatedFiles": [
+        {
+          "key": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+          "id": "C09000007",
+          "title": "POTUS-Yeltsin Memcon w/Attachment(s)",
+          "url": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000007/C09000007.pdf",
+          "recordIds": [
+            "contact-1998-04-06-telcon-52",
+            "contact-1998-05-17-memcon-54"
+          ]
+        }
+      ]
+    }
   },
   "byType": {
     "Telcon": {

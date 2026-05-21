@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T21:26:08.086Z",
+  "generatedAt": "2026-05-21T21:40:21.722Z",
   "totalRecords": 149,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 88,
@@ -56,6 +56,7 @@
   },
   "strobeConversationFiles": {
     "includedCrossReferences": 14,
+    "uniqueSourceFiles": 13,
     "reviewedNonConversationFiles": 3
   },
   "sources": {
