@@ -89,9 +89,9 @@ const SOURCES = {
     url: "https://therealjameswilson.github.io/nara-scout/"
   },
   sharmCable: {
-    name: "Clinton Library MDR release 2016-0118-M-4 / Google Drive cable copy",
+    name: "Clinton Digital Library item 118876 / MDR release 2016-0118-M-4 Google Drive cable copy",
     caseNumber: "2016-0118-M-4",
-    url: "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view",
+    url: "https://clinton.presidentiallibraries.us/items/show/118876",
     pdfUrl: "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view"
   },
   clinton20160620: {
@@ -127,6 +127,119 @@ const SOURCES = {
     pdfUrl:
       "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf"
   }
+};
+
+const CLINTON_PRS_COLLECTION =
+  "Records of the National Security Council Records Management Office (Clinton Administration)";
+const CLINTON_PRS_COLLECTION_NAID = "7388808";
+const CLINTON_PRS_SERIES = "Presidential Records Series (PRS) Files";
+const CLINTON_PRS_SERIES_NAID = "7585721";
+
+const MDR_CASE_DETAILS = {
+  "2015-0782-M-1": {
+    title: "Declassified documents concerning Russian President Boris Yeltsin",
+    type: "Mandatory Declassification Review",
+    url: SOURCES.m1.url,
+    scope:
+      "Clinton-Yeltsin memcons and telcons, January 23, 1993 through April 21, 1996"
+  },
+  "2015-0782-M-2": {
+    title: "Declassified documents concerning Russian President Boris Yeltsin",
+    type: "Mandatory Declassification Review",
+    url: SOURCES.m2.url,
+    scope:
+      "Clinton-Yeltsin memcons and telcons, April 21, 1996 through December 31, 1999"
+  },
+  "2014-0901-M": {
+    title: "Memcons between President William Jefferson Clinton and President Boris Yeltsin",
+    type: "National Archives Catalog item",
+    url: SOURCES.vancouverMemcons.url,
+    naid: "163545404"
+  },
+  "2014-0948-M": {
+    title: "Memcon between President William Jefferson Clinton and President Boris Yeltsin",
+    type: "National Archives Catalog item",
+    url: SOURCES.hydeParkMemcons.url,
+    naid: "163545436"
+  },
+  "2014-0996-M": {
+    title: "Declassified documents concerning Russian President Boris Yeltsin",
+    type: "Mandatory Declassification Review",
+    url: SOURCES.tokyo.url
+  },
+  "2014-0546-M": {
+    title: "Declassified documents concerning Russian President Boris Yeltsin and Kosovo",
+    type: "Mandatory Declassification Review",
+    url: SOURCES.kosovoLetter.url
+  },
+  "2014-0546-M-Release-A": {
+    title: "Declassified documents concerning Russian President Boris Yeltsin and Kosovo",
+    type: "Mandatory Declassification Review",
+    url: SOURCES.kosovoLetter.url
+  },
+  "2014-0904-M": {
+    title: "Declassified documents concerning Russia",
+    type: "Mandatory Declassification Review"
+  },
+  "2014-0904-M-Release-A": {
+    title: "Declassified documents concerning Russia",
+    type: "Mandatory Declassification Review"
+  },
+  "2014-0974-M": {
+    title: "Declassified documents concerning Russian President Boris Yeltsin",
+    type: "Mandatory Declassification Review"
+  },
+  "2014-0999-M": {
+    title: "Declassified documents concerning Russian President Boris Yeltsin",
+    type: "Mandatory Declassification Review"
+  },
+  "2016-0118-M": {
+    title: "Meetings between President Clinton and Russian President Boris Yeltsin",
+    type: "Clinton Digital Library item",
+    url: "https://clinton.presidentiallibraries.us/items/show/118876",
+    provenance: "Clinton Presidential Records: NSC Cable, Email, and Records Management System"
+  },
+  "2016-0118-M-4": {
+    title: "Meetings between President Clinton and Russian President Boris Yeltsin",
+    type: "Clinton Digital Library item",
+    url: "https://clinton.presidentiallibraries.us/items/show/118876",
+    provenance: "Clinton Presidential Records: NSC Cable, Email, and Records Management System"
+  },
+  "2016-0620-M": {
+    title: "Declassified Documents Concerning Russian President Boris Yeltsin",
+    type: "Clinton Digital Library item",
+    url: SOURCES.clinton20160620.url,
+    provenance: "Clinton Presidential Records: NSC Cable, Email, and Records Management System"
+  },
+  "clinton-item-119190": {
+    title: "Memorandum of Telephone Conversation with Russian President Yeltsin",
+    type: "Clinton Digital Library item",
+    url: SOURCES.clintonIraq19981230.url,
+    provenance: "Telcons - Memoranda of Telephone Conversation"
+  },
+  "2006-1185-F": {
+    title:
+      "Records on Telephone Calls between William J. Clinton and Boris Yeltsin, June 13 and 14, 1999",
+    type: "Freedom of Information Act request",
+    provenance: "Clinton Presidential Records, NSC Records Management, [Yeltsin]"
+  }
+};
+
+const MARKER_CASE_OVERRIDES_BY_DOCUMENT_ID = {
+  "9302226": "2014-0901-M",
+  "9305178": "2014-0996-M",
+  "9503774": "2014-0904-M-Release-A",
+  "9507853": "2014-0948-M",
+  "9507991": "2014-0948-M",
+  "9803752": "2014-0999-M",
+  "9902107": "2014-0546-M",
+  "9903106": "2014-0546-M",
+  "9903364": "2014-0546-M",
+  "9904397": "2014-0546-M",
+  "9904501": "2014-0546-M",
+  "9905128": "2006-1185-F",
+  "9905271": "2006-1185-F",
+  "9908997": "2014-0974-M"
 };
 
 const DERIVED_PDFS = {
@@ -1286,21 +1399,120 @@ function stripCatalogPrefix(name = "") {
   return name.replace(/^National Archives Catalog,\s*/i, "").trim();
 }
 
+function cleanMarkerValue(value = "") {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (!text || /^2015-0782-M$/i.test(text)) return "";
+  return text;
+}
+
+function extractedPdfForRecord(record) {
+  return EXTRACTED_PDFS_BY_RECORD_ID.get(record.id) || {};
+}
+
+function markerControlId(record) {
+  const extractedPdf = extractedPdfForRecord(record);
+  return (
+    cleanMarkerValue(extractedPdf.markerExplicitDocumentId) ||
+    cleanMarkerValue(extractedPdf.markerDocumentId) ||
+    cleanMarkerValue(extractedPdf.markerFolderTitle) ||
+    cleanMarkerValue(extractedPdf.markerRecordId) ||
+    cleanMarkerValue(extractMarkerDocumentId(record))
+  );
+}
+
+function sourceCaseForMarker(record, sourceCase) {
+  const extractedPdf = extractedPdfForRecord(record);
+  const controlId = markerControlId(record);
+  const overrideCase = MARKER_CASE_OVERRIDES_BY_DOCUMENT_ID[controlId];
+  if (overrideCase) return overrideCase;
+
+  const markerCase = cleanMarkerValue(extractedPdf.markerCaseNumber);
+  if (markerCase === "2015-0782-M" && /^2015-0782-M-[12]$/.test(sourceCase)) {
+    return sourceCase;
+  }
+
+  if (markerCase) return markerCase;
+  return sourceCase;
+}
+
+function caseDescription(caseNumber) {
+  const detail = MDR_CASE_DETAILS[caseNumber] || {};
+  const pieces = [caseNumber];
+
+  if (detail.title) pieces.push(detail.title);
+  if (detail.naid) pieces.push(`NAID ${detail.naid}`);
+  if (detail.scope) pieces.push(detail.scope);
+
+  return pieces.join(", ");
+}
+
+function markerCollectionPath(record) {
+  const extractedPdf = extractedPdfForRecord(record);
+  const collection = String(extractedPdf.markerCollection || "");
+  if (!/NSC Records Management/i.test(collection)) return "";
+
+  if (/Yeltsin/i.test(collection) && /Tel/i.test(collection)) {
+    return "Clinton Presidential Records, NSC Records Management, [Yeltsin and Telcons]";
+  }
+
+  if (/Yeltsin/i.test(collection)) {
+    return "Clinton Presidential Records, NSC Records Management, [Yeltsin]";
+  }
+
+  return "Clinton Presidential Records, NSC Records Management";
+}
+
+function buildMdrProvenanceSourceNote(record, sourceCase) {
+  const extractedPdf = extractedPdfForRecord(record);
+  const markerPage = extractedPdf.markerPage || record.markerPage || null;
+  const markerCase = sourceCaseForMarker(record, sourceCase);
+  const caseInfo = MDR_CASE_DETAILS[markerCase] || MDR_CASE_DETAILS[sourceCase] || {};
+  const controlId = markerControlId(record);
+  const explicitDocumentId = cleanMarkerValue(extractedPdf.markerExplicitDocumentId);
+  const folderTitle = cleanMarkerValue(extractedPdf.markerFolderTitle);
+  const recordId = cleanMarkerValue(extractedPdf.markerRecordId);
+  const originalOaId = cleanMarkerValue(extractedPdf.markerOriginalOaId);
+  const oaBoxNumber = cleanMarkerValue(extractedPdf.markerOaBoxNumber);
+  const collectionPath = markerCollectionPath(record);
+  const controlLabel = explicitDocumentId
+    ? `Document ID ${explicitDocumentId}`
+    : controlId
+      ? `Folder Title/Record ID ${controlId}`
+      : "";
+
+  const base = [
+    "Source: William J. Clinton Presidential Library",
+    `${CLINTON_PRS_COLLECTION}, NAID ${CLINTON_PRS_COLLECTION_NAID}`,
+    `${CLINTON_PRS_SERIES}, NAID ${CLINTON_PRS_SERIES_NAID}`
+  ];
+  const controls = [
+    collectionPath,
+    oaBoxNumber ? `OA/Box Number ${oaBoxNumber}` : "",
+    folderTitle && folderTitle !== controlId ? `Folder Title ${folderTitle}` : "",
+    recordId && recordId !== controlId ? `Record ID ${recordId}` : "",
+    controlLabel,
+    originalOaId ? `Original OA/ID ${originalOaId}` : "",
+    `${caseInfo.type || "MDR/FOIA case"} ${caseDescription(markerCase || sourceCase)}`
+  ].filter(Boolean);
+  const marker = markerPage ? `Provenance sheet: source PDF page ${markerPage} appended.` : "";
+
+  return `${base.join(", ")}. ${controls.join("; ")}.${marker ? ` ${marker}` : ""}`;
+}
+
 function buildFrusSourceNote(record) {
   if (record.frusSourceNote) return record.frusSourceNote;
 
   const source = record.source || {};
   const sourceName = source.name || "";
   const sourceCase = source.caseNumber || "";
-  const documentId = extractMarkerDocumentId(record);
   const foiaDocumentId = extractStateFoiaDocumentId(record);
 
   if (sourceCase === SOURCES.vancouverMemcons.caseNumber) {
-    return `Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case ${sourceCase}, Memcons between President William Jefferson Clinton and President Boris Yeltsin, Document ID ${documentId || "9302226"}, NAID ${record.naid}.`;
+    return buildMdrProvenanceSourceNote(record, sourceCase);
   }
 
   if (sourceCase === SOURCES.hydeParkMemcons.caseNumber) {
-    return `Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, case ${sourceCase}, Memcon between President William Jefferson Clinton and President Boris Yeltsin${documentId ? `, Document ID ${documentId}` : ""}, NAID ${record.naid}.`;
+    return buildMdrProvenanceSourceNote(record, sourceCase);
   }
 
   if (sourceCase === SOURCES.kerrickTelconsMemcons.caseNumber) {
@@ -1308,27 +1520,28 @@ function buildFrusSourceNote(record) {
   }
 
   if (sourceCase === SOURCES.m1.caseNumber || sourceCase === SOURCES.m2.caseNumber) {
-    return `Source: William J. Clinton Presidential Library, National Security Council Records Management Office, Presidential Records Series Files, Mandatory Declassification Review case ${sourceCase}, Declassified Documents Concerning Russian President Boris Yeltsin.`;
+    return buildMdrProvenanceSourceNote(record, sourceCase);
   }
 
   if (sourceCase === SOURCES.tokyo.caseNumber) {
-    return `Source: William J. Clinton Presidential Library, Mandatory Declassification Review case ${sourceCase}, Declassified Documents Concerning Russian President Boris Yeltsin.`;
+    return buildMdrProvenanceSourceNote(record, sourceCase);
   }
 
   if (sourceCase === SOURCES.kosovoLetter.caseNumber) {
-    return `Source: William J. Clinton Presidential Library, Mandatory Declassification Review case ${sourceCase}, Declassified Documents Concerning Russian President Boris Yeltsin and Kosovo.`;
+    return buildMdrProvenanceSourceNote(record, sourceCase);
   }
 
   if (sourceCase === SOURCES.sharmCable.caseNumber) {
-    return `Source: William J. Clinton Presidential Library, Mandatory Declassification Review case ${sourceCase}, source copy reviewed from Google Drive.`;
+    const markerPage = extractedPdfForRecord(record).markerPage || record.markerPage || null;
+    return `Source: William J. Clinton Presidential Library, Clinton Digital Library item 118876, ${caseDescription("2016-0118-M")}. Provenance: ${MDR_CASE_DETAILS["2016-0118-M"].provenance}. Source copy reviewed from Google Drive segment ${sourceCase}.${markerPage ? ` Provenance sheet: source PDF page ${markerPage} appended.` : ""}`;
   }
 
   if (sourceCase === SOURCES.clinton20160620.caseNumber) {
-    return `Source: William J. Clinton Presidential Library, Clinton Digital Library item 100503, Mandatory Declassification Review case ${sourceCase}.`;
+    return `Source: William J. Clinton Presidential Library, Clinton Digital Library item 100503, ${caseDescription(sourceCase)}. Provenance: ${MDR_CASE_DETAILS[sourceCase].provenance}.`;
   }
 
   if (sourceCase === SOURCES.clintonIraq19981230.caseNumber) {
-    return "Source: William J. Clinton Presidential Library, Clinton Digital Library item 119190, Telcons - Memoranda of Telephone Conversation.";
+    return `Source: William J. Clinton Presidential Library, Clinton Digital Library item 119190, ${caseDescription(sourceCase)}. Provenance: ${MDR_CASE_DETAILS[sourceCase].provenance}.`;
   }
 
   if (sourceCase === SOURCES.strobe.caseNumber || /Strobe Talbott/i.test(sourceName)) {

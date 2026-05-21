@@ -91,6 +91,86 @@ function splitPdfText(sourcePath) {
   return text.split("\f").map((page) => page.trim());
 }
 
+function firstNonEmptyLineAfter(text, label) {
+  const lines = text.split(/\r?\n/);
+  const labelPattern = new RegExp(`^\\s*${label}\\s*:?\\s*(.*)$`, "i");
+
+  for (let index = 0; index < lines.length; index += 1) {
+    const match = lines[index].match(labelPattern);
+    if (!match) continue;
+
+    const inline = cleanMarkerField(match[1]);
+    if (inline) return inline;
+
+    for (let next = index + 1; next < lines.length; next += 1) {
+      if (isMarkerFieldBoundary(lines[next])) break;
+      const value = cleanMarkerField(lines[next]);
+      if (value) return value;
+    }
+  }
+
+  return "";
+}
+
+function isMarkerFieldBoundary(value = "") {
+  return /^\s*(?:COLLECTION|OA\/Box Number|FOLDER TITLE|RESTRICTION CODES|Document ID|Original OA\/ID Number|RECORD ID|DOCUMENT NO\.|SUBJECT\/TITLE|DATE|RESTRICTION|AND TYPE)\s*:?\s*$/i.test(value);
+}
+
+function cleanMarkerField(value = "") {
+  const text = String(value || "").replace(/\s+/g, " ").trim();
+  if (!text || /^[;:.,|/\\-]+$/.test(text) || /^FOLDER TITLE:?$/i.test(text)) return "";
+  return text;
+}
+
+function markerCaseNumber(text) {
+  const explicit = text.match(/Case Number:[^\n]*?\b(20\d{2}-\d{4}-[MF](?:-Release-[A-Z])?(?:-\d+)?)\b/i);
+  if (explicit) return explicit[1].trim();
+
+  const matches = [...text.matchAll(/\b(20\d{2}-\d{4}-[MF](?:-Release-[A-Z])?(?:-\d+)?)\b/gi)];
+  return matches.length ? matches[matches.length - 1][1].trim() : "";
+}
+
+function markerCollection(text) {
+  const match = text.match(/COLLECTION:\s*([\s\S]*?)(?:\n\s*OA\/Box Number:|\n\s*FOLDER TITLE:|\n\s*RESTRICTION CODES)/i);
+  if (!match) return "";
+
+  return match[1]
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .join(", ")
+    .replace(/\s+/g, " ");
+}
+
+function markerOaBoxNumber(text) {
+  const looseMatch = text.match(/[O0][A\/\\]?[V\/\\]?[ \t]*B[o0][.,\\]?x[ \t]+Number[:;]?[ \t]*([0-9]+)/i);
+  if (looseMatch) return cleanMarkerField(looseMatch[1]);
+
+  const match = text.match(/OA\/Box Number:[ \t]*([0-9A-Z-]+)/i);
+  if (match && !/^folder$/i.test(cleanMarkerField(match[1]))) return cleanMarkerField(match[1]);
+
+  const value = firstNonEmptyLineAfter(text, "OA\\/Box Number");
+  return /^\d/.test(value) ? value : "";
+}
+
+function markerMetadata(text) {
+  const documentId = firstNonEmptyLineAfter(text, "Document ID");
+  const folderTitle = firstNonEmptyLineAfter(text, "FOLDER TITLE");
+  const recordMatch = text.match(/\bRECORD ID:\s*([A-Z0-9-]+)/i);
+  const originalOaId = firstNonEmptyLineAfter(text, "Original OA\\/ID Number");
+
+  return {
+    markerCaseNumber: markerCaseNumber(text),
+    markerOriginalOaId: originalOaId,
+    markerDocumentId: documentId || folderTitle || recordMatch?.[1]?.trim() || "",
+    markerExplicitDocumentId: documentId,
+    markerFolderTitle: folderTitle,
+    markerRecordId: recordMatch?.[1]?.trim() || "",
+    markerOaBoxNumber: markerOaBoxNumber(text),
+    markerCollection: markerCollection(text)
+  };
+}
+
 function markerPages(pageTexts) {
   return pageTexts
     .map((text, index) => ({ page: index + 1, text }))
@@ -100,11 +180,9 @@ function markerPages(pageTexts) {
         (/Withdrawal\/Redaction Sheet/i.test(text) && /DOCUMENT NO\./i.test(text))
     )
     .map(({ page, text }) => {
-      const idMatch = text.match(/Document\s*ID[:\s]*\n?\s*([A-Z0-9-]+)/i);
-      const caseMatch = text.match(/\b(20\d{2}-\d{4}-M(?:-\d+)?)\b/i);
       return {
         page,
-        documentId: idMatch ? idMatch[1].trim() : caseMatch ? caseMatch[1].trim() : ""
+        ...markerMetadata(text)
       };
     });
 }
@@ -206,7 +284,14 @@ function main() {
       sourcePdfPages: record.sourcePdfPages,
       extractedPages: pages.join(","),
       markerPage,
-      markerDocumentId: marker?.documentId || "",
+      markerDocumentId: marker?.markerDocumentId || "",
+      markerExplicitDocumentId: marker?.markerExplicitDocumentId || "",
+      markerCaseNumber: marker?.markerCaseNumber || "",
+      markerOriginalOaId: marker?.markerOriginalOaId || "",
+      markerFolderTitle: marker?.markerFolderTitle || "",
+      markerRecordId: marker?.markerRecordId || "",
+      markerOaBoxNumber: marker?.markerOaBoxNumber || "",
+      markerCollection: marker?.markerCollection || "",
       output: relativeOutput,
       pageCount: record.pageCount,
       localPdfPageCount: record.pageCount + (markerPage ? 1 : 0),
