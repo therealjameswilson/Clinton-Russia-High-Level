@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-21T23:37:47.527Z",
-  "totalRecords": 233,
+  "generatedAt": "2026-05-22T10:44:18.375Z",
+  "totalRecords": 266,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
     "Released Clinton Library Packets": 4,
-    "Talbott FOIA Context": 123,
+    "Talbott FOIA Context": 156,
     "NARA Scout Leads": 14
   },
   "byType": {
     "Telcon": 60,
     "Memcon": 32,
     "Release Packet": 4,
-    "Context": 123,
+    "Context": 156,
     "Scout Lead": 14
   },
   "pageTallies": {
     "allRecords": {
-      "documents": 233,
+      "documents": 266,
       "countedDocuments": 93,
-      "pendingDocuments": 140,
+      "pendingDocuments": 173,
       "pages": 578
     },
     "potentialClintonYeltsinDocuments": {
@@ -41,9 +41,9 @@
         "pages": 0
       },
       "Talbott FOIA Context": {
-        "documents": 123,
+        "documents": 156,
         "countedDocuments": 0,
-        "pendingDocuments": 123,
+        "pendingDocuments": 156,
         "pages": 0
       },
       "NARA Scout Leads": {
@@ -59,13 +59,17 @@
     "uniqueSourceFiles": 13,
     "reviewedNonConversationFiles": 3,
     "visibleManifestPdfRecords": 78,
-    "uniqueManifestPdfUrls": 78
+    "uniqueManifestPdfUrls": 78,
+    "standaloneCandidateRows": 54,
+    "standaloneRawManifestCandidates": 81,
+    "standaloneDuplicateSourceCopyCandidatesFolded": 27
   },
   "sources": {
     "clintonText": "/private/tmp/clinton-foreign-meetings.txt",
     "strobeManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
     "strobeLiveManifestPdfLeads": "/Users/jameswilson/Documents/New project/Clinton-Russia-High-Level/data/strobe-live-yeltsin-pdf-leads.json",
     "strobeManifestPdfAudit": "reports/strobe-manifest-pdf-audit.json",
+    "strobeStandaloneAudit": "reports/strobe-standalone-candidate-audit.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",
     "pendingExtentVerificationRecheck": "reports/pending-extent-verification-recheck.json",

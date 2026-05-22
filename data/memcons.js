@@ -8285,6 +8285,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835707/C06835707.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1993-07-11",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -8460,6 +8461,65 @@ window.MEMCONS = [
     ]
   },
   {
+    "id": "strobe-c06695151",
+    "date": "1994-07-08",
+    "sortDate": "1994-07-08",
+    "type": "Context",
+    "title": "RUSSIAN TROOP WITHDRAWAL: ESTONIAN FM LUIK'S MEETING WITH THE DEPUTY SECRETARY",
+    "documentTitle": "RUSSIAN TROOP WITHDRAWAL: ESTONIAN FM LUIK'S MEETING WITH THE DEPUTY SECRETARY",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06695151",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695151/C06695151.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1994-07-08",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06695151; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 150,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 150,
+    "strobeStandaloneClusterKey": "strobe-standalone|1994-07-08|russian-troop-withdrawal-estonian-fm-luik-s-meeting-with-the-deputy-secretary",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06695151."
+  },
+  {
     "id": "strobe-c06695297",
     "date": "1994-09-12",
     "sortDate": "1994-09-12",
@@ -8480,6 +8540,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695297/C06695297.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1994-09-12",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -8814,6 +8875,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694734/C06694734.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1994-12-16",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -9011,6 +9073,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698191/C06698191.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1995-07-09",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -9057,6 +9120,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698129/C06698129.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1995-09-15",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -9098,19 +9162,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06698076",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698076/C06698076.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1995-10-17",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698076; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698076; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -9119,13 +9185,24 @@ window.MEMCONS = [
     },
     "frusTopics": [
       "Talbott FOIA",
-      "Russia policy context"
+      "Russia policy context",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
-      "Russia policy context"
+      "Russia policy context",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|1995-10-17|talbott-kozyrev-one-on-ones-in-moscow",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698076."
   },
   {
@@ -9438,6 +9515,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698198/C06698198.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1995-10-23",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -9462,6 +9540,68 @@ window.MEMCONS = [
     ],
     "relevanceScore": 100,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698198."
+  },
+  {
+    "id": "strobe-c06697287",
+    "date": "1996-03-20",
+    "sortDate": "1996-03-20",
+    "strobeManifestDate": "1996-04-01",
+    "type": "Context",
+    "title": "NATO: REPORT BY SYG SOLANA OF HIS MEETING WITH RUSSIAN DEFMIN GRACHEV, MARCH 20",
+    "documentTitle": "NATO: REPORT BY SYG SOLANA OF HIS MEETING WITH RUSSIAN DEFMIN GRACHEV, MARCH 20",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06697287",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697287/C06697287.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1996-03-20 (document date inferred; Strobe manifest/index date 1996-04-01)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06697287; release status RELEASE IN PART. Manifest/index date 1996-04-01; displayed document date 1996-03-20 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "NATO/Russia",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "NATO/Russia",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 115,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 115,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-04-01|nato-report-by-syg-solana-of-his-meeting-with-russian-defmin-grachev-march-20",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697287."
   },
   {
     "id": "strobe-pdf-c09000072-9phvb0",
@@ -9751,6 +9891,65 @@ window.MEMCONS = [
       "Strobe FOIA copy of the April 21, 1996 Moscow one-on-one pages 1-13; duplicate source copy, not counted again.",
       "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
     ]
+  },
+  {
+    "id": "strobe-c06697774",
+    "date": "1996-05-23",
+    "sortDate": "1996-05-23",
+    "type": "Context",
+    "title": "DEPUTY SECRETARY'S TALBOTT'S MEETING WITH JAPANESE AMBASSADOR TO MOSCOW WATANABE",
+    "documentTitle": "DEPUTY SECRETARY'S TALBOTT'S MEETING WITH JAPANESE AMBASSADOR TO MOSCOW WATANABE",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06697774",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697774/C06697774.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1996-05-23",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06697774; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 150,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 150,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-05-23|deputy-secretary-s-talbott-s-meeting-with-japanese-ambassador-to-moscow-watanabe",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697774."
   },
   {
     "id": "strobe-pdf-c09000036-vg0kge",
@@ -10144,19 +10343,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06697694",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1996-06-29",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06697694; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06697694; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -10166,14 +10367,25 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Chernomyrdin"
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Chernomyrdin"
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 70,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 135,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-06-29|meeting-with-prime-minister-chernomyrdin",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697694."
   },
   {
@@ -10192,19 +10404,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06697692",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697692/C06697692.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1996-07-05",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06697692; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06697692; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -10214,14 +10428,25 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Chernomyrdin"
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Chernomyrdin"
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 195,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-07-05|transmittal-of-memorandum-of-conversation-with-russian-prime-minister-chernomyrdin",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06697692."
   },
   {
@@ -10240,19 +10465,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06698357",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698357/C06698357.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1996-07-19",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698357; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698357; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 1 additional Strobe source-copy candidate(s) were folded into this row: C06698359.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -10261,13 +10488,33 @@ window.MEMCONS = [
     },
     "frusTopics": [
       "Talbott FOIA",
-      "Russia policy context"
+      "Russia policy context",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
-      "Russia policy context"
+      "Russia policy context",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-07-19|the-acting-secretary-s-conversation-with-russian-deputy-foreign-minister-mamedov",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06698359",
+        "date": "1996-07-19",
+        "title": "THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698359/C06698359.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698357."
   },
   {
@@ -10437,6 +10684,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698213/C06698213.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1996-08-28",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -10463,6 +10711,66 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698213."
   },
   {
+    "id": "strobe-c06698261",
+    "date": "1996-09-03",
+    "sortDate": "1996-09-03",
+    "strobeManifestDate": "1996-09-13",
+    "type": "Context",
+    "title": "S/NIS COLLINS' SEPTEMBER 3 MEETING WITH NEW JAPANESE AMBASSADOR TO THE RUSSIAN FEDERATION",
+    "documentTitle": "S/NIS COLLINS' SEPTEMBER 3 MEETING WITH NEW JAPANESE AMBASSADOR TO THE RUSSIAN FEDERATION",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06698261",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698261/C06698261.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1996-09-03 (document date inferred; Strobe manifest/index date 1996-09-13)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698261; release status RELEASE IN FULL. Manifest/index date 1996-09-13; displayed document date 1996-09-03 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 135,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 135,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-09-13|s-nis-collins-september-3-meeting-with-new-japanese-ambassador-to-the-russian-federation",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698261."
+  },
+  {
     "id": "strobe-c06698358",
     "date": "1996-09-04",
     "sortDate": "1996-09-04",
@@ -10483,6 +10791,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698358/C06698358.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1996-09-04",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -10509,6 +10818,89 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698358."
   },
   {
+    "id": "strobe-c06698134",
+    "date": "1996-09-06",
+    "sortDate": "1996-09-06",
+    "strobeManifestDate": "2020-02-07",
+    "type": "Context",
+    "title": "TELEPHONE CONVERSATION BETWEEN ACTING SECRETARY TALBOTT AND RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV FRIDAY, SEPTEMBER 6, 9:15 A.M.",
+    "documentTitle": "TELEPHONE CONVERSATION BETWEEN ACTING SECRETARY TALBOTT AND RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV FRIDAY, SEPTEMBER 6, 9:15 A.M.",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06698134",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698134/C06698134.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1996-09-06 (document date inferred; Strobe manifest/index date 2020-02-07)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698134; release status RELEASE IN FULL. Manifest/index date 2020-02-07; displayed document date 1996-09-06 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 3 additional Strobe source-copy candidate(s) were folded into this row: C06698356, C06698358, C06698360.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 230,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 230,
+    "strobeStandaloneClusterKey": "strobe-standalone|talbott-mamedov-september-1996",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06698356",
+        "date": "1996-09-04",
+        "title": "THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FM MAMEDON",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698356/C06698356.pdf"
+      },
+      {
+        "id": "C06698358",
+        "date": "1996-09-04",
+        "title": "THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FM MAMEDOV",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698358/C06698358.pdf"
+      },
+      {
+        "id": "C06698360",
+        "date": "1996-09-06",
+        "title": "THE ACTING SECRETARY'S CONVERSATION WITH DEPUTY RUSSIAN F.M. MAMEDOV",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698360/C06698360.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698134."
+  },
+  {
     "id": "strobe-c06698360",
     "date": "1996-09-06",
     "sortDate": "1996-09-06",
@@ -10529,6 +10921,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698360/C06698360.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1996-09-06",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -10575,6 +10968,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698220/C06698220.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1996-09-11",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -10616,19 +11010,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06698208",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698208/C06698208.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1996-09-17",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698208; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698208; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -10638,14 +11034,25 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 70,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 155,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-09-17|attached-report-from-tom-pickering-on-his-meeting-with-primakov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698208."
   },
   {
@@ -10669,6 +11076,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698212/C06698212.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1996-09-17",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -10790,6 +11198,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699025/C06699025.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1996-09-24",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -10833,19 +11242,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06698121",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698121/C06698121.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1996-09-27",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698121; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698121; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -10855,14 +11266,25 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-09-27|secretary-s-plenary-meeting-with-russian-foreign-minister-primakov-1800-1835-september23-1996-new-york",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698121."
   },
   {
@@ -10886,6 +11308,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699023/C06699023.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1996-09-30",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -10914,6 +11337,65 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06699023."
   },
   {
+    "id": "strobe-c06698972",
+    "date": "1996-10-19",
+    "sortDate": "1996-10-19",
+    "type": "Context",
+    "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FM MAMEDON",
+    "documentTitle": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FM MAMEDON",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06698972",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698972/C06698972.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1996-10-19",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698972; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-10-19|the-deputy-secretary-s-conversation-with-deputy-fm-mamedov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698972."
+  },
+  {
     "id": "strobe-c06698745",
     "date": "1996-10-23",
     "sortDate": "1996-10-23",
@@ -10929,19 +11411,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06698745",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698745/C06698745.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1996-10-23",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698745; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698745; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 1 additional Strobe source-copy candidate(s) were folded into this row: C06698981.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -10950,13 +11434,33 @@ window.MEMCONS = [
     },
     "frusTopics": [
       "Talbott FOIA",
-      "Russia policy context"
+      "Russia policy context",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
-      "Russia policy context"
+      "Russia policy context",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|talbott-mamedov-1996-10-23",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06698981",
+        "date": "1996-10-23",
+        "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698981/C06698981.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698745."
   },
   {
@@ -11033,6 +11537,65 @@ window.MEMCONS = [
     "strobeManifestStatuses": []
   },
   {
+    "id": "strobe-c06699015",
+    "date": "1996-12-02",
+    "sortDate": "1996-12-02",
+    "type": "Context",
+    "title": "THE VICE PRESIDENT'S MEETING WITH RUSSIAN PRIME MINISTER VIKTOR CHERNOMYRIDN",
+    "documentTitle": "THE VICE PRESIDENT'S MEETING WITH RUSSIAN PRIME MINISTER VIKTOR CHERNOMYRIDN",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06699015",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699015/C06699015.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1996-12-02",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06699015; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 180,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 180,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-12-02|the-vice-president-s-meeting-with-russian-prime-minister-viktor-chernomyrdin",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06699015."
+  },
+  {
     "id": "strobe-c06699013",
     "date": "1996-12-04",
     "sortDate": "1996-12-04",
@@ -11048,19 +11611,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06699013",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699013/C06699013.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1996-12-04",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06699013; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06699013; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -11070,14 +11635,25 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 70,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 135,
+    "strobeStandaloneClusterKey": "strobe-standalone|1996-12-04|meeting-with-primakov-in-london",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06699013."
   },
   {
@@ -11300,6 +11876,74 @@ window.MEMCONS = [
     "strobeManifestStatuses": []
   },
   {
+    "id": "strobe-c06698875",
+    "date": "1997-01-09",
+    "sortDate": "1997-01-09",
+    "type": "Context",
+    "title": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER VIKTOR STEPANOVICH CHERNOMYRID",
+    "documentTitle": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER VIKTOR STEPANOVICH CHERNOMYRID",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06698875",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698875/C06698875.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-01-09",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698875; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 1 additional Strobe source-copy candidate(s) were folded into this row: C06698884.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 240,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 240,
+    "strobeStandaloneClusterKey": "strobe-standalone|gore-chernomyrdin-1997-01",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06698884",
+        "date": "1997-01-09",
+        "title": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER VIKTOR STEPANOVICH CHERNOMYRID",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698884/C06698884.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698875."
+  },
+  {
     "id": "strobe-c06703698",
     "date": "1997-01-23",
     "sortDate": "1997-01-23",
@@ -11315,19 +11959,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06703698",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703698/C06703698.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1997-01-23",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703698; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703698; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -11338,15 +11984,26 @@ window.MEMCONS = [
       "Talbott FOIA",
       "Russia policy context",
       "NATO/Russia",
-      "Chubais"
+      "Chubais",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
       "NATO/Russia",
-      "Chubais"
+      "Chubais",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|1997-01-23|talbott-fuerth-delegation-meeting-with-anatoliy-chubais-chief-of-the-russian-presidential-administration",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703698."
   },
   {
@@ -11365,19 +12022,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06703692",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703692/C06703692.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1997-01-23",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703692; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703692; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -11387,14 +12046,25 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|1997-01-23|talbott-fuerth-delegation-meeting-with-russian-foreign-minister-primakov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703692."
   },
   {
@@ -11418,6 +12088,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702980/C06702980.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1997-02-05",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -11536,19 +12207,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06703418",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703418/C06703418.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1997-02-13",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703418; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703418; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -11558,20 +12231,32 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Chernomyrdin"
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Chernomyrdin"
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 240,
+    "strobeStandaloneClusterKey": "strobe-standalone|clinton-gore-chernomyrdin-1997-02-13",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703418."
   },
   {
     "id": "strobe-c06703490",
-    "date": "1997-02-22",
-    "sortDate": "1997-02-22",
+    "date": "1997-02-20",
+    "sortDate": "1997-02-20",
+    "strobeManifestDate": "1997-02-22",
     "type": "Context",
     "title": "SECRETARY'S MEETING WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN, FEBRUARY 20, 1997",
     "documentTitle": "SECRETARY'S MEETING WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN, FEBRUARY 20, 1997",
@@ -11584,19 +12269,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06703490",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703490/C06703490.pdf",
     "pageCount": null,
-    "dateLine": "1997-02-22",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-02-20 (document date inferred; Strobe manifest/index date 1997-02-22)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703490; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703490; release status RELEASE IN FULL. Manifest/index date 1997-02-22; displayed document date 1997-02-20 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 3 additional Strobe source-copy candidate(s) were folded into this row: C06703508, C06702929, C06702931.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -11606,15 +12293,260 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Chernomyrdin"
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Chernomyrdin"
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|secretary-chernomyrdin-1997-02-20",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06703508",
+        "date": "1997-02-22",
+        "title": "SECRETARY'S MEETING WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN, FEBRUARY 20, 1997",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703508/C06703508.pdf"
+      },
+      {
+        "id": "C06702929",
+        "date": "1997-03-05",
+        "title": "SECRETARY'S MEETING WITH VICTOR CHERNOMYRDIN RUSSIAN PRIME MINISTER, FEBRUARY 20, 1997, MOSCOW",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702929/C06702929.pdf"
+      },
+      {
+        "id": "C06702931",
+        "date": "1997-03-05",
+        "title": "SECRETARY'S MEETING WITH VICTOR CHERNOMYRDIN, RUSSIAN PRIME MINISTER FEBRUARY 20, 1997, MOSCOW",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702931/C06702931.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703490."
+  },
+  {
+    "id": "strobe-c06702916",
+    "date": "1997-02-20",
+    "sortDate": "1997-02-20",
+    "strobeManifestDate": "1997-03-05",
+    "type": "Context",
+    "title": "SECRETARY'S MEETING WITH YEVGENIY M PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW`",
+    "documentTitle": "SECRETARY'S MEETING WITH YEVGENIY M PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW`",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06702916",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702916/C06702916.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-02-20 (document date inferred; Strobe manifest/index date 1997-03-05)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06702916; release status RELEASE IN FULL. Manifest/index date 1997-03-05; displayed document date 1997-02-20 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 2 additional Strobe source-copy candidate(s) were folded into this row: C06702917, C06702940.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|secretary-primakov-1997-02-20",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06702917",
+        "date": "1997-03-05",
+        "title": "SECRETARY'S MEETING WITH YEVGENIY M. PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW`",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702917/C06702917.pdf"
+      },
+      {
+        "id": "C06702940",
+        "date": "2020-02-07",
+        "title": "SECRETARY ALBRIGHT'S ONE-ON-ONE WITH FM PRIMAKOV; OSOBNYAK, MOSCOW; FEBRUARY 20, 1997",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702940/C06702940.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702916."
+  },
+  {
+    "id": "strobe-c06702920",
+    "date": "1997-02-21",
+    "sortDate": "1997-02-21",
+    "strobeManifestDate": "1997-03-05",
+    "type": "Context",
+    "title": "SECRETARY'S SECOND MEETING WITH YEVGENIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
+    "documentTitle": "SECRETARY'S SECOND MEETING WITH YEVGENIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06702920",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702920/C06702920.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-02-21 (document date inferred; Strobe manifest/index date 1997-03-05)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06702920; release status RELEASE IN FULL. Manifest/index date 1997-03-05; displayed document date 1997-02-21 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 1 additional Strobe source-copy candidate(s) were folded into this row: C06702926.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|secretary-primakov-second-1997-02-21",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06702926",
+        "date": "1997-03-05",
+        "title": "SECRETARY'S SECOND MEETING WITH YEVGINIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702920."
+  },
+  {
+    "id": "strobe-c06703457",
+    "date": "1997-03-04",
+    "sortDate": "1997-03-04",
+    "strobeManifestDate": "1997-03-12",
+    "type": "Context",
+    "title": "STRATEGIES FOR NATO/RUSSIA ACCORD: DEPUTY SECRETARY'S PRIVATE CONVERSATION WITH FRENCH PRESIDENT'S DIPLOMATIC ADVISOR, MARCH 4",
+    "documentTitle": "STRATEGIES FOR NATO/RUSSIA ACCORD: DEPUTY SECRETARY'S PRIVATE CONVERSATION WITH FRENCH PRESIDENT'S DIPLOMATIC ADVISOR, MARCH 4",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06703457",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703457/C06703457.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-03-04 (document date inferred; Strobe manifest/index date 1997-03-12)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703457; release status RELEASE IN FULL. Manifest/index date 1997-03-12; displayed document date 1997-03-04 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "NATO/Russia",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "NATO/Russia",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 110,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 175,
+    "strobeStandaloneClusterKey": "strobe-standalone|1997-03-12|strategies-for-nato-russia-accord-deputy-secretary-s-private-conversation-with-french-president-s-diplomatic-advisor-march-4",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703457."
   },
   {
     "id": "strobe-c06702929",
@@ -11637,6 +12569,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702929/C06702929.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1997-03-05",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -11665,102 +12598,6 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702929."
   },
   {
-    "id": "strobe-c06702916",
-    "date": "1997-03-05",
-    "sortDate": "1997-03-05",
-    "type": "Context",
-    "title": "SECRETARY'S MEETING WITH YEVGENIY M PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW`",
-    "documentTitle": "SECRETARY'S MEETING WITH YEVGENIY M PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW`",
-    "participants": [],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 3,
-      "name": "Talbott FOIA Context"
-    },
-    "releaseStatus": "Full",
-    "naid": "C06702916",
-    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702916/C06702916.pdf",
-    "pageCount": null,
-    "dateLine": "1997-03-05",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
-    "source": {
-      "name": "Strobe Talbott FOIA manifest",
-      "caseNumber": "F-2017-13804",
-      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
-    },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06702916; release status RELEASE IN FULL.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Primakov"
-    ],
-    "topics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Primakov"
-    ],
-    "relevanceScore": 100,
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702916."
-  },
-  {
-    "id": "strobe-c06702920",
-    "date": "1997-03-05",
-    "sortDate": "1997-03-05",
-    "type": "Context",
-    "title": "SECRETARY'S SECOND MEETING WITH YEVGENIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
-    "documentTitle": "SECRETARY'S SECOND MEETING WITH YEVGENIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
-    "participants": [],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 3,
-      "name": "Talbott FOIA Context"
-    },
-    "releaseStatus": "Full",
-    "naid": "C06702920",
-    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702920/C06702920.pdf",
-    "pageCount": null,
-    "dateLine": "1997-03-05",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
-    "source": {
-      "name": "Strobe Talbott FOIA manifest",
-      "caseNumber": "F-2017-13804",
-      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
-    },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06702920; release status RELEASE IN FULL.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Primakov"
-    ],
-    "topics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Primakov"
-    ],
-    "relevanceScore": 100,
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702920."
-  },
-  {
     "id": "strobe-c06702926",
     "date": "1997-03-05",
     "sortDate": "1997-03-05",
@@ -11781,6 +12618,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1997-03-05",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -11882,9 +12720,78 @@ window.MEMCONS = [
     ]
   },
   {
+    "id": "strobe-c06703179",
+    "date": "1997-03-07",
+    "sortDate": "1997-03-07",
+    "type": "Context",
+    "title": "OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV",
+    "documentTitle": "OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06703179",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703179/C06703179.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-03-07",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703179; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 1 additional Strobe source-copy candidate(s) were folded into this row: C06703610.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|talbott-ryurikov-1997-03-07",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06703610",
+        "date": "1997-03-07",
+        "title": "OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703610/C06703610.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703179."
+  },
+  {
     "id": "strobe-c06702848",
-    "date": "1997-03-11",
-    "sortDate": "1997-03-11",
+    "date": "1997-03-10",
+    "sortDate": "1997-03-10",
+    "strobeManifestDate": "1997-03-11",
     "type": "Context",
     "title": "NATO/RUSSIA: DEPUTY SECRETARY'S MARCH 10 CONVERSATION WITH UK, FRG POLDIRS",
     "documentTitle": "NATO/RUSSIA: DEPUTY SECRETARY'S MARCH 10 CONVERSATION WITH UK, FRG POLDIRS",
@@ -11897,19 +12804,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06702848",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702848/C06702848.pdf",
     "pageCount": null,
-    "dateLine": "1997-03-11",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-03-10 (document date inferred; Strobe manifest/index date 1997-03-11)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06702848; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06702848; release status RELEASE IN FULL. Manifest/index date 1997-03-11; displayed document date 1997-03-10 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 1 additional Strobe source-copy candidate(s) were folded into this row: C06702850.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -11919,23 +12828,43 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "NATO/Russia"
+      "NATO/Russia",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "NATO/Russia"
+      "NATO/Russia",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 110,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 150,
+    "strobeStandaloneClusterKey": "strobe-standalone|nato-russia-poldirs-1997-03-10",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06702850",
+        "date": "1997-03-11",
+        "title": "NATO/RUSSIA: DEPUTY SECRETARY'S MARCH 10 CONVERSATION WITH UK FRG POLDIRS",
+        "releaseStatus": "RELEASE IN PART",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702850/C06702850.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702848."
   },
   {
-    "id": "strobe-c06703457",
-    "date": "1997-03-12",
-    "sortDate": "1997-03-12",
+    "id": "strobe-c06703626",
+    "date": "1997-03-15",
+    "sortDate": "1997-03-15",
     "type": "Context",
-    "title": "STRATEGIES FOR NATO/RUSSIA ACCORD: DEPUTY SECRETARY'S PRIVATE CONVERSATION WITH FRENCH PRESIDENT'S DIPLOMATIC ADVISOR, MARCH 4",
-    "documentTitle": "STRATEGIES FOR NATO/RUSSIA ACCORD: DEPUTY SECRETARY'S PRIVATE CONVERSATION WITH FRENCH PRESIDENT'S DIPLOMATIC ADVISOR, MARCH 4",
+    "title": "MEMORANDUM OF CONVERSATION BETWEEN SECRETART ALBRIGHT AND FOREIGN MINISTER PRIMAKOV",
+    "documentTitle": "MEMORANDUM OF CONVERSATION BETWEEN SECRETART ALBRIGHT AND FOREIGN MINISTER PRIMAKOV",
     "participants": [],
     "countries": [
       "United States",
@@ -11945,19 +12874,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
-    "naid": "C06703457",
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06703626",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703457/C06703457.pdf",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf",
     "pageCount": null,
-    "dateLine": "1997-03-12",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-03-15",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703457; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703626; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 2 additional Strobe source-copy candidate(s) were folded into this row: C06703630, C06702890.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -11967,15 +12898,42 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "NATO/Russia"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "NATO/Russia"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
-    "relevanceScore": 110,
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703457."
+    "relevanceScore": 230,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 230,
+    "strobeStandaloneClusterKey": "strobe-standalone|albright-primakov-1997-03-15",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06703630",
+        "date": "1997-03-16",
+        "title": "MEMORANDUM OF CONVERSATION BETWEEN THE SERETARY AND FM Y. M. PRIMAKOV",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703630/C06703630.pdf"
+      },
+      {
+        "id": "C06702890",
+        "date": "1997-03-15",
+        "title": "SECRETARY ALBRIGHT'S LUNCH MEETING WITH FM PRIMAKOV: DEPARTMENT OF STATE DINING ROOM, WASHINGTON, DC, MARCH 15, 1997",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702890/C06702890.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703626."
   },
   {
     "id": "strobe-c06702903",
@@ -11993,19 +12951,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06702903",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702903/C06702903.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1997-03-19",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06702903; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06702903; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -12015,14 +12975,25 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 135,
+    "strobeStandaloneClusterKey": "strobe-standalone|1997-03-19|secretary-conversation-with-russian-foreign-minister-primakov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702903."
   },
   {
@@ -12101,6 +13072,77 @@ window.MEMCONS = [
     "strobeManifestStatuses": []
   },
   {
+    "id": "strobe-c06703379",
+    "date": "1997-03-20",
+    "sortDate": "1997-03-20",
+    "strobeManifestDate": "1997-03-27",
+    "type": "Context",
+    "title": "THE SECRETARY'S MEETING WITH RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV, MARCH 20, HELSINKI",
+    "documentTitle": "THE SECRETARY'S MEETING WITH RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV, MARCH 20, HELSINKI",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06703379",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703379/C06703379.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-03-20 (document date inferred; Strobe manifest/index date 1997-03-27)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703379; release status RELEASE IN FULL. Manifest/index date 1997-03-27; displayed document date 1997-03-20 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 1 additional Strobe source-copy candidate(s) were folded into this row: C06703392.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Primakov",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|secretary-primakov-helsinki-1997-03-20",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06703392",
+        "date": "1997-03-27",
+        "title": "THE SECRETARY'S MEETING WITH RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV, MARCH 20, HELSINKI",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703392/C06703392.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703379."
+  },
+  {
     "id": "strobe-c06703637",
     "date": "1997-03-24",
     "sortDate": "1997-03-24",
@@ -12116,19 +13158,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06703637",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703637/C06703637.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1997-03-24",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703637; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703637; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -12138,14 +13182,25 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|1997-03-24|c-secretary-s-conversation-with-russian-foreign-minister-primakov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703637."
   },
   {
@@ -12164,19 +13219,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06703656",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703656/C06703656.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1997-03-24",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703656; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703656; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 2 additional Strobe source-copy candidate(s) were folded into this row: C06703643, C06703649.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -12186,14 +13243,41 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 240,
+    "strobeStandaloneClusterKey": "strobe-standalone|president-primakov-1997-03-17",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06703643",
+        "date": "1997-04-02",
+        "title": "MEMORANDUM OF MEETING BETWEEN THE PRESIDENT AND RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV ON MARCH 17, 1997, 5/5 NO. 9705584",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703643/C06703643.pdf"
+      },
+      {
+        "id": "C06703649",
+        "date": "1997-04-02",
+        "title": "MEMORANDUM OF MEETING BETWEEN THE PRESIDENT AND RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV ON MARCH 17, 1997, 5/5 NO. 9705584",
+        "releaseStatus": "RELEASE IN FULL",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703649/C06703649.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703656."
   },
   {
@@ -12212,19 +13296,21 @@ window.MEMCONS = [
       "number": 3,
       "name": "Talbott FOIA Context"
     },
-    "releaseStatus": "Full",
+    "releaseStatus": "Standalone Candidate",
     "naid": "C06703640",
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703640/C06703640.pdf",
     "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "1997-03-24",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703640; release status RELEASE IN FULL.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703640; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -12234,63 +13320,26 @@ window.MEMCONS = [
     "frusTopics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "topics": [
       "Talbott FOIA",
       "Russia policy context",
-      "Primakov"
+      "Primakov",
+      "Potential standalone FRUS document"
     ],
     "relevanceScore": 100,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|1997-03-24|secretary-s-conversation-with-russian-foreign-minister-primakov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703640."
-  },
-  {
-    "id": "strobe-c06703379",
-    "date": "1997-03-27",
-    "sortDate": "1997-03-27",
-    "type": "Context",
-    "title": "THE SECRETARY'S MEETING WITH RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV, MARCH 20, HELSINKI",
-    "documentTitle": "THE SECRETARY'S MEETING WITH RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV, MARCH 20, HELSINKI",
-    "participants": [],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 3,
-      "name": "Talbott FOIA Context"
-    },
-    "releaseStatus": "Full",
-    "naid": "C06703379",
-    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703379/C06703379.pdf",
-    "pageCount": null,
-    "dateLine": "1997-03-27",
-    "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
-    "source": {
-      "name": "Strobe Talbott FOIA manifest",
-      "caseNumber": "F-2017-13804",
-      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
-    },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703379; release status RELEASE IN FULL.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Primakov"
-    ],
-    "topics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Primakov"
-    ],
-    "relevanceScore": 100,
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703379."
   },
   {
     "id": "strobe-c06703643",
@@ -12313,6 +13362,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703643/C06703643.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1997-04-02",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -13881,6 +14931,321 @@ window.MEMCONS = [
     "strobeManifestStatuses": []
   },
   {
+    "id": "strobe-c06771248",
+    "date": "1999-01-13",
+    "sortDate": "1999-01-13",
+    "strobeManifestDate": "1999-01-29",
+    "type": "Context",
+    "title": "THE DEPUTY SECRETARY'S JANUARY 13 MEETING WITH RUSSIAN DEPUTY PRIME MINISTER MASLYUKOV",
+    "documentTitle": "THE DEPUTY SECRETARY'S JANUARY 13 MEETING WITH RUSSIAN DEPUTY PRIME MINISTER MASLYUKOV",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06771248",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771248/C06771248.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-01-13 (document date inferred; Strobe manifest/index date 1999-01-29)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06771248; release status UNKNOWN. Manifest/index date 1999-01-29; displayed document date 1999-01-13 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 150,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 150,
+    "strobeStandaloneClusterKey": "strobe-standalone|1999-01-29|the-deputy-secretary-s-january-13-meeting-with-russian-deputy-prime-minister-maslyukov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771248."
+  },
+  {
+    "id": "strobe-c06770364",
+    "date": "1999-01-25",
+    "sortDate": "1999-01-25",
+    "strobeManifestDate": "1999-02-04",
+    "type": "Context",
+    "title": "SECRETARY'S MEETING WITH MOSCOW MAYOR YURIY LUZHKOV ON JANUARY 25, 1999",
+    "documentTitle": "SECRETARY'S MEETING WITH MOSCOW MAYOR YURIY LUZHKOV ON JANUARY 25, 1999",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06770364",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770364/C06770364.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-01-25 (document date inferred; Strobe manifest/index date 1999-02-04)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06770364; release status UNKNOWN. Manifest/index date 1999-02-04; displayed document date 1999-01-25 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 150,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 150,
+    "strobeStandaloneClusterKey": "strobe-standalone|1999-02-04|secretary-s-meeting-with-moscow-mayor-yuriy-luzhkov-on-january-25-1999",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06770364."
+  },
+  {
+    "id": "strobe-c06771295",
+    "date": "1999-02-19",
+    "sortDate": "1999-02-19",
+    "type": "Context",
+    "title": "THE ACTING SECRETARY'S FEBRUARY 19 CONVERSATION WITH RUSSIAN AMBASSADOR TO THE U.S. USHAKOV",
+    "documentTitle": "THE ACTING SECRETARY'S FEBRUARY 19 CONVERSATION WITH RUSSIAN AMBASSADOR TO THE U.S. USHAKOV",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06771295",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771295/C06771295.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-02-19",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06771295; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 2 additional Strobe source-copy candidate(s) were folded into this row: C06771020, C06771291.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|talbott-ushakov-1999-02-19",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06771020",
+        "date": "1999-02-21",
+        "title": "THE ACTING SECRETARY?S FEBRUARY 19 CONVERSATION WITH RUSSIAN AMBASSADOR TO THE U.S. USHAKOV",
+        "releaseStatus": "UNKNOWN",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771020/C06771020.pdf"
+      },
+      {
+        "id": "C06771291",
+        "date": "2021-05-05",
+        "title": "ACTING SECRETARY'S (TALBOTT) CONVERSATION WITH RUSSIAN AMBASSADOR YURIY USHAKOV",
+        "releaseStatus": "UNKNOWN",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771291/C06771291.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771295."
+  },
+  {
+    "id": "strobe-c06814923",
+    "date": "1999-02-22",
+    "sortDate": "1999-02-22",
+    "strobeManifestDate": "1999-03-09",
+    "type": "Context",
+    "title": "Deputy Secretary's meeting with Moscow Mayor Yuriy Luzhkov on February 22",
+    "documentTitle": "Deputy Secretary's meeting with Moscow Mayor Yuriy Luzhkov on February 22",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06814923",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814923/C06814923.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-02-22 (document date inferred; Strobe manifest/index date 1999-03-09)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06814923; release status UNKNOWN. Manifest/index date 1999-03-09; displayed document date 1999-02-22 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 150,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 150,
+    "strobeStandaloneClusterKey": "strobe-standalone|1999-03-09|deputy-secretary-s-meeting-with-moscow-mayor-yuriy-luzhkov-on-february-22",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814923."
+  },
+  {
+    "id": "strobe-c06814916",
+    "date": "1999-02-22",
+    "sortDate": "1999-02-22",
+    "strobeManifestDate": "1999-03-03",
+    "type": "Context",
+    "title": "Deputy Secretary's meeting with Russia's Yabloko Faction Leader and DUMA Deputy Grigoriy Yavlinskiy on February 22, 1999",
+    "documentTitle": "Deputy Secretary's meeting with Russia's Yabloko Faction Leader and DUMA Deputy Grigoriy Yavlinskiy on February 22, 1999",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06814916",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814916/C06814916.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-02-22 (document date inferred; Strobe manifest/index date 1999-03-03)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06814916; release status UNKNOWN. Manifest/index date 1999-03-03; displayed document date 1999-02-22 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 150,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 150,
+    "strobeStandaloneClusterKey": "strobe-standalone|1999-03-03|deputy-secretary-s-meeting-with-russia-s-yabloko-faction-leader-and-duma-deputy-grigoriy-yavlinskiy-on-february-22-1999",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814916."
+  },
+  {
     "id": "strobe-c06771698",
     "date": "1999-03-01",
     "sortDate": "1999-03-01",
@@ -13901,6 +15266,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771698/C06771698.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1999-03-01",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -14069,6 +15435,193 @@ window.MEMCONS = [
     ]
   },
   {
+    "id": "strobe-c06771178",
+    "date": "1999-04-07",
+    "sortDate": "1999-04-07",
+    "type": "Context",
+    "title": "Memorandum of Conversation Talbott/Avdeyev - First Meeting Breakfast Hotel Royal Windsor, Brussels, Beligum",
+    "documentTitle": "Memorandum of Conversation Talbott/Avdeyev - First Meeting Breakfast Hotel Royal Windsor, Brussels, Beligum",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06771178",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771178/C06771178.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-04-07",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06771178; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 1 additional Strobe source-copy candidate(s) were folded into this row: C06771179.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 230,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 230,
+    "strobeStandaloneClusterKey": "strobe-standalone|talbott-avdeyev-first-1999-04-07",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06771179",
+        "date": "1999-04-07",
+        "title": "Memorandum of Conversation Talbott/Avdeyev - First Meeting Breakfast Hotel Royal Windsor, Brussels, Beligum",
+        "releaseStatus": "UNKNOWN",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771179/C06771179.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771178."
+  },
+  {
+    "id": "strobe-c06771181",
+    "date": "1999-04-07",
+    "sortDate": "1999-04-07",
+    "strobeManifestDate": "2009-04-07",
+    "type": "Context",
+    "title": "Memorandum of Conversation Talbott/Avdeyev - Second Meeting - Russian Embassy Brussels, Beligum",
+    "documentTitle": "Memorandum of Conversation Talbott/Avdeyev - Second Meeting - Russian Embassy Brussels, Beligum",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06771181",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771181/C06771181.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-04-07 (document date inferred; Strobe manifest/index date 2009-04-07)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06771181; release status UNKNOWN. Manifest/index date 2009-04-07; displayed document date 1999-04-07 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 230,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 230,
+    "strobeStandaloneClusterKey": "strobe-standalone|talbott-avdeyev-second-1999-04-07",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771181."
+  },
+  {
+    "id": "strobe-c06814668",
+    "date": "1999-04-07",
+    "sortDate": "1999-04-07",
+    "type": "Context",
+    "title": "UZBEK FONMIN KAMILOV GIVES READ-OUT ON CIS SUMMIT, AGAIN EXPRESSES CONCERN ABOUT RUSSIA-TAJIKISTAN RELATIONS",
+    "documentTitle": "UZBEK FONMIN KAMILOV GIVES READ-OUT ON CIS SUMMIT, AGAIN EXPRESSES CONCERN ABOUT RUSSIA-TAJIKISTAN RELATIONS",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06814668",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814668/C06814668.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-04-07",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06814668; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 115,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 115,
+    "strobeStandaloneClusterKey": "strobe-standalone|1999-04-07|uzbek-fonmin-kamilov-gives-read-out-on-cis-summit-again-expresses-concern-about-russia-tajikistan-relations",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814668."
+  },
+  {
     "id": "strobe-pdf-c09000040-1jd1b36",
     "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000040/C09000040.pdf",
     "date": "1999-04-11",
@@ -14139,6 +15692,150 @@ window.MEMCONS = [
       "State Department FOIA record C09000040, dated 4/11/1999, released in the June 2024 FOIA Library release, is titled \"MESSAGE TO PRESIDENT YELTSIN REGARDING THE SITUATION IN KOSOVO\". The released text begins: \"A COPY COPY MAY MAY ALSO ALSO BE BE PROVIDED PROVIDED TO TO PRIME PRIME MINISTER MINISTER PRIMAKOV'S OFFICE. NO SIGNED SIGNED ORIGINAL WILL FOLLOW.\""
     ],
     "strobeManifestStatuses": []
+  },
+  {
+    "id": "strobe-c06771889",
+    "date": "1999-04-16",
+    "sortDate": "1999-04-16",
+    "strobeManifestDate": "1999-04-22",
+    "type": "Context",
+    "title": "THE DEPUTY SECRETARY'S APRIL 16 CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER ABDEYEV",
+    "documentTitle": "THE DEPUTY SECRETARY'S APRIL 16 CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER ABDEYEV",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06771889",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771889/C06771889.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-04-16 (document date inferred; Strobe manifest/index date 1999-04-22)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06771889; release status UNKNOWN. Manifest/index date 1999-04-22; displayed document date 1999-04-16 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 1 additional Strobe source-copy candidate(s) were folded into this row: C06771892.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|talbott-avdeyev-1999-04-16",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06771892",
+        "date": "1999-04-22",
+        "title": "THE DEPUTY SECRETARY'S APRIL 16 CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER ABDEYEV",
+        "releaseStatus": "UNKNOWN",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771892/C06771892.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771889."
+  },
+  {
+    "id": "strobe-c06772062",
+    "date": "1999-04-23",
+    "sortDate": "1999-04-23",
+    "type": "Context",
+    "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
+    "documentTitle": "THE DEPUTY SECRETARY'S CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06772062",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772062/C06772062.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-04-23",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06772062; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 2 additional Strobe source-copy candidate(s) were folded into this row: C06772072, C06771911.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|talbott-ushakov-1999-04-23",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06772072",
+        "date": "1999-04-23",
+        "title": "DEPUTY SECRETARY'S 04/23 CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
+        "releaseStatus": "UNKNOWN",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772072/C06772072.pdf"
+      },
+      {
+        "id": "C06771911",
+        "date": "1999-04-26",
+        "title": "DEPUTY SECRETARY'S 04/23 CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
+        "releaseStatus": "UNKNOWN",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771911/C06771911.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06772062."
   },
   {
     "id": "strobe-pdf-c09000019-joaj7e",
@@ -14283,6 +15980,83 @@ window.MEMCONS = [
     "strobeManifestStatuses": []
   },
   {
+    "id": "strobe-c06771397",
+    "date": "1999-05-06",
+    "sortDate": "1999-05-06",
+    "type": "Context",
+    "title": "THE ACTING SECRETARY'S CONVERSATION WITH CHERNOMYRDIN",
+    "documentTitle": "THE ACTING SECRETARY'S CONVERSATION WITH CHERNOMYRDIN",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06771397",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771397/C06771397.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-05-06",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06771397; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 2 additional Strobe source-copy candidate(s) were folded into this row: C06771454, C06771369.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|talbott-chernomyrdin-1999-05-06",
+    "strobeStandaloneDuplicateRecords": [
+      {
+        "id": "C06771454",
+        "date": "1999-05-06",
+        "title": "THE ACTING SECRETARY'S MAY 6 CONVERSATION WITH RUSSIAN SPECIAL ENVOY ON KOSOVO CHERNOMYRDIN",
+        "releaseStatus": "UNKNOWN",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771454/C06771454.pdf"
+      },
+      {
+        "id": "C06771369",
+        "date": "1999-05-08",
+        "title": "THE ACTING SECRETARY'S MAY 6 CONVERSATION WITH RUSSIAN SPECIAL ENVOY ON KOSOVO CHERNOMYRDIN",
+        "releaseStatus": "UNKNOWN",
+        "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771369/C06771369.pdf"
+      }
+    ],
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771397."
+  },
+  {
     "id": "strobe-c06771454",
     "date": "1999-05-06",
     "sortDate": "1999-05-06",
@@ -14303,6 +16077,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771454/C06771454.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1999-05-06",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -14333,6 +16108,67 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771454."
   },
   {
+    "id": "strobe-c06771999",
+    "date": "1999-05-07",
+    "sortDate": "1999-05-07",
+    "type": "Context",
+    "title": "For the Deputy Secretary: read-out on today's meeting with Chernomyrdin",
+    "documentTitle": "For the Deputy Secretary: read-out on today's meeting with Chernomyrdin",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06771999",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771999/C06771999.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-05-07",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06771999; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Chernomyrdin",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|1999-05-07|for-the-deputy-secretary-read-out-on-today-s-meeting-with-chernomyrdin",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06771999."
+  },
+  {
     "id": "strobe-c06771369",
     "date": "1999-05-08",
     "sortDate": "1999-05-08",
@@ -14353,6 +16189,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771369/C06771369.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1999-05-08",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -14403,6 +16240,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772037/C06772037.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1999-05-17",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -14433,6 +16271,65 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06772037."
   },
   {
+    "id": "strobe-c06814663",
+    "date": "1999-10-10",
+    "sortDate": "1999-10-10",
+    "type": "Context",
+    "title": "TALBOTT MEETING WITH RUSSIAN DEPUTY PM MATVIENKO ON CHECHNYA",
+    "documentTitle": "TALBOTT MEETING WITH RUSSIAN DEPUTY PM MATVIENKO ON CHECHNYA",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06814663",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814663/C06814663.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-10-10",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06814663; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 150,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 150,
+    "strobeStandaloneClusterKey": "strobe-standalone|1999-10-10|talbott-meeting-with-russian-deputy-pm-matvienko-on-chechnya",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814663."
+  },
+  {
     "id": "strobe-c06814653",
     "date": "1999-10-15",
     "sortDate": "1999-10-15",
@@ -14453,6 +16350,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814653/C06814653.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "1999-10-15",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -14479,6 +16377,124 @@ window.MEMCONS = [
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814653."
   },
   {
+    "id": "strobe-c06814742",
+    "date": "1999-10-15",
+    "sortDate": "1999-10-15",
+    "type": "Context",
+    "title": "MAMEDOV ON CTBT DEFEAT, BILATERAL WAY AHEAD",
+    "documentTitle": "MAMEDOV ON CTBT DEFEAT, BILATERAL WAY AHEAD",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06814742",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814742/C06814742.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1999-10-15",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06814742; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 135,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 135,
+    "strobeStandaloneClusterKey": "strobe-standalone|1999-10-15|mamedov-on-ctbt-defeat-bilateral-way-ahead",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814742."
+  },
+  {
+    "id": "strobe-c06815057",
+    "date": "2000-02-16",
+    "sortDate": "2000-02-16",
+    "type": "Context",
+    "title": "Secretary's Meeting with Russian FM Ivanov",
+    "documentTitle": "Secretary's Meeting with Russian FM Ivanov",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06815057",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815057/C06815057.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "2000-02-16",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06815057; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|2000-02-16|secretary-s-meeting-with-russian-fm-ivanov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06815057."
+  },
+  {
     "id": "strobe-c06815112",
     "date": "2000-02-24",
     "sortDate": "2000-02-24",
@@ -14499,6 +16515,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815112/C06815112.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "2000-02-24",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -14525,6 +16542,184 @@ window.MEMCONS = [
     ],
     "relevanceScore": 110,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06815112."
+  },
+  {
+    "id": "strobe-c06815056",
+    "date": "2000-02-25",
+    "sortDate": "2000-02-25",
+    "type": "Context",
+    "title": "Deputy Secretary's meeting with Russian National Seurity Council Secretary Sergey Ivanov",
+    "documentTitle": "Deputy Secretary's meeting with Russian National Seurity Council Secretary Sergey Ivanov",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06815056",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815056/C06815056.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "2000-02-25",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06815056; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|2000-02-25|deputy-secretary-s-meeting-with-russian-national-seurity-council-secretary-sergey-ivanov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06815056."
+  },
+  {
+    "id": "strobe-c06815149",
+    "date": "2000-03-03",
+    "sortDate": "2000-03-03",
+    "strobeManifestDate": "2000-03-07",
+    "type": "Context",
+    "title": "Secretarys meeting with Russian Foreign Minister Ivanov on March 3",
+    "documentTitle": "Secretarys meeting with Russian Foreign Minister Ivanov on March 3",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06815149",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815149/C06815149.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "2000-03-03 (document date inferred; Strobe manifest/index date 2000-03-07)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06815149; release status UNKNOWN. Manifest/index date 2000-03-07; displayed document date 2000-03-03 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 135,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 135,
+    "strobeStandaloneClusterKey": "strobe-standalone|2000-03-07|secretarys-meeting-with-russian-foreign-minister-ivanov-on-march-3",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06815149."
+  },
+  {
+    "id": "strobe-c06815131",
+    "date": "2000-03-17",
+    "sortDate": "2000-03-17",
+    "type": "Context",
+    "title": "3/17 Meeting with Mamedov",
+    "documentTitle": "3/17 Meeting with Mamedov",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06815131",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815131/C06815131.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "2000-03-17",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06815131; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 135,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 135,
+    "strobeStandaloneClusterKey": "strobe-standalone|2000-03-17|3-17-meeting-with-mamedov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06815131."
   },
   {
     "id": "strobe-pdf-c09000042-oxygdh",
@@ -14602,6 +16797,66 @@ window.MEMCONS = [
     "strobeManifestStatuses": []
   },
   {
+    "id": "strobe-c06814902",
+    "date": "2000-07-12",
+    "sortDate": "2000-07-12",
+    "strobeManifestDate": "2000-08-10",
+    "type": "Context",
+    "title": "Deputy Secretary's meeting with Russian Foreign Minister Ivanov at the G8 Ministerial - 07/12/00",
+    "documentTitle": "Deputy Secretary's meeting with Russian Foreign Minister Ivanov at the G8 Ministerial - 07/12/00",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06814902",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814902/C06814902.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "2000-07-12 (document date inferred; Strobe manifest/index date 2000-08-10)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06814902; release status UNKNOWN. Manifest/index date 2000-08-10; displayed document date 2000-07-12 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|2000-08-10|deputy-secretary-s-meeting-with-russian-foreign-minister-ivanov-at-the-g8-ministerial-07-12-00",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814902."
+  },
+  {
     "id": "strobe-c06814917",
     "date": "2000-07-12",
     "sortDate": "2000-07-12",
@@ -14622,6 +16877,7 @@ window.MEMCONS = [
     "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
     "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814917/C06814917.pdf",
     "pageCount": null,
+    "countStatus": null,
     "dateLine": "2000-07-12",
     "subjectLine": "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
     "source": {
@@ -14648,6 +16904,186 @@ window.MEMCONS = [
     ],
     "relevanceScore": 100,
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814917."
+  },
+  {
+    "id": "strobe-c06814955",
+    "date": "2000-08-02",
+    "sortDate": "2000-08-02",
+    "strobeManifestDate": "2000-08-03",
+    "type": "Context",
+    "title": "The Deputy Secretary's August 2 meeting with Russian Deputy FM Trubnikov",
+    "documentTitle": "The Deputy Secretary's August 2 meeting with Russian Deputy FM Trubnikov",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06814955",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814955/C06814955.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "2000-08-02 (document date inferred; Strobe manifest/index date 2000-08-03)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06814955; release status UNKNOWN. Manifest/index date 2000-08-03; displayed document date 2000-08-02 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 150,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 150,
+    "strobeStandaloneClusterKey": "strobe-standalone|2000-08-03|the-deputy-secretary-s-august-2-meeting-with-russian-deputy-fm-trubnikov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814955."
+  },
+  {
+    "id": "strobe-c06703510",
+    "date": "2020-02-07",
+    "sortDate": "2020-02-07",
+    "type": "Context",
+    "title": "TALBOTT/CHUBAIS MEMCON",
+    "documentTitle": "TALBOTT/CHUBAIS MEMCON",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06703510",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703510/C06703510.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "2020-02-07",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703510; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Chubais",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Chubais",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 230,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 230,
+    "strobeStandaloneClusterKey": "strobe-standalone|2020-02-07|talbott-chubais-memcon",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703510."
+  },
+  {
+    "id": "strobe-c06698975",
+    "date": "2020-02-07",
+    "sortDate": "2020-02-07",
+    "type": "Context",
+    "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
+    "documentTitle": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06698975",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698975/C06698975.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "2020-02-07",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698975; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|2020-02-07|the-deputy-secretary-s-conversation-with-deputy-foreign-minister-mamedov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698975."
   },
   {
     "id": "strobe-pdf-c06835143-14wx5nw",
@@ -14791,6 +17227,65 @@ window.MEMCONS = [
     "strobeManifestStatuses": [
       "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
     ]
+  },
+  {
+    "id": "strobe-c06835147",
+    "date": "2021-02-01",
+    "sortDate": "2021-02-01",
+    "type": "Context",
+    "title": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
+    "documentTitle": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06835147",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835147/C06835147.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "2021-02-01",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06835147; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 115,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 115,
+    "strobeStandaloneClusterKey": "strobe-standalone|2021-02-01|russia-related-stuff-from-notes-of-p-staff-dave-goldwyn-readout-from-vancouver-p8-meetings",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835147."
   },
   {
     "id": "strobe-pdf-c06835134-2stv00",

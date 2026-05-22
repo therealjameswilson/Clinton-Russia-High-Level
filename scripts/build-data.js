@@ -2853,9 +2853,148 @@ function isStrobeYeltsinTitleRecord(record) {
   return STROBE_YELTSIN_TITLE_RE.test(ascii(record.title));
 }
 
+const STROBE_STANDALONE_FORM_RE =
+  /\b(MEMORANDUM OF CONVERSATION|MEMORANDUM OF MEETING|MEMCON|TELCON|TELEPHONE CONVERSATION|CONVERSATION WITH|MEETING WITH|ONE-ON-ONE|ONE-ON-ONES|BILAT|BILATERAL|READ[- ]?OUT|PLENARY MEETING|LUNCH MEETING|PRIVATE CONVERSATION|ATTACHED REPORT FROM .* MEETING)\b/i;
+const STROBE_STANDALONE_RUSSIA_RE =
+  /\b(RUSSIA|RUSSIAN|MOSCOW|YELTSIN|CHERNOMYRDIN|CHERNOMYRIDN|CHERNOMYRID|PRIMAKOV|KOZYREV|MAMEDOV|MAMEDON|USHAKOV|AVDEYEV|ABDEYEV|IVANOV|CHUBAIS|RYURIKOV|MATVIENKO|MASLYUKOV|TRUBNIKOV|GRACHEV|LUZHKOV|YAVLINSKIY|DUMA|KOSOVO|CHECHNYA|NATO\/RUSSIA|NATO-RUSSIA|CTBT|CFE|ABM|START)\b/i;
+const STROBE_STANDALONE_ACTOR_RE =
+  /\b(PRESIDENT|CLINTON|VICE PRESIDENT|GORE|SECRETARY|ALBRIGHT|CHRISTOPHER|ACTING SECRETARY|DEPUTY SECRETARY|TALBOTT|FUERTH|PICKERING|COLLINS|AMBASSADOR)\b/i;
+const STROBE_STANDALONE_EXCLUDE_RE =
+  /\b(SCHEDULE|BACKGROUND|TALKING POINT|TALKING POINTS|PRESS GUIDANCE|PRESS STATEMENT|PRESS CONFERENCE|POOL SPRAY|REMARKS|LETTER|MESSAGE TO|DRAFT|OPTIONS PAPER|SCENESETTER|BIOGRAPH|TRAVEL|ITINERARY|PAPER FOR|YOUR MEETING|PREPARATORY|PREP|AGENDA|DECLARATION|STATEMENT BY|QUESTION|INVITATION|MISCELLANEOUS|MATERIAL FOR|PROSPECTIVE MEETING)\b/i;
+
+function strobeStandaloneTitle(record) {
+  return ascii(record.title).replace(/[?`]+/g, "'");
+}
+
+function isStrobeStandaloneCandidateRecord(record) {
+  if (STROBE_SUPPRESSED_CONTEXT_IDS.has(record.id)) return false;
+  if (isStrobeYeltsinTitleRecord(record)) return false;
+  const title = strobeStandaloneTitle(record);
+  if (STROBE_STANDALONE_EXCLUDE_RE.test(title)) return false;
+  return STROBE_STANDALONE_FORM_RE.test(title) && STROBE_STANDALONE_RUSSIA_RE.test(title);
+}
+
+function strobeStandaloneScore(record) {
+  const title = strobeStandaloneTitle(record);
+  let score = 0;
+  if (STROBE_STANDALONE_FORM_RE.test(title)) score += 70;
+  if (/\b(MEMORANDUM OF CONVERSATION|MEMORANDUM OF MEETING|MEMCON|TELCON|TELEPHONE CONVERSATION)\b/i.test(title)) {
+    score += 60;
+  }
+  if (STROBE_STANDALONE_RUSSIA_RE.test(title)) score += 45;
+  if (STROBE_STANDALONE_ACTOR_RE.test(title)) score += 20;
+  if (/\b(PRESIDENT|CLINTON|VICE PRESIDENT|GORE)\b/i.test(title)) score += 25;
+  if (/\b(SECRETARY|ALBRIGHT|CHRISTOPHER|TALBOTT|DEPUTY SECRETARY|ACTING SECRETARY)\b/i.test(title)) {
+    score += 15;
+  }
+  if (/\b(PRIMAKOV|CHERNOMYRDIN|CHERNOMYRIDN|CHERNOMYRID|IVANOV|CHUBAIS|KOZYREV|MAMEDOV|MAMEDON|USHAKOV|AVDEYEV|ABDEYEV|RYURIKOV)\b/i.test(title)) {
+    score += 20;
+  }
+  return score;
+}
+
+function normalizedStrobeStandaloneTitle(record) {
+  return strobeStandaloneTitle(record)
+    .toUpperCase()
+    .replace(/\bCHERNOMYRIDN?\b/g, "CHERNOMYRDIN")
+    .replace(/\bYEVGINIY\b/g, "YEVGENIY")
+    .replace(/\bMAMEDON\b/g, "MAMEDOV")
+    .replace(/\bABDEYEV\b/g, "AVDEYEV")
+    .replace(/\bSERETARY\b|\bSECRETART\b|\bSECRETARYVS\b/g, "SECRETARY")
+    .replace(/\bF\.?M\.?\b/g, "FM")
+    .replace(/[^A-Z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function strobeStandaloneClusterKey(record) {
+  const title = normalizedStrobeStandaloneTitle(record);
+  if (/PRESIDENT CLINTON.*VICE PRESIDENT GORE.*CHERNOMYRDIN/.test(title)) return "strobe-standalone|clinton-gore-chernomyrdin-1997-02-13";
+  if (/VICE PRESIDENT.*GORE.*CHERNOMYRDIN/.test(title)) return "strobe-standalone|gore-chernomyrdin-1997-01";
+  if (/PRESIDENT.*RUSSIAN FOREIGN MINISTER.*PRIMAKOV/.test(title)) return "strobe-standalone|president-primakov-1997-03-17";
+  if (/SECRETARY.*VICTOR CHERNOMYRDIN|SECRETARY.*CHERNOMYRDIN.*FEBRUARY 20/.test(title)) return "strobe-standalone|secretary-chernomyrdin-1997-02-20";
+  if (/SECOND MEETING.*PRIMAKOV.*FEBRUARY 21/.test(title)) return "strobe-standalone|secretary-primakov-second-1997-02-21";
+  if (/SECRETARY.*PRIMAKOV.*FEBRUARY 20/.test(title)) return "strobe-standalone|secretary-primakov-1997-02-20";
+  if (/ALBRIGHT.*PRIMAKOV|MEMORANDUM OF CONVERSATION.*SECRETARY.*FM.*PRIMAKOV/.test(title)) return "strobe-standalone|albright-primakov-1997-03-15";
+  if (/SECRETARY.*PRIMAKOV.*MARCH 20.*HELSINKI/.test(title)) return "strobe-standalone|secretary-primakov-helsinki-1997-03-20";
+  if (/RYURIKOV/.test(title)) return "strobe-standalone|talbott-ryurikov-1997-03-07";
+  if (/NATO RUSSIA.*MARCH 10.*POLDIRS/.test(title)) return "strobe-standalone|nato-russia-poldirs-1997-03-10";
+  if (/MAMEDOV.*SEPTEMBER 6|DEPUTY RUSSIAN FM MAMEDOV|RUSSIAN DEPUTY FM MAMEDOV/.test(title)) return "strobe-standalone|talbott-mamedov-september-1996";
+  if (/MAMEDOV/.test(title) && record.date === "1996-10-23") return "strobe-standalone|talbott-mamedov-1996-10-23";
+  if (/AVDEYEV.*FIRST MEETING/.test(title)) return "strobe-standalone|talbott-avdeyev-first-1999-04-07";
+  if (/AVDEYEV.*SECOND MEETING/.test(title)) return "strobe-standalone|talbott-avdeyev-second-1999-04-07";
+  if (/USHAKOV.*FEBRUARY 19|FEBRUARY 19.*USHAKOV/.test(title) || (record.date > "2000-12-31" && /USHAKOV/.test(title))) return "strobe-standalone|talbott-ushakov-1999-02-19";
+  if (/USHAKOV.*04 23|04 23.*USHAKOV|USHAKOV.*APRIL 23|APRIL 23.*USHAKOV/.test(title) || (record.date === "1999-04-23" && /USHAKOV/.test(title))) return "strobe-standalone|talbott-ushakov-1999-04-23";
+  if (/APRIL 16.*AVDEYEV/.test(title)) return "strobe-standalone|talbott-avdeyev-1999-04-16";
+  if (/MAY 6.*CHERNOMYRDIN|CONVERSATION WITH CHERNOMYRDIN/.test(title)) return "strobe-standalone|talbott-chernomyrdin-1999-05-06";
+  return `strobe-standalone|${record.date || "n-d"}|${slug(title)}`;
+}
+
+function strobeStandaloneDuplicateSummary(record) {
+  return {
+    id: record.id,
+    date: record.date || "",
+    title: ascii(record.title),
+    releaseStatus: record.release_status || "",
+    pdfUrl: record.source_pdf_url || ""
+  };
+}
+
+const STROBE_STANDALONE_MONTHS = {
+  JANUARY: "01",
+  FEBRUARY: "02",
+  MARCH: "03",
+  APRIL: "04",
+  MAY: "05",
+  JUNE: "06",
+  JULY: "07",
+  AUGUST: "08",
+  SEPTEMBER: "09",
+  OCTOBER: "10",
+  NOVEMBER: "11",
+  DECEMBER: "12"
+};
+
+function strobeDateFromParts(year, month, day) {
+  const normalizedYear = year.length === 2 ? `${Number(year) <= 30 ? "20" : "19"}${year}` : year;
+  if (normalizedYear < "1993" || normalizedYear > "2000") return null;
+  return `${normalizedYear}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+}
+
+function inferStrobeStandaloneDocumentDate(record) {
+  const rawTitle = strobeStandaloneTitle(record).toUpperCase();
+  const title = normalizedStrobeStandaloneTitle(record);
+  const fullMonthDate = title.match(/\b(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+(\d{1,2}),?\s+(199[3-9]|2000)\b/);
+  if (fullMonthDate) {
+    return strobeDateFromParts(fullMonthDate[3], STROBE_STANDALONE_MONTHS[fullMonthDate[1]], fullMonthDate[2]);
+  }
+
+  const slashDate = rawTitle.match(/\b(\d{1,2})\/(\d{1,2})\/(\d{2}|\d{4})\b/);
+  if (slashDate) {
+    return strobeDateFromParts(slashDate[3], slashDate[1], slashDate[2]);
+  }
+
+  const year = record.date?.slice(0, 4) || "";
+  if (year >= "1993" && year <= "2000") {
+    const noYearMonthDate = title.match(/\b(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+(\d{1,2})\b/);
+    if (noYearMonthDate) {
+      return strobeDateFromParts(year, STROBE_STANDALONE_MONTHS[noYearMonthDate[1]], noYearMonthDate[2]);
+    }
+
+    const noYearSlashDate = rawTitle.match(/\b(\d{1,2})\/(\d{1,2})\b/);
+    if (noYearSlashDate) return strobeDateFromParts(year, noYearSlashDate[1], noYearSlashDate[2]);
+  }
+
+  if (record.id === "C06771181") return "1999-04-07";
+  if (record.id === "C06698134") return "1996-09-06";
+  return record.date;
+}
+
 function buildStrobeRecords() {
   const manifest = JSON.parse(fs.readFileSync(STROBE_MANIFEST, "utf8"));
   const seen = new Set();
+  const seenBySource = new Map();
+  const standaloneClusters = new Map();
   const ranked = manifest
     .filter((record) => record.date && record.date >= "1993-01-01" && record.date <= "2000-12-31")
     .filter((record) => !STROBE_SUPPRESSED_CONTEXT_IDS.has(record.id))
@@ -2865,48 +3004,142 @@ function buildStrobeRecords() {
     .sort((a, b) => b.score - a.score || a.record.date.localeCompare(b.record.date));
 
   const selected = [];
+  function sourceKey(record) {
+    return record.source_pdf_url || record.id;
+  }
+
+  function addSelected(record, score, options = {}) {
+    const standalone = Boolean(options.standalone);
+    const selectionKey = `${record.date}-${slug(record.title)}`;
+    const srcKey = sourceKey(record);
+
+    if (standalone) {
+      const clusterKey = strobeStandaloneClusterKey(record);
+      const existingCluster = standaloneClusters.get(clusterKey);
+      if (existingCluster) {
+        if (sourceKey(existingCluster) !== srcKey) {
+          existingCluster.strobeStandaloneDuplicateRecords = [
+            ...(existingCluster.strobeStandaloneDuplicateRecords || []),
+            strobeStandaloneDuplicateSummary(record)
+          ];
+        }
+        return false;
+      }
+
+      const existingSource = seenBySource.get(srcKey);
+      if (existingSource) {
+        existingSource.strobeStandaloneCandidate = true;
+        existingSource.strobeStandaloneScore = Math.max(existingSource.strobeStandaloneScore || 0, score);
+        existingSource.strobeStandaloneClusterKey = clusterKey;
+        standaloneClusters.set(clusterKey, existingSource);
+        return false;
+      }
+
+      const copy = {
+        ...record,
+        score: Math.max(score, strobeScore(record)),
+        strobeStandaloneCandidate: true,
+        strobeStandaloneScore: score,
+        strobeStandaloneClusterKey: clusterKey
+      };
+      selected.push(copy);
+      seenBySource.set(srcKey, copy);
+      standaloneClusters.set(clusterKey, copy);
+      return true;
+    }
+
+    if (seen.has(selectionKey)) return false;
+    seen.add(selectionKey);
+    const copy = { ...record, score };
+    selected.push(copy);
+    seenBySource.set(srcKey, copy);
+    return true;
+  }
+
   for (const { record, score } of ranked) {
-    const key = `${record.date}-${slug(record.title)}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    selected.push({ ...record, score });
+    addSelected(record, score);
     if (selected.length >= 45) break;
+  }
+
+  const standaloneCandidates = manifest
+    .filter(isStrobeStandaloneCandidateRecord)
+    .map((record) => ({ record, score: strobeStandaloneScore(record) }))
+    .sort((a, b) => b.score - a.score || String(a.record.date).localeCompare(String(b.record.date)) || a.record.id.localeCompare(b.record.id));
+
+  for (const { record, score } of standaloneCandidates) {
+    addSelected(record, score, { standalone: true });
   }
 
   return selected.map((record) => {
     const title = ascii(record.title);
     const topics = ["Talbott FOIA", "Russia policy context"];
+    const standalone = Boolean(record.strobeStandaloneCandidate);
+    const duplicateRecords = record.strobeStandaloneDuplicateRecords || [];
+    const documentDate = standalone ? inferStrobeStandaloneDocumentDate(record) : record.date;
+    const manifestDate = record.date;
     if (/YELTSIN/i.test(title)) topics.push("Yeltsin");
     if (/NATO/i.test(title)) topics.push("NATO/Russia");
     if (/KOSOVO/i.test(title)) topics.push("Kosovo");
     if (/PRIMAKOV/i.test(title)) topics.push("Primakov");
     if (/CHERNOMYRDIN/i.test(title)) topics.push("Chernomyrdin");
     if (/CHUBAIS/i.test(title)) topics.push("Chubais");
+    if (standalone) topics.push("Potential standalone FRUS document");
+
+    const sourceNote = standalone
+      ? [
+          `Source: Department of State FOIA Library, Strobe Talbott FOIA case ${record.case_number}, document ${record.id}; release status ${record.release_status}.`,
+          documentDate && manifestDate && documentDate !== manifestDate
+            ? `Manifest/index date ${manifestDate}; displayed document date ${documentDate} inferred from the title or duplicate cluster.`
+            : "",
+          "Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+          duplicateRecords.length
+            ? `Deduplication: ${duplicateRecords.length} additional Strobe source-copy candidate(s) were folded into this row: ${duplicateRecords.map((item) => item.id).join(", ")}.`
+            : ""
+        ]
+          .filter(Boolean)
+          .join(" ")
+      : `Source: Department of State FOIA Library, Strobe Talbott FOIA case ${record.case_number}, document ${record.id}; release status ${record.release_status}.`;
 
     return {
       id: `strobe-${record.id.toLowerCase()}`,
-      date: record.date,
-      sortDate: record.date,
+      date: documentDate,
+      sortDate: documentDate,
+      strobeManifestDate: standalone && manifestDate !== documentDate ? manifestDate : undefined,
       type: "Context",
       title,
       documentTitle: title,
       participants: [],
       countries: ["United States", "Russia"],
       chapter: CHAPTERS.strobe,
-      releaseStatus: releaseStatus(record.release_status),
+      releaseStatus: standalone ? "Standalone Candidate" : releaseStatus(record.release_status),
       naid: record.id,
       catalogUrl: SOURCES.strobe.url,
       pdfUrl: record.source_pdf_url,
       pageCount: null,
-      dateLine: record.date,
+      countStatus: standalone ? "Standalone extent pending" : null,
+      potentialFrusDocument: standalone ? true : undefined,
+      dateLine:
+        standalone && manifestDate !== documentDate
+          ? `${documentDate} (document date inferred; Strobe manifest/index date ${manifestDate})`
+          : record.date,
       subjectLine:
-        "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
+        standalone
+          ? "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting."
+          : "Talbott FOIA record selected as policy context for the Clinton-Russia high-level channel.",
       source: SOURCES.strobe,
-      sourceNote: `Source: Department of State FOIA Library, Strobe Talbott FOIA case ${record.case_number}, document ${record.id}; release status ${record.release_status}.`,
+      sourceNote,
       frusVolume: FRUS_VOLUME,
       frusTopics: topics,
       topics,
-      relevanceScore: record.score
+      relevanceScore: record.score,
+      strobeStandaloneCandidate: standalone || undefined,
+      strobeStandaloneScore: standalone ? record.strobeStandaloneScore : undefined,
+      strobeStandaloneClusterKey: standalone ? record.strobeStandaloneClusterKey : undefined,
+      strobeStandaloneDuplicateRecords: duplicateRecords.length ? duplicateRecords : undefined,
+      extractionRule: standalone ? EXTRACTION_RULE : undefined,
+      extractionStatus: standalone
+        ? "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+        : undefined
     };
   });
 }
@@ -3783,6 +4016,59 @@ function buildStrobeManifestPdfAudit(records) {
   };
 }
 
+function buildStrobeStandaloneAudit(records) {
+  const manifest = JSON.parse(fs.readFileSync(STROBE_MANIFEST, "utf8"));
+  const rawCandidates = manifest
+    .filter(isStrobeStandaloneCandidateRecord)
+    .map((record) => ({
+      id: record.id,
+      date: record.date || "",
+      title: ascii(record.title),
+      releaseStatus: record.release_status || "",
+      pdfUrl: record.source_pdf_url || "",
+      score: strobeStandaloneScore(record),
+      clusterKey: strobeStandaloneClusterKey(record)
+    }))
+    .sort((a, b) => b.score - a.score || a.date.localeCompare(b.date) || a.id.localeCompare(b.id));
+  const rawClusters = rawCandidates.reduce((acc, record) => {
+    const key = record.clusterKey;
+    acc[key] = acc[key] || [];
+    acc[key].push(record);
+    return acc;
+  }, {});
+  const standaloneRecords = records
+    .filter((record) => record.strobeStandaloneCandidate)
+    .sort((a, b) => a.sortDate.localeCompare(b.sortDate) || a.title.localeCompare(b.title));
+
+  return {
+    generatedAt: new Date().toISOString(),
+    sourceManifest: STROBE_MANIFEST,
+    liveManifest: SOURCES.strobe.url,
+    rule:
+      "A Strobe standalone lead must match a conversation/meeting/read-out title pattern and a Russia/Russia-policy title pattern, while excluding obvious planning, speech, press, background, agenda, and message records. Clinton-Yeltsin title hits are handled in the Strobe manifest PDF source-copy lane.",
+    rawManifestCandidates: rawCandidates.length,
+    visibleStandaloneRows: standaloneRecords.length,
+    duplicateSourceCopyClusters: Object.values(rawClusters).filter((cluster) => cluster.length > 1).length,
+    duplicateSourceCopyCandidatesFolded: standaloneRecords.reduce(
+      (sum, record) => sum + (record.strobeStandaloneDuplicateRecords?.length || 0),
+      0
+    ),
+    visibleRows: standaloneRecords.map((record) => ({
+      id: record.id,
+      documentId: record.naid,
+      date: record.date,
+      manifestDate: record.strobeManifestDate || record.date,
+      title: record.documentTitle,
+      pdfUrl: record.pdfUrl,
+      releaseStatus: record.releaseStatus,
+      clusterKey: record.strobeStandaloneClusterKey,
+      duplicateSourceCopyIds: (record.strobeStandaloneDuplicateRecords || []).map((duplicate) => duplicate.id),
+      extractionStatus: record.extractionStatus
+    })),
+    rawCandidates
+  };
+}
+
 function dedupeCompilerRecords(records) {
   const seen = new Map();
   const deduped = [];
@@ -3836,6 +4122,7 @@ function writeOutputs(records) {
   const sourceFileInventory = buildSourceFileInventory(candidateConversationRecords(records));
   const pageTallies = buildDocumentPageTallies(records, sourceFileInventory);
   const strobeManifestPdfAudit = buildStrobeManifestPdfAudit(records);
+  const strobeStandaloneAudit = buildStrobeStandaloneAudit(records);
 
   const summary = {
     generatedAt: new Date().toISOString(),
@@ -3872,13 +4159,18 @@ function writeOutputs(records) {
       uniqueSourceFiles: new Set(Object.values(STROBE_CONVERSATION_FILES).map(sourceFileKey)).size,
       reviewedNonConversationFiles: STROBE_REVIEWED_NON_CONVERSATION_FILES.length,
       visibleManifestPdfRecords: strobeManifestPdfAudit.visiblePdfRecords,
-      uniqueManifestPdfUrls: strobeManifestPdfAudit.uniquePdfUrls
+      uniqueManifestPdfUrls: strobeManifestPdfAudit.uniquePdfUrls,
+      standaloneCandidateRows: strobeStandaloneAudit.visibleStandaloneRows,
+      standaloneRawManifestCandidates: strobeStandaloneAudit.rawManifestCandidates,
+      standaloneDuplicateSourceCopyCandidatesFolded:
+        strobeStandaloneAudit.duplicateSourceCopyCandidatesFolded
     },
     sources: {
       clintonText: CLINTON_TEXT,
       strobeManifest: STROBE_MANIFEST,
       strobeLiveManifestPdfLeads: STROBE_LIVE_YELTSIN_PDF_LEADS,
       strobeManifestPdfAudit: "reports/strobe-manifest-pdf-audit.json",
+      strobeStandaloneAudit: "reports/strobe-standalone-candidate-audit.json",
       naraScout: SOURCES.naraScout.url,
       naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
       pendingExtentVerificationRecheck: "reports/pending-extent-verification-recheck.json",
@@ -3908,6 +4200,10 @@ function writeOutputs(records) {
   fs.writeFileSync(
     path.join(reportsDir, "strobe-manifest-pdf-audit.json"),
     `${JSON.stringify(strobeManifestPdfAudit, null, 2)}\n`
+  );
+  fs.writeFileSync(
+    path.join(reportsDir, "strobe-standalone-candidate-audit.json"),
+    `${JSON.stringify(strobeStandaloneAudit, null, 2)}\n`
   );
   fs.writeFileSync(path.join(reportsDir, "source-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
   console.log(JSON.stringify(summary, null, 2));

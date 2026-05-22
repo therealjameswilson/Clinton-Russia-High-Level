@@ -1,0 +1,1435 @@
+{
+  "generatedAt": "2026-05-22T10:44:18.375Z",
+  "sourceManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
+  "liveManifest": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+  "rule": "A Strobe standalone lead must match a conversation/meeting/read-out title pattern and a Russia/Russia-policy title pattern, while excluding obvious planning, speech, press, background, agenda, and message records. Clinton-Yeltsin title hits are handled in the Strobe manifest PDF source-copy lane.",
+  "rawManifestCandidates": 81,
+  "visibleStandaloneRows": 54,
+  "duplicateSourceCopyClusters": 17,
+  "duplicateSourceCopyCandidatesFolded": 27,
+  "visibleRows": [
+    {
+      "id": "strobe-c06695151",
+      "documentId": "C06695151",
+      "date": "1994-07-08",
+      "manifestDate": "1994-07-08",
+      "title": "RUSSIAN TROOP WITHDRAWAL: ESTONIAN FM LUIK'S MEETING WITH THE DEPUTY SECRETARY",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695151/C06695151.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1994-07-08|russian-troop-withdrawal-estonian-fm-luik-s-meeting-with-the-deputy-secretary",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698076",
+      "documentId": "C06698076",
+      "date": "1995-10-17",
+      "manifestDate": "1995-10-17",
+      "title": "TALBOTT-KOZYREV ONE-ON-ONES IN MOSCOW",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698076/C06698076.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1995-10-17|talbott-kozyrev-one-on-ones-in-moscow",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06697287",
+      "documentId": "C06697287",
+      "date": "1996-03-20",
+      "manifestDate": "1996-04-01",
+      "title": "NATO: REPORT BY SYG SOLANA OF HIS MEETING WITH RUSSIAN DEFMIN GRACHEV, MARCH 20",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697287/C06697287.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-04-01|nato-report-by-syg-solana-of-his-meeting-with-russian-defmin-grachev-march-20",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06697774",
+      "documentId": "C06697774",
+      "date": "1996-05-23",
+      "manifestDate": "1996-05-23",
+      "title": "DEPUTY SECRETARY'S TALBOTT'S MEETING WITH JAPANESE AMBASSADOR TO MOSCOW WATANABE",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697774/C06697774.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-05-23|deputy-secretary-s-talbott-s-meeting-with-japanese-ambassador-to-moscow-watanabe",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06697694",
+      "documentId": "C06697694",
+      "date": "1996-06-29",
+      "manifestDate": "1996-06-29",
+      "title": "MEETING WITH PRIME MINISTER CHERNOMYRDIN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-06-29|meeting-with-prime-minister-chernomyrdin",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06697692",
+      "documentId": "C06697692",
+      "date": "1996-07-05",
+      "manifestDate": "1996-07-05",
+      "title": "TRANSMITTAL OF MEMORANDUM OF CONVERSATION WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697692/C06697692.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-07-05|transmittal-of-memorandum-of-conversation-with-russian-prime-minister-chernomyrdin",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698357",
+      "documentId": "C06698357",
+      "date": "1996-07-19",
+      "manifestDate": "1996-07-19",
+      "title": "THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698357/C06698357.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-07-19|the-acting-secretary-s-conversation-with-russian-deputy-foreign-minister-mamedov",
+      "duplicateSourceCopyIds": [
+        "C06698359"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698261",
+      "documentId": "C06698261",
+      "date": "1996-09-03",
+      "manifestDate": "1996-09-13",
+      "title": "S/NIS COLLINS' SEPTEMBER 3 MEETING WITH NEW JAPANESE AMBASSADOR TO THE RUSSIAN FEDERATION",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698261/C06698261.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-09-13|s-nis-collins-september-3-meeting-with-new-japanese-ambassador-to-the-russian-federation",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698134",
+      "documentId": "C06698134",
+      "date": "1996-09-06",
+      "manifestDate": "2020-02-07",
+      "title": "TELEPHONE CONVERSATION BETWEEN ACTING SECRETARY TALBOTT AND RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV FRIDAY, SEPTEMBER 6, 9:15 A.M.",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698134/C06698134.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|talbott-mamedov-september-1996",
+      "duplicateSourceCopyIds": [
+        "C06698356",
+        "C06698358",
+        "C06698360"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698208",
+      "documentId": "C06698208",
+      "date": "1996-09-17",
+      "manifestDate": "1996-09-17",
+      "title": "ATTACHED REPORT FROM TOM PICKERING ON HIS MEETING WITH PRIMAKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698208/C06698208.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-09-17|attached-report-from-tom-pickering-on-his-meeting-with-primakov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698121",
+      "documentId": "C06698121",
+      "date": "1996-09-27",
+      "manifestDate": "1996-09-27",
+      "title": "SECRETARY'S PLENARY MEETING WITH RUSSIAN FOREIGN MINISTER PRIMAKOV, 1800-1835 SEPTEMBER23, 1996 NEW YORK",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698121/C06698121.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-09-27|secretary-s-plenary-meeting-with-russian-foreign-minister-primakov-1800-1835-september23-1996-new-york",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698972",
+      "documentId": "C06698972",
+      "date": "1996-10-19",
+      "manifestDate": "1996-10-19",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FM MAMEDON",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698972/C06698972.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-10-19|the-deputy-secretary-s-conversation-with-deputy-fm-mamedov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698745",
+      "documentId": "C06698745",
+      "date": "1996-10-23",
+      "manifestDate": "1996-10-23",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698745/C06698745.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|talbott-mamedov-1996-10-23",
+      "duplicateSourceCopyIds": [
+        "C06698981"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06699015",
+      "documentId": "C06699015",
+      "date": "1996-12-02",
+      "manifestDate": "1996-12-02",
+      "title": "THE VICE PRESIDENT'S MEETING WITH RUSSIAN PRIME MINISTER VIKTOR CHERNOMYRIDN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699015/C06699015.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-12-02|the-vice-president-s-meeting-with-russian-prime-minister-viktor-chernomyrdin",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06699013",
+      "documentId": "C06699013",
+      "date": "1996-12-04",
+      "manifestDate": "1996-12-04",
+      "title": "MEETING WITH PRIMAKOV IN LONDON",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699013/C06699013.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1996-12-04|meeting-with-primakov-in-london",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698875",
+      "documentId": "C06698875",
+      "date": "1997-01-09",
+      "manifestDate": "1997-01-09",
+      "title": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER VIKTOR STEPANOVICH CHERNOMYRID",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698875/C06698875.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|gore-chernomyrdin-1997-01",
+      "duplicateSourceCopyIds": [
+        "C06698884"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703698",
+      "documentId": "C06703698",
+      "date": "1997-01-23",
+      "manifestDate": "1997-01-23",
+      "title": "TALBOTT-FUERTH DELEGATION MEETING WITH ANATOLIY CHUBAIS, CHIEF OF THE RUSSIAN PRESIDENTIAL ADMINISTRATION",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703698/C06703698.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1997-01-23|talbott-fuerth-delegation-meeting-with-anatoliy-chubais-chief-of-the-russian-presidential-administration",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703692",
+      "documentId": "C06703692",
+      "date": "1997-01-23",
+      "manifestDate": "1997-01-23",
+      "title": "TALBOTT/FUERTH DELEGATION MEETING WITH RUSSIAN FOREIGN MINISTER PRIMAKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703692/C06703692.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1997-01-23|talbott-fuerth-delegation-meeting-with-russian-foreign-minister-primakov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703418",
+      "documentId": "C06703418",
+      "date": "1997-02-13",
+      "manifestDate": "1997-02-13",
+      "title": "MEMORANDUM OF CONVERSATION OF A MEETING BETWEEN PRESIDENT CLINTON, VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER CHERNOMYRDIN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703418/C06703418.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|clinton-gore-chernomyrdin-1997-02-13",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703490",
+      "documentId": "C06703490",
+      "date": "1997-02-20",
+      "manifestDate": "1997-02-22",
+      "title": "SECRETARY'S MEETING WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN, FEBRUARY 20, 1997",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703490/C06703490.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|secretary-chernomyrdin-1997-02-20",
+      "duplicateSourceCopyIds": [
+        "C06703508",
+        "C06702929",
+        "C06702931"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06702916",
+      "documentId": "C06702916",
+      "date": "1997-02-20",
+      "manifestDate": "1997-03-05",
+      "title": "SECRETARY'S MEETING WITH YEVGENIY M PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW`",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702916/C06702916.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|secretary-primakov-1997-02-20",
+      "duplicateSourceCopyIds": [
+        "C06702917",
+        "C06702940"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06702920",
+      "documentId": "C06702920",
+      "date": "1997-02-21",
+      "manifestDate": "1997-03-05",
+      "title": "SECRETARY'S SECOND MEETING WITH YEVGENIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702920/C06702920.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|secretary-primakov-second-1997-02-21",
+      "duplicateSourceCopyIds": [
+        "C06702926"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703457",
+      "documentId": "C06703457",
+      "date": "1997-03-04",
+      "manifestDate": "1997-03-12",
+      "title": "STRATEGIES FOR NATO/RUSSIA ACCORD: DEPUTY SECRETARY'S PRIVATE CONVERSATION WITH FRENCH PRESIDENT'S DIPLOMATIC ADVISOR, MARCH 4",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703457/C06703457.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1997-03-12|strategies-for-nato-russia-accord-deputy-secretary-s-private-conversation-with-french-president-s-diplomatic-advisor-march-4",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703179",
+      "documentId": "C06703179",
+      "date": "1997-03-07",
+      "manifestDate": "1997-03-07",
+      "title": "OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703179/C06703179.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|talbott-ryurikov-1997-03-07",
+      "duplicateSourceCopyIds": [
+        "C06703610"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06702848",
+      "documentId": "C06702848",
+      "date": "1997-03-10",
+      "manifestDate": "1997-03-11",
+      "title": "NATO/RUSSIA: DEPUTY SECRETARY'S MARCH 10 CONVERSATION WITH UK, FRG POLDIRS",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702848/C06702848.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|nato-russia-poldirs-1997-03-10",
+      "duplicateSourceCopyIds": [
+        "C06702850"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703626",
+      "documentId": "C06703626",
+      "date": "1997-03-15",
+      "manifestDate": "1997-03-15",
+      "title": "MEMORANDUM OF CONVERSATION BETWEEN SECRETART ALBRIGHT AND FOREIGN MINISTER PRIMAKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|albright-primakov-1997-03-15",
+      "duplicateSourceCopyIds": [
+        "C06703630",
+        "C06702890"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06702903",
+      "documentId": "C06702903",
+      "date": "1997-03-19",
+      "manifestDate": "1997-03-19",
+      "title": "SECRETARYVS CONVERSATION WITH RUSSIAN FOREIGN MINISTER PRIMAKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702903/C06702903.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1997-03-19|secretary-conversation-with-russian-foreign-minister-primakov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703379",
+      "documentId": "C06703379",
+      "date": "1997-03-20",
+      "manifestDate": "1997-03-27",
+      "title": "THE SECRETARY'S MEETING WITH RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV, MARCH 20, HELSINKI",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703379/C06703379.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|secretary-primakov-helsinki-1997-03-20",
+      "duplicateSourceCopyIds": [
+        "C06703392"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703637",
+      "documentId": "C06703637",
+      "date": "1997-03-24",
+      "manifestDate": "1997-03-24",
+      "title": "(C) SECRETARY'S CONVERSATION WITH RUSSIAN FOREIGN MINISTER PRIMAKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703637/C06703637.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1997-03-24|c-secretary-s-conversation-with-russian-foreign-minister-primakov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703656",
+      "documentId": "C06703656",
+      "date": "1997-03-24",
+      "manifestDate": "1997-03-24",
+      "title": "MEMORANDUM OF MEETING BETWEEN THE PRESIDENT AND RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703656/C06703656.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|president-primakov-1997-03-17",
+      "duplicateSourceCopyIds": [
+        "C06703643",
+        "C06703649"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703640",
+      "documentId": "C06703640",
+      "date": "1997-03-24",
+      "manifestDate": "1997-03-24",
+      "title": "SECRETARY'S CONVERSATION WITH RUSSIAN FOREIGN MINISTER PRIMAKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703640/C06703640.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1997-03-24|secretary-s-conversation-with-russian-foreign-minister-primakov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06771248",
+      "documentId": "C06771248",
+      "date": "1999-01-13",
+      "manifestDate": "1999-01-29",
+      "title": "THE DEPUTY SECRETARY'S JANUARY 13 MEETING WITH RUSSIAN DEPUTY PRIME MINISTER MASLYUKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771248/C06771248.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1999-01-29|the-deputy-secretary-s-january-13-meeting-with-russian-deputy-prime-minister-maslyukov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06770364",
+      "documentId": "C06770364",
+      "date": "1999-01-25",
+      "manifestDate": "1999-02-04",
+      "title": "SECRETARY'S MEETING WITH MOSCOW MAYOR YURIY LUZHKOV ON JANUARY 25, 1999",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770364/C06770364.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1999-02-04|secretary-s-meeting-with-moscow-mayor-yuriy-luzhkov-on-january-25-1999",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06771295",
+      "documentId": "C06771295",
+      "date": "1999-02-19",
+      "manifestDate": "1999-02-19",
+      "title": "THE ACTING SECRETARY'S FEBRUARY 19 CONVERSATION WITH RUSSIAN AMBASSADOR TO THE U.S. USHAKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771295/C06771295.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|talbott-ushakov-1999-02-19",
+      "duplicateSourceCopyIds": [
+        "C06771020",
+        "C06771291"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06814923",
+      "documentId": "C06814923",
+      "date": "1999-02-22",
+      "manifestDate": "1999-03-09",
+      "title": "Deputy Secretary's meeting with Moscow Mayor Yuriy Luzhkov on February 22",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814923/C06814923.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1999-03-09|deputy-secretary-s-meeting-with-moscow-mayor-yuriy-luzhkov-on-february-22",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06814916",
+      "documentId": "C06814916",
+      "date": "1999-02-22",
+      "manifestDate": "1999-03-03",
+      "title": "Deputy Secretary's meeting with Russia's Yabloko Faction Leader and DUMA Deputy Grigoriy Yavlinskiy on February 22, 1999",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814916/C06814916.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1999-03-03|deputy-secretary-s-meeting-with-russia-s-yabloko-faction-leader-and-duma-deputy-grigoriy-yavlinskiy-on-february-22-1999",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06771178",
+      "documentId": "C06771178",
+      "date": "1999-04-07",
+      "manifestDate": "1999-04-07",
+      "title": "Memorandum of Conversation Talbott/Avdeyev - First Meeting Breakfast Hotel Royal Windsor, Brussels, Beligum",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771178/C06771178.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|talbott-avdeyev-first-1999-04-07",
+      "duplicateSourceCopyIds": [
+        "C06771179"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06771181",
+      "documentId": "C06771181",
+      "date": "1999-04-07",
+      "manifestDate": "2009-04-07",
+      "title": "Memorandum of Conversation Talbott/Avdeyev - Second Meeting - Russian Embassy Brussels, Beligum",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771181/C06771181.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|talbott-avdeyev-second-1999-04-07",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06814668",
+      "documentId": "C06814668",
+      "date": "1999-04-07",
+      "manifestDate": "1999-04-07",
+      "title": "UZBEK FONMIN KAMILOV GIVES READ-OUT ON CIS SUMMIT, AGAIN EXPRESSES CONCERN ABOUT RUSSIA-TAJIKISTAN RELATIONS",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814668/C06814668.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1999-04-07|uzbek-fonmin-kamilov-gives-read-out-on-cis-summit-again-expresses-concern-about-russia-tajikistan-relations",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06771889",
+      "documentId": "C06771889",
+      "date": "1999-04-16",
+      "manifestDate": "1999-04-22",
+      "title": "THE DEPUTY SECRETARY'S APRIL 16 CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER ABDEYEV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771889/C06771889.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|talbott-avdeyev-1999-04-16",
+      "duplicateSourceCopyIds": [
+        "C06771892"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06772062",
+      "documentId": "C06772062",
+      "date": "1999-04-23",
+      "manifestDate": "1999-04-23",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772062/C06772062.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|talbott-ushakov-1999-04-23",
+      "duplicateSourceCopyIds": [
+        "C06772072",
+        "C06771911"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06771397",
+      "documentId": "C06771397",
+      "date": "1999-05-06",
+      "manifestDate": "1999-05-06",
+      "title": "THE ACTING SECRETARY'S CONVERSATION WITH CHERNOMYRDIN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771397/C06771397.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|talbott-chernomyrdin-1999-05-06",
+      "duplicateSourceCopyIds": [
+        "C06771454",
+        "C06771369"
+      ],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06771999",
+      "documentId": "C06771999",
+      "date": "1999-05-07",
+      "manifestDate": "1999-05-07",
+      "title": "For the Deputy Secretary: read-out on today's meeting with Chernomyrdin",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771999/C06771999.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1999-05-07|for-the-deputy-secretary-read-out-on-today-s-meeting-with-chernomyrdin",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06814663",
+      "documentId": "C06814663",
+      "date": "1999-10-10",
+      "manifestDate": "1999-10-10",
+      "title": "TALBOTT MEETING WITH RUSSIAN DEPUTY PM MATVIENKO ON CHECHNYA",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814663/C06814663.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1999-10-10|talbott-meeting-with-russian-deputy-pm-matvienko-on-chechnya",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06814742",
+      "documentId": "C06814742",
+      "date": "1999-10-15",
+      "manifestDate": "1999-10-15",
+      "title": "MAMEDOV ON CTBT DEFEAT, BILATERAL WAY AHEAD",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814742/C06814742.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|1999-10-15|mamedov-on-ctbt-defeat-bilateral-way-ahead",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06815057",
+      "documentId": "C06815057",
+      "date": "2000-02-16",
+      "manifestDate": "2000-02-16",
+      "title": "Secretary's Meeting with Russian FM Ivanov",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815057/C06815057.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|2000-02-16|secretary-s-meeting-with-russian-fm-ivanov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06815056",
+      "documentId": "C06815056",
+      "date": "2000-02-25",
+      "manifestDate": "2000-02-25",
+      "title": "Deputy Secretary's meeting with Russian National Seurity Council Secretary Sergey Ivanov",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815056/C06815056.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|2000-02-25|deputy-secretary-s-meeting-with-russian-national-seurity-council-secretary-sergey-ivanov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06815149",
+      "documentId": "C06815149",
+      "date": "2000-03-03",
+      "manifestDate": "2000-03-07",
+      "title": "Secretarys meeting with Russian Foreign Minister Ivanov on March 3",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815149/C06815149.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|2000-03-07|secretarys-meeting-with-russian-foreign-minister-ivanov-on-march-3",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06815131",
+      "documentId": "C06815131",
+      "date": "2000-03-17",
+      "manifestDate": "2000-03-17",
+      "title": "3/17 Meeting with Mamedov",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815131/C06815131.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|2000-03-17|3-17-meeting-with-mamedov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06814902",
+      "documentId": "C06814902",
+      "date": "2000-07-12",
+      "manifestDate": "2000-08-10",
+      "title": "Deputy Secretary's meeting with Russian Foreign Minister Ivanov at the G8 Ministerial - 07/12/00",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814902/C06814902.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|2000-08-10|deputy-secretary-s-meeting-with-russian-foreign-minister-ivanov-at-the-g8-ministerial-07-12-00",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06814955",
+      "documentId": "C06814955",
+      "date": "2000-08-02",
+      "manifestDate": "2000-08-03",
+      "title": "The Deputy Secretary's August 2 meeting with Russian Deputy FM Trubnikov",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814955/C06814955.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|2000-08-03|the-deputy-secretary-s-august-2-meeting-with-russian-deputy-fm-trubnikov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06703510",
+      "documentId": "C06703510",
+      "date": "2020-02-07",
+      "manifestDate": "2020-02-07",
+      "title": "TALBOTT/CHUBAIS MEMCON",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703510/C06703510.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|2020-02-07|talbott-chubais-memcon",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06698975",
+      "documentId": "C06698975",
+      "date": "2020-02-07",
+      "manifestDate": "2020-02-07",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698975/C06698975.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|2020-02-07|the-deputy-secretary-s-conversation-with-deputy-foreign-minister-mamedov",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    },
+    {
+      "id": "strobe-c06835147",
+      "documentId": "C06835147",
+      "date": "2021-02-01",
+      "manifestDate": "2021-02-01",
+      "title": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835147/C06835147.pdf",
+      "releaseStatus": "Standalone Candidate",
+      "clusterKey": "strobe-standalone|2021-02-01|russia-related-stuff-from-notes-of-p-staff-dave-goldwyn-readout-from-vancouver-p8-meetings",
+      "duplicateSourceCopyIds": [],
+      "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+    }
+  ],
+  "rawCandidates": [
+    {
+      "id": "C06698875",
+      "date": "1997-01-09",
+      "title": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER VIKTOR STEPANOVICH CHERNOMYRID",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698875/C06698875.pdf",
+      "score": 240,
+      "clusterKey": "strobe-standalone|gore-chernomyrdin-1997-01"
+    },
+    {
+      "id": "C06698884",
+      "date": "1997-01-09",
+      "title": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER VIKTOR STEPANOVICH CHERNOMYRID",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698884/C06698884.pdf",
+      "score": 240,
+      "clusterKey": "strobe-standalone|gore-chernomyrdin-1997-01"
+    },
+    {
+      "id": "C06703418",
+      "date": "1997-02-13",
+      "title": "MEMORANDUM OF CONVERSATION OF A MEETING BETWEEN PRESIDENT CLINTON, VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER CHERNOMYRDIN",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703418/C06703418.pdf",
+      "score": 240,
+      "clusterKey": "strobe-standalone|clinton-gore-chernomyrdin-1997-02-13"
+    },
+    {
+      "id": "C06703656",
+      "date": "1997-03-24",
+      "title": "MEMORANDUM OF MEETING BETWEEN THE PRESIDENT AND RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703656/C06703656.pdf",
+      "score": 240,
+      "clusterKey": "strobe-standalone|president-primakov-1997-03-17"
+    },
+    {
+      "id": "C06703643",
+      "date": "1997-04-02",
+      "title": "MEMORANDUM OF MEETING BETWEEN THE PRESIDENT AND RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV ON MARCH 17, 1997, 5/5 NO. 9705584",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703643/C06703643.pdf",
+      "score": 240,
+      "clusterKey": "strobe-standalone|president-primakov-1997-03-17"
+    },
+    {
+      "id": "C06703649",
+      "date": "1997-04-02",
+      "title": "MEMORANDUM OF MEETING BETWEEN THE PRESIDENT AND RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV ON MARCH 17, 1997, 5/5 NO. 9705584",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703649/C06703649.pdf",
+      "score": 240,
+      "clusterKey": "strobe-standalone|president-primakov-1997-03-17"
+    },
+    {
+      "id": "C06703626",
+      "date": "1997-03-15",
+      "title": "MEMORANDUM OF CONVERSATION BETWEEN SECRETART ALBRIGHT AND FOREIGN MINISTER PRIMAKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf",
+      "score": 230,
+      "clusterKey": "strobe-standalone|albright-primakov-1997-03-15"
+    },
+    {
+      "id": "C06771178",
+      "date": "1999-04-07",
+      "title": "Memorandum of Conversation Talbott/Avdeyev - First Meeting Breakfast Hotel Royal Windsor, Brussels, Beligum",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771178/C06771178.pdf",
+      "score": 230,
+      "clusterKey": "strobe-standalone|talbott-avdeyev-first-1999-04-07"
+    },
+    {
+      "id": "C06771179",
+      "date": "1999-04-07",
+      "title": "Memorandum of Conversation Talbott/Avdeyev - First Meeting Breakfast Hotel Royal Windsor, Brussels, Beligum",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771179/C06771179.pdf",
+      "score": 230,
+      "clusterKey": "strobe-standalone|talbott-avdeyev-first-1999-04-07"
+    },
+    {
+      "id": "C06771181",
+      "date": "2009-04-07",
+      "title": "Memorandum of Conversation Talbott/Avdeyev - Second Meeting - Russian Embassy Brussels, Beligum",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771181/C06771181.pdf",
+      "score": 230,
+      "clusterKey": "strobe-standalone|talbott-avdeyev-second-1999-04-07"
+    },
+    {
+      "id": "C06698134",
+      "date": "2020-02-07",
+      "title": "TELEPHONE CONVERSATION BETWEEN ACTING SECRETARY TALBOTT AND RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV FRIDAY, SEPTEMBER 6, 9:15 A.M.",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698134/C06698134.pdf",
+      "score": 230,
+      "clusterKey": "strobe-standalone|talbott-mamedov-september-1996"
+    },
+    {
+      "id": "C06703510",
+      "date": "2020-02-07",
+      "title": "TALBOTT/CHUBAIS MEMCON",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703510/C06703510.pdf",
+      "score": 230,
+      "clusterKey": "strobe-standalone|2020-02-07|talbott-chubais-memcon"
+    },
+    {
+      "id": "C06697692",
+      "date": "1996-07-05",
+      "title": "TRANSMITTAL OF MEMORANDUM OF CONVERSATION WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697692/C06697692.pdf",
+      "score": 195,
+      "clusterKey": "strobe-standalone|1996-07-05|transmittal-of-memorandum-of-conversation-with-russian-prime-minister-chernomyrdin"
+    },
+    {
+      "id": "C06703630",
+      "date": "1997-03-16",
+      "title": "MEMORANDUM OF CONVERSATION BETWEEN THE SERETARY AND FM Y. M. PRIMAKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703630/C06703630.pdf",
+      "score": 195,
+      "clusterKey": "strobe-standalone|albright-primakov-1997-03-15"
+    },
+    {
+      "id": "C06699015",
+      "date": "1996-12-02",
+      "title": "THE VICE PRESIDENT'S MEETING WITH RUSSIAN PRIME MINISTER VIKTOR CHERNOMYRIDN",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699015/C06699015.pdf",
+      "score": 180,
+      "clusterKey": "strobe-standalone|1996-12-02|the-vice-president-s-meeting-with-russian-prime-minister-viktor-chernomyrdin"
+    },
+    {
+      "id": "C06703457",
+      "date": "1997-03-12",
+      "title": "STRATEGIES FOR NATO/RUSSIA ACCORD: DEPUTY SECRETARY'S PRIVATE CONVERSATION WITH FRENCH PRESIDENT'S DIPLOMATIC ADVISOR, MARCH 4",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703457/C06703457.pdf",
+      "score": 175,
+      "clusterKey": "strobe-standalone|1997-03-12|strategies-for-nato-russia-accord-deputy-secretary-s-private-conversation-with-french-president-s-diplomatic-advisor-march-4"
+    },
+    {
+      "id": "C06698076",
+      "date": "1995-10-17",
+      "title": "TALBOTT-KOZYREV ONE-ON-ONES IN MOSCOW",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698076/C06698076.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1995-10-17|talbott-kozyrev-one-on-ones-in-moscow"
+    },
+    {
+      "id": "C06698357",
+      "date": "1996-07-19",
+      "title": "THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698357/C06698357.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1996-07-19|the-acting-secretary-s-conversation-with-russian-deputy-foreign-minister-mamedov"
+    },
+    {
+      "id": "C06698359",
+      "date": "1996-07-19",
+      "title": "THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698359/C06698359.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1996-07-19|the-acting-secretary-s-conversation-with-russian-deputy-foreign-minister-mamedov"
+    },
+    {
+      "id": "C06698356",
+      "date": "1996-09-04",
+      "title": "THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FM MAMEDON",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698356/C06698356.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-mamedov-september-1996"
+    },
+    {
+      "id": "C06698358",
+      "date": "1996-09-04",
+      "title": "THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FM MAMEDOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698358/C06698358.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-mamedov-september-1996"
+    },
+    {
+      "id": "C06698360",
+      "date": "1996-09-06",
+      "title": "THE ACTING SECRETARY'S CONVERSATION WITH DEPUTY RUSSIAN F.M. MAMEDOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698360/C06698360.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-mamedov-september-1996"
+    },
+    {
+      "id": "C06698121",
+      "date": "1996-09-27",
+      "title": "SECRETARY'S PLENARY MEETING WITH RUSSIAN FOREIGN MINISTER PRIMAKOV, 1800-1835 SEPTEMBER23, 1996 NEW YORK",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698121/C06698121.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1996-09-27|secretary-s-plenary-meeting-with-russian-foreign-minister-primakov-1800-1835-september23-1996-new-york"
+    },
+    {
+      "id": "C06698972",
+      "date": "1996-10-19",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FM MAMEDON",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698972/C06698972.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1996-10-19|the-deputy-secretary-s-conversation-with-deputy-fm-mamedov"
+    },
+    {
+      "id": "C06698745",
+      "date": "1996-10-23",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698745/C06698745.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-mamedov-1996-10-23"
+    },
+    {
+      "id": "C06698981",
+      "date": "1996-10-23",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698981/C06698981.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-mamedov-1996-10-23"
+    },
+    {
+      "id": "C06703692",
+      "date": "1997-01-23",
+      "title": "TALBOTT/FUERTH DELEGATION MEETING WITH RUSSIAN FOREIGN MINISTER PRIMAKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703692/C06703692.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1997-01-23|talbott-fuerth-delegation-meeting-with-russian-foreign-minister-primakov"
+    },
+    {
+      "id": "C06703698",
+      "date": "1997-01-23",
+      "title": "TALBOTT-FUERTH DELEGATION MEETING WITH ANATOLIY CHUBAIS, CHIEF OF THE RUSSIAN PRESIDENTIAL ADMINISTRATION",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703698/C06703698.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1997-01-23|talbott-fuerth-delegation-meeting-with-anatoliy-chubais-chief-of-the-russian-presidential-administration"
+    },
+    {
+      "id": "C06703490",
+      "date": "1997-02-22",
+      "title": "SECRETARY'S MEETING WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN, FEBRUARY 20, 1997",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703490/C06703490.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-chernomyrdin-1997-02-20"
+    },
+    {
+      "id": "C06703508",
+      "date": "1997-02-22",
+      "title": "SECRETARY'S MEETING WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN, FEBRUARY 20, 1997",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703508/C06703508.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-chernomyrdin-1997-02-20"
+    },
+    {
+      "id": "C06702916",
+      "date": "1997-03-05",
+      "title": "SECRETARY'S MEETING WITH YEVGENIY M PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW`",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702916/C06702916.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-primakov-1997-02-20"
+    },
+    {
+      "id": "C06702917",
+      "date": "1997-03-05",
+      "title": "SECRETARY'S MEETING WITH YEVGENIY M. PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW`",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702917/C06702917.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-primakov-1997-02-20"
+    },
+    {
+      "id": "C06702920",
+      "date": "1997-03-05",
+      "title": "SECRETARY'S SECOND MEETING WITH YEVGENIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702920/C06702920.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-primakov-second-1997-02-21"
+    },
+    {
+      "id": "C06702926",
+      "date": "1997-03-05",
+      "title": "SECRETARY'S SECOND MEETING WITH YEVGINIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-primakov-second-1997-02-21"
+    },
+    {
+      "id": "C06702929",
+      "date": "1997-03-05",
+      "title": "SECRETARY'S MEETING WITH VICTOR CHERNOMYRDIN RUSSIAN PRIME MINISTER, FEBRUARY 20, 1997, MOSCOW",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702929/C06702929.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-chernomyrdin-1997-02-20"
+    },
+    {
+      "id": "C06702931",
+      "date": "1997-03-05",
+      "title": "SECRETARY'S MEETING WITH VICTOR CHERNOMYRDIN, RUSSIAN PRIME MINISTER FEBRUARY 20, 1997, MOSCOW",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702931/C06702931.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-chernomyrdin-1997-02-20"
+    },
+    {
+      "id": "C06703179",
+      "date": "1997-03-07",
+      "title": "OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703179/C06703179.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-ryurikov-1997-03-07"
+    },
+    {
+      "id": "C06703610",
+      "date": "1997-03-07",
+      "title": "OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703610/C06703610.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-ryurikov-1997-03-07"
+    },
+    {
+      "id": "C06702890",
+      "date": "1997-03-15",
+      "title": "SECRETARY ALBRIGHT'S LUNCH MEETING WITH FM PRIMAKOV: DEPARTMENT OF STATE DINING ROOM, WASHINGTON, DC, MARCH 15, 1997",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702890/C06702890.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|albright-primakov-1997-03-15"
+    },
+    {
+      "id": "C06703637",
+      "date": "1997-03-24",
+      "title": "(C) SECRETARY'S CONVERSATION WITH RUSSIAN FOREIGN MINISTER PRIMAKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703637/C06703637.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1997-03-24|c-secretary-s-conversation-with-russian-foreign-minister-primakov"
+    },
+    {
+      "id": "C06703640",
+      "date": "1997-03-24",
+      "title": "SECRETARY'S CONVERSATION WITH RUSSIAN FOREIGN MINISTER PRIMAKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703640/C06703640.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1997-03-24|secretary-s-conversation-with-russian-foreign-minister-primakov"
+    },
+    {
+      "id": "C06703379",
+      "date": "1997-03-27",
+      "title": "THE SECRETARY'S MEETING WITH RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV, MARCH 20, HELSINKI",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703379/C06703379.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-primakov-helsinki-1997-03-20"
+    },
+    {
+      "id": "C06703392",
+      "date": "1997-03-27",
+      "title": "THE SECRETARY'S MEETING WITH RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV, MARCH 20, HELSINKI",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703392/C06703392.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-primakov-helsinki-1997-03-20"
+    },
+    {
+      "id": "C06771295",
+      "date": "1999-02-19",
+      "title": "THE ACTING SECRETARY'S FEBRUARY 19 CONVERSATION WITH RUSSIAN AMBASSADOR TO THE U.S. USHAKOV",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771295/C06771295.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-ushakov-1999-02-19"
+    },
+    {
+      "id": "C06771020",
+      "date": "1999-02-21",
+      "title": "THE ACTING SECRETARY?S FEBRUARY 19 CONVERSATION WITH RUSSIAN AMBASSADOR TO THE U.S. USHAKOV",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771020/C06771020.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-ushakov-1999-02-19"
+    },
+    {
+      "id": "C06771889",
+      "date": "1999-04-22",
+      "title": "THE DEPUTY SECRETARY'S APRIL 16 CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER ABDEYEV",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771889/C06771889.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-avdeyev-1999-04-16"
+    },
+    {
+      "id": "C06771892",
+      "date": "1999-04-22",
+      "title": "THE DEPUTY SECRETARY'S APRIL 16 CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER ABDEYEV",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771892/C06771892.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-avdeyev-1999-04-16"
+    },
+    {
+      "id": "C06772062",
+      "date": "1999-04-23",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772062/C06772062.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-ushakov-1999-04-23"
+    },
+    {
+      "id": "C06772072",
+      "date": "1999-04-23",
+      "title": "DEPUTY SECRETARY'S 04/23 CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772072/C06772072.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-ushakov-1999-04-23"
+    },
+    {
+      "id": "C06771911",
+      "date": "1999-04-26",
+      "title": "DEPUTY SECRETARY'S 04/23 CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771911/C06771911.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-ushakov-1999-04-23"
+    },
+    {
+      "id": "C06771397",
+      "date": "1999-05-06",
+      "title": "THE ACTING SECRETARY'S CONVERSATION WITH CHERNOMYRDIN",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771397/C06771397.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-chernomyrdin-1999-05-06"
+    },
+    {
+      "id": "C06771454",
+      "date": "1999-05-06",
+      "title": "THE ACTING SECRETARY'S MAY 6 CONVERSATION WITH RUSSIAN SPECIAL ENVOY ON KOSOVO CHERNOMYRDIN",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771454/C06771454.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-chernomyrdin-1999-05-06"
+    },
+    {
+      "id": "C06771999",
+      "date": "1999-05-07",
+      "title": "For the Deputy Secretary: read-out on today's meeting with Chernomyrdin",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771999/C06771999.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|1999-05-07|for-the-deputy-secretary-read-out-on-today-s-meeting-with-chernomyrdin"
+    },
+    {
+      "id": "C06771369",
+      "date": "1999-05-08",
+      "title": "THE ACTING SECRETARY'S MAY 6 CONVERSATION WITH RUSSIAN SPECIAL ENVOY ON KOSOVO CHERNOMYRDIN",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771369/C06771369.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-chernomyrdin-1999-05-06"
+    },
+    {
+      "id": "C06815057",
+      "date": "2000-02-16",
+      "title": "Secretary's Meeting with Russian FM Ivanov",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815057/C06815057.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|2000-02-16|secretary-s-meeting-with-russian-fm-ivanov"
+    },
+    {
+      "id": "C06815056",
+      "date": "2000-02-25",
+      "title": "Deputy Secretary's meeting with Russian National Seurity Council Secretary Sergey Ivanov",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815056/C06815056.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|2000-02-25|deputy-secretary-s-meeting-with-russian-national-seurity-council-secretary-sergey-ivanov"
+    },
+    {
+      "id": "C06814902",
+      "date": "2000-08-10",
+      "title": "Deputy Secretary's meeting with Russian Foreign Minister Ivanov at the G8 Ministerial - 07/12/00",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814902/C06814902.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|2000-08-10|deputy-secretary-s-meeting-with-russian-foreign-minister-ivanov-at-the-g8-ministerial-07-12-00"
+    },
+    {
+      "id": "C06698975",
+      "date": "2020-02-07",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698975/C06698975.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|2020-02-07|the-deputy-secretary-s-conversation-with-deputy-foreign-minister-mamedov"
+    },
+    {
+      "id": "C06702940",
+      "date": "2020-02-07",
+      "title": "SECRETARY ALBRIGHT'S ONE-ON-ONE WITH FM PRIMAKOV; OSOBNYAK, MOSCOW; FEBRUARY 20, 1997",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702940/C06702940.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|secretary-primakov-1997-02-20"
+    },
+    {
+      "id": "C06771291",
+      "date": "2021-05-05",
+      "title": "ACTING SECRETARY'S (TALBOTT) CONVERSATION WITH RUSSIAN AMBASSADOR YURIY USHAKOV",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771291/C06771291.pdf",
+      "score": 170,
+      "clusterKey": "strobe-standalone|talbott-ushakov-1999-02-19"
+    },
+    {
+      "id": "C06698208",
+      "date": "1996-09-17",
+      "title": "ATTACHED REPORT FROM TOM PICKERING ON HIS MEETING WITH PRIMAKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698208/C06698208.pdf",
+      "score": 155,
+      "clusterKey": "strobe-standalone|1996-09-17|attached-report-from-tom-pickering-on-his-meeting-with-primakov"
+    },
+    {
+      "id": "C06695151",
+      "date": "1994-07-08",
+      "title": "RUSSIAN TROOP WITHDRAWAL: ESTONIAN FM LUIK'S MEETING WITH THE DEPUTY SECRETARY",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695151/C06695151.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|1994-07-08|russian-troop-withdrawal-estonian-fm-luik-s-meeting-with-the-deputy-secretary"
+    },
+    {
+      "id": "C06697774",
+      "date": "1996-05-23",
+      "title": "DEPUTY SECRETARY'S TALBOTT'S MEETING WITH JAPANESE AMBASSADOR TO MOSCOW WATANABE",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697774/C06697774.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|1996-05-23|deputy-secretary-s-talbott-s-meeting-with-japanese-ambassador-to-moscow-watanabe"
+    },
+    {
+      "id": "C06702848",
+      "date": "1997-03-11",
+      "title": "NATO/RUSSIA: DEPUTY SECRETARY'S MARCH 10 CONVERSATION WITH UK, FRG POLDIRS",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702848/C06702848.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|nato-russia-poldirs-1997-03-10"
+    },
+    {
+      "id": "C06702850",
+      "date": "1997-03-11",
+      "title": "NATO/RUSSIA: DEPUTY SECRETARY'S MARCH 10 CONVERSATION WITH UK FRG POLDIRS",
+      "releaseStatus": "RELEASE IN PART",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702850/C06702850.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|nato-russia-poldirs-1997-03-10"
+    },
+    {
+      "id": "C06771248",
+      "date": "1999-01-29",
+      "title": "THE DEPUTY SECRETARY'S JANUARY 13 MEETING WITH RUSSIAN DEPUTY PRIME MINISTER MASLYUKOV",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771248/C06771248.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|1999-01-29|the-deputy-secretary-s-january-13-meeting-with-russian-deputy-prime-minister-maslyukov"
+    },
+    {
+      "id": "C06770364",
+      "date": "1999-02-04",
+      "title": "SECRETARY'S MEETING WITH MOSCOW MAYOR YURIY LUZHKOV ON JANUARY 25, 1999",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770364/C06770364.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|1999-02-04|secretary-s-meeting-with-moscow-mayor-yuriy-luzhkov-on-january-25-1999"
+    },
+    {
+      "id": "C06814916",
+      "date": "1999-03-03",
+      "title": "Deputy Secretary's meeting with Russia's Yabloko Faction Leader and DUMA Deputy Grigoriy Yavlinskiy on February 22, 1999",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814916/C06814916.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|1999-03-03|deputy-secretary-s-meeting-with-russia-s-yabloko-faction-leader-and-duma-deputy-grigoriy-yavlinskiy-on-february-22-1999"
+    },
+    {
+      "id": "C06814923",
+      "date": "1999-03-09",
+      "title": "Deputy Secretary's meeting with Moscow Mayor Yuriy Luzhkov on February 22",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814923/C06814923.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|1999-03-09|deputy-secretary-s-meeting-with-moscow-mayor-yuriy-luzhkov-on-february-22"
+    },
+    {
+      "id": "C06814663",
+      "date": "1999-10-10",
+      "title": "TALBOTT MEETING WITH RUSSIAN DEPUTY PM MATVIENKO ON CHECHNYA",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814663/C06814663.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|1999-10-10|talbott-meeting-with-russian-deputy-pm-matvienko-on-chechnya"
+    },
+    {
+      "id": "C06814955",
+      "date": "2000-08-03",
+      "title": "The Deputy Secretary's August 2 meeting with Russian Deputy FM Trubnikov",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814955/C06814955.pdf",
+      "score": 150,
+      "clusterKey": "strobe-standalone|2000-08-03|the-deputy-secretary-s-august-2-meeting-with-russian-deputy-fm-trubnikov"
+    },
+    {
+      "id": "C06697694",
+      "date": "1996-06-29",
+      "title": "MEETING WITH PRIME MINISTER CHERNOMYRDIN",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf",
+      "score": 135,
+      "clusterKey": "strobe-standalone|1996-06-29|meeting-with-prime-minister-chernomyrdin"
+    },
+    {
+      "id": "C06698261",
+      "date": "1996-09-13",
+      "title": "S/NIS COLLINS' SEPTEMBER 3 MEETING WITH NEW JAPANESE AMBASSADOR TO THE RUSSIAN FEDERATION",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698261/C06698261.pdf",
+      "score": 135,
+      "clusterKey": "strobe-standalone|1996-09-13|s-nis-collins-september-3-meeting-with-new-japanese-ambassador-to-the-russian-federation"
+    },
+    {
+      "id": "C06699013",
+      "date": "1996-12-04",
+      "title": "MEETING WITH PRIMAKOV IN LONDON",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699013/C06699013.pdf",
+      "score": 135,
+      "clusterKey": "strobe-standalone|1996-12-04|meeting-with-primakov-in-london"
+    },
+    {
+      "id": "C06702903",
+      "date": "1997-03-19",
+      "title": "SECRETARYVS CONVERSATION WITH RUSSIAN FOREIGN MINISTER PRIMAKOV",
+      "releaseStatus": "RELEASE IN FULL",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702903/C06702903.pdf",
+      "score": 135,
+      "clusterKey": "strobe-standalone|1997-03-19|secretary-conversation-with-russian-foreign-minister-primakov"
+    },
+    {
+      "id": "C06814742",
+      "date": "1999-10-15",
+      "title": "MAMEDOV ON CTBT DEFEAT, BILATERAL WAY AHEAD",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814742/C06814742.pdf",
+      "score": 135,
+      "clusterKey": "strobe-standalone|1999-10-15|mamedov-on-ctbt-defeat-bilateral-way-ahead"
+    },
+    {
+      "id": "C06815149",
+      "date": "2000-03-07",
+      "title": "Secretarys meeting with Russian Foreign Minister Ivanov on March 3",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815149/C06815149.pdf",
+      "score": 135,
+      "clusterKey": "strobe-standalone|2000-03-07|secretarys-meeting-with-russian-foreign-minister-ivanov-on-march-3"
+    },
+    {
+      "id": "C06815131",
+      "date": "2000-03-17",
+      "title": "3/17 Meeting with Mamedov",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815131/C06815131.pdf",
+      "score": 135,
+      "clusterKey": "strobe-standalone|2000-03-17|3-17-meeting-with-mamedov"
+    },
+    {
+      "id": "C06697287",
+      "date": "1996-04-01",
+      "title": "NATO: REPORT BY SYG SOLANA OF HIS MEETING WITH RUSSIAN DEFMIN GRACHEV, MARCH 20",
+      "releaseStatus": "RELEASE IN PART",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697287/C06697287.pdf",
+      "score": 115,
+      "clusterKey": "strobe-standalone|1996-04-01|nato-report-by-syg-solana-of-his-meeting-with-russian-defmin-grachev-march-20"
+    },
+    {
+      "id": "C06814668",
+      "date": "1999-04-07",
+      "title": "UZBEK FONMIN KAMILOV GIVES READ-OUT ON CIS SUMMIT, AGAIN EXPRESSES CONCERN ABOUT RUSSIA-TAJIKISTAN RELATIONS",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814668/C06814668.pdf",
+      "score": 115,
+      "clusterKey": "strobe-standalone|1999-04-07|uzbek-fonmin-kamilov-gives-read-out-on-cis-summit-again-expresses-concern-about-russia-tajikistan-relations"
+    },
+    {
+      "id": "C06835147",
+      "date": "2021-02-01",
+      "title": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
+      "releaseStatus": "UNKNOWN",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835147/C06835147.pdf",
+      "score": 115,
+      "clusterKey": "strobe-standalone|2021-02-01|russia-related-stuff-from-notes-of-p-staff-dave-goldwyn-readout-from-vancouver-p8-meetings"
+    }
+  ]
+}

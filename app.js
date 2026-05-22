@@ -214,6 +214,7 @@ function renderWorkbench(records) {
   const strobeFiles = uniqueSourceFileCount(candidates, "strobeFiles");
   const driveFiles = uniqueSourceFileCount(candidates, "googleDriveFiles");
   const strobeManifestPdfs = records.filter((record) => record.strobeManifestPdf).length;
+  const strobeStandaloneLeads = records.filter((record) => record.strobeStandaloneCandidate).length;
 
   if (pendingSummary) {
     pendingSummary.textContent = pending.length
@@ -241,7 +242,7 @@ function renderWorkbench(records) {
   }
 
   if (sourceCopySummary) {
-    sourceCopySummary.textContent = `${strobeFiles} unique Strobe FOIA source-copy files (${strobeRefs} row refs) and ${driveFiles} unique Drive files (${driveRefs} row refs) are attached to canonical conversation rows. The Talbott chapter also lists ${strobeManifestPdfs} visible Strobe manifest PDF rows for context review.`;
+    sourceCopySummary.textContent = `${strobeFiles} unique Strobe FOIA source-copy files (${strobeRefs} row refs) and ${driveFiles} unique Drive files (${driveRefs} row refs) are attached to canonical conversation rows. The Talbott chapter also lists ${strobeManifestPdfs} visible Strobe manifest PDF rows and ${strobeStandaloneLeads} potential standalone Strobe leads for context review.`;
   }
 }
 
@@ -638,7 +639,7 @@ function sourceAuditText(record) {
   if (!record.sourceNote || record.sourceNote === record.frusSourceNote) return "";
   const isPendingCandidate = isConversationCandidate(record) && !Number.isInteger(record.pageCount);
   const isSearchTrail = /Search Trail/i.test(record.releaseStatus || "");
-  const hasAuditLanguage = /Page audit|Search result|recheck|false/i.test(record.sourceNote);
+  const hasAuditLanguage = /Page audit|Search result|recheck|false|Standalone-candidate audit|Deduplication/i.test(record.sourceNote);
   return isPendingCandidate || isSearchTrail || hasAuditLanguage ? record.sourceNote : "";
 }
 
@@ -904,9 +905,11 @@ function statusMatches(record, status) {
     return (
       sourceCopyCount(record, "strobeFiles") > 0 ||
       record.strobeManifestPdf ||
+      record.strobeStandaloneCandidate ||
       /Strobe Talbott/i.test(record.source?.name || "")
     );
   }
+  if (status === "standalone") return Boolean(record.strobeStandaloneCandidate);
   if (status === "drive") return sourceCopyCount(record, "googleDriveFiles") > 0;
   if (status === "partial") return record.releaseStatus === "Partial" || record.releaseStatus === "Mixed";
   if (status === "unknown") return record.releaseStatus === "Unknown";
@@ -952,6 +955,7 @@ function applyQuickFilter(kind) {
     counted: "counted",
     pending: "pending",
     strobe: "strobe",
+    standalone: "standalone",
     drive: "drive",
     partial: "partial",
     unknown: "unknown",
