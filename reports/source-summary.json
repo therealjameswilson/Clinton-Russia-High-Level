@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T21:20:41.482Z",
+  "generatedAt": "2026-05-22T23:03:46.982Z",
   "totalRecords": 662,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
@@ -90,8 +90,12 @@
     "totalCatalogHits": 337,
     "screenedCandidateHits": 128,
     "promotedVisibleLeadRecords": 25,
-    "promotedPacketPdfPages": 1013,
-    "alreadyCountedConversationRecords": 2
+    "promotedPacketPdfPages": 1015,
+    "potentialStandaloneCandidates": 23,
+    "potentialStandalonePacketPdfPages": 868,
+    "researchLeadOnlyRecords": 2,
+    "alreadyCountedConversationRecords": 2,
+    "pageCountAudit": "PDF packet page counts verified with pdfinfo on May 22, 2026; NAID 23901979 corrected from the initial 8-page API/OCR count to 10 PDF pages."
   },
   "publicStatements": {
     "sourceFile": "data/clinton-public-statements.json",

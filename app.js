@@ -261,6 +261,7 @@ function renderWorkbench(records) {
   const driveFiles = uniqueSourceFileCount(candidates, "googleDriveFiles");
   const strobeManifestPdfs = records.filter((record) => record.strobeManifestPdf).length;
   const strobeStandaloneLeads = records.filter((record) => record.strobeStandaloneCandidate).length;
+  const naraStandaloneLeads = records.filter((record) => record.naraStandaloneCandidate).length;
   const publicStatementRows = records.filter((record) => record.type === "Public Statement").length;
   const publicStatementPages = records.reduce(
     (sum, record) => sum + (Number.isInteger(record.publicPapersPageCount) ? record.publicPapersPageCount : 0),
@@ -294,6 +295,9 @@ function renderWorkbench(records) {
 
   if (sourceCopySummary) {
     sourceCopySummary.textContent = `${strobeFiles} unique Strobe FOIA source-copy files (${strobeRefs} row refs) and ${driveFiles} unique Drive files (${driveRefs} row refs) are attached to canonical conversation rows. The Talbott chapter also lists ${strobeManifestPdfs} visible Strobe manifest PDF rows and ${strobeStandaloneLeads} potential standalone Strobe leads for context review.`;
+    if (naraStandaloneLeads) {
+      sourceCopySummary.textContent += ` The NARA Scout lane adds ${naraStandaloneLeads} potential standalone NSC Records Management leads from the 7388808 Yeltsin search.`;
+    }
     sourceCopySummary.textContent += ` The Public Statements lane adds ${formatNumber(publicStatementRows)} GovInfo Public Papers items over ${formatNumber(publicStatementPages)} Public Papers pages.`;
   }
 }
@@ -958,7 +962,7 @@ function statusMatches(record, status) {
       /Strobe Talbott/i.test(record.source?.name || "")
     );
   }
-  if (status === "standalone") return Boolean(record.strobeStandaloneCandidate);
+  if (status === "standalone") return Boolean(record.strobeStandaloneCandidate || record.naraStandaloneCandidate);
   if (status === "drive") return sourceCopyCount(record, "googleDriveFiles") > 0;
   if (status === "partial") return record.releaseStatus === "Partial" || record.releaseStatus === "Mixed";
   if (status === "unknown") return record.releaseStatus === "Unknown";

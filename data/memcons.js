@@ -44742,15 +44742,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "23902190",
     "catalogUrl": "https://catalog.archives.gov/id/23902190",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/90/9021/23902190/content/presidential-libraries/clinton/foia/2011-1038-F/2011-1038-F-PDF/Box_003/42-t-26457815-20111038F-003-014-2015.pdf",
     "pageCount": null,
     "packetPageCount": 11,
     "digitalObjects": 12,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "May 5, 1993; Leader correspondence context; NAID 23902190; 11 PDF pages",
     "subjectLine": "Clinton letter to Lithuanian-American Council after Vancouver says he urged Yeltsin to continue troop withdrawals and registered the U.S. view with Russian officials.",
     "source": {
@@ -44758,14 +44758,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2011-1038-F",
       "url": "https://catalog.archives.gov/id/23902190"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 23902190; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1038-F; Record ID 9302064. PDF packet: 11 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 23902190; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1038-F; Record ID 9302064. PDF packet: 11 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 23902190; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1038-F; Record ID 9302064. PDF packet: 11 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 11-page source PDF. Review the Clinton reply on Baltic troop withdrawal; extract the presidential letter pages plus marker if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 23902190; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1038-F; Record ID 9302064. PDF packet: 11 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 11-page source PDF. Review the Clinton reply on Baltic troop withdrawal; extract the presidential letter pages plus marker if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: correspondence about the Vancouver discussions, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 11-page source PDF. Review the Clinton reply on Baltic troop withdrawal; extract the presidential letter pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -44776,6 +44776,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Baltics",
       "Leader correspondence"
     ],
@@ -44783,11 +44784,16 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Baltics",
       "Leader correspondence"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Clinton letter cites the Vancouver meeting with Yeltsin and high-level pressure for Russian troop withdrawals from the Baltics.",
+    "candidateDocumentExtent": "11-page source PDF. Review the Clinton reply on Baltic troop withdrawal; extract the presidential letter pages plus marker if selected.",
     "naraSearchCategory": "Leader correspondence context",
     "catalogTitle": "9302064",
     "caseNumber": "LPWJC 2011-1038-F",
@@ -44825,7 +44831,11 @@ window.MEMCONS = [
       },
       "snippet": "Baltic states. My Administration is firmly committed to achieving the rapid withdrawal of all Russian troops from the Baltic countries at the earliest possible time. At our summit meeting in Vancouver, I urged President Yeltsin to continue expeditious troop withdrawals. While we were pleased to hear in Vancouver that the Russian government intends to withdraw all troops from Lithuania this year, we want all troops withdrawn from all three coun",
       "researchUse": "Clinton letter to Lithuanian-American Council after Vancouver says he urged Yeltsin to continue troop withdrawals and registered the U.S. view with Russian officials.",
-      "extractionStatus": "Research lead only: correspondence about the Vancouver discussions, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 11-page source PDF. Review the Clinton reply on Baltic troop withdrawal; extract the presidential letter pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Clinton letter cites the Vancouver meeting with Yeltsin and high-level pressure for Russian troop withdrawals from the Baltics.",
+      "candidateDocumentExtent": "11-page source PDF. Review the Clinton reply on Baltic troop withdrawal; extract the presidential letter pages plus marker if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -44850,15 +44860,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "28272248",
     "catalogUrl": "https://catalog.archives.gov/id/28272248",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-001-035-2016.pdf",
     "pageCount": null,
     "packetPageCount": 9,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "June 29, 1993; Congressional briefing context; NAID 28272248; 9 PDF pages",
     "subjectLine": "Presidential talking points before the Tokyo G-7 say the summit will include meetings with Yeltsin immediately after the formal G-7 meetings.",
     "source": {
@@ -44866,14 +44876,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2015-0183-S",
       "url": "https://catalog.archives.gov/id/28272248"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 28272248; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9304754. PDF packet: 9 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272248; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9304754. PDF packet: 9 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 28272248; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9304754. PDF packet: 9 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 9-page source PDF. Review the congressional leadership talking-points packet; extract only the Tokyo G-7/Russia assistance points plus marker if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272248; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9304754. PDF packet: 9 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 9-page source PDF. Review the congressional leadership talking-points packet; extract only the Tokyo G-7/Russia assistance points plus marker if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: congressional briefing points, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 9-page source PDF. Review the congressional leadership talking-points packet; extract only the Tokyo G-7/Russia assistance points plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -44884,6 +44894,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context"
     ],
@@ -44891,11 +44902,16 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Presidential talking points before Tokyo G-7 discussions with Yeltsin on Russian assistance.",
+    "candidateDocumentExtent": "9-page source PDF. Review the congressional leadership talking-points packet; extract only the Tokyo G-7/Russia assistance points plus marker if selected.",
     "naraSearchCategory": "Congressional briefing context",
     "catalogTitle": "9304754 [Congress and Russia]",
     "caseNumber": "LPWJC 2015-0183-S",
@@ -44933,7 +44949,11 @@ window.MEMCONS = [
       },
       "snippet": "w-up to the Rio Conference on environmental issues including the publication by all G-7 countries of their plans to fulfill the climate change and biodiversity treaties. The Summit will also have meetings with President Yeltsin immediately following the formal G-7 meetings where we will discuss with him both global political issues and his domestic economic program. 2 AID TO RUSSIA I want to touch for a moment on our efforts to support democra",
       "researchUse": "Presidential talking points before the Tokyo G-7 say the summit will include meetings with Yeltsin immediately after the formal G-7 meetings.",
-      "extractionStatus": "Research lead only: congressional briefing points, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 9-page source PDF. Review the congressional leadership talking-points packet; extract only the Tokyo G-7/Russia assistance points plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Presidential talking points before Tokyo G-7 discussions with Yeltsin on Russian assistance.",
+      "candidateDocumentExtent": "9-page source PDF. Review the congressional leadership talking-points packet; extract only the Tokyo G-7/Russia assistance points plus marker if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -45041,15 +45061,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "23901970",
     "catalogUrl": "https://catalog.archives.gov/id/23901970",
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-010-034-2015.pdf",
     "pageCount": null,
     "packetPageCount": 6,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "October 18, 1993; Cabinet trip briefing; NAID 23901970; 6 PDF pages",
     "subjectLine": "Anthony Lake memorandum for Clinton's meeting with Warren Christopher before Christopher's trip to Hungary and the former Soviet Union; includes Moscow meeting with Yeltsin.",
     "source": {
@@ -45057,14 +45077,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2011-1037-F",
       "url": "https://catalog.archives.gov/id/23901970"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 23901970; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9308069. PDF packet: 6 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901970; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9308069. PDF packet: 6 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 23901970; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9308069. PDF packet: 6 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 6-page source PDF. Review the Lake memorandum after the Clinton Library marker/provenance page and RMO/withdrawal material; extract only the memo pages plus marker if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901970; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9308069. PDF packet: 6 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 6-page source PDF. Review the Lake memorandum after the Clinton Library marker/provenance page and RMO/withdrawal material; extract only the memo pages plus marker if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: trip briefing memo, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 6-page source PDF. Review the Lake memorandum after the Clinton Library marker/provenance page and RMO/withdrawal material; extract only the memo pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -45075,16 +45095,22 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "topics": [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Trip briefing memorandum for Christopher with explicit Yeltsin meeting agenda, Baltic troop-withdrawal, elections, press freedom, and former Soviet Union stops.",
+    "candidateDocumentExtent": "6-page source PDF. Review the Lake memorandum after the Clinton Library marker/provenance page and RMO/withdrawal material; extract only the memo pages plus marker if selected.",
     "naraSearchCategory": "Cabinet trip briefing",
     "catalogTitle": "9308069",
     "caseNumber": "LPWJC 2011-1037-F",
@@ -45122,7 +45148,11 @@ window.MEMCONS = [
       },
       "snippet": "ull itinerary of the trip is attached at Tab A. Following is a brief description of Christopher's goals at each stop in the former Soviet Union which he will focus on in his meeting with you. Moscow. In his meeting with Yeltsin, Christopher will reiterate support, while seeking assurances of continued commitment to democratic elections. He will also register concern over curtailed press freedoms. On Russian troop withdrawals in the Baltics, he",
       "researchUse": "Anthony Lake memorandum for Clinton's meeting with Warren Christopher before Christopher's trip to Hungary and the former Soviet Union; includes Moscow meeting with Yeltsin.",
-      "extractionStatus": "Research lead only: trip briefing memo, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 6-page source PDF. Review the Lake memorandum after the Clinton Library marker/provenance page and RMO/withdrawal material; extract only the memo pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Trip briefing memorandum for Christopher with explicit Yeltsin meeting agenda, Baltic troop-withdrawal, elections, press freedom, and former Soviet Union stops.",
+      "candidateDocumentExtent": "6-page source PDF. Review the Lake memorandum after the Clinton Library marker/provenance page and RMO/withdrawal material; extract only the memo pages plus marker if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -45917,30 +45947,30 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "23901979",
     "catalogUrl": "https://catalog.archives.gov/id/23901979",
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-009-2015.pdf",
     "pageCount": null,
-    "packetPageCount": 8,
+    "packetPageCount": 10,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
-    "dateLine": "January 20, 1994; Related leader telcon - not Clinton-Yeltsin; NAID 23901979; 8 PDF pages",
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "January 20, 1994; Related leader telcon - not Clinton-Yeltsin; NAID 23901979; 10 PDF pages",
     "subjectLine": "Actual Clinton-Ulmanis telcon on Baltic troop withdrawal that discusses Clinton's Moscow discussions with Yeltsin; useful context, but not counted as a Clinton-Yeltsin conversation.",
     "source": {
       "name": "Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, LPWJC 2011-1037-F, Document ID 9400448; OA/ID 467",
       "caseNumber": "LPWJC 2011-1037-F",
       "url": "https://catalog.archives.gov/id/23901979"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 23901979; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Document ID 9400448; OA/ID 467. PDF packet: 8 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901979; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Document ID 9400448; OA/ID 467. PDF packet: 8 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 23901979; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Document ID 9400448; OA/ID 467. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 10-page source PDF. Withdrawal sheet lists a 4-page telcon with President Ulmanis; extract the actual telcon pages plus marker/provenance if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901979; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Document ID 9400448; OA/ID 467. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 10-page source PDF. Withdrawal sheet lists a 4-page telcon with President Ulmanis; extract the actual telcon pages plus marker/provenance if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Search lead only: actual telcon is Clinton-Ulmanis, not Clinton-Yeltsin. It is useful context for Baltic troop-withdrawal coverage but excluded from Clinton-Yeltsin memcon/telcon page totals.",
+    "extractionStatus": "Potential standalone FRUS document (high priority): 10-page source PDF. Withdrawal sheet lists a 4-page telcon with President Ulmanis; extract the actual telcon pages plus marker/provenance if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -45951,6 +45981,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support",
       "Summit/meeting context",
       "Baltics"
@@ -45959,12 +45990,17 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support",
       "Summit/meeting context",
       "Baltics"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "high",
+    "standaloneCandidateReason": "Actual Clinton telcon with a foreign leader that directly summarizes Clinton-Yeltsin Moscow discussions on Latvian troop withdrawal; not a Clinton-Yeltsin telcon, but high-value standalone context.",
+    "candidateDocumentExtent": "10-page source PDF. Withdrawal sheet lists a 4-page telcon with President Ulmanis; extract the actual telcon pages plus marker/provenance if selected.",
     "naraSearchCategory": "Related leader telcon - not Clinton-Yeltsin",
     "catalogTitle": "9400448",
     "caseNumber": "LPWJC 2011-1037-F",
@@ -45990,7 +46026,7 @@ window.MEMCONS = [
       "sourceItem": "Document ID 9400448; OA/ID 467",
       "catalogUrl": "https://catalog.archives.gov/id/23901979",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-009-2015.pdf",
-      "packetPageCount": 8,
+      "packetPageCount": 10,
       "digitalObjects": 1,
       "score": 24,
       "flags": {
@@ -46003,7 +46039,11 @@ window.MEMCONS = [
       },
       "snippet": "The President: This is President Clinton. (U) President Ulmanis: I am very pleased to hear your voice. (U) The President: I wanted to call and discuss with you the useful and productive discussions I had with President Yeltsin in Moscow on troop withdrawal from Latvia. TC President Ulmanis: I am very grateful for your call. I am very pleased with your call, especially since, with this great natural catastrophe in California, you could find ti",
       "researchUse": "Actual Clinton-Ulmanis telcon on Baltic troop withdrawal that discusses Clinton's Moscow discussions with Yeltsin; useful context, but not counted as a Clinton-Yeltsin conversation.",
-      "extractionStatus": "Search lead only: actual telcon is Clinton-Ulmanis, not Clinton-Yeltsin. It is useful context for Baltic troop-withdrawal coverage but excluded from Clinton-Yeltsin memcon/telcon page totals.",
+      "extractionStatus": "Potential standalone FRUS document (high priority): 10-page source PDF. Withdrawal sheet lists a 4-page telcon with President Ulmanis; extract the actual telcon pages plus marker/provenance if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "high",
+      "standaloneCandidateReason": "Actual Clinton telcon with a foreign leader that directly summarizes Clinton-Yeltsin Moscow discussions on Latvian troop withdrawal; not a Clinton-Yeltsin telcon, but high-value standalone context.",
+      "candidateDocumentExtent": "10-page source PDF. Withdrawal sheet lists a 4-page telcon with President Ulmanis; extract the actual telcon pages plus marker/provenance if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -46028,15 +46068,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "23901981",
     "catalogUrl": "https://catalog.archives.gov/id/23901981",
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-011-2015.pdf",
     "pageCount": null,
     "packetPageCount": 11,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "January 26, 1994; Baltic troop withdrawal context; NAID 23901981; 11 PDF pages",
     "subjectLine": "Memo on meeting Latvian officials after Clinton and Yeltsin discussed the Skrunda radar/troop withdrawal compromise at Moscow.",
     "source": {
@@ -46044,14 +46084,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2011-1037-F",
       "url": "https://catalog.archives.gov/id/23901981"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 23901981; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9400628. PDF packet: 11 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901981; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9400628. PDF packet: 11 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 23901981; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9400628. PDF packet: 11 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 11-page source PDF. Review the Beyrle memorandum/schedule-proposal material after the marker; extract only the adopted Baltic follow-up memo or talking-points pages plus marker.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901981; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9400628. PDF packet: 11 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 11-page source PDF. Review the Beyrle memorandum/schedule-proposal material after the marker; extract only the adopted Baltic follow-up memo or talking-points pages plus marker.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: Baltic follow-up memorandum, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 11-page source PDF. Review the Beyrle memorandum/schedule-proposal material after the marker; extract only the adopted Baltic follow-up memo or talking-points pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -46062,6 +46102,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics"
     ],
@@ -46069,11 +46110,16 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Follow-up memorandum after the Moscow summit, focused on the Skrunda compromise that Clinton worked out with Yeltsin.",
+    "candidateDocumentExtent": "11-page source PDF. Review the Beyrle memorandum/schedule-proposal material after the marker; extract only the adopted Baltic follow-up memo or talking-points pages plus marker.",
     "naraSearchCategory": "Baltic troop withdrawal context",
     "catalogTitle": "9400628",
     "caseNumber": "LPWJC 2011-1037-F",
@@ -46111,7 +46157,11 @@ window.MEMCONS = [
       },
       "snippet": "ter and Delegation on Russian Troop Withdrawal Since the Moscow summit, we have been working intensively to convince the Latvians to accept the compromise on the Skrunda radar facility that the President worked out with Yeltsin. Skrunda is the last major obstacle to final agreement on the Russian pullout. As Latvian President Ulmanis told the President during their January 20 phone conversation, the compromise (four years occupancy of Skrunda",
       "researchUse": "Memo on meeting Latvian officials after Clinton and Yeltsin discussed the Skrunda radar/troop withdrawal compromise at Moscow.",
-      "extractionStatus": "Research lead only: Baltic follow-up memorandum, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 11-page source PDF. Review the Beyrle memorandum/schedule-proposal material after the marker; extract only the adopted Baltic follow-up memo or talking-points pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Follow-up memorandum after the Moscow summit, focused on the Skrunda compromise that Clinton worked out with Yeltsin.",
+      "candidateDocumentExtent": "11-page source PDF. Review the Beyrle memorandum/schedule-proposal material after the marker; extract only the adopted Baltic follow-up memo or talking-points pages plus marker.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -46136,15 +46186,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "23901982",
     "catalogUrl": "https://catalog.archives.gov/id/23901982",
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-012-2015.pdf",
     "pageCount": null,
     "packetPageCount": 9,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "January 31, 1994; Baltic troop withdrawal context; NAID 23901982; 9 PDF pages",
     "subjectLine": "Meeting paper and talking points on Latvia troop withdrawal and the Skrunda compromise Yeltsin accepted at Moscow.",
     "source": {
@@ -46152,14 +46202,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2011-1037-F",
       "url": "https://catalog.archives.gov/id/23901982"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 23901982; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9400750. PDF packet: 9 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901982; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9400750. PDF packet: 9 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 23901982; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9400750. PDF packet: 9 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 9-page source PDF. Withdrawal sheet identifies a 1-page memo and 2-page suggested talking points; extract only selected item pages plus marker.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901982; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9400750. PDF packet: 9 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 9-page source PDF. Withdrawal sheet identifies a 1-page memo and 2-page suggested talking points; extract only selected item pages plus marker.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: Baltic follow-up paper, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 9-page source PDF. Withdrawal sheet identifies a 1-page memo and 2-page suggested talking points; extract only selected item pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -46170,6 +46220,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics"
     ],
@@ -46177,11 +46228,16 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Meeting paper and talking points on the Latvian delegation and the Skrunda compromise Yeltsin accepted at Moscow.",
+    "candidateDocumentExtent": "9-page source PDF. Withdrawal sheet identifies a 1-page memo and 2-page suggested talking points; extract only selected item pages plus marker.",
     "naraSearchCategory": "Baltic troop withdrawal context",
     "catalogTitle": "9400750",
     "caseNumber": "LPWJC 2011-1037-F",
@@ -46219,7 +46275,11 @@ window.MEMCONS = [
       },
       "snippet": "sive stage. The last major sticking point between the two sides is the length of time Russia will be allowed to rent the Skrunda radar facility after the main withdrawal is completed August 31 of this year. As you know, Yeltsin agreed in Moscow to a compromise term - - four years rental, followed by 18 months for dismantlement. We are now undertaking a full-court press to persuade the Latvians that the \"4 plus 18\" compromise is a deal they sho",
       "researchUse": "Meeting paper and talking points on Latvia troop withdrawal and the Skrunda compromise Yeltsin accepted at Moscow.",
-      "extractionStatus": "Research lead only: Baltic follow-up paper, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 9-page source PDF. Withdrawal sheet identifies a 1-page memo and 2-page suggested talking points; extract only selected item pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Meeting paper and talking points on the Latvian delegation and the Skrunda compromise Yeltsin accepted at Moscow.",
+      "candidateDocumentExtent": "9-page source PDF. Withdrawal sheet identifies a 1-page memo and 2-page suggested talking points; extract only selected item pages plus marker.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -46244,15 +46304,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "28272270",
     "catalogUrl": "https://catalog.archives.gov/id/28272270",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-002-020-2016.pdf",
     "pageCount": null,
     "packetPageCount": 10,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "February 7, 1994; Trip readout context; NAID 28272270; 10 PDF pages",
     "subjectLine": "Meeting paper for congressional leaders on Clinton's Europe/Russia trip; useful readout/context for the January 1994 Moscow summit lane.",
     "source": {
@@ -46260,14 +46320,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2015-0183-S",
       "url": "https://catalog.archives.gov/id/28272270"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 28272270; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9400980. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272270; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9400980. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 28272270; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9400980. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 10-page source PDF. Review the congressional-leaders meeting paper/talking points; extract only the Europe/Russia trip readout pages plus marker if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272270; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9400980. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 10-page source PDF. Review the congressional-leaders meeting paper/talking points; extract only the Europe/Russia trip readout pages plus marker if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: trip readout material, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 10-page source PDF. Review the congressional-leaders meeting paper/talking points; extract only the Europe/Russia trip readout pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -46278,6 +46338,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context"
     ],
@@ -46285,11 +46346,16 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Presidential congressional readout on Clinton trip to Europe and Russia, including discussions with Yeltsin.",
+    "candidateDocumentExtent": "10-page source PDF. Review the congressional-leaders meeting paper/talking points; extract only the Europe/Russia trip readout pages plus marker if selected.",
     "naraSearchCategory": "Trip readout context",
     "catalogTitle": "9400980 [Congress and Russia]",
     "caseNumber": "LPWJC 2015-0183-S",
@@ -46327,7 +46393,11 @@ window.MEMCONS = [
       },
       "snippet": "mic relationship with Europe. Meetings with European Union (EU) underscored this. NATO summit a success; PFP launched; seven states already signed up: Romania, Lithuania, Poland, Estonia, Hungary, Ukraine, and Slovakia. Yeltsin was enthusiastic and said Russia will participate. Held good talks in Prague with leaders of the Visegrad nations - Poland, Hungary, Czech Republic, and Slovak Republic- on both PFP and the U.S. vision of an integrated",
       "researchUse": "Meeting paper for congressional leaders on Clinton's Europe/Russia trip; useful readout/context for the January 1994 Moscow summit lane.",
-      "extractionStatus": "Research lead only: trip readout material, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 10-page source PDF. Review the congressional-leaders meeting paper/talking points; extract only the Europe/Russia trip readout pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Presidential congressional readout on Clinton trip to Europe and Russia, including discussions with Yeltsin.",
+      "candidateDocumentExtent": "10-page source PDF. Review the congressional-leaders meeting paper/talking points; extract only the Europe/Russia trip readout pages plus marker if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -46352,15 +46422,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "23901998",
     "catalogUrl": "https://catalog.archives.gov/id/23901998",
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-028-2015.pdf",
     "pageCount": null,
     "packetPageCount": 8,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "July 1, 1994; Direct Clinton-Yeltsin call support; NAID 23901998; 8 PDF pages",
     "subjectLine": "Schedule proposal and Nicholas Burns memorandum for the July 1994 telephone call to Yeltsin; direct call support, not the call transcript.",
     "source": {
@@ -46368,14 +46438,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2011-1037-F",
       "url": "https://catalog.archives.gov/id/23901998"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 23901998; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Document ID 9405332; OA/ID 477. PDF packet: 8 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901998; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Document ID 9405332; OA/ID 477. PDF packet: 8 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 23901998; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Document ID 9405332; OA/ID 477. PDF packet: 8 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 8-page source PDF. Withdrawal sheet lists a 2-page schedule proposal and 1-page Nicholas Burns memo for a telephone call to President Yeltsin; extract only those support documents plus marker if used.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 23901998; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Document ID 9405332; OA/ID 477. PDF packet: 8 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 8-page source PDF. Withdrawal sheet lists a 2-page schedule proposal and 1-page Nicholas Burns memo for a telephone call to President Yeltsin; extract only those support documents plus marker if used.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Search lead only: packet contains call support material, not a released Clinton-Yeltsin telcon transcript. Do not count as actual conversation pages.",
+    "extractionStatus": "Potential standalone FRUS document (high priority): 8-page source PDF. Withdrawal sheet lists a 2-page schedule proposal and 1-page Nicholas Burns memo for a telephone call to President Yeltsin; extract only those support documents plus marker if used. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -46386,16 +46456,22 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support"
     ],
     "topics": [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "high",
+    "standaloneCandidateReason": "Direct call-support packet for a Clinton-Yeltsin telephone call before Riga, Warsaw, and the Naples Summit.",
+    "candidateDocumentExtent": "8-page source PDF. Withdrawal sheet lists a 2-page schedule proposal and 1-page Nicholas Burns memo for a telephone call to President Yeltsin; extract only those support documents plus marker if used.",
     "naraSearchCategory": "Direct Clinton-Yeltsin call support",
     "catalogTitle": "9405332",
     "caseNumber": "LPWJC 2011-1037-F",
@@ -46434,7 +46510,11 @@ window.MEMCONS = [
       },
       "snippet": "ID: 9405332 Stack: Row: Section: Shelf: Position: V 44 4 5 2 Withdrawal/Redaction Sheet Clinton Library DOCUMENT NO. SUBJECT/TITLE DATE RESTRICTION AND TYPE 001 a. form Schedule Proposal for Telephone Call to President Yeltsin of Russia 07/01/1994 P1/b(1) VZ 9/21/2023 (2 pages) 001b memo Nicholas Burns to Anthony Lake, re: Proposed Telephone Call to 07/01/1994 P1/b(1) VZ 9/21/2023 President Yeltsin (1 page) COLLECTION: Clinton Presidential Re",
       "researchUse": "Schedule proposal and Nicholas Burns memorandum for the July 1994 telephone call to Yeltsin; direct call support, not the call transcript.",
-      "extractionStatus": "Search lead only: packet contains call support material, not a released Clinton-Yeltsin telcon transcript. Do not count as actual conversation pages.",
+      "extractionStatus": "Potential standalone FRUS document (high priority): 8-page source PDF. Withdrawal sheet lists a 2-page schedule proposal and 1-page Nicholas Burns memo for a telephone call to President Yeltsin; extract only those support documents plus marker if used. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "high",
+      "standaloneCandidateReason": "Direct call-support packet for a Clinton-Yeltsin telephone call before Riga, Warsaw, and the Naples Summit.",
+      "candidateDocumentExtent": "8-page source PDF. Withdrawal sheet lists a 2-page schedule proposal and 1-page Nicholas Burns memo for a telephone call to President Yeltsin; extract only those support documents plus marker if used.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -46633,15 +46713,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "147873387",
     "catalogUrl": "https://catalog.archives.gov/id/147873387",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585724-20140846F-002-015-2019.pdf",
     "pageCount": null,
     "packetPageCount": 39,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "December 4, 1994; Summit pull-aside support; NAID 147873387; 39 PDF pages",
     "subjectLine": "Front-pocket briefing-book file lists three pages of points for a pull-aside with President Yeltsin at Budapest; high-value summit support lead.",
     "source": {
@@ -46649,14 +46729,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2014-0846-F",
       "url": "https://catalog.archives.gov/id/147873387"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 147873387; Records of the National Security Council Records Management Office (Clinton Administration), Records Management Suspense Files, series NAID 7585724; LPWJC 2014-0846-F; Includes Points for Pull-Aside with President Yeltsin (3 pages). PDF packet: 39 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 147873387; Records of the National Security Council Records Management Office (Clinton Administration), Records Management Suspense Files, series NAID 7585724; LPWJC 2014-0846-F; Includes Points for Pull-Aside with President Yeltsin (3 pages). PDF packet: 39 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 147873387; Records of the National Security Council Records Management Office (Clinton Administration), Records Management Suspense Files, series NAID 7585724; LPWJC 2014-0846-F; Includes Points for Pull-Aside with President Yeltsin (3 pages). PDF packet: 39 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 147873387; Records of the National Security Council Records Management Office (Clinton Administration), Records Management Suspense Files, series NAID 7585724; LPWJC 2014-0846-F; Includes Points for Pull-Aside with President Yeltsin (3 pages). PDF packet: 39 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: pull-aside points are not an actual memcon/telcon. Review for summit preparation and possible annotation.",
+    "extractionStatus": "Potential standalone FRUS document (high priority): 39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -46667,16 +46747,22 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "topics": [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "high",
+    "standaloneCandidateReason": "Direct summit pull-aside support for Clinton and Yeltsin at Budapest.",
+    "candidateDocumentExtent": "39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected.",
     "naraSearchCategory": "Summit pull-aside support",
     "catalogTitle": "POTUS Briefing Books -The President's Trip to Budapest; December 5, 1994 [Binder]: [Front Interior Pocket]",
     "caseNumber": "LPWJC 2014-0846-F",
@@ -46713,7 +46799,11 @@ window.MEMCONS = [
       },
       "snippet": "ard Points for Pull-Aside with President Nazabayev. (2 pages) 12/04/1994 P1/b(1) 012. notecard Points for Pull-Aside with President Kuchma. (3 pages) 12/04/1994 P1/b(1) 013. notecard Points for Pull-Aside with President Yeltsin. (3 pages) 12/04/1994 P1/b(1) COLLECTION: Clinton Presidential Records National Security Council Records Management OA/Box Number: 811 FOLDER TITLE: POTUS Briefing Books-The President's Trip to Budapest, Hungary; Decemb",
       "researchUse": "Front-pocket briefing-book file lists three pages of points for a pull-aside with President Yeltsin at Budapest; high-value summit support lead.",
-      "extractionStatus": "Research lead only: pull-aside points are not an actual memcon/telcon. Review for summit preparation and possible annotation.",
+      "extractionStatus": "Potential standalone FRUS document (high priority): 39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "high",
+      "standaloneCandidateReason": "Direct summit pull-aside support for Clinton and Yeltsin at Budapest.",
+      "candidateDocumentExtent": "39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -46738,15 +46828,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "147873385",
     "catalogUrl": "https://catalog.archives.gov/id/147873385",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585724-20140846F-002-014-2019.pdf",
     "pageCount": null,
     "packetPageCount": 45,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "December 5, 1994; Summit briefing book; NAID 147873385; 45 PDF pages",
     "subjectLine": "Budapest CSCE summit binder with the President's schedule and Yeltsin remarks/presence; useful control source for December 1994 summit context.",
     "source": {
@@ -46754,14 +46844,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2014-0846-F",
       "url": "https://catalog.archives.gov/id/147873385"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 147873385; Records of the National Security Council Records Management Office (Clinton Administration), Records Management Suspense Files, series NAID 7585724; LPWJC 2014-0846-F; PDF 42-t-7585724-20140846F-002-014-2019. PDF packet: 45 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 147873385; Records of the National Security Council Records Management Office (Clinton Administration), Records Management Suspense Files, series NAID 7585724; LPWJC 2014-0846-F; PDF 42-t-7585724-20140846F-002-014-2019. PDF packet: 45 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 147873385; Records of the National Security Council Records Management Office (Clinton Administration), Records Management Suspense Files, series NAID 7585724; LPWJC 2014-0846-F; PDF 42-t-7585724-20140846F-002-014-2019. PDF packet: 45 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 45-page source PDF. Review Budapest briefing-book pages on the Yeltsin schedule, NPT/security assurances, and START I ceremony; extract only adopted pages plus marker.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 147873385; Records of the National Security Council Records Management Office (Clinton Administration), Records Management Suspense Files, series NAID 7585724; LPWJC 2014-0846-F; PDF 42-t-7585724-20140846F-002-014-2019. PDF packet: 45 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 45-page source PDF. Review Budapest briefing-book pages on the Yeltsin schedule, NPT/security assurances, and START I ceremony; extract only adopted pages plus marker.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: briefing-book packet, not a memcon/telcon. Review for editorial context and schedule control.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 45-page source PDF. Review Budapest briefing-book pages on the Yeltsin schedule, NPT/security assurances, and START I ceremony; extract only adopted pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -46772,16 +46862,22 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "topics": [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Budapest briefing book containing high-level Yeltsin schedule and nuclear/security-assurance summit material.",
+    "candidateDocumentExtent": "45-page source PDF. Review Budapest briefing-book pages on the Yeltsin schedule, NPT/security assurances, and START I ceremony; extract only adopted pages plus marker.",
     "naraSearchCategory": "Summit briefing book",
     "catalogTitle": "POTUS Briefing Books -The President's Trip to Budapest; December5, 1994 [Binder]",
     "caseNumber": "LPWJC 2014-0846-F",
@@ -46818,7 +46914,11 @@ window.MEMCONS = [
       },
       "snippet": "m The President is introduced by the Head of Austrian delegation, who presides over the session. 9:45 am- The President makes brief remarks from his seat. 9:55 am 9:56 am Head of Austrian delegation introduces President Yeltsin. 9:57 am- President Yeltsin makes remarks. 10:07 am 10:09 am- Head of Austrian delegation introduces Chancellor 10:20 am Kohl who makes remarks. 10:25 am THE PRESIDENT departs Patria Hall en route Palma 1 10:30 am- HOLD",
       "researchUse": "Budapest CSCE summit binder with the President's schedule and Yeltsin remarks/presence; useful control source for December 1994 summit context.",
-      "extractionStatus": "Research lead only: briefing-book packet, not a memcon/telcon. Review for editorial context and schedule control.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 45-page source PDF. Review Budapest briefing-book pages on the Yeltsin schedule, NPT/security assurances, and START I ceremony; extract only adopted pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Budapest briefing book containing high-level Yeltsin schedule and nuclear/security-assurance summit material.",
+      "candidateDocumentExtent": "45-page source PDF. Review Budapest briefing-book pages on the Yeltsin schedule, NPT/security assurances, and START I ceremony; extract only adopted pages plus marker.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -47716,15 +47816,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "28272315",
     "catalogUrl": "https://catalog.archives.gov/id/28272315",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-003-027-2016.pdf",
     "pageCount": null,
     "packetPageCount": 144,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "April 20, 1995; Congressional correspondence context; NAID 28272315; 144 PDF pages",
     "subjectLine": "Clinton reply to congressional correspondence on Chechnya explains why he accepted the Moscow invitation and scheduled a bilateral meeting with Yeltsin.",
     "source": {
@@ -47732,14 +47832,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2015-0183-S",
       "url": "https://catalog.archives.gov/id/28272315"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 28272315; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9501368. PDF packet: 144 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272315; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9501368. PDF packet: 144 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 28272315; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9501368. PDF packet: 144 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 144-page source PDF. Large congressional correspondence packet; extract only the April 20, 1995 Clinton reply pages on Chechnya and the planned Yeltsin meeting, plus marker.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272315; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9501368. PDF packet: 144 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 144-page source PDF. Large congressional correspondence packet; extract only the April 20, 1995 Clinton reply pages on Chechnya and the planned Yeltsin meeting, plus marker.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: congressional correspondence, not a conversation transcript.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 144-page source PDF. Large congressional correspondence packet; extract only the April 20, 1995 Clinton reply pages on Chechnya and the planned Yeltsin meeting, plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -47750,6 +47850,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context",
       "Leader correspondence"
@@ -47758,12 +47859,17 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context",
       "Leader correspondence"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Presidential reply on Chechnya and the Moscow V-E Day bilateral with Yeltsin.",
+    "candidateDocumentExtent": "144-page source PDF. Large congressional correspondence packet; extract only the April 20, 1995 Clinton reply pages on Chechnya and the planned Yeltsin meeting, plus marker.",
     "naraSearchCategory": "Congressional correspondence context",
     "catalogTitle": "9501368 [Congress and Russia]",
     "caseNumber": "LPWJC 2015-0183-S",
@@ -47801,7 +47907,11 @@ window.MEMCONS = [
       },
       "snippet": "d Tenowon on on Moscow try. 2] TO Date: 3] TO Date: 4] TO Date: 5] TO Date: THE WHITE HOUSE WASHINGTON April 20, 1995 Dear Tim: Thank you for your letter concerning the conflict in Chechnya and my meeting with President Yeltsin. I also understand you have discussed this with Strobe Talbott and Sandy Berger, and I appreciate your views. I accepted the invitation to participate in V-E Day ceremonies in Moscow and scheduled a bilateral meeting wi",
       "researchUse": "Clinton reply to congressional correspondence on Chechnya explains why he accepted the Moscow invitation and scheduled a bilateral meeting with Yeltsin.",
-      "extractionStatus": "Research lead only: congressional correspondence, not a conversation transcript.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 144-page source PDF. Large congressional correspondence packet; extract only the April 20, 1995 Clinton reply pages on Chechnya and the planned Yeltsin meeting, plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Presidential reply on Chechnya and the Moscow V-E Day bilateral with Yeltsin.",
+      "candidateDocumentExtent": "144-page source PDF. Large congressional correspondence packet; extract only the April 20, 1995 Clinton reply pages on Chechnya and the planned Yeltsin meeting, plus marker.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -47826,15 +47936,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "236750794",
     "catalogUrl": "https://catalog.archives.gov/id/236750794",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2022/Batch0002/7585721-20060996F-015-003-2022.pdf",
     "pageCount": null,
     "packetPageCount": 132,
     "digitalObjects": 133,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "April 21, 1995; Meeting guidance context; NAID 236750794; 132 PDF pages",
     "subjectLine": "Guidance on Clinton's May 1995 Moscow/Kiev trip says he would meet with Yeltsin and previews the agenda.",
     "source": {
@@ -47842,14 +47952,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2006-0996-F",
       "url": "https://catalog.archives.gov/id/236750794"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 236750794; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-015-003-2022. PDF packet: 132 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 236750794; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-015-003-2022. PDF packet: 132 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 236750794; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-015-003-2022. PDF packet: 132 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 132-page source PDF. RUE guidance packet; extract only the Moscow V-E Day/Yeltsin meeting guidance page(s) if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 236750794; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-015-003-2022. PDF packet: 132 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 132-page source PDF. RUE guidance packet; extract only the Moscow V-E Day/Yeltsin meeting guidance page(s) if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Search lead only: trip guidance, not an actual conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (low priority): 132-page source PDF. RUE guidance packet; extract only the Moscow V-E Day/Yeltsin meeting guidance page(s) if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -47860,16 +47970,22 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "topics": [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "low",
+    "standaloneCandidateReason": "RUE guidance includes Moscow V-E Day trip and meetings with Yeltsin.",
+    "candidateDocumentExtent": "132-page source PDF. RUE guidance packet; extract only the Moscow V-E Day/Yeltsin meeting guidance page(s) if selected.",
     "naraSearchCategory": "Meeting guidance context",
     "catalogTitle": "[03/30/1995 - 04/21/1995]",
     "caseNumber": "LPWJC 2006-0996-F",
@@ -47906,7 +48022,11 @@ window.MEMCONS = [
       },
       "snippet": "ate conditions for peacefu 1 resolution of tensions. RUSSIA Trip to Moscow -- I will travel to Moscow May 9-10 to join other leaders at ceremonies marking the 50th anniversary of V-E Day, and for meetings with President Yeltsin. 2F82D8DE.FIN Page 8 of 12 -- I will also visit Kiev on May 11 for meetings with Ukrainian President Kuchma. -- The trip to Moscow serves two purposes: it honors the great contribution and sac rifice of the Russian peop",
       "researchUse": "Guidance on Clinton's May 1995 Moscow/Kiev trip says he would meet with Yeltsin and previews the agenda.",
-      "extractionStatus": "Search lead only: trip guidance, not an actual conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (low priority): 132-page source PDF. RUE guidance packet; extract only the Moscow V-E Day/Yeltsin meeting guidance page(s) if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "low",
+      "standaloneCandidateReason": "RUE guidance includes Moscow V-E Day trip and meetings with Yeltsin.",
+      "candidateDocumentExtent": "132-page source PDF. RUE guidance packet; extract only the Moscow V-E Day/Yeltsin meeting guidance page(s) if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -48099,15 +48219,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "23902021",
     "catalogUrl": "https://catalog.archives.gov/id/23902021",
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-051-2015.pdf",
     "pageCount": null,
     "packetPageCount": 10,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "June 25, 1995; Leader correspondence context; NAID 23902021; 10 PDF pages",
     "subjectLine": "Latvian President Ulmanis letter references Clinton's May 1995 overview of discussions with Yeltsin in Moscow.",
     "source": {
@@ -48115,14 +48235,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2011-1037-F",
       "url": "https://catalog.archives.gov/id/23902021"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 23902021; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9505994. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 23902021; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9505994. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 23902021; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9505994. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 10-page source PDF. Withdrawal sheet lists a 3-page letter from President Ulmanis to President Clinton; extract the letter pages plus marker if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 23902021; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9505994. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 10-page source PDF. Withdrawal sheet lists a 3-page letter from President Ulmanis to President Clinton; extract the letter pages plus marker if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: leader correspondence about Clinton-Yeltsin discussions, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 10-page source PDF. Withdrawal sheet lists a 3-page letter from President Ulmanis to President Clinton; extract the letter pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -48133,6 +48253,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics",
       "Leader correspondence"
@@ -48141,12 +48262,17 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics",
       "Leader correspondence"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Leader correspondence thanking Clinton for his overview of Moscow discussions with Yeltsin.",
+    "candidateDocumentExtent": "10-page source PDF. Withdrawal sheet lists a 3-page letter from President Ulmanis to President Clinton; extract the letter pages plus marker if selected.",
     "naraSearchCategory": "Leader correspondence context",
     "catalogTitle": "9505994",
     "caseNumber": "LPWJC 2011-1037-F",
@@ -48184,7 +48310,11 @@ window.MEMCONS = [
       },
       "snippet": "xcellency William J. Clinton, President of the United States of America Dear Mr. President, I would like to thank you for your letter of May 16, 1995 in which you presented an overview of your discussions with President Yeltsin in Moscow. As you have noted in the past, Latvia's future security is inextricably linked to the security and stability of Europe as a whole. Your continuing active and constructive role of engagement in the development",
       "researchUse": "Latvian President Ulmanis letter references Clinton's May 1995 overview of discussions with Yeltsin in Moscow.",
-      "extractionStatus": "Research lead only: leader correspondence about Clinton-Yeltsin discussions, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 10-page source PDF. Withdrawal sheet lists a 3-page letter from President Ulmanis to President Clinton; extract the letter pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Leader correspondence thanking Clinton for his overview of Moscow discussions with Yeltsin.",
+      "candidateDocumentExtent": "10-page source PDF. Withdrawal sheet lists a 3-page letter from President Ulmanis to President Clinton; extract the letter pages plus marker if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -48313,15 +48443,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "236750752",
     "catalogUrl": "https://catalog.archives.gov/id/236750752",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2022/Batch0002/7585721-20060996F-007-002-2022.pdf",
     "pageCount": null,
     "packetPageCount": 102,
     "digitalObjects": 103,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "October 6, 1995; Meeting guidance context; NAID 236750752; 102 PDF pages",
     "subjectLine": "Guidance says Clinton was also meeting with Yeltsin in New York; useful placement clue for fall 1995 summit/event context.",
     "source": {
@@ -48329,14 +48459,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2006-0996-F",
       "url": "https://catalog.archives.gov/id/236750752"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 236750752; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-007-002-2022. PDF packet: 102 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 236750752; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-007-002-2022. PDF packet: 102 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 236750752; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-007-002-2022. PDF packet: 102 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 102-page source PDF. RUE guidance packet; extract only the relevant Russia/Yeltsin guidance page(s) if selected as public-line context.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 236750752; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-007-002-2022. PDF packet: 102 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 102-page source PDF. RUE guidance packet; extract only the relevant Russia/Yeltsin guidance page(s) if selected as public-line context.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Search lead only: public/press guidance, not an actual conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (low priority): 102-page source PDF. RUE guidance packet; extract only the relevant Russia/Yeltsin guidance page(s) if selected as public-line context. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -48347,16 +48477,22 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "topics": [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "low",
+    "standaloneCandidateReason": "RUE guidance mentions Clinton meeting with Yeltsin in New York and related Russia-policy public lines.",
+    "candidateDocumentExtent": "102-page source PDF. RUE guidance packet; extract only the relevant Russia/Yeltsin guidance page(s) if selected as public-line context.",
     "naraSearchCategory": "Meeting guidance context",
     "catalogTitle": "[10/06/1995 - 11/02/1995]",
     "caseNumber": "LPWJC 2006-0996-F",
@@ -48393,7 +48529,11 @@ window.MEMCONS = [
       },
       "snippet": "sion, it was agreed by both sides that New York was an appropria te venue for a meeting. Q: Is this then a \"second-class\" summit? A politically safe summit? A: Of course not. The President is also meeting with President Yeltsin in New York. 307554CE.FIN Page 4 of 35 The U.S.-China relationship is of great importance to the United States, and Presid ent Clinton holds President Jiang in high regard. The meeting is going to happen -- that's the i",
       "researchUse": "Guidance says Clinton was also meeting with Yeltsin in New York; useful placement clue for fall 1995 summit/event context.",
-      "extractionStatus": "Search lead only: public/press guidance, not an actual conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (low priority): 102-page source PDF. RUE guidance packet; extract only the relevant Russia/Yeltsin guidance page(s) if selected as public-line context. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "low",
+      "standaloneCandidateReason": "RUE guidance mentions Clinton meeting with Yeltsin in New York and related Russia-policy public lines.",
+      "candidateDocumentExtent": "102-page source PDF. RUE guidance packet; extract only the relevant Russia/Yeltsin guidance page(s) if selected as public-line context.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -48594,15 +48734,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "236750778",
     "catalogUrl": "https://catalog.archives.gov/id/236750778",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2022/Batch0002/7585721-20060996F-012-003-2022.pdf",
     "pageCount": null,
     "packetPageCount": 133,
     "digitalObjects": 134,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "May 7, 1996; Direct Clinton-Yeltsin call support; NAID 236750778; 133 PDF pages",
     "subjectLine": "Foreign-affairs guidance includes points on the May 1996 POTUS-Yeltsin telcon and says Clinton spoke to Yeltsin by phone for about 20 minutes.",
     "source": {
@@ -48610,14 +48750,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2006-0996-F",
       "url": "https://catalog.archives.gov/id/236750778"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 236750778; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-012-003-2022. PDF packet: 133 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 236750778; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-012-003-2022. PDF packet: 133 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 236750778; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-012-003-2022. PDF packet: 133 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 133-page source PDF. RUE guidance packet; extract only the current item or relevant public-guidance pages on the POTUS-Yeltsin telcon if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 236750778; Records of the National Security Council Records Management Office (Clinton Administration), Presidential Records Series (PRS) Files, series NAID 7585721; LPWJC 2006-0996-F; PDF segment 7585721-20060996F-012-003-2022. PDF packet: 133 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 133-page source PDF. RUE guidance packet; extract only the current item or relevant public-guidance pages on the POTUS-Yeltsin telcon if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Search lead only: current-items guidance, not an actual telcon transcript. Existing canonical telcon row remains the countable record.",
+    "extractionStatus": "Potential standalone FRUS document (low priority): 133-page source PDF. RUE guidance packet; extract only the current item or relevant public-guidance pages on the POTUS-Yeltsin telcon if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -48628,16 +48768,22 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support"
     ],
     "topics": [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "low",
+    "standaloneCandidateReason": "RUE guidance includes current-item material on a POTUS-Yeltsin phone call; useful as public-line or annotation context, not a transcript.",
+    "candidateDocumentExtent": "133-page source PDF. RUE guidance packet; extract only the current item or relevant public-guidance pages on the POTUS-Yeltsin telcon if selected.",
     "naraSearchCategory": "Direct Clinton-Yeltsin call support",
     "catalogTitle": "[05/07/1996 - 05/08/1996]",
     "caseNumber": "LPWJC 2006-0996-F",
@@ -48674,7 +48820,11 @@ window.MEMCONS = [
       },
       "snippet": "n, David T. Naplan, Steven J. Pascual, Carlos E. Pifer, Steven K. Reznik, Victoria (NMI) Schuker, Jill A. Stauffer, Helen L. TEXT_BODY [[ MAY06GUI.DOC: 2316 in MAY06GUI.DOC ]] Updated guidance, including points on POTUS-Yeltsin telcon (Chip and Strobe have seen). I understand that Chip and Strobe also talked to Mike after the call. ATTACHMENT FILE DATE 7 May 96 9:30 ATTACHMENT MAY06GUI.DOC FILE NAME NATIONAL SECURITY AFFAIRS GUIDANCE May 6, 19",
       "researchUse": "Foreign-affairs guidance includes points on the May 1996 POTUS-Yeltsin telcon and says Clinton spoke to Yeltsin by phone for about 20 minutes.",
-      "extractionStatus": "Search lead only: current-items guidance, not an actual telcon transcript. Existing canonical telcon row remains the countable record.",
+      "extractionStatus": "Potential standalone FRUS document (low priority): 133-page source PDF. RUE guidance packet; extract only the current item or relevant public-guidance pages on the POTUS-Yeltsin telcon if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "low",
+      "standaloneCandidateReason": "RUE guidance includes current-item material on a POTUS-Yeltsin phone call; useful as public-line or annotation context, not a transcript.",
+      "candidateDocumentExtent": "133-page source PDF. RUE guidance packet; extract only the current item or relevant public-guidance pages on the POTUS-Yeltsin telcon if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -48802,15 +48952,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "23902037",
     "catalogUrl": "https://catalog.archives.gov/id/23902037",
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-012-012-2015.pdf",
     "pageCount": null,
     "packetPageCount": 10,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "March 17, 1997; Leader correspondence context; NAID 23902037; 10 PDF pages",
     "subjectLine": "Ulmanis letter looks ahead to Clinton's talks with Yeltsin at Helsinki and the NATO-Russia relationship.",
     "source": {
@@ -48818,14 +48968,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2011-1037-F",
       "url": "https://catalog.archives.gov/id/23902037"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 23902037; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9701844. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 23902037; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9701844. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 23902037; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9701844. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 10-page source PDF. Review the released Ulmanis letter and transmittal/profile pages; extract the letter pages plus marker if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 23902037; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9701844. PDF packet: 10 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 10-page source PDF. Review the released Ulmanis letter and transmittal/profile pages; extract the letter pages plus marker if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: leader correspondence about the summit agenda, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 10-page source PDF. Review the released Ulmanis letter and transmittal/profile pages; extract the letter pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -48836,6 +48986,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics",
       "Leader correspondence"
@@ -48844,12 +48995,17 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics",
       "Leader correspondence"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Leader correspondence before Helsinki urging Clinton-Yeltsin talks to foster constructive NATO-Russia dialogue.",
+    "candidateDocumentExtent": "10-page source PDF. Review the released Ulmanis letter and transmittal/profile pages; extract the letter pages plus marker if selected.",
     "naraSearchCategory": "Leader correspondence context",
     "catalogTitle": "9701844",
     "caseNumber": "LPWJC 2011-1037-F",
@@ -48887,7 +49043,11 @@ window.MEMCONS = [
       },
       "snippet": "out the vision and leadership of the United States, lasting security in Europe is impossible. We in Latvia are looking with interest toward the US Russia summit in Helsinki. It is our hope that your talks with President Yeltsin will succeed in fostering a dialogue between NATO and Russia, which will establish a constructive, co-operative relationship between a renewed and enlarged NATO and a forward-looking Russia. Such a relationship is essen",
       "researchUse": "Ulmanis letter looks ahead to Clinton's talks with Yeltsin at Helsinki and the NATO-Russia relationship.",
-      "extractionStatus": "Research lead only: leader correspondence about the summit agenda, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 10-page source PDF. Review the released Ulmanis letter and transmittal/profile pages; extract the letter pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Leader correspondence before Helsinki urging Clinton-Yeltsin talks to foster constructive NATO-Russia dialogue.",
+      "candidateDocumentExtent": "10-page source PDF. Review the released Ulmanis letter and transmittal/profile pages; extract the letter pages plus marker if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -48912,15 +49072,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "28272355",
     "catalogUrl": "https://catalog.archives.gov/id/28272355",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-005-006-2016.pdf",
     "pageCount": null,
     "packetPageCount": 18,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "March 25, 1997; Congressional call support; NAID 28272355; 18 PDF pages",
     "subjectLine": "Berger/Hilley recommended telcalls to congressional leaders to brief them on the Helsinki summit with President Yeltsin.",
     "source": {
@@ -48928,14 +49088,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2015-0183-S",
       "url": "https://catalog.archives.gov/id/28272355"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 28272355; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9702028. PDF packet: 18 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272355; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9702028. PDF packet: 18 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 28272355; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9702028. PDF packet: 18 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 18-page source PDF. Review recommended congressional leader call material after Helsinki; extract only the call-support pages that directly summarize the summit plus marker.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272355; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9702028. PDF packet: 18 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 18-page source PDF. Review recommended congressional leader call material after Helsinki; extract only the call-support pages that directly summarize the summit plus marker.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: congressional call support about the summit, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 18-page source PDF. Review recommended congressional leader call material after Helsinki; extract only the call-support pages that directly summarize the summit plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -48946,6 +49106,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support",
       "Summit/meeting context",
       "Congressional context"
@@ -48954,12 +49115,17 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support",
       "Summit/meeting context",
       "Congressional context"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Recommended calls to congressional leaders after Clinton-Yeltsin Helsinki, useful as a summit readout or annotation source.",
+    "candidateDocumentExtent": "18-page source PDF. Review recommended congressional leader call material after Helsinki; extract only the call-support pages that directly summarize the summit plus marker.",
     "naraSearchCategory": "Congressional call support",
     "catalogTitle": "9702028 [Congress and Russia]",
     "caseNumber": "LPWJC 2015-0183-S",
@@ -48998,7 +49164,11 @@ window.MEMCONS = [
       },
       "snippet": "elf: Position: Stack: 45 2 8 1 V UNCLASSIFIED RECORD ID: 9702028 NSC/RMO PROFILE RECEIVED: 24 MAR 97 18 TO: PRESIDENT FROM: BERGER DOC DATE: 25 MAR 97 HILLEY, J SOURCE REF: KEYWORDS: RUSSIA CONGRESSIONAL SUMMIT PERSONS: YELTSIN, BORIS LOTT, TRENT GINGRICH, NEWT DASCHLE, THOMAS A SUBJECT: RECOM TELCALL TO SENATE MAJORITY LEADER LOTT ET AL RE SUMMIT W/ RUSSIAN PRES YELTSIN ACTION: OBE / STATUS OF ORIGINAL UNKNOWN DUE DATE: 27 MAR 97 STATUS: C ST",
       "researchUse": "Berger/Hilley recommended telcalls to congressional leaders to brief them on the Helsinki summit with President Yeltsin.",
-      "extractionStatus": "Research lead only: congressional call support about the summit, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 18-page source PDF. Review recommended congressional leader call material after Helsinki; extract only the call-support pages that directly summarize the summit plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Recommended calls to congressional leaders after Clinton-Yeltsin Helsinki, useful as a summit readout or annotation source.",
+      "candidateDocumentExtent": "18-page source PDF. Review recommended congressional leader call material after Helsinki; extract only the call-support pages that directly summarize the summit plus marker.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -49023,15 +49193,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "28272354",
     "catalogUrl": "https://catalog.archives.gov/id/28272354",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-005-005-2016.pdf",
     "pageCount": null,
     "packetPageCount": 23,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "April 4, 1997; Congressional correspondence context; NAID 28272354; 23 PDF pages",
     "subjectLine": "Clinton replies to D'Amato and Smith about NATO/Russia and Ukraine after the Helsinki summit with Yeltsin.",
     "source": {
@@ -49039,14 +49209,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2015-0183-S",
       "url": "https://catalog.archives.gov/id/28272354"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 28272354; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9701821. PDF packet: 23 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272354; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9701821. PDF packet: 23 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 28272354; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9701821. PDF packet: 23 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 23-page source PDF. Review the presidential reply letters on NATO/Russia and Ukraine after Helsinki; extract only selected reply pages plus marker.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272354; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9701821. PDF packet: 23 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 23-page source PDF. Review the presidential reply letters on NATO/Russia and Ukraine after Helsinki; extract only selected reply pages plus marker.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: congressional correspondence, not a conversation transcript.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 23-page source PDF. Review the presidential reply letters on NATO/Russia and Ukraine after Helsinki; extract only selected reply pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -49057,6 +49227,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context",
       "Leader correspondence"
@@ -49065,12 +49236,17 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context",
       "Leader correspondence"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Presidential replies keyed to the Clinton-Yeltsin Helsinki summit, NATO/Russia, and Ukraine.",
+    "candidateDocumentExtent": "23-page source PDF. Review the presidential reply letters on NATO/Russia and Ukraine after Helsinki; extract only selected reply pages plus marker.",
     "naraSearchCategory": "Congressional correspondence context",
     "catalogTitle": "9701821 [Congress and Russia]",
     "caseNumber": "LPWJC 2015-0183-S",
@@ -49108,7 +49284,11 @@ window.MEMCONS = [
       },
       "snippet": "2 7 3 V UNCLASSIFIED RECORD ID: 9701821 NSC/RMO PROFILE RECEIVED: 18 MAR 97 07 TO: D'AMATO, ALFONSE M SMITH, CHRISTOPHER H FROM: PRESIDENT DOC DATE: 04 APR 97 SOURCE REF: KEYWORDS: RUSSIA NATO SUMMIT CO UKRAINE PERSONS: YELTSIN, BORIS SUBJECT: REPLIES TO SEN D'AMATO & REP SMITH RE NATO / RUSSIA & UKRAINE ACTION: FOR DISPATCH DUE DATE: 21 MAR 97 STATUS: C STAFF OFFICER: PIFER LOGREF: FILES: WH NSCP: CODES: DOCUMENT DISTRIBUTION FOR ACTION FOR C",
       "researchUse": "Clinton replies to D'Amato and Smith about NATO/Russia and Ukraine after the Helsinki summit with Yeltsin.",
-      "extractionStatus": "Research lead only: congressional correspondence, not a conversation transcript.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 23-page source PDF. Review the presidential reply letters on NATO/Russia and Ukraine after Helsinki; extract only selected reply pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Presidential replies keyed to the Clinton-Yeltsin Helsinki summit, NATO/Russia, and Ukraine.",
+      "candidateDocumentExtent": "23-page source PDF. Review the presidential reply letters on NATO/Russia and Ukraine after Helsinki; extract only selected reply pages plus marker.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -49133,15 +49313,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "28272364",
     "catalogUrl": "https://catalog.archives.gov/id/28272364",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-005-015-2016.pdf",
     "pageCount": null,
     "packetPageCount": 6,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "July 21, 1997; Congressional correspondence context; NAID 28272364; 6 PDF pages",
     "subjectLine": "Berger reply says NSC staff briefed Congress on the President's discussions with Yeltsin at Denver and the Gore-Chernomyrdin channel.",
     "source": {
@@ -49149,14 +49329,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2015-0183-S",
       "url": "https://catalog.archives.gov/id/28272364"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 28272364; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9704423. PDF packet: 6 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272364; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9704423. PDF packet: 6 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 28272364; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9704423. PDF packet: 6 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 6-page source PDF. Review Berger reply on Russian technology transfers; extract the reply pages plus marker if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272364; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9704423. PDF packet: 6 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 6-page source PDF. Review Berger reply on Russian technology transfers; extract the reply pages plus marker if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: congressional correspondence, not a conversation transcript.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 6-page source PDF. Review Berger reply on Russian technology transfers; extract the reply pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -49167,6 +49347,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context",
       "Leader correspondence"
@@ -49175,12 +49356,17 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context",
       "Leader correspondence"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Berger correspondence citing Clinton discussions with Yeltsin at Denver on Iran-related Russian technology transfers.",
+    "candidateDocumentExtent": "6-page source PDF. Review Berger reply on Russian technology transfers; extract the reply pages plus marker if selected.",
     "naraSearchCategory": "Congressional correspondence context",
     "catalogTitle": "9704423 [Congress and Russia]",
     "caseNumber": "LPWJC 2015-0183-S",
@@ -49218,7 +49404,11 @@ window.MEMCONS = [
       },
       "snippet": "r relations that unchecked missile transfers would have. The June 25 briefing by NSC staffers gave you an up-to-date report of the progress in our bilateral dialogue, including the President's discussions with President Yeltsin at Denver and the Vice President's meeting with Prime Minister Chernomyrdin in New York. We will keep you informed as we pursue our efforts to stop arms dealings with Iran. Sincerely, Jardy Samuel R. Berger Assistant to",
       "researchUse": "Berger reply says NSC staff briefed Congress on the President's discussions with Yeltsin at Denver and the Gore-Chernomyrdin channel.",
-      "extractionStatus": "Research lead only: congressional correspondence, not a conversation transcript.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 6-page source PDF. Review Berger reply on Russian technology transfers; extract the reply pages plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Berger correspondence citing Clinton discussions with Yeltsin at Denver on Iran-related Russian technology transfers.",
+      "candidateDocumentExtent": "6-page source PDF. Review Berger reply on Russian technology transfers; extract the reply pages plus marker if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -49243,15 +49433,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "40484711",
     "catalogUrl": "https://catalog.archives.gov/id/40484711",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/11/4847/40484711/content/presidential-libraries/clinton/foia/2006/2006-1363-F-Seg-1/2006-1363-F-Seg-1-PDF/Box_11/42-t-26457815-20061363F-Seg1-011-001-2016.pdf",
     "pageCount": null,
     "packetPageCount": 49,
     "digitalObjects": 50,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "February 24, 1998; Congressional call support; NAID 40484711; 49 PDF pages",
     "subjectLine": "Recommended calls to senators on Iraq state that Clinton had spoken with Blair, Yeltsin, and Chirac and that all agreed Saddam must be tested thoroughly.",
     "source": {
@@ -49259,14 +49449,14 @@ window.MEMCONS = [
       "caseNumber": "2006-1363-F-Seg-1",
       "url": "https://catalog.archives.gov/id/40484711"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 40484711; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; 2006-1363-F-Seg-1; Record ID 9801111. PDF packet: 49 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 40484711; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; 2006-1363-F-Seg-1; Record ID 9801111. PDF packet: 49 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 40484711; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; 2006-1363-F-Seg-1; Record ID 9801111. PDF packet: 49 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 49-page source PDF. Review congressional telcall support on Iraq; extract only pages that document the President/Yeltsin diplomatic context plus marker if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 40484711; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; 2006-1363-F-Seg-1; Record ID 9801111. PDF packet: 49 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 49-page source PDF. Review congressional telcall support on Iraq; extract only pages that document the President/Yeltsin diplomatic context plus marker if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: congressional call support and public-message material, not the Yeltsin telcon transcript.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 49-page source PDF. Review congressional telcall support on Iraq; extract only pages that document the President/Yeltsin diplomatic context plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -49277,6 +49467,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support",
       "Congressional context",
       "Iraq"
@@ -49285,12 +49476,17 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support",
       "Congressional context",
       "Iraq"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Congressional telcall packet after Clinton spoke with Yeltsin, Blair, and Chirac on Iraq.",
+    "candidateDocumentExtent": "49-page source PDF. Review congressional telcall support on Iraq; extract only pages that document the President/Yeltsin diplomatic context plus marker if selected.",
     "naraSearchCategory": "Congressional call support",
     "catalogTitle": "9801111 [Helms, Jesse]",
     "caseNumber": "2006-1363-F-Seg-1",
@@ -49328,7 +49524,11 @@ window.MEMCONS = [
       },
       "snippet": "interferes with the inspections or tries to undermine UNSCOM's efforts in any way, we will act firmly and forcefully and without delay. I will not allow Saddam to take us from crisis to crisis. I have spoken with Blair, Yeltsin and Chirac. All agree this agreement must be tested thoroughly. All agree Saddam can not FEB2413:19 be allowed to cheat again. I will speak to the American people later this afternoon. I hope I can count on your support",
       "researchUse": "Recommended calls to senators on Iraq state that Clinton had spoken with Blair, Yeltsin, and Chirac and that all agreed Saddam must be tested thoroughly.",
-      "extractionStatus": "Research lead only: congressional call support and public-message material, not the Yeltsin telcon transcript.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 49-page source PDF. Review congressional telcall support on Iraq; extract only pages that document the President/Yeltsin diplomatic context plus marker if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Congressional telcall packet after Clinton spoke with Yeltsin, Blair, and Chirac on Iraq.",
+      "candidateDocumentExtent": "49-page source PDF. Review congressional telcall support on Iraq; extract only pages that document the President/Yeltsin diplomatic context plus marker if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -49353,15 +49553,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "441675758",
     "catalogUrl": "https://catalog.archives.gov/id/441675758",
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/26457815/26457815-20080994F-Seg3-016-006-2024.pdf",
     "pageCount": null,
     "packetPageCount": 23,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "June 15, 1998; Direct Clinton-Yeltsin call support; NAID 441675758; 23 PDF pages",
     "subjectLine": "Berger/Sperling packet and talking points for the June 15, 1998 POTUS-Yeltsin call on Kosovo; confirms the call-support file and themes.",
     "source": {
@@ -49369,14 +49569,14 @@ window.MEMCONS = [
       "caseNumber": "PL-WJC 2008-0994-F (Seg 3)",
       "url": "https://catalog.archives.gov/id/441675758"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 441675758; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; PL-WJC 2008-0994-F (Seg 3); Record ID 9804329. PDF packet: 23 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 441675758; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; PL-WJC 2008-0994-F (Seg 3); Record ID 9804329. PDF packet: 23 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 441675758; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; PL-WJC 2008-0994-F (Seg 3); Record ID 9804329. PDF packet: 23 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 23-page source PDF. RMO profile and packet contain talking points/background for the June 15, 1998 telephone call to Yeltsin on Kosovo; extract only call-support pages plus marker.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 441675758; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; PL-WJC 2008-0994-F (Seg 3); Record ID 9804329. PDF packet: 23 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 23-page source PDF. RMO profile and packet contain talking points/background for the June 15, 1998 telephone call to Yeltsin on Kosovo; extract only call-support pages plus marker.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Search lead only: packet contains briefing and talking points for the call, not the actual telcon transcript. Existing June 15, 1998 telcon remains counted elsewhere.",
+    "extractionStatus": "Potential standalone FRUS document (high priority): 23-page source PDF. RMO profile and packet contain talking points/background for the June 15, 1998 telephone call to Yeltsin on Kosovo; extract only call-support pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -49387,6 +49587,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support",
       "Kosovo"
     ],
@@ -49394,11 +49595,16 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Call support",
       "Kosovo"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "high",
+    "standaloneCandidateReason": "Direct call-support packet for the Clinton-Yeltsin Kosovo telephone call; the actual telcon is counted elsewhere.",
+    "candidateDocumentExtent": "23-page source PDF. RMO profile and packet contain talking points/background for the June 15, 1998 telephone call to Yeltsin on Kosovo; extract only call-support pages plus marker.",
     "naraSearchCategory": "Direct Clinton-Yeltsin call support",
     "catalogTitle": "9804329",
     "caseNumber": "PL-WJC 2008-0994-F (Seg 3)",
@@ -49436,7 +49642,11 @@ window.MEMCONS = [
       },
       "snippet": "Section: Shelf: Position: V 45 5 4 2 CONFIDENTIAL RECORD ID: 9804329 NSC/RMO PROFILE RECEIVED: 13 JUN 98 12 TO: PRESIDENT FROM: BERGER DOC DATE: 15 JUN 98 SPERLING, G SOURCE REF: KEYWORDS: RUSSIA KOSOVO TELCALL PERSONS: YELTSIN, BORIS SUBJECT: BACKGROUND INFO FOR PRES 15 JUN TELCALL TO PRES YELTSIN RE KOSOVO ACTION: ORIGINAL MTG CARDS RETURNED DUE DATE: 19 JUN 98 STATUS: C STAFF OFFICER: DOWLING LOGREF: FILES: WH NSCP: CODES: DOCUMENT DISTRIBU",
       "researchUse": "Berger/Sperling packet and talking points for the June 15, 1998 POTUS-Yeltsin call on Kosovo; confirms the call-support file and themes.",
-      "extractionStatus": "Search lead only: packet contains briefing and talking points for the call, not the actual telcon transcript. Existing June 15, 1998 telcon remains counted elsewhere.",
+      "extractionStatus": "Potential standalone FRUS document (high priority): 23-page source PDF. RMO profile and packet contain talking points/background for the June 15, 1998 telephone call to Yeltsin on Kosovo; extract only call-support pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "high",
+      "standaloneCandidateReason": "Direct call-support packet for the Clinton-Yeltsin Kosovo telephone call; the actual telcon is counted elsewhere.",
+      "candidateDocumentExtent": "23-page source PDF. RMO profile and packet contain talking points/background for the June 15, 1998 telephone call to Yeltsin on Kosovo; extract only call-support pages plus marker.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -49461,15 +49671,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "23902066",
     "catalogUrl": "https://catalog.archives.gov/id/23902066",
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-012-041-2015.pdf",
     "pageCount": null,
     "packetPageCount": 27,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "August 31, 1998; Leader correspondence context; NAID 23902066; 27 PDF pages",
     "subjectLine": "Clinton letter to Ulmanis ties Latvian citizenship reforms to the upcoming summit and to what Clinton wants to show Yeltsin.",
     "source": {
@@ -49477,14 +49687,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2011-1037-F",
       "url": "https://catalog.archives.gov/id/23902066"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 23902066; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9805982. PDF packet: 27 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 23902066; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9805982. PDF packet: 27 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 23902066; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9805982. PDF packet: 27 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 27-page source PDF. Withdrawal sheet lists a 2-page Clinton letter to President Ulmanis and related memos/cables; extract only adopted letter or memo pages plus marker.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 23902066; Records of the National Security Council Records Management Office (Clinton Administration), Various Records Management Files, series NAID 7585709; LPWJC 2011-1037-F; Record ID 9805982. PDF packet: 27 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 27-page source PDF. Withdrawal sheet lists a 2-page Clinton letter to President Ulmanis and related memos/cables; extract only adopted letter or memo pages plus marker.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: related leader correspondence, not a Clinton-Yeltsin conversation record.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 27-page source PDF. Withdrawal sheet lists a 2-page Clinton letter to President Ulmanis and related memos/cables; extract only adopted letter or memo pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -49495,6 +49705,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics",
       "Leader correspondence"
@@ -49503,12 +49714,17 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Baltics",
       "Leader correspondence"
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Presidential Latvia/Russia correspondence and preparatory material before the Russia summit, with explicit Yeltsin linkage.",
+    "candidateDocumentExtent": "27-page source PDF. Withdrawal sheet lists a 2-page Clinton letter to President Ulmanis and related memos/cables; extract only adopted letter or memo pages plus marker.",
     "naraSearchCategory": "Leader correspondence context",
     "catalogTitle": "9805982",
     "caseNumber": "LPWJC 2011-1037-F",
@@ -49546,7 +49762,11 @@ window.MEMCONS = [
       },
       "snippet": "ia Purpose To bolster Latvian President Ulmanis' efforts to win a national referendum on citizenship law reforms that will improve the political rights of the Russian-speaking community in Latvia. To also show President Yeltsin, on the eve of the Summit, that we have been doing our part to encourage these reforms in Latvia. We want to convince Yeltsin that Russia's economic pressure on Latvia is actually strengthening nationalist opponents of",
       "researchUse": "Clinton letter to Ulmanis ties Latvian citizenship reforms to the upcoming summit and to what Clinton wants to show Yeltsin.",
-      "extractionStatus": "Research lead only: related leader correspondence, not a Clinton-Yeltsin conversation record.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 27-page source PDF. Withdrawal sheet lists a 2-page Clinton letter to President Ulmanis and related memos/cables; extract only adopted letter or memo pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Presidential Latvia/Russia correspondence and preparatory material before the Russia summit, with explicit Yeltsin linkage.",
+      "candidateDocumentExtent": "27-page source PDF. Withdrawal sheet lists a 2-page Clinton letter to President Ulmanis and related memos/cables; extract only adopted letter or memo pages plus marker.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -49773,15 +49993,15 @@ window.MEMCONS = [
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Digitized NARA Lead",
+    "releaseStatus": "Standalone Candidate",
     "naid": "28272403",
     "catalogUrl": "https://catalog.archives.gov/id/28272403",
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-007-001-2016.pdf",
     "pageCount": null,
     "packetPageCount": 33,
     "digitalObjects": 1,
-    "countStatus": "Research lead only",
-    "potentialFrusDocument": false,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
     "dateLine": "January 29, 2000; Congressional correspondence context; NAID 28272403; 33 PDF pages",
     "subjectLine": "Congressional response package on START and ABM repeatedly cites the June 20, 1999 Clinton-Yeltsin Cologne Joint Statement.",
     "source": {
@@ -49789,14 +50009,14 @@ window.MEMCONS = [
       "caseNumber": "LPWJC 2015-0183-S",
       "url": "https://catalog.archives.gov/id/28272403"
     },
-    "sourceNote": "Search result: National Archives Catalog, NAID 28272403; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9906122. PDF packet: 33 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
-    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272403; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9906122. PDF packet: 33 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.",
+    "sourceNote": "Search result: National Archives Catalog, NAID 28272403; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9906122. PDF packet: 33 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 33-page source PDF. Review ABM/START congressional response packet; extract only pages keyed to the Clinton-Yeltsin Cologne Joint Statement if selected.",
+    "frusSourceNote": "Search result: National Archives Catalog, NAID 28272403; Records of the National Security Council Records Management Office (Clinton Administration), NSC Records Management System, series NAID 26457815; LPWJC 2015-0183-S; Record ID 9906122. PDF packet: 33 pages. Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808. Candidate note: 33-page source PDF. Review ABM/START congressional response packet; extract only pages keyed to the Clinton-Yeltsin Cologne Joint Statement if selected.",
     "extractionRule": {
       "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Research lead only: congressional correspondence and policy follow-up, not a conversation transcript.",
+    "extractionStatus": "Potential standalone FRUS document (medium priority): 33-page source PDF. Review ABM/START congressional response packet; extract only pages keyed to the Clinton-Yeltsin Cologne Joint Statement if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -49807,6 +50027,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context",
       "Leader correspondence",
@@ -49816,6 +50037,7 @@ window.MEMCONS = [
       "NARA 7388808",
       "Yeltsin search-within",
       "Digitized lead",
+      "Potential standalone FRUS document",
       "Summit/meeting context",
       "Congressional context",
       "Leader correspondence",
@@ -49823,6 +50045,10 @@ window.MEMCONS = [
     ],
     "researchPlanLead": true,
     "nara7388808SearchLead": true,
+    "naraStandaloneCandidate": true,
+    "standaloneCandidatePriority": "medium",
+    "standaloneCandidateReason": "Arms-control correspondence tied to the Clinton-Yeltsin Cologne Joint Statement on ABM/START.",
+    "candidateDocumentExtent": "33-page source PDF. Review ABM/START congressional response packet; extract only pages keyed to the Clinton-Yeltsin Cologne Joint Statement if selected.",
     "naraSearchCategory": "Congressional correspondence context",
     "catalogTitle": "9906122 [Congress and Russia]",
     "caseNumber": "LPWJC 2015-0183-S",
@@ -49860,7 +50086,11 @@ window.MEMCONS = [
       },
       "snippet": "ART (touching on issues that have been under review within the IWG pending the tabling of our START III text last week in Geneva) : Richard Armey and Tom DeLay wrote taking issue with the language in the June 20 Clinton-Yeltsin Cologne Joint Statement relating to the ABM Treaty -- specifically, the fact that the Statement treats the ABM Treaty as if it is still in force, and treats \"modern Russia\" as a party to the Treaty. Armey and DeLay go o",
       "researchUse": "Congressional response package on START and ABM repeatedly cites the June 20, 1999 Clinton-Yeltsin Cologne Joint Statement.",
-      "extractionStatus": "Research lead only: congressional correspondence and policy follow-up, not a conversation transcript.",
+      "extractionStatus": "Potential standalone FRUS document (medium priority): 33-page source PDF. Review ABM/START congressional response packet; extract only pages keyed to the Clinton-Yeltsin Cologne Joint Statement if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "potentialStandaloneCandidate": true,
+      "standaloneCandidatePriority": "medium",
+      "standaloneCandidateReason": "Arms-control correspondence tied to the Clinton-Yeltsin Cologne Joint Statement on ABM/START.",
+      "candidateDocumentExtent": "33-page source PDF. Review ABM/START congressional response packet; extract only pages keyed to the Clinton-Yeltsin Cologne Joint Statement if selected.",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -50521,7 +50751,7 @@ window.MEMCONS = [
     "catalogUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
     "pdfUrl": "",
     "pageCount": null,
-    "packetPageCount": 1013,
+    "packetPageCount": 1015,
     "digitalObjects": 337,
     "countStatus": "Search trail only",
     "potentialFrusDocument": false,
@@ -50531,8 +50761,8 @@ window.MEMCONS = [
       "name": "National Archives Catalog search-within NAID 7388808",
       "url": "https://catalog.archives.gov/search-within/7388808?q=yeltsin"
     },
-    "sourceNote": "Source: National Archives Catalog search-within NAID 7388808, query 'yeltsin', run May 22, 2026. The search returned 337 online hits; 128 were screened as higher-signal OCR/title matches, and 25 new lead records were promoted for compiler review.",
-    "frusSourceNote": "Source: National Archives Catalog search-within NAID 7388808, query 'yeltsin', run May 22, 2026. The search returned 337 online hits; 128 were screened as higher-signal OCR/title matches, and 25 new lead records were promoted for compiler review.",
+    "sourceNote": "Source: National Archives Catalog search-within NAID 7388808, query 'yeltsin', run May 22, 2026. The search returned 337 online hits; 128 were screened as higher-signal OCR/title matches, and 25 new lead records were promoted for compiler review. Of those, 23 are flagged as potential standalone FRUS documents or editorial-note sources, covering 868 source-packet PDF pages for review.",
+    "frusSourceNote": "Source: National Archives Catalog search-within NAID 7388808, query 'yeltsin', run May 22, 2026. The search returned 337 online hits; 128 were screened as higher-signal OCR/title matches, and 25 new lead records were promoted for compiler review. Of those, 23 are flagged as potential standalone FRUS documents or editorial-note sources, covering 868 source-packet PDF pages for review.",
     "extractionStatus": "Search trail only: the only title-level Clinton-Yeltsin memcon hits were already counted. Newly promoted rows are locator/context leads and remain excluded from the actual conversation-page tally unless a released memcon or telcon transcript is later identified.",
     "frusVolume": {
       "id": "frus1993-00v18",
@@ -50574,8 +50804,12 @@ window.MEMCONS = [
         "screenedCandidateHits": 128,
         "promotedVisibleLeadRecords": 25,
         "alreadyCountedConversationRecords": 2,
-        "promotedPacketPdfPages": 1013,
-        "exactTitleHitOutcome": "The only title-level Clinton-Yeltsin memcon hits are NAIDs 163545404 and 163545436, already counted on the page with extracted actual conversation pages and appended marker-page provenance."
+        "promotedPacketPdfPages": 1015,
+        "exactTitleHitOutcome": "The only title-level Clinton-Yeltsin memcon hits are NAIDs 163545404 and 163545436, already counted on the page with extracted actual conversation pages and appended marker-page provenance.",
+        "potentialStandaloneCandidates": 23,
+        "potentialStandalonePacketPdfPages": 868,
+        "researchLeadOnlyRecords": 2,
+        "pageCountAudit": "PDF packet page counts verified with pdfinfo on May 22, 2026; NAID 23901979 corrected from the initial 8-page API/OCR count to 10 PDF pages."
       },
       "flagCounts": {
         "titleYeltsin": 2,
@@ -52847,7 +53081,7 @@ window.MEMCONS = [
         "alreadyCounted": false
       }
     ],
-    "subjectDigest": "337 total hits / 128 screened OCR-title candidates / 25 promoted visible leads"
+    "subjectDigest": "337 total hits / 128 screened OCR-title candidates / 25 promoted visible leads / 23 potential standalone candidates"
   },
   {
     "id": "research-plan-online-search-2026-05-22",
