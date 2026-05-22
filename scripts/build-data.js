@@ -11,6 +11,9 @@ const STROBE_MANIFEST =
 const STROBE_LIVE_YELTSIN_PDF_LEADS =
   process.env.STROBE_LIVE_YELTSIN_PDF_LEADS ||
   path.join(ROOT, "data", "strobe-live-yeltsin-pdf-leads.json");
+const RESEARCH_PLAN_ONLINE_SEARCH =
+  process.env.RESEARCH_PLAN_ONLINE_SEARCH ||
+  path.join(ROOT, "data", "research-plan-online-search.json");
 
 const FRUS_VOLUME = {
   id: "frus1993-00v18",
@@ -753,6 +756,7 @@ const STROBE_YELTSIN_TITLE_RE =
 const STROBE_LIVE_YELTSIN_PDF_LEADS_SNAPSHOT = readJsonOptional(
   STROBE_LIVE_YELTSIN_PDF_LEADS
 );
+const RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT = readJsonOptional(RESEARCH_PLAN_ONLINE_SEARCH);
 
 const STROBE_SUPPRESSED_CONTEXT_IDS = new Set([
   ...Object.values(STROBE_CONVERSATION_FILES).map((file) => file.id),
@@ -3776,6 +3780,151 @@ function buildNaraScoutRecords() {
   ];
 }
 
+function researchLeadTopics(lead) {
+  const title = ascii(`${lead.title || ""} ${lead.researchUse || ""}`);
+  const topics = ["Research plan", "Digitized lead"];
+  if (/YELTSIN/i.test(title)) topics.push("Yeltsin");
+  if (/GORE|CHERNOMYRDIN/i.test(title)) topics.push("Gore-Chernomyrdin");
+  if (/NATO/i.test(title)) topics.push("NATO/Russia");
+  if (/UKRAINE|KIEV|KYIV/i.test(title)) topics.push("Ukraine");
+  if (/BALTIC|ESTONIA|LATVIA|LITHUANIA/i.test(title)) topics.push("Baltics");
+  if (/BOSNIA|YUGOSLAVIA/i.test(title)) topics.push("Bosnia");
+  if (/SUMMIT|TRIP|BRIEFING/i.test(title)) topics.push("Summit briefing");
+  return topics;
+}
+
+function buildResearchPlanOnlineLeadRecords() {
+  const search = RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT || {};
+  const leadRecords = search.leadRecords || [];
+  if (!leadRecords.length) return [];
+
+  const searchRunDate = (search.generatedAt || "2026-05-22").slice(0, 10);
+  const packetPageCountTotal = leadRecords.reduce(
+    (sum, lead) => sum + (Number.isInteger(lead.packetPageCount) ? lead.packetPageCount : 0),
+    0
+  );
+  const nonPdfDigitalObjectTotal = leadRecords
+    .filter((lead) => !lead.pdfUrl)
+    .reduce((sum, lead) => sum + (Number.isInteger(lead.digitalObjects) ? lead.digitalObjects : 0), 0);
+  const collectionSummary = `${search.collections?.length || 0} collection families / ${search.queries?.length || 0} search terms / ${search.uniqueOnlineDigitizedHits || 0} unique online digitized hits / ${leadRecords.length} visible leads / ${packetPageCountTotal} PDF packet pages`;
+  const collectionWideSummary = search.collectionWideOnlineScreen
+    ? ` Collection-wide paginated screen: ${search.collectionWideOnlineScreen.uniqueOnlineDigitizedFileUnits || 0} digitized file units, ${search.collectionWideOnlineScreen.keywordMatches || 0} keyword hits, ${search.collectionWideOnlineScreen.selectedNewLeadRecords || 0} additional promoted leads.`
+    : "";
+  const searchSourceNote =
+    `Source: FRUS research-plan online pass over National Archives Catalog API v2 through NARA Scout proxy and Clinton Digital Library item search, run May 22, 2026. The pass targeted the 2013-0185-M research-plan collection universe and related NSC collection NAIDs.${collectionWideSummary}`;
+
+  const searchTrail = {
+    id: "research-plan-online-search-2026-05-22",
+    dedupeKey: "research-plan|online-search-2026-05-22",
+    date: searchRunDate,
+    sortDate: searchRunDate,
+    type: "Scout Lead",
+    title: "Research plan online pass: 2013-0185-M and related Clinton NSC collections",
+    documentTitle: "Research plan online pass: 2013-0185-M and related Clinton NSC collections",
+    participants: [],
+    countries: ["United States", "Russia"],
+    chapter: CHAPTERS.scout,
+    releaseStatus: "Search Trail",
+    naid: "research-plan-online-search-2026-05-22",
+    catalogUrl: SOURCES.naraScout.url,
+    pdfUrl: "",
+    pageCount: null,
+    digitalObjects: search.uniqueOnlineDigitizedHits || null,
+    countStatus: "Search trail only",
+    potentialFrusDocument: false,
+    dateLine: "Search run May 22, 2026",
+    subjectLine:
+      "Targeted online search for declassified/digitized documents in the FRUS research-plan collection universe: RUE, European Affairs, Executive Secretary, Staff Director, and NSC Records Management.",
+    source: SOURCES.naraScout,
+    sourceNote: searchSourceNote,
+    frusSourceNote: searchSourceNote,
+    extractionStatus:
+      "Search trail only: exact top-tier 2013-0185-M folders were mostly not digitized online; the visible Scout leads below capture online packets or file units that should be reviewed for possible FRUS context or source-note support.",
+    frusVolume: FRUS_VOLUME,
+    frusTopics: ["Research plan", "NARA Scout", "Clinton Digital Library", "Digitized leads"],
+    topics: ["Research plan", "NARA Scout", "Clinton Digital Library", "Digitized leads"],
+    scoutAudit: {
+      generatedAt: search.generatedAt,
+      source: search.source,
+      collections: search.collections,
+      queries: search.queries,
+      uniqueOnlineDigitizedHits: search.uniqueOnlineDigitizedHits,
+      collectionWideOnlineScreen: search.collectionWideOnlineScreen,
+      alreadyIncludedHits: search.alreadyIncludedHits,
+      visibleLeadRecords: leadRecords.length,
+      packetPdfPages: packetPageCountTotal,
+      nonPdfDigitalObjects: nonPdfDigitalObjectTotal
+    },
+    reviewedCandidates: leadRecords,
+    subjectDigest: search.collectionWideOnlineScreen
+      ? `${collectionSummary} / ${search.collectionWideOnlineScreen.uniqueOnlineDigitizedFileUnits || 0} collection-wide digitized file units screened`
+      : collectionSummary
+  };
+
+  const records = leadRecords.map((lead) => {
+    const catalogUrl = lead.catalogUrl || lead.itemUrl || "";
+    const source =
+      lead.sourceType === "Clinton Digital Library"
+        ? {
+            name: "Clinton Digital Library",
+            url: lead.itemUrl || "https://clinton.presidentiallibraries.us/"
+          }
+        : {
+            name: "National Archives Catalog",
+            url: catalogUrl || "https://catalog.archives.gov/"
+          };
+    const sourceId = lead.naId || (lead.itemId ? `clinton-item-${lead.itemId}` : lead.id);
+    const topics = researchLeadTopics(lead);
+    const sourceNote =
+      lead.sourceType === "Clinton Digital Library"
+        ? `Source: Clinton Digital Library item ${lead.itemId}${lead.caseNumber ? `, ${lead.caseNumber}` : ""}; ${lead.collection || "collection not specified"}. Online research-plan lead surfaced May 22, 2026.${Number.isInteger(lead.packetPageCount) ? ` PDF packet: ${lead.packetPageCount} pages.` : ""}`
+        : `Source: National Archives Catalog, NAID ${lead.naId}; ${lead.collection || "collection not specified"}. Online research-plan lead surfaced May 22, 2026.${Number.isInteger(lead.packetPageCount) ? ` PDF packet: ${lead.packetPageCount} pages.` : Number.isInteger(lead.digitalObjects) ? ` Catalog record exposes ${lead.digitalObjects} digital objects.` : ""}`;
+    const extractionStatus = Number.isInteger(lead.packetPageCount)
+      ? `Research lead only: online PDF packet has ${lead.packetPageCount} pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.`
+      : Number.isInteger(lead.digitalObjects)
+        ? `Research lead only: catalog record exposes ${lead.digitalObjects} digital objects; review the file unit for FRUS-relevant documents before extracting pages or counting any document extent.`
+        : "Research lead only: review the online packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.";
+
+    return {
+      id: `research-plan-${slug(lead.id || sourceId)}`,
+      dedupeKey: `research-plan|${sourceId}`,
+      date: lead.date || searchRunDate,
+      sortDate: lead.date || searchRunDate,
+      type: "Scout Lead",
+      title: lead.title,
+      documentTitle: lead.title,
+      participants: [],
+      countries: ["United States", "Russia"],
+      chapter: CHAPTERS.scout,
+      releaseStatus: "Digitized Research Lead",
+      naid: sourceId,
+      catalogUrl,
+      pdfUrl: lead.pdfUrl || "",
+      pageCount: null,
+      packetPageCount: Number.isInteger(lead.packetPageCount) ? lead.packetPageCount : null,
+      digitalObjects: lead.digitalObjects || null,
+      countStatus: "Research lead only",
+      potentialFrusDocument: false,
+      dateLine: lead.date || "Date pending",
+      subjectLine: lead.researchUse || "Digitized online lead from the FRUS research-plan collection pass.",
+      source,
+      sourceNote,
+      frusSourceNote: sourceNote,
+      extractionRule: EXTRACTION_RULE,
+      extractionStatus,
+      frusVolume: FRUS_VOLUME,
+      frusTopics: topics,
+      topics,
+      researchPlanLead: true,
+      relatedPlanTiers: lead.relatedPlanTiers || [],
+      relatedQueries: lead.relatedQueries || [],
+      scoutAudit: lead
+    };
+  });
+
+  return [searchTrail, ...records];
+}
+
 function pageSum(records) {
   return records.reduce((sum, record) => sum + (Number.isInteger(record.pageCount) ? record.pageCount : 0), 0);
 }
@@ -4165,12 +4314,37 @@ function writeOutputs(records) {
       standaloneDuplicateSourceCopyCandidatesFolded:
         strobeStandaloneAudit.duplicateSourceCopyCandidatesFolded
     },
+    researchPlanOnlineSearch: {
+      collectionsSearched: RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.collections?.length || 0,
+      queries: RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.queries?.length || 0,
+      uniqueOnlineDigitizedHits:
+        RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.uniqueOnlineDigitizedHits || 0,
+      visibleLeadRecords: RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.leadRecords?.length || 0,
+      alreadyIncludedHits: RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.alreadyIncludedHits?.length || 0,
+      collectionWideOnlineFileUnits:
+        RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.collectionWideOnlineScreen?.uniqueOnlineDigitizedFileUnits || 0,
+      collectionWideKeywordMatches:
+        RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.collectionWideOnlineScreen?.keywordMatches || 0,
+      collectionWidePromotedLeads:
+        RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.collectionWideOnlineScreen?.selectedNewLeadRecords || 0,
+      pdfLeadRecords: (RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.leadRecords || []).filter((lead) =>
+        Number.isInteger(lead.packetPageCount)
+      ).length,
+      packetPdfPages: (RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.leadRecords || []).reduce(
+        (sum, lead) => sum + (Number.isInteger(lead.packetPageCount) ? lead.packetPageCount : 0),
+        0
+      ),
+      nonPdfDigitalObjects: (RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT.leadRecords || [])
+        .filter((lead) => !lead.pdfUrl)
+        .reduce((sum, lead) => sum + (Number.isInteger(lead.digitalObjects) ? lead.digitalObjects : 0), 0)
+    },
     sources: {
       clintonText: CLINTON_TEXT,
       strobeManifest: STROBE_MANIFEST,
       strobeLiveManifestPdfLeads: STROBE_LIVE_YELTSIN_PDF_LEADS,
       strobeManifestPdfAudit: "reports/strobe-manifest-pdf-audit.json",
       strobeStandaloneAudit: "reports/strobe-standalone-candidate-audit.json",
+      researchPlanOnlineSearch: "reports/research-plan-online-search.json",
       naraScout: SOURCES.naraScout.url,
       naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
       pendingExtentVerificationRecheck: "reports/pending-extent-verification-recheck.json",
@@ -4205,6 +4379,10 @@ function writeOutputs(records) {
     path.join(reportsDir, "strobe-standalone-candidate-audit.json"),
     `${JSON.stringify(strobeStandaloneAudit, null, 2)}\n`
   );
+  fs.writeFileSync(
+    path.join(reportsDir, "research-plan-online-search.json"),
+    `${JSON.stringify(RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT, null, 2)}\n`
+  );
   fs.writeFileSync(path.join(reportsDir, "source-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
   console.log(JSON.stringify(summary, null, 2));
 }
@@ -4218,6 +4396,7 @@ const records = addFrusSourceNotes(
       ...buildReleasePackets(),
       ...buildStrobeRecords(),
       ...buildStrobeManifestPdfRecords(),
+      ...buildResearchPlanOnlineLeadRecords(),
       ...buildNaraScoutRecords()
     ])
   )

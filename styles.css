@@ -336,6 +336,25 @@ h2 {
   gap: 14px;
 }
 
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.research-section article {
+  min-height: auto;
+}
+
+.research-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
 .workbench-grid {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -1244,6 +1263,7 @@ footer a {
   .feature-grid,
   .chapter-grid,
   .source-list,
+  .research-grid,
   .audit-grid,
   .frus-method-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1292,6 +1312,7 @@ footer a {
   .feature-grid,
   .chapter-grid,
   .source-list,
+  .research-grid,
   .audit-grid,
   .frus-method-grid,
   .metric-list,

@@ -17500,6 +17500,103 @@ window.MEMCONS = [
     ]
   },
   {
+    "id": "research-plan-nara-404513614",
+    "dedupeKey": "research-plan|404513614",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "type": "Scout Lead",
+    "title": "[Former Yugoslavia] - Bosnia Calls",
+    "documentTitle": "[Former Yugoslavia] - Bosnia Calls",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "404513614",
+    "catalogUrl": "https://catalog.archives.gov/id/404513614",
+    "pdfUrl": "",
+    "pageCount": null,
+    "packetPageCount": null,
+    "digitalObjects": 26,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-01-01",
+    "subjectLine": "Digitized Staff Director Bosnia calls file; review only for Russia, Yeltsin, Chernomyrdin, or Kozyrev call context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/404513614"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 404513614; Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 26 digital objects.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 404513614; Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 26 digital objects.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: catalog record exposes 26 digital objects; review the file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Gore-Chernomyrdin",
+      "Bosnia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Gore-Chernomyrdin",
+      "Bosnia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Yeltsin",
+      "Clinton Yeltsin",
+      "Boris Yeltsin",
+      "Chernomyrdin",
+      "Nunn-Lugar",
+      "Kozyrev"
+    ],
+    "scoutAudit": {
+      "id": "nara-404513614",
+      "sourceType": "National Archives Catalog",
+      "naId": "404513614",
+      "date": "1993-01-01",
+      "title": "[Former Yugoslavia] - Bosnia Calls",
+      "catalogUrl": "https://catalog.archives.gov/id/404513614",
+      "pdfUrl": "",
+      "digitalObjects": 26,
+      "collection": "Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files",
+      "access": "Restricted - Possibly",
+      "researchUse": "Digitized Staff Director Bosnia calls file; review only for Russia, Yeltsin, Chernomyrdin, or Kozyrev call context.",
+      "relatedQueries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "Boris Yeltsin",
+        "Chernomyrdin",
+        "Nunn-Lugar",
+        "Kozyrev"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ]
+    }
+  },
+  {
     "id": "nara-scout-40482510",
     "date": "1993-01-01",
     "sortDate": "1993-01-01",
@@ -17548,6 +17645,168 @@ window.MEMCONS = [
     "frusSourceNote": "Source: National Archives Catalog, Records of the National Security Council European Affairs Office (Clinton Administration), Donald Kerrick's Files, NAID 40482510."
   },
   {
+    "id": "research-plan-cdl-118449-nato-expansion",
+    "dedupeKey": "research-plan|clinton-item-118449",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "type": "Scout Lead",
+    "title": "Declassified Documents Concerning NATO Expansion",
+    "documentTitle": "Declassified Documents Concerning NATO Expansion",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "clinton-item-118449",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "pageCount": null,
+    "packetPageCount": 89,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-01-01",
+    "subjectLine": "PC/DC NATO expansion material, 1993-1999, including correspondence to Boris Yeltsin and NATO expansion memoranda; use for the NATO-Russia pressure line in 1994-1996 contacts.",
+    "source": {
+      "name": "Clinton Digital Library",
+      "url": "https://clinton.presidentiallibraries.us/items/show/118449"
+    },
+    "sourceNote": "Source: Clinton Digital Library item 118449, 2015-0768-M; Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council and NSC Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 89 pages.",
+    "frusSourceNote": "Source: Clinton Digital Library item 118449, 2015-0768-M; Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council and NSC Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 89 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 89 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Tier 6 rank 176",
+      "Research round 6"
+    ],
+    "relatedQueries": [],
+    "scoutAudit": {
+      "id": "cdl-118449-nato-expansion",
+      "sourceType": "Clinton Digital Library",
+      "itemId": "118449",
+      "date": "1993-01-01",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "itemUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "caseNumber": "2015-0768-M",
+      "digitalObjects": 1,
+      "collection": "Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council and NSC Records Management Office",
+      "researchUse": "PC/DC NATO expansion material, 1993-1999, including correspondence to Boris Yeltsin and NATO expansion memoranda; use for the NATO-Russia pressure line in 1994-1996 contacts.",
+      "relatedPlanTiers": [
+        "Tier 6 rank 176",
+        "Research round 6"
+      ],
+      "packetPageCount": 89
+    }
+  },
+  {
+    "id": "research-plan-cdl-49430-nato-expansion",
+    "dedupeKey": "research-plan|clinton-item-49430",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "type": "Scout Lead",
+    "title": "Declassified Documents Concerning NATO Expansion",
+    "documentTitle": "Declassified Documents Concerning NATO Expansion",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "clinton-item-49430",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/49430",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/d7309797f261e4d4498490c4087830c3.pdf",
+    "pageCount": null,
+    "packetPageCount": 5,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-01-01",
+    "subjectLine": "Additional NATO expansion PC/DC material; use as a companion packet for NATO-Russia and peacekeeping discussions.",
+    "source": {
+      "name": "Clinton Digital Library",
+      "url": "https://clinton.presidentiallibraries.us/items/show/49430"
+    },
+    "sourceNote": "Source: Clinton Digital Library item 49430, 2015-0768-M; Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 5 pages.",
+    "frusSourceNote": "Source: Clinton Digital Library item 49430, 2015-0768-M; Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 5 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 5 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Tier 6 rank 176"
+    ],
+    "relatedQueries": [],
+    "scoutAudit": {
+      "id": "cdl-49430-nato-expansion",
+      "sourceType": "Clinton Digital Library",
+      "itemId": "49430",
+      "date": "1993-01-01",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "itemUrl": "https://clinton.presidentiallibraries.us/items/show/49430",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/d7309797f261e4d4498490c4087830c3.pdf",
+      "caseNumber": "2015-0768-M",
+      "digitalObjects": 1,
+      "collection": "Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council Records Management Office",
+      "researchUse": "Additional NATO expansion PC/DC material; use as a companion packet for NATO-Russia and peacekeeping discussions.",
+      "relatedPlanTiers": [
+        "Tier 6 rank 176"
+      ],
+      "packetPageCount": 5
+    }
+  },
+  {
     "id": "nara-scout-7585486",
     "date": "1993-01-01",
     "sortDate": "1993-01-01",
@@ -17594,6 +17853,562 @@ window.MEMCONS = [
       "Series lead"
     ],
     "frusSourceNote": "Source: National Archives Catalog, Records of the National Security Council European Affairs Office (Clinton Administration), Donald Kerrick's Files, NAID 7585486."
+  },
+  {
+    "id": "research-plan-nara-23901643",
+    "dedupeKey": "research-plan|23901643",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "type": "Scout Lead",
+    "title": "Estonia",
+    "documentTitle": "Estonia",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "23901643",
+    "catalogUrl": "https://catalog.archives.gov/id/23901643",
+    "pdfUrl": "",
+    "pageCount": null,
+    "packetPageCount": null,
+    "digitalObjects": 15,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-01-01",
+    "subjectLine": "Digitized RUE Estonia file surfaced by Yeltsin/Vancouver searches; review for Baltic troop withdrawal and Hyde Park summit context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/23901643"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 23901643; RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 15 digital objects.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 23901643; RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 15 digital objects.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: catalog record exposes 15 digital objects; review the file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Baltics",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Baltics",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Yeltsin",
+      "Clinton Yeltsin",
+      "Vancouver Summit"
+    ],
+    "scoutAudit": {
+      "id": "nara-23901643",
+      "sourceType": "National Archives Catalog",
+      "naId": "23901643",
+      "date": "1993-01-01",
+      "title": "Estonia",
+      "catalogUrl": "https://catalog.archives.gov/id/23901643",
+      "pdfUrl": "",
+      "digitalObjects": 15,
+      "collection": "RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files",
+      "access": "Restricted - Partly",
+      "researchUse": "Digitized RUE Estonia file surfaced by Yeltsin/Vancouver searches; review for Baltic troop withdrawal and Hyde Park summit context.",
+      "relatedQueries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "Vancouver Summit"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ]
+    }
+  },
+  {
+    "id": "research-plan-nara-404513613",
+    "dedupeKey": "research-plan|404513613",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "type": "Scout Lead",
+    "title": "Former Yugoslavia - Foreign Leader Calls",
+    "documentTitle": "Former Yugoslavia - Foreign Leader Calls",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "404513613",
+    "catalogUrl": "https://catalog.archives.gov/id/404513613",
+    "pdfUrl": "",
+    "pageCount": null,
+    "packetPageCount": null,
+    "digitalObjects": 11,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-01-01",
+    "subjectLine": "Digitized Staff Director Former Yugoslavia foreign-leader calls file; review only for Clinton/Yeltsin or Russia-related Bosnia call context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/404513613"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 404513613; Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 11 digital objects.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 404513613; Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 11 digital objects.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: catalog record exposes 11 digital objects; review the file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Bosnia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Bosnia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Yeltsin",
+      "Clinton Yeltsin",
+      "Vancouver Summit",
+      "Tokyo G-7 Russia",
+      "Kozyrev",
+      "Russian aid"
+    ],
+    "scoutAudit": {
+      "id": "nara-404513613",
+      "sourceType": "National Archives Catalog",
+      "naId": "404513613",
+      "date": "1993-01-01",
+      "title": "Former Yugoslavia - Foreign Leader Calls",
+      "catalogUrl": "https://catalog.archives.gov/id/404513613",
+      "pdfUrl": "",
+      "digitalObjects": 11,
+      "collection": "Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files",
+      "access": "Restricted - Possibly",
+      "researchUse": "Digitized Staff Director Former Yugoslavia foreign-leader calls file; review only for Clinton/Yeltsin or Russia-related Bosnia call context.",
+      "relatedQueries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "Vancouver Summit",
+        "Tokyo G-7 Russia",
+        "Kozyrev",
+        "Russian aid"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ]
+    }
+  },
+  {
+    "id": "research-plan-nara-23901937",
+    "dedupeKey": "research-plan|23901937",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "type": "Scout Lead",
+    "title": "Latvia",
+    "documentTitle": "Latvia",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "23901937",
+    "catalogUrl": "https://catalog.archives.gov/id/23901937",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585731/42-t-7585731-20111037F-010-001-2015.pdf",
+    "pageCount": null,
+    "packetPageCount": 84,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-01-01",
+    "subjectLine": "Digitized RUE Latvia file surfaced by NATO/Russia, P-8, and Kozyrev searches; review for Baltic troop withdrawal and NATO/Russia context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/23901937"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 23901937; RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Coit \"Chip\" Blacker's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 84 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 23901937; RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Coit \"Chip\" Blacker's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 84 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 84 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Baltics"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Baltics"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Yeltsin",
+      "Clinton Yeltsin",
+      "NATO Russia",
+      "P-8 Nuclear Safety",
+      "Kozyrev",
+      "Russian aid"
+    ],
+    "scoutAudit": {
+      "id": "nara-23901937",
+      "sourceType": "National Archives Catalog",
+      "naId": "23901937",
+      "date": "1993-01-01",
+      "title": "Latvia",
+      "catalogUrl": "https://catalog.archives.gov/id/23901937",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585731/42-t-7585731-20111037F-010-001-2015.pdf",
+      "digitalObjects": 1,
+      "collection": "RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Coit \"Chip\" Blacker's Files",
+      "access": "Unrestricted",
+      "researchUse": "Digitized RUE Latvia file surfaced by NATO/Russia, P-8, and Kozyrev searches; review for Baltic troop withdrawal and NATO/Russia context.",
+      "relatedQueries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "NATO Russia",
+        "P-8 Nuclear Safety",
+        "Kozyrev",
+        "Russian aid"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ],
+      "packetPageCount": 84
+    }
+  },
+  {
+    "id": "research-plan-nara-23901938",
+    "dedupeKey": "research-plan|23901938",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "type": "Scout Lead",
+    "title": "Latvia",
+    "documentTitle": "Latvia",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "23901938",
+    "catalogUrl": "https://catalog.archives.gov/id/23901938",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585744/42-t-7585744-20111037F-010-002-2015.pdf",
+    "pageCount": null,
+    "packetPageCount": 21,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-01-01",
+    "subjectLine": "Digitized RUE Latvia file surfaced by Yeltsin/Vancouver/Moscow searches; review as a possible duplicate or companion to the Latvia/Baltics lane.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/23901938"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 23901938; RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 21 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 23901938; RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 21 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 21 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Baltics"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Baltics"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Yeltsin",
+      "Clinton Yeltsin",
+      "Vancouver Summit",
+      "Moscow Kiev",
+      "Moscow Minsk",
+      "Kozyrev"
+    ],
+    "scoutAudit": {
+      "id": "nara-23901938",
+      "sourceType": "National Archives Catalog",
+      "naId": "23901938",
+      "date": "1993-01-01",
+      "title": "Latvia",
+      "catalogUrl": "https://catalog.archives.gov/id/23901938",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585744/42-t-7585744-20111037F-010-002-2015.pdf",
+      "digitalObjects": 1,
+      "collection": "RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files",
+      "access": "Restricted - Possibly",
+      "researchUse": "Digitized RUE Latvia file surfaced by Yeltsin/Vancouver/Moscow searches; review as a possible duplicate or companion to the Latvia/Baltics lane.",
+      "relatedQueries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "Vancouver Summit",
+        "Moscow Kiev",
+        "Moscow Minsk",
+        "Kozyrev"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ],
+      "packetPageCount": 21
+    }
+  },
+  {
+    "id": "research-plan-nara-23901915",
+    "dedupeKey": "research-plan|23901915",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "type": "Scout Lead",
+    "title": "Latvia",
+    "documentTitle": "Latvia",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "23901915",
+    "catalogUrl": "https://catalog.archives.gov/id/23901915",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/15/9019/23901915/content/presidential-libraries/clinton/foia/2011-1037-F/2011-1037-F-PDF/Box_007/42-t-7585487-20111037F-007-016-2015.pdf",
+    "pageCount": null,
+    "packetPageCount": 2,
+    "digitalObjects": 3,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-01-01",
+    "subjectLine": "Digitized Baltic troop-withdrawal/Baltic policy lead from the mapped collection universe.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/23901915"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 23901915; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 2 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 23901915; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 2 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 2 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Baltics"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Baltics"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-23901915",
+      "sourceType": "National Archives Catalog",
+      "title": "Latvia",
+      "naId": "23901915",
+      "catalogUrl": "https://catalog.archives.gov/id/23901915",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/15/9019/23901915/content/presidential-libraries/clinton/foia/2011-1037-F/2011-1037-F-PDF/Box_007/42-t-7585487-20111037F-007-016-2015.pdf",
+      "digitalObjects": 3,
+      "packetPageCount": 2,
+      "date": "1993-01-01",
+      "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized Baltic troop-withdrawal/Baltic policy lead from the mapped collection universe.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-23902185",
+    "dedupeKey": "research-plan|23902185",
+    "date": "1993-01-01",
+    "sortDate": "1993-01-01",
+    "type": "Scout Lead",
+    "title": "Lithuania",
+    "documentTitle": "Lithuania",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "23902185",
+    "catalogUrl": "https://catalog.archives.gov/id/23902185",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585744/42-t-7585744-20111038F-003-009-2015.pdf",
+    "pageCount": null,
+    "packetPageCount": 9,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-01-01",
+    "subjectLine": "Digitized RUE Lithuania file surfaced by Yeltsin/Vancouver/Moscow searches; review for Baltic troop withdrawal context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/23902185"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 23902185; RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 9 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 23902185; RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 9 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 9 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Baltics"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Baltics"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Yeltsin",
+      "Clinton Yeltsin",
+      "Vancouver Summit",
+      "Moscow Kiev",
+      "Moscow Minsk"
+    ],
+    "scoutAudit": {
+      "id": "nara-23902185",
+      "sourceType": "National Archives Catalog",
+      "naId": "23902185",
+      "date": "1993-01-01",
+      "title": "Lithuania",
+      "catalogUrl": "https://catalog.archives.gov/id/23902185",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585744/42-t-7585744-20111038F-003-009-2015.pdf",
+      "digitalObjects": 1,
+      "collection": "RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files",
+      "access": "Restricted - Partly",
+      "researchUse": "Digitized RUE Lithuania file surfaced by Yeltsin/Vancouver/Moscow searches; review for Baltic troop withdrawal context.",
+      "relatedQueries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "Vancouver Summit",
+        "Moscow Kiev",
+        "Moscow Minsk"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ],
+      "packetPageCount": 9
+    }
   },
   {
     "id": "nara-scout-40482516",
@@ -17760,6 +18575,2251 @@ window.MEMCONS = [
       "Daily diary"
     ],
     "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870751."
+  },
+  {
+    "id": "research-plan-cdl-101270-tokyo-1993",
+    "dedupeKey": "research-plan|clinton-item-101270",
+    "date": "1993-07-06",
+    "sortDate": "1993-07-06",
+    "type": "Scout Lead",
+    "title": "Declassified Documents Regarding President Clinton's Trip to Tokyo, Japan, July 6-10, 1993",
+    "documentTitle": "Declassified Documents Regarding President Clinton's Trip to Tokyo, Japan, July 6-10, 1993",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "clinton-item-101270",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/101270",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ba6d6d11dd7afbd9ddd162191b6c9d7f.pdf",
+    "pageCount": null,
+    "packetPageCount": 283,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1993-07-06",
+    "subjectLine": "Tokyo G-7 briefing book with material for the bilateral with Russian President Boris Yeltsin; use as summit preparation/context, not counted as an actual memcon/telcon.",
+    "source": {
+      "name": "Clinton Digital Library",
+      "url": "https://clinton.presidentiallibraries.us/items/show/101270"
+    },
+    "sourceNote": "Source: Clinton Digital Library item 101270, 2016-0133-M; Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 283 pages.",
+    "frusSourceNote": "Source: Clinton Digital Library item 101270, 2016-0133-M; Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 283 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 283 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Tier 1 rank 8",
+      "Tier 4 rank 121"
+    ],
+    "relatedQueries": [],
+    "scoutAudit": {
+      "id": "cdl-101270-tokyo-1993",
+      "sourceType": "Clinton Digital Library",
+      "itemId": "101270",
+      "date": "1993-07-06",
+      "title": "Declassified Documents Regarding President Clinton's Trip to Tokyo, Japan, July 6-10, 1993",
+      "itemUrl": "https://clinton.presidentiallibraries.us/items/show/101270",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ba6d6d11dd7afbd9ddd162191b6c9d7f.pdf",
+      "caseNumber": "2016-0133-M",
+      "digitalObjects": 1,
+      "collection": "Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Records Management Office",
+      "researchUse": "Tokyo G-7 briefing book with material for the bilateral with Russian President Boris Yeltsin; use as summit preparation/context, not counted as an actual memcon/telcon.",
+      "relatedPlanTiers": [
+        "Tier 1 rank 8",
+        "Tier 4 rank 121"
+      ],
+      "packetPageCount": 283
+    }
+  },
+  {
+    "id": "research-plan-nara-40482313",
+    "dedupeKey": "research-plan|40482313",
+    "date": "1994-01-01",
+    "sortDate": "1994-01-01",
+    "type": "Scout Lead",
+    "title": "Bosnia - CSCE [Council on Security and Cooperation in Europe]",
+    "documentTitle": "Bosnia - CSCE [Council on Security and Cooperation in Europe]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "40482313",
+    "catalogUrl": "https://catalog.archives.gov/id/40482313",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/13/4823/40482313/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_05/42-t-7585484-20080994F-005-006-2016.pdf",
+    "pageCount": null,
+    "packetPageCount": 5,
+    "digitalObjects": 6,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-01-01",
+    "subjectLine": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/40482313"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 40482313; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 5 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 40482313; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 5 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 5 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Bosnia",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Bosnia",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-40482313",
+      "sourceType": "National Archives Catalog",
+      "title": "Bosnia - CSCE [Council on Security and Cooperation in Europe]",
+      "naId": "40482313",
+      "catalogUrl": "https://catalog.archives.gov/id/40482313",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/13/4823/40482313/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_05/42-t-7585484-20080994F-005-006-2016.pdf",
+      "digitalObjects": 6,
+      "packetPageCount": 5,
+      "date": "1994-01-01",
+      "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-40482395",
+    "dedupeKey": "research-plan|40482395",
+    "date": "1994-01-01",
+    "sortDate": "1994-01-01",
+    "type": "Scout Lead",
+    "title": "Bosnia - NATO",
+    "documentTitle": "Bosnia - NATO",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "40482395",
+    "catalogUrl": "https://catalog.archives.gov/id/40482395",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/95/4823/40482395/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_14/42-t-7585484-20080994F-014-003-2016.pdf",
+    "pageCount": null,
+    "packetPageCount": 27,
+    "digitalObjects": 28,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-01-01",
+    "subjectLine": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/40482395"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 40482395; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 27 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 40482395; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 27 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 27 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Bosnia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Bosnia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-40482395",
+      "sourceType": "National Archives Catalog",
+      "title": "Bosnia - NATO",
+      "naId": "40482395",
+      "catalogUrl": "https://catalog.archives.gov/id/40482395",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/95/4823/40482395/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_14/42-t-7585484-20080994F-014-003-2016.pdf",
+      "digitalObjects": 28,
+      "packetPageCount": 27,
+      "date": "1994-01-01",
+      "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-40482473",
+    "dedupeKey": "research-plan|40482473",
+    "date": "1994-01-01",
+    "sortDate": "1994-01-01",
+    "type": "Scout Lead",
+    "title": "Bosnia - NATO [1]",
+    "documentTitle": "Bosnia - NATO [1]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "40482473",
+    "catalogUrl": "https://catalog.archives.gov/id/40482473",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/73/4824/40482473/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_21/42-t-7585486-20080994F-021-010-2016.pdf",
+    "pageCount": null,
+    "packetPageCount": 45,
+    "digitalObjects": 46,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-01-01",
+    "subjectLine": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/40482473"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 40482473; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 45 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 40482473; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 45 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 45 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Bosnia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Bosnia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-40482473",
+      "sourceType": "National Archives Catalog",
+      "title": "Bosnia - NATO [1]",
+      "naId": "40482473",
+      "catalogUrl": "https://catalog.archives.gov/id/40482473",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/73/4824/40482473/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_21/42-t-7585486-20080994F-021-010-2016.pdf",
+      "digitalObjects": 46,
+      "packetPageCount": 45,
+      "date": "1994-01-01",
+      "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-40482474",
+    "dedupeKey": "research-plan|40482474",
+    "date": "1994-01-01",
+    "sortDate": "1994-01-01",
+    "type": "Scout Lead",
+    "title": "Bosnia - NATO [2]",
+    "documentTitle": "Bosnia - NATO [2]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "40482474",
+    "catalogUrl": "https://catalog.archives.gov/id/40482474",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/74/4824/40482474/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_22/42-t-7585486-20080994F-022-001-2016.pdf",
+    "pageCount": null,
+    "packetPageCount": 41,
+    "digitalObjects": 42,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-01-01",
+    "subjectLine": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/40482474"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 40482474; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 41 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 40482474; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 41 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 41 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Bosnia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Bosnia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-40482474",
+      "sourceType": "National Archives Catalog",
+      "title": "Bosnia - NATO [2]",
+      "naId": "40482474",
+      "catalogUrl": "https://catalog.archives.gov/id/40482474",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/74/4824/40482474/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_22/42-t-7585486-20080994F-022-001-2016.pdf",
+      "digitalObjects": 42,
+      "packetPageCount": 41,
+      "date": "1994-01-01",
+      "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-40482475",
+    "dedupeKey": "research-plan|40482475",
+    "date": "1994-01-01",
+    "sortDate": "1994-01-01",
+    "type": "Scout Lead",
+    "title": "Bosnia - NATO [3]",
+    "documentTitle": "Bosnia - NATO [3]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "40482475",
+    "catalogUrl": "https://catalog.archives.gov/id/40482475",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/75/4824/40482475/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_22/42-t-7585486-20080994F-022-002-2016.pdf",
+    "pageCount": null,
+    "packetPageCount": 11,
+    "digitalObjects": 12,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-01-01",
+    "subjectLine": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/40482475"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 40482475; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 11 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 40482475; European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 11 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 11 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Bosnia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "NATO/Russia",
+      "Bosnia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-40482475",
+      "sourceType": "National Archives Catalog",
+      "title": "Bosnia - NATO [3]",
+      "naId": "40482475",
+      "catalogUrl": "https://catalog.archives.gov/id/40482475",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/75/4824/40482475/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_22/42-t-7585486-20080994F-022-002-2016.pdf",
+      "digitalObjects": 12,
+      "packetPageCount": 11,
+      "date": "1994-01-01",
+      "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-404513601",
+    "dedupeKey": "research-plan|404513601",
+    "date": "1994-01-01",
+    "sortDate": "1994-01-01",
+    "type": "Scout Lead",
+    "title": "Former Yugoslavia - Russians",
+    "documentTitle": "Former Yugoslavia - Russians",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "404513601",
+    "catalogUrl": "https://catalog.archives.gov/id/404513601",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585765/7585765-20080994F-Seg2-026-004-2024.pdf",
+    "pageCount": null,
+    "packetPageCount": 13,
+    "digitalObjects": 14,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-01-01",
+    "subjectLine": "Digitized Former Yugoslavia/Russians file-unit lead for Russia-policy context screening.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/404513601"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 404513601; Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 13 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 404513601; Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 13 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 13 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Bosnia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Bosnia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-404513601",
+      "sourceType": "National Archives Catalog",
+      "title": "Former Yugoslavia - Russians",
+      "naId": "404513601",
+      "catalogUrl": "https://catalog.archives.gov/id/404513601",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585765/7585765-20080994F-Seg2-026-004-2024.pdf",
+      "digitalObjects": 14,
+      "packetPageCount": 13,
+      "date": "1994-01-01",
+      "collection": "Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized Former Yugoslavia/Russians file-unit lead for Russia-policy context screening.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-cdl-101271-europe-january-1994",
+    "dedupeKey": "research-plan|clinton-item-101271",
+    "date": "1994-01-09",
+    "sortDate": "1994-01-09",
+    "type": "Scout Lead",
+    "title": "Declassified Documents Regarding President Clinton's Trip to Europe, January 1994",
+    "documentTitle": "Declassified Documents Regarding President Clinton's Trip to Europe, January 1994",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "clinton-item-101271",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/101271",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/366a214486b2bfefbeb1a216c9aaf350.pdf",
+    "pageCount": null,
+    "packetPageCount": 395,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-01-09",
+    "subjectLine": "January 1994 Europe/Moscow/Minsk briefing books; use for NATO, Moscow, Minsk, and trilateral-agreement preparation context around the Clinton-Yeltsin summit.",
+    "source": {
+      "name": "Clinton Digital Library",
+      "url": "https://clinton.presidentiallibraries.us/items/show/101271"
+    },
+    "sourceNote": "Source: Clinton Digital Library item 101271, 2016-0134-M; Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 395 pages.",
+    "frusSourceNote": "Source: Clinton Digital Library item 101271, 2016-0134-M; Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 395 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 395 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "NATO/Russia",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "NATO/Russia",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Tier 1 rank 9",
+      "Tier 2 rank 45",
+      "Research round 3"
+    ],
+    "relatedQueries": [],
+    "scoutAudit": {
+      "id": "cdl-101271-europe-january-1994",
+      "sourceType": "Clinton Digital Library",
+      "itemId": "101271",
+      "date": "1994-01-09",
+      "title": "Declassified Documents Regarding President Clinton's Trip to Europe, January 1994",
+      "itemUrl": "https://clinton.presidentiallibraries.us/items/show/101271",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/366a214486b2bfefbeb1a216c9aaf350.pdf",
+      "caseNumber": "2016-0134-M",
+      "digitalObjects": 1,
+      "collection": "Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Records Management Office",
+      "researchUse": "January 1994 Europe/Moscow/Minsk briefing books; use for NATO, Moscow, Minsk, and trilateral-agreement preparation context around the Clinton-Yeltsin summit.",
+      "relatedPlanTiers": [
+        "Tier 1 rank 9",
+        "Tier 2 rank 45",
+        "Research round 3"
+      ],
+      "packetPageCount": 395
+    }
+  },
+  {
+    "id": "research-plan-nara-368557013",
+    "dedupeKey": "research-plan|368557013",
+    "date": "1994-01-11",
+    "sortDate": "1994-01-11",
+    "type": "Scout Lead",
+    "title": "Briefing Books - POTUS Trip to Prague, Czech Republic, January 11-12, 1994",
+    "documentTitle": "Briefing Books - POTUS Trip to Prague, Czech Republic, January 11-12, 1994",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "368557013",
+    "catalogUrl": "https://catalog.archives.gov/id/368557013",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/7585709-20170413F-002-008-2024.pdf",
+    "pageCount": null,
+    "packetPageCount": 51,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-01-11",
+    "subjectLine": "Digitized Prague January 1994 trip briefing book lead adjacent to the Europe/Moscow/Minsk trip file set.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/368557013"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 368557013; NSC Records Management collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 51 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 368557013; NSC Records Management collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 51 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 51 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-368557013",
+      "sourceType": "National Archives Catalog",
+      "title": "Briefing Books - POTUS Trip to Prague, Czech Republic, January 11-12, 1994",
+      "naId": "368557013",
+      "catalogUrl": "https://catalog.archives.gov/id/368557013",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/7585709-20170413F-002-008-2024.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 51,
+      "date": "1994-01-11",
+      "collection": "NSC Records Management collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized Prague January 1994 trip briefing book lead adjacent to the Europe/Moscow/Minsk trip file set.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-368557016",
+    "dedupeKey": "research-plan|368557016",
+    "date": "1994-01-11",
+    "sortDate": "1994-01-11",
+    "type": "Scout Lead",
+    "title": "POTUS Trip to Prague, the Czech Republic - January 11-12, 1994 (Briefing Book)",
+    "documentTitle": "POTUS Trip to Prague, the Czech Republic - January 11-12, 1994 (Briefing Book)",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "368557016",
+    "catalogUrl": "https://catalog.archives.gov/id/368557016",
+    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585727/7585727-20170413F-003-001-2024.pdf",
+    "pageCount": null,
+    "packetPageCount": 49,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-01-11",
+    "subjectLine": "Digitized Prague January 1994 trip briefing book lead adjacent to the Europe/Moscow/Minsk trip file set.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/368557016"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 368557016; RUE collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 49 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 368557016; RUE collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 49 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 49 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-368557016",
+      "sourceType": "National Archives Catalog",
+      "title": "POTUS Trip to Prague, the Czech Republic - January 11-12, 1994 (Briefing Book)",
+      "naId": "368557016",
+      "catalogUrl": "https://catalog.archives.gov/id/368557016",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585727/7585727-20170413F-003-001-2024.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 49,
+      "date": "1994-01-11",
+      "collection": "RUE collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized Prague January 1994 trip briefing book lead adjacent to the Europe/Moscow/Minsk trip file set.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-236750737",
+    "dedupeKey": "research-plan|236750737",
+    "date": "1994-11-20",
+    "sortDate": "1994-11-20",
+    "type": "Scout Lead",
+    "title": "[11/20/1994 — 04/06/1995]",
+    "documentTitle": "[11/20/1994 — 04/06/1995]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "236750737",
+    "catalogUrl": "https://catalog.archives.gov/id/236750737",
+    "pdfUrl": "",
+    "pageCount": null,
+    "packetPageCount": null,
+    "digitalObjects": 133,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-11-20",
+    "subjectLine": "Digitized PRS/RMS file spanning November 1994-April 1995 surfaced by Moscow/Kiev, Halifax, and Ukraine-nuclear searches; review for preparatory and follow-up material around the May 1995 summit lane.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/236750737"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 236750737; Records Management collection; Records of the National Security Council Records Management Office (Clinton Administration) / Presidential Records Series (PRS) Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 133 digital objects.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 236750737; Records Management collection; Records of the National Security Council Records Management Office (Clinton Administration) / Presidential Records Series (PRS) Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 133 digital objects.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: catalog record exposes 133 digital objects; review the file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Ukraine",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Ukraine",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Moscow Kiev",
+      "POTUS Russia Ukraine",
+      "Halifax Yeltsin",
+      "Ukraine nuclear weapons"
+    ],
+    "scoutAudit": {
+      "id": "nara-236750737",
+      "sourceType": "National Archives Catalog",
+      "naId": "236750737",
+      "date": "1994-11-20",
+      "title": "[11/20/1994 — 04/06/1995]",
+      "catalogUrl": "https://catalog.archives.gov/id/236750737",
+      "pdfUrl": "",
+      "digitalObjects": 133,
+      "collection": "Records Management collection; Records of the National Security Council Records Management Office (Clinton Administration) / Presidential Records Series (PRS) Files",
+      "access": "Restricted - Partly",
+      "researchUse": "Digitized PRS/RMS file spanning November 1994-April 1995 surfaced by Moscow/Kiev, Halifax, and Ukraine-nuclear searches; review for preparatory and follow-up material around the May 1995 summit lane.",
+      "relatedQueries": [
+        "Moscow Kiev",
+        "POTUS Russia Ukraine",
+        "Halifax Yeltsin",
+        "Ukraine nuclear weapons"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ]
+    }
+  },
+  {
+    "id": "research-plan-cdl-36597-gore-chernomyrdin",
+    "dedupeKey": "research-plan|clinton-item-36597",
+    "date": "1994-12-01",
+    "sortDate": "1994-12-01",
+    "type": "Scout Lead",
+    "title": "Declassified Documents concerning Gore-Chernomyrdin Commission",
+    "documentTitle": "Declassified Documents concerning Gore-Chernomyrdin Commission",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "clinton-item-36597",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/36597",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/db3551b0d4dd2a015a0894c8c1f33336.pdf",
+    "pageCount": null,
+    "packetPageCount": 168,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-01",
+    "subjectLine": "December 1994 Gore-Chernomyrdin Commission cable packet; use to fill the VPOTUS-Chernomyrdin channel below the Clinton-Yeltsin summit layer.",
+    "source": {
+      "name": "Clinton Digital Library",
+      "url": "https://clinton.presidentiallibraries.us/items/show/36597"
+    },
+    "sourceNote": "Source: Clinton Digital Library item 36597, Declassified Documents; Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council and NSC Cables. Online research-plan lead surfaced May 22, 2026. PDF packet: 168 pages.",
+    "frusSourceNote": "Source: Clinton Digital Library item 36597, Declassified Documents; Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council and NSC Cables. Online research-plan lead surfaced May 22, 2026. PDF packet: 168 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 168 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Gore-Chernomyrdin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Gore-Chernomyrdin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Tier 2 ranks 36-56"
+    ],
+    "relatedQueries": [],
+    "scoutAudit": {
+      "id": "cdl-36597-gore-chernomyrdin",
+      "sourceType": "Clinton Digital Library",
+      "itemId": "36597",
+      "date": "1994-12-01",
+      "title": "Declassified Documents concerning Gore-Chernomyrdin Commission",
+      "itemUrl": "https://clinton.presidentiallibraries.us/items/show/36597",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/db3551b0d4dd2a015a0894c8c1f33336.pdf",
+      "caseNumber": "Declassified Documents",
+      "digitalObjects": 1,
+      "collection": "Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council and NSC Cables",
+      "researchUse": "December 1994 Gore-Chernomyrdin Commission cable packet; use to fill the VPOTUS-Chernomyrdin channel below the Clinton-Yeltsin summit layer.",
+      "relatedPlanTiers": [
+        "Tier 2 ranks 36-56"
+      ],
+      "packetPageCount": 168
+    }
+  },
+  {
+    "id": "research-plan-nara-147873399",
+    "dedupeKey": "research-plan|147873399",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "type": "Scout Lead",
+    "title": "CSCE [Conference on Security and Cooperation in Europe]",
+    "documentTitle": "CSCE [Conference on Security and Cooperation in Europe]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "147873399",
+    "catalogUrl": "https://catalog.archives.gov/id/147873399",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585765-20140846F-003-005-2019.pdf",
+    "pageCount": null,
+    "packetPageCount": 20,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-05",
+    "subjectLine": "Digitized Staff Director CSCE file; companion to the Executive Secretary CSCE record for Budapest/CSCE follow-up.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/147873399"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 147873399; Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 20 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 147873399; Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 20 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 20 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Yeltsin",
+      "Clinton Yeltsin",
+      "POTUS Russia Ukraine",
+      "START II"
+    ],
+    "scoutAudit": {
+      "id": "nara-147873399",
+      "sourceType": "National Archives Catalog",
+      "naId": "147873399",
+      "date": "1994-12-05",
+      "title": "CSCE [Conference on Security and Cooperation in Europe]",
+      "catalogUrl": "https://catalog.archives.gov/id/147873399",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585765-20140846F-003-005-2019.pdf",
+      "digitalObjects": 1,
+      "collection": "Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files",
+      "access": "Restricted - Partly",
+      "researchUse": "Digitized Staff Director CSCE file; companion to the Executive Secretary CSCE record for Budapest/CSCE follow-up.",
+      "relatedQueries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "POTUS Russia Ukraine",
+        "START II"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ],
+      "packetPageCount": 20
+    }
+  },
+  {
+    "id": "research-plan-nara-147873395",
+    "dedupeKey": "research-plan|147873395",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "type": "Scout Lead",
+    "title": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [1]",
+    "documentTitle": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [1]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "147873395",
+    "catalogUrl": "https://catalog.archives.gov/id/147873395",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585765-20140846F-003-003-2019.pdf",
+    "pageCount": null,
+    "packetPageCount": 25,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-05",
+    "subjectLine": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/147873395"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 147873395; Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 25 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 147873395; Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 25 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 25 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-147873395",
+      "sourceType": "National Archives Catalog",
+      "title": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [1]",
+      "naId": "147873395",
+      "catalogUrl": "https://catalog.archives.gov/id/147873395",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585765-20140846F-003-003-2019.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 25,
+      "date": "1994-12-05",
+      "collection": "Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-147873397",
+    "dedupeKey": "research-plan|147873397",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "type": "Scout Lead",
+    "title": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [2]",
+    "documentTitle": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [2]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "147873397",
+    "catalogUrl": "https://catalog.archives.gov/id/147873397",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585765-20140846F-003-004-2019.pdf",
+    "pageCount": null,
+    "packetPageCount": 22,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-05",
+    "subjectLine": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/147873397"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 147873397; Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 22 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 147873397; Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 22 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 22 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-147873397",
+      "sourceType": "National Archives Catalog",
+      "title": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [2]",
+      "naId": "147873397",
+      "catalogUrl": "https://catalog.archives.gov/id/147873397",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585765-20140846F-003-004-2019.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 22,
+      "date": "1994-12-05",
+      "collection": "Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-147873129",
+    "dedupeKey": "research-plan|147873129",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "type": "Scout Lead",
+    "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [1]",
+    "documentTitle": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [1]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "147873129",
+    "catalogUrl": "https://catalog.archives.gov/id/147873129",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-001-013-2019.pdf",
+    "pageCount": null,
+    "packetPageCount": 65,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-05",
+    "subjectLine": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/147873129"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 147873129; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 65 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 147873129; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 65 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 65 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-147873129",
+      "sourceType": "National Archives Catalog",
+      "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [1]",
+      "naId": "147873129",
+      "catalogUrl": "https://catalog.archives.gov/id/147873129",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-001-013-2019.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 65,
+      "date": "1994-12-05",
+      "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-147873131",
+    "dedupeKey": "research-plan|147873131",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "type": "Scout Lead",
+    "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [2]",
+    "documentTitle": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [2]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "147873131",
+    "catalogUrl": "https://catalog.archives.gov/id/147873131",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-001-2019.pdf",
+    "pageCount": null,
+    "packetPageCount": 41,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-05",
+    "subjectLine": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/147873131"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 147873131; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 41 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 147873131; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 41 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 41 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-147873131",
+      "sourceType": "National Archives Catalog",
+      "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [2]",
+      "naId": "147873131",
+      "catalogUrl": "https://catalog.archives.gov/id/147873131",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-001-2019.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 41,
+      "date": "1994-12-05",
+      "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-147873133",
+    "dedupeKey": "research-plan|147873133",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "type": "Scout Lead",
+    "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [3]",
+    "documentTitle": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [3]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "147873133",
+    "catalogUrl": "https://catalog.archives.gov/id/147873133",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-002-2019.pdf",
+    "pageCount": null,
+    "packetPageCount": 42,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-05",
+    "subjectLine": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/147873133"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 147873133; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 42 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 147873133; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 42 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 42 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-147873133",
+      "sourceType": "National Archives Catalog",
+      "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [3]",
+      "naId": "147873133",
+      "catalogUrl": "https://catalog.archives.gov/id/147873133",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-002-2019.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 42,
+      "date": "1994-12-05",
+      "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-147873135",
+    "dedupeKey": "research-plan|147873135",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "type": "Scout Lead",
+    "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [4]",
+    "documentTitle": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [4]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "147873135",
+    "catalogUrl": "https://catalog.archives.gov/id/147873135",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-003-2019.pdf",
+    "pageCount": null,
+    "packetPageCount": 70,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-05",
+    "subjectLine": "Digitized Executive Secretary CSCE December 1994 file; review for Budapest/CSCE Russia and NATO context following the September 1994 Yeltsin visit.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/147873135"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 147873135; Executive Secretary collection; Records of the National Security Council Executive Secretary (Clinton Administration) / William Itoh's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 70 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 147873135; Executive Secretary collection; Records of the National Security Council Executive Secretary (Clinton Administration) / William Itoh's Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 70 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 70 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "NATO/Russia"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Yeltsin",
+      "Clinton Yeltsin",
+      "Boris Yeltsin",
+      "POTUS Russia Ukraine",
+      "NATO Russia",
+      "START II"
+    ],
+    "scoutAudit": {
+      "id": "nara-147873135",
+      "sourceType": "National Archives Catalog",
+      "naId": "147873135",
+      "date": "1994-12-05",
+      "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [4]",
+      "catalogUrl": "https://catalog.archives.gov/id/147873135",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-003-2019.pdf",
+      "digitalObjects": 1,
+      "collection": "Executive Secretary collection; Records of the National Security Council Executive Secretary (Clinton Administration) / William Itoh's Files",
+      "access": "Restricted - Partly",
+      "researchUse": "Digitized Executive Secretary CSCE December 1994 file; review for Budapest/CSCE Russia and NATO context following the September 1994 Yeltsin visit.",
+      "relatedQueries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "Boris Yeltsin",
+        "POTUS Russia Ukraine",
+        "NATO Russia",
+        "START II"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ],
+      "packetPageCount": 70
+    }
+  },
+  {
+    "id": "research-plan-nara-147873137",
+    "dedupeKey": "research-plan|147873137",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "type": "Scout Lead",
+    "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [5]",
+    "documentTitle": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [5]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "147873137",
+    "catalogUrl": "https://catalog.archives.gov/id/147873137",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-004-2019.pdf",
+    "pageCount": null,
+    "packetPageCount": 37,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-05",
+    "subjectLine": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/147873137"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 147873137; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 37 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 147873137; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 37 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 37 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-147873137",
+      "sourceType": "National Archives Catalog",
+      "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [5]",
+      "naId": "147873137",
+      "catalogUrl": "https://catalog.archives.gov/id/147873137",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-004-2019.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 37,
+      "date": "1994-12-05",
+      "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-147873127",
+    "dedupeKey": "research-plan|147873127",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "type": "Scout Lead",
+    "title": "CSCE [Conference on Security and Cooperation in Europe]1994",
+    "documentTitle": "CSCE [Conference on Security and Cooperation in Europe]1994",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "147873127",
+    "catalogUrl": "https://catalog.archives.gov/id/147873127",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585504-20140846F-001-012-2019.pdf",
+    "pageCount": null,
+    "packetPageCount": 80,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1994-12-05",
+    "subjectLine": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/147873127"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 147873127; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 80 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 147873127; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 80 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 80 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-147873127",
+      "sourceType": "National Archives Catalog",
+      "title": "CSCE [Conference on Security and Cooperation in Europe]1994",
+      "naId": "147873127",
+      "catalogUrl": "https://catalog.archives.gov/id/147873127",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585504-20140846F-001-012-2019.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 80,
+      "date": "1994-12-05",
+      "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
+  },
+  {
+    "id": "research-plan-nara-23898267",
+    "dedupeKey": "research-plan|23898267",
+    "date": "1995-04-19",
+    "sortDate": "1995-04-19",
+    "type": "Scout Lead",
+    "title": "[04/19/1995 – 03/17/1997]",
+    "documentTitle": "[04/19/1995 – 03/17/1997]",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "23898267",
+    "catalogUrl": "https://catalog.archives.gov/id/23898267",
+    "pdfUrl": "",
+    "pageCount": null,
+    "packetPageCount": null,
+    "digitalObjects": 29,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1995-04-19",
+    "subjectLine": "Digitized PRS/RMS date-range file, April 1995-March 1997, surfaced by Hyde Park/Primakov/Kozyrev/Mamedov searches; review for cross-cutting Russia policy papers.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/23898267"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 23898267; Records Management collection; Records of the National Security Council Records Management Office (Clinton Administration) / Various Records Management Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 29 digital objects.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 23898267; Records Management collection; Records of the National Security Council Records Management Office (Clinton Administration) / Various Records Management Files. Online research-plan lead surfaced May 22, 2026. Catalog record exposes 29 digital objects.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: catalog record exposes 29 digital objects; review the file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Hyde Park Yeltsin",
+      "Primakov",
+      "Kozyrev",
+      "Mamedov"
+    ],
+    "scoutAudit": {
+      "id": "nara-23898267",
+      "sourceType": "National Archives Catalog",
+      "naId": "23898267",
+      "date": "1995-04-19",
+      "title": "[04/19/1995 – 03/17/1997]",
+      "catalogUrl": "https://catalog.archives.gov/id/23898267",
+      "pdfUrl": "",
+      "digitalObjects": 29,
+      "collection": "Records Management collection; Records of the National Security Council Records Management Office (Clinton Administration) / Various Records Management Files",
+      "access": "Restricted - Partly",
+      "researchUse": "Digitized PRS/RMS date-range file, April 1995-March 1997, surfaced by Hyde Park/Primakov/Kozyrev/Mamedov searches; review for cross-cutting Russia policy papers.",
+      "relatedQueries": [
+        "Hyde Park Yeltsin",
+        "Primakov",
+        "Kozyrev",
+        "Mamedov"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ]
+    }
+  },
+  {
+    "id": "research-plan-cdl-101272-russia-ukraine-may-1995",
+    "dedupeKey": "research-plan|clinton-item-101272",
+    "date": "1995-05-08",
+    "sortDate": "1995-05-08",
+    "type": "Scout Lead",
+    "title": "Declassified Documents Regarding President Clinton Trip to Russia and Ukraine, May 8-12, 1995",
+    "documentTitle": "Declassified Documents Regarding President Clinton Trip to Russia and Ukraine, May 8-12, 1995",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "clinton-item-101272",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/101272",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/bf446041854cb39940cdb882deb8f83c.pdf",
+    "pageCount": null,
+    "packetPageCount": 280,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1995-05-08",
+    "subjectLine": "May 1995 Russia/Ukraine trip briefing book with material for Clinton meetings with Boris Yeltsin and Leonid Kuchma; core context for the Moscow/Kiev summit lane.",
+    "source": {
+      "name": "Clinton Digital Library",
+      "url": "https://clinton.presidentiallibraries.us/items/show/101272"
+    },
+    "sourceNote": "Source: Clinton Digital Library item 101272, 2016-0135-M; Clinton Presidential Records: White House Staff and Office Files; National Security Council, NSC Executive Secretary, and NSC Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 280 pages.",
+    "frusSourceNote": "Source: Clinton Digital Library item 101272, 2016-0135-M; Clinton Presidential Records: White House Staff and Office Files; National Security Council, NSC Executive Secretary, and NSC Records Management Office. Online research-plan lead surfaced May 22, 2026. PDF packet: 280 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 280 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Ukraine",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Ukraine",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Tier 1 ranks 13-20, 29-30",
+      "Research round 5"
+    ],
+    "relatedQueries": [],
+    "scoutAudit": {
+      "id": "cdl-101272-russia-ukraine-may-1995",
+      "sourceType": "Clinton Digital Library",
+      "itemId": "101272",
+      "date": "1995-05-08",
+      "title": "Declassified Documents Regarding President Clinton Trip to Russia and Ukraine, May 8-12, 1995",
+      "itemUrl": "https://clinton.presidentiallibraries.us/items/show/101272",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/bf446041854cb39940cdb882deb8f83c.pdf",
+      "caseNumber": "2016-0135-M",
+      "digitalObjects": 1,
+      "collection": "Clinton Presidential Records: White House Staff and Office Files; National Security Council, NSC Executive Secretary, and NSC Records Management Office",
+      "researchUse": "May 1995 Russia/Ukraine trip briefing book with material for Clinton meetings with Boris Yeltsin and Leonid Kuchma; core context for the Moscow/Kiev summit lane.",
+      "relatedPlanTiers": [
+        "Tier 1 ranks 13-20, 29-30",
+        "Research round 5"
+      ],
+      "packetPageCount": 280
+    }
+  },
+  {
+    "id": "research-plan-cdl-101273-halifax-1995",
+    "dedupeKey": "research-plan|clinton-item-101273",
+    "date": "1995-06-15",
+    "sortDate": "1995-06-15",
+    "type": "Scout Lead",
+    "title": "Declassified Documents Regarding President Clinton's Trip to Canada, June 15-17, 1995",
+    "documentTitle": "Declassified Documents Regarding President Clinton's Trip to Canada, June 15-17, 1995",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "clinton-item-101273",
+    "catalogUrl": "https://clinton.presidentiallibraries.us/items/show/101273",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/794a59781b0879223b941b62869e017b.pdf",
+    "pageCount": null,
+    "packetPageCount": 201,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1995-06-15",
+    "subjectLine": "Halifax G-7 briefing book; use for Russia-in-G-7/G-8 architecture and bilateral context adjacent to the Halifax Clinton-Yeltsin meeting.",
+    "source": {
+      "name": "Clinton Digital Library",
+      "url": "https://clinton.presidentiallibraries.us/items/show/101273"
+    },
+    "sourceNote": "Source: Clinton Digital Library item 101273, 2016-0136-M; Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Executive Secretary. Online research-plan lead surfaced May 22, 2026. PDF packet: 201 pages.",
+    "frusSourceNote": "Source: Clinton Digital Library item 101273, 2016-0136-M; Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Executive Secretary. Online research-plan lead surfaced May 22, 2026. PDF packet: 201 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 201 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Yeltsin",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Tier 2 ranks 57-58",
+      "Research round 5"
+    ],
+    "relatedQueries": [],
+    "scoutAudit": {
+      "id": "cdl-101273-halifax-1995",
+      "sourceType": "Clinton Digital Library",
+      "itemId": "101273",
+      "date": "1995-06-15",
+      "title": "Declassified Documents Regarding President Clinton's Trip to Canada, June 15-17, 1995",
+      "itemUrl": "https://clinton.presidentiallibraries.us/items/show/101273",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/794a59781b0879223b941b62869e017b.pdf",
+      "caseNumber": "2016-0136-M",
+      "digitalObjects": 1,
+      "collection": "Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Executive Secretary",
+      "researchUse": "Halifax G-7 briefing book; use for Russia-in-G-7/G-8 architecture and bilateral context adjacent to the Halifax Clinton-Yeltsin meeting.",
+      "relatedPlanTiers": [
+        "Tier 2 ranks 57-58",
+        "Research round 5"
+      ],
+      "packetPageCount": 201
+    }
+  },
+  {
+    "id": "research-plan-nara-42219640",
+    "dedupeKey": "research-plan|42219640",
+    "date": "1996-04-01",
+    "sortDate": "1996-04-01",
+    "type": "Scout Lead",
+    "title": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: 2100",
+    "documentTitle": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: 2100",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "42219640",
+    "catalogUrl": "https://catalog.archives.gov/id/42219640",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585504/42-t-7585504-20090528F-Seg2-006-010-2016.pdf",
+    "pageCount": null,
+    "packetPageCount": 79,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1996-04-01",
+    "subjectLine": "Digitized Executive Secretary Japan/Korea/Russia 1996 trip file; review for April 1996 P-8/Nuclear Safety Summit preparation or schedule context.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/42219640"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 42219640; Executive Secretary collection; Records of the National Security Council Executive Secretary (Clinton Administration) / Executive Secretary's Subject Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 79 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 42219640; Executive Secretary collection; Records of the National Security Council Executive Secretary (Clinton Administration) / Executive Secretary's Subject Files. Online research-plan lead surfaced May 22, 2026. PDF packet: 79 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 79 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Online collection pass"
+    ],
+    "relatedQueries": [
+      "Yeltsin",
+      "Clinton Yeltsin",
+      "POTUS Russia Ukraine",
+      "Tokyo G-7 Russia",
+      "P-8 Nuclear Safety"
+    ],
+    "scoutAudit": {
+      "id": "nara-42219640",
+      "sourceType": "National Archives Catalog",
+      "naId": "42219640",
+      "date": "1996-04-01",
+      "title": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: 2100",
+      "catalogUrl": "https://catalog.archives.gov/id/42219640",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585504/42-t-7585504-20090528F-Seg2-006-010-2016.pdf",
+      "digitalObjects": 1,
+      "collection": "Executive Secretary collection; Records of the National Security Council Executive Secretary (Clinton Administration) / Executive Secretary's Subject Files",
+      "access": "Restricted - Partly",
+      "researchUse": "Digitized Executive Secretary Japan/Korea/Russia 1996 trip file; review for April 1996 P-8/Nuclear Safety Summit preparation or schedule context.",
+      "relatedQueries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "POTUS Russia Ukraine",
+        "Tokyo G-7 Russia",
+        "P-8 Nuclear Safety"
+      ],
+      "relatedPlanTiers": [
+        "Online collection pass"
+      ],
+      "packetPageCount": 79
+    }
+  },
+  {
+    "id": "research-plan-nara-42219639",
+    "dedupeKey": "research-plan|42219639",
+    "date": "1996-04-01",
+    "sortDate": "1996-04-01",
+    "type": "Scout Lead",
+    "title": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: Korea",
+    "documentTitle": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: Korea",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Digitized Research Lead",
+    "naid": "42219639",
+    "catalogUrl": "https://catalog.archives.gov/id/42219639",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585504/42-t-7585504-20090528F-Seg2-006-009-2016.pdf",
+    "pageCount": null,
+    "packetPageCount": 12,
+    "digitalObjects": 1,
+    "countStatus": "Research lead only",
+    "potentialFrusDocument": false,
+    "dateLine": "1996-04-01",
+    "subjectLine": "Digitized companion segment of the April 1996 Japan/Korea/Russia trip file; review with the Russia segment already listed.",
+    "source": {
+      "name": "National Archives Catalog",
+      "url": "https://catalog.archives.gov/id/42219639"
+    },
+    "sourceNote": "Source: National Archives Catalog, NAID 42219639; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 12 pages.",
+    "frusSourceNote": "Source: National Archives Catalog, NAID 42219639; Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs. Online research-plan lead surfaced May 22, 2026. PDF packet: 12 pages.",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Research lead only: online PDF packet has 12 pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "Digitized lead",
+      "Summit briefing"
+    ],
+    "topics": [
+      "Research plan",
+      "Digitized lead",
+      "Summit briefing"
+    ],
+    "researchPlanLead": true,
+    "relatedPlanTiers": [
+      "Collection-wide digitized follow-up"
+    ],
+    "relatedQueries": [
+      "collection-wide availableOnline screen"
+    ],
+    "scoutAudit": {
+      "id": "nara-42219639",
+      "sourceType": "National Archives Catalog",
+      "title": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: Korea",
+      "naId": "42219639",
+      "catalogUrl": "https://catalog.archives.gov/id/42219639",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585504/42-t-7585504-20090528F-Seg2-006-009-2016.pdf",
+      "digitalObjects": 1,
+      "packetPageCount": 12,
+      "date": "1996-04-01",
+      "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+      "researchUse": "Digitized companion segment of the April 1996 Japan/Korea/Russia trip file; review with the Russia segment already listed.",
+      "relatedQueries": [
+        "collection-wide availableOnline screen"
+      ],
+      "relatedPlanTiers": [
+        "Collection-wide digitized follow-up"
+      ],
+      "searchPass": "collection-wide availableOnline keyword screen"
+    }
   },
   {
     "id": "nara-scout-257664339",
@@ -18593,5 +21653,2494 @@ window.MEMCONS = [
       }
     ],
     "frusSourceNote": "Source: NARA Scout search trail, Search run May 21, 2026."
+  },
+  {
+    "id": "research-plan-online-search-2026-05-22",
+    "dedupeKey": "research-plan|online-search-2026-05-22",
+    "date": "2026-05-22",
+    "sortDate": "2026-05-22",
+    "type": "Scout Lead",
+    "title": "Research plan online pass: 2013-0185-M and related Clinton NSC collections",
+    "documentTitle": "Research plan online pass: 2013-0185-M and related Clinton NSC collections",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 4,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Search Trail",
+    "naid": "research-plan-online-search-2026-05-22",
+    "catalogUrl": "https://therealjameswilson.github.io/nara-scout/",
+    "pdfUrl": "",
+    "pageCount": null,
+    "digitalObjects": 557,
+    "countStatus": "Search trail only",
+    "potentialFrusDocument": false,
+    "dateLine": "Search run May 22, 2026",
+    "subjectLine": "Targeted online search for declassified/digitized documents in the FRUS research-plan collection universe: RUE, European Affairs, Executive Secretary, Staff Director, and NSC Records Management.",
+    "source": {
+      "name": "NARA Scout",
+      "url": "https://therealjameswilson.github.io/nara-scout/"
+    },
+    "sourceNote": "Source: FRUS research-plan online pass over National Archives Catalog API v2 through NARA Scout proxy and Clinton Digital Library item search, run May 22, 2026. The pass targeted the 2013-0185-M research-plan collection universe and related NSC collection NAIDs. Collection-wide paginated screen: 4930 digitized file units, 156 keyword hits, 17 additional promoted leads.",
+    "frusSourceNote": "Source: FRUS research-plan online pass over National Archives Catalog API v2 through NARA Scout proxy and Clinton Digital Library item search, run May 22, 2026. The pass targeted the 2013-0185-M research-plan collection universe and related NSC collection NAIDs. Collection-wide paginated screen: 4930 digitized file units, 156 keyword hits, 17 additional promoted leads.",
+    "extractionStatus": "Search trail only: exact top-tier 2013-0185-M folders were mostly not digitized online; the visible Scout leads below capture online packets or file units that should be reviewed for possible FRUS context or source-note support.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Research plan",
+      "NARA Scout",
+      "Clinton Digital Library",
+      "Digitized leads"
+    ],
+    "topics": [
+      "Research plan",
+      "NARA Scout",
+      "Clinton Digital Library",
+      "Digitized leads"
+    ],
+    "scoutAudit": {
+      "generatedAt": "2026-05-22T11:01:24.150Z",
+      "source": "National Archives Catalog API v2 via NARA Scout proxy",
+      "collections": [
+        {
+          "naid": "7388835",
+          "short": "RUE",
+          "name": "Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration)",
+          "planUse": "Core 2013-0185-M research universe: Gati, Burns, Potts, Gottemoeller, Beyrle, Pifer, Pascual, Blacker, and RUE admin summit/trip files."
+        },
+        {
+          "naid": "7386505",
+          "short": "European Affairs",
+          "name": "Records of the National Security Council European Affairs Office (Clinton Administration)",
+          "planUse": "Companion NSC regional office; useful for Donald Kerrick, Vershbow, and related telcon/memcon or NATO/Russia context files."
+        },
+        {
+          "naid": "7386739",
+          "short": "Executive Secretary",
+          "name": "Records of the National Security Council Executive Secretary (Clinton Administration)",
+          "planUse": "Formal summit, briefing-book, protocol, and trip-file control point for POTUS/GCC events."
+        },
+        {
+          "naid": "7388836",
+          "short": "Staff Director",
+          "name": "Records of the National Security Council Staff Director (Clinton Administration)",
+          "planUse": "Nancy Soderberg backup notebooks and Russia trip coordination files."
+        },
+        {
+          "naid": "7388808",
+          "short": "Records Management",
+          "name": "Records of the National Security Council Records Management Office (Clinton Administration)",
+          "planUse": "PRS/RMS item leads, withdrawal sheets, and locator records for Clinton-Yeltsin memcons/telcons."
+        }
+      ],
+      "queries": [
+        "Yeltsin",
+        "Clinton Yeltsin",
+        "Boris Yeltsin",
+        "Vancouver Summit",
+        "Gore Chernomyrdin",
+        "Chernomyrdin",
+        "Gore-Chernomyrdin",
+        "Moscow Minsk",
+        "Moscow Kiev",
+        "POTUS Russia Ukraine",
+        "Hyde Park Yeltsin",
+        "Halifax Yeltsin",
+        "Tokyo G-7 Russia",
+        "P-8 Nuclear Safety",
+        "NATO Russia",
+        "START II",
+        "Nunn-Lugar",
+        "Primakov",
+        "Kozyrev",
+        "Mamedov",
+        "Chubais",
+        "Russian aid",
+        "Trilateral Agreement",
+        "Ukraine nuclear weapons"
+      ],
+      "uniqueOnlineDigitizedHits": 557,
+      "collectionWideOnlineScreen": {
+        "generatedAt": "2026-05-22T11:41:33.571Z",
+        "method": "Paginated availableOnline=true screen over mapped NSC collection NAIDs, then keyword triage for Russia/Yeltsin/NATO/CSCE/Baltic/Prague terms.",
+        "collectionsSearched": [
+          {
+            "name": "RUE",
+            "naId": "7388835",
+            "onlineDigitizedFileUnits": 5,
+            "retrieved": 5,
+            "pages": 1
+          },
+          {
+            "name": "European Affairs",
+            "naId": "7386505",
+            "onlineDigitizedFileUnits": 466,
+            "retrieved": 466,
+            "pages": 1
+          },
+          {
+            "name": "Executive Secretary",
+            "naId": "7386739",
+            "onlineDigitizedFileUnits": 33,
+            "retrieved": 33,
+            "pages": 1
+          },
+          {
+            "name": "Staff Director",
+            "naId": "7388836",
+            "onlineDigitizedFileUnits": 291,
+            "retrieved": 291,
+            "pages": 1
+          },
+          {
+            "name": "NSC Records Management",
+            "naId": "7388808",
+            "onlineDigitizedFileUnits": 5267,
+            "retrieved": 5267,
+            "pages": 6
+          }
+        ],
+        "uniqueOnlineDigitizedFileUnits": 4930,
+        "keywordMatches": 156,
+        "newKeywordMatchesBeforeTriage": 147,
+        "selectedNewLeadRecords": 17,
+        "selectedLeadRecordIds": [
+          "nara-368557016",
+          "nara-40482473",
+          "nara-40482313",
+          "nara-23901915",
+          "nara-40482475",
+          "nara-40482474",
+          "nara-40482395",
+          "nara-42219639",
+          "nara-147873127",
+          "nara-147873131",
+          "nara-147873129",
+          "nara-147873137",
+          "nara-147873133",
+          "nara-147873397",
+          "nara-147873395",
+          "nara-404513601",
+          "nara-368557013"
+        ],
+        "keywordHits": [
+          {
+            "naId": "368557016",
+            "title": "POTUS Trip to Prague, the Czech Republic - January 11-12, 1994 (Briefing Book)",
+            "collections": [
+              "RUE"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/368557016",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "23902185",
+            "title": "Lithuania",
+            "collections": [
+              "RUE"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/23902185",
+            "digitalObjects": 1,
+            "disposition": "Already visible on page as research-plan-nara-23902185."
+          },
+          {
+            "naId": "23901938",
+            "title": "Latvia",
+            "collections": [
+              "RUE"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/23901938",
+            "digitalObjects": 1,
+            "disposition": "Already visible on page as research-plan-nara-23901938."
+          },
+          {
+            "naId": "23901937",
+            "title": "Latvia",
+            "collections": [
+              "RUE"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/23901937",
+            "digitalObjects": 1,
+            "disposition": "Already visible on page as research-plan-nara-23901937."
+          },
+          {
+            "naId": "23901643",
+            "title": "Estonia",
+            "collections": [
+              "RUE"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/23901643",
+            "digitalObjects": 15,
+            "disposition": "Already visible on page as research-plan-nara-23901643."
+          },
+          {
+            "naId": "40482473",
+            "title": "Bosnia - NATO [1]",
+            "collections": [
+              "European Affairs"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/40482473",
+            "digitalObjects": 46,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "40482313",
+            "title": "Bosnia - CSCE [Council on Security and Cooperation in Europe]",
+            "collections": [
+              "European Affairs"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/40482313",
+            "digitalObjects": 6,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "23901915",
+            "title": "Latvia",
+            "collections": [
+              "European Affairs"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/23901915",
+            "digitalObjects": 3,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "40482475",
+            "title": "Bosnia - NATO [3]",
+            "collections": [
+              "European Affairs"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/40482475",
+            "digitalObjects": 12,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "40482474",
+            "title": "Bosnia - NATO [2]",
+            "collections": [
+              "European Affairs"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/40482474",
+            "digitalObjects": 42,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "40482395",
+            "title": "Bosnia - NATO",
+            "collections": [
+              "European Affairs"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/40482395",
+            "digitalObjects": 28,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "42219640",
+            "title": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: 2100",
+            "collections": [
+              "Executive Secretary"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/42219640",
+            "digitalObjects": 1,
+            "disposition": "Already visible on page as research-plan-nara-42219640."
+          },
+          {
+            "naId": "42219639",
+            "title": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: Korea",
+            "collections": [
+              "Executive Secretary"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/42219639",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "147873127",
+            "title": "CSCE [Conference on Security and Cooperation in Europe]1994",
+            "collections": [
+              "Executive Secretary"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873127",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "147873131",
+            "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [2]",
+            "collections": [
+              "Executive Secretary"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873131",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "147873135",
+            "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [4]",
+            "collections": [
+              "Executive Secretary"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873135",
+            "digitalObjects": 1,
+            "disposition": "Already visible on page as research-plan-nara-147873135."
+          },
+          {
+            "naId": "147873129",
+            "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [1]",
+            "collections": [
+              "Executive Secretary"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873129",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "147873137",
+            "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [5]",
+            "collections": [
+              "Executive Secretary"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873137",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "147873133",
+            "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [3]",
+            "collections": [
+              "Executive Secretary"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873133",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "147873399",
+            "title": "CSCE [Conference on Security and Cooperation in Europe]",
+            "collections": [
+              "Staff Director"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873399",
+            "digitalObjects": 1,
+            "disposition": "Already visible on page as research-plan-nara-147873399."
+          },
+          {
+            "naId": "147873397",
+            "title": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [2]",
+            "collections": [
+              "Staff Director"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873397",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "147873395",
+            "title": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [1]",
+            "collections": [
+              "Staff Director"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873395",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "404513601",
+            "title": "Former Yugoslavia - Russians",
+            "collections": [
+              "Staff Director"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/404513601",
+            "digitalObjects": 14,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "23902256",
+            "title": "9704775 [President of Lithuania 4 July Independence Anniversary Greeting]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/23902256",
+            "digitalObjects": 5,
+            "disposition": "Omitted: outside the 1993-1996 research-plan focus and not a Russia high-level-contact lead."
+          },
+          {
+            "naId": "163545436",
+            "title": "Memcon between President William Jefferson Clinton and President Boris Yeltsin",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/163545436",
+            "digitalObjects": 38,
+            "disposition": "Already visible on page as contact-1995-10-23-memcon-hyde-park-lunch."
+          },
+          {
+            "naId": "41051446",
+            "title": "PC0114 PC Meeting on Cechnya (Russia) and Bosnia-Hercegovina, January 20, 1995",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/41051446",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: lower-priority collection-wide context lead; retained in report for follow-up."
+          },
+          {
+            "naId": "368557015",
+            "title": "Briefing Books - POTUS Trip to Prague, Czech Republic, January 11-12, 1994 [2]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/368557015",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: lower-priority collection-wide context lead; retained in report for follow-up."
+          },
+          {
+            "naId": "368557014",
+            "title": "Briefing Books - POTUS Trip to Prague, Czech Republic, January 11-12, 1994 [1]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/368557014",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: lower-priority collection-wide context lead; retained in report for follow-up."
+          },
+          {
+            "naId": "368557013",
+            "title": "Briefing Books - POTUS Trip to Prague, Czech Republic, January 11-12, 1994",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/368557013",
+            "digitalObjects": 1,
+            "disposition": "Promoted into visible research-plan lead records."
+          },
+          {
+            "naId": "163545404",
+            "title": "Memcons between President William Jefferson Clinton and President Boris Yeltsin",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/163545404",
+            "digitalObjects": 31,
+            "disposition": "Already visible on page as contact-1993-04-04-memcon-vancouver-security-issues."
+          },
+          {
+            "naId": "147873393",
+            "title": "DC 0145 DC Meeting Regarding Conference on Security and Cooperation in Europe/CSCE/Summit in Budapest, 5 December 199",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/147873393",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: lower-priority collection-wide context lead; retained in report for follow-up."
+          },
+          {
+            "naId": "28272398",
+            "title": "9903585 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272398",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272394",
+            "title": "9806842 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272394",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272391",
+            "title": "9806024 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272391",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272390",
+            "title": "9805929 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272390",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272384",
+            "title": "9804673 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272384",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272383",
+            "title": "9804669 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272383",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272369",
+            "title": "9706450 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272369",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272364",
+            "title": "9704423 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272364",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272363",
+            "title": "9704347 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272363",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272361",
+            "title": "9703982 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272361",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272354",
+            "title": "9701821 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272354",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272346",
+            "title": "9603740 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272346",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272335",
+            "title": "9506000 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272335",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272319",
+            "title": "9502620 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272319",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272317",
+            "title": "9501940 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272317",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272307",
+            "title": "9409629 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272307",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272304",
+            "title": "9408946 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272304",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272302",
+            "title": "9408831 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272302",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272299",
+            "title": "9408180 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272299",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272296",
+            "title": "9407991 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272296",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272290",
+            "title": "9407203 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272290",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272285",
+            "title": "9405286 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272285",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272279",
+            "title": "9403972 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272279",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272276",
+            "title": "9402817 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272276",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272271",
+            "title": "9401065 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272271",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272265",
+            "title": "9309496 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272265",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272262",
+            "title": "9308844 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272262",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272258",
+            "title": "9307528 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272258",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272245",
+            "title": "9303993 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272245",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272243",
+            "title": "9303946 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272243",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272239",
+            "title": "9302773 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272239",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272236",
+            "title": "9302634 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272236",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272218",
+            "title": "9301439 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272218",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272216",
+            "title": "9300612 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272216",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272414",
+            "title": "0004894 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272414",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272410",
+            "title": "0003747 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272410",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272408",
+            "title": "0003550 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272408",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272400",
+            "title": "9903674 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272400",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272392",
+            "title": "9806651 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272392",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272389",
+            "title": "9805832 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272389",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272379",
+            "title": "9802215 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272379",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272353",
+            "title": "9701695 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272353",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272349",
+            "title": "9604355 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272349",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272347",
+            "title": "9603934 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272347",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272345",
+            "title": "9602324 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272345",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272344",
+            "title": "9600654 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272344",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272342",
+            "title": "9509131 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272342",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272341",
+            "title": "9508638 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272341",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272333",
+            "title": "9505159 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272333",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272331",
+            "title": "9504764 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272331",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272327",
+            "title": "9504031 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272327",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272297",
+            "title": "9408024 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272297",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272283",
+            "title": "9405106 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272283",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272280",
+            "title": "9404026 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272280",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272274",
+            "title": "9401829 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272274",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272266",
+            "title": "9309760 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272266",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272264",
+            "title": "9309230 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272264",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272263",
+            "title": "9308931 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272263",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272260",
+            "title": "9308641 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272260",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272234",
+            "title": "9302367 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272234",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272223",
+            "title": "9301822 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272223",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272220",
+            "title": "9301653 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272220",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272214",
+            "title": "9300129 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272214",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272415",
+            "title": "0007597 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272415",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272409",
+            "title": "0003685 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272409",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272407",
+            "title": "0003460 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272407",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272399",
+            "title": "9903672 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272399",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272396",
+            "title": "9808582 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272396",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272385",
+            "title": "9804677 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272385",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272381",
+            "title": "9803612 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272381",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272377",
+            "title": "9801755 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272377",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272374",
+            "title": "9800208 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272374",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272357",
+            "title": "9702089 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272357",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272356",
+            "title": "9702043 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272356",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272355",
+            "title": "9702028 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272355",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272351",
+            "title": "9608173 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272351",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272348",
+            "title": "9604015 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272348",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272343",
+            "title": "9600362 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272343",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272337",
+            "title": "9506924 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272337",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272334",
+            "title": "9505579 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272334",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272322",
+            "title": "9503267 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272322",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272320",
+            "title": "9502691 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272320",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272315",
+            "title": "9501368 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272315",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272313",
+            "title": "9500634 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272313",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272308",
+            "title": "9409984 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272308",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272306",
+            "title": "9409439 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272306",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272301",
+            "title": "9408357 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272301",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272287",
+            "title": "9406038 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272287",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272269",
+            "title": "9400772 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272269",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272268",
+            "title": "9400614 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272268",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272254",
+            "title": "9307103 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272254",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272253",
+            "title": "9306934 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272253",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272247",
+            "title": "9304565 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272247",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272235",
+            "title": "9302572 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272235",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272229",
+            "title": "9302196 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272229",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272225",
+            "title": "9301927 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272225",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272219",
+            "title": "9301632 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272219",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272406",
+            "title": "0002741 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272406",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272388",
+            "title": "9805716 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272388",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272382",
+            "title": "9803699 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272382",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272380",
+            "title": "9803410 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272380",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272352",
+            "title": "9608187 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272352",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272339",
+            "title": "9507801 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272339",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272326",
+            "title": "9503700 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272326",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272325",
+            "title": "9503698 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272325",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272318",
+            "title": "9502011 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272318",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272316",
+            "title": "9501629 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272316",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272309",
+            "title": "9500049 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272309",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272305",
+            "title": "9409173 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272305",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272295",
+            "title": "9407984 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272295",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272291",
+            "title": "9407403 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272291",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272289",
+            "title": "9406762 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272289",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272288",
+            "title": "9406187 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272288",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272284",
+            "title": "9405240 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272284",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272282",
+            "title": "9404302 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272282",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272261",
+            "title": "9308775 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272261",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272259",
+            "title": "9307937 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272259",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272256",
+            "title": "9307189 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272256",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272248",
+            "title": "9304754 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272248",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272244",
+            "title": "9303970 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272244",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272238",
+            "title": "9302664 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272238",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272230",
+            "title": "9302217 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272230",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272228",
+            "title": "9302054 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272228",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272226",
+            "title": "9301993 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272226",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          },
+          {
+            "naId": "28272215",
+            "title": "9300322 [Congress and Russia]",
+            "collections": [
+              "NSC Records Management"
+            ],
+            "catalogUrl": "https://catalog.archives.gov/id/28272215",
+            "digitalObjects": 1,
+            "disposition": "Not promoted: bulk PRS Congress/Russia item-number lead; use report if congressional context becomes important."
+          }
+        ]
+      },
+      "alreadyIncludedHits": [
+        {
+          "naId": "163545404",
+          "title": "Memcons between President William Jefferson Clinton and President Boris Yeltsin",
+          "status": "Already counted on this site as Vancouver memcons."
+        },
+        {
+          "naId": "163545436",
+          "title": "Memcon between President William Jefferson Clinton and President Boris Yeltsin",
+          "status": "Already counted on this site as Hyde Park memcons."
+        },
+        {
+          "naId": "40482516",
+          "title": "Telcons and Memcons",
+          "status": "Already on this site as a NARA Scout lead and previously audited."
+        }
+      ],
+      "visibleLeadRecords": 35,
+      "packetPdfPages": 2272,
+      "nonPdfDigitalObjects": 214
+    },
+    "reviewedCandidates": [
+      {
+        "id": "cdl-101270-tokyo-1993",
+        "sourceType": "Clinton Digital Library",
+        "itemId": "101270",
+        "date": "1993-07-06",
+        "title": "Declassified Documents Regarding President Clinton's Trip to Tokyo, Japan, July 6-10, 1993",
+        "itemUrl": "https://clinton.presidentiallibraries.us/items/show/101270",
+        "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ba6d6d11dd7afbd9ddd162191b6c9d7f.pdf",
+        "caseNumber": "2016-0133-M",
+        "digitalObjects": 1,
+        "collection": "Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Records Management Office",
+        "researchUse": "Tokyo G-7 briefing book with material for the bilateral with Russian President Boris Yeltsin; use as summit preparation/context, not counted as an actual memcon/telcon.",
+        "relatedPlanTiers": [
+          "Tier 1 rank 8",
+          "Tier 4 rank 121"
+        ],
+        "packetPageCount": 283
+      },
+      {
+        "id": "cdl-101271-europe-january-1994",
+        "sourceType": "Clinton Digital Library",
+        "itemId": "101271",
+        "date": "1994-01-09",
+        "title": "Declassified Documents Regarding President Clinton's Trip to Europe, January 1994",
+        "itemUrl": "https://clinton.presidentiallibraries.us/items/show/101271",
+        "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/366a214486b2bfefbeb1a216c9aaf350.pdf",
+        "caseNumber": "2016-0134-M",
+        "digitalObjects": 1,
+        "collection": "Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Records Management Office",
+        "researchUse": "January 1994 Europe/Moscow/Minsk briefing books; use for NATO, Moscow, Minsk, and trilateral-agreement preparation context around the Clinton-Yeltsin summit.",
+        "relatedPlanTiers": [
+          "Tier 1 rank 9",
+          "Tier 2 rank 45",
+          "Research round 3"
+        ],
+        "packetPageCount": 395
+      },
+      {
+        "id": "cdl-101272-russia-ukraine-may-1995",
+        "sourceType": "Clinton Digital Library",
+        "itemId": "101272",
+        "date": "1995-05-08",
+        "title": "Declassified Documents Regarding President Clinton Trip to Russia and Ukraine, May 8-12, 1995",
+        "itemUrl": "https://clinton.presidentiallibraries.us/items/show/101272",
+        "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/bf446041854cb39940cdb882deb8f83c.pdf",
+        "caseNumber": "2016-0135-M",
+        "digitalObjects": 1,
+        "collection": "Clinton Presidential Records: White House Staff and Office Files; National Security Council, NSC Executive Secretary, and NSC Records Management Office",
+        "researchUse": "May 1995 Russia/Ukraine trip briefing book with material for Clinton meetings with Boris Yeltsin and Leonid Kuchma; core context for the Moscow/Kiev summit lane.",
+        "relatedPlanTiers": [
+          "Tier 1 ranks 13-20, 29-30",
+          "Research round 5"
+        ],
+        "packetPageCount": 280
+      },
+      {
+        "id": "cdl-101273-halifax-1995",
+        "sourceType": "Clinton Digital Library",
+        "itemId": "101273",
+        "date": "1995-06-15",
+        "title": "Declassified Documents Regarding President Clinton's Trip to Canada, June 15-17, 1995",
+        "itemUrl": "https://clinton.presidentiallibraries.us/items/show/101273",
+        "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/794a59781b0879223b941b62869e017b.pdf",
+        "caseNumber": "2016-0136-M",
+        "digitalObjects": 1,
+        "collection": "Clinton Presidential Records: White House Staff and Office Files; National Security Council and NSC Executive Secretary",
+        "researchUse": "Halifax G-7 briefing book; use for Russia-in-G-7/G-8 architecture and bilateral context adjacent to the Halifax Clinton-Yeltsin meeting.",
+        "relatedPlanTiers": [
+          "Tier 2 ranks 57-58",
+          "Research round 5"
+        ],
+        "packetPageCount": 201
+      },
+      {
+        "id": "cdl-36597-gore-chernomyrdin",
+        "sourceType": "Clinton Digital Library",
+        "itemId": "36597",
+        "date": "1994-12-01",
+        "title": "Declassified Documents concerning Gore-Chernomyrdin Commission",
+        "itemUrl": "https://clinton.presidentiallibraries.us/items/show/36597",
+        "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/db3551b0d4dd2a015a0894c8c1f33336.pdf",
+        "caseNumber": "Declassified Documents",
+        "digitalObjects": 1,
+        "collection": "Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council and NSC Cables",
+        "researchUse": "December 1994 Gore-Chernomyrdin Commission cable packet; use to fill the VPOTUS-Chernomyrdin channel below the Clinton-Yeltsin summit layer.",
+        "relatedPlanTiers": [
+          "Tier 2 ranks 36-56"
+        ],
+        "packetPageCount": 168
+      },
+      {
+        "id": "cdl-118449-nato-expansion",
+        "sourceType": "Clinton Digital Library",
+        "itemId": "118449",
+        "date": "1993-01-01",
+        "title": "Declassified Documents Concerning NATO Expansion",
+        "itemUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+        "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+        "caseNumber": "2015-0768-M",
+        "digitalObjects": 1,
+        "collection": "Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council and NSC Records Management Office",
+        "researchUse": "PC/DC NATO expansion material, 1993-1999, including correspondence to Boris Yeltsin and NATO expansion memoranda; use for the NATO-Russia pressure line in 1994-1996 contacts.",
+        "relatedPlanTiers": [
+          "Tier 6 rank 176",
+          "Research round 6"
+        ],
+        "packetPageCount": 89
+      },
+      {
+        "id": "cdl-49430-nato-expansion",
+        "sourceType": "Clinton Digital Library",
+        "itemId": "49430",
+        "date": "1993-01-01",
+        "title": "Declassified Documents Concerning NATO Expansion",
+        "itemUrl": "https://clinton.presidentiallibraries.us/items/show/49430",
+        "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/d7309797f261e4d4498490c4087830c3.pdf",
+        "caseNumber": "2015-0768-M",
+        "digitalObjects": 1,
+        "collection": "Clinton Presidential Records: NSC Cable, Email, and Records Management System; National Security Council Records Management Office",
+        "researchUse": "Additional NATO expansion PC/DC material; use as a companion packet for NATO-Russia and peacekeeping discussions.",
+        "relatedPlanTiers": [
+          "Tier 6 rank 176"
+        ],
+        "packetPageCount": 5
+      },
+      {
+        "id": "nara-236750737",
+        "sourceType": "National Archives Catalog",
+        "naId": "236750737",
+        "date": "1994-11-20",
+        "title": "[11/20/1994 — 04/06/1995]",
+        "catalogUrl": "https://catalog.archives.gov/id/236750737",
+        "pdfUrl": "",
+        "digitalObjects": 133,
+        "collection": "Records Management collection; Records of the National Security Council Records Management Office (Clinton Administration) / Presidential Records Series (PRS) Files",
+        "access": "Restricted - Partly",
+        "researchUse": "Digitized PRS/RMS file spanning November 1994-April 1995 surfaced by Moscow/Kiev, Halifax, and Ukraine-nuclear searches; review for preparatory and follow-up material around the May 1995 summit lane.",
+        "relatedQueries": [
+          "Moscow Kiev",
+          "POTUS Russia Ukraine",
+          "Halifax Yeltsin",
+          "Ukraine nuclear weapons"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ]
+      },
+      {
+        "id": "nara-147873135",
+        "sourceType": "National Archives Catalog",
+        "naId": "147873135",
+        "date": "1994-12-05",
+        "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [4]",
+        "catalogUrl": "https://catalog.archives.gov/id/147873135",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-003-2019.pdf",
+        "digitalObjects": 1,
+        "collection": "Executive Secretary collection; Records of the National Security Council Executive Secretary (Clinton Administration) / William Itoh's Files",
+        "access": "Restricted - Partly",
+        "researchUse": "Digitized Executive Secretary CSCE December 1994 file; review for Budapest/CSCE Russia and NATO context following the September 1994 Yeltsin visit.",
+        "relatedQueries": [
+          "Yeltsin",
+          "Clinton Yeltsin",
+          "Boris Yeltsin",
+          "POTUS Russia Ukraine",
+          "NATO Russia",
+          "START II"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ],
+        "packetPageCount": 70
+      },
+      {
+        "id": "nara-147873399",
+        "sourceType": "National Archives Catalog",
+        "naId": "147873399",
+        "date": "1994-12-05",
+        "title": "CSCE [Conference on Security and Cooperation in Europe]",
+        "catalogUrl": "https://catalog.archives.gov/id/147873399",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585765-20140846F-003-005-2019.pdf",
+        "digitalObjects": 1,
+        "collection": "Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files",
+        "access": "Restricted - Partly",
+        "researchUse": "Digitized Staff Director CSCE file; companion to the Executive Secretary CSCE record for Budapest/CSCE follow-up.",
+        "relatedQueries": [
+          "Yeltsin",
+          "Clinton Yeltsin",
+          "POTUS Russia Ukraine",
+          "START II"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ],
+        "packetPageCount": 20
+      },
+      {
+        "id": "nara-23901643",
+        "sourceType": "National Archives Catalog",
+        "naId": "23901643",
+        "date": "1993-01-01",
+        "title": "Estonia",
+        "catalogUrl": "https://catalog.archives.gov/id/23901643",
+        "pdfUrl": "",
+        "digitalObjects": 15,
+        "collection": "RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files",
+        "access": "Restricted - Partly",
+        "researchUse": "Digitized RUE Estonia file surfaced by Yeltsin/Vancouver searches; review for Baltic troop withdrawal and Hyde Park summit context.",
+        "relatedQueries": [
+          "Yeltsin",
+          "Clinton Yeltsin",
+          "Vancouver Summit"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ]
+      },
+      {
+        "id": "nara-23901937",
+        "sourceType": "National Archives Catalog",
+        "naId": "23901937",
+        "date": "1993-01-01",
+        "title": "Latvia",
+        "catalogUrl": "https://catalog.archives.gov/id/23901937",
+        "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585731/42-t-7585731-20111037F-010-001-2015.pdf",
+        "digitalObjects": 1,
+        "collection": "RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Coit \"Chip\" Blacker's Files",
+        "access": "Unrestricted",
+        "researchUse": "Digitized RUE Latvia file surfaced by NATO/Russia, P-8, and Kozyrev searches; review for Baltic troop withdrawal and NATO/Russia context.",
+        "relatedQueries": [
+          "Yeltsin",
+          "Clinton Yeltsin",
+          "NATO Russia",
+          "P-8 Nuclear Safety",
+          "Kozyrev",
+          "Russian aid"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ],
+        "packetPageCount": 84
+      },
+      {
+        "id": "nara-23901938",
+        "sourceType": "National Archives Catalog",
+        "naId": "23901938",
+        "date": "1993-01-01",
+        "title": "Latvia",
+        "catalogUrl": "https://catalog.archives.gov/id/23901938",
+        "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585744/42-t-7585744-20111037F-010-002-2015.pdf",
+        "digitalObjects": 1,
+        "collection": "RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files",
+        "access": "Restricted - Possibly",
+        "researchUse": "Digitized RUE Latvia file surfaced by Yeltsin/Vancouver/Moscow searches; review as a possible duplicate or companion to the Latvia/Baltics lane.",
+        "relatedQueries": [
+          "Yeltsin",
+          "Clinton Yeltsin",
+          "Vancouver Summit",
+          "Moscow Kiev",
+          "Moscow Minsk",
+          "Kozyrev"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ],
+        "packetPageCount": 21
+      },
+      {
+        "id": "nara-23902185",
+        "sourceType": "National Archives Catalog",
+        "naId": "23902185",
+        "date": "1993-01-01",
+        "title": "Lithuania",
+        "catalogUrl": "https://catalog.archives.gov/id/23902185",
+        "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585744/42-t-7585744-20111038F-003-009-2015.pdf",
+        "digitalObjects": 1,
+        "collection": "RUE collection; Records of the National Security Council Russia, Ukraine, and Eurasian Affairs Office (Clinton Administration) / Toby Gati's Files",
+        "access": "Restricted - Partly",
+        "researchUse": "Digitized RUE Lithuania file surfaced by Yeltsin/Vancouver/Moscow searches; review for Baltic troop withdrawal context.",
+        "relatedQueries": [
+          "Yeltsin",
+          "Clinton Yeltsin",
+          "Vancouver Summit",
+          "Moscow Kiev",
+          "Moscow Minsk"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ],
+        "packetPageCount": 9
+      },
+      {
+        "id": "nara-42219640",
+        "sourceType": "National Archives Catalog",
+        "naId": "42219640",
+        "date": "1996-04-01",
+        "title": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: 2100",
+        "catalogUrl": "https://catalog.archives.gov/id/42219640",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585504/42-t-7585504-20090528F-Seg2-006-010-2016.pdf",
+        "digitalObjects": 1,
+        "collection": "Executive Secretary collection; Records of the National Security Council Executive Secretary (Clinton Administration) / Executive Secretary's Subject Files",
+        "access": "Restricted - Partly",
+        "researchUse": "Digitized Executive Secretary Japan/Korea/Russia 1996 trip file; review for April 1996 P-8/Nuclear Safety Summit preparation or schedule context.",
+        "relatedQueries": [
+          "Yeltsin",
+          "Clinton Yeltsin",
+          "POTUS Russia Ukraine",
+          "Tokyo G-7 Russia",
+          "P-8 Nuclear Safety"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ],
+        "packetPageCount": 79
+      },
+      {
+        "id": "nara-23898267",
+        "sourceType": "National Archives Catalog",
+        "naId": "23898267",
+        "date": "1995-04-19",
+        "title": "[04/19/1995 – 03/17/1997]",
+        "catalogUrl": "https://catalog.archives.gov/id/23898267",
+        "pdfUrl": "",
+        "digitalObjects": 29,
+        "collection": "Records Management collection; Records of the National Security Council Records Management Office (Clinton Administration) / Various Records Management Files",
+        "access": "Restricted - Partly",
+        "researchUse": "Digitized PRS/RMS date-range file, April 1995-March 1997, surfaced by Hyde Park/Primakov/Kozyrev/Mamedov searches; review for cross-cutting Russia policy papers.",
+        "relatedQueries": [
+          "Hyde Park Yeltsin",
+          "Primakov",
+          "Kozyrev",
+          "Mamedov"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ]
+      },
+      {
+        "id": "nara-404513613",
+        "sourceType": "National Archives Catalog",
+        "naId": "404513613",
+        "date": "1993-01-01",
+        "title": "Former Yugoslavia - Foreign Leader Calls",
+        "catalogUrl": "https://catalog.archives.gov/id/404513613",
+        "pdfUrl": "",
+        "digitalObjects": 11,
+        "collection": "Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files",
+        "access": "Restricted - Possibly",
+        "researchUse": "Digitized Staff Director Former Yugoslavia foreign-leader calls file; review only for Clinton/Yeltsin or Russia-related Bosnia call context.",
+        "relatedQueries": [
+          "Yeltsin",
+          "Clinton Yeltsin",
+          "Vancouver Summit",
+          "Tokyo G-7 Russia",
+          "Kozyrev",
+          "Russian aid"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ]
+      },
+      {
+        "id": "nara-404513614",
+        "sourceType": "National Archives Catalog",
+        "naId": "404513614",
+        "date": "1993-01-01",
+        "title": "[Former Yugoslavia] - Bosnia Calls",
+        "catalogUrl": "https://catalog.archives.gov/id/404513614",
+        "pdfUrl": "",
+        "digitalObjects": 26,
+        "collection": "Staff Director collection; Records of the National Security Council Staff Director (Clinton Administration) / Nancy Soderberg's Files",
+        "access": "Restricted - Possibly",
+        "researchUse": "Digitized Staff Director Bosnia calls file; review only for Russia, Yeltsin, Chernomyrdin, or Kozyrev call context.",
+        "relatedQueries": [
+          "Yeltsin",
+          "Clinton Yeltsin",
+          "Boris Yeltsin",
+          "Chernomyrdin",
+          "Nunn-Lugar",
+          "Kozyrev"
+        ],
+        "relatedPlanTiers": [
+          "Online collection pass"
+        ]
+      },
+      {
+        "id": "nara-368557016",
+        "sourceType": "National Archives Catalog",
+        "title": "POTUS Trip to Prague, the Czech Republic - January 11-12, 1994 (Briefing Book)",
+        "naId": "368557016",
+        "catalogUrl": "https://catalog.archives.gov/id/368557016",
+        "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrue/7585727/7585727-20170413F-003-001-2024.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 49,
+        "date": "1994-01-11",
+        "collection": "RUE collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized Prague January 1994 trip briefing book lead adjacent to the Europe/Moscow/Minsk trip file set.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-40482473",
+        "sourceType": "National Archives Catalog",
+        "title": "Bosnia - NATO [1]",
+        "naId": "40482473",
+        "catalogUrl": "https://catalog.archives.gov/id/40482473",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/73/4824/40482473/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_21/42-t-7585486-20080994F-021-010-2016.pdf",
+        "digitalObjects": 46,
+        "packetPageCount": 45,
+        "date": "1994-01-01",
+        "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-40482313",
+        "sourceType": "National Archives Catalog",
+        "title": "Bosnia - CSCE [Council on Security and Cooperation in Europe]",
+        "naId": "40482313",
+        "catalogUrl": "https://catalog.archives.gov/id/40482313",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/13/4823/40482313/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_05/42-t-7585484-20080994F-005-006-2016.pdf",
+        "digitalObjects": 6,
+        "packetPageCount": 5,
+        "date": "1994-01-01",
+        "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-23901915",
+        "sourceType": "National Archives Catalog",
+        "title": "Latvia",
+        "naId": "23901915",
+        "catalogUrl": "https://catalog.archives.gov/id/23901915",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/15/9019/23901915/content/presidential-libraries/clinton/foia/2011-1037-F/2011-1037-F-PDF/Box_007/42-t-7585487-20111037F-007-016-2015.pdf",
+        "digitalObjects": 3,
+        "packetPageCount": 2,
+        "date": "1993-01-01",
+        "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized Baltic troop-withdrawal/Baltic policy lead from the mapped collection universe.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-40482475",
+        "sourceType": "National Archives Catalog",
+        "title": "Bosnia - NATO [3]",
+        "naId": "40482475",
+        "catalogUrl": "https://catalog.archives.gov/id/40482475",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/75/4824/40482475/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_22/42-t-7585486-20080994F-022-002-2016.pdf",
+        "digitalObjects": 12,
+        "packetPageCount": 11,
+        "date": "1994-01-01",
+        "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-40482474",
+        "sourceType": "National Archives Catalog",
+        "title": "Bosnia - NATO [2]",
+        "naId": "40482474",
+        "catalogUrl": "https://catalog.archives.gov/id/40482474",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/74/4824/40482474/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_22/42-t-7585486-20080994F-022-001-2016.pdf",
+        "digitalObjects": 42,
+        "packetPageCount": 41,
+        "date": "1994-01-01",
+        "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-40482395",
+        "sourceType": "National Archives Catalog",
+        "title": "Bosnia - NATO",
+        "naId": "40482395",
+        "catalogUrl": "https://catalog.archives.gov/id/40482395",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/95/4823/40482395/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-PDF/Box_14/42-t-7585484-20080994F-014-003-2016.pdf",
+        "digitalObjects": 28,
+        "packetPageCount": 27,
+        "date": "1994-01-01",
+        "collection": "European Affairs collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized NATO/Bosnia file-unit lead for Russia-policy and NATO/Russia context screening.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-42219639",
+        "sourceType": "National Archives Catalog",
+        "title": "Exec [Executive] Sec [Secretary] Trip File-Japan, Korea, Russia 1996: Korea",
+        "naId": "42219639",
+        "catalogUrl": "https://catalog.archives.gov/id/42219639",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585504/42-t-7585504-20090528F-Seg2-006-009-2016.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 12,
+        "date": "1996-04-01",
+        "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized companion segment of the April 1996 Japan/Korea/Russia trip file; review with the Russia segment already listed.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-147873127",
+        "sourceType": "National Archives Catalog",
+        "title": "CSCE [Conference on Security and Cooperation in Europe]1994",
+        "naId": "147873127",
+        "catalogUrl": "https://catalog.archives.gov/id/147873127",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585504-20140846F-001-012-2019.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 80,
+        "date": "1994-12-05",
+        "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-147873131",
+        "sourceType": "National Archives Catalog",
+        "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [2]",
+        "naId": "147873131",
+        "catalogUrl": "https://catalog.archives.gov/id/147873131",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-001-2019.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 41,
+        "date": "1994-12-05",
+        "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-147873129",
+        "sourceType": "National Archives Catalog",
+        "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [1]",
+        "naId": "147873129",
+        "catalogUrl": "https://catalog.archives.gov/id/147873129",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-001-013-2019.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 65,
+        "date": "1994-12-05",
+        "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-147873137",
+        "sourceType": "National Archives Catalog",
+        "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [5]",
+        "naId": "147873137",
+        "catalogUrl": "https://catalog.archives.gov/id/147873137",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-004-2019.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 37,
+        "date": "1994-12-05",
+        "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-147873133",
+        "sourceType": "National Archives Catalog",
+        "title": "CSCE [Conference on Security and Cooperation in Europe] December 1994 [3]",
+        "naId": "147873133",
+        "catalogUrl": "https://catalog.archives.gov/id/147873133",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585511-20140846F-002-002-2019.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 42,
+        "date": "1994-12-05",
+        "collection": "Executive Secretary collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-147873397",
+        "sourceType": "National Archives Catalog",
+        "title": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [2]",
+        "naId": "147873397",
+        "catalogUrl": "https://catalog.archives.gov/id/147873397",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585765-20140846F-003-004-2019.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 22,
+        "date": "1994-12-05",
+        "collection": "Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-147873395",
+        "sourceType": "National Archives Catalog",
+        "title": "CSCE [Conference on Security and Cooperation in Europe] [Summit] 1994 [1]",
+        "naId": "147873395",
+        "catalogUrl": "https://catalog.archives.gov/id/147873395",
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585765-20140846F-003-003-2019.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 25,
+        "date": "1994-12-05",
+        "collection": "Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized CSCE/Budapest summit file-unit lead for review around the December 1994 Yeltsin summit context.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-404513601",
+        "sourceType": "National Archives Catalog",
+        "title": "Former Yugoslavia - Russians",
+        "naId": "404513601",
+        "catalogUrl": "https://catalog.archives.gov/id/404513601",
+        "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585765/7585765-20080994F-Seg2-026-004-2024.pdf",
+        "digitalObjects": 14,
+        "packetPageCount": 13,
+        "date": "1994-01-01",
+        "collection": "Staff Director collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized Former Yugoslavia/Russians file-unit lead for Russia-policy context screening.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      },
+      {
+        "id": "nara-368557013",
+        "sourceType": "National Archives Catalog",
+        "title": "Briefing Books - POTUS Trip to Prague, Czech Republic, January 11-12, 1994",
+        "naId": "368557013",
+        "catalogUrl": "https://catalog.archives.gov/id/368557013",
+        "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/7585709-20170413F-002-008-2024.pdf",
+        "digitalObjects": 1,
+        "packetPageCount": 51,
+        "date": "1994-01-11",
+        "collection": "NSC Records Management collection; collection-wide availableOnline screen under mapped NSC research-plan NAIDs",
+        "researchUse": "Digitized Prague January 1994 trip briefing book lead adjacent to the Europe/Moscow/Minsk trip file set.",
+        "relatedQueries": [
+          "collection-wide availableOnline screen"
+        ],
+        "relatedPlanTiers": [
+          "Collection-wide digitized follow-up"
+        ],
+        "searchPass": "collection-wide availableOnline keyword screen"
+      }
+    ],
+    "subjectDigest": "5 collection families / 24 search terms / 557 unique online digitized hits / 35 visible leads / 2272 PDF packet pages / 4930 collection-wide digitized file units screened"
   }
 ];

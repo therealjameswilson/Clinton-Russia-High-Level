@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-05-22T10:44:18.375Z",
-  "totalRecords": 266,
+  "generatedAt": "2026-05-22T11:43:00.487Z",
+  "totalRecords": 302,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
     "Released Clinton Library Packets": 4,
     "Talbott FOIA Context": 156,
-    "NARA Scout Leads": 14
+    "NARA Scout Leads": 50
   },
   "byType": {
     "Telcon": 60,
     "Memcon": 32,
     "Release Packet": 4,
     "Context": 156,
-    "Scout Lead": 14
+    "Scout Lead": 50
   },
   "pageTallies": {
     "allRecords": {
-      "documents": 266,
+      "documents": 302,
       "countedDocuments": 93,
-      "pendingDocuments": 173,
+      "pendingDocuments": 209,
       "pages": 578
     },
     "potentialClintonYeltsinDocuments": {
@@ -47,9 +47,9 @@
         "pages": 0
       },
       "NARA Scout Leads": {
-        "documents": 14,
+        "documents": 50,
         "countedDocuments": 8,
-        "pendingDocuments": 6,
+        "pendingDocuments": 42,
         "pages": 133
       }
     }
@@ -64,12 +64,26 @@
     "standaloneRawManifestCandidates": 81,
     "standaloneDuplicateSourceCopyCandidatesFolded": 27
   },
+  "researchPlanOnlineSearch": {
+    "collectionsSearched": 5,
+    "queries": 24,
+    "uniqueOnlineDigitizedHits": 557,
+    "visibleLeadRecords": 35,
+    "alreadyIncludedHits": 3,
+    "collectionWideOnlineFileUnits": 4930,
+    "collectionWideKeywordMatches": 156,
+    "collectionWidePromotedLeads": 17,
+    "pdfLeadRecords": 30,
+    "packetPdfPages": 2272,
+    "nonPdfDigitalObjects": 214
+  },
   "sources": {
     "clintonText": "/private/tmp/clinton-foreign-meetings.txt",
     "strobeManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
     "strobeLiveManifestPdfLeads": "/Users/jameswilson/Documents/New project/Clinton-Russia-High-Level/data/strobe-live-yeltsin-pdf-leads.json",
     "strobeManifestPdfAudit": "reports/strobe-manifest-pdf-audit.json",
     "strobeStandaloneAudit": "reports/strobe-standalone-candidate-audit.json",
+    "researchPlanOnlineSearch": "reports/research-plan-online-search.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",
     "pendingExtentVerificationRecheck": "reports/pending-extent-verification-recheck.json",

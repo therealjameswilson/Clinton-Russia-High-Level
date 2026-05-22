@@ -147,6 +147,28 @@ function pageLabel(record) {
   return Number.isInteger(record.pageCount) ? `${record.pageCount} pages` : record.countStatus || "Extent pending";
 }
 
+function countLabel(count, singular, plural = `${singular}s`) {
+  return `${count} ${count === 1 ? singular : plural}`;
+}
+
+function extentLabel(record) {
+  const pageCount = Number.isInteger(record.pageCount) ? record.pageCount : null;
+  const packetPageCount = Number.isInteger(record.packetPageCount) ? record.packetPageCount : null;
+
+  if (record.type === "Scout Lead") {
+    if (packetPageCount !== null && record.digitalObjects && packetPageCount !== record.digitalObjects) {
+      return `${countLabel(packetPageCount, "packet page")} / ${countLabel(record.digitalObjects, "digital object")}`;
+    }
+    if (packetPageCount !== null) return countLabel(packetPageCount, "packet page");
+    if (record.digitalObjects) return countLabel(record.digitalObjects, "digital object");
+    if (pageCount !== null) return `${countLabel(pageCount, "page")} or digital objects`;
+  }
+
+  if (pageCount !== null) return countLabel(pageCount, "page");
+  if (record.digitalObjects) return countLabel(record.digitalObjects, "digital object");
+  return record.countStatus || "Extent pending";
+}
+
 function citationOpenItems(record) {
   const items = [
     "classification and handling controls",
@@ -603,20 +625,7 @@ function createMeta(record) {
         ? `NAID ${record.naid}`
         : record.naid
     : record.source?.caseNumber;
-  let extent = "Extent pending";
-  if (record.type === "Scout Lead") {
-    if (record.pageCount && record.digitalObjects && record.pageCount !== record.digitalObjects) {
-      extent = `${record.pageCount} pages / ${record.digitalObjects} digital objects`;
-    } else if (record.digitalObjects) {
-      extent = `${record.digitalObjects} digital objects`;
-    } else if (record.pageCount) {
-      extent = `${record.pageCount} pages or digital objects`;
-    }
-  } else if (record.pageCount) {
-    extent = `${record.pageCount} pages`;
-  } else if (record.digitalObjects) {
-    extent = `${record.digitalObjects} digital objects`;
-  }
+  const extent = extentLabel(record);
 
   for (const value of [record.type, countries, extent, sourceId, record.releaseStatus]) {
     if (!value) continue;
@@ -661,10 +670,9 @@ function createCompilerChecklist(record) {
   const checklist = document.createElement("div");
   checklist.className = "record-checklist";
 
-  const extent = Number.isInteger(record.pageCount)
-    ? `${record.pageCount} actual pages`
-    : record.countStatus || "Extent pending";
-  const extentTone = Number.isInteger(record.pageCount) ? "ok" : "needs-review";
+  const extent = extentLabel(record);
+  const extentTone =
+    Number.isInteger(record.pageCount) || Number.isInteger(record.packetPageCount) ? "ok" : "needs-review";
   const sourcePages = record.sourcePdfPages || "Page map pending";
   const provenance =
     record.markerPage
@@ -914,6 +922,7 @@ function statusMatches(record, status) {
   if (status === "partial") return record.releaseStatus === "Partial" || record.releaseStatus === "Mixed";
   if (status === "unknown") return record.releaseStatus === "Unknown";
   if (status === "lead") return record.type === "Scout Lead" || /Lead/i.test(record.releaseStatus || "");
+  if (status === "research") return Boolean(record.researchPlanLead);
   return true;
 }
 
@@ -959,7 +968,8 @@ function applyQuickFilter(kind) {
     drive: "drive",
     partial: "partial",
     unknown: "unknown",
-    lead: "lead"
+    lead: "lead",
+    research: "research"
   };
 
   if (statusFilter) statusFilter.value = statusByKind[kind] || "all";
@@ -982,6 +992,7 @@ function exportFilteredRecords() {
     "source",
     "releaseStatus",
     "pageCount",
+    "packetPageCount",
     "sourcePdfPages",
     "markerPage",
     "frusSourceNote",
@@ -1002,6 +1013,7 @@ function exportFilteredRecords() {
       recordSourceLabel(record),
       record.releaseStatus,
       Number.isInteger(record.pageCount) ? record.pageCount : "",
+      Number.isInteger(record.packetPageCount) ? record.packetPageCount : "",
       record.sourcePdfPages || "",
       record.markerPage || "",
       record.frusSourceNote || record.sourceNote || "",
