@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T11:43:00.487Z",
+  "generatedAt": "2026-05-22T21:20:41.482Z",
   "sourceManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
   "liveManifest": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
   "rule": "A Strobe standalone lead must match a conversation/meeting/read-out title pattern and a Russia/Russia-policy title pattern, while excluding obvious planning, speech, press, background, agenda, and message records. Clinton-Yeltsin title hits are handled in the Strobe manifest PDF source-copy lane.",

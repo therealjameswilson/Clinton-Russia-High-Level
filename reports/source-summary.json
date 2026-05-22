@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-22T12:08:40.262Z",
-  "totalRecords": 636,
+  "generatedAt": "2026-05-22T21:20:41.482Z",
+  "totalRecords": 662,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
     "Released Clinton Library Packets": 4,
     "Talbott FOIA Context": 156,
     "Clinton Public Statements": 334,
-    "NARA Scout Leads": 50
+    "NARA Scout Leads": 76
   },
   "byType": {
     "Telcon": 60,
@@ -14,13 +14,13 @@
     "Release Packet": 4,
     "Context": 156,
     "Public Statement": 334,
-    "Scout Lead": 50
+    "Scout Lead": 76
   },
   "pageTallies": {
     "allRecords": {
-      "documents": 636,
+      "documents": 662,
       "countedDocuments": 93,
-      "pendingDocuments": 543,
+      "pendingDocuments": 569,
       "pages": 578
     },
     "potentialClintonYeltsinDocuments": {
@@ -55,9 +55,9 @@
         "pages": 0
       },
       "NARA Scout Leads": {
-        "documents": 50,
+        "documents": 76,
         "countedDocuments": 8,
-        "pendingDocuments": 42,
+        "pendingDocuments": 68,
         "pages": 133
       }
     }
@@ -84,6 +84,14 @@
     "pdfLeadRecords": 30,
     "packetPdfPages": 2272,
     "nonPdfDigitalObjects": 214
+  },
+  "nara7388808YeltsinSearch": {
+    "sourceFile": "data/nara-7388808-yeltsin-search.json",
+    "totalCatalogHits": 337,
+    "screenedCandidateHits": 128,
+    "promotedVisibleLeadRecords": 25,
+    "promotedPacketPdfPages": 1013,
+    "alreadyCountedConversationRecords": 2
   },
   "publicStatements": {
     "sourceFile": "data/clinton-public-statements.json",
@@ -134,6 +142,7 @@
     "strobeStandaloneAudit": "reports/strobe-standalone-candidate-audit.json",
     "clintonPublicStatementsAudit": "reports/clinton-public-statements-audit.json",
     "researchPlanOnlineSearch": "reports/research-plan-online-search.json",
+    "nara7388808YeltsinSearch": "reports/nara-7388808-yeltsin-search.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",
     "pendingExtentVerificationRecheck": "reports/pending-extent-verification-recheck.json",

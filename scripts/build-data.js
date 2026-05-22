@@ -14,6 +14,9 @@ const STROBE_LIVE_YELTSIN_PDF_LEADS =
 const RESEARCH_PLAN_ONLINE_SEARCH =
   process.env.RESEARCH_PLAN_ONLINE_SEARCH ||
   path.join(ROOT, "data", "research-plan-online-search.json");
+const NARA_7388808_YELTSIN_SEARCH =
+  process.env.NARA_7388808_YELTSIN_SEARCH ||
+  path.join(ROOT, "data", "nara-7388808-yeltsin-search.json");
 const CLINTON_PUBLIC_STATEMENTS =
   process.env.CLINTON_PUBLIC_STATEMENTS ||
   path.join(ROOT, "data", "clinton-public-statements.json");
@@ -782,6 +785,7 @@ const STROBE_LIVE_YELTSIN_PDF_LEADS_SNAPSHOT = readJsonOptional(
   STROBE_LIVE_YELTSIN_PDF_LEADS
 );
 const RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT = readJsonOptional(RESEARCH_PLAN_ONLINE_SEARCH);
+const NARA_7388808_YELTSIN_SEARCH_SNAPSHOT = readJsonOptional(NARA_7388808_YELTSIN_SEARCH);
 
 const STROBE_SUPPRESSED_CONTEXT_IDS = new Set([
   ...Object.values(STROBE_CONVERSATION_FILES).map((file) => file.id),
@@ -4082,6 +4086,150 @@ function buildResearchPlanOnlineLeadRecords() {
   return [searchTrail, ...records];
 }
 
+function nara7388808LeadTopics(lead) {
+  const text = ascii(`${lead.title || ""} ${lead.category || ""} ${lead.researchUse || ""}`);
+  const topics = ["NARA 7388808", "Yeltsin search-within", "Digitized lead"];
+  if (/CALL|TELCON|PHONE|TELCALL/i.test(text)) topics.push("Call support");
+  if (/MEETING|SUMMIT|PULL-ASIDE|TRIP|BUDAPEST|MOSCOW|HELSINKI|DENVER|COLOGNE|TOKYO/i.test(text)) {
+    topics.push("Summit/meeting context");
+  }
+  if (/BALTIC|LATVIA|LITHUANIA|ULMANIS|TROOP/i.test(text)) topics.push("Baltics");
+  if (/CONGRESS|CONGRESSIONAL|SENATOR|SENATE|HOUSE/i.test(text)) topics.push("Congressional context");
+  if (/LETTER|CORRESPONDENCE/i.test(text)) topics.push("Leader correspondence");
+  if (/KOSOVO/i.test(text)) topics.push("Kosovo");
+  if (/IRAQ|SADDAM|UNSCOM/i.test(text)) topics.push("Iraq");
+  if (/ABM|START|ARMS CONTROL|NUCLEAR/i.test(text)) topics.push("Arms control");
+  return [...new Set(topics)];
+}
+
+function buildNara7388808YeltsinSearchRecords() {
+  const search = NARA_7388808_YELTSIN_SEARCH_SNAPSHOT || {};
+  const promoted = search.promotedLeadRecords || [];
+  if (!promoted.length && !search.summary) return [];
+
+  const searchRunDate = (search.generatedAt || "2026-05-22").slice(0, 10);
+  const summary = search.summary || {};
+  const sourceNote =
+    `Source: National Archives Catalog search-within NAID 7388808, query 'yeltsin', run May 22, 2026. The search returned ${summary.totalCatalogHits || 0} online hits; ${summary.screenedCandidateHits || 0} were screened as higher-signal OCR/title matches, and ${promoted.length} new lead records were promoted for compiler review.`;
+  const searchTrail = {
+    id: "nara-7388808-yeltsin-search-2026-05-22",
+    dedupeKey: "nara-7388808|yeltsin-search-2026-05-22",
+    date: searchRunDate,
+    sortDate: searchRunDate,
+    type: "Scout Lead",
+    title: "NARA Catalog search-within 7388808: Yeltsin",
+    documentTitle: "NARA Catalog search-within 7388808: Yeltsin",
+    participants: ["Bill Clinton", "Boris Yeltsin"],
+    countries: ["United States", "Russia"],
+    chapter: CHAPTERS.scout,
+    releaseStatus: "Search Trail",
+    naid: "nara-7388808-yeltsin-search-2026-05-22",
+    catalogUrl: search.sourceUrl || "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
+    pdfUrl: "",
+    pageCount: null,
+    packetPageCount: summary.promotedPacketPdfPages || null,
+    digitalObjects: summary.totalCatalogHits || null,
+    countStatus: "Search trail only",
+    potentialFrusDocument: false,
+    dateLine: "Search run May 22, 2026",
+    subjectLine:
+      "Collection-level Catalog pass over NSC Records Management Office (NAID 7388808) for Yeltsin, with exact memcon hits deduped and new support/context leads promoted below.",
+    source: {
+      name: "National Archives Catalog search-within NAID 7388808",
+      url: search.sourceUrl || "https://catalog.archives.gov/search-within/7388808?q=yeltsin"
+    },
+    sourceNote,
+    frusSourceNote: sourceNote,
+    extractionStatus:
+      "Search trail only: the only title-level Clinton-Yeltsin memcon hits were already counted. Newly promoted rows are locator/context leads and remain excluded from the actual conversation-page tally unless a released memcon or telcon transcript is later identified.",
+    frusVolume: FRUS_VOLUME,
+    frusTopics: ["NARA Catalog", "NAID 7388808", "Yeltsin", "Search trail", "Deduplication"],
+    topics: ["NARA Catalog", "NAID 7388808", "Yeltsin", "Search trail", "Deduplication"],
+    nara7388808SearchLead: true,
+    scoutAudit: {
+      generatedAt: search.generatedAt,
+      sourceUrl: search.sourceUrl,
+      apiUrl: search.apiUrl,
+      collection: search.collection,
+      summary,
+      flagCounts: search.flagCounts,
+      scoreBuckets: search.scoreBuckets,
+      inclusionPolicy: search.inclusionPolicy,
+      alreadyIncludedRecords: search.alreadyIncludedRecords
+    },
+    reviewedCandidates: search.screenedCandidateRecords || [],
+    subjectDigest:
+      `${summary.totalCatalogHits || 0} total hits / ${summary.screenedCandidateHits || 0} screened OCR-title candidates / ${promoted.length} promoted visible leads`
+  };
+
+  const records = promoted.map((lead) => {
+    const topics = nara7388808LeadTopics(lead);
+    const packetText = Number.isInteger(lead.packetPageCount)
+      ? ` PDF packet: ${lead.packetPageCount} pages.`
+      : "";
+    const sourceName = `${lead.collection || "Records of the National Security Council Records Management Office (Clinton Administration)"}, ${lead.series || "series pending"}, ${lead.caseNumber || "case pending"}, ${lead.sourceItem || lead.documentId || lead.title}`;
+    const leadSourceNote =
+      `Search result: National Archives Catalog, NAID ${lead.naid}; ${lead.collection || "NSC Records Management Office"}, ${lead.series || "series pending"}${lead.seriesNaid ? `, series NAID ${lead.seriesNaid}` : ""}; ${lead.caseNumber || "case pending"}; ${lead.sourceItem || lead.documentId || "source item pending"}.${packetText} Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.`;
+    const extractionStatus =
+      lead.extractionStatus ||
+      "Research lead only: review the online packet/file unit before extracting pages or counting any document extent.";
+
+    return {
+      id: `nara-7388808-${lead.naid}`,
+      dedupeKey: `nara-7388808|${lead.naid}`,
+      date: lead.date || searchRunDate,
+      sortDate: lead.date || searchRunDate,
+      type: "Scout Lead",
+      title: lead.title,
+      documentTitle: lead.title,
+      participants: /not Clinton-Yeltsin/i.test(lead.category || "")
+        ? ["Bill Clinton"]
+        : ["Bill Clinton", "Boris Yeltsin"],
+      countries: ["United States", "Russia"],
+      chapter: CHAPTERS.scout,
+      releaseStatus: "Digitized NARA Lead",
+      naid: lead.naid,
+      catalogUrl: lead.catalogUrl || "",
+      pdfUrl: lead.pdfUrl || "",
+      pageCount: null,
+      packetPageCount: Number.isInteger(lead.packetPageCount) ? lead.packetPageCount : null,
+      digitalObjects: lead.digitalObjects || null,
+      countStatus: "Research lead only",
+      potentialFrusDocument: false,
+      dateLine:
+        `${isoDateDisplay(lead.date)}; ${lead.category || "NARA lead"}; NAID ${lead.naid}${Number.isInteger(lead.packetPageCount) ? `; ${lead.packetPageCount} PDF pages` : ""}`,
+      subjectLine: lead.researchUse || "Digitized NARA Catalog lead from the NAID 7388808 Yeltsin search-within pass.",
+      source: {
+        name: sourceName,
+        caseNumber: lead.caseNumber || "",
+        url: lead.catalogUrl || search.sourceUrl || "https://catalog.archives.gov/"
+      },
+      sourceNote: leadSourceNote,
+      frusSourceNote: leadSourceNote,
+      extractionRule: EXTRACTION_RULE,
+      extractionStatus,
+      frusVolume: FRUS_VOLUME,
+      frusTopics: topics,
+      topics,
+      researchPlanLead: true,
+      nara7388808SearchLead: true,
+      naraSearchCategory: lead.category,
+      catalogTitle: lead.catalogTitle,
+      caseNumber: lead.caseNumber,
+      documentId: lead.documentId,
+      sourceItem: lead.sourceItem,
+      relatedQueries: ["yeltsin"],
+      scoutAudit: {
+        ...lead,
+        searchSourceUrl: search.sourceUrl,
+        searchGeneratedAt: search.generatedAt
+      }
+    };
+  });
+
+  return [searchTrail, ...records];
+}
+
 function pageSum(records) {
   return records.reduce((sum, record) => sum + (Number.isInteger(record.pageCount) ? record.pageCount : 0), 0);
 }
@@ -4528,6 +4676,17 @@ function writeOutputs(records) {
         .filter((lead) => !lead.pdfUrl)
         .reduce((sum, lead) => sum + (Number.isInteger(lead.digitalObjects) ? lead.digitalObjects : 0), 0)
     },
+    nara7388808YeltsinSearch: {
+      sourceFile: path.relative(ROOT, NARA_7388808_YELTSIN_SEARCH),
+      totalCatalogHits: NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.totalCatalogHits || 0,
+      screenedCandidateHits: NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.screenedCandidateHits || 0,
+      promotedVisibleLeadRecords:
+        NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.promotedLeadRecords?.length || 0,
+      promotedPacketPdfPages:
+        NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.promotedPacketPdfPages || 0,
+      alreadyCountedConversationRecords:
+        NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.alreadyCountedConversationRecords || 0
+    },
     publicStatements: {
       sourceFile: path.relative(ROOT, CLINTON_PUBLIC_STATEMENTS),
       visibleRecords: publicStatementsAudit.visibleRecords,
@@ -4544,6 +4703,7 @@ function writeOutputs(records) {
       strobeStandaloneAudit: "reports/strobe-standalone-candidate-audit.json",
       clintonPublicStatementsAudit: "reports/clinton-public-statements-audit.json",
       researchPlanOnlineSearch: "reports/research-plan-online-search.json",
+      nara7388808YeltsinSearch: "reports/nara-7388808-yeltsin-search.json",
       naraScout: SOURCES.naraScout.url,
       naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
       pendingExtentVerificationRecheck: "reports/pending-extent-verification-recheck.json",
@@ -4586,6 +4746,10 @@ function writeOutputs(records) {
     path.join(reportsDir, "research-plan-online-search.json"),
     `${JSON.stringify(RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT, null, 2)}\n`
   );
+  fs.writeFileSync(
+    path.join(reportsDir, "nara-7388808-yeltsin-search.json"),
+    `${JSON.stringify(NARA_7388808_YELTSIN_SEARCH_SNAPSHOT, null, 2)}\n`
+  );
   fs.writeFileSync(path.join(reportsDir, "source-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
   console.log(JSON.stringify(summary, null, 2));
 }
@@ -4601,6 +4765,7 @@ const records = addFrusSourceNotes(
       ...buildStrobeManifestPdfRecords(),
       ...buildPublicStatementRecords(),
       ...buildResearchPlanOnlineLeadRecords(),
+      ...buildNara7388808YeltsinSearchRecords(),
       ...buildNaraScoutRecords()
     ])
   )
