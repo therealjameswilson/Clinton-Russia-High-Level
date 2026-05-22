@@ -1,10 +1,11 @@
 {
-  "generatedAt": "2026-05-22T11:43:00.487Z",
-  "totalRecords": 302,
+  "generatedAt": "2026-05-22T12:08:40.262Z",
+  "totalRecords": 636,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
     "Released Clinton Library Packets": 4,
     "Talbott FOIA Context": 156,
+    "Clinton Public Statements": 334,
     "NARA Scout Leads": 50
   },
   "byType": {
@@ -12,13 +13,14 @@
     "Memcon": 32,
     "Release Packet": 4,
     "Context": 156,
+    "Public Statement": 334,
     "Scout Lead": 50
   },
   "pageTallies": {
     "allRecords": {
-      "documents": 302,
+      "documents": 636,
       "countedDocuments": 93,
-      "pendingDocuments": 209,
+      "pendingDocuments": 543,
       "pages": 578
     },
     "potentialClintonYeltsinDocuments": {
@@ -44,6 +46,12 @@
         "documents": 156,
         "countedDocuments": 0,
         "pendingDocuments": 156,
+        "pages": 0
+      },
+      "Clinton Public Statements": {
+        "documents": 334,
+        "countedDocuments": 0,
+        "pendingDocuments": 334,
         "pages": 0
       },
       "NARA Scout Leads": {
@@ -77,12 +85,54 @@
     "packetPdfPages": 2272,
     "nonPdfDigitalObjects": 214
   },
+  "publicStatements": {
+    "sourceFile": "data/clinton-public-statements.json",
+    "visibleRecords": 334,
+    "publicPapersPages": 1117,
+    "selectedByYear": {
+      "1993": 56,
+      "1994": 65,
+      "1995": 39,
+      "1996": 25,
+      "1997": 33,
+      "1998": 30,
+      "1999": 47,
+      "2000": 39
+    },
+    "selectedByCategory": {
+      "Russia public diplomacy": 52,
+      "Russia economic reform and assistance": 33,
+      "Russia policy statement": 89,
+      "Leader appearance": 26,
+      "Balkans/Kosovo with Russian diplomacy": 46,
+      "Presidential call readout": 4,
+      "Post-Soviet nuclear settlement": 25,
+      "Russian domestic politics": 6,
+      "NATO/Russia and European security": 16,
+      "Arms control and nonproliferation": 37
+    },
+    "normalizedPrintedDateIssues": [
+      {
+        "accessId": "PPP-1993-book1-doc-pg1037",
+        "title": "The President's News Conference in Tokyo",
+        "printedDate": "1992-07-09",
+        "normalizedDate": "1993-07-09"
+      },
+      {
+        "accessId": "PPP-1993-book1-doc-pg1046-2",
+        "title": "The President's News Conference with President Boris Yeltsin of Russia in Tokyo",
+        "printedDate": "1992-07-10",
+        "normalizedDate": "1993-07-10"
+      }
+    ]
+  },
   "sources": {
     "clintonText": "/private/tmp/clinton-foreign-meetings.txt",
     "strobeManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
     "strobeLiveManifestPdfLeads": "/Users/jameswilson/Documents/New project/Clinton-Russia-High-Level/data/strobe-live-yeltsin-pdf-leads.json",
     "strobeManifestPdfAudit": "reports/strobe-manifest-pdf-audit.json",
     "strobeStandaloneAudit": "reports/strobe-standalone-candidate-audit.json",
+    "clintonPublicStatementsAudit": "reports/clinton-public-statements-audit.json",
     "researchPlanOnlineSearch": "reports/research-plan-online-search.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",

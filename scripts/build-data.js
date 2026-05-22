@@ -14,6 +14,20 @@ const STROBE_LIVE_YELTSIN_PDF_LEADS =
 const RESEARCH_PLAN_ONLINE_SEARCH =
   process.env.RESEARCH_PLAN_ONLINE_SEARCH ||
   path.join(ROOT, "data", "research-plan-online-search.json");
+const CLINTON_PUBLIC_STATEMENTS =
+  process.env.CLINTON_PUBLIC_STATEMENTS ||
+  path.join(ROOT, "data", "clinton-public-statements.json");
+const CLINTON_PUBLIC_STATEMENTS_AUDIT =
+  process.env.CLINTON_PUBLIC_STATEMENTS_AUDIT ||
+  path.join(ROOT, "reports", "clinton-public-statements-audit.json");
+
+function readJsonFile(filePath, fallback) {
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (error) {
+    return fallback;
+  }
+}
 
 const FRUS_VOLUME = {
   id: "frus1993-00v18",
@@ -34,7 +48,8 @@ const CHAPTERS = {
   chronology: { number: 1, name: "Clinton-Yeltsin Chronology" },
   packets: { number: 2, name: "Released Clinton Library Packets" },
   strobe: { number: 3, name: "Talbott FOIA Context" },
-  scout: { number: 4, name: "NARA Scout Leads" }
+  publicStatements: { number: 4, name: "Clinton Public Statements" },
+  scout: { number: 5, name: "NARA Scout Leads" }
 };
 
 const SOURCES = {
@@ -93,6 +108,13 @@ const SOURCES = {
   naraScout: {
     name: "NARA Scout",
     url: "https://therealjameswilson.github.io/nara-scout/"
+  },
+  govinfoPublicPapers: {
+    name: "GovInfo, Public Papers of the Presidents: William J. Clinton",
+    url:
+      "https://www.govinfo.gov/app/collection/ppp/president-42_Clinton,%20William%20J.",
+    packageUrl:
+      "https://www.govinfo.gov/app/collection/ppp/president-42_Clinton,%20William%20J./1993/01%21A%21January%2020%20to%20July%2031%2C%201993"
   },
   sharmCable: {
     name: "Clinton Digital Library item 118876 / MDR release 2016-0118-M-4 Google Drive cable copy",
@@ -162,6 +184,9 @@ const SOURCES = {
       "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf"
   }
 };
+
+const CLINTON_PUBLIC_STATEMENTS_SNAPSHOT = readJsonFile(CLINTON_PUBLIC_STATEMENTS, []);
+const CLINTON_PUBLIC_STATEMENTS_AUDIT_SNAPSHOT = readJsonFile(CLINTON_PUBLIC_STATEMENTS_AUDIT, {});
 
 const CLINTON_PRS_COLLECTION =
   "Records of the National Security Council Records Management Office (Clinton Administration)";
@@ -3355,6 +3380,138 @@ function buildStrobeManifestPdfRecords() {
   return [...groups.values()].map(makeStrobePdfLeadRecord);
 }
 
+function isoDateDisplay(iso) {
+  if (!iso || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso || "Date pending";
+  const [year, month, day] = iso.split("-");
+  const monthName = Object.entries(MONTHS).find(([, value]) => value === month)?.[0] || month;
+  return `${monthName} ${Number(day)}, ${year}`;
+}
+
+function publicPapersPackageLabel(statement) {
+  const label = ascii(statement.publicPapersPackageLabel || "");
+  const match = label.match(/William J\. Clinton\s+\((\d{4}),\s*Book\s+([^)]+)\)/i);
+  if (match) return `William J. Clinton, ${match[1]}, Book ${match[2]}`;
+  return label || statement.pkg || "William J. Clinton";
+}
+
+function publicPapersPageLabel(statement) {
+  const start = statement.startPage;
+  const end = statement.endPage || statement.startPage;
+  if (!start) return "pages pending";
+  return start === end ? `p. ${start}` : `pp. ${start}-${end}`;
+}
+
+function publicStatementCountries(statement) {
+  const title = ascii(statement.title);
+  const countries = new Set(["United States", "Russia"]);
+  if (/Ukraine|Kravchuk|Kuchma|Kiev/i.test(title)) countries.add("Ukraine");
+  if (/Belarus|Shushkevich|Minsk/i.test(title)) countries.add("Belarus");
+  if (/Kazakhstan|Nazarbayev/i.test(title)) countries.add("Kazakhstan");
+  if (/Bosnia|Kosovo|Yugoslavia|Serbia|Balkan/i.test(title)) countries.add("Balkans");
+  return [...countries];
+}
+
+function publicStatementParticipants(statement) {
+  const title = ascii(statement.title);
+  const participants = ["President Bill Clinton"];
+  if (/Yeltsin/i.test(title)) participants.push("President Boris Yeltsin");
+  if (/Putin/i.test(title)) participants.push("President Vladimir Putin");
+  if (/Chernomyrdin/i.test(title)) participants.push("Prime Minister Viktor Chernomyrdin");
+  if (/Kozyrev/i.test(title)) participants.push("Foreign Minister Andrey Kozyrev");
+  if (/Primakov/i.test(title)) participants.push("Foreign Minister Yevgeniy Primakov");
+  if (/Kravchuk/i.test(title)) participants.push("President Leonid Kravchuk");
+  if (/Kuchma/i.test(title)) participants.push("President Leonid Kuchma");
+  return [...new Set(participants)];
+}
+
+function publicStatementTopics(statement) {
+  return [
+    "Clinton public statements",
+    "GovInfo Public Papers",
+    statement.topicCategory,
+    ...(statement.matchFlags || []),
+    ...(statement.topicHeadings || [])
+  ].filter(Boolean);
+}
+
+function publicStatementSourceNote(statement) {
+  return `Source: Public Papers of the Presidents of the United States: ${publicPapersPackageLabel(
+    statement
+  )}, ${publicPapersPageLabel(statement)}, "${ascii(statement.title)}"; GovInfo.`;
+}
+
+function publicStatementDateWarning(statement) {
+  if (!statement.printedDate || statement.printedDate === statement.date) return "";
+  return `Date normalization: GovInfo/Public Papers text prints ${isoDateDisplay(
+    statement.printedDate
+  )}; this inventory sorts the item at ${isoDateDisplay(
+    statement.date
+  )} because it appears in the Clinton ${statement.date.slice(0, 4)} Public Papers sequence.`;
+}
+
+function makePublicStatementRecord(statement, index) {
+  const pageSpan = Number.isInteger(statement.pageSpan) ? statement.pageSpan : null;
+  const sourceNote = publicStatementSourceNote(statement);
+  const publicPages = publicPapersPageLabel(statement);
+  const dateWarning = publicStatementDateWarning(statement);
+  const extractionStatus = [
+    `Public statement context only; not a memcon/telcon source and excluded from consolidated conversation-page totals. Public Papers span: ${publicPages}${pageSpan ? ` (${pageSpan} page${pageSpan === 1 ? "" : "s"})` : ""}.`,
+    dateWarning
+  ]
+    .filter(Boolean)
+    .join(" ");
+  const topicHeadings = (statement.topicHeadings || []).slice(0, 4).join("; ");
+  const matchBasis = topicHeadings || (statement.matchFlags || []).join(", ");
+
+  return {
+    id: `public-statement-${statement.accessId}`,
+    dedupeKey: `public-statement|${statement.accessId}`,
+    date: statement.date,
+    sortDate: statement.date,
+    sortOrder: 4000 + index,
+    type: "Public Statement",
+    title: ascii(statement.title),
+    documentTitle: ascii(statement.title),
+    participants: publicStatementParticipants(statement),
+    countries: publicStatementCountries(statement),
+    chapter: CHAPTERS.publicStatements,
+    releaseStatus: "Public Papers",
+    naid: statement.accessId,
+    catalogUrl: statement.detailUrl,
+    pdfUrl: statement.pdfUrl,
+    pageCount: null,
+    sourcePdfPages: publicPages,
+    publicPapersPageCount: pageSpan,
+    publicPapersPackage: statement.pkg,
+    publicPapersAccessId: statement.accessId,
+    publicPapersHtmlUrl: statement.htmlUrl,
+    publicPapersPrintedDate: statement.printedDate || statement.date,
+    publicPapersDateNormalized: Boolean(dateWarning),
+    publicPapersCategory: statement.topicCategory,
+    countStatus: "Public statement context only",
+    potentialFrusDocument: false,
+    dateLine: `${isoDateDisplay(statement.date)}; Public Papers ${publicPages}; ${statement.topicCategory}`,
+    subjectLine: `Public Papers context: ${statement.topicCategory}${matchBasis ? `; match basis: ${matchBasis}` : ""}.`,
+    source: SOURCES.govinfoPublicPapers,
+    sourceNote,
+    frusSourceNote: sourceNote,
+    extractionRule: EXTRACTION_RULE,
+    extractionStatus,
+    frusVolume: FRUS_VOLUME,
+    frusTopics: publicStatementTopics(statement),
+    topics: publicStatementTopics(statement),
+    publicStatement: true,
+    ...(statement.snippet ? { publicStatementSnippet: ascii(statement.snippet) } : {}),
+    publicStatementMatchFlags: statement.matchFlags || [],
+    publicStatementTopicHeadings: statement.topicHeadings || [],
+    govinfoNotes: statement.notes || ""
+  };
+}
+
+function buildPublicStatementRecords() {
+  return CLINTON_PUBLIC_STATEMENTS_SNAPSHOT.map(makePublicStatementRecord);
+}
+
 function buildNaraScoutRecords() {
   const queryUrl =
     "https://therealjameswilson.github.io/nara-scout/#q=Yeltsin&sort=relevance&perColl=25&perPage=50&scope=clinton";
@@ -4218,6 +4375,38 @@ function buildStrobeStandaloneAudit(records) {
   };
 }
 
+function buildPublicStatementsAudit(records) {
+  const publicStatements = records.filter((record) => record.type === "Public Statement");
+  return {
+    ...CLINTON_PUBLIC_STATEMENTS_AUDIT_SNAPSHOT,
+    generatedAt: new Date().toISOString(),
+    sourceFile: path.relative(ROOT, CLINTON_PUBLIC_STATEMENTS),
+    auditBasis:
+      CLINTON_PUBLIC_STATEMENTS_AUDIT_SNAPSHOT.scope ||
+      "GovInfo Public Papers records selected for Russia/Yeltsin public-statement context.",
+    visibleRecords: publicStatements.length,
+    publicPapersPages: publicStatements.reduce(
+      (sum, record) => sum + (Number.isInteger(record.publicPapersPageCount) ? record.publicPapersPageCount : 0),
+      0
+    ),
+    byYearVisible: groupTallies(publicStatements, (record) => record.date.slice(0, 4)),
+    byCategoryVisible: groupTallies(publicStatements, (record) => record.publicPapersCategory || "Uncategorized"),
+    records: publicStatements.map((record) => ({
+      id: record.id,
+      date: record.date,
+      title: record.documentTitle,
+      category: record.publicPapersCategory,
+      accessId: record.publicPapersAccessId,
+      publicPapersPages: record.sourcePdfPages,
+      publicPapersPageCount: record.publicPapersPageCount,
+      detailUrl: record.catalogUrl,
+      pdfUrl: record.pdfUrl,
+      sourceNote: record.frusSourceNote,
+      extractionStatus: record.extractionStatus
+    }))
+  };
+}
+
 function dedupeCompilerRecords(records) {
   const seen = new Map();
   const deduped = [];
@@ -4272,6 +4461,7 @@ function writeOutputs(records) {
   const pageTallies = buildDocumentPageTallies(records, sourceFileInventory);
   const strobeManifestPdfAudit = buildStrobeManifestPdfAudit(records);
   const strobeStandaloneAudit = buildStrobeStandaloneAudit(records);
+  const publicStatementsAudit = buildPublicStatementsAudit(records);
 
   const summary = {
     generatedAt: new Date().toISOString(),
@@ -4338,12 +4528,21 @@ function writeOutputs(records) {
         .filter((lead) => !lead.pdfUrl)
         .reduce((sum, lead) => sum + (Number.isInteger(lead.digitalObjects) ? lead.digitalObjects : 0), 0)
     },
+    publicStatements: {
+      sourceFile: path.relative(ROOT, CLINTON_PUBLIC_STATEMENTS),
+      visibleRecords: publicStatementsAudit.visibleRecords,
+      publicPapersPages: publicStatementsAudit.publicPapersPages,
+      selectedByYear: publicStatementsAudit.byYear || {},
+      selectedByCategory: publicStatementsAudit.byCategory || {},
+      normalizedPrintedDateIssues: publicStatementsAudit.normalizedPrintedDateIssues || []
+    },
     sources: {
       clintonText: CLINTON_TEXT,
       strobeManifest: STROBE_MANIFEST,
       strobeLiveManifestPdfLeads: STROBE_LIVE_YELTSIN_PDF_LEADS,
       strobeManifestPdfAudit: "reports/strobe-manifest-pdf-audit.json",
       strobeStandaloneAudit: "reports/strobe-standalone-candidate-audit.json",
+      clintonPublicStatementsAudit: "reports/clinton-public-statements-audit.json",
       researchPlanOnlineSearch: "reports/research-plan-online-search.json",
       naraScout: SOURCES.naraScout.url,
       naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
@@ -4380,6 +4579,10 @@ function writeOutputs(records) {
     `${JSON.stringify(strobeStandaloneAudit, null, 2)}\n`
   );
   fs.writeFileSync(
+    path.join(reportsDir, "clinton-public-statements-audit.json"),
+    `${JSON.stringify(publicStatementsAudit, null, 2)}\n`
+  );
+  fs.writeFileSync(
     path.join(reportsDir, "research-plan-online-search.json"),
     `${JSON.stringify(RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT, null, 2)}\n`
   );
@@ -4396,6 +4599,7 @@ const records = addFrusSourceNotes(
       ...buildReleasePackets(),
       ...buildStrobeRecords(),
       ...buildStrobeManifestPdfRecords(),
+      ...buildPublicStatementRecords(),
       ...buildResearchPlanOnlineLeadRecords(),
       ...buildNaraScoutRecords()
     ])

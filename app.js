@@ -2,6 +2,7 @@ const CHAPTER_ORDER = [
   "Clinton-Yeltsin Chronology",
   "Released Clinton Library Packets",
   "Talbott FOIA Context",
+  "Clinton Public Statements",
   "NARA Scout Leads"
 ];
 
@@ -11,6 +12,7 @@ const candidateDocuments = document.querySelector("#candidate-documents");
 const countedPages = document.querySelector("#counted-pages");
 const pendingDocuments = document.querySelector("#pending-documents");
 const strobeSources = document.querySelector("#strobe-sources");
+const publicStatements = document.querySelector("#public-statements");
 const candidateSetCount = document.querySelector("#candidate-set-count");
 const candidateCountedCount = document.querySelector("#candidate-counted-count");
 const candidatePendingCount = document.querySelector("#candidate-pending-count");
@@ -73,6 +75,13 @@ function candidateRecords(records) {
 
 function pageSum(records) {
   return records.reduce((sum, record) => sum + (Number.isInteger(record.pageCount) ? record.pageCount : 0), 0);
+}
+
+function publicPapersPageSum(records) {
+  return records.reduce(
+    (sum, record) => sum + (Number.isInteger(record.publicPapersPageCount) ? record.publicPapersPageCount : 0),
+    0
+  );
 }
 
 function recordSourceLabel(record) {
@@ -154,6 +163,9 @@ function countLabel(count, singular, plural = `${singular}s`) {
 function extentLabel(record) {
   const pageCount = Number.isInteger(record.pageCount) ? record.pageCount : null;
   const packetPageCount = Number.isInteger(record.packetPageCount) ? record.packetPageCount : null;
+  const publicPapersPageCount = Number.isInteger(record.publicPapersPageCount)
+    ? record.publicPapersPageCount
+    : null;
 
   if (record.type === "Scout Lead") {
     if (packetPageCount !== null && record.digitalObjects && packetPageCount !== record.digitalObjects) {
@@ -164,12 +176,21 @@ function extentLabel(record) {
     if (pageCount !== null) return `${countLabel(pageCount, "page")} or digital objects`;
   }
 
+  if (record.type === "Public Statement") {
+    if (publicPapersPageCount !== null) return countLabel(publicPapersPageCount, "Public Papers page");
+    return record.countStatus || "Public statement context only";
+  }
+
   if (pageCount !== null) return countLabel(pageCount, "page");
   if (record.digitalObjects) return countLabel(record.digitalObjects, "digital object");
   return record.countStatus || "Extent pending";
 }
 
 function citationOpenItems(record) {
+  if (record.type === "Public Statement") {
+    return "decide whether to use for annotation, editorial note, or chronology context; compare public readouts against the underlying memcon/telcon where one is available";
+  }
+
   const items = [
     "classification and handling controls",
     record.type === "Telcon" ? "call time, participants, and notetakers" : "meeting place/time, participants, and notetakers",
@@ -187,12 +208,14 @@ function setChapterCounts(records) {
   const counted = candidates.filter((record) => Number.isInteger(record.pageCount));
   const pending = candidates.filter((record) => !Number.isInteger(record.pageCount));
   const strobeCount = uniqueSourceFileCount(candidates, "strobeFiles");
+  const publicStatementCount = records.filter((record) => record.type === "Public Statement").length;
 
   setText(totalRecords, records.length);
   setText(candidateDocuments, candidates.length);
   setText(countedPages, pageSum(candidates));
   setText(pendingDocuments, pending.length);
   setText(strobeSources, strobeCount);
+  setText(publicStatements, publicStatementCount);
   setText(candidateSetCount, candidates.length);
   setText(candidateCountedCount, counted.length);
   setText(candidatePendingCount, pending.length);
@@ -202,10 +225,11 @@ function setChapterCounts(records) {
     const chapterRecords = records.filter((record) => record.chapter.name === chapterName);
     const countNode = document.querySelector(`[data-chapter-count="${chapterName}"]`);
     const pagesNode = document.querySelector(`[data-chapter-pages="${chapterName}"]`);
-    const pageTotal = pageSum(chapterRecords);
+    const pageTotal =
+      chapterName === "Clinton Public Statements" ? publicPapersPageSum(chapterRecords) : pageSum(chapterRecords);
 
     if (countNode) countNode.textContent = chapterRecords.length.toString();
-    if (pagesNode) pagesNode.textContent = pageTotal ? `${pageTotal}` : "source";
+    if (pagesNode) pagesNode.textContent = pageTotal ? `${formatNumber(pageTotal)} pp.` : "source";
   }
 }
 
@@ -237,6 +261,11 @@ function renderWorkbench(records) {
   const driveFiles = uniqueSourceFileCount(candidates, "googleDriveFiles");
   const strobeManifestPdfs = records.filter((record) => record.strobeManifestPdf).length;
   const strobeStandaloneLeads = records.filter((record) => record.strobeStandaloneCandidate).length;
+  const publicStatementRows = records.filter((record) => record.type === "Public Statement").length;
+  const publicStatementPages = records.reduce(
+    (sum, record) => sum + (Number.isInteger(record.publicPapersPageCount) ? record.publicPapersPageCount : 0),
+    0
+  );
 
   if (pendingSummary) {
     pendingSummary.textContent = pending.length
@@ -265,6 +294,7 @@ function renderWorkbench(records) {
 
   if (sourceCopySummary) {
     sourceCopySummary.textContent = `${strobeFiles} unique Strobe FOIA source-copy files (${strobeRefs} row refs) and ${driveFiles} unique Drive files (${driveRefs} row refs) are attached to canonical conversation rows. The Talbott chapter also lists ${strobeManifestPdfs} visible Strobe manifest PDF rows and ${strobeStandaloneLeads} potential standalone Strobe leads for context review.`;
+    sourceCopySummary.textContent += ` The Public Statements lane adds ${formatNumber(publicStatementRows)} GovInfo Public Papers items over ${formatNumber(publicStatementPages)} Public Papers pages.`;
   }
 }
 
@@ -672,10 +702,16 @@ function createCompilerChecklist(record) {
 
   const extent = extentLabel(record);
   const extentTone =
-    Number.isInteger(record.pageCount) || Number.isInteger(record.packetPageCount) ? "ok" : "needs-review";
+    Number.isInteger(record.pageCount) ||
+    Number.isInteger(record.packetPageCount) ||
+    Number.isInteger(record.publicPapersPageCount)
+      ? "ok"
+      : "needs-review";
   const sourcePages = record.sourcePdfPages || "Page map pending";
   const provenance =
-    record.markerPage
+    record.type === "Public Statement"
+      ? "GovInfo source item"
+      : record.markerPage
       ? `Marker page ${record.markerPage}`
       : record.localPdfPageCount
         ? "Derivative PDF checked"
@@ -736,11 +772,12 @@ function citationRows(record) {
     record.type === "Telcon" || record.type === "Memcon"
       ? `${record.type}; ${record.dateLine || formatDate(record.date)}; participants: ${(record.participants || []).join(", ") || "verify"}.`
       : `${record.type}; ${record.dateLine || formatDate(record.date)}.`;
+  const pdfStatus = record.type === "Public Statement" || Number.isInteger(record.pageCount) ? "Ready" : "Partial";
 
   return [
     ["Repository / source", "Ready", record.frusSourceNote || record.sourceNote],
     ["Control locator", "Ready", sourceId],
-    ["PDF / page range", Number.isInteger(record.pageCount) ? "Ready" : "Partial", pdfLabel],
+    ["PDF / page range", pdfStatus, pdfLabel],
     ["Classification / handling", "PDF", "Extract from original markings in the source PDF before final source-note treatment."],
     ["Meeting / call metadata", record.type === "Telcon" || record.type === "Memcon" ? "Check" : "Ready", metadata],
     ["Drafting / distribution", "PDF", "Verify drafter, notetaker, clearance, approval, distribution, and sent/received lines."],
@@ -864,7 +901,8 @@ function renderRecords(records) {
   if (recordsSummary) {
     const candidates = records.filter(isConversationCandidate);
     const pending = candidates.filter((record) => !Number.isInteger(record.pageCount));
-    recordsSummary.textContent = `Showing ${formatNumber(records.length)} of ${formatNumber(allRecords.length)} records; ${formatNumber(candidates.length)} candidate memcons/telcons; ${formatNumber(pageSum(candidates))} actual conversation pages; ${formatNumber(pending.length)} pending extents.`;
+    const publicStatementRows = records.filter((record) => record.type === "Public Statement").length;
+    recordsSummary.textContent = `Showing ${formatNumber(records.length)} of ${formatNumber(allRecords.length)} records; ${formatNumber(candidates.length)} candidate memcons/telcons; ${formatNumber(pageSum(candidates))} actual conversation pages; ${formatNumber(pending.length)} pending extents; ${formatNumber(publicStatementRows)} public statements.`;
   }
 
   if (!sorted.length) {
@@ -888,9 +926,12 @@ function renderRecords(records) {
 
     const count = document.createElement("p");
     count.className = "record-count";
-    const pageTotal = pageSum(chapterRecords);
+    const pageTotal =
+      chapterName === "Clinton Public Statements" ? publicPapersPageSum(chapterRecords) : pageSum(chapterRecords);
     const pendingTotal = chapterRecords.filter((record) => !Number.isInteger(record.pageCount)).length;
-    count.textContent = pageTotal
+    count.textContent = pageTotal && chapterName === "Clinton Public Statements"
+      ? `${chapterRecords.length} records / ${formatNumber(pageTotal)} Public Papers pages`
+      : pageTotal
       ? `${chapterRecords.length} records / ${pageTotal} pages or digital objects / ${pendingTotal} pending`
       : `${chapterRecords.length} records`;
     header.append(heading, count);
@@ -923,6 +964,7 @@ function statusMatches(record, status) {
   if (status === "unknown") return record.releaseStatus === "Unknown";
   if (status === "lead") return record.type === "Scout Lead" || /Lead/i.test(record.releaseStatus || "");
   if (status === "research") return Boolean(record.researchPlanLead);
+  if (status === "public") return record.type === "Public Statement" || Boolean(record.publicStatement);
   return true;
 }
 
@@ -969,7 +1011,8 @@ function applyQuickFilter(kind) {
     partial: "partial",
     unknown: "unknown",
     lead: "lead",
-    research: "research"
+    research: "research",
+    public: "public"
   };
 
   if (statusFilter) statusFilter.value = statusByKind[kind] || "all";
@@ -993,6 +1036,10 @@ function exportFilteredRecords() {
     "releaseStatus",
     "pageCount",
     "packetPageCount",
+    "publicPapersPageCount",
+    "publicPapersPackage",
+    "publicPapersAccessId",
+    "publicPapersCategory",
     "sourcePdfPages",
     "markerPage",
     "frusSourceNote",
@@ -1014,6 +1061,10 @@ function exportFilteredRecords() {
       record.releaseStatus,
       Number.isInteger(record.pageCount) ? record.pageCount : "",
       Number.isInteger(record.packetPageCount) ? record.packetPageCount : "",
+      Number.isInteger(record.publicPapersPageCount) ? record.publicPapersPageCount : "",
+      record.publicPapersPackage || "",
+      record.publicPapersAccessId || "",
+      record.publicPapersCategory || "",
       record.sourcePdfPages || "",
       record.markerPage || "",
       record.frusSourceNote || record.sourceNote || "",

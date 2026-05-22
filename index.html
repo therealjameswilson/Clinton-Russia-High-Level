@@ -8,7 +8,7 @@
       name="description"
       content="A working FRUS compiler page for Clinton-Russia high-level records, Clinton-Yeltsin memcons and telcons, Strobe Talbott FOIA context, and NARA Scout leads for FRUS 1993-2000, Volume XVIII, Russia."
     />
-    <link rel="stylesheet" href="styles.css?v=20260522-research-plan" />
+    <link rel="stylesheet" href="styles.css?v=20260522-public-papers" />
   </head>
   <body>
     <header class="site-header">
@@ -21,6 +21,7 @@
         <a href="#frus-method">Method</a>
         <a href="#workbench">Workbench</a>
         <a href="#chapters">Chapters</a>
+        <a href="#chapter-clinton-public-statements">Statements</a>
         <a href="#research">Research</a>
         <a href="#records">Records</a>
         <a href="#sources">Sources</a>
@@ -37,8 +38,9 @@
             A working compiler page for the planned <em>Foreign Relations of the United
             States, 1993-2000, Volume XVIII, Russia</em>. It starts with the Clinton-Yeltsin
             leader chronology, adds released Clinton Library MDR packets, draws in Strobe
-            Talbott FOIA policy context, and turns every source copy into a page-counted,
-            provenance-aware candidate for FRUS review.
+            Talbott FOIA policy context, layers in Clinton's public statements from the
+            Public Papers, and turns every source copy into a page-counted, provenance-aware
+            candidate for FRUS review.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="button primary" href="#workbench">Open Workbench</a>
@@ -91,6 +93,10 @@
         <div>
           <span id="strobe-sources">0</span>
           <p>Strobe source refs</p>
+        </div>
+        <div>
+          <span id="public-statements">0</span>
+          <p>public statements</p>
         </div>
       </section>
 
@@ -204,6 +210,7 @@
               <li>Chronological placement follows the conversation date.</li>
               <li>Source notes preserve repository, case, document ID, and page map.</li>
               <li>Extents account for withheld, duplicate, and non-conversation pages.</li>
+              <li>Public statements stay in a context lane and do not inflate conversation-page totals.</li>
               <li>Context PDFs remain available for editorial notes and cross-references.</li>
             </ul>
           </article>
@@ -269,10 +276,27 @@
           </a>
           <a
             class="chapter-card"
+            href="#chapter-clinton-public-statements"
+            aria-label="View Clinton public statement records"
+          >
+            <p class="chapter-number">Chapter 4</p>
+            <h3>Clinton Public Statements</h3>
+            <p class="chapter-count">
+              <span data-chapter-count="Clinton Public Statements">0</span> records /
+              <span data-chapter-pages="Clinton Public Statements">source</span>
+            </p>
+            <p>
+              GovInfo Public Papers items on Russia, Yeltsin, Putin, NATO/Russia,
+              arms control, Kosovo diplomacy, and post-Soviet nuclear issues.
+            </p>
+            <span class="chapter-action">View public record</span>
+          </a>
+          <a
+            class="chapter-card"
             href="#chapter-nara-scout-leads"
             aria-label="View NARA Scout lead records"
           >
-            <p class="chapter-number">Chapter 4</p>
+            <p class="chapter-number">Chapter 5</p>
             <h3>NARA Scout Leads</h3>
             <p class="chapter-count">
               <span data-chapter-count="NARA Scout Leads">0</span> records /
@@ -312,6 +336,13 @@
             <p>
               Talbott FOIA records and manifest PDFs supply the diplomatic background
               around NATO/Russia, Kosovo, arms control, and Moscow consultations.
+            </p>
+          </article>
+          <article>
+            <h3>Public Record</h3>
+            <p>
+              GovInfo Public Papers statements are inserted chronologically as public context,
+              with page spans and official detail/PDF links separated from candidate extents.
             </p>
           </article>
           <article>
@@ -368,10 +399,13 @@
               counted Vancouver and Hyde Park memcons, and promoted 35 digitized
               research leads into the Scout lane. The directly downloadable PDFs
               comprise 2,272 packet pages; five non-PDF catalog units expose
-              another 214 digital objects.
+              another 214 digital objects. A separate GovInfo pass adds the official
+              Public Papers statement layer for public-facing Clinton remarks and
+              readouts on the same Russia-policy chronology.
             </p>
             <div class="workbench-actions">
               <a href="reports/research-plan-online-search.json">Open search report</a>
+              <a href="reports/clinton-public-statements-audit.json">Open statements audit</a>
               <a href="#records" data-quick-filter="research">Show research leads</a>
             </div>
           </article>
@@ -400,6 +434,7 @@
             <a href="#records">By Kosovo file</a>
             <a href="#records">By source repository</a>
             <a href="#records">By release status</a>
+            <a href="#records" data-quick-filter="public">By public statements</a>
             <a href="#records">By NARA lead</a>
             <a href="#records">By date</a>
           </div>
@@ -415,6 +450,7 @@
               <button type="button" data-quick-filter="pending">Pending extents</button>
               <button type="button" data-quick-filter="lead">Catalog leads</button>
               <button type="button" data-quick-filter="strobe">Strobe PDFs</button>
+              <button type="button" data-quick-filter="public">Public Papers</button>
               <button type="button" data-quick-filter="standalone">Standalone Strobe leads</button>
             </div>
           </div>
@@ -453,6 +489,7 @@
                 <option value="unknown">Unknown release status</option>
                 <option value="lead">Scout and catalog leads</option>
                 <option value="research">Research-plan digitized leads</option>
+                <option value="public">Public Papers statements</option>
               </select>
             </label>
             <label for="source-filter">
@@ -476,6 +513,7 @@
             <button type="button" data-record-filter="Memcon" aria-pressed="false">Memcons</button>
             <button type="button" data-record-filter="Release Packet" aria-pressed="false">Packets</button>
             <button type="button" data-record-filter="Context" aria-pressed="false">Context</button>
+            <button type="button" data-record-filter="Public Statement" aria-pressed="false">Public Papers</button>
             <button type="button" data-record-filter="Scout Lead" aria-pressed="false">Scout Leads</button>
           </div>
         </div>
@@ -508,6 +546,12 @@
           </a>
           <a href="https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html" rel="noreferrer">
             Strobe Talbott FOIA manifest
+          </a>
+          <a
+            href="https://www.govinfo.gov/app/collection/ppp/president-42_Clinton,%20William%20J./1993/01%21A%21January%2020%20to%20July%2031%2C%201993"
+            rel="noreferrer"
+          >
+            GovInfo Public Papers of the Presidents, Clinton
           </a>
           <a href="https://therealjameswilson.github.io/nara-scout/" rel="noreferrer">
             NARA Scout research tool
@@ -550,18 +594,22 @@
           </li>
           <li>
             <span class="step-number">04</span>
-            <span>Use NARA Scout to identify additional Clinton NSC files, FOIA candidates, and catalog leads.</span>
+            <span>Add GovInfo Public Papers statements as a chronological public-record layer.</span>
           </li>
           <li>
             <span class="step-number">05</span>
-            <span>Normalize dates, participants, release status, source notes, document IDs, and NAIDs.</span>
+            <span>Use NARA Scout to identify additional Clinton NSC files, FOIA candidates, and catalog leads.</span>
           </li>
           <li>
             <span class="step-number">06</span>
-            <span>Mark missing page counts and unresolved catalog leads for follow-up review.</span>
+            <span>Normalize dates, participants, release status, source notes, document IDs, and NAIDs.</span>
           </li>
           <li>
             <span class="step-number">07</span>
+            <span>Mark missing page counts and unresolved catalog leads for follow-up review.</span>
+          </li>
+          <li>
+            <span class="step-number">08</span>
             <span>Keep new releases and declassification updates visible while the FRUS volume remains planned.</span>
           </li>
         </ol>
@@ -572,7 +620,7 @@
       <p>Published with GitHub Pages as a working companion archive.</p>
       <a href="https://github.com/therealjameswilson/Clinton-Russia-High-Level">Repository</a>
     </footer>
-    <script src="data/memcons.js?v=20260522-research-plan"></script>
-    <script src="app.js?v=20260522-research-plan"></script>
+    <script src="data/memcons.js?v=20260522-public-papers"></script>
+    <script src="app.js?v=20260522-public-papers"></script>
   </body>
 </html>

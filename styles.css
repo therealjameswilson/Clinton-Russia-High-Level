@@ -256,7 +256,7 @@ dd {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
   padding: 0 0 42px;
 }
@@ -329,10 +329,15 @@ h2 {
   outline: none;
 }
 
-.feature-grid,
-.chapter-grid {
+.feature-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 14px;
 }
 
