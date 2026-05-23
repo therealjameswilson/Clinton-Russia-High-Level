@@ -8,7 +8,7 @@
       name="description"
       content="A working FRUS compiler page for Clinton-Russia high-level records, Clinton-Yeltsin memcons and telcons, Strobe Talbott FOIA context, and NARA Scout leads for FRUS 1993-2000, Volume XVIII, Russia."
     />
-    <link rel="stylesheet" href="styles.css?v=20260522-nara7388808-standalone" />
+    <link rel="stylesheet" href="styles.css?v=20260523-risk-audit" />
   </head>
   <body>
     <header class="site-header">
@@ -134,6 +134,56 @@
         <div class="readiness-layout">
           <div id="readiness-root" class="readiness-panel" aria-live="polite"></div>
           <div id="source-note-root" class="source-note-panel" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section" id="risk-register" aria-labelledby="risk-register-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Compiler Risk</p>
+            <h2 id="risk-register-title">Gap Register</h2>
+          </div>
+          <p class="section-note">
+            Open issues are separated into hard source gaps, extraction gaps, date-control
+            risks, and final-selection work.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Hard Source Gaps</h3>
+            <p>
+              Six direct Clinton-Yeltsin contacts remain listed but uncounted because no
+              released conversation text has been located. They require archival, MDR, or
+              FOIA follow-up before use.
+            </p>
+          </article>
+          <article>
+            <h3>NARA Standalone Extraction</h3>
+            <p>
+              Three high-priority NARA standalone packets now have document-pages-plus-marker
+              PDFs. The Budapest Yeltsin pull-aside lead is blocked because the source packet
+              exposes only a withdrawal/redaction marker for that item.
+            </p>
+          </article>
+          <article>
+            <h3>Strobe Date Control</h3>
+            <p>
+              Strobe standalone rows with release-date artifacts are flagged in the audit;
+              source-text date corrections are applied where the PDF supplies enough evidence.
+            </p>
+          </article>
+          <article>
+            <h3>Final Selection</h3>
+            <p>
+              Public Papers and standalone context rows remain broad by design and should be
+              pruned against the compiler's final document-selection decisions.
+            </p>
+          </article>
+        </div>
+        <div class="workbench-actions">
+          <a href="reports/compiler-risk-audit.json">Open compiler risk audit</a>
+          <a href="#records" data-quick-filter="pending">Show hard source gaps</a>
+          <a href="#records" data-quick-filter="standalone">Show standalone leads</a>
         </div>
       </section>
 
@@ -405,6 +455,9 @@
               promoted 25 deduped support leads totaling 1,015 PDF packet pages,
               including 23 potential standalone FRUS documents or editorial-note
               sources spanning 868 source-packet pages for page-level review.
+              Three high-priority standalone items have extracted PDFs, and one
+              Budapest pull-aside lead is now marked blocked because no released
+              Yeltsin item pages are present.
               A separate GovInfo pass adds the official Public Papers statement
               layer for public-facing Clinton remarks and readouts on the same
               Russia-policy chronology.
@@ -630,7 +683,7 @@
       <p>Published with GitHub Pages as a working companion archive.</p>
       <a href="https://github.com/therealjameswilson/Clinton-Russia-High-Level">Repository</a>
     </footer>
-    <script src="data/memcons.js?v=20260522-nara7388808-standalone"></script>
-    <script src="app.js?v=20260522-nara7388808-standalone"></script>
+    <script src="data/memcons.js?v=20260523-risk-audit"></script>
+    <script src="app.js?v=20260523-risk-audit"></script>
   </body>
 </html>

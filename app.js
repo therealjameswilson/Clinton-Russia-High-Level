@@ -163,11 +163,16 @@ function countLabel(count, singular, plural = `${singular}s`) {
 function extentLabel(record) {
   const pageCount = Number.isInteger(record.pageCount) ? record.pageCount : null;
   const packetPageCount = Number.isInteger(record.packetPageCount) ? record.packetPageCount : null;
+  const standalonePageCount = Number.isInteger(record.standalonePageCount) ? record.standalonePageCount : null;
   const publicPapersPageCount = Number.isInteger(record.publicPapersPageCount)
     ? record.publicPapersPageCount
     : null;
 
   if (record.type === "Scout Lead") {
+    if (standalonePageCount !== null && packetPageCount !== null) {
+      return `${countLabel(standalonePageCount, "standalone page")} / ${countLabel(packetPageCount, "packet page")}`;
+    }
+    if (standalonePageCount !== null) return countLabel(standalonePageCount, "standalone page");
     if (packetPageCount !== null && record.digitalObjects && packetPageCount !== record.digitalObjects) {
       return `${countLabel(packetPageCount, "packet page")} / ${countLabel(record.digitalObjects, "digital object")}`;
     }
@@ -497,6 +502,10 @@ function renderReadinessPanel(records) {
   const withPdf = candidates.filter(hasAnyPdf);
   const withExtractionNotes = candidates.filter((record) => record.extractionStatus);
   const withProvenance = candidates.filter(hasProvenanceSheet);
+  const naraStandalone = records.filter((record) => record.naraStandaloneCandidate);
+  const naraStandaloneExtracted = naraStandalone.filter((record) => Number.isInteger(record.standalonePageCount));
+  const naraStandaloneBlocked = naraStandalone.filter((record) => record.standaloneExtractionBlocked);
+  const strobeDateAudits = records.filter((record) => record.strobeStandaloneCandidate && record.dateAuditNote);
 
   const heading = document.createElement("h3");
   heading.textContent = "Inventory Readiness";
@@ -538,6 +547,18 @@ function renderReadinessPanel(records) {
       withProvenance.length === candidates.length ? "Ready" : "Partial",
       `${withProvenance.length}/${candidates.length}`,
       "Derivative PDFs should append the original marker page where one exists."
+    ),
+    readinessRow(
+      "NARA standalone extraction",
+      naraStandaloneExtracted.length === naraStandalone.length ? "Ready" : "Partial",
+      `${naraStandaloneExtracted.length}/${naraStandalone.length}`,
+      `${naraStandaloneBlocked.length} high-signal lead is blocked because no released standalone document pages are present.`
+    ),
+    readinessRow(
+      "Strobe date audit",
+      strobeDateAudits.length ? "Partial" : "Ready",
+      `${strobeDateAudits.length}`,
+      "Rows with manifest/date-inference risk are flagged before chronological use."
     )
   );
 
@@ -866,8 +887,17 @@ function createRecordRow(record) {
     pdf.href = record.pdfUrl;
     pdf.rel = "noreferrer";
     pdf.target = "_blank";
-    pdf.textContent = "Open PDF";
+    pdf.textContent = isDerivativePdf(record) ? "Open extracted PDF" : "Open PDF";
     links.append(pdf);
+  }
+
+  if (record.sourcePdfUrl && record.sourcePdfUrl !== record.pdfUrl && record.sourcePdfUrl !== record.catalogUrl) {
+    const sourcePdf = document.createElement("a");
+    sourcePdf.href = record.sourcePdfUrl;
+    sourcePdf.rel = "noreferrer";
+    sourcePdf.target = "_blank";
+    sourcePdf.textContent = "Source packet";
+    links.append(sourcePdf);
   }
 
   for (const file of record.googleDriveFiles || []) {

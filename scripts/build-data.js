@@ -2994,7 +2994,39 @@ function strobeDateFromParts(year, month, day) {
   return `${normalizedYear}-${String(month).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
 }
 
+const STROBE_STANDALONE_DATE_OVERRIDES = {
+  C06698134: {
+    date: "1996-09-06",
+    confidence: "source-text",
+    note: "Source text dates the Talbott-Mamedov telephone conversation to Friday, September 6, 1996."
+  },
+  C06698975: {
+    date: "1996-10-19",
+    confidence: "source-text",
+    note: "Source text dates the Talbott-Mamedov telephone conversation to Saturday, October 19, 1996."
+  },
+  C06703510: {
+    date: "1997-02-20",
+    confidence: "inferred",
+    note:
+      "Source PDF lacks a face-page date; displayed date is inferred from the text placing the Talbott-Chubais memcon after the Albright meetings with Chernomyrdin and Primakov in Moscow and before the Helsinki summit."
+  },
+  C06835147: {
+    date: "1995-03-01",
+    confidence: "low",
+    note:
+      "Source PDF is undated and the manifest date is a release/date-ingest artifact. It is sorted under March 1995 as an undated Vancouver P-8 readout pending archival date confirmation."
+  }
+};
+
+function strobeStandaloneDateOverride(record) {
+  return STROBE_STANDALONE_DATE_OVERRIDES[record.id] || null;
+}
+
 function inferStrobeStandaloneDocumentDate(record) {
+  const override = strobeStandaloneDateOverride(record);
+  if (override) return override.date;
+
   const rawTitle = strobeStandaloneTitle(record).toUpperCase();
   const title = normalizedStrobeStandaloneTitle(record);
   const fullMonthDate = title.match(/\b(JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)\s+(\d{1,2}),?\s+(199[3-9]|2000)\b/);
@@ -3019,7 +3051,6 @@ function inferStrobeStandaloneDocumentDate(record) {
   }
 
   if (record.id === "C06771181") return "1999-04-07";
-  if (record.id === "C06698134") return "1996-09-06";
   return record.date;
 }
 
@@ -3110,6 +3141,7 @@ function buildStrobeRecords() {
     const duplicateRecords = record.strobeStandaloneDuplicateRecords || [];
     const documentDate = standalone ? inferStrobeStandaloneDocumentDate(record) : record.date;
     const manifestDate = record.date;
+    const dateOverride = standalone ? strobeStandaloneDateOverride(record) : null;
     if (/YELTSIN/i.test(title)) topics.push("Yeltsin");
     if (/NATO/i.test(title)) topics.push("NATO/Russia");
     if (/KOSOVO/i.test(title)) topics.push("Kosovo");
@@ -3124,6 +3156,7 @@ function buildStrobeRecords() {
           documentDate && manifestDate && documentDate !== manifestDate
             ? `Manifest/index date ${manifestDate}; displayed document date ${documentDate} inferred from the title or duplicate cluster.`
             : "",
+          dateOverride?.note ? `Date audit: ${dateOverride.note}` : "",
           "Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
           duplicateRecords.length
             ? `Deduplication: ${duplicateRecords.length} additional Strobe source-copy candidate(s) were folded into this row: ${duplicateRecords.map((item) => item.id).join(", ")}.`
@@ -3138,6 +3171,8 @@ function buildStrobeRecords() {
       date: documentDate,
       sortDate: documentDate,
       strobeManifestDate: standalone && manifestDate !== documentDate ? manifestDate : undefined,
+      dateConfidence: dateOverride?.confidence,
+      dateAuditNote: dateOverride?.note,
       type: "Context",
       title,
       documentTitle: title,
@@ -3152,7 +3187,9 @@ function buildStrobeRecords() {
       countStatus: standalone ? "Standalone extent pending" : null,
       potentialFrusDocument: standalone ? true : undefined,
       dateLine:
-        standalone && manifestDate !== documentDate
+        dateOverride?.note
+          ? `${documentDate} (${dateOverride.confidence} date audit; Strobe manifest/index date ${manifestDate})`
+          : standalone && manifestDate !== documentDate
           ? `${documentDate} (document date inferred; Strobe manifest/index date ${manifestDate})`
           : record.date,
       subjectLine:
@@ -3171,7 +3208,12 @@ function buildStrobeRecords() {
       strobeStandaloneDuplicateRecords: duplicateRecords.length ? duplicateRecords : undefined,
       extractionRule: standalone ? EXTRACTION_RULE : undefined,
       extractionStatus: standalone
-        ? "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page."
+        ? [
+            "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+            dateOverride?.confidence === "low" ? "Date remains low-confidence and must be verified before chronological use." : ""
+          ]
+            .filter(Boolean)
+            .join(" ")
         : undefined
     };
   });
@@ -4169,6 +4211,7 @@ function buildNara7388808YeltsinSearchRecords() {
     const packetText = Number.isInteger(lead.packetPageCount)
       ? ` PDF packet: ${lead.packetPageCount} pages.`
       : "";
+    const standalonePdf = lead.standalonePdfUrl || "";
     const standaloneText = standalone
       ? ` Candidate note: ${lead.candidateDocumentExtent || lead.standaloneCandidateReason || "Review for possible standalone FRUS use."}`
       : "";
@@ -4194,15 +4237,20 @@ function buildNara7388808YeltsinSearchRecords() {
         : ["Bill Clinton", "Boris Yeltsin"],
       countries: ["United States", "Russia"],
       chapter: CHAPTERS.scout,
-      releaseStatus: standalone ? "Standalone Candidate" : "Digitized NARA Lead",
+      releaseStatus: standalonePdf ? "Standalone Extracted" : standalone ? "Standalone Candidate" : "Digitized NARA Lead",
       naid: lead.naid,
       catalogUrl: lead.catalogUrl || "",
-      pdfUrl: lead.pdfUrl || "",
+      pdfUrl: standalonePdf || lead.pdfUrl || "",
+      sourcePdfUrl: standalonePdf ? lead.pdfUrl || "" : undefined,
       pageCount: null,
       packetPageCount: Number.isInteger(lead.packetPageCount) ? lead.packetPageCount : null,
+      standalonePageCount: Number.isInteger(lead.standalonePageCount) ? lead.standalonePageCount : null,
       digitalObjects: lead.digitalObjects || null,
-      countStatus: standalone ? "Standalone extent pending" : "Research lead only",
+      countStatus: lead.countStatus || (standalone ? "Standalone extent pending" : "Research lead only"),
       potentialFrusDocument: standalone ? true : false,
+      sourcePdfPages: lead.sourcePdfPages,
+      markerPage: lead.markerPage,
+      localPdfPageCount: lead.localPdfPageCount,
       dateLine:
         `${isoDateDisplay(lead.date)}; ${lead.category || "NARA lead"}; NAID ${lead.naid}${Number.isInteger(lead.packetPageCount) ? `; ${lead.packetPageCount} PDF pages` : ""}`,
       subjectLine: lead.researchUse || "Digitized NARA Catalog lead from the NAID 7388808 Yeltsin search-within pass.",
@@ -4224,6 +4272,7 @@ function buildNara7388808YeltsinSearchRecords() {
       standaloneCandidatePriority: standalone ? lead.standaloneCandidatePriority : undefined,
       standaloneCandidateReason: standalone ? lead.standaloneCandidateReason : undefined,
       candidateDocumentExtent: standalone ? lead.candidateDocumentExtent : undefined,
+      standaloneExtractionBlocked: lead.standaloneExtractionBlocked || undefined,
       naraSearchCategory: lead.category,
       catalogTitle: lead.catalogTitle,
       caseNumber: lead.caseNumber,
@@ -4523,6 +4572,8 @@ function buildStrobeStandaloneAudit(records) {
       documentId: record.naid,
       date: record.date,
       manifestDate: record.strobeManifestDate || record.date,
+      dateConfidence: record.dateConfidence || "",
+      dateAuditNote: record.dateAuditNote || "",
       title: record.documentTitle,
       pdfUrl: record.pdfUrl,
       releaseStatus: record.releaseStatus,
@@ -4563,6 +4614,96 @@ function buildPublicStatementsAudit(records) {
       sourceNote: record.frusSourceNote,
       extractionStatus: record.extractionStatus
     }))
+  };
+}
+
+function buildCompilerRiskAudit(records, publicStatementsAudit) {
+  const candidates = candidateConversationRecords(records);
+  const counted = candidates.filter((record) => Number.isInteger(record.pageCount));
+  const pending = candidates.filter((record) => !Number.isInteger(record.pageCount));
+  const naraStandalone = records.filter((record) => record.naraStandaloneCandidate);
+  const naraStandaloneExtracted = naraStandalone.filter((record) => Number.isInteger(record.standalonePageCount));
+  const naraStandaloneBlocked = naraStandalone.filter((record) => record.standaloneExtractionBlocked);
+  const strobeStandalone = records.filter((record) => record.strobeStandaloneCandidate);
+  const strobeDateRisks = strobeStandalone.filter(
+    (record) =>
+      record.dateConfidence === "low" ||
+      record.dateAuditNote ||
+      record.date < "1993-01-01" ||
+      record.date > "2000-12-31"
+  );
+  const publicDateIssues = publicStatementsAudit.normalizedPrintedDateIssues || [];
+
+  return {
+    generatedAt: new Date().toISOString(),
+    scope:
+      "Compiler-risk register for the Clinton-Russia High-Level FRUS evidence inventory. It separates direct Clinton-Yeltsin conversation gaps from broader standalone/context-document readiness.",
+    coreConversationReadiness: {
+      potentialDocuments: candidates.length,
+      countedDocuments: counted.length,
+      pendingDocuments: pending.length,
+      totalConversationPages: pageSum(candidates),
+      extractedDerivativePdfs: counted.filter((record) => /^public\/documents\//.test(record.pdfUrl || "")).length,
+      hardSourceGaps: pending.map((record) => ({
+        id: record.id,
+        date: record.date,
+        type: record.type,
+        title: record.documentTitle,
+        source: record.source?.caseNumber || record.source?.name || "",
+        sourcePdfPages: record.sourcePdfPages || "",
+        action:
+          "Archival follow-up required. Keep listed but uncounted until released actual conversation text is located."
+      }))
+    },
+    naraStandaloneReadiness: {
+      visibleCandidates: naraStandalone.length,
+      extractedCandidates: naraStandaloneExtracted.length,
+      extractedStandalonePages: naraStandaloneExtracted.reduce(
+        (sum, record) => sum + (Number.isInteger(record.standalonePageCount) ? record.standalonePageCount : 0),
+        0
+      ),
+      blockedNoReleasedPages: naraStandaloneBlocked.length,
+      remainingPageLevelReview: naraStandalone.length - naraStandaloneExtracted.length - naraStandaloneBlocked.length,
+      highPriorityRows: naraStandalone
+        .filter((record) => record.standaloneCandidatePriority === "high" || record.standaloneExtractionBlocked)
+        .map((record) => ({
+          id: record.id,
+          naid: record.naid,
+          date: record.date,
+          title: record.documentTitle,
+          status: record.countStatus,
+          sourcePdfPages: record.sourcePdfPages || "",
+          standalonePages: record.standalonePageCount || null,
+          localPdfPages: record.localPdfPageCount || null,
+          pdfUrl: record.pdfUrl,
+          sourcePdfUrl: record.sourcePdfUrl || "",
+          extractionStatus: record.extractionStatus || ""
+        }))
+    },
+    strobeStandaloneReadiness: {
+      visibleCandidates: strobeStandalone.length,
+      needsPageLevelExtraction: strobeStandalone.length,
+      dateRiskRows: strobeDateRisks.map((record) => ({
+        id: record.id,
+        documentId: record.naid,
+        date: record.date,
+        manifestDate: record.strobeManifestDate || "",
+        confidence: record.dateConfidence || "inferred",
+        title: record.documentTitle,
+        dateAuditNote: record.dateAuditNote || ""
+      }))
+    },
+    publicStatementsReadiness: {
+      visibleRecords: publicStatementsAudit.visibleRecords,
+      publicPapersPages: publicStatementsAudit.publicPapersPages,
+      normalizedPrintedDateIssues: publicDateIssues
+    },
+    followUpPriorities: [
+      "Resolve the six direct Clinton-Yeltsin pending source gaps through archival, MDR, or FOIA follow-up; do not substitute support material.",
+      "Extract medium-priority NARA standalone records only after selecting the actual document pages and appending the source marker/provenance sheet.",
+      "Page-review Strobe standalone candidates before chronological or source-note use; date-risk rows require PDF face-page or archival control confirmation.",
+      "Prune Public Papers records to statements that directly support selected FRUS documents before final production."
+    ]
   };
 }
 
@@ -4621,6 +4762,7 @@ function writeOutputs(records) {
   const strobeManifestPdfAudit = buildStrobeManifestPdfAudit(records);
   const strobeStandaloneAudit = buildStrobeStandaloneAudit(records);
   const publicStatementsAudit = buildPublicStatementsAudit(records);
+  const compilerRiskAudit = buildCompilerRiskAudit(records, publicStatementsAudit);
 
   const summary = {
     generatedAt: new Date().toISOString(),
@@ -4699,12 +4841,20 @@ function writeOutputs(records) {
         NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.potentialStandaloneCandidates || 0,
       potentialStandalonePacketPdfPages:
         NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.potentialStandalonePacketPdfPages || 0,
+      standaloneExtractedCandidates:
+        NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.standaloneExtractedCandidates || 0,
+      standaloneExtractedDocumentPages:
+        NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.standaloneExtractedDocumentPages || 0,
+      standaloneBlockedNoReleasedPages:
+        NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.standaloneBlockedNoReleasedPages || 0,
       researchLeadOnlyRecords:
         NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.researchLeadOnlyRecords || 0,
       alreadyCountedConversationRecords:
         NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.alreadyCountedConversationRecords || 0,
       pageCountAudit:
-        NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.pageCountAudit || ""
+        NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.pageCountAudit || "",
+      standaloneExtractionAudit:
+        NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.standaloneExtractionAudit || ""
     },
     publicStatements: {
       sourceFile: path.relative(ROOT, CLINTON_PUBLIC_STATEMENTS),
@@ -4713,6 +4863,19 @@ function writeOutputs(records) {
       selectedByYear: publicStatementsAudit.byYear || {},
       selectedByCategory: publicStatementsAudit.byCategory || {},
       normalizedPrintedDateIssues: publicStatementsAudit.normalizedPrintedDateIssues || []
+    },
+    compilerRiskAudit: {
+      hardSourceGaps: compilerRiskAudit.coreConversationReadiness.hardSourceGaps.length,
+      naraStandaloneExtractedCandidates:
+        compilerRiskAudit.naraStandaloneReadiness.extractedCandidates,
+      naraStandaloneExtractedPages:
+        compilerRiskAudit.naraStandaloneReadiness.extractedStandalonePages,
+      naraStandaloneBlockedNoReleasedPages:
+        compilerRiskAudit.naraStandaloneReadiness.blockedNoReleasedPages,
+      strobeDateRiskRows:
+        compilerRiskAudit.strobeStandaloneReadiness.dateRiskRows.length,
+      publicStatementDateIssues:
+        compilerRiskAudit.publicStatementsReadiness.normalizedPrintedDateIssues.length
     },
     sources: {
       clintonText: CLINTON_TEXT,
@@ -4723,6 +4886,7 @@ function writeOutputs(records) {
       clintonPublicStatementsAudit: "reports/clinton-public-statements-audit.json",
       researchPlanOnlineSearch: "reports/research-plan-online-search.json",
       nara7388808YeltsinSearch: "reports/nara-7388808-yeltsin-search.json",
+      compilerRiskAudit: "reports/compiler-risk-audit.json",
       naraScout: SOURCES.naraScout.url,
       naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
       pendingExtentVerificationRecheck: "reports/pending-extent-verification-recheck.json",
@@ -4768,6 +4932,10 @@ function writeOutputs(records) {
   fs.writeFileSync(
     path.join(reportsDir, "nara-7388808-yeltsin-search.json"),
     `${JSON.stringify(NARA_7388808_YELTSIN_SEARCH_SNAPSHOT, null, 2)}\n`
+  );
+  fs.writeFileSync(
+    path.join(reportsDir, "compiler-risk-audit.json"),
+    `${JSON.stringify(compilerRiskAudit, null, 2)}\n`
   );
   fs.writeFileSync(path.join(reportsDir, "source-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
   console.log(JSON.stringify(summary, null, 2));

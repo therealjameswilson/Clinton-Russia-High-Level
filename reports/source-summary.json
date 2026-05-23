@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T23:03:46.982Z",
+  "generatedAt": "2026-05-23T13:42:21.686Z",
   "totalRecords": 662,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
@@ -93,9 +93,13 @@
     "promotedPacketPdfPages": 1015,
     "potentialStandaloneCandidates": 23,
     "potentialStandalonePacketPdfPages": 868,
+    "standaloneExtractedCandidates": 3,
+    "standaloneExtractedDocumentPages": 14,
+    "standaloneBlockedNoReleasedPages": 1,
     "researchLeadOnlyRecords": 2,
     "alreadyCountedConversationRecords": 2,
-    "pageCountAudit": "PDF packet page counts verified with pdfinfo on May 22, 2026; NAID 23901979 corrected from the initial 8-page API/OCR count to 10 PDF pages."
+    "pageCountAudit": "PDF packet page counts verified with pdfinfo on May 22, 2026; NAID 23901979 corrected from the initial 8-page API/OCR count to 10 PDF pages.",
+    "standaloneExtractionAudit": "High-priority NARA standalone pass completed May 23, 2026: extracted NAIDs 23901979, 23901998, and 441675758 as document-pages-plus-marker derivatives; NAID 147873387 blocked because only a withdrawal/redaction marker for the Yeltsin pull-aside item is present."
   },
   "publicStatements": {
     "sourceFile": "data/clinton-public-statements.json",
@@ -138,6 +142,14 @@
       }
     ]
   },
+  "compilerRiskAudit": {
+    "hardSourceGaps": 6,
+    "naraStandaloneExtractedCandidates": 3,
+    "naraStandaloneExtractedPages": 14,
+    "naraStandaloneBlockedNoReleasedPages": 1,
+    "strobeDateRiskRows": 4,
+    "publicStatementDateIssues": 2
+  },
   "sources": {
     "clintonText": "/private/tmp/clinton-foreign-meetings.txt",
     "strobeManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
@@ -147,6 +159,7 @@
     "clintonPublicStatementsAudit": "reports/clinton-public-statements-audit.json",
     "researchPlanOnlineSearch": "reports/research-plan-online-search.json",
     "nara7388808YeltsinSearch": "reports/nara-7388808-yeltsin-search.json",
+    "compilerRiskAudit": "reports/compiler-risk-audit.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",
     "pendingExtentVerificationRecheck": "reports/pending-extent-verification-recheck.json",

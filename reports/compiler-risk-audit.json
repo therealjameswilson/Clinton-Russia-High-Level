@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-05-23T13:42:21.686Z",
+  "scope": "Compiler-risk register for the Clinton-Russia High-Level FRUS evidence inventory. It separates direct Clinton-Yeltsin conversation gaps from broader standalone/context-document readiness.",
+  "coreConversationReadiness": {
+    "potentialDocuments": 91,
+    "countedDocuments": 85,
+    "pendingDocuments": 6,
+    "totalConversationPages": 445,
+    "extractedDerivativePdfs": 85,
+    "hardSourceGaps": [
+      {
+        "id": "contact-1993-04-01-telcon-03",
+        "date": "1993-04-01",
+        "type": "Telcon",
+        "title": "Telephone call with President Boris Yeltsin of Russia, April 1, 1993, Portland, Oregon",
+        "source": "2015-0782-M-1",
+        "sourcePdfPages": "No released April 1 telcon pages located in 2015-0782-M-1",
+        "action": "Archival follow-up required. Keep listed but uncounted until released actual conversation text is located."
+      },
+      {
+        "id": "contact-1994-06-03-telcon-19",
+        "date": "1994-06-03",
+        "type": "Telcon",
+        "title": "Telephone call with President Boris Yeltsin of Russia, June 3, 1994, Rome, Italy",
+        "source": "2015-0782-M-1",
+        "sourcePdfPages": "Marker/withdrawal packet pages 187-190 only; no released telcon pages",
+        "action": "Archival follow-up required. Keep listed but uncounted until released actual conversation text is located."
+      },
+      {
+        "id": "contact-1994-07-10-memcon-22",
+        "date": "1994-07-10",
+        "type": "Memcon",
+        "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1994, Naples Italy",
+        "source": "2015-0782-M-1",
+        "sourcePdfPages": "No released July 10, 1994 Naples memcon pages located in 2015-0782-M-1",
+        "action": "Archival follow-up required. Keep listed but uncounted until released actual conversation text is located."
+      },
+      {
+        "id": "contact-1998-09-01-memcon-63",
+        "date": "1998-09-01",
+        "type": "Memcon",
+        "title": "Meetings with President Boris Yeltsin of Russia, September 1-2, 1998, Moscow, Russia",
+        "source": "2015-0782-M-2",
+        "sourcePdfPages": "No released September 1-2, 1998 Moscow memcon pages located in 2015-0782-M-2",
+        "action": "Archival follow-up required. Keep listed but uncounted until released actual conversation text is located."
+      },
+      {
+        "id": "contact-1999-02-08-memcon-67",
+        "date": "1999-02-08",
+        "type": "Memcon",
+        "title": "Meeting with President Boris Yeltsin of Russia, February 8, 1999, Amman, Jordan",
+        "source": "2015-0782-M-2",
+        "sourcePdfPages": "No released February 8, 1999 Amman memcon pages located in 2015-0782-M-2",
+        "action": "Archival follow-up required. Keep listed but uncounted until released actual conversation text is located."
+      },
+      {
+        "id": "contact-2000-06-05-memcon-81",
+        "date": "2000-06-05",
+        "type": "Memcon",
+        "title": "Meeting with former President Boris Yeltsin of Russia, June 5, 2000, Moscow, Russia",
+        "source": "Clinton Library, Meetings and Telephone Calls with Foreign Leaders",
+        "sourcePdfPages": "Leader chronology lead only; no released memcon PDF located",
+        "action": "Archival follow-up required. Keep listed but uncounted until released actual conversation text is located."
+      }
+    ]
+  },
+  "naraStandaloneReadiness": {
+    "visibleCandidates": 23,
+    "extractedCandidates": 3,
+    "extractedStandalonePages": 14,
+    "blockedNoReleasedPages": 1,
+    "remainingPageLevelReview": 19,
+    "highPriorityRows": [
+      {
+        "id": "nara-7388808-23901979",
+        "naid": "23901979",
+        "date": "1994-01-20",
+        "title": "Telcon with President Ulmanis of Latvia discussing Clinton-Yeltsin Moscow talks",
+        "status": "Standalone extracted",
+        "sourcePdfPages": "7-10; marker page 1 appended",
+        "standalonePages": 4,
+        "localPdfPages": 5,
+        "pdfUrl": "public/documents/nara-23901979-clinton-ulmanis-telcon-context.pdf",
+        "sourcePdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-009-2015.pdf",
+        "extractionStatus": "Extracted standalone context document: actual Clinton-Ulmanis telcon pages 7-10 from the source PDF, with marker/provenance page 1 appended. Not counted as a Clinton-Yeltsin memcon/telcon page total."
+      },
+      {
+        "id": "nara-7388808-23901998",
+        "naid": "23901998",
+        "date": "1994-07-01",
+        "title": "Schedule proposal and Burns memo for telephone call to President Yeltsin",
+        "status": "Standalone extracted",
+        "sourcePdfPages": "6-8; marker page 1 appended",
+        "standalonePages": 3,
+        "localPdfPages": 4,
+        "pdfUrl": "public/documents/nara-23901998-yeltsin-call-support.pdf",
+        "sourcePdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-028-2015.pdf",
+        "extractionStatus": "Extracted standalone call-support document: schedule proposal pages 6-7 and Nicholas Burns memorandum page 8 from the source PDF, with marker/provenance page 1 appended. Not counted as a Clinton-Yeltsin memcon/telcon page total."
+      },
+      {
+        "id": "nara-7388808-147873387",
+        "naid": "147873387",
+        "date": "1994-12-04",
+        "title": "Budapest front-pocket points for pull-aside with President Yeltsin",
+        "status": "Standalone blocked - no released document pages",
+        "sourcePdfPages": "",
+        "standalonePages": null,
+        "localPdfPages": null,
+        "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585724-20140846F-002-015-2019.pdf",
+        "sourcePdfUrl": "",
+        "extractionStatus": "Blocked after page-level review: source PDF page 16 is the withdrawal/redaction marker for item 013, Points for Pull-Aside with President Yeltsin; no released Yeltsin pull-aside notecard pages are present. Do not create a derivative PDF unless released text is located."
+      },
+      {
+        "id": "nara-7388808-441675758",
+        "naid": "441675758",
+        "date": "1998-06-15",
+        "title": "Background and talking points for President's telephone call to Yeltsin on Kosovo",
+        "status": "Standalone extracted",
+        "sourcePdfPages": "17-23; marker page 1 appended",
+        "standalonePages": 7,
+        "localPdfPages": 8,
+        "pdfUrl": "public/documents/nara-441675758-yeltsin-kosovo-call-support.pdf",
+        "sourcePdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/26457815/26457815-20080994F-Seg3-016-006-2024.pdf",
+        "extractionStatus": "Extracted standalone call-support packet: Action Memorandum, Information Memorandum, and points for the President's June 15, 1998 telephone conversation with Yeltsin on Kosovo/Russian finance, source PDF pages 17-23, with marker/provenance page 1 appended. Earlier duplicate draft/admin pages excluded. Not counted as a Clinton-Yeltsin memcon/telcon page total."
+      }
+    ]
+  },
+  "strobeStandaloneReadiness": {
+    "visibleCandidates": 54,
+    "needsPageLevelExtraction": 54,
+    "dateRiskRows": [
+      {
+        "id": "strobe-c06835147",
+        "documentId": "C06835147",
+        "date": "1995-03-01",
+        "manifestDate": "2021-02-01",
+        "confidence": "low",
+        "title": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
+        "dateAuditNote": "Source PDF is undated and the manifest date is a release/date-ingest artifact. It is sorted under March 1995 as an undated Vancouver P-8 readout pending archival date confirmation."
+      },
+      {
+        "id": "strobe-c06698134",
+        "documentId": "C06698134",
+        "date": "1996-09-06",
+        "manifestDate": "2020-02-07",
+        "confidence": "source-text",
+        "title": "TELEPHONE CONVERSATION BETWEEN ACTING SECRETARY TALBOTT AND RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV FRIDAY, SEPTEMBER 6, 9:15 A.M.",
+        "dateAuditNote": "Source text dates the Talbott-Mamedov telephone conversation to Friday, September 6, 1996."
+      },
+      {
+        "id": "strobe-c06698975",
+        "documentId": "C06698975",
+        "date": "1996-10-19",
+        "manifestDate": "2020-02-07",
+        "confidence": "source-text",
+        "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
+        "dateAuditNote": "Source text dates the Talbott-Mamedov telephone conversation to Saturday, October 19, 1996."
+      },
+      {
+        "id": "strobe-c06703510",
+        "documentId": "C06703510",
+        "date": "1997-02-20",
+        "manifestDate": "2020-02-07",
+        "confidence": "inferred",
+        "title": "TALBOTT/CHUBAIS MEMCON",
+        "dateAuditNote": "Source PDF lacks a face-page date; displayed date is inferred from the text placing the Talbott-Chubais memcon after the Albright meetings with Chernomyrdin and Primakov in Moscow and before the Helsinki summit."
+      }
+    ]
+  },
+  "publicStatementsReadiness": {
+    "visibleRecords": 334,
+    "publicPapersPages": 1117,
+    "normalizedPrintedDateIssues": [
+      {
+        "accessId": "PPP-1993-book1-doc-pg1037",
+        "title": "The President's News Conference in Tokyo",
+        "printedDate": "1992-07-09",
+        "normalizedDate": "1993-07-09"
+      },
+      {
+        "accessId": "PPP-1993-book1-doc-pg1046-2",
+        "title": "The President's News Conference with President Boris Yeltsin of Russia in Tokyo",
+        "printedDate": "1992-07-10",
+        "normalizedDate": "1993-07-10"
+      }
+    ]
+  },
+  "followUpPriorities": [
+    "Resolve the six direct Clinton-Yeltsin pending source gaps through archival, MDR, or FOIA follow-up; do not substitute support material.",
+    "Extract medium-priority NARA standalone records only after selecting the actual document pages and appending the source marker/provenance sheet.",
+    "Page-review Strobe standalone candidates before chronological or source-note use; date-risk rows require PDF face-page or archival control confirmation.",
+    "Prune Public Papers records to statements that directly support selected FRUS documents before final production."
+  ]
+}

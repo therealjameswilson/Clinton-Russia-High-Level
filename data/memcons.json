@@ -8902,6 +8902,68 @@
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694734."
   },
   {
+    "id": "strobe-c06835147",
+    "date": "1995-03-01",
+    "sortDate": "1995-03-01",
+    "strobeManifestDate": "2021-02-01",
+    "dateConfidence": "low",
+    "dateAuditNote": "Source PDF is undated and the manifest date is a release/date-ingest artifact. It is sorted under March 1995 as an undated Vancouver P-8 readout pending archival date confirmation.",
+    "type": "Context",
+    "title": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
+    "documentTitle": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06835147",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835147/C06835147.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1995-03-01 (low date audit; Strobe manifest/index date 2021-02-01)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06835147; release status UNKNOWN. Manifest/index date 2021-02-01; displayed document date 1995-03-01 inferred from the title or duplicate cluster. Date audit: Source PDF is undated and the manifest date is a release/date-ingest artifact. It is sorted under March 1995 as an undated Vancouver P-8 readout pending archival date confirmation. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 115,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 115,
+    "strobeStandaloneClusterKey": "strobe-standalone|2021-02-01|russia-related-stuff-from-notes-of-p-staff-dave-goldwyn-readout-from-vancouver-p8-meetings",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page. Date remains low-confidence and must be verified before chronological use.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835147."
+  },
+  {
     "id": "strobe-pdf-c06835149-1cjc7so",
     "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835149/C06835149.pdf",
     "date": "1995-06-12",
@@ -10822,6 +10884,8 @@
     "date": "1996-09-06",
     "sortDate": "1996-09-06",
     "strobeManifestDate": "2020-02-07",
+    "dateConfidence": "source-text",
+    "dateAuditNote": "Source text dates the Talbott-Mamedov telephone conversation to Friday, September 6, 1996.",
     "type": "Context",
     "title": "TELEPHONE CONVERSATION BETWEEN ACTING SECRETARY TALBOTT AND RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV FRIDAY, SEPTEMBER 6, 9:15 A.M.",
     "documentTitle": "TELEPHONE CONVERSATION BETWEEN ACTING SECRETARY TALBOTT AND RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV FRIDAY, SEPTEMBER 6, 9:15 A.M.",
@@ -10841,14 +10905,14 @@
     "pageCount": null,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
-    "dateLine": "1996-09-06 (document date inferred; Strobe manifest/index date 2020-02-07)",
+    "dateLine": "1996-09-06 (source-text date audit; Strobe manifest/index date 2020-02-07)",
     "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
     "source": {
       "name": "Strobe Talbott FOIA manifest",
       "caseNumber": "F-2017-13804",
       "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
     },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698134; release status RELEASE IN FULL. Manifest/index date 2020-02-07; displayed document date 1996-09-06 inferred from the title or duplicate cluster. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 3 additional Strobe source-copy candidate(s) were folded into this row: C06698356, C06698358, C06698360.",
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698134; release status RELEASE IN FULL. Manifest/index date 2020-02-07; displayed document date 1996-09-06 inferred from the title or duplicate cluster. Date audit: Source text dates the Talbott-Mamedov telephone conversation to Friday, September 6, 1996. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source. Deduplication: 3 additional Strobe source-copy candidate(s) were folded into this row: C06698356, C06698358, C06698360.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -11394,6 +11458,68 @@
     },
     "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698972."
+  },
+  {
+    "id": "strobe-c06698975",
+    "date": "1996-10-19",
+    "sortDate": "1996-10-19",
+    "strobeManifestDate": "2020-02-07",
+    "dateConfidence": "source-text",
+    "dateAuditNote": "Source text dates the Talbott-Mamedov telephone conversation to Saturday, October 19, 1996.",
+    "type": "Context",
+    "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
+    "documentTitle": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06698975",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698975/C06698975.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1996-10-19 (source-text date audit; Strobe manifest/index date 2020-02-07)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698975; release status RELEASE IN FULL. Manifest/index date 2020-02-07; displayed document date 1996-10-19 inferred from the title or duplicate cluster. Date audit: Source text dates the Talbott-Mamedov telephone conversation to Saturday, October 19, 1996. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 170,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 170,
+    "strobeStandaloneClusterKey": "strobe-standalone|2020-02-07|the-deputy-secretary-s-conversation-with-deputy-foreign-minister-mamedov",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698975."
   },
   {
     "id": "strobe-c06698745",
@@ -12414,6 +12540,70 @@
     },
     "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06702916."
+  },
+  {
+    "id": "strobe-c06703510",
+    "date": "1997-02-20",
+    "sortDate": "1997-02-20",
+    "strobeManifestDate": "2020-02-07",
+    "dateConfidence": "inferred",
+    "dateAuditNote": "Source PDF lacks a face-page date; displayed date is inferred from the text placing the Talbott-Chubais memcon after the Albright meetings with Chernomyrdin and Primakov in Moscow and before the Helsinki summit.",
+    "type": "Context",
+    "title": "TALBOTT/CHUBAIS MEMCON",
+    "documentTitle": "TALBOTT/CHUBAIS MEMCON",
+    "participants": [],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 3,
+      "name": "Talbott FOIA Context"
+    },
+    "releaseStatus": "Standalone Candidate",
+    "naid": "C06703510",
+    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703510/C06703510.pdf",
+    "pageCount": null,
+    "countStatus": "Standalone extent pending",
+    "potentialFrusDocument": true,
+    "dateLine": "1997-02-20 (inferred date audit; Strobe manifest/index date 2020-02-07)",
+    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
+    "source": {
+      "name": "Strobe Talbott FOIA manifest",
+      "caseNumber": "F-2017-13804",
+      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+    },
+    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703510; release status RELEASE IN FULL. Manifest/index date 2020-02-07; displayed document date 1997-02-20 inferred from the title or duplicate cluster. Date audit: Source PDF lacks a face-page date; displayed date is inferred from the text placing the Talbott-Chubais memcon after the Albright meetings with Chernomyrdin and Primakov in Moscow and before the Helsinki summit. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Chubais",
+      "Potential standalone FRUS document"
+    ],
+    "topics": [
+      "Talbott FOIA",
+      "Russia policy context",
+      "Chubais",
+      "Potential standalone FRUS document"
+    ],
+    "relevanceScore": 230,
+    "strobeStandaloneCandidate": true,
+    "strobeStandaloneScore": 230,
+    "strobeStandaloneClusterKey": "strobe-standalone|2020-02-07|talbott-chubais-memcon",
+    "extractionRule": {
+      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
+      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
+      "markerPosition": "append-last"
+    },
+    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
+    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703510."
   },
   {
     "id": "strobe-c06702920",
@@ -16966,126 +17156,6 @@
     "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06814955."
   },
   {
-    "id": "strobe-c06703510",
-    "date": "2020-02-07",
-    "sortDate": "2020-02-07",
-    "type": "Context",
-    "title": "TALBOTT/CHUBAIS MEMCON",
-    "documentTitle": "TALBOTT/CHUBAIS MEMCON",
-    "participants": [],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 3,
-      "name": "Talbott FOIA Context"
-    },
-    "releaseStatus": "Standalone Candidate",
-    "naid": "C06703510",
-    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703510/C06703510.pdf",
-    "pageCount": null,
-    "countStatus": "Standalone extent pending",
-    "potentialFrusDocument": true,
-    "dateLine": "2020-02-07",
-    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
-    "source": {
-      "name": "Strobe Talbott FOIA manifest",
-      "caseNumber": "F-2017-13804",
-      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
-    },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06703510; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Chubais",
-      "Potential standalone FRUS document"
-    ],
-    "topics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Chubais",
-      "Potential standalone FRUS document"
-    ],
-    "relevanceScore": 230,
-    "strobeStandaloneCandidate": true,
-    "strobeStandaloneScore": 230,
-    "strobeStandaloneClusterKey": "strobe-standalone|2020-02-07|talbott-chubais-memcon",
-    "extractionRule": {
-      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
-      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
-      "markerPosition": "append-last"
-    },
-    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06703510."
-  },
-  {
-    "id": "strobe-c06698975",
-    "date": "2020-02-07",
-    "sortDate": "2020-02-07",
-    "type": "Context",
-    "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
-    "documentTitle": "THE DEPUTY SECRETARY'S CONVERSATION WITH DEPUTY FOREIGN MINISTER MAMEDON",
-    "participants": [],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 3,
-      "name": "Talbott FOIA Context"
-    },
-    "releaseStatus": "Standalone Candidate",
-    "naid": "C06698975",
-    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698975/C06698975.pdf",
-    "pageCount": null,
-    "countStatus": "Standalone extent pending",
-    "potentialFrusDocument": true,
-    "dateLine": "2020-02-07",
-    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
-    "source": {
-      "name": "Strobe Talbott FOIA manifest",
-      "caseNumber": "F-2017-13804",
-      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
-    },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06698975; release status RELEASE IN FULL. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Potential standalone FRUS document"
-    ],
-    "topics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Potential standalone FRUS document"
-    ],
-    "relevanceScore": 170,
-    "strobeStandaloneCandidate": true,
-    "strobeStandaloneScore": 170,
-    "strobeStandaloneClusterKey": "strobe-standalone|2020-02-07|the-deputy-secretary-s-conversation-with-deputy-foreign-minister-mamedov",
-    "extractionRule": {
-      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
-      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
-      "markerPosition": "append-last"
-    },
-    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06698975."
-  },
-  {
     "id": "strobe-pdf-c06835143-14wx5nw",
     "dedupeKey": "strobe-pdf-url|https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835143/C06835143.pdf",
     "date": "2021-02-01",
@@ -17227,65 +17297,6 @@
     "strobeManifestStatuses": [
       "Local Strobe manifest title hit for Yeltsin or the Clinton-Yeltsin channel."
     ]
-  },
-  {
-    "id": "strobe-c06835147",
-    "date": "2021-02-01",
-    "sortDate": "2021-02-01",
-    "type": "Context",
-    "title": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
-    "documentTitle": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
-    "participants": [],
-    "countries": [
-      "United States",
-      "Russia"
-    ],
-    "chapter": {
-      "number": 3,
-      "name": "Talbott FOIA Context"
-    },
-    "releaseStatus": "Standalone Candidate",
-    "naid": "C06835147",
-    "catalogUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
-    "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835147/C06835147.pdf",
-    "pageCount": null,
-    "countStatus": "Standalone extent pending",
-    "potentialFrusDocument": true,
-    "dateLine": "2021-02-01",
-    "subjectLine": "Potential standalone FRUS document from the Strobe Talbott FOIA manifest; verify actual pages and source-copy duplicates before counting.",
-    "source": {
-      "name": "Strobe Talbott FOIA manifest",
-      "caseNumber": "F-2017-13804",
-      "url": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
-    },
-    "sourceNote": "Source: Department of State FOIA Library, Strobe Talbott FOIA case F-2017-13804, document C06835147; release status UNKNOWN. Standalone-candidate audit: selected by the May 22, 2026 Strobe manifest pass because the title describes a Russia-policy memcon, telcon, meeting, conversation, one-on-one, bilateral, or read-out that could stand as a FRUS document or editorial note source.",
-    "frusVolume": {
-      "id": "frus1993-00v18",
-      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
-      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
-      "status": "Planned; not yet compiled or scheduled"
-    },
-    "frusTopics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Potential standalone FRUS document"
-    ],
-    "topics": [
-      "Talbott FOIA",
-      "Russia policy context",
-      "Potential standalone FRUS document"
-    ],
-    "relevanceScore": 115,
-    "strobeStandaloneCandidate": true,
-    "strobeStandaloneScore": 115,
-    "strobeStandaloneClusterKey": "strobe-standalone|2021-02-01|russia-related-stuff-from-notes-of-p-staff-dave-goldwyn-readout-from-vancouver-p8-meetings",
-    "extractionRule": {
-      "rule": "Derivative PDFs must contain only the pages of the actual memcon or telcon, followed by the original source marker page as a provenance sheet.",
-      "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
-      "markerPosition": "append-last"
-    },
-    "extractionStatus": "Standalone lead only: source PDF needs page-level review. If adopted, extract only the actual standalone document pages and append the State FOIA marker/provenance page.",
-    "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835147."
   },
   {
     "id": "strobe-pdf-c06835134-2stv00",
@@ -44748,6 +44759,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/90/9021/23902190/content/presidential-libraries/clinton/foia/2011-1038-F/2011-1038-F-PDF/Box_003/42-t-26457815-20111038F-003-014-2015.pdf",
     "pageCount": null,
     "packetPageCount": 11,
+    "standalonePageCount": null,
     "digitalObjects": 12,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -44866,6 +44878,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-001-035-2016.pdf",
     "pageCount": null,
     "packetPageCount": 9,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -45067,6 +45080,7 @@
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-010-034-2015.pdf",
     "pageCount": null,
     "packetPageCount": 6,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -45947,15 +45961,20 @@
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Standalone Candidate",
+    "releaseStatus": "Standalone Extracted",
     "naid": "23901979",
     "catalogUrl": "https://catalog.archives.gov/id/23901979",
-    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-009-2015.pdf",
+    "pdfUrl": "public/documents/nara-23901979-clinton-ulmanis-telcon-context.pdf",
+    "sourcePdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-009-2015.pdf",
     "pageCount": null,
     "packetPageCount": 10,
+    "standalonePageCount": 4,
     "digitalObjects": 1,
-    "countStatus": "Standalone extent pending",
+    "countStatus": "Standalone extracted",
     "potentialFrusDocument": true,
+    "sourcePdfPages": "7-10; marker page 1 appended",
+    "markerPage": 1,
+    "localPdfPageCount": 5,
     "dateLine": "January 20, 1994; Related leader telcon - not Clinton-Yeltsin; NAID 23901979; 10 PDF pages",
     "subjectLine": "Actual Clinton-Ulmanis telcon on Baltic troop withdrawal that discusses Clinton's Moscow discussions with Yeltsin; useful context, but not counted as a Clinton-Yeltsin conversation.",
     "source": {
@@ -45970,7 +45989,7 @@
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Potential standalone FRUS document (high priority): 10-page source PDF. Withdrawal sheet lists a 4-page telcon with President Ulmanis; extract the actual telcon pages plus marker/provenance if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+    "extractionStatus": "Extracted standalone context document: actual Clinton-Ulmanis telcon pages 7-10 from the source PDF, with marker/provenance page 1 appended. Not counted as a Clinton-Yeltsin memcon/telcon page total.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -46039,11 +46058,17 @@
       },
       "snippet": "The President: This is President Clinton. (U) President Ulmanis: I am very pleased to hear your voice. (U) The President: I wanted to call and discuss with you the useful and productive discussions I had with President Yeltsin in Moscow on troop withdrawal from Latvia. TC President Ulmanis: I am very grateful for your call. I am very pleased with your call, especially since, with this great natural catastrophe in California, you could find ti",
       "researchUse": "Actual Clinton-Ulmanis telcon on Baltic troop withdrawal that discusses Clinton's Moscow discussions with Yeltsin; useful context, but not counted as a Clinton-Yeltsin conversation.",
-      "extractionStatus": "Potential standalone FRUS document (high priority): 10-page source PDF. Withdrawal sheet lists a 4-page telcon with President Ulmanis; extract the actual telcon pages plus marker/provenance if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "extractionStatus": "Extracted standalone context document: actual Clinton-Ulmanis telcon pages 7-10 from the source PDF, with marker/provenance page 1 appended. Not counted as a Clinton-Yeltsin memcon/telcon page total.",
       "potentialStandaloneCandidate": true,
       "standaloneCandidatePriority": "high",
       "standaloneCandidateReason": "Actual Clinton telcon with a foreign leader that directly summarizes Clinton-Yeltsin Moscow discussions on Latvian troop withdrawal; not a Clinton-Yeltsin telcon, but high-value standalone context.",
       "candidateDocumentExtent": "10-page source PDF. Withdrawal sheet lists a 4-page telcon with President Ulmanis; extract the actual telcon pages plus marker/provenance if selected.",
+      "standalonePdfUrl": "public/documents/nara-23901979-clinton-ulmanis-telcon-context.pdf",
+      "standalonePageCount": 4,
+      "localPdfPageCount": 5,
+      "markerPage": 1,
+      "sourcePdfPages": "7-10; marker page 1 appended",
+      "countStatus": "Standalone extracted",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -46074,6 +46099,7 @@
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-011-2015.pdf",
     "pageCount": null,
     "packetPageCount": 11,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -46192,6 +46218,7 @@
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-012-2015.pdf",
     "pageCount": null,
     "packetPageCount": 9,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -46310,6 +46337,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-002-020-2016.pdf",
     "pageCount": null,
     "packetPageCount": 10,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -46422,15 +46450,20 @@
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Standalone Candidate",
+    "releaseStatus": "Standalone Extracted",
     "naid": "23901998",
     "catalogUrl": "https://catalog.archives.gov/id/23901998",
-    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-028-2015.pdf",
+    "pdfUrl": "public/documents/nara-23901998-yeltsin-call-support.pdf",
+    "sourcePdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-028-2015.pdf",
     "pageCount": null,
     "packetPageCount": 8,
+    "standalonePageCount": 3,
     "digitalObjects": 1,
-    "countStatus": "Standalone extent pending",
+    "countStatus": "Standalone extracted",
     "potentialFrusDocument": true,
+    "sourcePdfPages": "6-8; marker page 1 appended",
+    "markerPage": 1,
+    "localPdfPageCount": 4,
     "dateLine": "July 1, 1994; Direct Clinton-Yeltsin call support; NAID 23901998; 8 PDF pages",
     "subjectLine": "Schedule proposal and Nicholas Burns memorandum for the July 1994 telephone call to Yeltsin; direct call support, not the call transcript.",
     "source": {
@@ -46445,7 +46478,7 @@
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Potential standalone FRUS document (high priority): 8-page source PDF. Withdrawal sheet lists a 2-page schedule proposal and 1-page Nicholas Burns memo for a telephone call to President Yeltsin; extract only those support documents plus marker if used. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+    "extractionStatus": "Extracted standalone call-support document: schedule proposal pages 6-7 and Nicholas Burns memorandum page 8 from the source PDF, with marker/provenance page 1 appended. Not counted as a Clinton-Yeltsin memcon/telcon page total.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -46510,11 +46543,17 @@
       },
       "snippet": "ID: 9405332 Stack: Row: Section: Shelf: Position: V 44 4 5 2 Withdrawal/Redaction Sheet Clinton Library DOCUMENT NO. SUBJECT/TITLE DATE RESTRICTION AND TYPE 001 a. form Schedule Proposal for Telephone Call to President Yeltsin of Russia 07/01/1994 P1/b(1) VZ 9/21/2023 (2 pages) 001b memo Nicholas Burns to Anthony Lake, re: Proposed Telephone Call to 07/01/1994 P1/b(1) VZ 9/21/2023 President Yeltsin (1 page) COLLECTION: Clinton Presidential Re",
       "researchUse": "Schedule proposal and Nicholas Burns memorandum for the July 1994 telephone call to Yeltsin; direct call support, not the call transcript.",
-      "extractionStatus": "Potential standalone FRUS document (high priority): 8-page source PDF. Withdrawal sheet lists a 2-page schedule proposal and 1-page Nicholas Burns memo for a telephone call to President Yeltsin; extract only those support documents plus marker if used. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "extractionStatus": "Extracted standalone call-support document: schedule proposal pages 6-7 and Nicholas Burns memorandum page 8 from the source PDF, with marker/provenance page 1 appended. Not counted as a Clinton-Yeltsin memcon/telcon page total.",
       "potentialStandaloneCandidate": true,
       "standaloneCandidatePriority": "high",
       "standaloneCandidateReason": "Direct call-support packet for a Clinton-Yeltsin telephone call before Riga, Warsaw, and the Naples Summit.",
       "candidateDocumentExtent": "8-page source PDF. Withdrawal sheet lists a 2-page schedule proposal and 1-page Nicholas Burns memo for a telephone call to President Yeltsin; extract only those support documents plus marker if used.",
+      "standalonePdfUrl": "public/documents/nara-23901998-yeltsin-call-support.pdf",
+      "standalonePageCount": 3,
+      "localPdfPageCount": 4,
+      "markerPage": 1,
+      "sourcePdfPages": "6-8; marker page 1 appended",
+      "countStatus": "Standalone extracted",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -46719,8 +46758,9 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585724-20140846F-002-015-2019.pdf",
     "pageCount": null,
     "packetPageCount": 39,
+    "standalonePageCount": null,
     "digitalObjects": 1,
-    "countStatus": "Standalone extent pending",
+    "countStatus": "Standalone blocked - no released document pages",
     "potentialFrusDocument": true,
     "dateLine": "December 4, 1994; Summit pull-aside support; NAID 147873387; 39 PDF pages",
     "subjectLine": "Front-pocket briefing-book file lists three pages of points for a pull-aside with President Yeltsin at Budapest; high-value summit support lead.",
@@ -46736,7 +46776,7 @@
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Potential standalone FRUS document (high priority): 39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+    "extractionStatus": "Blocked after page-level review: source PDF page 16 is the withdrawal/redaction marker for item 013, Points for Pull-Aside with President Yeltsin; no released Yeltsin pull-aside notecard pages are present. Do not create a derivative PDF unless released text is located.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -46763,6 +46803,7 @@
     "standaloneCandidatePriority": "high",
     "standaloneCandidateReason": "Direct summit pull-aside support for Clinton and Yeltsin at Budapest.",
     "candidateDocumentExtent": "39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected.",
+    "standaloneExtractionBlocked": true,
     "naraSearchCategory": "Summit pull-aside support",
     "catalogTitle": "POTUS Briefing Books -The President's Trip to Budapest; December 5, 1994 [Binder]: [Front Interior Pocket]",
     "caseNumber": "LPWJC 2014-0846-F",
@@ -46799,11 +46840,13 @@
       },
       "snippet": "ard Points for Pull-Aside with President Nazabayev. (2 pages) 12/04/1994 P1/b(1) 012. notecard Points for Pull-Aside with President Kuchma. (3 pages) 12/04/1994 P1/b(1) 013. notecard Points for Pull-Aside with President Yeltsin. (3 pages) 12/04/1994 P1/b(1) COLLECTION: Clinton Presidential Records National Security Council Records Management OA/Box Number: 811 FOLDER TITLE: POTUS Briefing Books-The President's Trip to Budapest, Hungary; Decemb",
       "researchUse": "Front-pocket briefing-book file lists three pages of points for a pull-aside with President Yeltsin at Budapest; high-value summit support lead.",
-      "extractionStatus": "Potential standalone FRUS document (high priority): 39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "extractionStatus": "Blocked after page-level review: source PDF page 16 is the withdrawal/redaction marker for item 013, Points for Pull-Aside with President Yeltsin; no released Yeltsin pull-aside notecard pages are present. Do not create a derivative PDF unless released text is located.",
       "potentialStandaloneCandidate": true,
       "standaloneCandidatePriority": "high",
       "standaloneCandidateReason": "Direct summit pull-aside support for Clinton and Yeltsin at Budapest.",
       "candidateDocumentExtent": "39-page source PDF. Withdrawal sheet lists 3 pages of Points for Pull-Aside with President Yeltsin; extract those pages plus marker/provenance if selected.",
+      "standaloneExtractionBlocked": true,
+      "countStatus": "Standalone blocked - no released document pages",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -46834,6 +46877,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2014/2014-0846-F/42-t-7585724-20140846F-002-014-2019.pdf",
     "pageCount": null,
     "packetPageCount": 45,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -47822,6 +47866,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-003-027-2016.pdf",
     "pageCount": null,
     "packetPageCount": 144,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -47942,6 +47987,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2022/Batch0002/7585721-20060996F-015-003-2022.pdf",
     "pageCount": null,
     "packetPageCount": 132,
+    "standalonePageCount": null,
     "digitalObjects": 133,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -48225,6 +48271,7 @@
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-011-051-2015.pdf",
     "pageCount": null,
     "packetPageCount": 10,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -48345,6 +48392,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2022/Batch0002/7585721-20060996F-007-001-2022.pdf",
     "pageCount": null,
     "packetPageCount": 139,
+    "standalonePageCount": null,
     "digitalObjects": 140,
     "countStatus": "Research lead only",
     "potentialFrusDocument": false,
@@ -48449,6 +48497,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2022/Batch0002/7585721-20060996F-007-002-2022.pdf",
     "pageCount": null,
     "packetPageCount": 102,
+    "standalonePageCount": null,
     "digitalObjects": 103,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -48740,6 +48789,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2022/Batch0002/7585721-20060996F-012-003-2022.pdf",
     "pageCount": null,
     "packetPageCount": 133,
+    "standalonePageCount": null,
     "digitalObjects": 134,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -48855,6 +48905,7 @@
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/26457815/26457815-20060326F-016-016-2024.pdf",
     "pageCount": null,
     "packetPageCount": 8,
+    "standalonePageCount": null,
     "digitalObjects": 9,
     "countStatus": "Research lead only",
     "potentialFrusDocument": false,
@@ -48958,6 +49009,7 @@
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-012-012-2015.pdf",
     "pageCount": null,
     "packetPageCount": 10,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -49078,6 +49130,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-005-006-2016.pdf",
     "pageCount": null,
     "packetPageCount": 18,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -49199,6 +49252,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-005-005-2016.pdf",
     "pageCount": null,
     "packetPageCount": 23,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -49319,6 +49373,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-005-015-2016.pdf",
     "pageCount": null,
     "packetPageCount": 6,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -49439,6 +49494,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/11/4847/40484711/content/presidential-libraries/clinton/foia/2006/2006-1363-F-Seg-1/2006-1363-F-Seg-1-PDF/Box_11/42-t-26457815-20061363F-Seg1-011-001-2016.pdf",
     "pageCount": null,
     "packetPageCount": 49,
+    "standalonePageCount": null,
     "digitalObjects": 50,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -49553,15 +49609,20 @@
       "number": 5,
       "name": "NARA Scout Leads"
     },
-    "releaseStatus": "Standalone Candidate",
+    "releaseStatus": "Standalone Extracted",
     "naid": "441675758",
     "catalogUrl": "https://catalog.archives.gov/id/441675758",
-    "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/26457815/26457815-20080994F-Seg3-016-006-2024.pdf",
+    "pdfUrl": "public/documents/nara-441675758-yeltsin-kosovo-call-support.pdf",
+    "sourcePdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/26457815/26457815-20080994F-Seg3-016-006-2024.pdf",
     "pageCount": null,
     "packetPageCount": 23,
+    "standalonePageCount": 7,
     "digitalObjects": 1,
-    "countStatus": "Standalone extent pending",
+    "countStatus": "Standalone extracted",
     "potentialFrusDocument": true,
+    "sourcePdfPages": "17-23; marker page 1 appended",
+    "markerPage": 1,
+    "localPdfPageCount": 8,
     "dateLine": "June 15, 1998; Direct Clinton-Yeltsin call support; NAID 441675758; 23 PDF pages",
     "subjectLine": "Berger/Sperling packet and talking points for the June 15, 1998 POTUS-Yeltsin call on Kosovo; confirms the call-support file and themes.",
     "source": {
@@ -49576,7 +49637,7 @@
       "exclude": "Do not include surrounding talking points, briefing memos, correspondence, finding-aid pages, or withdrawal sheets as document pages.",
       "markerPosition": "append-last"
     },
-    "extractionStatus": "Potential standalone FRUS document (high priority): 23-page source PDF. RMO profile and packet contain talking points/background for the June 15, 1998 telephone call to Yeltsin on Kosovo; extract only call-support pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+    "extractionStatus": "Extracted standalone call-support packet: Action Memorandum, Information Memorandum, and points for the President's June 15, 1998 telephone conversation with Yeltsin on Kosovo/Russian finance, source PDF pages 17-23, with marker/provenance page 1 appended. Earlier duplicate draft/admin pages excluded. Not counted as a Clinton-Yeltsin memcon/telcon page total.",
     "frusVolume": {
       "id": "frus1993-00v18",
       "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
@@ -49642,11 +49703,17 @@
       },
       "snippet": "Section: Shelf: Position: V 45 5 4 2 CONFIDENTIAL RECORD ID: 9804329 NSC/RMO PROFILE RECEIVED: 13 JUN 98 12 TO: PRESIDENT FROM: BERGER DOC DATE: 15 JUN 98 SPERLING, G SOURCE REF: KEYWORDS: RUSSIA KOSOVO TELCALL PERSONS: YELTSIN, BORIS SUBJECT: BACKGROUND INFO FOR PRES 15 JUN TELCALL TO PRES YELTSIN RE KOSOVO ACTION: ORIGINAL MTG CARDS RETURNED DUE DATE: 19 JUN 98 STATUS: C STAFF OFFICER: DOWLING LOGREF: FILES: WH NSCP: CODES: DOCUMENT DISTRIBU",
       "researchUse": "Berger/Sperling packet and talking points for the June 15, 1998 POTUS-Yeltsin call on Kosovo; confirms the call-support file and themes.",
-      "extractionStatus": "Potential standalone FRUS document (high priority): 23-page source PDF. RMO profile and packet contain talking points/background for the June 15, 1998 telephone call to Yeltsin on Kosovo; extract only call-support pages plus marker. Not counted as a Clinton-Yeltsin memcon/telcon page total unless a released actual conversation transcript is identified.",
+      "extractionStatus": "Extracted standalone call-support packet: Action Memorandum, Information Memorandum, and points for the President's June 15, 1998 telephone conversation with Yeltsin on Kosovo/Russian finance, source PDF pages 17-23, with marker/provenance page 1 appended. Earlier duplicate draft/admin pages excluded. Not counted as a Clinton-Yeltsin memcon/telcon page total.",
       "potentialStandaloneCandidate": true,
       "standaloneCandidatePriority": "high",
       "standaloneCandidateReason": "Direct call-support packet for the Clinton-Yeltsin Kosovo telephone call; the actual telcon is counted elsewhere.",
       "candidateDocumentExtent": "23-page source PDF. RMO profile and packet contain talking points/background for the June 15, 1998 telephone call to Yeltsin on Kosovo; extract only call-support pages plus marker.",
+      "standalonePdfUrl": "public/documents/nara-441675758-yeltsin-kosovo-call-support.pdf",
+      "standalonePageCount": 7,
+      "localPdfPageCount": 8,
+      "markerPage": 1,
+      "sourcePdfPages": "17-23; marker page 1 appended",
+      "countStatus": "Standalone extracted",
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
@@ -49677,6 +49744,7 @@
     "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20111037F-012-041-2015.pdf",
     "pageCount": null,
     "packetPageCount": 27,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -49999,6 +50067,7 @@
     "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/systematic/2015-0183-S/42-t-7585721-20150183S-007-001-2016.pdf",
     "pageCount": null,
     "packetPageCount": 33,
+    "standalonePageCount": null,
     "digitalObjects": 1,
     "countStatus": "Standalone extent pending",
     "potentialFrusDocument": true,
@@ -50809,7 +50878,11 @@
         "potentialStandaloneCandidates": 23,
         "potentialStandalonePacketPdfPages": 868,
         "researchLeadOnlyRecords": 2,
-        "pageCountAudit": "PDF packet page counts verified with pdfinfo on May 22, 2026; NAID 23901979 corrected from the initial 8-page API/OCR count to 10 PDF pages."
+        "pageCountAudit": "PDF packet page counts verified with pdfinfo on May 22, 2026; NAID 23901979 corrected from the initial 8-page API/OCR count to 10 PDF pages.",
+        "standaloneExtractedCandidates": 3,
+        "standaloneExtractedDocumentPages": 14,
+        "standaloneBlockedNoReleasedPages": 1,
+        "standaloneExtractionAudit": "High-priority NARA standalone pass completed May 23, 2026: extracted NAIDs 23901979, 23901998, and 441675758 as document-pages-plus-marker derivatives; NAID 147873387 blocked because only a withdrawal/redaction marker for the Yeltsin pull-aside item is present."
       },
       "flagCounts": {
         "titleYeltsin": 2,
