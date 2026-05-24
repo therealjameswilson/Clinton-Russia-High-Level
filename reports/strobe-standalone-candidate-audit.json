@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T13:42:21.685Z",
+  "generatedAt": "2026-05-24T12:54:05.331Z",
   "sourceManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
   "liveManifest": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
   "rule": "A Strobe standalone lead must match a conversation/meeting/read-out title pattern and a Russia/Russia-policy title pattern, while excluding obvious planning, speech, press, background, agenda, and message records. Clinton-Yeltsin title hits are handled in the Strobe manifest PDF source-copy lane.",
@@ -877,7 +877,7 @@
       "id": "C06771178",
       "date": "1999-04-07",
       "title": "Memorandum of Conversation Talbott/Avdeyev - First Meeting Breakfast Hotel Royal Windsor, Brussels, Beligum",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771178/C06771178.pdf",
       "score": 230,
       "clusterKey": "strobe-standalone|talbott-avdeyev-first-1999-04-07"
@@ -886,7 +886,7 @@
       "id": "C06771179",
       "date": "1999-04-07",
       "title": "Memorandum of Conversation Talbott/Avdeyev - First Meeting Breakfast Hotel Royal Windsor, Brussels, Beligum",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771179/C06771179.pdf",
       "score": 230,
       "clusterKey": "strobe-standalone|talbott-avdeyev-first-1999-04-07"
@@ -895,7 +895,7 @@
       "id": "C06771181",
       "date": "2009-04-07",
       "title": "Memorandum of Conversation Talbott/Avdeyev - Second Meeting - Russian Embassy Brussels, Beligum",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771181/C06771181.pdf",
       "score": 230,
       "clusterKey": "strobe-standalone|talbott-avdeyev-second-1999-04-07"
@@ -1201,7 +1201,7 @@
       "id": "C06771295",
       "date": "1999-02-19",
       "title": "THE ACTING SECRETARY'S FEBRUARY 19 CONVERSATION WITH RUSSIAN AMBASSADOR TO THE U.S. USHAKOV",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771295/C06771295.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-ushakov-1999-02-19"
@@ -1210,7 +1210,7 @@
       "id": "C06771020",
       "date": "1999-02-21",
       "title": "THE ACTING SECRETARY?S FEBRUARY 19 CONVERSATION WITH RUSSIAN AMBASSADOR TO THE U.S. USHAKOV",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771020/C06771020.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-ushakov-1999-02-19"
@@ -1219,7 +1219,7 @@
       "id": "C06771889",
       "date": "1999-04-22",
       "title": "THE DEPUTY SECRETARY'S APRIL 16 CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER ABDEYEV",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771889/C06771889.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-avdeyev-1999-04-16"
@@ -1228,7 +1228,7 @@
       "id": "C06771892",
       "date": "1999-04-22",
       "title": "THE DEPUTY SECRETARY'S APRIL 16 CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER ABDEYEV",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771892/C06771892.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-avdeyev-1999-04-16"
@@ -1237,7 +1237,7 @@
       "id": "C06772062",
       "date": "1999-04-23",
       "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772062/C06772062.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-ushakov-1999-04-23"
@@ -1246,7 +1246,7 @@
       "id": "C06772072",
       "date": "1999-04-23",
       "title": "DEPUTY SECRETARY'S 04/23 CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772072/C06772072.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-ushakov-1999-04-23"
@@ -1255,7 +1255,7 @@
       "id": "C06771911",
       "date": "1999-04-26",
       "title": "DEPUTY SECRETARY'S 04/23 CONVERSATION WITH RUSSIAN AMBASSADOR USHAKOV",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771911/C06771911.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-ushakov-1999-04-23"
@@ -1264,7 +1264,7 @@
       "id": "C06771397",
       "date": "1999-05-06",
       "title": "THE ACTING SECRETARY'S CONVERSATION WITH CHERNOMYRDIN",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771397/C06771397.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-chernomyrdin-1999-05-06"
@@ -1273,7 +1273,7 @@
       "id": "C06771454",
       "date": "1999-05-06",
       "title": "THE ACTING SECRETARY'S MAY 6 CONVERSATION WITH RUSSIAN SPECIAL ENVOY ON KOSOVO CHERNOMYRDIN",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771454/C06771454.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-chernomyrdin-1999-05-06"
@@ -1282,7 +1282,7 @@
       "id": "C06771999",
       "date": "1999-05-07",
       "title": "For the Deputy Secretary: read-out on today's meeting with Chernomyrdin",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771999/C06771999.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|1999-05-07|for-the-deputy-secretary-read-out-on-today-s-meeting-with-chernomyrdin"
@@ -1291,7 +1291,7 @@
       "id": "C06771369",
       "date": "1999-05-08",
       "title": "THE ACTING SECRETARY'S MAY 6 CONVERSATION WITH RUSSIAN SPECIAL ENVOY ON KOSOVO CHERNOMYRDIN",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771369/C06771369.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-chernomyrdin-1999-05-06"
@@ -1300,7 +1300,7 @@
       "id": "C06815057",
       "date": "2000-02-16",
       "title": "Secretary's Meeting with Russian FM Ivanov",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815057/C06815057.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|2000-02-16|secretary-s-meeting-with-russian-fm-ivanov"
@@ -1309,7 +1309,7 @@
       "id": "C06815056",
       "date": "2000-02-25",
       "title": "Deputy Secretary's meeting with Russian National Seurity Council Secretary Sergey Ivanov",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815056/C06815056.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|2000-02-25|deputy-secretary-s-meeting-with-russian-national-seurity-council-secretary-sergey-ivanov"
@@ -1318,7 +1318,7 @@
       "id": "C06814902",
       "date": "2000-08-10",
       "title": "Deputy Secretary's meeting with Russian Foreign Minister Ivanov at the G8 Ministerial - 07/12/00",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814902/C06814902.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|2000-08-10|deputy-secretary-s-meeting-with-russian-foreign-minister-ivanov-at-the-g8-ministerial-07-12-00"
@@ -1345,7 +1345,7 @@
       "id": "C06771291",
       "date": "2021-05-05",
       "title": "ACTING SECRETARY'S (TALBOTT) CONVERSATION WITH RUSSIAN AMBASSADOR YURIY USHAKOV",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771291/C06771291.pdf",
       "score": 170,
       "clusterKey": "strobe-standalone|talbott-ushakov-1999-02-19"
@@ -1399,7 +1399,7 @@
       "id": "C06771248",
       "date": "1999-01-29",
       "title": "THE DEPUTY SECRETARY'S JANUARY 13 MEETING WITH RUSSIAN DEPUTY PRIME MINISTER MASLYUKOV",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771248/C06771248.pdf",
       "score": 150,
       "clusterKey": "strobe-standalone|1999-01-29|the-deputy-secretary-s-january-13-meeting-with-russian-deputy-prime-minister-maslyukov"
@@ -1408,7 +1408,7 @@
       "id": "C06770364",
       "date": "1999-02-04",
       "title": "SECRETARY'S MEETING WITH MOSCOW MAYOR YURIY LUZHKOV ON JANUARY 25, 1999",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770364/C06770364.pdf",
       "score": 150,
       "clusterKey": "strobe-standalone|1999-02-04|secretary-s-meeting-with-moscow-mayor-yuriy-luzhkov-on-january-25-1999"
@@ -1417,7 +1417,7 @@
       "id": "C06814916",
       "date": "1999-03-03",
       "title": "Deputy Secretary's meeting with Russia's Yabloko Faction Leader and DUMA Deputy Grigoriy Yavlinskiy on February 22, 1999",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814916/C06814916.pdf",
       "score": 150,
       "clusterKey": "strobe-standalone|1999-03-03|deputy-secretary-s-meeting-with-russia-s-yabloko-faction-leader-and-duma-deputy-grigoriy-yavlinskiy-on-february-22-1999"
@@ -1426,7 +1426,7 @@
       "id": "C06814923",
       "date": "1999-03-09",
       "title": "Deputy Secretary's meeting with Moscow Mayor Yuriy Luzhkov on February 22",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814923/C06814923.pdf",
       "score": 150,
       "clusterKey": "strobe-standalone|1999-03-09|deputy-secretary-s-meeting-with-moscow-mayor-yuriy-luzhkov-on-february-22"
@@ -1435,7 +1435,7 @@
       "id": "C06814663",
       "date": "1999-10-10",
       "title": "TALBOTT MEETING WITH RUSSIAN DEPUTY PM MATVIENKO ON CHECHNYA",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814663/C06814663.pdf",
       "score": 150,
       "clusterKey": "strobe-standalone|1999-10-10|talbott-meeting-with-russian-deputy-pm-matvienko-on-chechnya"
@@ -1444,7 +1444,7 @@
       "id": "C06814955",
       "date": "2000-08-03",
       "title": "The Deputy Secretary's August 2 meeting with Russian Deputy FM Trubnikov",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814955/C06814955.pdf",
       "score": 150,
       "clusterKey": "strobe-standalone|2000-08-03|the-deputy-secretary-s-august-2-meeting-with-russian-deputy-fm-trubnikov"
@@ -1489,7 +1489,7 @@
       "id": "C06814742",
       "date": "1999-10-15",
       "title": "MAMEDOV ON CTBT DEFEAT, BILATERAL WAY AHEAD",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814742/C06814742.pdf",
       "score": 135,
       "clusterKey": "strobe-standalone|1999-10-15|mamedov-on-ctbt-defeat-bilateral-way-ahead"
@@ -1498,7 +1498,7 @@
       "id": "C06815149",
       "date": "2000-03-07",
       "title": "Secretarys meeting with Russian Foreign Minister Ivanov on March 3",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815149/C06815149.pdf",
       "score": 135,
       "clusterKey": "strobe-standalone|2000-03-07|secretarys-meeting-with-russian-foreign-minister-ivanov-on-march-3"
@@ -1507,7 +1507,7 @@
       "id": "C06815131",
       "date": "2000-03-17",
       "title": "3/17 Meeting with Mamedov",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815131/C06815131.pdf",
       "score": 135,
       "clusterKey": "strobe-standalone|2000-03-17|3-17-meeting-with-mamedov"
@@ -1525,7 +1525,7 @@
       "id": "C06814668",
       "date": "1999-04-07",
       "title": "UZBEK FONMIN KAMILOV GIVES READ-OUT ON CIS SUMMIT, AGAIN EXPRESSES CONCERN ABOUT RUSSIA-TAJIKISTAN RELATIONS",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814668/C06814668.pdf",
       "score": 115,
       "clusterKey": "strobe-standalone|1999-04-07|uzbek-fonmin-kamilov-gives-read-out-on-cis-summit-again-expresses-concern-about-russia-tajikistan-relations"
@@ -1534,7 +1534,7 @@
       "id": "C06835147",
       "date": "2021-02-01",
       "title": "Russia-related stuff from notes of P Staff Dave Goldwyn readout from Vancouver P8 meetings.",
-      "releaseStatus": "UNKNOWN",
+      "releaseStatus": "UNSPECIFIED IN SOURCE",
       "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835147/C06835147.pdf",
       "score": 115,
       "clusterKey": "strobe-standalone|2021-02-01|russia-related-stuff-from-notes-of-p-staff-dave-goldwyn-readout-from-vancouver-p8-meetings"

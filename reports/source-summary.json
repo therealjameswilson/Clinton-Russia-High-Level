@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T13:42:21.686Z",
+  "generatedAt": "2026-05-24T12:54:05.332Z",
   "totalRecords": 662,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
@@ -101,6 +101,22 @@
     "pageCountAudit": "PDF packet page counts verified with pdfinfo on May 22, 2026; NAID 23901979 corrected from the initial 8-page API/OCR count to 10 PDF pages.",
     "standaloneExtractionAudit": "High-priority NARA standalone pass completed May 23, 2026: extracted NAIDs 23901979, 23901998, and 441675758 as document-pages-plus-marker derivatives; NAID 147873387 blocked because only a withdrawal/redaction marker for the Yeltsin pull-aside item is present."
   },
+  "clintonLibraryOnsiteResearchPlan": {
+    "sourceFile": "data/clinton-library-onsite-research-plan.json",
+    "findingAidParts": 4,
+    "findingAidPdfPages": 1290,
+    "extractedTextLines": 62800,
+    "broadSearchLineHits": 6577,
+    "directLeaderKeywordRows": 224,
+    "firstPullQueueItems": 77,
+    "hardSourceGapsMapped": 6,
+    "priorityTiers": {
+      "A: Direct Clinton-Yeltsin memcon/telcon folders": 24,
+      "B: Summit and trip books around leader meetings": 22,
+      "C: Chron, notepad, and source-control files": 17,
+      "D: Policy-context pulls after direct files": 14
+    }
+  },
   "publicStatements": {
     "sourceFile": "data/clinton-public-statements.json",
     "visibleRecords": 334,
@@ -160,6 +176,7 @@
     "researchPlanOnlineSearch": "reports/research-plan-online-search.json",
     "nara7388808YeltsinSearch": "reports/nara-7388808-yeltsin-search.json",
     "compilerRiskAudit": "reports/compiler-risk-audit.json",
+    "clintonLibraryOnsiteResearchPlan": "reports/clinton-library-onsite-research-plan.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",
     "pendingExtentVerificationRecheck": "reports/pending-extent-verification-recheck.json",

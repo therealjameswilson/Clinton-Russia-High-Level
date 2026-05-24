@@ -17,6 +17,9 @@ const RESEARCH_PLAN_ONLINE_SEARCH =
 const NARA_7388808_YELTSIN_SEARCH =
   process.env.NARA_7388808_YELTSIN_SEARCH ||
   path.join(ROOT, "data", "nara-7388808-yeltsin-search.json");
+const CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN =
+  process.env.CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN ||
+  path.join(ROOT, "data", "clinton-library-onsite-research-plan.json");
 const CLINTON_PUBLIC_STATEMENTS =
   process.env.CLINTON_PUBLIC_STATEMENTS ||
   path.join(ROOT, "data", "clinton-public-statements.json");
@@ -190,6 +193,10 @@ const SOURCES = {
 
 const CLINTON_PUBLIC_STATEMENTS_SNAPSHOT = readJsonFile(CLINTON_PUBLIC_STATEMENTS, []);
 const CLINTON_PUBLIC_STATEMENTS_AUDIT_SNAPSHOT = readJsonFile(CLINTON_PUBLIC_STATEMENTS_AUDIT, {});
+const CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT = readJsonFile(
+  CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN,
+  {}
+);
 
 const CLINTON_PRS_COLLECTION =
   "Records of the National Security Council Records Management Office (Clinton Administration)";
@@ -4856,6 +4863,28 @@ function writeOutputs(records) {
       standaloneExtractionAudit:
         NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.standaloneExtractionAudit || ""
     },
+    clintonLibraryOnsiteResearchPlan: {
+      sourceFile: path.relative(ROOT, CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN),
+      findingAidParts: CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT.summary?.findingAidParts || 0,
+      findingAidPdfPages:
+        CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT.summary?.findingAidPdfPages || 0,
+      extractedTextLines:
+        CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT.summary?.extractedTextLines || 0,
+      broadSearchLineHits:
+        CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT.summary?.broadSearchLineHits || 0,
+      directLeaderKeywordRows:
+        CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT.summary?.directLeaderKeywordRows || 0,
+      firstPullQueueItems:
+        CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT.summary?.firstPullQueueItems || 0,
+      hardSourceGapsMapped:
+        CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT.summary?.hardSourceGapsMapped || 0,
+      priorityTiers: Object.fromEntries(
+        (CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT.priorityTiers || []).map((tier) => [
+          `${tier.tier}: ${tier.label}`,
+          tier.items?.length || 0
+        ])
+      )
+    },
     publicStatements: {
       sourceFile: path.relative(ROOT, CLINTON_PUBLIC_STATEMENTS),
       visibleRecords: publicStatementsAudit.visibleRecords,
@@ -4887,6 +4916,7 @@ function writeOutputs(records) {
       researchPlanOnlineSearch: "reports/research-plan-online-search.json",
       nara7388808YeltsinSearch: "reports/nara-7388808-yeltsin-search.json",
       compilerRiskAudit: "reports/compiler-risk-audit.json",
+      clintonLibraryOnsiteResearchPlan: "reports/clinton-library-onsite-research-plan.json",
       naraScout: SOURCES.naraScout.url,
       naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
       pendingExtentVerificationRecheck: "reports/pending-extent-verification-recheck.json",
@@ -4932,6 +4962,10 @@ function writeOutputs(records) {
   fs.writeFileSync(
     path.join(reportsDir, "nara-7388808-yeltsin-search.json"),
     `${JSON.stringify(NARA_7388808_YELTSIN_SEARCH_SNAPSHOT, null, 2)}\n`
+  );
+  fs.writeFileSync(
+    path.join(reportsDir, "clinton-library-onsite-research-plan.json"),
+    `${JSON.stringify(CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT, null, 2)}\n`
   );
   fs.writeFileSync(
     path.join(reportsDir, "compiler-risk-audit.json"),
