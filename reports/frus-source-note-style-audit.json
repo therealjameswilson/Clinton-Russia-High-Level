@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-05-25T11:20:47.922Z",
+  "scope": "FRUS-style source-note audit for visible compiler records. The displayed frusSourceNote field should identify repository, collection/control path, and release/case locator; extraction, duplicate, derivative-PDF, and search-trail prose should remain in sourceNote or extractionStatus.",
+  "model": "Source: Repository, record group/collection, office or staff files, box/OA/ID/folder or document control, release or case locator. Follow with short document markings such as classification, drafter, clearance, or meeting place when available from the face page.",
+  "totalRecords": 662,
+  "recordsWithSourcePrefix": 662,
+  "recordsWithRepositoryStem": 662,
+  "recordsWithAuditLanguage": 0,
+  "candidateConversationRecords": 91,
+  "candidateRecordsWithAuditLanguage": 0,
+  "candidateRecordsWithSourcePrefix": 91,
+  "missingSourceStemRows": [],
+  "auditLanguageRows": [],
+  "checks": [
+    "Candidate Clinton-Yeltsin memcon/telcon source notes should not mention derivative PDF page extraction or appended provenance sheets.",
+    "Search-history and page-count evidence should stay visible through sourceNote, extractionStatus, and report JSON rather than in the displayed FRUS source-note stem.",
+    "Final compiler treatment still requires face-page OCR/manual review for classification, drafter, clearance, distribution, attachments, excisions, and meeting/call-place metadata."
+  ]
+}

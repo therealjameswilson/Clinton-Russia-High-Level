@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T12:54:05.332Z",
+  "generatedAt": "2026-05-25T11:20:47.922Z",
   "totalRecords": 662,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
@@ -166,6 +166,14 @@
     "strobeDateRiskRows": 4,
     "publicStatementDateIssues": 2
   },
+  "frusSourceNoteStyleAudit": {
+    "sourceFile": "reports/frus-source-note-style-audit.json",
+    "recordsWithSourcePrefix": 662,
+    "recordsWithRepositoryStem": 662,
+    "recordsWithAuditLanguage": 0,
+    "candidateRecordsWithAuditLanguage": 0,
+    "candidateConversationRecords": 91
+  },
   "sources": {
     "clintonText": "/private/tmp/clinton-foreign-meetings.txt",
     "strobeManifest": "/Users/jameswilson/Documents/New project/strobe-talbott-foia/data/manifest.json",
@@ -176,6 +184,7 @@
     "researchPlanOnlineSearch": "reports/research-plan-online-search.json",
     "nara7388808YeltsinSearch": "reports/nara-7388808-yeltsin-search.json",
     "compilerRiskAudit": "reports/compiler-risk-audit.json",
+    "frusSourceNoteStyleAudit": "reports/frus-source-note-style-audit.json",
     "clintonLibraryOnsiteResearchPlan": "reports/clinton-library-onsite-research-plan.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",

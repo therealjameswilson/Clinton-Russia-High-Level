@@ -55,7 +55,8 @@
     "onsitePriority": "Start with direct memcon/telcon and Yeltsin/POTUS folder titles before broad policy files. Use broad chron and Situation Room files only to resolve missing contacts, source-note control, or chronology uncertainty."
   },
   "sourceNoteModel": {
-    "sourceStem": "Clinton Presidential Records, National Security Council, [office or staff file], OA/ID [number], [folder title]; folder title surfaced in 2013-0185-M finding aid marker [kh marker when visible].",
+    "sourceStem": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, [collection or staff-file path], [series/file], OA/ID or OA/Box Number [number], [folder title or document control], [MDR/FOIA case or Clinton Digital Library item].",
+    "frusPattern": "Keep the displayed source note to repository, collection/control path, release/case locator, and face-page markings. Keep derivative-PDF extraction, page-count, search-history, and provenance-sheet audit prose in separate compiler notes.",
     "requiredOnsiteAdditions": [
       "Confirm exact box/folder locator and whether the finding-aid OA/ID number is the call-slip control used in the research room.",
       "Record folder title, collection, office/staff-file name, OA/ID, restrictions/withdrawal marker, and any declassification case number printed on the document.",

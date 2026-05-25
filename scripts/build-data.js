@@ -1738,25 +1738,66 @@ function caseDescription(caseNumber) {
   return pieces.join(", ");
 }
 
+function frusCaseDescription(caseNumber) {
+  const detail = MDR_CASE_DETAILS[caseNumber] || {};
+  const pieces = [caseNumber];
+
+  if (detail.title) pieces.push(detail.title);
+  if (detail.naid) pieces.push(`NAID ${detail.naid}`);
+
+  return `${detail.type || "Case"} ${pieces.filter(Boolean).join(", ")}`;
+}
+
+function frusCitationJoin(parts) {
+  return parts
+    .filter(Boolean)
+    .map((part) => String(part).trim())
+    .filter(Boolean)
+    .join(", ");
+}
+
 function markerCollectionPath(record) {
   const extractedPdf = extractedPdfForRecord(record);
   const collection = String(extractedPdf.markerCollection || "");
   if (!/NSC Records Management/i.test(collection)) return "";
 
   if (/Yeltsin/i.test(collection) && /Tel/i.test(collection)) {
-    return "Clinton Presidential Records, NSC Records Management, [Yeltsin and Telcons]";
+    return "NSC Records Management, [Yeltsin and Telcons]";
   }
 
   if (/Yeltsin/i.test(collection)) {
-    return "Clinton Presidential Records, NSC Records Management, [Yeltsin]";
+    return "NSC Records Management, [Yeltsin]";
   }
 
-  return "Clinton Presidential Records, NSC Records Management";
+  return "NSC Records Management";
+}
+
+function cleanFrusSourceNote(note) {
+  return String(note || "")
+    .replace(/\s*Provenance sheet: source PDF page \d+ appended\./gi, "")
+    .replace(
+      /\s*Marker\/provenance page located at source PDF page \d+; no derivative PDF generated until actual conversation pages are located\./gi,
+      ""
+    )
+    .replace(/\s*Source copy reviewed from Google Drive segment [^.]+?\./gi, "")
+    .replace(/\s*Source PDF label: "[^"]+"\s*\.?/gi, "")
+    .replace(/\s*Direct review shows the extracted pages are the complete "[^"]+" meeting text\./gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function clintonDigitalLibrarySourceNote(itemId, caseNumber) {
+  const detail = MDR_CASE_DETAILS[caseNumber] || {};
+  return `${frusCitationJoin([
+    "Source: William J. Clinton Presidential Library",
+    detail.provenance,
+    itemId ? `Clinton Digital Library item ${itemId}` : "",
+    caseNumber ? frusCaseDescription(caseNumber) : detail.title
+  ])}.`;
 }
 
 function buildMdrProvenanceSourceNote(record, sourceCase) {
   const extractedPdf = extractedPdfForRecord(record);
-  const markerPage = extractedPdf.markerPage || record.markerPage || null;
   const markerCase = sourceCaseForMarker(record, sourceCase);
   const caseInfo = MDR_CASE_DETAILS[markerCase] || MDR_CASE_DETAILS[sourceCase] || {};
   const controlId = markerControlId(record);
@@ -1774,6 +1815,7 @@ function buildMdrProvenanceSourceNote(record, sourceCase) {
 
   const base = [
     "Source: William J. Clinton Presidential Library",
+    "Clinton Presidential Records",
     `${CLINTON_PRS_COLLECTION}, NAID ${CLINTON_PRS_COLLECTION_NAID}`,
     `${CLINTON_PRS_SERIES}, NAID ${CLINTON_PRS_SERIES_NAID}`
   ];
@@ -1784,19 +1826,14 @@ function buildMdrProvenanceSourceNote(record, sourceCase) {
     recordId && recordId !== controlId ? `Record ID ${recordId}` : "",
     controlLabel,
     originalOaId ? `Original OA/ID ${originalOaId}` : "",
-    `${caseInfo.type || "MDR/FOIA case"} ${caseDescription(markerCase || sourceCase)}`
+    frusCaseDescription(markerCase || sourceCase)
   ].filter(Boolean);
-  const marker = markerPage
-    ? extractedPdf.markerPage
-      ? `Provenance sheet: source PDF page ${markerPage} appended.`
-      : `Marker/provenance page located at source PDF page ${markerPage}; no derivative PDF generated until actual conversation pages are located.`
-    : "";
 
-  return `${base.join(", ")}. ${controls.join("; ")}.${marker ? ` ${marker}` : ""}`;
+  return `${frusCitationJoin([...base, ...controls])}.`;
 }
 
 function buildFrusSourceNote(record) {
-  if (record.frusSourceNote) return record.frusSourceNote;
+  if (record.frusSourceNote) return cleanFrusSourceNote(record.frusSourceNote);
 
   const source = record.source || {};
   const sourceName = source.name || "";
@@ -1828,16 +1865,15 @@ function buildFrusSourceNote(record) {
   }
 
   if (sourceCase === SOURCES.sharmCable.caseNumber) {
-    const markerPage = extractedPdfForRecord(record).markerPage || record.markerPage || null;
-    return `Source: William J. Clinton Presidential Library, Clinton Digital Library item 118876, ${caseDescription("2016-0118-M")}. Provenance: ${MDR_CASE_DETAILS["2016-0118-M"].provenance}. Source copy reviewed from Google Drive segment ${sourceCase}.${markerPage ? ` Provenance sheet: source PDF page ${markerPage} appended.` : ""}`;
+    return clintonDigitalLibrarySourceNote("118876", "2016-0118-M");
   }
 
   if (sourceCase === SOURCES.clinton20160620.caseNumber) {
-    return `Source: William J. Clinton Presidential Library, Clinton Digital Library item 100503, ${caseDescription(sourceCase)}. Provenance: ${MDR_CASE_DETAILS[sourceCase].provenance}.`;
+    return clintonDigitalLibrarySourceNote("100503", sourceCase);
   }
 
   if (sourceCase === SOURCES.clintonIraq19981230.caseNumber) {
-    return `Source: William J. Clinton Presidential Library, Clinton Digital Library item 119190, ${caseDescription(sourceCase)}. Provenance: ${MDR_CASE_DETAILS[sourceCase].provenance}.`;
+    return clintonDigitalLibrarySourceNote("119190", sourceCase);
   }
 
   if (sourceCase === SOURCES.strobe.caseNumber || /Strobe Talbott/i.test(sourceName)) {
@@ -1850,6 +1886,10 @@ function buildFrusSourceNote(record) {
 
   if (/Meetings and Telephone Calls with Foreign Leaders/i.test(sourceName)) {
     return "Source: William J. Clinton Presidential Library, Meetings and Telephone Calls with Foreign Leaders, master chronology.";
+  }
+
+  if (/Clinton Digital Library Solr/i.test(sourceName)) {
+    return "Source: William J. Clinton Presidential Library, Clinton Digital Library Solr search: Yeltsin.";
   }
 
   if (/Presidential Daily Diary/i.test(sourceName)) {
@@ -4022,6 +4062,8 @@ function buildResearchPlanOnlineLeadRecords() {
     : "";
   const searchSourceNote =
     `Source: FRUS research-plan online pass over National Archives Catalog API v2 through NARA Scout proxy and Clinton Digital Library item search, run May 22, 2026. The pass targeted the 2013-0185-M research-plan collection universe and related NSC collection NAIDs.${collectionWideSummary}`;
+  const searchFrusSourceNote =
+    "Source: NARA Scout search trail, National Archives Catalog API v2 and Clinton Digital Library item search, 2013-0185-M research-plan collection universe and related NSC collection NAIDs.";
 
   const searchTrail = {
     id: "research-plan-online-search-2026-05-22",
@@ -4047,7 +4089,7 @@ function buildResearchPlanOnlineLeadRecords() {
       "Targeted online search for declassified/digitized documents in the FRUS research-plan collection universe: RUE, European Affairs, Executive Secretary, Staff Director, and NSC Records Management.",
     source: SOURCES.naraScout,
     sourceNote: searchSourceNote,
-    frusSourceNote: searchSourceNote,
+    frusSourceNote: searchFrusSourceNote,
     extractionStatus:
       "Search trail only: exact top-tier 2013-0185-M folders were mostly not digitized online; the visible Scout leads below capture online packets or file units that should be reviewed for possible FRUS context or source-note support.",
     frusVolume: FRUS_VOLUME,
@@ -4089,6 +4131,19 @@ function buildResearchPlanOnlineLeadRecords() {
       lead.sourceType === "Clinton Digital Library"
         ? `Source: Clinton Digital Library item ${lead.itemId}${lead.caseNumber ? `, ${lead.caseNumber}` : ""}; ${lead.collection || "collection not specified"}. Online research-plan lead surfaced May 22, 2026.${Number.isInteger(lead.packetPageCount) ? ` PDF packet: ${lead.packetPageCount} pages.` : ""}`
         : `Source: National Archives Catalog, NAID ${lead.naId}; ${lead.collection || "collection not specified"}. Online research-plan lead surfaced May 22, 2026.${Number.isInteger(lead.packetPageCount) ? ` PDF packet: ${lead.packetPageCount} pages.` : Number.isInteger(lead.digitalObjects) ? ` Catalog record exposes ${lead.digitalObjects} digital objects.` : ""}`;
+    const frusSourceNote =
+      lead.sourceType === "Clinton Digital Library"
+        ? `${frusCitationJoin([
+            "Source: William J. Clinton Presidential Library",
+            lead.collection || "collection not specified",
+            lead.itemId ? `Clinton Digital Library item ${lead.itemId}` : "",
+            lead.caseNumber || ""
+          ])}.`
+        : `${frusCitationJoin([
+            "Source: National Archives Catalog",
+            lead.collection || "collection not specified",
+            lead.naId ? `NAID ${lead.naId}` : ""
+          ])}.`;
     const extractionStatus = Number.isInteger(lead.packetPageCount)
       ? `Research lead only: online PDF packet has ${lead.packetPageCount} pages; review the packet/file unit for FRUS-relevant documents before extracting pages or counting any document extent.`
       : Number.isInteger(lead.digitalObjects)
@@ -4119,7 +4174,7 @@ function buildResearchPlanOnlineLeadRecords() {
       subjectLine: lead.researchUse || "Digitized online lead from the FRUS research-plan collection pass.",
       source,
       sourceNote,
-      frusSourceNote: sourceNote,
+      frusSourceNote,
       extractionRule: EXTRACTION_RULE,
       extractionStatus,
       frusVolume: FRUS_VOLUME,
@@ -4225,6 +4280,15 @@ function buildNara7388808YeltsinSearchRecords() {
     const sourceName = `${lead.collection || "Records of the National Security Council Records Management Office (Clinton Administration)"}, ${lead.series || "series pending"}, ${lead.caseNumber || "case pending"}, ${lead.sourceItem || lead.documentId || lead.title}`;
     const leadSourceNote =
       `Search result: National Archives Catalog, NAID ${lead.naid}; ${lead.collection || "NSC Records Management Office"}, ${lead.series || "series pending"}${lead.seriesNaid ? `, series NAID ${lead.seriesNaid}` : ""}; ${lead.caseNumber || "case pending"}; ${lead.sourceItem || lead.documentId || "source item pending"}.${packetText} Surfaced by the May 22, 2026 search-within pass for 'yeltsin' in collection NAID 7388808.${standaloneText}`;
+    const leadFrusSourceNote = `${frusCitationJoin([
+      "Source: National Archives Catalog",
+      lead.collection || "Records of the National Security Council Records Management Office (Clinton Administration)",
+      lead.series || "series pending",
+      lead.seriesNaid ? `series NAID ${lead.seriesNaid}` : "",
+      lead.caseNumber || "case pending",
+      lead.sourceItem || lead.documentId || "source item pending",
+      `NAID ${lead.naid}`
+    ])}.`;
     const extractionStatus =
       lead.extractionStatus ||
       (standalone
@@ -4267,7 +4331,7 @@ function buildNara7388808YeltsinSearchRecords() {
         url: lead.catalogUrl || search.sourceUrl || "https://catalog.archives.gov/"
       },
       sourceNote: leadSourceNote,
-      frusSourceNote: leadSourceNote,
+      frusSourceNote: leadFrusSourceNote,
       extractionRule: EXTRACTION_RULE,
       extractionStatus,
       frusVolume: FRUS_VOLUME,
@@ -4435,6 +4499,74 @@ function candidateConversationRecords(records) {
       (record.type === "Memcon" || record.type === "Telcon") &&
       record.potentialFrusDocument !== false
   );
+}
+
+const SOURCE_NOTE_AUDIT_LANGUAGE =
+  /Provenance sheet|Marker\/provenance|Page audit|Page count audit|Search result|recheck|false\/context|Standalone-candidate audit|Deduplication|Derivative PDF|surfaced|PDF packet|Source copy reviewed|Source PDF label|Direct review shows/i;
+
+function sourceNoteStyleFlags(note) {
+  const text = String(note || "");
+  return {
+    hasSource: /^Source: /i.test(text),
+    hasAuditLanguage: SOURCE_NOTE_AUDIT_LANGUAGE.test(text),
+    hasRepositoryStem: /^Source: (William J\. Clinton Presidential Library|Department of State|Public Papers of the Presidents|National Archives Catalog|NARA Scout)/i.test(
+      text
+    )
+  };
+}
+
+function buildFrusSourceNoteStyleAudit(records) {
+  const candidates = candidateConversationRecords(records);
+  const allNotes = records.map((record) => ({
+    id: record.id,
+    date: record.date,
+    type: record.type,
+    chapter: record.chapter.name,
+    title: record.documentTitle || record.title,
+    note: record.frusSourceNote || "",
+    flags: sourceNoteStyleFlags(record.frusSourceNote || "")
+  }));
+  const candidateNotes = allNotes.filter((note) =>
+    candidates.some((record) => record.id === note.id)
+  );
+  const auditLanguageRows = allNotes.filter((note) => note.flags.hasAuditLanguage);
+  const candidateAuditLanguageRows = candidateNotes.filter((note) => note.flags.hasAuditLanguage);
+  const missingSourceStemRows = allNotes.filter((note) => !note.flags.hasSource);
+
+  return {
+    generatedAt: new Date().toISOString(),
+    scope:
+      "FRUS-style source-note audit for visible compiler records. The displayed frusSourceNote field should identify repository, collection/control path, and release/case locator; extraction, duplicate, derivative-PDF, and search-trail prose should remain in sourceNote or extractionStatus.",
+    model:
+      "Source: Repository, record group/collection, office or staff files, box/OA/ID/folder or document control, release or case locator. Follow with short document markings such as classification, drafter, clearance, or meeting place when available from the face page.",
+    totalRecords: records.length,
+    recordsWithSourcePrefix: allNotes.filter((note) => note.flags.hasSource).length,
+    recordsWithRepositoryStem: allNotes.filter((note) => note.flags.hasRepositoryStem).length,
+    recordsWithAuditLanguage: auditLanguageRows.length,
+    candidateConversationRecords: candidates.length,
+    candidateRecordsWithAuditLanguage: candidateAuditLanguageRows.length,
+    candidateRecordsWithSourcePrefix: candidateNotes.filter((note) => note.flags.hasSource).length,
+    missingSourceStemRows: missingSourceStemRows.map((note) => ({
+      id: note.id,
+      date: note.date,
+      type: note.type,
+      title: note.title,
+      note: note.note
+    })),
+    auditLanguageRows: auditLanguageRows.slice(0, 50).map((note) => ({
+      id: note.id,
+      date: note.date,
+      type: note.type,
+      chapter: note.chapter,
+      title: note.title,
+      note: note.note
+    })),
+    checks: [
+      "Candidate Clinton-Yeltsin memcon/telcon source notes should not mention derivative PDF page extraction or appended provenance sheets.",
+      "Search-history and page-count evidence should stay visible through sourceNote, extractionStatus, and report JSON rather than in the displayed FRUS source-note stem.",
+      "Final compiler treatment still requires face-page OCR/manual review for classification, drafter, clearance, distribution, attachments, excisions, and meeting/call-place metadata."
+    ]
+  };
 }
 
 function buildDocumentPageTallies(records, sourceFileInventory = null) {
@@ -4770,6 +4902,7 @@ function writeOutputs(records) {
   const strobeStandaloneAudit = buildStrobeStandaloneAudit(records);
   const publicStatementsAudit = buildPublicStatementsAudit(records);
   const compilerRiskAudit = buildCompilerRiskAudit(records, publicStatementsAudit);
+  const frusSourceNoteStyleAudit = buildFrusSourceNoteStyleAudit(records);
 
   const summary = {
     generatedAt: new Date().toISOString(),
@@ -4906,6 +5039,15 @@ function writeOutputs(records) {
       publicStatementDateIssues:
         compilerRiskAudit.publicStatementsReadiness.normalizedPrintedDateIssues.length
     },
+    frusSourceNoteStyleAudit: {
+      sourceFile: "reports/frus-source-note-style-audit.json",
+      recordsWithSourcePrefix: frusSourceNoteStyleAudit.recordsWithSourcePrefix,
+      recordsWithRepositoryStem: frusSourceNoteStyleAudit.recordsWithRepositoryStem,
+      recordsWithAuditLanguage: frusSourceNoteStyleAudit.recordsWithAuditLanguage,
+      candidateRecordsWithAuditLanguage:
+        frusSourceNoteStyleAudit.candidateRecordsWithAuditLanguage,
+      candidateConversationRecords: frusSourceNoteStyleAudit.candidateConversationRecords
+    },
     sources: {
       clintonText: CLINTON_TEXT,
       strobeManifest: STROBE_MANIFEST,
@@ -4916,6 +5058,7 @@ function writeOutputs(records) {
       researchPlanOnlineSearch: "reports/research-plan-online-search.json",
       nara7388808YeltsinSearch: "reports/nara-7388808-yeltsin-search.json",
       compilerRiskAudit: "reports/compiler-risk-audit.json",
+      frusSourceNoteStyleAudit: "reports/frus-source-note-style-audit.json",
       clintonLibraryOnsiteResearchPlan: "reports/clinton-library-onsite-research-plan.json",
       naraScout: SOURCES.naraScout.url,
       naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
@@ -4970,6 +5113,10 @@ function writeOutputs(records) {
   fs.writeFileSync(
     path.join(reportsDir, "compiler-risk-audit.json"),
     `${JSON.stringify(compilerRiskAudit, null, 2)}\n`
+  );
+  fs.writeFileSync(
+    path.join(reportsDir, "frus-source-note-style-audit.json"),
+    `${JSON.stringify(frusSourceNoteStyleAudit, null, 2)}\n`
   );
   fs.writeFileSync(path.join(reportsDir, "source-summary.json"), `${JSON.stringify(summary, null, 2)}\n`);
   console.log(JSON.stringify(summary, null, 2));
