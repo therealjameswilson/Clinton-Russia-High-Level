@@ -44684,6 +44684,66 @@ window.MEMCONS = [
     "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870741."
   },
   {
+    "id": "pdd-1993-01-23-01",
+    "dedupeKey": "presidential-daily-diary|1993-01-23|10:30; 10:45-11:17|Yeltsin|call",
+    "date": "1993-01-23",
+    "sortDate": "1993-01-23",
+    "sortOrder": 1,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: January 23, 1993 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: January 23, 1993 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870741",
+    "catalogUrl": "https://catalog.archives.gov/id/147870741",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-001-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "29",
+    "sourcePdfPageCount": 85,
+    "dateLine": "January 23, 1993, 10:30; 10:45-11:17",
+    "subjectLine": "10:30; 10:45-11:17; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 29.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870741",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-001-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870741, PDF pp. 29.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870741, PDF pp. 29."
+  },
+  {
     "id": "nara-scout-147870751",
     "date": "1993-04-01",
     "sortDate": "1993-04-01",
@@ -44732,6 +44792,186 @@ window.MEMCONS = [
       "Daily diary"
     ],
     "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870751."
+  },
+  {
+    "id": "pdd-1993-04-01-02",
+    "dedupeKey": "presidential-daily-diary|1993-04-01|9:04-9:36|Yeltsin|call",
+    "date": "1993-04-01",
+    "sortDate": "1993-04-01",
+    "sortOrder": 2,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: April 1, 1993 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: April 1, 1993 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870751",
+    "catalogUrl": "https://catalog.archives.gov/id/147870751",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-006-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "9",
+    "sourcePdfPageCount": 94,
+    "dateLine": "April 1, 1993, 9:04-9:36",
+    "subjectLine": "9:04-9:36; The President talked on a conference line with Boris N. Yeltsin. Source PDF pp. 9.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870751",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-006-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870751, PDF pp. 9.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870751, PDF pp. 9."
+  },
+  {
+    "id": "pdd-1993-04-26-03",
+    "dedupeKey": "presidential-daily-diary|1993-04-26|1:35; 1:50-1:59|Yeltsin|call",
+    "date": "1993-04-26",
+    "sortDate": "1993-04-26",
+    "sortOrder": 3,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: April 26, 1993 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: April 26, 1993 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870753",
+    "catalogUrl": "https://catalog.archives.gov/id/147870753",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-007-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "85-86",
+    "sourcePdfPageCount": 109,
+    "dateLine": "April 26, 1993, 1:35; 1:50-1:59",
+    "subjectLine": "1:35; 1:50-1:59; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 85-86.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870753",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-007-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870753, PDF pp. 85-86.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870753, PDF pp. 85-86."
+  },
+  {
+    "id": "pdd-1993-05-02-04",
+    "dedupeKey": "presidential-daily-diary|1993-05-02|8:25; 8:42-8:51|Yeltsin|call",
+    "date": "1993-05-02",
+    "sortDate": "1993-05-02",
+    "sortOrder": 4,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: May 2, 1993 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: May 2, 1993 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17367502",
+    "catalogUrl": "https://catalog.archives.gov/id/17367502",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/2/3675/17367502/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-003-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "5",
+    "sourcePdfPageCount": 69,
+    "dateLine": "May 2, 1993, 8:25; 8:42-8:51",
+    "subjectLine": "8:25; 8:42-8:51; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 5.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17367502",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/2/3675/17367502/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-003-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17367502, PDF pp. 5.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17367502, PDF pp. 5."
   },
   {
     "id": "nara-7388808-23902190",
@@ -44851,6 +45091,126 @@ window.MEMCONS = [
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
+  },
+  {
+    "id": "pdd-1993-05-10-05",
+    "dedupeKey": "presidential-daily-diary|1993-05-10|8:12-8:19|Yeltsin|call",
+    "date": "1993-05-10",
+    "sortDate": "1993-05-10",
+    "sortOrder": 5,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: May 10, 1993 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: May 10, 1993 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870755",
+    "catalogUrl": "https://catalog.archives.gov/id/147870755",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-008-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "76",
+    "sourcePdfPageCount": 148,
+    "dateLine": "May 10, 1993, 8:12-8:19",
+    "subjectLine": "8:12-8:19; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 76.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870755",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-008-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870755, PDF pp. 76.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870755, PDF pp. 76."
+  },
+  {
+    "id": "pdd-1993-06-28-06",
+    "dedupeKey": "presidential-daily-diary|1993-06-28|12:52; 1:05-1:33|Yeltsin|call",
+    "date": "1993-06-28",
+    "sortDate": "1993-06-28",
+    "sortOrder": 6,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 28, 1993 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: June 28, 1993 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870761",
+    "catalogUrl": "https://catalog.archives.gov/id/147870761",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-003-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "118",
+    "sourcePdfPageCount": 128,
+    "dateLine": "June 28, 1993, 12:52; 1:05-1:33",
+    "subjectLine": "12:52; 1:05-1:33; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 118.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870761",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-003-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870761, PDF pp. 118.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870761, PDF pp. 118."
   },
   {
     "id": "nara-7388808-28272248",
@@ -45055,6 +45415,246 @@ window.MEMCONS = [
     }
   },
   {
+    "id": "pdd-1993-09-02-07",
+    "dedupeKey": "presidential-daily-diary|1993-09-02|12:15-12:25|Chernomyrdin|meeting",
+    "date": "1993-09-02",
+    "sortDate": "1993-09-02",
+    "sortOrder": 7,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: September 2, 1993 Viktor Chernomyrdin meeting",
+    "documentTitle": "Presidential Daily Diary reference: September 2, 1993 Viktor Chernomyrdin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Viktor Chernomyrdin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870767",
+    "catalogUrl": "https://catalog.archives.gov/id/147870767",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-006-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "4, 12",
+    "sourcePdfPageCount": 148,
+    "dateLine": "September 2, 1993, 12:15-12:25",
+    "subjectLine": "12:15-12:25; The President greeted Viktor S. Chernomyrdin and participated in a question-and-answer session; appendix identifies Chernomyrdin as Russian Prime Minister. Source PDF pp. 4, 12.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870767",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-006-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870767, PDF pp. 4, 12.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Chernomyrdin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Chernomyrdin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870767, PDF pp. 4, 12."
+  },
+  {
+    "id": "pdd-1993-09-07-08",
+    "dedupeKey": "presidential-daily-diary|1993-09-07|11:40-12:10|Yeltsin|call",
+    "date": "1993-09-07",
+    "sortDate": "1993-09-07",
+    "sortOrder": 8,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: September 7, 1993 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: September 7, 1993 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870767",
+    "catalogUrl": "https://catalog.archives.gov/id/147870767",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-006-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "52",
+    "sourcePdfPageCount": 148,
+    "dateLine": "September 7, 1993, 11:40-12:10",
+    "subjectLine": "11:40-12:10; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 52.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870767",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-006-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870767, PDF pp. 52.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870767, PDF pp. 52."
+  },
+  {
+    "id": "pdd-1993-09-21-09",
+    "dedupeKey": "presidential-daily-diary|1993-09-21|3:13|Yeltsin|call attempt",
+    "date": "1993-09-21",
+    "sortDate": "1993-09-21",
+    "sortOrder": 9,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: September 21, 1993 Boris Yeltsin call attempt",
+    "documentTitle": "Presidential Daily Diary reference: September 21, 1993 Boris Yeltsin call attempt",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17367517",
+    "catalogUrl": "https://catalog.archives.gov/id/17367517",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/17/3675/17367517/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-004-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "47",
+    "sourcePdfPageCount": 58,
+    "dateLine": "September 21, 1993, 3:13",
+    "subjectLine": "3:13; The President telephoned Boris N. Yeltsin; the call was not completed. Source PDF pp. 47.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17367517",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/17/3675/17367517/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-004-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17367517, PDF pp. 47.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call attempt",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call attempt",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17367517, PDF pp. 47."
+  },
+  {
+    "id": "pdd-1993-10-05-10",
+    "dedupeKey": "presidential-daily-diary|1993-10-05|1:20; 1:42-2:02|Yeltsin|call",
+    "date": "1993-10-05",
+    "sortDate": "1993-10-05",
+    "sortOrder": 10,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: October 5, 1993 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: October 5, 1993 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870771",
+    "catalogUrl": "https://catalog.archives.gov/id/147870771",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-008-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "47",
+    "sourcePdfPageCount": 115,
+    "dateLine": "October 5, 1993, 1:20; 1:42-2:02",
+    "subjectLine": "1:20; 1:42-2:02; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference line with President Yeltsin. Source PDF pp. 47.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870771",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-008-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870771, PDF pp. 47.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870771, PDF pp. 47."
+  },
+  {
     "id": "nara-7388808-23901970",
     "dedupeKey": "nara-7388808|23901970",
     "date": "1993-10-18",
@@ -45170,6 +45770,66 @@ window.MEMCONS = [
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
+  },
+  {
+    "id": "pdd-1993-12-22-11",
+    "dedupeKey": "presidential-daily-diary|1993-12-22|9:10-9:40|Yeltsin|call",
+    "date": "1993-12-22",
+    "sortDate": "1993-12-22",
+    "sortOrder": 11,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: December 22, 1993 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: December 22, 1993 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870781",
+    "catalogUrl": "https://catalog.archives.gov/id/147870781",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-005-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "80",
+    "sourcePdfPageCount": 129,
+    "dateLine": "December 22, 1993, 9:10-9:40",
+    "subjectLine": "9:10-9:40; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 80.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870781",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-005-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870781, PDF pp. 80.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870781, PDF pp. 80."
   },
   {
     "id": "research-plan-nara-40482313",
@@ -45943,6 +46603,68 @@ window.MEMCONS = [
     }
   },
   {
+    "id": "pdd-1994-01-14-12",
+    "dedupeKey": "presidential-daily-diary|1994-01-14|11:05-11:15|Yeltsin|summit event",
+    "date": "1994-01-14",
+    "sortDate": "1994-01-14",
+    "sortOrder": 12,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: January 14, 1994 Boris Yeltsin summit event",
+    "documentTitle": "Presidential Daily Diary reference: January 14, 1994 Boris Yeltsin summit event",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870783",
+    "catalogUrl": "https://catalog.archives.gov/id/147870783",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-006-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "68",
+    "sourcePdfPageCount": 73,
+    "dateLine": "January 14, 1994, 11:05-11:15",
+    "subjectLine": "11:05-11:15; The President participated in the signing ceremony for the Denuclearization Agreement with Russia and Ukraine, accompanied by Boris N. Yeltsin and Leonid Kravchuk. Source PDF pp. 68.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870783",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-006-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870783, PDF pp. 68.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "summit event",
+      "Yeltsin",
+      "Ukraine"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "summit event",
+      "Yeltsin",
+      "Ukraine"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870783, PDF pp. 68."
+  },
+  {
     "id": "nara-7388808-23901979",
     "dedupeKey": "nara-7388808|23901979",
     "date": "1994-01-20",
@@ -46431,6 +47153,366 @@ window.MEMCONS = [
     }
   },
   {
+    "id": "pdd-1994-02-10-13",
+    "dedupeKey": "presidential-daily-diary|1994-02-10|10:45|Yeltsin|call attempt",
+    "date": "1994-02-10",
+    "sortDate": "1994-02-10",
+    "sortOrder": 13,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: February 10, 1994 Boris Yeltsin call attempt",
+    "documentTitle": "Presidential Daily Diary reference: February 10, 1994 Boris Yeltsin call attempt",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870787",
+    "catalogUrl": "https://catalog.archives.gov/id/147870787",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-008-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "65",
+    "sourcePdfPageCount": 103,
+    "dateLine": "February 10, 1994, 10:45",
+    "subjectLine": "10:45; The President telephoned Boris N. Yeltsin; the call was not completed. Source PDF pp. 65.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870787",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-008-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870787, PDF pp. 65.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call attempt",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call attempt",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870787, PDF pp. 65."
+  },
+  {
+    "id": "pdd-1994-02-20-14",
+    "dedupeKey": "presidential-daily-diary|1994-02-20|12:50; 1:27-1:47|Yeltsin|call",
+    "date": "1994-02-20",
+    "sortDate": "1994-02-20",
+    "sortOrder": 14,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: February 20, 1994 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: February 20, 1994 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870789",
+    "catalogUrl": "https://catalog.archives.gov/id/147870789",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-009-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "61-62",
+    "sourcePdfPageCount": 128,
+    "dateLine": "February 20, 1994, 12:50; 1:27-1:47",
+    "subjectLine": "12:50; 1:27-1:47; The President was telephoned by Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 61-62.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870789",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-009-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870789, PDF pp. 61-62.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870789, PDF pp. 61-62."
+  },
+  {
+    "id": "pdd-1994-04-10-15",
+    "dedupeKey": "presidential-daily-diary|1994-04-10|10:50; 11:15-11:38|Yeltsin|call",
+    "date": "1994-04-10",
+    "sortDate": "1994-04-10",
+    "sortOrder": 15,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: April 10, 1994 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: April 10, 1994 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870795",
+    "catalogUrl": "https://catalog.archives.gov/id/147870795",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-003-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "53",
+    "sourcePdfPageCount": 96,
+    "dateLine": "April 10, 1994, 10:50; 11:15-11:38",
+    "subjectLine": "10:50; 11:15-11:38; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 53.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870795",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-003-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870795, PDF pp. 53.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870795, PDF pp. 53."
+  },
+  {
+    "id": "pdd-1994-04-20-16",
+    "dedupeKey": "presidential-daily-diary|1994-04-20|2:25-3:05|Yeltsin|call",
+    "date": "1994-04-20",
+    "sortDate": "1994-04-20",
+    "sortOrder": 16,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: April 20, 1994 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: April 20, 1994 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870797",
+    "catalogUrl": "https://catalog.archives.gov/id/147870797",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-004-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "26",
+    "sourcePdfPageCount": 94,
+    "dateLine": "April 20, 1994, 2:25-3:05",
+    "subjectLine": "2:25-3:05; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 26.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870797",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-004-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870797, PDF pp. 26.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870797, PDF pp. 26."
+  },
+  {
+    "id": "pdd-1994-06-03-17",
+    "dedupeKey": "presidential-daily-diary|1994-06-03|4:30; 4:55-5:07|Yeltsin|call",
+    "date": "1994-06-03",
+    "sortDate": "1994-06-03",
+    "sortOrder": 17,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 3, 1994 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: June 3, 1994 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870801",
+    "catalogUrl": "https://catalog.archives.gov/id/147870801",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-006-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "5",
+    "sourcePdfPageCount": 47,
+    "dateLine": "June 3, 1994, 4:30; 4:55-5:07",
+    "subjectLine": "4:30; 4:55-5:07; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 5.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870801",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-006-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870801, PDF pp. 5.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870801, PDF pp. 5."
+  },
+  {
+    "id": "pdd-1994-06-13-18",
+    "dedupeKey": "presidential-daily-diary|1994-06-13|1:24-1:48|Yeltsin|call",
+    "date": "1994-06-13",
+    "sortDate": "1994-06-13",
+    "sortOrder": 18,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 13, 1994 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: June 13, 1994 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870801",
+    "catalogUrl": "https://catalog.archives.gov/id/147870801",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-006-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "18",
+    "sourcePdfPageCount": 47,
+    "dateLine": "June 13, 1994, 1:24-1:48",
+    "subjectLine": "1:24-1:48; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 18.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870801",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-006-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870801, PDF pp. 18.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870801, PDF pp. 18."
+  },
+  {
     "id": "nara-7388808-23901998",
     "dedupeKey": "nara-7388808|23901998",
     "date": "1994-07-01",
@@ -46557,6 +47639,126 @@ window.MEMCONS = [
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
+  },
+  {
+    "id": "pdd-1994-10-05-19",
+    "dedupeKey": "presidential-daily-diary|1994-10-05|10:30-11:03|Yeltsin|call",
+    "date": "1994-10-05",
+    "sortDate": "1994-10-05",
+    "sortOrder": 19,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: October 5, 1994 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: October 5, 1994 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17368177",
+    "catalogUrl": "https://catalog.archives.gov/id/17368177",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/77/3681/17368177/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-008-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "81",
+    "sourcePdfPageCount": 102,
+    "dateLine": "October 5, 1994, 10:30-11:03",
+    "subjectLine": "10:30-11:03; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 81.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17368177",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/77/3681/17368177/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-008-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368177, PDF pp. 81.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368177, PDF pp. 81."
+  },
+  {
+    "id": "pdd-1994-10-10-20",
+    "dedupeKey": "presidential-daily-diary|1994-10-10|12:12-12:38|Yeltsin|call",
+    "date": "1994-10-10",
+    "sortDate": "1994-10-10",
+    "sortOrder": 20,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: October 10, 1994 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: October 10, 1994 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17368177",
+    "catalogUrl": "https://catalog.archives.gov/id/17368177",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/77/3681/17368177/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-008-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "83",
+    "sourcePdfPageCount": 102,
+    "dateLine": "October 10, 1994, 12:12-12:38",
+    "subjectLine": "12:12-12:38; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 83.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17368177",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/77/3681/17368177/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-008-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368177, PDF pp. 83.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368177, PDF pp. 83."
   },
   {
     "id": "research-plan-nara-236750737",
@@ -47754,6 +48956,188 @@ window.MEMCONS = [
     }
   },
   {
+    "id": "pdd-1994-12-05-21",
+    "dedupeKey": "presidential-daily-diary|1994-12-05|11:01-11:45|Yeltsin|summit event",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "sortOrder": 21,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: December 5, 1994 Boris Yeltsin summit event",
+    "documentTitle": "Presidential Daily Diary reference: December 5, 1994 Boris Yeltsin summit event",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870813",
+    "catalogUrl": "https://catalog.archives.gov/id/147870813",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-012-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "43",
+    "sourcePdfPageCount": 118,
+    "dateLine": "December 5, 1994, 11:01-11:45",
+    "subjectLine": "11:01-11:45; The President participated in the Budapest signing ceremony for Denuclearization Agreements with Boris N. Yeltsin and other leaders. Source PDF pp. 43.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870813",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-012-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870813, PDF pp. 43.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "summit event",
+      "Yeltsin",
+      "Ukraine"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "summit event",
+      "Yeltsin",
+      "Ukraine"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870813, PDF pp. 43."
+  },
+  {
+    "id": "pdd-1994-12-05-22",
+    "dedupeKey": "presidential-daily-diary|1994-12-05|12:54-1:15|Yeltsin|meeting",
+    "date": "1994-12-05",
+    "sortDate": "1994-12-05",
+    "sortOrder": 22,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: December 5, 1994 Boris Yeltsin meeting",
+    "documentTitle": "Presidential Daily Diary reference: December 5, 1994 Boris Yeltsin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870813",
+    "catalogUrl": "https://catalog.archives.gov/id/147870813",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-012-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "44",
+    "sourcePdfPageCount": 118,
+    "dateLine": "December 5, 1994, 12:54-1:15",
+    "subjectLine": "12:54-1:15; The President met with President Yeltsin and Chancellor Helmut Kohl. Source PDF pp. 44.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870813",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-012-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870813, PDF pp. 44.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870813, PDF pp. 44."
+  },
+  {
+    "id": "pdd-1995-02-13-23",
+    "dedupeKey": "presidential-daily-diary|1995-02-13|1:01-1:27|Yeltsin|call",
+    "date": "1995-02-13",
+    "sortDate": "1995-02-13",
+    "sortOrder": 23,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: February 13, 1995 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: February 13, 1995 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870821",
+    "catalogUrl": "https://catalog.archives.gov/id/147870821",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-005-004-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "93",
+    "sourcePdfPageCount": 111,
+    "dateLine": "February 13, 1995, 1:01-1:27",
+    "subjectLine": "1:01-1:27; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 93.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870821",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-005-004-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870821, PDF pp. 93.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870821, PDF pp. 93."
+  },
+  {
     "id": "research-plan-nara-23898267",
     "dedupeKey": "research-plan|23898267",
     "date": "1995-04-19",
@@ -48163,6 +49547,66 @@ window.MEMCONS = [
     }
   },
   {
+    "id": "pdd-1995-05-10-24",
+    "dedupeKey": "presidential-daily-diary|1995-05-10|10:10-2:05|Yeltsin|meeting",
+    "date": "1995-05-10",
+    "sortDate": "1995-05-10",
+    "sortOrder": 24,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: May 10, 1995 Boris Yeltsin meeting",
+    "documentTitle": "Presidential Daily Diary reference: May 10, 1995 Boris Yeltsin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870833",
+    "catalogUrl": "https://catalog.archives.gov/id/147870833",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-003-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "67-68, 74",
+    "sourcePdfPageCount": 100,
+    "dateLine": "May 10, 1995, 10:10-2:05",
+    "subjectLine": "10:10-2:05; The President met with Boris N. Yeltsin in Moscow, continued the meeting, and attended a private luncheon hosted by President Yeltsin; appendix lists senior Russian participants including Chernomyrdin and Kozyrev. Source PDF pp. 67-68, 74.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870833",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-003-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870833, PDF pp. 67-68, 74.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870833, PDF pp. 67-68, 74."
+  },
+  {
     "id": "research-plan-cdl-101273-halifax-1995",
     "dedupeKey": "research-plan|clinton-item-101273",
     "date": "1995-06-15",
@@ -48365,6 +49809,126 @@ window.MEMCONS = [
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
+  },
+  {
+    "id": "pdd-1995-07-28-25",
+    "dedupeKey": "presidential-daily-diary|1995-07-28|10:35-11:39|Yeltsin|call",
+    "date": "1995-07-28",
+    "sortDate": "1995-07-28",
+    "sortOrder": 25,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: July 28, 1995 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: July 28, 1995 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870839",
+    "catalogUrl": "https://catalog.archives.gov/id/147870839",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-006-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "50",
+    "sourcePdfPageCount": 60,
+    "dateLine": "July 28, 1995, 10:35-11:39",
+    "subjectLine": "10:35-11:39; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 50.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870839",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-006-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870839, PDF pp. 50.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870839, PDF pp. 50."
+  },
+  {
+    "id": "pdd-1995-09-27-26",
+    "dedupeKey": "presidential-daily-diary|1995-09-27|10:35-10:53|Yeltsin|call",
+    "date": "1995-09-27",
+    "sortDate": "1995-09-27",
+    "sortOrder": 26,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: September 27, 1995 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: September 27, 1995 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870843",
+    "catalogUrl": "https://catalog.archives.gov/id/147870843",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-008-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "38",
+    "sourcePdfPageCount": 44,
+    "dateLine": "September 27, 1995, 10:35-10:53",
+    "subjectLine": "10:35-10:53; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 38.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870843",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-008-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870843, PDF pp. 38.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870843, PDF pp. 38."
   },
   {
     "id": "nara-7388808-236750751",
@@ -48586,6 +50150,126 @@ window.MEMCONS = [
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
+  },
+  {
+    "id": "pdd-1996-01-26-27",
+    "dedupeKey": "presidential-daily-diary|1996-01-26|10:25; 10:46-11:25|Yeltsin|call",
+    "date": "1996-01-26",
+    "sortDate": "1996-01-26",
+    "sortOrder": 27,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: January 26, 1996 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: January 26, 1996 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870851",
+    "catalogUrl": "https://catalog.archives.gov/id/147870851",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-012-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "48-49",
+    "sourcePdfPageCount": 56,
+    "dateLine": "January 26, 1996, 10:25; 10:46-11:25",
+    "subjectLine": "10:25; 10:46-11:25; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 48-49.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870851",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-012-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870851, PDF pp. 48-49.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870851, PDF pp. 48-49."
+  },
+  {
+    "id": "pdd-1996-02-21-28",
+    "dedupeKey": "presidential-daily-diary|1996-02-21|10:10; 10:39-11:05|Yeltsin|call",
+    "date": "1996-02-21",
+    "sortDate": "1996-02-21",
+    "sortOrder": 28,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: February 21, 1996 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: February 21, 1996 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870853",
+    "catalogUrl": "https://catalog.archives.gov/id/147870853",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-013-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "36",
+    "sourcePdfPageCount": 54,
+    "dateLine": "February 21, 1996, 10:10; 10:39-11:05",
+    "subjectLine": "10:10; 10:39-11:05; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 36.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870853",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-013-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870853, PDF pp. 36.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870853, PDF pp. 36."
   },
   {
     "id": "research-plan-nara-42219640",
@@ -48880,6 +50564,126 @@ window.MEMCONS = [
     }
   },
   {
+    "id": "pdd-1996-05-07-29",
+    "dedupeKey": "presidential-daily-diary|1996-05-07|8:20; 8:32-8:54|Yeltsin|call",
+    "date": "1996-05-07",
+    "sortDate": "1996-05-07",
+    "sortOrder": 29,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: May 7, 1996 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: May 7, 1996 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870859",
+    "catalogUrl": "https://catalog.archives.gov/id/147870859",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-003-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "10",
+    "sourcePdfPageCount": 54,
+    "dateLine": "May 7, 1996, 8:20; 8:32-8:54",
+    "subjectLine": "8:20; 8:32-8:54; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 10.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870859",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-003-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870859, PDF pp. 10.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870859, PDF pp. 10."
+  },
+  {
+    "id": "pdd-1996-07-05-30",
+    "dedupeKey": "presidential-daily-diary|1996-07-05|8:40; 9:05-9:27|Yeltsin|call",
+    "date": "1996-07-05",
+    "sortDate": "1996-07-05",
+    "sortOrder": 30,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: July 5, 1996 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: July 5, 1996 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870863",
+    "catalogUrl": "https://catalog.archives.gov/id/147870863",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-005-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "6",
+    "sourcePdfPageCount": 57,
+    "dateLine": "July 5, 1996, 8:40; 9:05-9:27",
+    "subjectLine": "8:40; 9:05-9:27; The President was telephoned by Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 6.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870863",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-005-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870863, PDF pp. 6.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870863, PDF pp. 6."
+  },
+  {
     "id": "nara-7388808-496276740",
     "dedupeKey": "nara-7388808|496276740",
     "date": "1996-08-01",
@@ -48982,6 +50786,126 @@ window.MEMCONS = [
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
+  },
+  {
+    "id": "pdd-1996-11-05-31",
+    "dedupeKey": "presidential-daily-diary|1996-11-05|10:50; 11:18-11:28|Chernomyrdin|call",
+    "date": "1996-11-05",
+    "sortDate": "1996-11-05",
+    "sortOrder": 31,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: November 5, 1996 Viktor Chernomyrdin call",
+    "documentTitle": "Presidential Daily Diary reference: November 5, 1996 Viktor Chernomyrdin call",
+    "participants": [
+      "Bill Clinton",
+      "Viktor Chernomyrdin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870871",
+    "catalogUrl": "https://catalog.archives.gov/id/147870871",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-009-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "8, 13",
+    "sourcePdfPageCount": 74,
+    "dateLine": "November 5, 1996, 10:50; 11:18-11:28",
+    "subjectLine": "10:50; 11:18-11:28; The President telephoned Viktor S. Chernomyrdin; the call was not completed. He then talked on a conference call with Chairman Chernomyrdin. Source PDF pp. 8, 13.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870871",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-009-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870871, PDF pp. 8, 13.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Chernomyrdin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Chernomyrdin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870871, PDF pp. 8, 13."
+  },
+  {
+    "id": "pdd-1997-02-28-32",
+    "dedupeKey": "presidential-daily-diary|1997-02-28|11:37; 11:53-12:11|Yeltsin|call",
+    "date": "1997-02-28",
+    "sortDate": "1997-02-28",
+    "sortOrder": 32,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: February 28, 1997 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: February 28, 1997 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870877",
+    "catalogUrl": "https://catalog.archives.gov/id/147870877",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-012-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "38",
+    "sourcePdfPageCount": 41,
+    "dateLine": "February 28, 1997, 11:37; 11:53-12:11",
+    "subjectLine": "11:37; 11:53-12:11; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 38.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870877",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-012-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870877, PDF pp. 38.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870877, PDF pp. 38."
   },
   {
     "id": "nara-7388808-23902037",
@@ -49469,6 +51393,246 @@ window.MEMCONS = [
     }
   },
   {
+    "id": "pdd-1997-10-30-33",
+    "dedupeKey": "presidential-daily-diary|1997-10-30|12:33; 12:52-1:21|Yeltsin|call",
+    "date": "1997-10-30",
+    "sortDate": "1997-10-30",
+    "sortOrder": 33,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: October 30, 1997 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: October 30, 1997 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870893",
+    "catalogUrl": "https://catalog.archives.gov/id/147870893",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-003-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "64",
+    "sourcePdfPageCount": 68,
+    "dateLine": "October 30, 1997, 12:33; 12:52-1:21",
+    "subjectLine": "12:33; 12:52-1:21; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 64.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870893",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-003-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870893, PDF pp. 64.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870893, PDF pp. 64."
+  },
+  {
+    "id": "pdd-1997-11-15-34",
+    "dedupeKey": "presidential-daily-diary|1997-11-15|10:40; 11:03-11:15|Yeltsin|call",
+    "date": "1997-11-15",
+    "sortDate": "1997-11-15",
+    "sortOrder": 34,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: November 15, 1997 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: November 15, 1997 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870895",
+    "catalogUrl": "https://catalog.archives.gov/id/147870895",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-004-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "35-36",
+    "sourcePdfPageCount": 65,
+    "dateLine": "November 15, 1997, 10:40; 11:03-11:15",
+    "subjectLine": "10:40; 11:03-11:15; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 35-36.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870895",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-004-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870895, PDF pp. 35-36.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870895, PDF pp. 35-36."
+  },
+  {
+    "id": "pdd-1997-11-22-35",
+    "dedupeKey": "presidential-daily-diary|1997-11-22|8:40; 9:00-9:43|Yeltsin|call",
+    "date": "1997-11-22",
+    "sortDate": "1997-11-22",
+    "sortOrder": 35,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: November 22, 1997 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: November 22, 1997 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870895",
+    "catalogUrl": "https://catalog.archives.gov/id/147870895",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-004-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "48",
+    "sourcePdfPageCount": 65,
+    "dateLine": "November 22, 1997, 8:40; 9:00-9:43",
+    "subjectLine": "8:40; 9:00-9:43; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 48.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870895",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-004-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870895, PDF pp. 48.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870895, PDF pp. 48."
+  },
+  {
+    "id": "pdd-1998-02-02-36",
+    "dedupeKey": "presidential-daily-diary|1998-02-02|9:07; 9:31-9:51|Yeltsin|call",
+    "date": "1998-02-02",
+    "sortDate": "1998-02-02",
+    "sortOrder": 36,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: February 2, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: February 2, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870903",
+    "catalogUrl": "https://catalog.archives.gov/id/147870903",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-008-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "6-7, 16",
+    "sourcePdfPageCount": 93,
+    "dateLine": "February 2, 1998, 9:07; 9:31-9:51",
+    "subjectLine": "9:07; 9:31-9:51; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call; appendix lists President Yeltsin as a participant. Source PDF pp. 6-7, 16.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870903",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-008-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870903, PDF pp. 6-7, 16.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870903, PDF pp. 6-7, 16."
+  },
+  {
     "id": "nara-7388808-40484711",
     "dedupeKey": "nara-7388808|40484711",
     "date": "1998-02-24",
@@ -49588,6 +51752,246 @@ window.MEMCONS = [
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
+  },
+  {
+    "id": "pdd-1998-03-11-37",
+    "dedupeKey": "presidential-daily-diary|1998-03-11|4:06-4:47|Chernomyrdin|meeting",
+    "date": "1998-03-11",
+    "sortDate": "1998-03-11",
+    "sortOrder": 37,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: March 11, 1998 Viktor Chernomyrdin meeting",
+    "documentTitle": "Presidential Daily Diary reference: March 11, 1998 Viktor Chernomyrdin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Viktor Chernomyrdin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870907",
+    "catalogUrl": "https://catalog.archives.gov/id/147870907",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-010-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "67, 75",
+    "sourcePdfPageCount": 93,
+    "dateLine": "March 11, 1998, 4:06-4:47",
+    "subjectLine": "4:06-4:47; The President participated in a meeting with Russian Prime Minister Viktor S. Chernomyrdin. Source PDF pp. 67, 75.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870907",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-010-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870907, PDF pp. 67, 75.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Chernomyrdin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Chernomyrdin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870907, PDF pp. 67, 75."
+  },
+  {
+    "id": "pdd-1998-05-12-38",
+    "dedupeKey": "presidential-daily-diary|1998-05-12|10:45; 11:01-11:27|Yeltsin|call",
+    "date": "1998-05-12",
+    "sortDate": "1998-05-12",
+    "sortOrder": 38,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: May 12, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: May 12, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870915",
+    "catalogUrl": "https://catalog.archives.gov/id/147870915",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-003-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "71-72",
+    "sourcePdfPageCount": 80,
+    "dateLine": "May 12, 1998, 10:45; 11:01-11:27",
+    "subjectLine": "10:45; 11:01-11:27; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 71-72.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870915",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-003-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870915, PDF pp. 71-72.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870915, PDF pp. 71-72."
+  },
+  {
+    "id": "pdd-1998-05-21-39",
+    "dedupeKey": "presidential-daily-diary|1998-05-21|10:25; 10:41-10:52|Yeltsin|call",
+    "date": "1998-05-21",
+    "sortDate": "1998-05-21",
+    "sortOrder": 39,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: May 21, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: May 21, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17368188",
+    "catalogUrl": "https://catalog.archives.gov/id/17368188",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/88/3681/17368188/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-006-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "11, 20",
+    "sourcePdfPageCount": 62,
+    "dateLine": "May 21, 1998, 10:25; 10:41-10:52",
+    "subjectLine": "10:25; 10:41-10:52; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin; appendix lists participants. Source PDF pp. 11, 20.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17368188",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/88/3681/17368188/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-006-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368188, PDF pp. 11, 20.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368188, PDF pp. 11, 20."
+  },
+  {
+    "id": "pdd-1998-05-28-40",
+    "dedupeKey": "presidential-daily-diary|1998-05-28|11:53-12:14|Yeltsin|call",
+    "date": "1998-05-28",
+    "sortDate": "1998-05-28",
+    "sortOrder": 40,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: May 28, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: May 28, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870917",
+    "catalogUrl": "https://catalog.archives.gov/id/147870917",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-004-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "46, 53",
+    "sourcePdfPageCount": 68,
+    "dateLine": "May 28, 1998, 11:53-12:14",
+    "subjectLine": "11:53-12:14; The President talked on a conference call with Boris N. Yeltsin; appendix lists participants. Source PDF pp. 46, 53.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870917",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-004-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870917, PDF pp. 46, 53.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870917, PDF pp. 46, 53."
   },
   {
     "id": "nara-7388808-441675758",
@@ -49717,6 +52121,246 @@ window.MEMCONS = [
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
+  },
+  {
+    "id": "pdd-1998-06-15-41",
+    "dedupeKey": "presidential-daily-diary|1998-06-15|1:21-1:57|Yeltsin|call",
+    "date": "1998-06-15",
+    "sortDate": "1998-06-15",
+    "sortOrder": 41,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 15, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: June 15, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870919",
+    "catalogUrl": "https://catalog.archives.gov/id/147870919",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-005-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "101, 108",
+    "sourcePdfPageCount": 109,
+    "dateLine": "June 15, 1998, 1:21-1:57",
+    "subjectLine": "1:21-1:57; The President talked on a conference call with Boris N. Yeltsin; appendix lists participants. Source PDF pp. 101, 108.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870919",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-005-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870919, PDF pp. 101, 108.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870919, PDF pp. 101, 108."
+  },
+  {
+    "id": "pdd-1998-06-16-42",
+    "dedupeKey": "presidential-daily-diary|1998-06-16|10:30; 10:52-10:58|Yeltsin|call",
+    "date": "1998-06-16",
+    "sortDate": "1998-06-16",
+    "sortOrder": 42,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 16, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: June 16, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870921",
+    "catalogUrl": "https://catalog.archives.gov/id/147870921",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-006-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "5-6",
+    "sourcePdfPageCount": 102,
+    "dateLine": "June 16, 1998, 10:30; 10:52-10:58",
+    "subjectLine": "10:30; 10:52-10:58; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 5-6.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870921",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-006-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870921, PDF pp. 5-6.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870921, PDF pp. 5-6."
+  },
+  {
+    "id": "pdd-1998-07-10-43",
+    "dedupeKey": "presidential-daily-diary|1998-07-10|1:19-1:38|Yeltsin|call",
+    "date": "1998-07-10",
+    "sortDate": "1998-07-10",
+    "sortOrder": 43,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: July 10, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: July 10, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870923",
+    "catalogUrl": "https://catalog.archives.gov/id/147870923",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-007-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "57",
+    "sourcePdfPageCount": 92,
+    "dateLine": "July 10, 1998, 1:19-1:38",
+    "subjectLine": "1:19-1:38; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 57.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870923",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-007-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870923, PDF pp. 57.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870923, PDF pp. 57."
+  },
+  {
+    "id": "pdd-1998-08-14-44",
+    "dedupeKey": "presidential-daily-diary|1998-08-14|10:30-11:06|Yeltsin|call",
+    "date": "1998-08-14",
+    "sortDate": "1998-08-14",
+    "sortOrder": 44,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: August 14, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: August 14, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870927",
+    "catalogUrl": "https://catalog.archives.gov/id/147870927",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-009-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "89, 95",
+    "sourcePdfPageCount": 97,
+    "dateLine": "August 14, 1998, 10:30-11:06",
+    "subjectLine": "10:30-11:06; The President talked on a conference call with Boris N. Yeltsin; appendix lists participants. Source PDF pp. 89, 95.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870927",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-009-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870927, PDF pp. 89, 95.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870927, PDF pp. 89, 95."
   },
   {
     "id": "nara-7388808-23902066",
@@ -49941,6 +52585,606 @@ window.MEMCONS = [
     "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870931."
   },
   {
+    "id": "pdd-1998-09-01-45",
+    "dedupeKey": "presidential-daily-diary|1998-09-01|11:12-12:43|Yeltsin|meeting",
+    "date": "1998-09-01",
+    "sortDate": "1998-09-01",
+    "sortOrder": 45,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: September 1, 1998 Boris Yeltsin meeting",
+    "documentTitle": "Presidential Daily Diary reference: September 1, 1998 Boris Yeltsin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870931",
+    "catalogUrl": "https://catalog.archives.gov/id/147870931",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "4-5",
+    "sourcePdfPageCount": 106,
+    "dateLine": "September 1, 1998, 11:12-12:43",
+    "subjectLine": "11:12-12:43; The President presented the U.S. delegation to Boris N. Yeltsin, then met with President Yeltsin and senior advisers. Source PDF pp. 4-5.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870931",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870931, PDF pp. 4-5.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870931, PDF pp. 4-5."
+  },
+  {
+    "id": "pdd-1998-09-01-46",
+    "dedupeKey": "presidential-daily-diary|1998-09-01|7:50-9:17|Yeltsin|summit event",
+    "date": "1998-09-01",
+    "sortDate": "1998-09-01",
+    "sortOrder": 46,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: September 1, 1998 Boris Yeltsin summit event",
+    "documentTitle": "Presidential Daily Diary reference: September 1, 1998 Boris Yeltsin summit event",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870931",
+    "catalogUrl": "https://catalog.archives.gov/id/147870931",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "7, 11",
+    "sourcePdfPageCount": 106,
+    "dateLine": "September 1, 1998, 7:50-9:17",
+    "subjectLine": "7:50-9:17; The President and First Lady attended an official dinner hosted by President and Mrs. Yeltsin; appendix lists senior U.S. and Russian participants. Source PDF pp. 7, 11.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870931",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870931, PDF pp. 7, 11.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "summit event",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "summit event",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870931, PDF pp. 7, 11."
+  },
+  {
+    "id": "pdd-1998-09-02-47",
+    "dedupeKey": "presidential-daily-diary|1998-09-02|10:50-2:04|Yeltsin|meeting",
+    "date": "1998-09-02",
+    "sortDate": "1998-09-02",
+    "sortOrder": 47,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: September 2, 1998 Boris Yeltsin meeting",
+    "documentTitle": "Presidential Daily Diary reference: September 2, 1998 Boris Yeltsin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17368189",
+    "catalogUrl": "https://catalog.archives.gov/id/17368189",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/89/3681/17368189/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-007-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "57",
+    "sourcePdfPageCount": 92,
+    "dateLine": "September 2, 1998, 10:50-2:04",
+    "subjectLine": "10:50-2:04; The President met with Boris N. Yeltsin, then proceeded through signing and press-conference events with President Yeltsin. Source PDF pp. 57.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17368189",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/89/3681/17368189/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-007-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368189, PDF pp. 57.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368189, PDF pp. 57."
+  },
+  {
+    "id": "pdd-1998-09-12-48",
+    "dedupeKey": "presidential-daily-diary|1998-09-12|11:14; 11:32-11:59|Yeltsin|call",
+    "date": "1998-09-12",
+    "sortDate": "1998-09-12",
+    "sortOrder": 48,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: September 12, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: September 12, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870931",
+    "catalogUrl": "https://catalog.archives.gov/id/147870931",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "92-93",
+    "sourcePdfPageCount": 106,
+    "dateLine": "September 12, 1998, 11:14; 11:32-11:59",
+    "subjectLine": "11:14; 11:32-11:59; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call. Source PDF pp. 92-93.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870931",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870931, PDF pp. 92-93.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870931, PDF pp. 92-93."
+  },
+  {
+    "id": "pdd-1998-10-05-49",
+    "dedupeKey": "presidential-daily-diary|1998-10-05|11:25; 12:01-12:18|Yeltsin|call",
+    "date": "1998-10-05",
+    "sortDate": "1998-10-05",
+    "sortOrder": 49,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: October 5, 1998 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: October 5, 1998 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870935",
+    "catalogUrl": "https://catalog.archives.gov/id/147870935",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-010-002-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "30",
+    "sourcePdfPageCount": 95,
+    "dateLine": "October 5, 1998, 11:25; 12:01-12:18",
+    "subjectLine": "11:25; 12:01-12:18; The President was telephoned by Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 30.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870935",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-010-002-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870935, PDF pp. 30.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870935, PDF pp. 30."
+  },
+  {
+    "id": "pdd-1999-03-24-50",
+    "dedupeKey": "presidential-daily-diary|1999-03-24|9:03; 9:20-9:56|Yeltsin|call",
+    "date": "1999-03-24",
+    "sortDate": "1999-03-24",
+    "sortOrder": 50,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: March 24, 1999 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: March 24, 1999 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870957",
+    "catalogUrl": "https://catalog.archives.gov/id/147870957",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-002-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "35-36",
+    "sourcePdfPageCount": 85,
+    "dateLine": "March 24, 1999, 9:03; 9:20-9:56",
+    "subjectLine": "9:03; 9:20-9:56; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 35-36.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870957",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-002-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870957, PDF pp. 35-36.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870957, PDF pp. 35-36."
+  },
+  {
+    "id": "pdd-1999-04-19-51",
+    "dedupeKey": "presidential-daily-diary|1999-04-19|9:30-10:13|Yeltsin|call",
+    "date": "1999-04-19",
+    "sortDate": "1999-04-19",
+    "sortOrder": 51,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: April 19, 1999 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: April 19, 1999 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870961",
+    "catalogUrl": "https://catalog.archives.gov/id/147870961",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-004-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "11",
+    "sourcePdfPageCount": 73,
+    "dateLine": "April 19, 1999, 9:30-10:13",
+    "subjectLine": "9:30-10:13; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 11.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870961",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-004-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870961, PDF pp. 11.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870961, PDF pp. 11."
+  },
+  {
+    "id": "pdd-1999-04-25-52",
+    "dedupeKey": "presidential-daily-diary|1999-04-25|10:17; 10:35-10:58|Yeltsin|call",
+    "date": "1999-04-25",
+    "sortDate": "1999-04-25",
+    "sortOrder": 52,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: April 25, 1999 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: April 25, 1999 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870961",
+    "catalogUrl": "https://catalog.archives.gov/id/147870961",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-004-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "48",
+    "sourcePdfPageCount": 73,
+    "dateLine": "April 25, 1999, 10:17; 10:35-10:58",
+    "subjectLine": "10:17; 10:35-10:58; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Boris N. Yeltsin. Source PDF pp. 48.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870961",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-004-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870961, PDF pp. 48.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870961, PDF pp. 48."
+  },
+  {
+    "id": "pdd-1999-05-02-53",
+    "dedupeKey": "presidential-daily-diary|1999-05-02|9:52; 10:18-10:31|Yeltsin|call",
+    "date": "1999-05-02",
+    "sortDate": "1999-05-02",
+    "sortOrder": 53,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: May 2, 1999 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: May 2, 1999 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17368193",
+    "catalogUrl": "https://catalog.archives.gov/id/17368193",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "34",
+    "sourcePdfPageCount": 76,
+    "dateLine": "May 2, 1999, 9:52; 10:18-10:31",
+    "subjectLine": "9:52; 10:18-10:31; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 34.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17368193",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368193, PDF pp. 34.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368193, PDF pp. 34."
+  },
+  {
+    "id": "pdd-1999-05-03-54",
+    "dedupeKey": "presidential-daily-diary|1999-05-03|4:59-6:25|Chernomyrdin|meeting",
+    "date": "1999-05-03",
+    "sortDate": "1999-05-03",
+    "sortOrder": 54,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: May 3, 1999 Viktor Chernomyrdin meeting",
+    "documentTitle": "Presidential Daily Diary reference: May 3, 1999 Viktor Chernomyrdin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Viktor Chernomyrdin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870963",
+    "catalogUrl": "https://catalog.archives.gov/id/147870963",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-005-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "10",
+    "sourcePdfPageCount": 80,
+    "dateLine": "May 3, 1999, 4:59-6:25",
+    "subjectLine": "4:59-6:25; The President met with Russian Prime Minister Viktor Chernomyrdin and Vice President Gore. Source PDF pp. 10.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870963",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-005-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870963, PDF pp. 10.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Chernomyrdin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Chernomyrdin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870963, PDF pp. 10."
+  },
+  {
     "id": "nara-scout-147870967",
     "date": "1999-06-01",
     "sortDate": "1999-06-01",
@@ -49992,6 +53236,426 @@ window.MEMCONS = [
     "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870967."
   },
   {
+    "id": "pdd-1999-06-07-55",
+    "dedupeKey": "presidential-daily-diary|1999-06-07|11:02-11:14|Yeltsin|call",
+    "date": "1999-06-07",
+    "sortDate": "1999-06-07",
+    "sortOrder": 55,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 7, 1999 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: June 7, 1999 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870967",
+    "catalogUrl": "https://catalog.archives.gov/id/147870967",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "27",
+    "sourcePdfPageCount": 68,
+    "dateLine": "June 7, 1999, 11:02-11:14",
+    "subjectLine": "11:02-11:14; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 27.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870967",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870967, PDF pp. 27.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870967, PDF pp. 27."
+  },
+  {
+    "id": "pdd-1999-06-08-56",
+    "dedupeKey": "presidential-daily-diary|1999-06-08|8:15; 8:58-9:15|Yeltsin|call",
+    "date": "1999-06-08",
+    "sortDate": "1999-06-08",
+    "sortOrder": 56,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 8, 1999 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: June 8, 1999 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870967",
+    "catalogUrl": "https://catalog.archives.gov/id/147870967",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "31-32",
+    "sourcePdfPageCount": 68,
+    "dateLine": "June 8, 1999, 8:15; 8:58-9:15",
+    "subjectLine": "8:15; 8:58-9:15; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 31-32.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870967",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870967, PDF pp. 31-32.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870967, PDF pp. 31-32."
+  },
+  {
+    "id": "pdd-1999-06-10-57",
+    "dedupeKey": "presidential-daily-diary|1999-06-10|10:06; 10:40-10:50|Yeltsin|call",
+    "date": "1999-06-10",
+    "sortDate": "1999-06-10",
+    "sortOrder": 57,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 10, 1999 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: June 10, 1999 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17368193",
+    "catalogUrl": "https://catalog.archives.gov/id/17368193",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "59-60",
+    "sourcePdfPageCount": 76,
+    "dateLine": "June 10, 1999, 10:06; 10:40-10:50",
+    "subjectLine": "10:06; 10:40-10:50; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 59-60.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17368193",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368193, PDF pp. 59-60.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368193, PDF pp. 59-60."
+  },
+  {
+    "id": "pdd-1999-06-14-58",
+    "dedupeKey": "presidential-daily-diary|1999-06-14|10:06-10:32|Yeltsin|call",
+    "date": "1999-06-14",
+    "sortDate": "1999-06-14",
+    "sortOrder": 58,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 14, 1999 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: June 14, 1999 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870967",
+    "catalogUrl": "https://catalog.archives.gov/id/147870967",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "60",
+    "sourcePdfPageCount": 68,
+    "dateLine": "June 14, 1999, 10:06-10:32",
+    "subjectLine": "10:06-10:32; The President talked on a conference call with Boris N. Yeltsin. Source PDF pp. 60.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870967",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870967, PDF pp. 60.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870967, PDF pp. 60."
+  },
+  {
+    "id": "pdd-1999-06-20-59",
+    "dedupeKey": "presidential-daily-diary|1999-06-20|1:01-2:03|Yeltsin|meeting",
+    "date": "1999-06-20",
+    "sortDate": "1999-06-20",
+    "sortOrder": 59,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 20, 1999 Boris Yeltsin meeting",
+    "documentTitle": "Presidential Daily Diary reference: June 20, 1999 Boris Yeltsin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17368193",
+    "catalogUrl": "https://catalog.archives.gov/id/17368193",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "69-70, 74",
+    "sourcePdfPageCount": 76,
+    "dateLine": "June 20, 1999, 1:01-2:03",
+    "subjectLine": "1:01-2:03; The President participated in a meeting with U.S. and Russian officials; appendix lists Boris N. Yeltsin as a participant. Source PDF pp. 69-70, 74.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17368193",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368193, PDF pp. 69-70, 74.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368193, PDF pp. 69-70, 74."
+  },
+  {
+    "id": "pdd-1999-11-02-60",
+    "dedupeKey": "presidential-daily-diary|1999-11-02|4:02-5:01|Putin|meeting",
+    "date": "1999-11-02",
+    "sortDate": "1999-11-02",
+    "sortOrder": 60,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: November 2, 1999 Vladimir Putin meeting",
+    "documentTitle": "Presidential Daily Diary reference: November 2, 1999 Vladimir Putin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870985",
+    "catalogUrl": "https://catalog.archives.gov/id/147870985",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-004-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "16, 23",
+    "sourcePdfPageCount": 92,
+    "dateLine": "November 2, 1999, 4:02-5:01",
+    "subjectLine": "4:02-5:01; The President participated in a photo opportunity with Prime Minister Vladimir Putin and then met with U.S. and Russian officials. Source PDF pp. 16, 23.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870985",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-004-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870985, PDF pp. 16, 23.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870985, PDF pp. 16, 23."
+  },
+  {
+    "id": "pdd-1999-11-18-61",
+    "dedupeKey": "presidential-daily-diary|1999-11-18|11:29-12:17|Yeltsin|meeting",
+    "date": "1999-11-18",
+    "sortDate": "1999-11-18",
+    "sortOrder": 61,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: November 18, 1999 Boris Yeltsin meeting",
+    "documentTitle": "Presidential Daily Diary reference: November 18, 1999 Boris Yeltsin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17368195",
+    "catalogUrl": "https://catalog.archives.gov/id/17368195",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/95/3681/17368195/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-012-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "52, 59",
+    "sourcePdfPageCount": 77,
+    "dateLine": "November 18, 1999, 11:29-12:17",
+    "subjectLine": "11:29-12:17; The President greeted Boris N. Yeltsin and participated in a meeting with Russian officials; appendix identifies the bilateral meeting with Boris Yeltsin. Source PDF pp. 52, 59.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17368195",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/95/3681/17368195/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-012-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368195, PDF pp. 52, 59.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368195, PDF pp. 52, 59."
+  },
+  {
     "id": "nara-scout-147870995",
     "date": "1999-12-21",
     "sortDate": "1999-12-21",
@@ -50040,6 +53704,126 @@ window.MEMCONS = [
       "Daily diary"
     ],
     "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870995."
+  },
+  {
+    "id": "pdd-1999-12-31-62",
+    "dedupeKey": "presidential-daily-diary|1999-12-31|8:38; 9:02-9:22|Yeltsin|call",
+    "date": "1999-12-31",
+    "sortDate": "1999-12-31",
+    "sortOrder": 62,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: December 31, 1999 Boris Yeltsin call",
+    "documentTitle": "Presidential Daily Diary reference: December 31, 1999 Boris Yeltsin call",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870995",
+    "catalogUrl": "https://catalog.archives.gov/id/147870995",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-009-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "48",
+    "sourcePdfPageCount": 61,
+    "dateLine": "December 31, 1999, 8:38; 9:02-9:22",
+    "subjectLine": "8:38; 9:02-9:22; The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin. Source PDF pp. 48.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870995",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-009-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870995, PDF pp. 48.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870995, PDF pp. 48."
+  },
+  {
+    "id": "pdd-2000-01-01-63",
+    "dedupeKey": "presidential-daily-diary|2000-01-01|11:07-11:16|Putin|call",
+    "date": "2000-01-01",
+    "sortDate": "2000-01-01",
+    "sortOrder": 63,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: January 1, 2000 Vladimir Putin call",
+    "documentTitle": "Presidential Daily Diary reference: January 1, 2000 Vladimir Putin call",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147870997",
+    "catalogUrl": "https://catalog.archives.gov/id/147870997",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-010-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "9",
+    "sourcePdfPageCount": 92,
+    "dateLine": "January 1, 2000, 11:07-11:16",
+    "subjectLine": "11:07-11:16; The President talked on a conference call with Vladimir Putin, Acting President of Russia. Source PDF pp. 9.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147870997",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-010-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870997, PDF pp. 9.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147870997, PDF pp. 9."
   },
   {
     "id": "nara-7388808-28272403",
@@ -50163,6 +53947,788 @@ window.MEMCONS = [
       "searchSourceUrl": "https://catalog.archives.gov/search-within/7388808?q=yeltsin",
       "searchGeneratedAt": "2026-05-22T17:12:02-04:00"
     }
+  },
+  {
+    "id": "pdd-2000-03-27-64",
+    "dedupeKey": "presidential-daily-diary|2000-03-27|10:50; 11:13-11:29|Putin|call",
+    "date": "2000-03-27",
+    "sortDate": "2000-03-27",
+    "sortOrder": 64,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: March 27, 2000 Vladimir Putin call",
+    "documentTitle": "Presidential Daily Diary reference: March 27, 2000 Vladimir Putin call",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871009",
+    "catalogUrl": "https://catalog.archives.gov/id/147871009",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-005-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "58-59",
+    "sourcePdfPageCount": 87,
+    "dateLine": "March 27, 2000, 10:50; 11:13-11:29",
+    "subjectLine": "10:50; 11:13-11:29; The President telephoned President-elect Vladimir Putin; the call was not completed. He then talked on a conference call with President-elect Putin. Source PDF pp. 58-59.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871009",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-005-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871009, PDF pp. 58-59.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871009, PDF pp. 58-59."
+  },
+  {
+    "id": "pdd-2000-04-15-65",
+    "dedupeKey": "presidential-daily-diary|2000-04-15|11:15; 12:04-12:11|Putin|call",
+    "date": "2000-04-15",
+    "sortDate": "2000-04-15",
+    "sortOrder": 65,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: April 15, 2000 Vladimir Putin call",
+    "documentTitle": "Presidential Daily Diary reference: April 15, 2000 Vladimir Putin call",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871011",
+    "catalogUrl": "https://catalog.archives.gov/id/147871011",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-006-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "82-83",
+    "sourcePdfPageCount": 86,
+    "dateLine": "April 15, 2000, 11:15; 12:04-12:11",
+    "subjectLine": "11:15; 12:04-12:11; The President placed a call to Vladimir Putin; the call was not completed. He then talked on a conference call with President Putin. Source PDF pp. 82-83.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871011",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-006-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871011, PDF pp. 82-83.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871011, PDF pp. 82-83."
+  },
+  {
+    "id": "pdd-2000-06-03-66",
+    "dedupeKey": "presidential-daily-diary|2000-06-03|8:13-12:03|Putin|meeting",
+    "date": "2000-06-03",
+    "sortDate": "2000-06-03",
+    "sortOrder": 66,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 3, 2000 Vladimir Putin meeting",
+    "documentTitle": "Presidential Daily Diary reference: June 3, 2000 Vladimir Putin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871021",
+    "catalogUrl": "https://catalog.archives.gov/id/147871021",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "22",
+    "sourcePdfPageCount": 72,
+    "dateLine": "June 3, 2000, 8:13-12:03",
+    "subjectLine": "8:13-12:03; The President participated in a photo opportunity with Vladimir Putin and had dinner with President Putin and Strobe Talbott. Source PDF pp. 22.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 22.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 22."
+  },
+  {
+    "id": "pdd-2000-06-04-67",
+    "dedupeKey": "presidential-daily-diary|2000-06-04|1:15-3:28|Putin|meeting",
+    "date": "2000-06-04",
+    "sortDate": "2000-06-04",
+    "sortOrder": 67,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 4, 2000 Vladimir Putin meeting",
+    "documentTitle": "Presidential Daily Diary reference: June 4, 2000 Vladimir Putin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871021",
+    "catalogUrl": "https://catalog.archives.gov/id/147871021",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "28, 32-33",
+    "sourcePdfPageCount": 72,
+    "dateLine": "June 4, 2000, 1:15-3:28",
+    "subjectLine": "1:15-3:28; The President met with Vladimir Putin and then met with a group of Russian officials. Source PDF pp. 28, 32-33.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 28, 32-33.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 28, 32-33."
+  },
+  {
+    "id": "pdd-2000-06-05-68",
+    "dedupeKey": "presidential-daily-diary|2000-06-05|11:22|Putin|meeting",
+    "date": "2000-06-05",
+    "sortDate": "2000-06-05",
+    "sortOrder": 68,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 5, 2000 Vladimir Putin meeting",
+    "documentTitle": "Presidential Daily Diary reference: June 5, 2000 Vladimir Putin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871021",
+    "catalogUrl": "https://catalog.archives.gov/id/147871021",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "37",
+    "sourcePdfPageCount": 72,
+    "dateLine": "June 5, 2000, 11:22",
+    "subjectLine": "11:22; The President met with Vladimir Putin, Strobe Talbott, and Sergey Prikhodko. Source PDF pp. 37.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 37.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 37."
+  },
+  {
+    "id": "pdd-2000-06-05-69",
+    "dedupeKey": "presidential-daily-diary|2000-06-05|12:52-1:28|Yeltsin|meeting",
+    "date": "2000-06-05",
+    "sortDate": "2000-06-05",
+    "sortOrder": 69,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 5, 2000 Boris Yeltsin meeting",
+    "documentTitle": "Presidential Daily Diary reference: June 5, 2000 Boris Yeltsin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871021",
+    "catalogUrl": "https://catalog.archives.gov/id/147871021",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "37",
+    "sourcePdfPageCount": 72,
+    "dateLine": "June 5, 2000, 12:52-1:28",
+    "subjectLine": "12:52-1:28; The President met with former Russian President Boris Yeltsin. Source PDF pp. 37.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 37.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Yeltsin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 37."
+  },
+  {
+    "id": "pdd-2000-06-09-70",
+    "dedupeKey": "presidential-daily-diary|2000-06-09|8:25|Putin|call",
+    "date": "2000-06-09",
+    "sortDate": "2000-06-09",
+    "sortOrder": 70,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: June 9, 2000 Vladimir Putin call",
+    "documentTitle": "Presidential Daily Diary reference: June 9, 2000 Vladimir Putin call",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871021",
+    "catalogUrl": "https://catalog.archives.gov/id/147871021",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "53",
+    "sourcePdfPageCount": 72,
+    "dateLine": "June 9, 2000, 8:25",
+    "subjectLine": "8:25; The President talked on a conference call with Vladimir Putin. Source PDF pp. 53.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 53.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871021, PDF pp. 53."
+  },
+  {
+    "id": "pdd-2000-07-10-71",
+    "dedupeKey": "presidential-daily-diary|2000-07-10|10:39-10:56|Putin|call",
+    "date": "2000-07-10",
+    "sortDate": "2000-07-10",
+    "sortOrder": 71,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: July 10, 2000 Vladimir Putin call",
+    "documentTitle": "Presidential Daily Diary reference: July 10, 2000 Vladimir Putin call",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871027",
+    "catalogUrl": "https://catalog.archives.gov/id/147871027",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-002-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "40",
+    "sourcePdfPageCount": 65,
+    "dateLine": "July 10, 2000, 10:39-10:56",
+    "subjectLine": "10:39-10:56; The President talked on a conference call with Vladimir Putin. Source PDF pp. 40.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871027",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-002-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871027, PDF pp. 40.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871027, PDF pp. 40."
+  },
+  {
+    "id": "pdd-2000-07-21-72",
+    "dedupeKey": "presidential-daily-diary|2000-07-21|6:16-7:51|Putin|meeting",
+    "date": "2000-07-21",
+    "sortDate": "2000-07-21",
+    "sortOrder": 72,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: July 21, 2000 Vladimir Putin meeting",
+    "documentTitle": "Presidential Daily Diary reference: July 21, 2000 Vladimir Putin meeting",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "17368201",
+    "catalogUrl": "https://catalog.archives.gov/id/17368201",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/1/3682/17368201/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_003/42-t-7262157-20100083F-003-003-2015.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "12",
+    "sourcePdfPageCount": 53,
+    "dateLine": "July 21, 2000, 6:16-7:51",
+    "subjectLine": "6:16-7:51; The President greeted Vladimir Putin, walked to a private dining room, and met with President Putin. Source PDF pp. 12.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/17368201",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/1/3682/17368201/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_003/42-t-7262157-20100083F-003-003-2015.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368201, PDF pp. 12.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "meeting",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 17368201, PDF pp. 12."
+  },
+  {
+    "id": "pdd-2000-08-16-73",
+    "dedupeKey": "presidential-daily-diary|2000-08-16|10:15|Putin|call",
+    "date": "2000-08-16",
+    "sortDate": "2000-08-16",
+    "sortOrder": 73,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: August 16, 2000 Vladimir Putin call",
+    "documentTitle": "Presidential Daily Diary reference: August 16, 2000 Vladimir Putin call",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871031",
+    "catalogUrl": "https://catalog.archives.gov/id/147871031",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-004-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "60",
+    "sourcePdfPageCount": 63,
+    "dateLine": "August 16, 2000, 10:15",
+    "subjectLine": "10:15; The President talked on a conference call with Vladimir Putin regarding the Kursk submarine accident. Source PDF pp. 60.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871031",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-004-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871031, PDF pp. 60.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin",
+      "Kursk"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin",
+      "Kursk"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871031, PDF pp. 60."
+  },
+  {
+    "id": "pdd-2000-09-30-74",
+    "dedupeKey": "presidential-daily-diary|2000-09-30|2:50; 3:04-3:38|Putin|call",
+    "date": "2000-09-30",
+    "sortDate": "2000-09-30",
+    "sortOrder": 74,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: September 30, 2000 Vladimir Putin call",
+    "documentTitle": "Presidential Daily Diary reference: September 30, 2000 Vladimir Putin call",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871037",
+    "catalogUrl": "https://catalog.archives.gov/id/147871037",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-007-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "61",
+    "sourcePdfPageCount": 63,
+    "dateLine": "September 30, 2000, 2:50; 3:04-3:38",
+    "subjectLine": "2:50; 3:04-3:38; The President telephoned Vladimir Putin; the call was not completed. He then talked on a conference call with President Putin. Source PDF pp. 61.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871037",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-007-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871037, PDF pp. 61.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871037, PDF pp. 61."
+  },
+  {
+    "id": "pdd-2000-10-20-75",
+    "dedupeKey": "presidential-daily-diary|2000-10-20|8:45; 9:05-9:24|Putin|call",
+    "date": "2000-10-20",
+    "sortDate": "2000-10-20",
+    "sortOrder": 75,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: October 20, 2000 Vladimir Putin call",
+    "documentTitle": "Presidential Daily Diary reference: October 20, 2000 Vladimir Putin call",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871041",
+    "catalogUrl": "https://catalog.archives.gov/id/147871041",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-009-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "25",
+    "sourcePdfPageCount": 79,
+    "dateLine": "October 20, 2000, 8:45; 9:05-9:24",
+    "subjectLine": "8:45; 9:05-9:24; The President telephoned Vladimir Putin; the call was not completed. He then talked on a conference call with President Putin. Source PDF pp. 25.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871041",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-009-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871041, PDF pp. 25.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871041, PDF pp. 25."
+  },
+  {
+    "id": "pdd-2000-12-08-76",
+    "dedupeKey": "presidential-daily-diary|2000-12-08|11:20|Putin|call",
+    "date": "2000-12-08",
+    "sortDate": "2000-12-08",
+    "sortOrder": 76,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary reference: December 8, 2000 Vladimir Putin call",
+    "documentTitle": "Presidential Daily Diary reference: December 8, 2000 Vladimir Putin call",
+    "participants": [
+      "Bill Clinton",
+      "Vladimir Putin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Daily Diary Reference",
+    "naid": "147871045",
+    "catalogUrl": "https://catalog.archives.gov/id/147871045",
+    "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-011-2018.pdf",
+    "pageCount": null,
+    "digitalObjects": 1,
+    "sourcePdfPages": "18",
+    "sourcePdfPageCount": 60,
+    "dateLine": "December 8, 2000, 11:20",
+    "subjectLine": "11:20; The President talked on a conference call with Vladimir Putin. Source PDF pp. 18.",
+    "source": {
+      "name": "National Archives Catalog, Presidential Daily Diary",
+      "url": "https://catalog.archives.gov/id/147871045",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-011-2018.pdf"
+    },
+    "sourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871045, PDF pp. 18.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Leader contact",
+      "call",
+      "Putin"
+    ],
+    "countStatus": "Daily Diary reference only",
+    "potentialFrusDocument": false,
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID 147871045, PDF pp. 18."
   },
   {
     "id": "nara-scout-query-yeltsin",
@@ -55644,5 +60210,60 @@ window.MEMCONS = [
       }
     ],
     "subjectDigest": "5 collection families / 24 search terms / 557 unique online digitized hits / 35 visible leads / 2272 PDF packet pages / 4930 collection-wide digitized file units screened"
+  },
+  {
+    "id": "presidential-daily-diary-search-2026-05-25",
+    "dedupeKey": "presidential-daily-diary|search-2026-05-25",
+    "date": "2026-05-25",
+    "sortDate": "2026-05-25",
+    "sortOrder": 0,
+    "type": "Scout Lead",
+    "title": "Presidential Daily Diary search: Russia high-level contacts",
+    "documentTitle": "Presidential Daily Diary search: Russia high-level contacts",
+    "participants": [
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Vladimir Putin",
+      "Viktor Chernomyrdin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "chapter": {
+      "number": 5,
+      "name": "NARA Scout Leads"
+    },
+    "releaseStatus": "Search Trail",
+    "naid": "presidential-daily-diary-search",
+    "catalogUrl": "https://catalog.archives.gov/search?q=%222010-0083-F%22&collectionIdentifier=WJC*",
+    "pdfUrl": "",
+    "pageCount": null,
+    "digitalObjects": null,
+    "dateLine": "Search run May 25, 2026",
+    "subjectLine": "Presidential Daily Diary pass: 76 relevant high-level Russia references from 60 source records; user-provided 2010-0083-F search texted 59 PDFs; broader Yeltsin/Putin/Chernomyrdin searches texted 61 PDFs.",
+    "source": {
+      "name": "NARA Scout",
+      "url": "https://therealjameswilson.github.io/nara-scout/"
+    },
+    "sourceNote": "Source: National Archives Catalog proxy/API search trail for Presidential Daily Diary records, run May 25, 2026; user-provided 2010-0083-F query plus targeted Yeltsin, Putin, and Chernomyrdin searches.",
+    "frusVolume": {
+      "id": "frus1993-00v18",
+      "title": "Foreign Relations of the United States, 1993-2000, Volume XVIII, Russia",
+      "url": "https://history.state.gov/historicaldocuments/frus1993-00v18",
+      "status": "Planned; not yet compiled or scheduled"
+    },
+    "frusTopics": [
+      "Presidential Daily Diary",
+      "Search trail",
+      "Russia high-level contacts"
+    ],
+    "topics": [
+      "Presidential Daily Diary",
+      "Search trail",
+      "NARA Catalog"
+    ],
+    "presidentialDailyDiaryReference": true,
+    "frusSourceNote": "Source: NARA Scout search trail, Search run May 25, 2026."
   }
 ];

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-25T11:20:47.922Z",
-  "totalRecords": 662,
+  "generatedAt": "2026-05-26T02:11:51.748Z",
+  "totalRecords": 739,
   "byChapter": {
     "Clinton-Yeltsin Chronology": 92,
     "Released Clinton Library Packets": 4,
     "Talbott FOIA Context": 156,
     "Clinton Public Statements": 334,
-    "NARA Scout Leads": 76
+    "NARA Scout Leads": 153
   },
   "byType": {
     "Telcon": 60,
@@ -14,13 +14,13 @@
     "Release Packet": 4,
     "Context": 156,
     "Public Statement": 334,
-    "Scout Lead": 76
+    "Scout Lead": 153
   },
   "pageTallies": {
     "allRecords": {
-      "documents": 662,
+      "documents": 739,
       "countedDocuments": 93,
-      "pendingDocuments": 569,
+      "pendingDocuments": 646,
       "pages": 578
     },
     "potentialClintonYeltsinDocuments": {
@@ -55,9 +55,9 @@
         "pages": 0
       },
       "NARA Scout Leads": {
-        "documents": 76,
+        "documents": 153,
         "countedDocuments": 8,
-        "pendingDocuments": 68,
+        "pendingDocuments": 145,
         "pages": 133
       }
     }
@@ -100,6 +100,26 @@
     "alreadyCountedConversationRecords": 2,
     "pageCountAudit": "PDF packet page counts verified with pdfinfo on May 22, 2026; NAID 23901979 corrected from the initial 8-page API/OCR count to 10 PDF pages.",
     "standaloneExtractionAudit": "High-priority NARA standalone pass completed May 23, 2026: extracted NAIDs 23901979, 23901998, and 441675758 as document-pages-plus-marker derivatives; NAID 147873387 blocked because only a withdrawal/redaction marker for the Yeltsin pull-aside item is present."
+  },
+  "presidentialDailyDiarySearch": {
+    "sourceFile": "data/presidential-daily-diary-search.json",
+    "sourceRecords": 60,
+    "references": 76,
+    "byEventType": {
+      "call": 56,
+      "meeting": 15,
+      "call attempt": 2,
+      "summit event": 3
+    },
+    "byLeader": {
+      "Yeltsin": 58,
+      "Chernomyrdin": 4,
+      "Putin": 14
+    },
+    "mdr20100083FRecords": 59,
+    "mdr20100083FPdfsTexted": 59,
+    "broaderNameSearchRecords": 61,
+    "broaderNameSearchPdfsTexted": 61
   },
   "clintonLibraryOnsiteResearchPlan": {
     "sourceFile": "data/clinton-library-onsite-research-plan.json",
@@ -168,8 +188,8 @@
   },
   "frusSourceNoteStyleAudit": {
     "sourceFile": "reports/frus-source-note-style-audit.json",
-    "recordsWithSourcePrefix": 662,
-    "recordsWithRepositoryStem": 662,
+    "recordsWithSourcePrefix": 739,
+    "recordsWithRepositoryStem": 739,
     "recordsWithAuditLanguage": 0,
     "candidateRecordsWithAuditLanguage": 0,
     "candidateConversationRecords": 91
@@ -188,6 +208,7 @@
     "clintonLibraryOnsiteResearchPlan": "reports/clinton-library-onsite-research-plan.json",
     "naraScout": "https://therealjameswilson.github.io/nara-scout/",
     "naraScoutCollectionSearch": "reports/nara-scout-collection-search.json",
+    "presidentialDailyDiarySearch": "reports/presidential-daily-diary-search.json",
     "pendingExtentVerificationRecheck": "reports/pending-extent-verification-recheck.json",
     "clintonDigitalLibrarySolrAudit": "reports/clinton-digital-library-solr-audit.json"
   }

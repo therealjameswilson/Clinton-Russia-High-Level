@@ -17,6 +17,9 @@ const RESEARCH_PLAN_ONLINE_SEARCH =
 const NARA_7388808_YELTSIN_SEARCH =
   process.env.NARA_7388808_YELTSIN_SEARCH ||
   path.join(ROOT, "data", "nara-7388808-yeltsin-search.json");
+const PRESIDENTIAL_DAILY_DIARY_SEARCH =
+  process.env.PRESIDENTIAL_DAILY_DIARY_SEARCH ||
+  path.join(ROOT, "data", "presidential-daily-diary-search.json");
 const CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN =
   process.env.CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN ||
   path.join(ROOT, "data", "clinton-library-onsite-research-plan.json");
@@ -114,6 +117,10 @@ const SOURCES = {
   naraScout: {
     name: "NARA Scout",
     url: "https://therealjameswilson.github.io/nara-scout/"
+  },
+  presidentialDailyDiary: {
+    name: "National Archives Catalog, Presidential Daily Diary",
+    url: "https://catalog.archives.gov/search?q=%22Presidential%20Daily%20Diary%22&collectionIdentifier=WJC*"
   },
   govinfoPublicPapers: {
     name: "GovInfo, Public Papers of the Presidents: William J. Clinton",
@@ -793,6 +800,9 @@ const STROBE_LIVE_YELTSIN_PDF_LEADS_SNAPSHOT = readJsonOptional(
 );
 const RESEARCH_PLAN_ONLINE_SEARCH_SNAPSHOT = readJsonOptional(RESEARCH_PLAN_ONLINE_SEARCH);
 const NARA_7388808_YELTSIN_SEARCH_SNAPSHOT = readJsonOptional(NARA_7388808_YELTSIN_SEARCH);
+const PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT = readJsonOptional(
+  PRESIDENTIAL_DAILY_DIARY_SEARCH
+);
 
 const STROBE_SUPPRESSED_CONTEXT_IDS = new Set([
   ...Object.values(STROBE_CONVERSATION_FILES).map((file) => file.id),
@@ -1893,7 +1903,8 @@ function buildFrusSourceNote(record) {
   }
 
   if (/Presidential Daily Diary/i.test(sourceName)) {
-    return `Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID ${record.naid}.`;
+    const pdfPage = record.sourcePdfPages ? `, PDF pp. ${record.sourcePdfPages}` : "";
+    return `Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID ${record.naid}${pdfPage}.`;
   }
 
   if (/Advance Office Trip Books/i.test(sourceName)) {
@@ -4030,6 +4041,110 @@ function buildNaraScoutRecords() {
   ];
 }
 
+function dailyDiaryTopics(reference) {
+  const topics = ["Presidential Daily Diary", "Leader contact", reference.eventType];
+  if (reference.leader) topics.push(reference.leader);
+  if (/Kosovo|NATO|Kursk|Denuclearization|Budapest/i.test(reference.summary || "")) {
+    if (/Kosovo/i.test(reference.summary)) topics.push("Kosovo");
+    if (/NATO/i.test(reference.summary)) topics.push("NATO/Russia");
+    if (/Kursk/i.test(reference.summary)) topics.push("Kursk");
+    if (/Denuclearization|Budapest/i.test(reference.summary)) topics.push("Ukraine");
+  }
+  return topics;
+}
+
+function buildPresidentialDailyDiaryRecords() {
+  const search = PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT || {};
+  const references = search.references || [];
+  if (!references.length) return [];
+
+  const searchDate = (search.generatedAt || "2026-05-25").slice(0, 10);
+  const summary = search.summary || {};
+  const trailSubject =
+    `Presidential Daily Diary pass: ${summary.references || references.length} relevant high-level Russia references from ${summary.sourceRecords || 0} source records; user-provided 2010-0083-F search texted 59 PDFs; broader Yeltsin/Putin/Chernomyrdin searches texted ${summary.broadTargetedNameSearchPdfsTexted || 0} PDFs.`;
+  const searchTrail = {
+    id: "presidential-daily-diary-search-2026-05-25",
+    dedupeKey: "presidential-daily-diary|search-2026-05-25",
+    date: searchDate,
+    sortDate: searchDate,
+    sortOrder: 0,
+    type: "Scout Lead",
+    title: "Presidential Daily Diary search: Russia high-level contacts",
+    documentTitle: "Presidential Daily Diary search: Russia high-level contacts",
+    participants: ["Bill Clinton", "Boris Yeltsin", "Vladimir Putin", "Viktor Chernomyrdin"],
+    countries: ["United States", "Russia"],
+    chapter: CHAPTERS.scout,
+    releaseStatus: "Search Trail",
+    naid: "presidential-daily-diary-search",
+    catalogUrl: search.searches?.[0]?.url || SOURCES.presidentialDailyDiary.url,
+    pdfUrl: "",
+    pageCount: null,
+    digitalObjects: null,
+    dateLine: `Search run ${isoDateDisplay(searchDate)}`,
+    subjectLine: trailSubject,
+    source: SOURCES.naraScout,
+    sourceNote:
+      `Source: National Archives Catalog proxy/API search trail for Presidential Daily Diary records, run ${isoDateDisplay(searchDate)}; user-provided 2010-0083-F query plus targeted Yeltsin, Putin, and Chernomyrdin searches.`,
+    frusVolume: FRUS_VOLUME,
+    frusTopics: ["Presidential Daily Diary", "Search trail", "Russia high-level contacts"],
+    topics: ["Presidential Daily Diary", "Search trail", "NARA Catalog"],
+    presidentialDailyDiaryReference: true
+  };
+
+  const records = references.map((reference, index) => {
+    const dateDisplay = isoDateDisplay(reference.date);
+    const leaderName = reference.participants?.[1] || reference.leader || "Russia";
+    const eventLabel =
+      reference.eventType === "call attempt" ? "call attempt" : reference.eventType || "reference";
+    const title = `Presidential Daily Diary reference: ${dateDisplay} ${leaderName} ${eventLabel}`;
+    const timeText = reference.time ? `${reference.time}; ` : "";
+    const sourcePageText = reference.sourcePdfPages
+      ? ` Source PDF pp. ${reference.sourcePdfPages}.`
+      : "";
+    const topics = dailyDiaryTopics(reference);
+    return {
+      id: reference.id || `pdd-${reference.date}-${index + 1}`,
+      dedupeKey:
+        reference.dedupeKey ||
+        `presidential-daily-diary|${reference.date}|${reference.time || index}|${reference.leader || ""}|${reference.eventType || ""}`,
+      date: reference.date,
+      sortDate: reference.date,
+      sortOrder: index + 1,
+      type: "Scout Lead",
+      title,
+      documentTitle: title,
+      participants: reference.participants || ["Bill Clinton", leaderName],
+      countries: ["United States", "Russia"],
+      chapter: CHAPTERS.scout,
+      releaseStatus: "Daily Diary Reference",
+      naid: String(reference.naid || ""),
+      catalogUrl: reference.catalogUrl || `https://catalog.archives.gov/id/${reference.naid}`,
+      pdfUrl: reference.pdfUrl || "",
+      pageCount: null,
+      digitalObjects: 1,
+      sourcePdfPages: reference.sourcePdfPages || "",
+      sourcePdfPageCount: reference.sourcePdfPageCount || null,
+      dateLine: `${dateDisplay}${reference.time ? `, ${reference.time}` : ""}`,
+      subjectLine: `${timeText}${ascii(reference.summary)}${sourcePageText}`,
+      source: {
+        ...SOURCES.presidentialDailyDiary,
+        url: reference.catalogUrl || `https://catalog.archives.gov/id/${reference.naid}`,
+        pdfUrl: reference.pdfUrl || ""
+      },
+      sourceNote:
+        `Source: National Archives Catalog, Presidential Daily Diary (Clinton Administration), Ellen McCathran's Files, NAID ${reference.naid}${reference.sourcePdfPages ? `, PDF pp. ${reference.sourcePdfPages}` : ""}.`,
+      frusVolume: FRUS_VOLUME,
+      frusTopics: topics,
+      topics,
+      countStatus: reference.countStatus || "Daily Diary reference only",
+      potentialFrusDocument: false,
+      presidentialDailyDiaryReference: true
+    };
+  });
+
+  return [searchTrail, ...records];
+}
+
 function researchLeadTopics(lead) {
   const title = ascii(`${lead.title || ""} ${lead.researchUse || ""}`);
   const topics = ["Research plan", "Digitized lead"];
@@ -4996,6 +5111,25 @@ function writeOutputs(records) {
       standaloneExtractionAudit:
         NARA_7388808_YELTSIN_SEARCH_SNAPSHOT.summary?.standaloneExtractionAudit || ""
     },
+    presidentialDailyDiarySearch: {
+      sourceFile: path.relative(ROOT, PRESIDENTIAL_DAILY_DIARY_SEARCH),
+      sourceRecords: PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT.summary?.sourceRecords || 0,
+      references: PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT.summary?.references || 0,
+      byEventType: PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT.summary?.byEventType || {},
+      byLeader: PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT.summary?.byLeader || {},
+      mdr20100083FRecords:
+        PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT.searches?.find((search) =>
+          /2010-0083-F/i.test(search.label || "")
+        )?.totalHits || 0,
+      mdr20100083FPdfsTexted:
+        PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT.searches?.find((search) =>
+          /2010-0083-F/i.test(search.label || "")
+        )?.pdfsDownloadedAndTexted || 0,
+      broaderNameSearchRecords:
+        PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT.summary?.broadTargetedNameSearchUnionRecords || 0,
+      broaderNameSearchPdfsTexted:
+        PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT.summary?.broadTargetedNameSearchPdfsTexted || 0
+    },
     clintonLibraryOnsiteResearchPlan: {
       sourceFile: path.relative(ROOT, CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN),
       findingAidParts: CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT.summary?.findingAidParts || 0,
@@ -5062,6 +5196,7 @@ function writeOutputs(records) {
       clintonLibraryOnsiteResearchPlan: "reports/clinton-library-onsite-research-plan.json",
       naraScout: SOURCES.naraScout.url,
       naraScoutCollectionSearch: "reports/nara-scout-collection-search.json",
+      presidentialDailyDiarySearch: "reports/presidential-daily-diary-search.json",
       pendingExtentVerificationRecheck: "reports/pending-extent-verification-recheck.json",
       clintonDigitalLibrarySolrAudit: "reports/clinton-digital-library-solr-audit.json"
     }
@@ -5107,6 +5242,10 @@ function writeOutputs(records) {
     `${JSON.stringify(NARA_7388808_YELTSIN_SEARCH_SNAPSHOT, null, 2)}\n`
   );
   fs.writeFileSync(
+    path.join(reportsDir, "presidential-daily-diary-search.json"),
+    `${JSON.stringify(PRESIDENTIAL_DAILY_DIARY_SEARCH_SNAPSHOT, null, 2)}\n`
+  );
+  fs.writeFileSync(
     path.join(reportsDir, "clinton-library-onsite-research-plan.json"),
     `${JSON.stringify(CLINTON_LIBRARY_ONSITE_RESEARCH_PLAN_SNAPSHOT, null, 2)}\n`
   );
@@ -5134,6 +5273,7 @@ const records = addFrusSourceNotes(
       ...buildPublicStatementRecords(),
       ...buildResearchPlanOnlineLeadRecords(),
       ...buildNara7388808YeltsinSearchRecords(),
+      ...buildPresidentialDailyDiaryRecords(),
       ...buildNaraScoutRecords()
     ])
   )

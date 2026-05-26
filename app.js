@@ -997,6 +997,7 @@ function statusMatches(record, status) {
   if (status === "partial") return record.releaseStatus === "Partial" || record.releaseStatus === "Mixed";
   if (status === "unknown") return record.releaseStatus === "Unknown";
   if (status === "lead") return record.type === "Scout Lead" || /Lead/i.test(record.releaseStatus || "");
+  if (status === "daily-diary") return Boolean(record.presidentialDailyDiaryReference);
   if (status === "research") return Boolean(record.researchPlanLead);
   if (status === "public") return record.type === "Public Statement" || Boolean(record.publicStatement);
   return true;

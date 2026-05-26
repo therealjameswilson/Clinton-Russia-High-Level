@@ -1,0 +1,1993 @@
+{
+  "generatedAt": "2026-05-25T00:00:00.000-04:00",
+  "title": "Presidential Daily Diary high-level Russia references",
+  "scope": "Clinton Presidential Daily Diary records surfaced through the user-provided 2010-0083-F Catalog search and broader NARA Catalog searches for Yeltsin, Putin, and Chernomyrdin within Clinton records.",
+  "searches": [
+    {
+      "label": "User-provided MDR search: 2010-0083-F within Clinton records",
+      "url": "https://catalog.archives.gov/search?q=%222010-0083-F%22&collectionIdentifier=WJC*",
+      "apiUrl": "https://catalog.archives.gov/proxy/records/search?q=%222010-0083-F%22&collectionIdentifier=WJC*&limit=100&sort=naId%3Aasc&includeExtractedText=true&includeOtherExtractedText=true",
+      "totalHits": 59,
+      "pdfsDownloadedAndTexted": 59
+    },
+    {
+      "label": "Broader Daily Diary search: Yeltsin",
+      "url": "https://catalog.archives.gov/search?q=%22Presidential%20Daily%20Diary%22%20Yeltsin&collectionIdentifier=WJC*",
+      "apiUrl": "https://catalog.archives.gov/proxy/records/search?q=%22Presidential%20Daily%20Diary%22%20Yeltsin&collectionIdentifier=WJC*&limit=100&sort=naId%3Aasc&includeExtractedText=true&includeOtherExtractedText=true",
+      "totalHits": 48
+    },
+    {
+      "label": "Broader Daily Diary search: Putin",
+      "url": "https://catalog.archives.gov/search?q=%22Presidential%20Daily%20Diary%22%20Putin&collectionIdentifier=WJC*",
+      "apiUrl": "https://catalog.archives.gov/proxy/records/search?q=%22Presidential%20Daily%20Diary%22%20Putin&collectionIdentifier=WJC*&limit=100&sort=naId%3Aasc&includeExtractedText=true&includeOtherExtractedText=true",
+      "totalHits": 11
+    },
+    {
+      "label": "Broader Daily Diary search: Chernomyrdin",
+      "url": "https://catalog.archives.gov/search?q=%22Presidential%20Daily%20Diary%22%20Chernomyrdin&collectionIdentifier=WJC*",
+      "apiUrl": "https://catalog.archives.gov/proxy/records/search?q=%22Presidential%20Daily%20Diary%22%20Chernomyrdin&collectionIdentifier=WJC*&limit=100&sort=naId%3Aasc&includeExtractedText=true&includeOtherExtractedText=true",
+      "totalHits": 6
+    }
+  ],
+  "summary": {
+    "sourceRecords": 60,
+    "references": 76,
+    "byEventType": {
+      "call": 56,
+      "meeting": 15,
+      "call attempt": 2,
+      "summit event": 3
+    },
+    "byLeader": {
+      "Yeltsin": 58,
+      "Chernomyrdin": 4,
+      "Putin": 14
+    },
+    "broadTargetedNameSearchUnionRecords": 61,
+    "broadTargetedNameSearchPdfsTexted": 61
+  },
+  "sourceRecords": [
+    {
+      "naid": "17367502",
+      "title": "[Ellen McCathran - Presidential Daily Diary - Hardcopy [5/2/93; 5/20/93; 5/24/93; 5/28/93; 6/2/93; 6/10/93]",
+      "catalogUrl": "https://catalog.archives.gov/id/17367502",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/2/3675/17367502/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-003-2015.pdf",
+      "pdfPageCount": 69
+    },
+    {
+      "naid": "17367517",
+      "title": "[Ellen McCathran - Presidential Daily Diary - [Hardcopy 7/6/93; 7/16/93; 7/18/93; 8/2/93; 8/7/93; 8/20/93; 8/29/93; 9/1/93; 9/17/93; 9/21/93; 9/25/93]",
+      "catalogUrl": "https://catalog.archives.gov/id/17367517",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/17/3675/17367517/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-004-2015.pdf",
+      "pdfPageCount": 58
+    },
+    {
+      "naid": "17368177",
+      "title": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 4/5/94; 4/13/94; 4/26/94; 4/29/94; 5/1/94; 5/19/94; 5/23/94; 5/27/94; 6/1/94; 6/9/94; 6/19/94; 7/5/94; 7/15/94; 7/17/94; 8/1/94; 8/6/94; 8/19/94; 9/7/94; 9/16/94; 9/20/94; 9/24/94; 10/5/94; 10/10/94; 10/17/94; 10/25/94; 11/5/94; 11/16/94; 11/17/94; 11/29/94]",
+      "catalogUrl": "https://catalog.archives.gov/id/17368177",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/77/3681/17368177/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-008-2015.pdf",
+      "pdfPageCount": 102
+    },
+    {
+      "naid": "17368188",
+      "title": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 5/3/98; 5/21/98; 5/22/98; 5/24/98; 6/3/98; 6/11/98; 6/21/98]",
+      "catalogUrl": "https://catalog.archives.gov/id/17368188",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/88/3681/17368188/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-006-2015.pdf",
+      "pdfPageCount": 62
+    },
+    {
+      "naid": "17368189",
+      "title": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 7/7/98; 7/17/98; 7/19/98; 7/29/98; 8/1/98; 8/3/98; 8/21/98; 8/30/98; 9/2/98; 9/15/98; 9/18/98; 9/26/98]",
+      "catalogUrl": "https://catalog.archives.gov/id/17368189",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/89/3681/17368189/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-007-2015.pdf",
+      "pdfPageCount": 92
+    },
+    {
+      "naid": "17368193",
+      "title": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 4/9/99; 4/14/99; 4/27/99; 4/30/99; 5/2/99; 5/20/99; 5/24/99; 5/28/99; 6/2/99; 6/10/99; 6/20/99]",
+      "catalogUrl": "https://catalog.archives.gov/id/17368193",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf",
+      "pdfPageCount": 76
+    },
+    {
+      "naid": "17368195",
+      "title": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 10/6/99; 10/11/99; 10/18/99; 10/28/99; 11/6/99; 10/11/99; 10/18/99; 10/28/99; 11/6/99; 11/17/99; 11/18/99; 11/30/99]",
+      "catalogUrl": "https://catalog.archives.gov/id/17368195",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/95/3681/17368195/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-012-2015.pdf",
+      "pdfPageCount": 77
+    },
+    {
+      "naid": "17368201",
+      "title": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 4/4/00; 4/1200; 4/25/00; 5/7/00; 5/18/00; 5/22/00; 5/26/00; 6/7/00; 6/8/00; 6/18/00]",
+      "catalogUrl": "https://catalog.archives.gov/id/17368201",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/1/3682/17368201/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_003/42-t-7262157-20100083F-003-003-2015.pdf",
+      "pdfPageCount": 53
+    },
+    {
+      "naid": "147870741",
+      "title": "[01/20/1993-01/31/1993]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870741",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-001-2018.pdf",
+      "pdfPageCount": 85
+    },
+    {
+      "naid": "147870751",
+      "title": "[04/01/1993-04/16/1993]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870751",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-006-2018.pdf",
+      "pdfPageCount": 94
+    },
+    {
+      "naid": "147870753",
+      "title": "[04/17/1993-04/30/1993]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870753",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-007-2018.pdf",
+      "pdfPageCount": 109
+    },
+    {
+      "naid": "147870755",
+      "title": "[05/01/1993-05/16/1993]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870755",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-008-2018.pdf",
+      "pdfPageCount": 148
+    },
+    {
+      "naid": "147870761",
+      "title": "[06/14/1993-06/30/1993]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870761",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-003-2018.pdf",
+      "pdfPageCount": 128
+    },
+    {
+      "naid": "147870767",
+      "title": "[09/01/1993-09/15/1993]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870767",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-006-2018.pdf",
+      "pdfPageCount": 148
+    },
+    {
+      "naid": "147870771",
+      "title": "[10/01/1993-10/15/1993]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870771",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-008-2018.pdf",
+      "pdfPageCount": 115
+    },
+    {
+      "naid": "147870781",
+      "title": "[12/13/1993-12/31/1993]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870781",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-005-2018.pdf",
+      "pdfPageCount": 129
+    },
+    {
+      "naid": "147870783",
+      "title": "[01/01/1994-01/15/1994]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870783",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-006-2018.pdf",
+      "pdfPageCount": 73
+    },
+    {
+      "naid": "147870787",
+      "title": "[02/01/1994-02/13/1994]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870787",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-008-2018.pdf",
+      "pdfPageCount": 103
+    },
+    {
+      "naid": "147870789",
+      "title": "[02/14/1994-02/28/1994]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870789",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-009-2018.pdf",
+      "pdfPageCount": 128
+    },
+    {
+      "naid": "147870795",
+      "title": "[04/01/1994-04/15/1994]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870795",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-003-2018.pdf",
+      "pdfPageCount": 96
+    },
+    {
+      "naid": "147870797",
+      "title": "[04/16/1994-04/30/1994]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870797",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-004-2018.pdf",
+      "pdfPageCount": 94
+    },
+    {
+      "naid": "147870801",
+      "title": "[06/01/1994-06/30/1994]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870801",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-006-2018.pdf",
+      "pdfPageCount": 47
+    },
+    {
+      "naid": "147870813",
+      "title": "[12/01/1994-12/15/1994]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870813",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-012-2018.pdf",
+      "pdfPageCount": 118
+    },
+    {
+      "naid": "147870821",
+      "title": "[02/01/1995-02/13/1995]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870821",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-005-004-2018.pdf",
+      "pdfPageCount": 111
+    },
+    {
+      "naid": "147870833",
+      "title": "[05/01/1995-05/14/1995]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870833",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-003-2018.pdf",
+      "pdfPageCount": 100
+    },
+    {
+      "naid": "147870839",
+      "title": "[07/01/1995-07/31/1995]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870839",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-006-2018.pdf",
+      "pdfPageCount": 60
+    },
+    {
+      "naid": "147870843",
+      "title": "[09/01/1995-09/30/1995]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870843",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-008-2018.pdf",
+      "pdfPageCount": 44
+    },
+    {
+      "naid": "147870851",
+      "title": "[01/01/1996-01/31/1996]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870851",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-012-2018.pdf",
+      "pdfPageCount": 56
+    },
+    {
+      "naid": "147870853",
+      "title": "[02/01/1996-02/29/1996]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870853",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-013-2018.pdf",
+      "pdfPageCount": 54
+    },
+    {
+      "naid": "147870859",
+      "title": "[05/01/1996-05/31/1996]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870859",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-003-2018.pdf",
+      "pdfPageCount": 54
+    },
+    {
+      "naid": "147870863",
+      "title": "[07/01/1996-07/31/1996]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870863",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-005-2018.pdf",
+      "pdfPageCount": 57
+    },
+    {
+      "naid": "147870871",
+      "title": "[11/01/1996-11/30/1996]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870871",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-009-2018.pdf",
+      "pdfPageCount": 74
+    },
+    {
+      "naid": "147870877",
+      "title": "[02/01/1997-02/28/1997]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870877",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-012-2018.pdf",
+      "pdfPageCount": 41
+    },
+    {
+      "naid": "147870893",
+      "title": "[10/01/1997-10/31/1997]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870893",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-003-2018.pdf",
+      "pdfPageCount": 68
+    },
+    {
+      "naid": "147870895",
+      "title": "[11/01/1997-11/30/1997]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870895",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-004-2018.pdf",
+      "pdfPageCount": 65
+    },
+    {
+      "naid": "147870903",
+      "title": "[02/01/1998-02/14/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870903",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-008-2018.pdf",
+      "pdfPageCount": 93
+    },
+    {
+      "naid": "147870907",
+      "title": "[03/01/1998-03/14/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870907",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-010-2018.pdf",
+      "pdfPageCount": 93
+    },
+    {
+      "naid": "147870915",
+      "title": "[05/01/1998-05/15/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870915",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-003-2018.pdf",
+      "pdfPageCount": 80
+    },
+    {
+      "naid": "147870917",
+      "title": "[05/16/1998-05/31/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870917",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-004-2018.pdf",
+      "pdfPageCount": 68
+    },
+    {
+      "naid": "147870919",
+      "title": "[06/01/1998-06/15/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870919",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-005-2018.pdf",
+      "pdfPageCount": 109
+    },
+    {
+      "naid": "147870921",
+      "title": "[06/16/1998-06/30/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870921",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-006-2018.pdf",
+      "pdfPageCount": 102
+    },
+    {
+      "naid": "147870923",
+      "title": "[07/01/1998-07/14/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870923",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-007-2018.pdf",
+      "pdfPageCount": 92
+    },
+    {
+      "naid": "147870927",
+      "title": "[08/01/1998-08/14/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870927",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-009-2018.pdf",
+      "pdfPageCount": 97
+    },
+    {
+      "naid": "147870931",
+      "title": "[09/01/1998-09/13/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870931",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf",
+      "pdfPageCount": 106
+    },
+    {
+      "naid": "147870935",
+      "title": "[10/01/1998-10/14/1998]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870935",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-010-002-2018.pdf",
+      "pdfPageCount": 95
+    },
+    {
+      "naid": "147870957",
+      "title": "[03/19/1999-03/31/1999]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870957",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-002-2018.pdf",
+      "pdfPageCount": 85
+    },
+    {
+      "naid": "147870961",
+      "title": "[04/18/1999-04/30/1999]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870961",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-004-2018.pdf",
+      "pdfPageCount": 73
+    },
+    {
+      "naid": "147870963",
+      "title": "[05/01/1999-05/14/1999]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870963",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-005-2018.pdf",
+      "pdfPageCount": 80
+    },
+    {
+      "naid": "147870967",
+      "title": "[06/01/1999-06/15/1999]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870967",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf",
+      "pdfPageCount": 68
+    },
+    {
+      "naid": "147870985",
+      "title": "[11/01/1999-11/09/1999]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870985",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-004-2018.pdf",
+      "pdfPageCount": 92
+    },
+    {
+      "naid": "147870995",
+      "title": "[12/21/1999-12/31/1999]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870995",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-009-2018.pdf",
+      "pdfPageCount": 61
+    },
+    {
+      "naid": "147870997",
+      "title": "[01/01/2000-01/16/2000]",
+      "catalogUrl": "https://catalog.archives.gov/id/147870997",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-010-2018.pdf",
+      "pdfPageCount": 92
+    },
+    {
+      "naid": "147871009",
+      "title": "[03/21/2000-03/31/2000]",
+      "catalogUrl": "https://catalog.archives.gov/id/147871009",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-005-2018.pdf",
+      "pdfPageCount": 87
+    },
+    {
+      "naid": "147871011",
+      "title": "[04/01/2000-04/15/2000]",
+      "catalogUrl": "https://catalog.archives.gov/id/147871011",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-006-2018.pdf",
+      "pdfPageCount": 86
+    },
+    {
+      "naid": "147871021",
+      "title": "[06/01/2000-06/11/2000]",
+      "catalogUrl": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+      "pdfPageCount": 72
+    },
+    {
+      "naid": "147871027",
+      "title": "[07/01/2000-07/16/2000]",
+      "catalogUrl": "https://catalog.archives.gov/id/147871027",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-002-2018.pdf",
+      "pdfPageCount": 65
+    },
+    {
+      "naid": "147871031",
+      "title": "[08/01/2000-08/16/2000]",
+      "catalogUrl": "https://catalog.archives.gov/id/147871031",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-004-2018.pdf",
+      "pdfPageCount": 63
+    },
+    {
+      "naid": "147871037",
+      "title": "[09/17/2000-09/30/2000]",
+      "catalogUrl": "https://catalog.archives.gov/id/147871037",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-007-2018.pdf",
+      "pdfPageCount": 63
+    },
+    {
+      "naid": "147871041",
+      "title": "[10/15/2000-10/31/2000]",
+      "catalogUrl": "https://catalog.archives.gov/id/147871041",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-009-2018.pdf",
+      "pdfPageCount": 79
+    },
+    {
+      "naid": "147871045",
+      "title": "[12/01/2000-12/26/2000]",
+      "catalogUrl": "https://catalog.archives.gov/id/147871045",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-011-2018.pdf",
+      "pdfPageCount": 60
+    }
+  ],
+  "references": [
+    {
+      "id": "pdd-1993-01-23-01",
+      "date": "1993-01-23",
+      "time": "10:30; 10:45-11:17",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870741",
+      "sourceTitle": "[01/20/1993-01/31/1993]",
+      "sourcePdfPages": "29",
+      "sourcePdfPageCount": 85,
+      "catalogUrl": "https://catalog.archives.gov/id/147870741",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-001-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-04-01-02",
+      "date": "1993-04-01",
+      "time": "9:04-9:36",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870751",
+      "sourceTitle": "[04/01/1993-04/16/1993]",
+      "sourcePdfPages": "9",
+      "sourcePdfPageCount": 94,
+      "catalogUrl": "https://catalog.archives.gov/id/147870751",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-006-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference line with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-04-26-03",
+      "date": "1993-04-26",
+      "time": "1:35; 1:50-1:59",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870753",
+      "sourceTitle": "[04/17/1993-04/30/1993]",
+      "sourcePdfPages": "85-86",
+      "sourcePdfPageCount": 109,
+      "catalogUrl": "https://catalog.archives.gov/id/147870753",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-007-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-05-02-04",
+      "date": "1993-05-02",
+      "time": "8:25; 8:42-8:51",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "17367502",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy [5/2/93; 5/20/93; 5/24/93; 5/28/93; 6/2/93; 6/10/93]",
+      "sourcePdfPages": "5",
+      "sourcePdfPageCount": 69,
+      "catalogUrl": "https://catalog.archives.gov/id/17367502",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/2/3675/17367502/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-003-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-05-10-05",
+      "date": "1993-05-10",
+      "time": "8:12-8:19",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870755",
+      "sourceTitle": "[05/01/1993-05/16/1993]",
+      "sourcePdfPages": "76",
+      "sourcePdfPageCount": 148,
+      "catalogUrl": "https://catalog.archives.gov/id/147870755",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-001-008-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-06-28-06",
+      "date": "1993-06-28",
+      "time": "12:52; 1:05-1:33",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870761",
+      "sourceTitle": "[06/14/1993-06/30/1993]",
+      "sourcePdfPages": "118",
+      "sourcePdfPageCount": 128,
+      "catalogUrl": "https://catalog.archives.gov/id/147870761",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-003-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-09-02-07",
+      "date": "1993-09-02",
+      "time": "12:15-12:25",
+      "eventType": "meeting",
+      "leader": "Chernomyrdin",
+      "naid": "147870767",
+      "sourceTitle": "[09/01/1993-09/15/1993]",
+      "sourcePdfPages": "4, 12",
+      "sourcePdfPageCount": 148,
+      "catalogUrl": "https://catalog.archives.gov/id/147870767",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-006-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Viktor Chernomyrdin"
+      ],
+      "summary": "The President greeted Viktor S. Chernomyrdin and participated in a question-and-answer session; appendix identifies Chernomyrdin as Russian Prime Minister.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-09-07-08",
+      "date": "1993-09-07",
+      "time": "11:40-12:10",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870767",
+      "sourceTitle": "[09/01/1993-09/15/1993]",
+      "sourcePdfPages": "52",
+      "sourcePdfPageCount": 148,
+      "catalogUrl": "https://catalog.archives.gov/id/147870767",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-006-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-09-21-09",
+      "date": "1993-09-21",
+      "time": "3:13",
+      "eventType": "call attempt",
+      "leader": "Yeltsin",
+      "naid": "17367517",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - [Hardcopy 7/6/93; 7/16/93; 7/18/93; 8/2/93; 8/7/93; 8/20/93; 8/29/93; 9/1/93; 9/17/93; 9/21/93; 9/25/93]",
+      "sourcePdfPages": "47",
+      "sourcePdfPageCount": 58,
+      "catalogUrl": "https://catalog.archives.gov/id/17367517",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/17/3675/17367517/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-004-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-10-05-10",
+      "date": "1993-10-05",
+      "time": "1:20; 1:42-2:02",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870771",
+      "sourceTitle": "[10/01/1993-10/15/1993]",
+      "sourcePdfPages": "47",
+      "sourcePdfPageCount": 115,
+      "catalogUrl": "https://catalog.archives.gov/id/147870771",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-002-008-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference line with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1993-12-22-11",
+      "date": "1993-12-22",
+      "time": "9:10-9:40",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870781",
+      "sourceTitle": "[12/13/1993-12/31/1993]",
+      "sourcePdfPages": "80",
+      "sourcePdfPageCount": 129,
+      "catalogUrl": "https://catalog.archives.gov/id/147870781",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-005-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-01-14-12",
+      "date": "1994-01-14",
+      "time": "11:05-11:15",
+      "eventType": "summit event",
+      "leader": "Yeltsin",
+      "naid": "147870783",
+      "sourceTitle": "[01/01/1994-01/15/1994]",
+      "sourcePdfPages": "68",
+      "sourcePdfPageCount": 73,
+      "catalogUrl": "https://catalog.archives.gov/id/147870783",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-006-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President participated in the signing ceremony for the Denuclearization Agreement with Russia and Ukraine, accompanied by Boris N. Yeltsin and Leonid Kravchuk.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-02-10-13",
+      "date": "1994-02-10",
+      "time": "10:45",
+      "eventType": "call attempt",
+      "leader": "Yeltsin",
+      "naid": "147870787",
+      "sourceTitle": "[02/01/1994-02/13/1994]",
+      "sourcePdfPages": "65",
+      "sourcePdfPageCount": 103,
+      "catalogUrl": "https://catalog.archives.gov/id/147870787",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-008-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-02-20-14",
+      "date": "1994-02-20",
+      "time": "12:50; 1:27-1:47",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870789",
+      "sourceTitle": "[02/14/1994-02/28/1994]",
+      "sourcePdfPages": "61-62",
+      "sourcePdfPageCount": 128,
+      "catalogUrl": "https://catalog.archives.gov/id/147870789",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-003-009-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President was telephoned by Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-04-10-15",
+      "date": "1994-04-10",
+      "time": "10:50; 11:15-11:38",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870795",
+      "sourceTitle": "[04/01/1994-04/15/1994]",
+      "sourcePdfPages": "53",
+      "sourcePdfPageCount": 96,
+      "catalogUrl": "https://catalog.archives.gov/id/147870795",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-003-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-04-20-16",
+      "date": "1994-04-20",
+      "time": "2:25-3:05",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870797",
+      "sourceTitle": "[04/16/1994-04/30/1994]",
+      "sourcePdfPages": "26",
+      "sourcePdfPageCount": 94,
+      "catalogUrl": "https://catalog.archives.gov/id/147870797",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-004-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-06-03-17",
+      "date": "1994-06-03",
+      "time": "4:30; 4:55-5:07",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870801",
+      "sourceTitle": "[06/01/1994-06/30/1994]",
+      "sourcePdfPages": "5",
+      "sourcePdfPageCount": 47,
+      "catalogUrl": "https://catalog.archives.gov/id/147870801",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-006-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-06-13-18",
+      "date": "1994-06-13",
+      "time": "1:24-1:48",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870801",
+      "sourceTitle": "[06/01/1994-06/30/1994]",
+      "sourcePdfPages": "18",
+      "sourcePdfPageCount": 47,
+      "catalogUrl": "https://catalog.archives.gov/id/147870801",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-006-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-10-05-19",
+      "date": "1994-10-05",
+      "time": "10:30-11:03",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "17368177",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 4/5/94; 4/13/94; 4/26/94; 4/29/94; 5/1/94; 5/19/94; 5/23/94; 5/27/94; 6/1/94; 6/9/94; 6/19/94; 7/5/94; 7/15/94; 7/17/94; 8/1/94; 8/6/94; 8/19/94; 9/7/94; 9/16/94; 9/20/94; 9/24/94; 10/5/94; 10/10/94; 10/17/94; 10/25/94; 11/5/94; 11/16/94; 11/17/94; 11/29/94]",
+      "sourcePdfPages": "81",
+      "sourcePdfPageCount": 102,
+      "catalogUrl": "https://catalog.archives.gov/id/17368177",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/77/3681/17368177/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-008-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-10-10-20",
+      "date": "1994-10-10",
+      "time": "12:12-12:38",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "17368177",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 4/5/94; 4/13/94; 4/26/94; 4/29/94; 5/1/94; 5/19/94; 5/23/94; 5/27/94; 6/1/94; 6/9/94; 6/19/94; 7/5/94; 7/15/94; 7/17/94; 8/1/94; 8/6/94; 8/19/94; 9/7/94; 9/16/94; 9/20/94; 9/24/94; 10/5/94; 10/10/94; 10/17/94; 10/25/94; 11/5/94; 11/16/94; 11/17/94; 11/29/94]",
+      "sourcePdfPages": "83",
+      "sourcePdfPageCount": 102,
+      "catalogUrl": "https://catalog.archives.gov/id/17368177",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/77/3681/17368177/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_001/42-t-7262157-20100083F-001-008-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-12-05-21",
+      "date": "1994-12-05",
+      "time": "11:01-11:45",
+      "eventType": "summit event",
+      "leader": "Yeltsin",
+      "naid": "147870813",
+      "sourceTitle": "[12/01/1994-12/15/1994]",
+      "sourcePdfPages": "43",
+      "sourcePdfPageCount": 118,
+      "catalogUrl": "https://catalog.archives.gov/id/147870813",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-012-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President participated in the Budapest signing ceremony for Denuclearization Agreements with Boris N. Yeltsin and other leaders.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1994-12-05-22",
+      "date": "1994-12-05",
+      "time": "12:54-1:15",
+      "eventType": "meeting",
+      "leader": "Yeltsin",
+      "naid": "147870813",
+      "sourceTitle": "[12/01/1994-12/15/1994]",
+      "sourcePdfPages": "44",
+      "sourcePdfPageCount": 118,
+      "catalogUrl": "https://catalog.archives.gov/id/147870813",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-004-012-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President met with President Yeltsin and Chancellor Helmut Kohl.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1995-02-13-23",
+      "date": "1995-02-13",
+      "time": "1:01-1:27",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870821",
+      "sourceTitle": "[02/01/1995-02/13/1995]",
+      "sourcePdfPages": "93",
+      "sourcePdfPageCount": 111,
+      "catalogUrl": "https://catalog.archives.gov/id/147870821",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-005-004-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1995-05-10-24",
+      "date": "1995-05-10",
+      "time": "10:10-2:05",
+      "eventType": "meeting",
+      "leader": "Yeltsin",
+      "naid": "147870833",
+      "sourceTitle": "[05/01/1995-05/14/1995]",
+      "sourcePdfPages": "67-68, 74",
+      "sourcePdfPageCount": 100,
+      "catalogUrl": "https://catalog.archives.gov/id/147870833",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-003-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President met with Boris N. Yeltsin in Moscow, continued the meeting, and attended a private luncheon hosted by President Yeltsin; appendix lists senior Russian participants including Chernomyrdin and Kozyrev.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1995-07-28-25",
+      "date": "1995-07-28",
+      "time": "10:35-11:39",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870839",
+      "sourceTitle": "[07/01/1995-07/31/1995]",
+      "sourcePdfPages": "50",
+      "sourcePdfPageCount": 60,
+      "catalogUrl": "https://catalog.archives.gov/id/147870839",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-006-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1995-09-27-26",
+      "date": "1995-09-27",
+      "time": "10:35-10:53",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870843",
+      "sourceTitle": "[09/01/1995-09/30/1995]",
+      "sourcePdfPages": "38",
+      "sourcePdfPageCount": 44,
+      "catalogUrl": "https://catalog.archives.gov/id/147870843",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-008-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1996-01-26-27",
+      "date": "1996-01-26",
+      "time": "10:25; 10:46-11:25",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870851",
+      "sourceTitle": "[01/01/1996-01/31/1996]",
+      "sourcePdfPages": "48-49",
+      "sourcePdfPageCount": 56,
+      "catalogUrl": "https://catalog.archives.gov/id/147870851",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-012-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1996-02-21-28",
+      "date": "1996-02-21",
+      "time": "10:10; 10:39-11:05",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870853",
+      "sourceTitle": "[02/01/1996-02/29/1996]",
+      "sourcePdfPages": "36",
+      "sourcePdfPageCount": 54,
+      "catalogUrl": "https://catalog.archives.gov/id/147870853",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-006-013-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1996-05-07-29",
+      "date": "1996-05-07",
+      "time": "8:20; 8:32-8:54",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870859",
+      "sourceTitle": "[05/01/1996-05/31/1996]",
+      "sourcePdfPages": "10",
+      "sourcePdfPageCount": 54,
+      "catalogUrl": "https://catalog.archives.gov/id/147870859",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-003-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1996-07-05-30",
+      "date": "1996-07-05",
+      "time": "8:40; 9:05-9:27",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870863",
+      "sourceTitle": "[07/01/1996-07/31/1996]",
+      "sourcePdfPages": "6",
+      "sourcePdfPageCount": 57,
+      "catalogUrl": "https://catalog.archives.gov/id/147870863",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-005-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President was telephoned by Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1996-11-05-31",
+      "date": "1996-11-05",
+      "time": "10:50; 11:18-11:28",
+      "eventType": "call",
+      "leader": "Chernomyrdin",
+      "naid": "147870871",
+      "sourceTitle": "[11/01/1996-11/30/1996]",
+      "sourcePdfPages": "8, 13",
+      "sourcePdfPageCount": 74,
+      "catalogUrl": "https://catalog.archives.gov/id/147870871",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-009-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Viktor Chernomyrdin"
+      ],
+      "summary": "The President telephoned Viktor S. Chernomyrdin; the call was not completed. He then talked on a conference call with Chairman Chernomyrdin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1997-02-28-32",
+      "date": "1997-02-28",
+      "time": "11:37; 11:53-12:11",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870877",
+      "sourceTitle": "[02/01/1997-02/28/1997]",
+      "sourcePdfPages": "38",
+      "sourcePdfPageCount": 41,
+      "catalogUrl": "https://catalog.archives.gov/id/147870877",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-007-012-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1997-10-30-33",
+      "date": "1997-10-30",
+      "time": "12:33; 12:52-1:21",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870893",
+      "sourceTitle": "[10/01/1997-10/31/1997]",
+      "sourcePdfPages": "64",
+      "sourcePdfPageCount": 68,
+      "catalogUrl": "https://catalog.archives.gov/id/147870893",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-003-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1997-11-15-34",
+      "date": "1997-11-15",
+      "time": "10:40; 11:03-11:15",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870895",
+      "sourceTitle": "[11/01/1997-11/30/1997]",
+      "sourcePdfPages": "35-36",
+      "sourcePdfPageCount": 65,
+      "catalogUrl": "https://catalog.archives.gov/id/147870895",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-004-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1997-11-22-35",
+      "date": "1997-11-22",
+      "time": "8:40; 9:00-9:43",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870895",
+      "sourceTitle": "[11/01/1997-11/30/1997]",
+      "sourcePdfPages": "48",
+      "sourcePdfPageCount": 65,
+      "catalogUrl": "https://catalog.archives.gov/id/147870895",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-004-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-02-02-36",
+      "date": "1998-02-02",
+      "time": "9:07; 9:31-9:51",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870903",
+      "sourceTitle": "[02/01/1998-02/14/1998]",
+      "sourcePdfPages": "6-7, 16",
+      "sourcePdfPageCount": 93,
+      "catalogUrl": "https://catalog.archives.gov/id/147870903",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-008-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call; appendix lists President Yeltsin as a participant.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-03-11-37",
+      "date": "1998-03-11",
+      "time": "4:06-4:47",
+      "eventType": "meeting",
+      "leader": "Chernomyrdin",
+      "naid": "147870907",
+      "sourceTitle": "[03/01/1998-03/14/1998]",
+      "sourcePdfPages": "67, 75",
+      "sourcePdfPageCount": 93,
+      "catalogUrl": "https://catalog.archives.gov/id/147870907",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-008-010-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Viktor Chernomyrdin"
+      ],
+      "summary": "The President participated in a meeting with Russian Prime Minister Viktor S. Chernomyrdin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-05-12-38",
+      "date": "1998-05-12",
+      "time": "10:45; 11:01-11:27",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870915",
+      "sourceTitle": "[05/01/1998-05/15/1998]",
+      "sourcePdfPages": "71-72",
+      "sourcePdfPageCount": 80,
+      "catalogUrl": "https://catalog.archives.gov/id/147870915",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-003-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-05-21-39",
+      "date": "1998-05-21",
+      "time": "10:25; 10:41-10:52",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "17368188",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 5/3/98; 5/21/98; 5/22/98; 5/24/98; 6/3/98; 6/11/98; 6/21/98]",
+      "sourcePdfPages": "11, 20",
+      "sourcePdfPageCount": 62,
+      "catalogUrl": "https://catalog.archives.gov/id/17368188",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/88/3681/17368188/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-006-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin; appendix lists participants.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-05-28-40",
+      "date": "1998-05-28",
+      "time": "11:53-12:14",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870917",
+      "sourceTitle": "[05/16/1998-05/31/1998]",
+      "sourcePdfPages": "46, 53",
+      "sourcePdfPageCount": 68,
+      "catalogUrl": "https://catalog.archives.gov/id/147870917",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-004-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin; appendix lists participants.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-06-15-41",
+      "date": "1998-06-15",
+      "time": "1:21-1:57",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870919",
+      "sourceTitle": "[06/01/1998-06/15/1998]",
+      "sourcePdfPages": "101, 108",
+      "sourcePdfPageCount": 109,
+      "catalogUrl": "https://catalog.archives.gov/id/147870919",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-005-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin; appendix lists participants.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-06-16-42",
+      "date": "1998-06-16",
+      "time": "10:30; 10:52-10:58",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870921",
+      "sourceTitle": "[06/16/1998-06/30/1998]",
+      "sourcePdfPages": "5-6",
+      "sourcePdfPageCount": 102,
+      "catalogUrl": "https://catalog.archives.gov/id/147870921",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-006-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-07-10-43",
+      "date": "1998-07-10",
+      "time": "1:19-1:38",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870923",
+      "sourceTitle": "[07/01/1998-07/14/1998]",
+      "sourcePdfPages": "57",
+      "sourcePdfPageCount": 92,
+      "catalogUrl": "https://catalog.archives.gov/id/147870923",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-007-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-08-14-44",
+      "date": "1998-08-14",
+      "time": "10:30-11:06",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870927",
+      "sourceTitle": "[08/01/1998-08/14/1998]",
+      "sourcePdfPages": "89, 95",
+      "sourcePdfPageCount": 97,
+      "catalogUrl": "https://catalog.archives.gov/id/147870927",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-009-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin; appendix lists participants.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-09-01-45",
+      "date": "1998-09-01",
+      "time": "11:12-12:43",
+      "eventType": "meeting",
+      "leader": "Yeltsin",
+      "naid": "147870931",
+      "sourceTitle": "[09/01/1998-09/13/1998]",
+      "sourcePdfPages": "4-5",
+      "sourcePdfPageCount": 106,
+      "catalogUrl": "https://catalog.archives.gov/id/147870931",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President presented the U.S. delegation to Boris N. Yeltsin, then met with President Yeltsin and senior advisers.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-09-01-46",
+      "date": "1998-09-01",
+      "time": "7:50-9:17",
+      "eventType": "summit event",
+      "leader": "Yeltsin",
+      "naid": "147870931",
+      "sourceTitle": "[09/01/1998-09/13/1998]",
+      "sourcePdfPages": "7, 11",
+      "sourcePdfPageCount": 106,
+      "catalogUrl": "https://catalog.archives.gov/id/147870931",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President and First Lady attended an official dinner hosted by President and Mrs. Yeltsin; appendix lists senior U.S. and Russian participants.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-09-02-47",
+      "date": "1998-09-02",
+      "time": "10:50-2:04",
+      "eventType": "meeting",
+      "leader": "Yeltsin",
+      "naid": "17368189",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 7/7/98; 7/17/98; 7/19/98; 7/29/98; 8/1/98; 8/3/98; 8/21/98; 8/30/98; 9/2/98; 9/15/98; 9/18/98; 9/26/98]",
+      "sourcePdfPages": "57",
+      "sourcePdfPageCount": 92,
+      "catalogUrl": "https://catalog.archives.gov/id/17368189",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/89/3681/17368189/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-007-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President met with Boris N. Yeltsin, then proceeded through signing and press-conference events with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-09-12-48",
+      "date": "1998-09-12",
+      "time": "11:14; 11:32-11:59",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870931",
+      "sourceTitle": "[09/01/1998-09/13/1998]",
+      "sourcePdfPages": "92-93",
+      "sourcePdfPageCount": 106,
+      "catalogUrl": "https://catalog.archives.gov/id/147870931",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-009-011-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1998-10-05-49",
+      "date": "1998-10-05",
+      "time": "11:25; 12:01-12:18",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870935",
+      "sourceTitle": "[10/01/1998-10/14/1998]",
+      "sourcePdfPages": "30",
+      "sourcePdfPageCount": 95,
+      "catalogUrl": "https://catalog.archives.gov/id/147870935",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-010-002-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President was telephoned by Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-03-24-50",
+      "date": "1999-03-24",
+      "time": "9:03; 9:20-9:56",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870957",
+      "sourceTitle": "[03/19/1999-03/31/1999]",
+      "sourcePdfPages": "35-36",
+      "sourcePdfPageCount": 85,
+      "catalogUrl": "https://catalog.archives.gov/id/147870957",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-002-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-04-19-51",
+      "date": "1999-04-19",
+      "time": "9:30-10:13",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870961",
+      "sourceTitle": "[04/18/1999-04/30/1999]",
+      "sourcePdfPages": "11",
+      "sourcePdfPageCount": 73,
+      "catalogUrl": "https://catalog.archives.gov/id/147870961",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-004-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-04-25-52",
+      "date": "1999-04-25",
+      "time": "10:17; 10:35-10:58",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870961",
+      "sourceTitle": "[04/18/1999-04/30/1999]",
+      "sourcePdfPages": "48",
+      "sourcePdfPageCount": 73,
+      "catalogUrl": "https://catalog.archives.gov/id/147870961",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-004-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-05-02-53",
+      "date": "1999-05-02",
+      "time": "9:52; 10:18-10:31",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "17368193",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 4/9/99; 4/14/99; 4/27/99; 4/30/99; 5/2/99; 5/20/99; 5/24/99; 5/28/99; 6/2/99; 6/10/99; 6/20/99]",
+      "sourcePdfPages": "34",
+      "sourcePdfPageCount": 76,
+      "catalogUrl": "https://catalog.archives.gov/id/17368193",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-05-03-54",
+      "date": "1999-05-03",
+      "time": "4:59-6:25",
+      "eventType": "meeting",
+      "leader": "Chernomyrdin",
+      "naid": "147870963",
+      "sourceTitle": "[05/01/1999-05/14/1999]",
+      "sourcePdfPages": "10",
+      "sourcePdfPageCount": 80,
+      "catalogUrl": "https://catalog.archives.gov/id/147870963",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-005-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Viktor Chernomyrdin"
+      ],
+      "summary": "The President met with Russian Prime Minister Viktor Chernomyrdin and Vice President Gore.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-06-07-55",
+      "date": "1999-06-07",
+      "time": "11:02-11:14",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870967",
+      "sourceTitle": "[06/01/1999-06/15/1999]",
+      "sourcePdfPages": "27",
+      "sourcePdfPageCount": 68,
+      "catalogUrl": "https://catalog.archives.gov/id/147870967",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-06-08-56",
+      "date": "1999-06-08",
+      "time": "8:15; 8:58-9:15",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870967",
+      "sourceTitle": "[06/01/1999-06/15/1999]",
+      "sourcePdfPages": "31-32",
+      "sourcePdfPageCount": 68,
+      "catalogUrl": "https://catalog.archives.gov/id/147870967",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-06-10-57",
+      "date": "1999-06-10",
+      "time": "10:06; 10:40-10:50",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "17368193",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 4/9/99; 4/14/99; 4/27/99; 4/30/99; 5/2/99; 5/20/99; 5/24/99; 5/28/99; 6/2/99; 6/10/99; 6/20/99]",
+      "sourcePdfPages": "59-60",
+      "sourcePdfPageCount": 76,
+      "catalogUrl": "https://catalog.archives.gov/id/17368193",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-06-14-58",
+      "date": "1999-06-14",
+      "time": "10:06-10:32",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870967",
+      "sourceTitle": "[06/01/1999-06/15/1999]",
+      "sourcePdfPages": "60",
+      "sourcePdfPageCount": 68,
+      "catalogUrl": "https://catalog.archives.gov/id/147870967",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-011-007-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President talked on a conference call with Boris N. Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-06-20-59",
+      "date": "1999-06-20",
+      "time": "1:01-2:03",
+      "eventType": "meeting",
+      "leader": "Yeltsin",
+      "naid": "17368193",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 4/9/99; 4/14/99; 4/27/99; 4/30/99; 5/2/99; 5/20/99; 5/24/99; 5/28/99; 6/2/99; 6/10/99; 6/20/99]",
+      "sourcePdfPages": "69-70, 74",
+      "sourcePdfPageCount": 76,
+      "catalogUrl": "https://catalog.archives.gov/id/17368193",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/93/3681/17368193/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-010-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President participated in a meeting with U.S. and Russian officials; appendix lists Boris N. Yeltsin as a participant.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-11-02-60",
+      "date": "1999-11-02",
+      "time": "4:02-5:01",
+      "eventType": "meeting",
+      "leader": "Putin",
+      "naid": "147870985",
+      "sourceTitle": "[11/01/1999-11/09/1999]",
+      "sourcePdfPages": "16, 23",
+      "sourcePdfPageCount": 92,
+      "catalogUrl": "https://catalog.archives.gov/id/147870985",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-004-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President participated in a photo opportunity with Prime Minister Vladimir Putin and then met with U.S. and Russian officials.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-11-18-61",
+      "date": "1999-11-18",
+      "time": "11:29-12:17",
+      "eventType": "meeting",
+      "leader": "Yeltsin",
+      "naid": "17368195",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 10/6/99; 10/11/99; 10/18/99; 10/28/99; 11/6/99; 10/11/99; 10/18/99; 10/28/99; 11/6/99; 11/17/99; 11/18/99; 11/30/99]",
+      "sourcePdfPages": "52, 59",
+      "sourcePdfPageCount": 77,
+      "catalogUrl": "https://catalog.archives.gov/id/17368195",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/95/3681/17368195/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_002/42-t-7262157-20100083F-002-012-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President greeted Boris N. Yeltsin and participated in a meeting with Russian officials; appendix identifies the bilateral meeting with Boris Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-1999-12-31-62",
+      "date": "1999-12-31",
+      "time": "8:38; 9:02-9:22",
+      "eventType": "call",
+      "leader": "Yeltsin",
+      "naid": "147870995",
+      "sourceTitle": "[12/21/1999-12/31/1999]",
+      "sourcePdfPages": "48",
+      "sourcePdfPageCount": 61,
+      "catalogUrl": "https://catalog.archives.gov/id/147870995",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-009-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President telephoned Boris N. Yeltsin; the call was not completed. He then talked on a conference call with President Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-01-01-63",
+      "date": "2000-01-01",
+      "time": "11:07-11:16",
+      "eventType": "call",
+      "leader": "Putin",
+      "naid": "147870997",
+      "sourceTitle": "[01/01/2000-01/16/2000]",
+      "sourcePdfPages": "9",
+      "sourcePdfPageCount": 92,
+      "catalogUrl": "https://catalog.archives.gov/id/147870997",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-012-010-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President talked on a conference call with Vladimir Putin, Acting President of Russia.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-03-27-64",
+      "date": "2000-03-27",
+      "time": "10:50; 11:13-11:29",
+      "eventType": "call",
+      "leader": "Putin",
+      "naid": "147871009",
+      "sourceTitle": "[03/21/2000-03/31/2000]",
+      "sourcePdfPages": "58-59",
+      "sourcePdfPageCount": 87,
+      "catalogUrl": "https://catalog.archives.gov/id/147871009",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-005-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President telephoned President-elect Vladimir Putin; the call was not completed. He then talked on a conference call with President-elect Putin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-04-15-65",
+      "date": "2000-04-15",
+      "time": "11:15; 12:04-12:11",
+      "eventType": "call",
+      "leader": "Putin",
+      "naid": "147871011",
+      "sourceTitle": "[04/01/2000-04/15/2000]",
+      "sourcePdfPages": "82-83",
+      "sourcePdfPageCount": 86,
+      "catalogUrl": "https://catalog.archives.gov/id/147871011",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-006-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President placed a call to Vladimir Putin; the call was not completed. He then talked on a conference call with President Putin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-06-03-66",
+      "date": "2000-06-03",
+      "time": "8:13-12:03",
+      "eventType": "meeting",
+      "leader": "Putin",
+      "naid": "147871021",
+      "sourceTitle": "[06/01/2000-06/11/2000]",
+      "sourcePdfPages": "22",
+      "sourcePdfPageCount": 72,
+      "catalogUrl": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President participated in a photo opportunity with Vladimir Putin and had dinner with President Putin and Strobe Talbott.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-06-04-67",
+      "date": "2000-06-04",
+      "time": "1:15-3:28",
+      "eventType": "meeting",
+      "leader": "Putin",
+      "naid": "147871021",
+      "sourceTitle": "[06/01/2000-06/11/2000]",
+      "sourcePdfPages": "28, 32-33",
+      "sourcePdfPageCount": 72,
+      "catalogUrl": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President met with Vladimir Putin and then met with a group of Russian officials.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-06-05-68",
+      "date": "2000-06-05",
+      "time": "11:22",
+      "eventType": "meeting",
+      "leader": "Putin",
+      "naid": "147871021",
+      "sourceTitle": "[06/01/2000-06/11/2000]",
+      "sourcePdfPages": "37",
+      "sourcePdfPageCount": 72,
+      "catalogUrl": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President met with Vladimir Putin, Strobe Talbott, and Sergey Prikhodko.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-06-05-69",
+      "date": "2000-06-05",
+      "time": "12:52-1:28",
+      "eventType": "meeting",
+      "leader": "Yeltsin",
+      "naid": "147871021",
+      "sourceTitle": "[06/01/2000-06/11/2000]",
+      "sourcePdfPages": "37",
+      "sourcePdfPageCount": 72,
+      "catalogUrl": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Boris Yeltsin"
+      ],
+      "summary": "The President met with former Russian President Boris Yeltsin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-06-09-70",
+      "date": "2000-06-09",
+      "time": "8:25",
+      "eventType": "call",
+      "leader": "Putin",
+      "naid": "147871021",
+      "sourceTitle": "[06/01/2000-06/11/2000]",
+      "sourcePdfPages": "53",
+      "sourcePdfPageCount": 72,
+      "catalogUrl": "https://catalog.archives.gov/id/147871021",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-013-011-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President talked on a conference call with Vladimir Putin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-07-10-71",
+      "date": "2000-07-10",
+      "time": "10:39-10:56",
+      "eventType": "call",
+      "leader": "Putin",
+      "naid": "147871027",
+      "sourceTitle": "[07/01/2000-07/16/2000]",
+      "sourcePdfPages": "40",
+      "sourcePdfPageCount": 65,
+      "catalogUrl": "https://catalog.archives.gov/id/147871027",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-002-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President talked on a conference call with Vladimir Putin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-07-21-72",
+      "date": "2000-07-21",
+      "time": "6:16-7:51",
+      "eventType": "meeting",
+      "leader": "Putin",
+      "naid": "17368201",
+      "sourceTitle": "[Ellen McCathran - Presidential Daily Diary - Hardcopy 4/4/00; 4/1200; 4/25/00; 5/7/00; 5/18/00; 5/22/00; 5/26/00; 6/7/00; 6/8/00; 6/18/00]",
+      "sourcePdfPages": "12",
+      "sourcePdfPageCount": 53,
+      "catalogUrl": "https://catalog.archives.gov/id/17368201",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/1/3682/17368201/content/presidential-libraries/clinton/foia/2010-0083-F/2010-0083-F-PDF/Box_003/42-t-7262157-20100083F-003-003-2015.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President greeted Vladimir Putin, walked to a private dining room, and met with President Putin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-08-16-73",
+      "date": "2000-08-16",
+      "time": "10:15",
+      "eventType": "call",
+      "leader": "Putin",
+      "naid": "147871031",
+      "sourceTitle": "[08/01/2000-08/16/2000]",
+      "sourcePdfPages": "60",
+      "sourcePdfPageCount": 63,
+      "catalogUrl": "https://catalog.archives.gov/id/147871031",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-004-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President talked on a conference call with Vladimir Putin regarding the Kursk submarine accident.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-09-30-74",
+      "date": "2000-09-30",
+      "time": "2:50; 3:04-3:38",
+      "eventType": "call",
+      "leader": "Putin",
+      "naid": "147871037",
+      "sourceTitle": "[09/17/2000-09/30/2000]",
+      "sourcePdfPages": "61",
+      "sourcePdfPageCount": 63,
+      "catalogUrl": "https://catalog.archives.gov/id/147871037",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-007-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President telephoned Vladimir Putin; the call was not completed. He then talked on a conference call with President Putin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-10-20-75",
+      "date": "2000-10-20",
+      "time": "8:45; 9:05-9:24",
+      "eventType": "call",
+      "leader": "Putin",
+      "naid": "147871041",
+      "sourceTitle": "[10/15/2000-10/31/2000]",
+      "sourcePdfPages": "25",
+      "sourcePdfPageCount": 79,
+      "catalogUrl": "https://catalog.archives.gov/id/147871041",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-009-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President telephoned Vladimir Putin; the call was not completed. He then talked on a conference call with President Putin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    },
+    {
+      "id": "pdd-2000-12-08-76",
+      "date": "2000-12-08",
+      "time": "11:20",
+      "eventType": "call",
+      "leader": "Putin",
+      "naid": "147871045",
+      "sourceTitle": "[12/01/2000-12/26/2000]",
+      "sourcePdfPages": "18",
+      "sourcePdfPageCount": 60,
+      "catalogUrl": "https://catalog.archives.gov/id/147871045",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/foia/2013/2013-0549-F/42-t-101784486-20130549F-014-011-2018.pdf",
+      "participants": [
+        "Bill Clinton",
+        "Vladimir Putin"
+      ],
+      "summary": "The President talked on a conference call with Vladimir Putin.",
+      "countStatus": "Daily Diary reference only",
+      "potentialFrusDocument": false
+    }
+  ]
+}
