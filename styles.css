@@ -304,6 +304,24 @@ dd {
   line-height: 1.56;
 }
 
+.priority-chronology-section {
+  scroll-margin-top: 88px;
+}
+
+.priority-summary {
+  max-width: 860px;
+  margin: -10px 0 0;
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.12rem, 2vw, 1.38rem);
+  font-weight: 800;
+  line-height: 1.45;
+}
+
+.priority-records-root {
+  margin-top: 22px;
+}
+
 h2 {
   max-width: 760px;
   font-family: Georgia, "Times New Roman", serif;

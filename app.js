@@ -7,6 +7,8 @@ const CHAPTER_ORDER = [
 ];
 
 const recordsRoot = document.querySelector("#records-root");
+const declassifiedChronologyRoot = document.querySelector("#declassified-chronology-root");
+const declassifiedChronologySummary = document.querySelector("#declassified-chronology-summary");
 const totalRecords = document.querySelector("#total-records");
 const candidateDocuments = document.querySelector("#candidate-documents");
 const countedPages = document.querySelector("#counted-pages");
@@ -55,6 +57,14 @@ function formatDate(dateString) {
 function byChapterThenDate(a, b) {
   return (
     a.chapter.number - b.chapter.number ||
+    a.sortDate.localeCompare(b.sortDate) ||
+    (a.sortOrder || 0) - (b.sortOrder || 0) ||
+    a.title.localeCompare(b.title)
+  );
+}
+
+function byDateThenTitle(a, b) {
+  return (
     a.sortDate.localeCompare(b.sortDate) ||
     (a.sortOrder || 0) - (b.sortOrder || 0) ||
     a.title.localeCompare(b.title)
@@ -928,6 +938,36 @@ function createRecordRow(record) {
   return row;
 }
 
+function renderDeclassifiedChronology(records) {
+  if (!declassifiedChronologyRoot) return;
+
+  const candidates = candidateRecords(records);
+  const counted = candidates.filter((record) => Number.isInteger(record.pageCount)).sort(byDateThenTitle);
+  const pending = candidates.filter((record) => !Number.isInteger(record.pageCount)).sort(byDateThenTitle);
+  const memcons = counted.filter((record) => record.type === "Memcon").length;
+  const telcons = counted.filter((record) => record.type === "Telcon").length;
+
+  declassifiedChronologyRoot.replaceChildren();
+
+  if (declassifiedChronologySummary) {
+    declassifiedChronologySummary.textContent =
+      `${formatNumber(counted.length)} page-counted declassified memcons/telcons ` +
+      `(${formatNumber(memcons)} memcons, ${formatNumber(telcons)} telcons), ` +
+      `${formatNumber(pageSum(counted))} actual conversation pages, ` +
+      `${formatNumber(pending.length)} candidate records still pending extent verification.`;
+  }
+
+  if (!counted.length) {
+    declassifiedChronologyRoot.innerHTML = '<p class="loading">No page-counted declassified documents are loaded.</p>';
+    return;
+  }
+
+  const list = document.createElement("div");
+  list.className = "record-list";
+  for (const record of counted) list.append(createRecordRow(record));
+  declassifiedChronologyRoot.append(list);
+}
+
 function renderRecords(records) {
   const sorted = [...records].sort(byChapterThenDate);
   recordsRoot.replaceChildren();
@@ -1182,6 +1222,7 @@ async function init() {
     allRecords = window.MEMCONS || window.MEMCON_RECORDS || (await loadRecords());
     setChapterCounts(allRecords);
     populateCompilerControls(allRecords);
+    renderDeclassifiedChronology(allRecords);
     renderCompilerAudit(allRecords);
     renderFrusMethod(allRecords);
     renderWorkbench(allRecords);

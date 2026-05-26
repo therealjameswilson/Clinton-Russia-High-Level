@@ -8,7 +8,7 @@
       name="description"
       content="A working FRUS compiler page for Clinton-Russia high-level records, Clinton-Yeltsin memcons and telcons, Strobe Talbott FOIA context, and NARA Scout leads for FRUS 1993-2000, Volume XVIII, Russia."
     />
-    <link rel="stylesheet" href="styles.css?v=20260525-source-notes" />
+    <link rel="stylesheet" href="styles.css?v=20260526-priority-chronology" />
   </head>
   <body>
     <header class="site-header">
@@ -17,6 +17,7 @@
         <span>Russia High-Level Files</span>
       </a>
       <nav aria-label="Primary navigation">
+        <a href="#declassified-chronology">Chronology</a>
         <a href="#audit">Audit</a>
         <a href="#frus-method">Method</a>
         <a href="#workbench">Workbench</a>
@@ -37,14 +38,14 @@
           <h1 id="hero-title">Clinton-Russia High-Level Files</h1>
           <p class="lede">
             A working compiler page for the planned <em>Foreign Relations of the United
-            States, 1993-2000, Volume XVIII, Russia</em>. It starts with the Clinton-Yeltsin
-            leader chronology, adds released Clinton Library MDR packets, draws in Strobe
-            Talbott FOIA policy context, layers in Clinton's public statements from the
-            Public Papers, and turns every source copy into a page-counted, provenance-aware
-            candidate for FRUS review.
+            States, 1993-2000, Volume XVIII, Russia</em>. It now leads with the
+            chronological spine of declassified Clinton-Yeltsin memcons and telcons, then
+            adds released Clinton Library MDR packets, Strobe Talbott FOIA policy context,
+            Clinton's public statements from the Public Papers, and provenance-aware
+            controls for FRUS review.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="#workbench">Open Workbench</a>
+            <a class="button primary" href="#declassified-chronology">Open Chronology</a>
             <a class="button secondary" href="#records" data-quick-filter="pending">Pending Extents</a>
           </div>
         </div>
@@ -72,6 +73,32 @@
             </div>
           </dl>
         </aside>
+      </section>
+
+      <section
+        class="section records-section priority-chronology-section"
+        id="declassified-chronology"
+        aria-labelledby="declassified-chronology-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Declassified Documents</p>
+            <h2 id="declassified-chronology-title">Chronology of Declassified Documents</h2>
+          </div>
+          <p class="section-note">
+            The page-counted Clinton-Yeltsin memcons and telcons come first, in date order,
+            with source notes, extraction status, and provenance checks attached to each row.
+          </p>
+        </div>
+        <p id="declassified-chronology-summary" class="priority-summary" aria-live="polite"></p>
+        <div class="workbench-actions">
+          <a href="#records" data-quick-filter="candidate">Open full candidate set</a>
+          <a href="#records" data-quick-filter="pending">Show pending extents</a>
+          <a href="reports/document-page-tallies.json">Open page tallies</a>
+        </div>
+        <div id="declassified-chronology-root" class="records-root priority-records-root" aria-live="polite">
+          <p class="loading">Loading declassified document chronology...</p>
+        </div>
       </section>
 
       <section class="stats" aria-label="Archive summary">
@@ -752,7 +779,7 @@
       <p>Published with GitHub Pages as a working companion archive.</p>
       <a href="https://github.com/therealjameswilson/Clinton-Russia-High-Level">Repository</a>
     </footer>
-    <script src="data/memcons.js?v=20260525-daily-diary"></script>
-    <script src="app.js?v=20260525-daily-diary"></script>
+    <script src="data/memcons.js?v=20260526-priority-chronology"></script>
+    <script src="app.js?v=20260526-priority-chronology"></script>
   </body>
 </html>
