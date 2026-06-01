@@ -268,6 +268,7 @@ function buildCompilerStartHereMarkdown(records) {
     "",
     "- [Spreadsheet chronology](compiler-document-chronology.csv)",
     "- [Document page tallies](document-page-tallies.json)",
+    "- [Extracted PDF validation](extracted-pdf-validation.json)",
     "- [Compiler risk audit](compiler-risk-audit.json)",
     "- [Source-note style audit](frus-source-note-style-audit.json)"
   ];
@@ -359,6 +360,7 @@ function buildCompilerStartHereHtml(records) {
       <div class="actions">
         <a href="compiler-document-chronology.csv">Download chronology CSV</a>
         <a href="compiler-start-here.md">Open Markdown packet</a>
+        <a href="extracted-pdf-validation.json">Open PDF validation</a>
         <a href="document-page-tallies.json">Open page tallies JSON</a>
         <a href="compiler-risk-audit.json">Open risk audit JSON</a>
       </div>

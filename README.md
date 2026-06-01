@@ -48,6 +48,13 @@ Compiler-facing handoff files are generated in `reports/`:
 - `compiler-start-here.md`: Markdown copy of the same packet for repo review.
 - `compiler-document-chronology.csv`: spreadsheet-ready chronology with page counts, source-page ranges, PDFs, source notes, and follow-up actions.
 - `document-page-tallies.json`: machine-readable consolidated page counts and pending extent records.
+- `extracted-pdf-validation.json`: mechanical audit of local derivative PDF page counts against the record data and extraction manifest.
+
+To re-run the local PDF extent/provenance audit:
+
+```sh
+node scripts/audit-extracted-pdfs.js
+```
 
 ## Document Extraction Rule
 
