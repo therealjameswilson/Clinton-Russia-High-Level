@@ -1,0 +1,3084 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FRUS Face-Page Metadata Audit</title>
+    <style>
+      body { margin: 0; color: #18212d; font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f4f7f6; }
+      main { width: min(1220px, calc(100% - 32px)); margin: 0 auto; padding: 34px 0 56px; }
+      h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.08; }
+      h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.7rem); }
+      h2 { margin-top: 34px; font-size: clamp(1.45rem, 3vw, 2.15rem); }
+      h3 { margin: 0 0 8px; font-size: 1.05rem; }
+      a { color: #25364f; font-weight: 800; }
+      .lede { max-width: 900px; color: #5f6874; font-size: 1.05rem; }
+      .actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 24px; }
+      .actions a { display: inline-flex; min-height: 34px; align-items: center; padding: 0 11px; color: white; text-decoration: none; background: #25364f; border-radius: 6px; }
+      .actions a:nth-child(even) { color: #25364f; background: white; border: 1px solid #d7dedb; }
+      .summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 24px 0; }
+      .summary div, article { padding: 14px; background: white; border: 1px solid #d7dedb; border-radius: 8px; }
+      .summary dt { color: #5f6874; font-size: .78rem; font-weight: 900; text-transform: uppercase; }
+      .summary dd { margin: 4px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.55rem; font-weight: 800; }
+      table { width: 100%; border-collapse: collapse; background: white; border: 1px solid #d7dedb; }
+      th, td { padding: 8px 9px; border-bottom: 1px solid #d7dedb; vertical-align: top; text-align: left; }
+      th { color: #25364f; font-size: .78rem; text-transform: uppercase; }
+      td:nth-child(1) { text-align: right; white-space: nowrap; }
+      pre { max-height: 260px; overflow: auto; white-space: pre-wrap; background: #f4f7f6; padding: 10px; border-radius: 6px; }
+      .issue-grid { display: grid; gap: 10px; }
+      @media (max-width: 760px) { .summary { grid-template-columns: 1fr 1fr; } table { font-size: .84rem; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p><a href="../">Back to compiler page</a></p>
+      <h1>FRUS Face-Page Metadata Audit</h1>
+      <p class="lede">Generated 2026-06-01T15:23:23.960Z from the first page of each extracted Clinton-Yeltsin memcon/telcon PDF. Parsed fields are triage aids for source-note drafting; rows marked for review retain the first-page snippet below.</p>
+      <div class="actions">
+        <a href="face-page-metadata.csv">Download face-page CSV</a>
+        <a href="face-page-metadata.json">Open JSON</a>
+        <a href="../public/documents/clinton-yeltsin-core-reading-packet.pdf">Open reading packet PDF</a>
+      </div>
+      <dl class="summary">
+        <div><dt>Documents Audited</dt><dd>85</dd></div>
+        <div><dt>Parsed Rows</dt><dd>32</dd></div>
+        <div><dt>Rows For Review</dt><dd>53</dd></div>
+        <div><dt>Classification Marks</dt><dd>35</dd></div>
+      </dl>
+      <h2>Metadata Table</h2>
+      <table>
+        <thead><tr><th>Seq</th><th>Date</th><th>Type</th><th>Status</th><th>Review Fields</th><th>Document</th><th>Subject</th><th>Date / Time / Place</th><th>Marking</th><th>Notetaker / Interpreter</th></tr></thead>
+        <tbody><tr>
+        <td>1</td>
+        <td>1993-01-23</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-01-23-telcon-01.pdf">Telephone call with President Boris Yeltsin of Russia, January 23, 1993, White House</a></td>
+        <td>Telcon with President Boris Yeltsin of Russia on January 23, 1993 (U)</td>
+        <td>January 23, 1993, 10:45 - 11:17am Oval Office</td>
+        <td>5ECRB?- PER E.0.13526.</td>
+        <td>Nicholas Burns, NSC staff</td>
+      </tr>
+<tr>
+        <td>2</td>
+        <td>1993-02-10</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-02-10-telcon-02.pdf">Telephone call with President Boris Yeltsin of Russia, February 10, 1993, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin (U)</td>
+        <td>February 10, 1993, 1:51 - 2:14pm Oval Office</td>
+        <td>SECRET -E.0.13S26,Stc. 3.5</td>
+        <td>Nicholas Burns</td>
+      </tr>
+<tr>
+        <td>3</td>
+        <td>1993-04-03</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">Working Dinner with President Boris Yeltsin</a></td>
+        <td>Working Dinner with President Boris Yeltsin (U)</td>
+        <td>April 3, 1993, 6:30 - 8:30pm Vancouver, Canada (Both Presidents opened the dinner by giving prepared toasts)</td>
+        <td></td>
+        <td>Director for Russian, Ukrainian and Eurasian Affairs, NSC Staff</td>
+      </tr>
+<tr>
+        <td>4</td>
+        <td>1993-04-04</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">Meeting with Russian President Boris Yeltsin on Security Issues</a></td>
+        <td>Meeting with Russian President Boris Yeltsin on Security Issues (U)</td>
+        <td>April 4, 1993, 10:00 a.m. to 1:00 p.m. Pan Pacific Hotel, Vancouver, Canada</td>
+        <td></td>
+        <td>Assistant to the President for National Security Affairs Daniel Poneman, Senior Director for Nonproliferation, NSC Staff</td>
+      </tr>
+<tr>
+        <td>5</td>
+        <td>1993-04-26</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-26-telcon-05.pdf">Telephone call with President Boris Yeltsin of Russia, April 26, 1993, White House</a></td>
+        <td>Telcon with President Yeltsin of Russia</td>
+        <td>April 26, 1993, 1:50 - 1:58pm Residence</td>
+        <td></td>
+        <td>Beth Banner</td>
+      </tr>
+<tr>
+        <td>6</td>
+        <td>1993-05-02</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-05-02-telcon-06.pdf">Telephone call with President Boris Yeltsin of Russia, May 2, 1993, White House</a></td>
+        <td>Telcon with President Boris Yeltsin of Russia (U)</td>
+        <td>May 2, 1993, 8:45 - 8:51am The Residence</td>
+        <td></td>
+        <td>Nicholas Burns</td>
+      </tr>
+<tr>
+        <td>7</td>
+        <td>1993-05-10</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-05-10-telcon-07.pdf">Telephone call with President Boris Yeltsin of Russia, May 10, 1993, White House</a></td>
+        <td>Telcon With President Boris Yeltsin of Russia (U)</td>
+        <td>May 10, 1993, 8:12 - 8:19am The Oval Office President Clinton: Hello, Boris. Good morning. (U)</td>
+        <td>.SECRET</td>
+        <td>Christine Potts</td>
+      </tr>
+<tr>
+        <td>8</td>
+        <td>1993-06-28</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-06-28-telcon-08.pdf">Telephone call with President Boris Yeltsin of Russia, June 28, 1993, White House</a></td>
+        <td>Telcon with President Boris Yeltsin of the Russian Federation (U)</td>
+        <td>28 June 1993, 1:05 - 1:33pm Oval Office President Clinton: Hello. (U)</td>
+        <td></td>
+        <td>Beth Banner</td>
+      </tr>
+<tr>
+        <td>9</td>
+        <td>1993-07-10</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan</a></td>
+        <td>Memcon with President Boris Yeltsin of Russia (U)</td>
+        <td>July 10, 1993, 7:45 - 9:15am Ambassador's Residence, Tokyo</td>
+        <td>SECRET- CLINTON LIBRARY PHOTOCOPY</td>
+        <td>Acting Senior Director for Russia, Ukraine and Eurasia Affairs, NSC staff</td>
+      </tr>
+<tr>
+        <td>10</td>
+        <td>1993-09-07</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-09-07-telcon-10.pdf">Telephone call with President Boris Yeltsin of Russia, September 7, 1993, White House</a></td>
+        <td>Telcon with President Boris Yeltsin of the Russian Federation (U)</td>
+        <td>September 7, 1993, 11:40am - 12:10pm Oval Office</td>
+        <td>-SEGREf^</td>
+        <td>Beth Banner</td>
+      </tr>
+<tr>
+        <td>11</td>
+        <td>1993-09-21</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-09-21-telcon-11.pdf">Telephone call with President Boris Yeltsin of Russia, September 21, 1993, White House</a></td>
+        <td>Telcon with President Boris Yeltsin of Russian Federation (U)</td>
+        <td>September 21, 1993, 3:56 - 4:13pm White House Residence (President's Study)</td>
+        <td>-SECRET</td>
+        <td>John Beyrle and Rose Gottemoeller</td>
+      </tr>
+<tr>
+        <td>12</td>
+        <td>1993-10-05</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-10-05-telcon-12.pdf">Telephone call with President Boris Yeltsin of Russia, October 5, 1993, Air Force One</a></td>
+        <td>Telcon with President Boris Yeltsin of Russian Federation (U)</td>
+        <td>October 5, 1993, 1:42 - 2:02pm Air Force One</td>
+        <td>SECRET</td>
+        <td>John Beyrle</td>
+      </tr>
+<tr>
+        <td>13</td>
+        <td>1993-12-22</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf">Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House</a></td>
+        <td>Telcon with President Boris Yeltsin of the Russian Federation (U)</td>
+        <td>December 22, 1993 9:10 - 9:40 am Oval Office</td>
+        <td>^SECRET SECRET 9998</td>
+        <td>John Beyrle</td>
+      </tr>
+<tr>
+        <td>14</td>
+        <td>1994-01-13</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf">One-on-One Meeting with President Boris Yeltsin of Russia</a></td>
+        <td>One-on-One Meeting with President Boris Yeltsin of Russia (U)</td>
+        <td>January 13, 1994, 9:00 - 9:45am The Kremlin</td>
+        <td>SECnB¥ ^SEGREF 0513</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>15</td>
+        <td>1994-01-13</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>participants, classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">President's dinner with President Yeltsin, January 13/14, 1994</a></td>
+        <td>PRESIDENT'S DINNER WITH PRESIDENT YELTSIN JANUARY 14, 1994 1. ' -S-ECReT - ENTIRE TEXT 2. THIS CABLE IS FORWARDED FOR YOUR CLEARANCE. DECLASSIFIED 3. SUMMARY: IN A SERIES OF DISCUSSIONS ABOUT PER E.0.13526 DOMESTIC AND WORLD AFFAIRS ON THE EVENING OF JANUARY I3TH. PRESIDENT YELTSIN AND PRESIDENT CLINTON ■Xo\v&gt; • owT • ro TALKED ABOUT THE TRILATERAL AGREEMENT FOR UKRAINE AND \o/y2.ovs \xe,v4 ITS CHANCES FOR SUCCESS. THEY ALSO DISCUSSED ATTITUDES IN THE COUNTRY AMONG THE RUSSIAN PEOPLE, PRESIDENT YELTSIN'S NEW EFFORTS TO ORGANIZE THE PARLIAMENT, AND RUSSIAN INTEREST IN REDUCING ARMS TRADE WITH IRAN AND OPENING UP THE SANCTIONS REGIME AGAINST IRAQ IN AN EFFORT TO ENSURE IRAQI REPAYMENT OF A PORTION OF ITS DEBT 00 RUSSIA. THERE WAS A DISCUSSION OF MILITARY COOPERATION AS WELL AS BOSNIA. PRESIDENT CLINTON AND PRESIDENT YELTSIN BOTH DISCUSSED THE NATURE OF THE U.S.-RUSSIAN RELATIONSHIP AND THE IMPORTANCE OF THAT RELATIONSHIP TO THE FUTURE OF WORLD STABILITY AND PEACE, PARTICULARLY IN EUROPE AND IN THE CONTEXT OF THE PARTNERSHIP FOR PEACE. PRESIDENT YELTSIN SIGNALED A POSSIBLE CHANGE IN HIS CABINET, DROPPING FORMER PRIME MINISTER GAYDAR TO WORK IN THE LOWER-HOUSE OF THE NEW FEDERAL LEGISLATURE. PRESIDENT CLINTON EXPLAINED THE CONCEPT OF ENSURING A LONG TERM PEACE IN EUROPE THROUGH FRANK CONSULTATION AND STRONG AND CLOSE COOPERATION BETWEEN RUSSIA AND THE UNITED STATES, BUT WITH CARE TAKEN TO ENSURE RESPECT FOR THE INTEREST OF OTHERS. END SUMMARY. 4.THE PRESIDENT MET WITH PRESIDENT YELTSIN AT THE DACHA AT NOVA OGAREVA OUTSIDE OF MOSCOW ON JANUARY I4TH FOR A DINNER IN WHICH A NUMBER OF BUSINESS ISSUES AROSE. THIS MEMCOM RECORDS THE BUSINESS DISCUSSION. THE PRESIDENT WAS ACCOMPANIED BY SECRETARY CHRISTOPHER, SECRETARY BENSON, NATIONAL SECURITY ADVISOR LAKE, AMBASSADOR AT LARGE STROBE TALBOTT AND AMBASSADOR PICKERING. PRESIDENT YELTSIN WAS ACCOMPANIED BY PRIME MINISTER CHRNOMYRDIN, FIRST DEPUTY PRIME MINISTER SOSKOVETS, FOREIGN MINISTER KOZYREV, DEFENSE MINISTER GRACHEV AND BY HIS LEGAL ADVISOR ILLYUSHIN. 5. AFTER OPENING PLEASANTRIES, PRESIDENT CLINTON NOTED THE IMPORTANCE HE ATTACHED TO HAVING HAD A CHANCE TO SEE RUSSIAN PEOPLE ON THE STREETS OF MOSCOW. HE TOLD PRESIDENT YELTSIN THAT HE HAD PASSED ON HIS CONCERNS TO PRESIDENT YELTSIN'S ADVISORS ABOUT THE PEOPLE AND THEIR REACTIONS. 6. PRESIDENT YELTSIN CHANGED THE SUBJECT AND NOTED MRS. YELTSIN HAD CALLED HIS ATTENTION TO A WONDERFUL ARTICLE &quot;IZVESTIA&quot; NEWSPAPER HAD RUN ON PRESIDENT CLINTON. THE ARTICLE ALSO COVERED MRS. CLINTON'S ACTIVITIES. 7. PRESIDENT YELTSIN THEN RETURNED TO THE INITIAL COMMENT ABOUT PEOPLE BEING WORRIED. THEY ARE CRITICAL OF US AND THEY ARE CERTAINLY RIGHT, HE SAID. TO DO BETTER, I HAVE SENT SERGEI ALEXANDROVICH FILATOV, THE KREMLIN CHIEF-OF-STAFF, TO LEARN ABOUT YOUR SYSTEM. WE ARE TRYING TO FIND OUT ABOUT HOW TO BE MORE EFFICIENT AT OUR WORK AND TO SPREAD THE RESPONSIBILITIES TO THOSE WHO CAN CARRY THEM OUT. THE COLLABORATION BETWEEN OUR COLLKAGUES IN THE CABINET IS STRONG AND WE HAVE A STRONG CABINET.</td>
+        <td>January 13/14, 1994, Nova Ogareva, outside Moscow (source item date January 13; cable subject says January 14)</td>
+        <td></td>
+        <td></td>
+      </tr>
+<tr>
+        <td>16</td>
+        <td>1994-01-14</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-trilateral-yeltsin-kravchuk.pdf">Trilateral Meeting with President Boris Yeltsin of Russia on Security Issues</a></td>
+        <td>Trilateral Meeting President Boris Yeltsin of Russia on Security Issues (U)</td>
+        <td>January 14, 1994, 8:35 - 8:55 a.m. ' St. Catherine's Hall, The Kremlin DECLASSIFICATION AUTHORITY: Geoffrey W. Chapman, Senior Reviewer, A/GIS/IPS 3/25/2019 llarlaccifv nn- nAnp nrwrinrm-rl iu UNCLASSIFIED U.S. Department of State Case No. F-2017-13804 Doc No. C06694499 Date: 03/29/2019</td>
+        <td>UNCLASSIFIED U.S. Department of State Case No. F-2017-13804 Doc No. C06694499 Date: 03/29/2019</td>
+        <td>Director for Russia, Ukraine and Eurasia Affairs, NSC Staff</td>
+      </tr>
+<tr>
+        <td>17</td>
+        <td>1994-01-14</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf">Second Expanded Bilateral Session with President Boris Yeltsin of Russia</a></td>
+        <td>Second.ExpandeB Bilatexal Session with President Boris Yeltsin of Russia (U)</td>
+        <td>January 14, 1994, 9:35 - 11:15 a.m. St. Catherine's Hall, The Kremlin</td>
+        <td>CONFIDENTIAL</td>
+        <td>Director for Russia, Ukraine and Eurasia Affairs, NSC Staff</td>
+      </tr>
+<tr>
+        <td>18</td>
+        <td>1994-01-15</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-15-memcon-one-on-one.pdf">One-on-One Meeting with President Boris Yeltsin of Russia</a></td>
+        <td>One-on-One Meeting with President Boris Yeltsin of Russia (U)</td>
+        <td>January 15, 1994, 9:00 - 9:20am The Kremlin The President started the conversation by saying that before he came to Moscow, he had worked hard with the G-7 to achieve the three aims which the U.S. and Russia shared: first, to get the next 1.5 billion dollars from the IMF to Russia; second, to get some debt relief (restructuring); third, to get flexibility in the conditions set by the international financial institutions for setting conditions for aid. The G-7 nations agreed to this if the President would push for reforms in Russia, since they believed that President Yeltsin was committed to these reforms. President Clinton said that he had asked for today's meeting with President Yeltsin because President Yeltsin had told him on the previous day that there would be some changes in personnel in his government related to economic positions. For example, Gaidar would lead the party of reformers in the parliament. This was, of course, for President Yeltsin, not President Clinton, to decide, and President Clinton had come to better understand during the days he had just spent in Moscow, talking to the people in the streets and in the TV studio, the political pressures facing President Yeltsin. President Yeltsin only wished that as President Yeltsin worked through these issues in the coming days, he would think about what President Clinton was saying. (^ President Clinton said President Yeltsin's decision could have an impact on all the individuals who were committed to achieving the desired goals for Russia. President Clinton's credibility was connected to President Yeltsin's indication that he would continue the reforms, which were linked to a specific team of people. Perhaps this would change, but the impression was that ~6ECRE¥- Declassify on: OADR ccrocn-</td>
+        <td></td>
+        <td></td>
+      </tr>
+<tr>
+        <td>19</td>
+        <td>1994-02-20</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-02-20-telcon-16.pdf">Telephone call with President Boris Yeltsin of Russia, February 20, 1994, White House White House</a></td>
+        <td>Telecon with President Boris Yeltsin of Russia</td>
+        <td>February 20, 1994; l:27-l:47pm EST The Oval Office</td>
+        <td></td>
+        <td>Katherine O'Loughlin</td>
+      </tr>
+<tr>
+        <td>20</td>
+        <td>1994-04-10</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-10-telcon-17.pdf">Telephone call with President Boris Yeltsin of Russia, April 10, 1994, White House</a></td>
+        <td>Telcon With President Yeltsin of Russia</td>
+        <td>April 10, 1994; Call began at 2315 EDT, terminated at 2338 EDT. The White House</td>
+        <td></td>
+        <td>Kevin Wooton, William Spencer</td>
+      </tr>
+<tr>
+        <td>21</td>
+        <td>1994-04-20</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-20-telcon-18.pdf">Telephone call with President Boris Yeltsin of Russia, April 20, 1994, White House</a></td>
+        <td>Telcon with President Boris Yeltsin of Russia on April 20, 1994 (U)</td>
+        <td>April 20, 1994; 2:25 - 3:05pm Oval Office</td>
+        <td></td>
+        <td>Rick Waddell</td>
+      </tr>
+<tr>
+        <td>22</td>
+        <td>1994-06-13</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-06-13-telcon-20.pdf">Telephone Call with President Boris Yeltsin of Russia, June 13, 1994, White House</a></td>
+        <td>Telcon with Boris Yeltsin of Russia on 13 June 1994</td>
+        <td>11 June 1994, 1:24 (EDT) The White House President Clinton: Hello</td>
+        <td>SECRET 3/iy cioig K6H ^</td>
+        <td>Steven Aoki</td>
+      </tr>
+<tr>
+        <td>23</td>
+        <td>1994-07-05</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-07-05-telcon-21.pdf">Telephone call with President Boris Yeltsin of Russia, July 5, 1994, White House</a></td>
+        <td>Telcon with Boris Yeltsin of Russia on 5 July 1994</td>
+        <td>5 July 1994, 9:31-9:49 (EDT) Oval Office</td>
+        <td>-SECRET 5387</td>
+        <td>John Beyrle</td>
+      </tr>
+<tr>
+        <td>24</td>
+        <td>1994-09-27</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf">Clinton-Yeltsin one-on-one memcon, September 27, 1994</a></td>
+        <td>Meeting with President Boris Yeltsin</td>
+        <td>September 27, 1994: 11:00 a.m.-1:00 p.m.; Oval Office and Patio</td>
+        <td>-SECRET^- PER E.0.13526,</td>
+        <td>The President President Boris Yeltsin Anthony Lake, Assistant to the President for National Security</td>
+      </tr>
+<tr>
+        <td>25</td>
+        <td>1994-09-27</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House</a></td>
+        <td>Expanded Session on Security Issues with President Yeltsin of the Russian Federation</td>
+        <td>September 27, 1994; 4:35-5:35pm Cabinet Room DECLASSIFIED PER E.0.13526 •CONFIDENTIAL- Declassify on: OADR 3/iyi.ol8 K6H</td>
+        <td>•CONFIDENTIAL-</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>26</td>
+        <td>1994-09-28</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>participants, classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-09-28-second-one-on-one.pdf">Second Clinton/Yeltsin One-on-One</a></td>
+        <td>Second Clinton/Yeltsin One-on-One</td>
+        <td>September 28, 1994, 1:00-2:30 p.m.</td>
+        <td></td>
+        <td></td>
+      </tr>
+<tr>
+        <td>27</td>
+        <td>1994-10-05</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-05-telcon-24.pdf">Telephone call with President Boris Yeltsin, October 5, 1994, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin (U)</td>
+        <td>October 5, 1993, 10:30-11:00am, Oval Office</td>
+        <td></td>
+        <td>Jessica Stern</td>
+      </tr>
+<tr>
+        <td>28</td>
+        <td>1994-10-10</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-10-clinton-yeltsin-iraq-telcon.pdf">Telephone call with President Boris Yeltsin of Russia, October 10, 1994, White House</a></td>
+        <td>Telcon with President Boris Yeltsin of Russian Federation (U)</td>
+        <td>October 10, 1993, 12:15 - 12:40pm Oval Office</td>
+        <td></td>
+        <td>Jessica Stern</td>
+      </tr>
+<tr>
+        <td>29</td>
+        <td>1995-02-13</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>participants, notetaker, interpreter</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-02-13-telcon-26.pdf">Telephone call with President Boris Yeltsin of Russia, February 13, 1995, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin: Chechnya, START II PTU^TICIPTUITS The President President Boris Yeltsin DECLASSIFIED PER E.0.13526 Interpreter: Dimitry Zarechnak Notetaker: Steve Pifer 3/iyioi8 KBH</td>
+        <td>February 13, 1995, 1:03-1:25 p.m. Oval Office</td>
+        <td>SECRET ^ 0995</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>30</td>
+        <td>1995-04-27</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-04-27-telcon-27.pdf">Telephone call with President Boris Yeltsin of Russia, April 27, 1995, White House</a></td>
+        <td>Presidential Telephone Call</td>
+        <td>27 April 1995, 9:31 - 10:04am Oval Office</td>
+        <td>COMF1 DEI^fflAL 3572</td>
+        <td>John Beyrle, Kenneth Baldwin, Karen Dragone</td>
+      </tr>
+<tr>
+        <td>31</td>
+        <td>1995-05-10</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>participants, classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia</a></td>
+        <td>One-On-One Meeting</td>
+        <td>10:10 a.m. - 1:19 p.m.</td>
+        <td></td>
+        <td></td>
+      </tr>
+<tr>
+        <td>32</td>
+        <td>1995-06-17</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>participants</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf">Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada</a></td>
+        <td>Cl'inton-Yeltsin Meeting</td>
+        <td>June 17, 1995, Halifax, Nova Scotia, Canada</td>
+        <td>UNCLASSIFIED U.S. Department of State Case No. F-2017-13804 Doc No. C06835181 Date: 12/28/2020</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>33</td>
+        <td>1995-07-28</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf">Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House</a></td>
+        <td>President's Discussion with Yeltsin on Bosnia, Chechnya</td>
+        <td>July 28, 1995, 10:35-11:19 a.m. EDT Oval Office</td>
+        <td></td>
+        <td>Steve Pifer, Katherine O'Loughlin, Kenneth Baldwin and Mary Canty</td>
+      </tr>
+<tr>
+        <td>34</td>
+        <td>1995-09-27</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-09-27-telcon-31.pdf">Telephone call with President Boris Yeltsin of Russia, September 27, 1995, White House</a></td>
+        <td>President's Discussion with Yeltsin on Bosnia, CEE, Hyde Park and a Vice Presidential Meeting with Chernomyrdin</td>
+        <td>September 27, 1995, 10:35-11:53 a.m. EDT Oval Office</td>
+        <td></td>
+        <td>Steve Pifer, Paul Weber, Deuce Martinez, Katherine O'Loughlin, Trey Whitworth</td>
+      </tr>
+<tr>
+        <td>35</td>
+        <td>1995-10-23</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>participants, classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf">Clinton-Yeltsin One-on-One</a></td>
+        <td>Clinton-Yeltsin One-on-One</td>
+        <td>11:30 a.m.-1:35 p.m.</td>
+        <td></td>
+        <td></td>
+      </tr>
+<tr>
+        <td>36</td>
+        <td>1995-10-23</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-lunch.pdf">Lunch with Boris Yeltsin, President of Russian Federation</a></td>
+        <td>Lunch with Boris Yeltsin, President of Russian Federation</td>
+        <td>October 23, 1995; 1:30 p.m.-2:40 p.m. Dining Room, Hyde Park Library, Hyde Park, New York</td>
+        <td></td>
+        <td></td>
+      </tr>
+<tr>
+        <td>37</td>
+        <td>1996-01-26</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf">Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House</a></td>
+        <td>President's Discussion with Yeltsin on Reform, Chechnya, START II and NATO (jZ*)</td>
+        <td>January 26, 1996, 10:46-11:27 a.m. EDT Oval Office</td>
+        <td></td>
+        <td>Katherine O'Loughlin, Kevin Wooton, Deuce Martinez, Steve Pifer</td>
+      </tr>
+<tr>
+        <td>38</td>
+        <td>1996-02-21</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-02-21-telcon-34.pdf">Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House</a></td>
+        <td>The President's Discussion with President Yeltsin on the Russian Election, Bilateral Relations,' START II Ratification and NATO</td>
+        <td>February 21, 1996, 10:38-11:05 a.m. EST Oval Office PRESIDENT CLINTON: Hello? (U) PRESIDENT YELTSIN Hello, Bill. (U) PRESIDENT CLINTON Hello, Boris. Thank you for taking my call. (U)</td>
+        <td>-CONFIDENTIAL £M[NTIflL 1097</td>
+        <td>Ted Sevigny, Mary Canty, Elaine Florio, Steve Pifer</td>
+      </tr>
+<tr>
+        <td>39</td>
+        <td>1996-03-13</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-03-13-clinton-yeltsin-sharm-el-sheikh-memcon-cable.pdf">Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt</a></td>
+        <td>(C) CLINTON-YELTSIN MEMCON 3/13/96 1. CONFIDENTIAL CLASSIFIED BY: JOHN HERBSTR ACTING, S/NIS, DEPARTMENT OF STATE REASON: 1.5 (B) AND (D) TEXT OF MEMCON FROM CLINTON-YELTSIN 3/13/96 MEETING FOLLOWS FOR YOUR INFORMATION BEGIN TEXT MEMORANDUM OF CONVERSATION SUBJECT: MEETING WITH PRESIDENT BORIS YELTSIN OF Russia trr</td>
+        <td>March 13, 1996, Sharm El-Sheikh, Egypt</td>
+        <td>CONFIDENTIAL CLASSIFIED BY: JOHN HERBSTR ACTING,</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>40</td>
+        <td>1996-04-09</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-09-telcon-36.pdf">Telephone call with President Boris Yeltsin of Russia, April 9, 1996, White House</a></td>
+        <td>President's Discussion with Yeltsin on Chornobyl, CTBT, ABM/TMD, CEE, G-7 vs G-8</td>
+        <td>April 9, 1996, 8:05-8:45 a.m. EDT Oval Office PRESIDENT CLINTON: Hello, Boris? (U)</td>
+        <td>-SECRET PER E.0.13526</td>
+        <td>Deuce Martinez, Daniel Flessas, Karen Dragone, James Goldgeier, Carlos Pascual, Steve Pifer</td>
+      </tr>
+<tr>
+        <td>41</td>
+        <td>1996-04-21</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>participants, classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-one-on-one.pdf">POTUS-Yeltsin One-on-One</a></td>
+        <td>POTUS-Yeltsin One-on-One</td>
+        <td>April 21, 1996, 10:00-11:45 a.m., Moscow, Russia</td>
+        <td></td>
+        <td></td>
+      </tr>
+<tr>
+        <td>42</td>
+        <td>1996-04-21</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf">Luncheon Meeting with Russian President Boris Yeltsin</a></td>
+        <td>Luncheon Meeting with Russian President Boris Yeltsin (U)</td>
+        <td>April 21, 1996, 12:50 -- 2:15 p.m. The Kremlin</td>
+        <td>SEGRS¥- 2963</td>
+        <td>Ambassador-at-Large to the New Independent States Ashton Carter, Assistant Secretary of Defense Coit Blacker, NSC</td>
+      </tr>
+<tr>
+        <td>43</td>
+        <td>1996-05-07</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-05-07-telcon-38.pdf">Telephone call with President Boris Yeltsin of Russia, May 7, 1996, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin on CTBT, Chechnya, Economics, CFE and Russian Election</td>
+        <td>May 7, 1996, 8:34-8:55 a.m. EDT, Oval Office </td>
+        <td></td>
+        <td>James Goldgeier, Carlos Pascual, Steve Pifer</td>
+      </tr>
+<tr>
+        <td>44</td>
+        <td>1996-06-18</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-06-18-telcon-39.pdf">Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin</td>
+        <td>June 18, 1996, 9:02-9:12 a.m. EDT, Residence </td>
+        <td></td>
+        <td>James Goldgeier, Carlos Pascual</td>
+      </tr>
+<tr>
+        <td>45</td>
+        <td>1996-07-05</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-07-05-telcon-40.pdf">Telephone call with President Boris Yeltsin of Russia, July 5, 1996, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin</td>
+        <td>July 5, 1996, 9:05-9:27 a.m. EDT, Residence </td>
+        <td></td>
+        <td>Carlos Pascual, James Goldgeier, Evan Reade, Peter Huggins, Katherine O'Loughlin, Deuce Martinez</td>
+      </tr>
+<tr>
+        <td>46</td>
+        <td>1996-09-15</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-09-15-telcon-41.pdf">Telephone call with President Boris Yeltsin of Russia, September 15, 1996, White House</a></td>
+        <td>Conversation with President Boris Yeltsin of Russia (U)</td>
+        <td>September 15, 1996, 11:04-11:13 a.m. Residence President Clinton: Hello. Hello Boris. (U)</td>
+        <td></td>
+        <td>Cindy Lawrence, Steve Brennan, Peter Huggins, Ki Fort</td>
+      </tr>
+<tr>
+        <td>47</td>
+        <td>1996-12-05</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-12-05-telcon-42.pdf">Telephone call with President Boris Yeltsin of Russia, December 5, 1996, White House</a></td>
+        <td>Conversation with President Boris Yeltsin of Russia (U)</td>
+        <td>December 5, 1996, 9:35-9:50 a.m. Oval Office President Clinton: Hello? (U)</td>
+        <td></td>
+        <td>Katherine O'Loughlin, Larry Wright, Trey Whitworth, Ki Fort, Carlos Pascual, Mike Hamel</td>
+      </tr>
+<tr>
+        <td>48</td>
+        <td>1997-02-27</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-02-27-telcon-43.pdf">Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House</a></td>
+        <td>Conversation with Russian President Boris Yeltsin</td>
+        <td>February 27, 1997, 11:51 a.m.-12:09 p.m. The Oval Office</td>
+        <td></td>
+        <td>Elaine Florio, Katherine O'Loughlin, Wylma Robinson, David Higgins, Ki Fort</td>
+      </tr>
+<tr>
+        <td>49</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">Helsinki Morning Meeting with President Boris Yeltsin</a></td>
+        <td>Morning Meeting with Russian President Yeltsin: NATO-Russia, START, ABM/TMD (Jt)</td>
+        <td>March 21, 1997, 9:50-11:55 a.m. The Finnish President's Residence, Helsinki</td>
+        <td>COMF1 DENT I7YE- 2044</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>50</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf">Helsinki Working Lunch with President Boris Yeltsin</a></td>
+        <td>Working Lunch with Russian President Yeltsin: Economic Issues, Jackson-Vanik, Denver Summit, Space Station, Nagorno-Karabakh</td>
+        <td>March 21, 1997, 1:00-2:00 p.m. The Finnish President's Residence, Helsinki ■CONFIDENTIAh Reason: 1.5 (d) DECLASSIFIED Declassify On: X6 3/21/17 n: PER E.0.13526, lP- u&gt;-3C-/CiC&gt;S - KOE</td>
+        <td></td>
+        <td></td>
+      </tr>
+<tr>
+        <td>51</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-afternoon.pdf">Helsinki Afternoon Meeting with President Boris Yeltsin</a></td>
+        <td>Afternoon Meeting with Russian President Yeltsin: Joint Statements, Public Line on NATO-Russia (jjf</td>
+        <td>March 21, 1997, 4:00-4:50 p.m. The Finnish President's Residence, Helsinki</td>
+        <td>CONFIDENTIAL 2044</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>52</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf">Helsinki Private Dinner with President Boris Yeltsin</a></td>
+        <td>Private Dinner with Russian President Yeltsin: Middle East, China, Iran, Nuclear Control (;2T</td>
+        <td>March 21, 1997, 8:15-9:30 p.m. Finnish Official Guest Residence, Helsinki</td>
+        <td>CONFIDENTIAL'</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>53</td>
+        <td>1997-05-27</td>
+        <td>Memcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France</a></td>
+        <td>Meeting with Russian President Yeltsin: NATQ-Russi.a, Arms Control, Economics, Denver Summit of the Eight, Afghanistan, Iran</td>
+        <td>May 27, 1997, 5:00-5:55 p.m. The American Ambassador's Residence, Paris</td>
+        <td>CONFIDENTIAL DECIASSIFIED IN PART</td>
+        <td>Assistant to the President for National Security Affairs Strobe Talbott, Deputy Secretary of State Steve Pifer, NSC staff</td>
+      </tr>
+<tr>
+        <td>54</td>
+        <td>1997-06-20</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf">Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado</a></td>
+        <td>Meeting with Russian President Yeltsin: European Security and Madrid, Arms Control, Economics, Iraq, Russian-Iran Missile Cooperation, Japanese-Russian Relations [yf</td>
+        <td>June 20, 1997, 1:05-2:05 p.m. The Gold Room, The Brown Palace, Denver (The meeting opened with ten minutes of press pool sprays.) ■SECR-S-I^ Classified by: Glyn T. Davies DECLASSIFIED Reason: 1.5 (d) PER E.0.13526 lP- cOJty^DoS -IW-I Declassify on: X6 6/20/17 o5f'Xh/'i£&gt;\l»</td>
+        <td></td>
+        <td>Ambassador for the NIS Steve Pifer, Senior Director, NSC</td>
+      </tr>
+<tr>
+        <td>55</td>
+        <td>1997-10-30</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-10-30-telcon-47.pdf">Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin</td>
+        <td>October 30, 1997, 12:52 - 1:21 p.m. EST The Oval Office</td>
+        <td></td>
+        <td>Pete Huggins, Jim Smith, Doug Mueller, Bonnie Click Tony Campanella, Ki Fort</td>
+      </tr>
+<tr>
+        <td>56</td>
+        <td>1997-11-16</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-11-16-telcon-48.pdf">Telephone call with President Boris Yeltsin of Russia, November 16, 1997, Malibu, California</a></td>
+        <td>Telephone Conversation Com with Russian President Yeltsin (/)</td>
+        <td>November 16, 1997, 2:04 - 2:15 a.m. EST Malibu, California</td>
+        <td></td>
+        <td>David Higgins, Mariann Papadimitriou, Larry Wright, James Smith, Pat O'Shaughnessy, Ki Fort</td>
+      </tr>
+<tr>
+        <td>57</td>
+        <td>1997-11-22</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-11-22-telcon-49.pdf">Telephone call with President Boris Yeltsin of Russia, November 22, 1997, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin (jd</td>
+        <td>November 22, 1997, 9:00 - 9:43 a.m. EST TU^D PLACE: Oval Office</td>
+        <td></td>
+        <td>Lyle Harrison, Jeff Rathke, Cindy Lawrence, Ki Fort</td>
+      </tr>
+<tr>
+        <td>58</td>
+        <td>1998-02-02</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-02-02-telcon-50.pdf">Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin</td>
+        <td>February 2, 1998, 9:31-9:51 a.m. EST The White House</td>
+        <td></td>
+        <td>Jim Smith, Pat O'Shaughnessy, Jeff Rathke, Cindy Lawrence, Ki Fort, Bill Courtney</td>
+      </tr>
+<tr>
+        <td>59</td>
+        <td>1998-02-23</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-02-23-telcon-51.pdf">Telephone call with President Boris Yeltsin of Russia, February 23, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin [J^]</td>
+        <td>February 23, 1998, 11:01 - 11:17 a.m. EST The White House</td>
+        <td>-CONFIDENTIAL '{eNHflBfll; 1337</td>
+        <td>Pat O'Shaughnessy, Tom Corwell, Bonnie Click, Jeff Rathke, Jim Smith, Rexon Ryu, Ki Fort</td>
+      </tr>
+<tr>
+        <td>60</td>
+        <td>1998-04-06</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-04-06-telcon-52.pdf">Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin (</td>
+        <td>April 6, 1998, 10:01-10:28 EDT Oval Office</td>
+        <td>-SECRET^ DECLASSIFIED</td>
+        <td>Larry Wright, Bob Ford, Anthony Campanella, George Chastain, James Smith</td>
+      </tr>
+<tr>
+        <td>61</td>
+        <td>1998-05-12</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-12-telcon-53.pdf">Telephone call with President Boris Yeltsin of Russia, May 12, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin</td>
+        <td>May 12, 1998, 11:01 - 11:27 EDT Oval Office</td>
+        <td></td>
+        <td>Larry Wright, Tom Crowell, Bonnie Click, James Smith, Sean Rice, Ki Fort, Jon Elkind</td>
+      </tr>
+<tr>
+        <td>62</td>
+        <td>1998-05-17</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-17-memcon-54.pdf">Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England</a></td>
+        <td>President Boris Yeltsin of Russia</td>
+        <td>May 17, 1998 — 11:47 a.m. - 12:33 p.m. Birmingham, England</td>
+        <td></td>
+        <td></td>
+      </tr>
+<tr>
+        <td>63</td>
+        <td>1998-05-21</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-21-telcon-55.pdf">Telephone call with President Boris Yeltsin of Russia, May 21, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin ^</td>
+        <td>May 21, 1998, 10:41-1052 a.m. EDT, Oval Office</td>
+        <td></td>
+        <td>Larry Wright, Bonnie Click, James Smith, Peter Huggins, Jenny McGee, Pat 0'Shaughnessy, Ki Fort</td>
+      </tr>
+<tr>
+        <td>64</td>
+        <td>1998-05-28</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-28-telcon-56.pdf">Telephone call with President Boris Yeltsin of Russia, May 28, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin</td>
+        <td>May 28, 1998, 11:53 a.m. - 12:14 p.m. EDT, Oval Office</td>
+        <td></td>
+        <td>Cindy Lawrence</td>
+      </tr>
+<tr>
+        <td>65</td>
+        <td>1998-06-15</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf">Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin</td>
+        <td>June 15, 1998, 1:21 p.m, - 1:57 p.m. EDT, Oval Office</td>
+        <td></td>
+        <td>Bob Ford, Cindy Lawrence, Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>66</td>
+        <td>1998-06-16</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-16-telcon-59.pdf">Telephone call with President Boris Yeltsin of Russia, June 16, 1998, White House</a></td>
+        <td>Telephone Conversation wit^ Russian President Boris Yeltsin</td>
+        <td>June 16, 1998, 10:50 a.m - 10:58 a.m. EDT, Oval Office</td>
+        <td></td>
+        <td>Tom Crowell, Nick Dowling, Bonnie Click, Joel Schrader, James Smith, Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>67</td>
+        <td>1998-07-10</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-07-10-telcon-60.pdf">Telephone call with President Boris Yeltsin of Russia, July 10, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin</td>
+        <td>July 10, 1998, 1:19 p.m. - 1:38 p.m. EDT, Oval Office</td>
+        <td></td>
+        <td>Jim Smith, Jeff Rathke, Lyle Harrison, Doug Baylel, Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>68</td>
+        <td>1998-08-14</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-14-telcon-61.pdf">Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin {^)</td>
+        <td>August 14, 1998, 10:30 a.m.- 11:06 a.m. EDT, Oval Office</td>
+        <td></td>
+        <td>Cindy Lawrence, Sean Tarver, Frank Jarosinski, Robert Ford, Daniel Kunin, Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>69</td>
+        <td>1998-08-25</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking, notetaker</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-25-telcon-62.pdf">Telephone call with President Boris Yeltsin of Russia, August 25, 1998, Martha's Vineyard, Massachusetts</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin 0Zl</td>
+        <td>August 25, 1998, 9:39 a.m. - 10:08 a.m. EDT Martha's Vineyard</td>
+        <td></td>
+        <td>Dmitry Zarechnak Note Takers: Larry Wright, Matt Sibley, Jonathan Elkind, Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>70</td>
+        <td>1998-09-12</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-09-12-telcon-64.pdf">Telephone call with President Boris Yeltsin of Russia, September 12, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin on September 12</td>
+        <td>September 12, 1998, 11:32 - 11:59 a.m. EDT; Oval Office</td>
+        <td></td>
+        <td>Bonnie Click, Liz Rogers, Cindy Lawrence, Matt Sibley, Joel Schrader</td>
+      </tr>
+<tr>
+        <td>71</td>
+        <td>1998-10-05</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-10-05-clinton-yeltsin-telcon-actual-pages.pdf">Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House</a></td>
+        <td>Telephone Conversation with Russian President Boris Yeltsin</td>
+        <td>October 5, 1998, 12:01 - 12:18 p.m. EDT, Oval Office</td>
+        <td>CONFIDENTIAL- 6863</td>
+        <td>Tony Campariella, Liz Rogers, Robin Rickard, Joel Schrader, Chris Bell</td>
+      </tr>
+<tr>
+        <td>72</td>
+        <td>1998-12-30</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-12-30-clinton-yeltsin-telcon-actual-pages.pdf">Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House</a></td>
+        <td>Telephone Conversa~~ with Russian President Yeltsin~J</td>
+        <td>December 30, 1998, 10:00-10:33 a.m., Oval Of ce</td>
+        <td></td>
+        <td>David Higgins, Matt Sibley, Doug Bayley, Jim Smith</td>
+      </tr>
+<tr>
+        <td>73</td>
+        <td>1999-03-24</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-03-24-telcon-68.pdf">Telephone call with President Boris Yeltsin of Russia, March 24, 1999, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin</td>
+        <td>March 24, 1998, 9:20 - 9:56 a.m. Oval Office</td>
+        <td>-SECRET 2107</td>
+        <td>Jenny McGee, Miles Murphy, Joel Schrader, James Smith, Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>74</td>
+        <td>1999-04-19</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf">Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin tsi</td>
+        <td>April 19, 1999, 9:30 - 10:13 a.m. EDT, Oval Office</td>
+        <td></td>
+        <td>Robert Ford, Michael T. Manning, Roger Merletti, Matt Sibley, Jim Smith, Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>75</td>
+        <td>1999-04-25</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin ^</td>
+        <td>April 25, 1999, 10:35 - 11:58 a.m. EDT, NATO Summit Trip Building</td>
+        <td>■■SEGR.ETL</td>
+        <td>George Chastain, Doug Bailey, Frank Jarosinski, Joel Schrader, Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>76</td>
+        <td>1999-05-02</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-05-02-telcon-71.pdf">Telephone call with President Boris Yeltsin of Russia, May 2, 1999, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin (X)</td>
+        <td>May 2, 1999, 10:18 - 10:31 a.m. EDT, Residence</td>
+        <td></td>
+        <td>Tony Campanella, Elizabeth Rogers, Michael Manning, Sean Tarver, Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>77</td>
+        <td>1999-06-07</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-07-telcon-72.pdf">Telephone call with President Boris Yeltsin of Russia, June 7, 1999, White House</a></td>
+        <td>Telcon with President Yeltsin of Russia (U)</td>
+        <td>7 June 1999, 11:07 - 11:14 a.m. EST, Oval Office</td>
+        <td></td>
+        <td>Robin Rickard, James Smith Michael Manning, Roger Merletti, Stuart Kaufman</td>
+      </tr>
+<tr>
+        <td>78</td>
+        <td>1999-06-08</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-08-telcon-73.pdf">Telephone call with President Boris Yeltsin of Russia, June 8, 1999, White House</a></td>
+        <td>Telephone Conversation with President Yeltsin of Russia</td>
+        <td>June 8, 1999, 8:58 - 9:13 a.m., EST Oval Office</td>
+        <td>SECRET</td>
+        <td>Bonnie Click, Sean Tarver, Roger Merletti, Don Cheramie</td>
+      </tr>
+<tr>
+        <td>79</td>
+        <td>1999-06-10</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-10-telcon-74.pdf">Telephone call with President Boris Yeltsin of Russia, June 10, 1999, White House</a></td>
+        <td>Telcon with President Yeltsin of Russia • (U)</td>
+        <td>June 10, 1999, 10:40 - 10:50 a.m. EST Oval Office</td>
+        <td>-CONFIDENTIAL 4501</td>
+        <td>George Chastain, Matt Sibley, Sean Tarver, Robert Ford, Roger Merletti, James Smith</td>
+      </tr>
+<tr>
+        <td>80</td>
+        <td>1999-06-13</td>
+        <td>Telcon</td>
+        <td>Parsed</td>
+        <td></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-13-telcon-75.pdf">Telephone call with President Boris Yeltsin of Russia, June 13, 1999, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin</td>
+        <td>June 13, 1999, 9:07 - 10:05 a.m. Oval Office</td>
+        <td>■SECRET&quot; 5271</td>
+        <td>Joel Schrader, Jenny McGee, Miles Murphy, and Doug Bayley</td>
+      </tr>
+<tr>
+        <td>81</td>
+        <td>1999-06-14</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-14-telcon-76.pdf">Telephone call with President Boris Yeltsin of Russia, June 14, 1999, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin i^)</td>
+        <td>June 14, 1999, 10:06 - 10:32 a.m. Oval Office</td>
+        <td></td>
+        <td>Joel Schrader, Miles Murphy, Matt Sibley, Joel Ehrendreich, Roger Merletti, Doug Bayley, and Andrew Weiss</td>
+      </tr>
+<tr>
+        <td>82</td>
+        <td>1999-06-20</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany</a></td>
+        <td>MEMORANDUM OF CONVERSATION</td>
+        <td>June 20, 1999, 1:00 - 2:00 p.m. Renaissance Hotel (Russians Host), Cologne, Germany</td>
+        <td></td>
+        <td>Carlos Pascual</td>
+      </tr>
+<tr>
+        <td>83</td>
+        <td>1999-09-08</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>participants, notetaker, interpreter</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-09-08-telcon-78.pdf">Telephone call with President Boris Yeltsin of Russia, September 8, 1999, White House</a></td>
+        <td>Telephone Conversation with Russian President Yeltsin PARTICIP7\NTS The President President Yeltsin NOTETAKERS: Jenny McGee, Robert Ford, Michael T. Manning, Roger Merletti, Jim Smith, Andrew Weiss INTERPRETER: Kyrill Borissow</td>
+        <td>September 8, 1999, 11:42 a.m. - 12:21 p.m., OEOB</td>
+        <td>-SEGRE'^</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>84</td>
+        <td>1999-11-19</td>
+        <td>Memcon</td>
+        <td>Review fields</td>
+        <td>classification marking</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf">Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey</a></td>
+        <td>Meeting with Russian President Yeltsin</td>
+        <td>DATE,. TIME November 19, 1999, 10:45 a.m.-ll:40 a.m.</td>
+        <td></td>
+        <td>Carlos Pascual DATE,. TIME November 19, 1999, 10:45 a.m.-ll:40 a.m.</td>
+      </tr>
+<tr>
+        <td>85</td>
+        <td>1999-12-31</td>
+        <td>Telcon</td>
+        <td>Review fields</td>
+        <td>classification marking, interpreter</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-12-31-telcon-80.pdf">Telephone call with President Boris Yeltsin of Russia, December 31, 1999, White House</a></td>
+        <td>Telcon with Russian President Boris Yelstin</td>
+        <td>December 31, 1999, 09:02-09:22 p.m. EST Oval Office</td>
+        <td></td>
+        <td>Jenny McGee, Robert Ford, Joel Ehrendreich, and Sean Tarver</td>
+      </tr></tbody>
+      </table>
+      <h2>Rows Needing Review</h2>
+      <div class="issue-grid"><article>
+        <h3>#3 1993-04-03 Working Dinner with President Boris Yeltsin</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>o c.
+-sfi€«er“ 2226
+THE WHITE HOUSE
+WASHINGTON
+DECLASSIFIED
+PER E.0.13526
+^ol5- 0731-^
+3/iyio\8 KfiH
+MEMORANDUM OF CONVERSATION
+SUBJECT: Working Dinner with President Boris Yeltsin
+(U)
+PARTICIPANTS; The President
+Warren Christopher, Secretary of State
+Lloyd Bentsen, Secretary of Treasury
+Mack McLarty, Chief of Staff
+George Stephanopoulos, Assistant to the
+President and Director of Communications
+Anthony Lake, Assistant to the President for
+National Security Affairs
+Samuel Berger, Deputy Assistant to the
+President for National Security Affairs
+Thomas Pickering, Ambassador-Designate to
+Russia
+Toby T. Gati, Special Assistant to the
+President for National Security Affairs
+Nicholas Burns, Director for Russian,
+Ukrainian and Eurasian Affairs, NSC Staff
+Rose Gottemoeller, Director for Russian,
+Ukrainian and Eurasian Affairs, NSC Staff
+(Notetaker)
+Boris Yeltsin, President
+Boris Fedorov, Finance Minister
+Andrei Kozyrev, Foreign Minister
+Alexander Shokhin, Deputy Prime Minister</pre>
+      </article>
+<article>
+        <h3>#4 1993-04-04 Meeting with Russian President Boris Yeltsin on Security Issues</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>on
+ML
+;ceRE¥- 2226
+THE WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF CONVERSATION
+SUBJECT: Meeting with Russian President Boris Yeltsin
+on Security Issues (U)
+PARTICIPANTS; The President
+Warren Christopher, Secretary of State
+Lloyd Bentsen, Secretary of the Treasury
+George Stephanopolous, Assistant to the
+President and Director of Communications
+Strobe Talbott, Ambassador-at-Large and
+Special Advisor to the Secretary of State
+Anthony Lake, Advisor to the President for
+National Security Affairs
+Thomas Pickering, Ambassador-designate to
+Russia
+Toby T. Gati, Assistant to the President for
+National Security Affairs
+Daniel Poneman, Senior Director for
+Nonproliferation, NSC Staff (Notetaker)
+Rose Gottemoeller, Director for Russian,
+Ukrainian and Eurasian Affairs, NSC Staff
+(Notetaker)
+Boris Yeltsin, President
+Boris Fedorov, Finance Minister
+Andrei Kozyrev, Foreign Minister
+Alexander Shokhin, Deputy Prime Minister
+Dmitri Ryurikov, Assistant to the President
+Georgy Mamedov, Deputy Foreign Minister
+Viktor Mikhailov, Minister for Atomic Energy
+Vladimir Lukin, Russian Ambassador to the US</pre>
+      </article>
+<article>
+        <h3>#5 1993-04-26 Telephone call with President Boris Yeltsin of Russia, April 26, 1993, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>-^EONPI^mjTIAL
+(MIOENM 2835
+THE WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telcon with President Yeltsin of Russia
+PARTICIPANTS: The President
+President Boris Yeltsin
+Interpreter: Peter Afanasenko
+Notetaker: Beth Banner
+DATE, TIME April 26, 1993, 1:50 - 1:58pm
+AND PLACE: Residence
+The President: Boris? (U)
+President Yeltsin: I'm listening. (U)
+The President: Congratulations on a splendid victory. (U)
+President Yeltsin: I thank you Bill. It was a big victory
+indeed. (U)
+The President: I'm about to issue a statement in support of your
+policies. I want you to know that we're in this with you for the
+long haul. We made some significant progress in Vancouver and
+Tokyo. We'll keep working here to be supportive. If there is
+anything I can do for you here, please let me know.
+President Yeltsin: I'm really grateful for your wise policy.
+Indeed it is a policy of a very wise man. You know it is really
+tough to get a victory like this under these conditions. But we
+are up to 62 percent in support of the referendum. You know
+yourself very well just how tough it is to be put in elections
+under the conditions of a referendum. I know you understand this
+well. At the same time, I am gratified that the people have
+confirmed their attitude toward reform and the Presidency. A
+major part of the credit goes to you and what you said when we
+met in Vancouver. I am very grateful. It is not only our common
+task, it is a common battle and a common victory. [Jc)
+The President: Thank you. I know you're tired and should get</pre>
+      </article>
+<article>
+        <h3>#6 1993-05-02 Telephone call with President Boris Yeltsin of Russia, May 2, 1993, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>CEC^RET
+''t
+IT 3034
+TH E WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telcon with President Boris Yeltsin of Russia
+(U)
+PARTICIPANTS; The President
+President Boris Yeltsin of Russia
+Interpreter: Dmitri Zarechnak
+Notetaker: Nicholas Burns
+DATE, TIME May 2, 1993, 8:45 - 8:51am
+AND PLACE: The Residence
+The President: Hello, Boris, can you hear me? (U)
+President Yeltsin: Hello, Bill. (U)
+The President: Good. As you know, I've asked Secretary
+Christopher to come see you to discuss the situation in Bosnia.
+Milosevich signed on to the Vance-Owen plan. We're hopeful but
+clear he signed ]^cause all of us are growing impatient and want
+a settlement. (J6)
+President Yeltsin: I know that and I am hopeful for May. I'll
+discuss it with Secretary Christopher.
+The President: It is very important that between now and May 5
+we all say the same thing. I want to keep pressure on and I hope
+that we stay united. Especially, if you could make it clear that
+the Bosnian Serbs must not derail the process. We need specific
+steps to end the fighting and solve the problems.
+President Yeltsin: We will have to wait until May 5 when we
+articulate our position.
+The President: I hope by then we'll also see further progress.
+~{j^)
+President Yeltsin: It would be nice indeed. (U)
+The President: Whatever is done, we will have to do it together.</pre>
+      </article>
+<article>
+        <h3>#8 1993-06-28 Telephone call with President Boris Yeltsin of Russia, June 28, 1993, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>Q£rqra
+il ILa I 4871
+THE WHITE HOUSE
+WASHINGTON
+DECLASSMED
+PER E.0.13526.
+ao\5- 0-731' PO-'
+3/\Z/Z0\d, KSVi
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telcon with President Boris Yeltsin of the
+Russian Federation (U)
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Demitry Zarechnak
+Notetaker: Beth Banner
+DATE, TIME 28 June 1993, 1:05 - 1:33pm
+AND PLACE: Oval Office
+President Clinton: Hello. (U)
+President Yeltsin: Hello, Bill. (U)
+President Clinton: I want to thank you for taking a few moments
+to talk with me today. Thank you for Foreign Minister Kozyrev's
+statement on Iraq. That was very helpful.
+President Yeltsin: That was not the statement of Kozyrev. It
+was the opinion of the leadership of Russia. {^)
+President Clinton: Thank you. I wanted to talk to you about a
+couple of issues today. I am genuinely sorry that Vice President
+Gore and Prime Minister Chernomyrdin could not meet today as
+planned and that last week's talks on missile sanctions failed.
+The law here provides little room for me on the missile
+technology issue. It is important that we reach agreement by
+July 15 and before our meeting in Tokyo next week, because I want
+to talk about the future, not the past. (^)
+I hope you will be agreeable to me sending Ambassador Strobe
+Talbott, who is very close to me and coordinates U.S.-Russia</pre>
+      </article>
+<article>
+        <h3>#15 1994-01-13 President's dinner with President Yeltsin, January 13/14, 1994</h3>
+        <p><strong>Missing/review:</strong> participants, classification marking</p>
+        <pre>SUBJECT: PRESIDENT'S DINNER WITH PRESIDENT YELTSIN
+JANUARY 14, 1994
+1. ' -S-ECReT - ENTIRE TEXT
+2. THIS CABLE IS FORWARDED FOR YOUR CLEARANCE. DECLASSIFIED
+3. SUMMARY: IN A SERIES OF DISCUSSIONS ABOUT PER E.0.13526
+DOMESTIC AND WORLD AFFAIRS ON THE EVENING OF
+JANUARY I3TH. PRESIDENT YELTSIN AND PRESIDENT CLINTON ■Xo\v&gt; • owT • ro
+TALKED ABOUT THE TRILATERAL AGREEMENT FOR UKRAINE AND \o/y2.ovs \xe,v4
+ITS CHANCES FOR SUCCESS. THEY ALSO DISCUSSED ATTITUDES
+IN THE COUNTRY AMONG THE RUSSIAN PEOPLE, PRESIDENT
+YELTSIN'S NEW EFFORTS TO ORGANIZE THE PARLIAMENT, AND
+RUSSIAN INTEREST IN REDUCING ARMS TRADE WITH IRAN AND
+OPENING UP THE SANCTIONS REGIME AGAINST IRAQ IN AN
+EFFORT TO ENSURE IRAQI REPAYMENT OF A PORTION OF ITS
+DEBT 00 RUSSIA.
+THERE WAS A DISCUSSION OF MILITARY COOPERATION AS
+WELL AS BOSNIA. PRESIDENT CLINTON AND PRESIDENT
+YELTSIN BOTH DISCUSSED THE NATURE OF THE U.S.-RUSSIAN
+RELATIONSHIP AND THE IMPORTANCE OF THAT RELATIONSHIP TO
+THE FUTURE OF WORLD STABILITY AND PEACE, PARTICULARLY
+IN EUROPE AND IN THE CONTEXT OF THE PARTNERSHIP FOR
+PEACE. PRESIDENT YELTSIN SIGNALED A POSSIBLE CHANGE IN
+HIS CABINET, DROPPING FORMER PRIME MINISTER GAYDAR TO
+WORK IN THE LOWER-HOUSE OF THE NEW FEDERAL LEGISLATURE.
+PRESIDENT CLINTON EXPLAINED THE CONCEPT OF
+ENSURING A LONG TERM PEACE IN EUROPE THROUGH FRANK
+CONSULTATION AND STRONG AND CLOSE COOPERATION BETWEEN
+RUSSIA AND THE UNITED STATES, BUT WITH CARE TAKEN TO
+ENSURE RESPECT FOR THE INTEREST OF OTHERS.
+END SUMMARY.
+4.THE PRESIDENT MET WITH PRESIDENT YELTSIN AT THE DACHA
+AT NOVA OGAREVA OUTSIDE OF MOSCOW ON JANUARY I4TH FOR A
+DINNER IN WHICH A NUMBER OF BUSINESS ISSUES AROSE.
+THIS MEMCOM RECORDS THE BUSINESS DISCUSSION. THE</pre>
+      </article>
+<article>
+        <h3>#18 1994-01-15 One-on-One Meeting with President Boris Yeltsin of Russia</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>-6-BCRB?-
+-SreRtT-
+THE WHITE HOUSE
+0513
+WAS HI NGTON
+DECLASSIFIED
+PER E.0.13526.
+'3s&gt;\Kp ' owl •
+\o/o/xo\i KQH
+MEMORANDUM OF CONVERSATION
+SUBJECT: One-on-One Meeting with President Boris
+Yeltsin of Russia (U)
+PARTICIPANTS; The President
+Dimitry Zarechnak (Interpreter and notetaker)
+Boris Yeltsin, President of Russian
+Federation
+Interpreter
+DATE, TIME January 15, 1994, 9:00 - 9:20am
+AND PLACE: The Kremlin
+The President started the conversation by saying that before he
+came to Moscow, he had worked hard with the G-7 to achieve the
+three aims which the U.S. and Russia shared: first, to get the
+next 1.5 billion dollars from the IMF to Russia; second, to get
+some debt relief (restructuring); third, to get flexibility in
+the conditions set by the international financial institutions
+for setting conditions for aid. The G-7 nations agreed to this
+if the President would push for reforms in Russia, since they
+believed that President Yeltsin was committed to these reforms.
+President Clinton said that he had asked for today's meeting with
+President Yeltsin because President Yeltsin had told him on the
+previous day that there would be some changes in personnel in his
+government related to economic positions. For example, Gaidar
+would lead the party of reformers in the parliament. This was,
+of course, for President Yeltsin, not President Clinton, to</pre>
+      </article>
+<article>
+        <h3>#19 1994-02-20 Telephone call with President Boris Yeltsin of Russia, February 20, 1994, White House White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>no.iriDc.iTiftL -CONFIDBITIflL
+1529
+THE WHITE HOUSE
+WASHINGTON
+DECLASSIFIED
+PER E.0.13526
+MEMORANDUM OF TELEPHONE CONVERSATION 3/»ya,o\a. KtivI
+SUBJECT: Telecon with President Boris Yeltsin of
+Russia
+PARTICIPANTS The President
+President Yeltsin
+Interpreter: Galina Tunik-Rosniansky
+Notetaker: Katherine O'Loughlin
+DATE, TIME February 20, 1994; l:27-l:47pm EST
+AND PLACE: The Oval Office
+The President: Hello, Boris. (U)
+President Yeltsin: Hello. (U)
+The President: I hear you. (U)
+President Yeltsin: Bill, good evening. Greetings. (U)
+The President: It's nice to you hear your voice. (U)
+President Yeltsin: If you remember Bill, as we agreed before,
+the purpose of this call is to finalize measures on Sarajevo. As
+I promised I got in touch with Milosevic and what I proposed was
+a political and peaceful solution. He accepted this and sent me
+a message and immediately thereafter he began the withdrawal of
+heavy artillery from Sarajevo. What do you think is the current
+update of the situation as it stands today?
+The President: I'm very encouraged the Muslims and Serbs have
+made efforts to comply with the rules to pull weapons out of the
+safe zone around Sarajevo. There have been a lot of heavy
+weapons moved out of the zone in the last 36 hours and there is a
+great deal of activity going on there as we speak. I want to
+thank you for your leadership. If you had not gotten involved, I
+don't think this would have happened. The UN is working hard to</pre>
+      </article>
+<article>
+        <h3>#20 1994-04-10 Telephone call with President Boris Yeltsin of Russia, April 10, 1994, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>■eONFI-BENTIAL 2775
+THE WHITE HOUSE
+WAS HI NGTON DECLASSIFIED
+PER E.0.13526 ^
+o^o\5 -omx - \ )
+MEMORANDUM OF TELEPHONE CONVERSATION 3/13/KSVA
+SUBJECT: Telcon With President Yeltsin of Russia
+PARTICIPANTS The President
+President Yeltsin
+Interpreter: Dimitri Zarechnak
+Notetaker: Kevin Wooton, William Spencer
+DATE, TIME April 10, 1994; Call began at 2315 EDT,
+AND PLACE: terminated at 2338 EDT. The White House
+The President: Hello Boris. (U)
+President Yeltsin: Hi, Bill. It has been some time since we
+spoke. (U)
+The President: Yes, it has. I understand you're about to leave,
+and I appreciate you taking my call. It's nice to hear your
+voice. (U)
+Yeltsin: Yes, I am listening. (U)
+The President: I wanted to discuss the events that occurred
+today - yesterday for you - in Bosnia. The Serbs launched a new
+attack in Bosnia while negotiations were being held on a cease­
+fire. The attacks on Gorazde resulted in heavy casualties and put
+the UN personnel there at risk.
+At this point, the connection to Moscow was lost.
+The President: Boris, are you on now? Hello Boris? (U)
+Yeltsin: Bill, we had a cut in the communication. (U)
+The President: O.K.; I guess we'll try again. Anyway, the UN
+Commander in Bosnia, General Rose, received authorization from UN
+civilian authorities for NATO close air support. Under existing
+UN policy, after they were requested by UN civilian authorities
+and General Rose, NATO forces attacked. F-16 aircraft attacked a
+target identified by UN forces on the ground. We don't know how</pre>
+      </article>
+<article>
+        <h3>#21 1994-04-20 Telephone call with President Boris Yeltsin of Russia, April 20, 1994, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>3^€1^E¥ 3047
+THE WHITE HOUSE
+WASHINGTON
+3/i3/zo\g K6M
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telcon with President Boris Yeltsin of
+Russia on April 20, 1994 (U)
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetaker: Rick Waddell
+DATE, TIME April 20, 1994; 2:25 - 3:05pm
+AND PLACE: Oval Office
+The President: Hello, Boris? (U)
+President Yeltsin: Hello, Bill? Good to hear from you. (U)
+The President: It's good to talk to you, too. I know it's late
+there. (U)
+President Yeltsin: Bill, from you, anytime. I'm always ready to
+talk to you. (U)
+The President: First, I wanted to talk to you about Bosnia and
+Gorazde. I want to first thank you for yesterday's statement
+about the Bosnia situation and about the need to get diplomacy
+back on track. I believe that you and I agree that the U.S.,
+Russia, NATO, and UN must work together to turn the bloodshed
+off. (X)
+I want to make a public statement this afternoon but wanted to
+talk to you first. It seems to me that our credibility is on the
+line, and we must act decisively to, on one hand, tell Serbia
+that they can't thwart international will in Gorazde or other
+areas. On the other hand, we need to increase our diplomatic
+pressure, as you've wanted, to convince the Muslims that the
+international community is not going to enter the war on their
+side.
+So, I propose that we increase our economic and military pressure</pre>
+      </article>
+<article>
+        <h3>#26 1994-09-28 Second Clinton/Yeltsin One-on-One</h3>
+        <p><strong>Missing/review:</strong> participants, classification marking</p>
+        <pre>Second Clinton/Yeltsin One-on-One
+1pm - 2:30pm, Sept 28, 1994
+The business men are very interesting people — very able.
+I'd not met Murphy before, he's very impressive; also that
+Russian businessman who's involved in'defense conversion.
+I've visited his factory. I was impressed by what he's
+done. He's gone from making rockets to peaceful products.
+Now they' re. making medicine. Solid fuel converted to
+firefighting liquid.
+C: I have 3-4 important issues to discuss: CW/BW; Cocom;
+Nagorno-Karabakh; NATO.
+Y: I have a couple too.
+C: Thanks for your paper on BW. Our experts have studied it.
+It does provided useful information on past activities.. In
+all candor, there's a big question: &quot;all offensive
+activity stopped in 1988&quot; — that is contrary to the
+information we have.
+.We need to keep working on this. Our experts will meet
+with the British on a trilateral framework in October,
+they need to try again to get this solved.
+Y: I can reiterate that Gorbachev lied — or his military lied
+to him. Things were not stopped in 1988. When I came to
+power as President I discovered that the program
+continued. Scientists, generals — a whole battalion of
+experts. — kept working hard. I created a commission and
+signed a decree. I ordered that all activity be stopped.
+The commission checked all the facilities and, under the
+decree, all programs stopped — all the doors were locked
+and sealed.
+But we had trouble finding jobs for people in the program.
+Smirnov, who ran it, got a Hero of the Soviet Union award
+for his work and retired — we threw him out. This is a
+deadly business. It requires a special cast of mind.
+These were people who are devoted to killing people with</pre>
+      </article>
+<article>
+        <h3>#27 1994-10-05 Telephone call with President Boris Yeltsin, October 5, 1994, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>GONriDDUTIAL~
+CONFIDENmb 8162
+THE WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian President
+Yeltsin (U)
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetaker: Jessica Stern
+DATE, TIME October 5, 1993,
+AND PLACE: 10:30-11:00am, Oval Office
+President Yeltsin: Hello Bill. (U)
+President Clinton: Hello Boris. (U)
+President Yeltsin: I'm very glad to hear your voice. (U)
+I wish to express to you on my behalf and on the behalf of Naina
+our gratitude for all the attention shown to us during our visit.
+I would say that the Washington summit proved a success,
+something that the people of Russia see in a very positive light.
+(U)
+I talked with Chernomyrdin concerning the agenda of the Gore
+Chernomyrdin Commission. (U)
+As you recall I promised that within 2-3 days I would call you
+and inform you about the contracts signed by the FSU with Iran.
+I looked at them personally. They include an agreement dated
+November 5, 1989, and another May 17, 1990, and also an agreement
+signed November 13, 1991. These were all signed by Former
+Minister of Foreign Economic Relations -- the total is
+$4 billion.
+I wish to confirm to you once again that we will comply with the
+obligations undertaken by the FSU with respect to Iran, but we
+intend to conclude no further contracts with Iran. I want you to
+be quite clear on this and to have confidence in the decision I</pre>
+      </article>
+<article>
+        <h3>#28 1994-10-10 Telephone call with President Boris Yeltsin of Russia, October 10, 1994, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>-fiECRET- 8229
+THE WHITE HOUSE
+WAS HIN GTO N
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telcon with President Boris Yeltsin of
+Russian Federation (U)
+PARTICIPANTS The President
+President Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetaker: Jessica Stern
+DATE, TIME October 10, 1993, 12:15 - 12:40pm
+AND PLACE: Oval Office
+The President: Hello, Boris. (U)
+President Yeltsin: Hello, Bill. (U)
+The President: Good evening. (U)
+President Yeltsin: I'm glad to hear your voice. (U)
+The President: It's nice to hear your voice. (U)
+I'm calling to follow up on the letter I sent you earlier today.
+I just wanted to reiterate to you personally how grave the
+situation is in Iraq and how important it is that the United
+States and Russia remain united in responding to it. The latest
+information we have shows that Iraqi troops are massing at the
+border. But we know that the Iraqis are being hurt by the
+sanctions. The best way for Iraq to get relief is for Saddam to
+demonstrate that he is prepared to live in peace with his
+neighbors and to honor the UN resolutions. This buildup of
+forces shows us just the opposite: that Saddam is still
+dangerous and unpredictable. The Iraqi military is still a
+potent force. And as you know, our past experience leaves us
+with no other choice than to prepare for the possibility that
+Saddam could invade Kuwait again. We simply cannot assume that
+Saddam is bluffing. The best way to deter him from exploiting
+this build-up on the border is to move our own forces into the
+region as fast as possible so that we can make it clear to him</pre>
+      </article>
+<article>
+        <h3>#29 1995-02-13 Telephone call with President Boris Yeltsin of Russia, February 13, 1995, White House</h3>
+        <p><strong>Missing/review:</strong> participants, notetaker, interpreter</p>
+        <pre>I-*'.-
+^
+'■v_&gt;»' L_.— j '* —^(
+-- ' ■■
+SECRET ^ 0995
+THE WHITE HOUSE
+WAS HIN GTO N
+MEM0R7\NDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian President
+Yeltsin: Chechnya, START II
+PTU^TICIPTUITS The President
+President Boris Yeltsin DECLASSIFIED
+PER E.0.13526
+Interpreter: Dimitry Zarechnak
+Notetaker: Steve Pifer
+3/iyioi8 KBH
+DATE, TIME February 13, 1995, 1:03-1:25 p.m.
+AND PLACE: Oval Office
+The President: Hello, Boris. (U)
+President Yeltsin: Hello, Bill. (U)
+The President: It's nice to hear your voice. Thank you for
+taking my call. (U)
+President Yeltsin: Thank you-. Bill. It's been some time since
+we spoke. (U)
+The President: It's been too long. I'm glad we have a chance to
+talk now. (U)
+President Yeltsin: Good. (U)
+The President: Helmut Kohl and I had a good discussion last
+week. We discussed the difficulties and challenges you face in
+Chechnya. Whenever I've been asked, I -have said we consider
+Chechnya a part of Russia and that you are dealing with it as
+best you could.
+President Yeltsin: I know. Bill, what you have been saying about
+the situation in Chechnya. I appreciate your objectivity.</pre>
+      </article>
+<article>
+        <h3>#31 1995-05-10 Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia</h3>
+        <p><strong>Missing/review:</strong> participants, classification marking</p>
+        <pre>Sunmary report on
+One-On-One Meeting
+Between Presidents Clinton and Yeltsin
+May 10, 1995
+10:10 a.m. - 1:19 p.m.
+St- Catherine's Hall, The Kremlin
+BNY: Thank you for coming to Moscow and for attending this
+occasion, the 50th anniversary of our great victory. Your
+participation in yesterday's celebration will add to our
+partnership, relationship, cooperation, and personal
+friendship. Thank Hillary, too; she seemed glad to see
+the Victory Memorial.
+WJC: All the ceremonies were televised back to the U.S., so our
+people can get a better understanding of the sacrifices of
+the Russian people — a better sense of our partnership of
+50 years ago. That should make it easier for our people
+to see that they have a chance to take up where we left
+off 50 years ago. That is what you and I have been
+doing. The world is a safer place than it was two and a
+half years ago when we began our partnership.
+BNY: No question. We now have only to ratify START II. I keep
+pounding on my parliament to ratify START II. I squeeze,
+squeeze, squeeze them. Do it!, I say. So that then we can
+work on START III!&quot; I think this will happen in a short
+while.
+WJC: I agree with that entirely. We both must work to ratify
+START II so that we can then go farther.
+BNY: We have a chance. The hardest thing. Bill, is to persuade
+our militaries — both yours and ours — to accept the
+next step: START III. I've already casrried out this
+operation. My military is prepared to move toward START
+III. We're.firmly abiding by START I. And with respect
+to strategic and tactical arms, we've destroyed all
+tactical weapons; we've started to destroy strategic</pre>
+      </article>
+<article>
+        <h3>#32 1995-06-17 Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada</h3>
+        <p><strong>Missing/review:</strong> participants</p>
+        <pre>C06835 j 8 j =IED U.S. Department of State Case No. F-2017-13804 Doc No. C06835181 Date: 12/28/2020
+lRE LEAS E IN F ULL
+Cl'inton-Yeltsin Meeting
+June 17, 1995, 2: 45-3: 55pm
+Citadel Inn, Halifax, Nova Scotia
+There are a number of items to discuss. On Chechnya,
+WJC:
+I'e tried to be more supportive than many others
+because I understand how difficult a problem this
+is. But breaking the cycle of violence is the right
+thing. [Yeltsin had, in the press availability just
+before the meeting, said Dudayev had asked for and
+been given asylum in Turkey.] I hope that Dudayev's
+leaving will help bring this to a close and be an
+opening to shutting down the military phase of this
+epz.soda
+BNY Yes, it'l be better now.
+WJC: The second issue is reactor sales. We don't need to
+discuss this in detail. I am satisfied by the
+statement made by our group [the P-8], and hope we
+can keep working to a resolution.
+BNY Yes, just. as I promised.
+WJC: You'now what our view is, and Vice President Gore
+and Prime Minister Chernomyrdin will work this on the
+29th and 30th of June. I hope you'l support their
+efforts.
+BNY: Absolutely.
+WJC: There's a matter related to Chechnya that I must
+bring up. We still haven't found any trace of Fred
+Cuny. It's been 10 weeks and we still don't know
+what happened. Your people are helping -- thanks for
+that -- but we need to step up our efforts.
+BNY: I personally have taken responsibility for that. I
+personally directed the Minister of 'Internal Affairs,</pre>
+      </article>
+<article>
+        <h3>#33 1995-07-28 Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>COMriDENTIAS- 5860
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: President's Discussion with Yeltsin on
+Bosnia, Chechnya
+PARTICIPANTS The President
+President Boris Yeltsin of Russia
+Interpreter: Peter Afanasenko
+Notetakers: Steve Pifer, Katherine
+O'Loughlin, Kenneth Baldwin
+and Mary Canty
+DATE, TIME July 28, 1995, 10:35-11:19 a.m. EDT
+AND PLACE: Oval Office
+The President: Hello, Boris? (U)
+President Yeltsin: Bill? Good afternoon. (U)
+The President: It's nice to hear your voice. You sound strong.
+I hope you're feeling well. (U)
+President Yeltsin: Well, I'm out of the hospital and restoring
+my energy in a sanatorium near Moscow. (U)
+The President: You looked good in your July 18 interview. I
+hope you continue to make a speedy recovery. (U)
+President Yeltsin: Well, I have good genes and a very strong
+organism, so hopefully my rehabilitation will be quick. (U)
+The President: I tell everyone you are as strong as a Russian
+bear. That's what I tell everyone. I have been saying that you
+will recover quickly. (U)
+President Yeltsin: Thank you. Bill, for the kind words. (U)
+The President: I wanted to talk to you for a few minutes about
+Bosnia, but I don't want to take away too much time from your
+convalescence. I'd like to share a few observations, and then
+I'd like you to respond.
+President Yeltsin: I'm ready. Bill. (U)
+DEGMSSIFIED</pre>
+      </article>
+<article>
+        <h3>#34 1995-09-27 Telephone call with President Boris Yeltsin of Russia, September 27, 1995, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>■CONriDENTITar 98WW- 7137
+THE WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: President's Discussion with Yeltsin on
+Bosnia, CEE, Hyde Park and a Vice
+Presidential Meeting with Chernomyrdin
+PARTICIPANTS The President
+President Yeltsin of Russia (in Sochi)
+Interpreter: Peter Afanasenko
+Notetakers: Steve Pifer, Paul Weber, Deuce
+Martinez, Katherine O'Loughlin,
+Trey Whitworth
+DATE, TIME September 27, 1995, 10:35-11:53 a.m. EDT
+AND PLACE: Oval Office
+THE PRESIDENT: Hello? Hello, Boris?
+PRESIDENT YELTSIN: Yes, I'm here. Hi, Bill.
+THE PRESIDENT: It's good to hear your voice. I hope you've had
+a good vacation. I appreciated your September 22 letter on
+Bosnia, and I wanted to visit with you on the phone for a few
+minutes.
+PRESIDENT YELTSIN: OK. I'm ready.
+THE PRESIDENT: Our exchange of letters on Bosnia, and Chris and
+Andrey's meeting last night, and our work together in the Contact
+Group, I think, have really helped us to manage this difficult
+issue. But we have to continue to work together and take
+advantage of this opportunity to get a negotiated settlement.
+Yesterday's agreement in New York has moved things forward, but
+we need your help. You need to work with the Serbs, and we will
+work with the Bosnians to resolve the remaining issues.
+PRESIDENT YELTSIN: Yes, I agree that we made a big breakthrough,
+and I agree that we will continue to work with the Serbs.
+THE PRESIDENT: Chris raised with Andrey our preliminary thoughts
+on the implementation of a Balkan settlement, and he got his</pre>
+      </article>
+<article>
+        <h3>#35 1995-10-23 Clinton-Yeltsin One-on-One</h3>
+        <p><strong>Missing/review:</strong> participants, classification marking</p>
+        <pre>Limited Access
+7853
+-gECRET&quot;/WOP IS-
+DECL: 10/25/00
+DECLASSIFIED
+PER E.0.13526 ^
+aoi^- 0^ (^‘ o\)
+Clinton-Yeltsin One-on-One
+Hyde Park, NY
+October 23, 1995
+11:30 a.m.-1:35 p.m.
+Note takers: Talbott, Ryurikov
+(At outset, during opening pleasantries.
+President Clinton suggests taking jackets
+off — &quot;This is a working meeting, after
+all.&quot; A waiter brings in a tray of
+drinks. Yeltsin downs in a single go a
+large tumbler of soda water.)
+WJC: One thing we did outside when we talked to the
+press coming in — and that we should continue
+to do — is prove the newspaper pundits wrong.
+They want to write about a big blow-up. Let's
+disappoint them. We've accomplished a lot
+together. We've all but ended the possibility
+of nuclear war...
+BNY: (interrupting) Yes, and we've ended the Cold War,
+C: And on Bosnia, we've worked together to achieve
+a peace that cannot come about unless the U.S.
+and Russia work together.
+Y: I'm grateful to you for creating the conditions
+for this important discussion. All the world
+--in the former Yugoslavia and in Europe but
+everywhere else, too -- is counting on us. I
+come here with a sense of opportunity. But I</pre>
+      </article>
+<article>
+        <h3>#36 1995-10-23 Lunch with Boris Yeltsin, President of Russian Federation</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>7991
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF CONVERSATION
+SUBJECT: Lunch with Boris Yeltsin, President of
+Russian Federation
+PARTICIPANTS U.S.
+President Clinton
+Secretary Christopher, Secretary of State
+Anthony Lake, Assistant to the President for
+National Security Affairs
+Strobe Talbott, Deputy Secretary of State
+Timbassador Thomas Pickering, U.S. Ambassador
+to Russia
+Ash Carter, Assistant Secretary of Defense
+for International Security Policy
+General Christman
+Coit Blacker, Special Assistant to the
+President and Senior Director for Russia,
+Ukraine and Eurasia Affairs, NSC staff
+(note-taker)
+Russia
+President Yeltsin
+Foreign Minister Kozyrev
+Yeltsin Principal Assistant Ilyushin
+Yeltsin Foreign Policy Assistant Ryurikov
+Ambassador Vorontsov
+Deputy Foreign Minister Mamedov
+Yeltsin Military/Science Advisor Kuzyk
+Protocol Chief Shevchenko
+DATE, TIME October 23, 1995; 1:30 p.m.-2:40 p.m.
+AND PLACE: Dining Room, Hyde Park Library, Hyde Park,
+New York
+THE PRESIDENT: Boris, would it be useful to summarize what we</pre>
+      </article>
+<article>
+        <h3>#37 1996-01-26 Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>•gE&amp;fig? 0480
+THE WHITE HOUSE
+WASH INGTON
+DECLASSIFIED
+PER E.0.13526
+- 07 si- 00 -1 /A
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: President's Discussion with Yeltsin on
+Reform, Chechnya, START II and NATO (jZ*)
+PARTICIPANTS: The President
+President Yeltsin of Russia
+Interpreter: Peter Afanasenko
+Notetakers: Katherine O'Loughlin,
+Kevin Wooton, Deuce Martinez,
+Steve Pifer
+DATE, TIME January 26, 1996, 10:46-11:27 a.m. EDT
+AND PLACE: Oval Office
+The President: Hello, Boris? (U)
+President Yeltsin: Hello, Bill. (U)
+The President: Hello, Boris. I'm delighted to see you back in
+the office on a normal schedule. You looked good on television.
+I just wanted to call and discuss a few things with you. (U)
+President Yeltsin: Well Bill, I'm in good shape right now. My
+intention on February 15 is to announce my desire to campaign and
+get on with running a campaign. But this is off-the-record. It
+will be after the conference of the Communist party is over in
+mid-February; then I will make my announcement. I was pleased
+with your statement on the Hill. I'm a little envious you could
+make such a statement. The fact of that matter is that I'm going
+to make my statement in February to the Federal Assembly.
+Perhaps in mine there won't be as much optimism as in yours.
+The President: Thank you. I've received a positive response
+from the American public. Also, thanks for telling me of your
+reelection intention. I will keep that quiet. You ought to make</pre>
+      </article>
+<article>
+        <h3>#41 1996-04-21 POTUS-Yeltsin One-on-One</h3>
+        <p><strong>Missing/review:</strong> participants, classification marking</p>
+        <pre>-SEeRET/NeDlS/IIOtiV
+POTUS-Yeltsin One-on-One
+April 21, 1996
+DECLASSIFIED
+10:00-11:45am PER E.0.13526
+XO\&gt;S- o783l'&lt;^-' 0'^')
+notetakers: Talbott, Ryurikov 3/ts/3x&gt;ia. v&lt;ew
+residential ceremonial office, tlie Kremlin, Moscow
+Even before the press pool had been fully ushered out of the
+room, Yeltsin launched into a harsh critique of U.S. diplomacy in the
+Middle East.
+BNY: 1 don't understand the American approach in Lebanon. You
+seem bent on going it alone. That’s what Primakov is telling me — the
+Americans are running a separate operation. Christopher is trying to
+repeat what he did in '93. This won’t be a success if you persist in
+trying to sideline Russia and France.
+WJC: That’s not correct. No one’s sidelining anybody. We’ve got to
+work togetlier. Primakov can play a helpful role, particularly with the
+Syrians. But our concern is that the parties not be able to play these
+foreign ministers off against each other. I'm particularly worried about
+Assad in that regard.
+The other factor is the Israelis. They don't want the French or the EU
+to represent tliem. The U.S. and Russia continue to work together as
+cosponsors of the peace process, and we’re making every effort to
+coordinate our efforts.
+BNY: This is not very convincing. I Uiink that since these four
+ministers have gone there with a joint plan of action, they should work
+together, not separately. Obviously they have their own instructions.
+1</pre>
+      </article>
+<article>
+        <h3>#43 1996-05-07 Telephone call with President Boris Yeltsin of Russia, May 7, 1996, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>^£CRE-¥- 3149
+OCOTTi
+THE WHITE HOUSE
+WASH I NGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian President
+Yeltsin on CTBT, Chechnya, Economics, CFE and
+Russian Election
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Dmitriy Zarechnak
+Notetakers: James Goldgeier, Carlos Pascual,
+Steve Pifer
+DATE, TIME May 7, 1996, 8:34-8:55 a.m. EDT, Oval Office
+AND PLACE:
+President Yeltsin: Good morning. Bill. (U)
+The President: Good morning. Hope you're doing well. (U)
+President Yeltsin: Well, there's a struggle. We're struggling
+on. Well, you understand that I've been traveling and meeting
+and talking with people. My election campaign is like yours in
+the U.S. Then there is the matter of finances, which is not
+proceeding very well. (f)
+I'd like to share my impressions of China. The visit was a
+success, and as I promised you I told them that the United States
+wanted to improve relations with China. Jiang Zemin told me to
+tell you that they are waiting for practical deeds for improving
+relations. In this context, he mentioned Taiwan several times.
+And the second question was Chinese participation in the CTBT.
+We discussed the subject with him and he said Beijing would take
+part in the CTBT. China would support a speedy conclusion to the
+Treaty. We reflected this in our joint statement where we said
+China would take part. Therefore, I fulfilled my promise to the
+Eight to raise this.
+The President: Thank you. Boris, as I had promised, I sent you</pre>
+      </article>
+<article>
+        <h3>#44 1996-06-18 Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>-GONFIDEM¥^A&amp; 4219
+THE WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian President
+Yeltsin
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Peter Afanasenko
+Notetakers: James Goldgeier, Carlos Pascual
+DATE, TIME June 18, 1996, 9:02-9:12 a.m. EDT, Residence
+AND PLACE:
+The President: Boris? (U)
+President Yeltsin: Hello, Bill. (U)
+The President: Congratulations. (U)
+President Yeltsin: Thank you. (U)
+The President: I wanted to call and congratulate you on the
+first round. You are well-positioned for the second round.
+Congratulations. It was an extraordinary turnout. We continue
+to support reform and reformers, and we want to see the forces of
+reform and democracy prevail in Russia. I've been saying that
+all along and I will keep on saying that. I just wanted you to
+know, Boris, that I'll be thinking a lot about you in the next
+few weeks, and I look forward to seeing you in Lyons. (jZl
+President Yeltsin: Well Bill, actually, I'm quite satisfied with
+the formula for Lyons. But I'm having doubts about going. I'm
+not sure I should go five days before the second round election.
+I'm thinking about sending Prime Minister Chernomyrdin.
+The President: You should do what you think is best for you.
+Everyone will understand. We'll organize the meeting around
+what's best for you.
+President Yeltsin: Alright, (U)
+DECLASSIFIED
+PER E.0.13S26</pre>
+      </article>
+<article>
+        <h3>#45 1996-07-05 Telephone call with President Boris Yeltsin of Russia, July 5, 1996, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>4660
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian President
+Yeltsin
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Nik Sorokin
+Notetakers: Carlos Pascual, James Goldgeier,
+Evan Reade, Peter Huggins, Katherine
+O'Loughlin, Deuce Martinez
+DATE, TIME July 5, 1996, 9:05-9:27 a.m. EDT, Residence
+AND PLACE:
+The President: Hello, Boris? (U)
+President Yeltsin: Hello, Bill. (U)
+The President: It's great to hear your voice! Congratulations.
+I know you're tired. I'm proud of how hard you fought back after
+being down in the polls. The Russian people expressed their
+pride in the progress you are making. I'm so happy and I wanted
+to call and tell you that I am proud of you. (jjf
+President Yeltsin: Thank you Bill very much for your words of
+congratulations. I already received your initial congratulations
+and it was very pleasing, I am happy to hear your voice
+personally congratulating me. As you said earlier, this election
+was a triumph for democracy, The Russian people have made an
+historic choice for democracy and stability, I appreciate that
+throughout the campaign up to the last day, you said the right
+things and never sent the wrong signals. Rest assured, I will do
+the same for your campaign. There will be no interference in
+your internal affairs. But I know deep in my heart who I support
+and who I hope will win the election. {^)
+The President: Thank you very much. We have accomplished a lot
+over the last three years. With your new mandate, we can look</pre>
+      </article>
+<article>
+        <h3>#46 1996-09-15 Telephone call with President Boris Yeltsin of Russia, September 15, 1996, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>C0NFIDENTI-M7 -eoNFmAt 6243
+THE WHITE HOUSE
+WASH I NGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Conversation with President Boris Yeltsin of
+Russia (U)
+PARTICIPANTS: The President
+President Boris Yeltsin
+Interpreter: Peter Afanasenko
+Notetakers: Cindy Lawrence, Steve Brennan,
+Peter Huggins, Ki Fort
+DATE, TIME September 15, 1996, 11:04-11:13 a.m.
+AND PLACE: Residence
+President Clinton: Hello. Hello Boris. (U)
+President Yeltsin: Hello Bill. Greetings. (U)
+President Clinton: It's nice to hear your voice. Hillary and I
+are thinking of you as you prepare for your surgery. I hope
+Naina is doing well. Thank you for the beautiful decanter set
+for my birthday. (U)
+President Yeltsin: Thank you. Bill, As you know, there are some
+small misfortunes here with me. ipi
+President Clinton: I know. I wanted to give you best wishes for
+your successful surgery and speedy recovery. Our thoughts and
+prayers are with you. I talked to Helmut and was glad to hear
+from him that you are brave and in good spirits. Boris,
+announcing your surgery was a bold strok§; it builds confidence.
+But most important, I wish you well. (
+President Yeltsin: Thank you. Bill. I believe it would be a
+good idea if experts from the U.S. could come to consult for the
+operation. (p^
+President Clinton: We would like to help you with that. We
+would be happy to help you in any way we can. The whole world
+•GQ^fflDENTIj DECLASSIFIED
+Classified by: Andrew D. Sens PER E.0.13526 ^.</pre>
+      </article>
+<article>
+        <h3>#47 1996-12-05 Telephone call with President Boris Yeltsin of Russia, December 5, 1996, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>-€QNFIDEM¥IAb 7896
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Conversation with President Boris Yeltsin of
+Russia (U)
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetakers: Katherine O'Loughlin,
+Larry Wright, Trey Whitworth,
+Ki Fort, Carlos Pascual,
+Mike Hamel
+DATE, TIME December 5, 1996, 9:35-9:50 a.m.
+AND PLACE: Oval Office
+President Clinton: Hello? (U)
+President Yeltsin: Bill, hello. (U)
+President Clinton: Hello, Boris. It's wonderful to hear your
+voice. (U)
+President Yeltsin: It has been quite some time since I've heard
+your voice; I'm happy to hear you. (U)
+President Clinton: I'm so happy your surgery was successful and
+that you are on the road to recovery. We just had Ambassador
+Vorontsov here for the welcoming home ceremony for the person who
+was on the Russian space mission, and we talked about how well
+you are doing. A1 and Viktor also had a good meeting in Lisbon.
+(U)
+President Yeltsin: Yes, I am grateful to you for the letter you
+sent with Prime Minister Chernomyrdin; it was a pleasure to read.
+The contents of it fully correspond with my views, and I want to
+have cooperation with you, with America, not just as good as it
+was in the past, but stronger. I instructed Prime Minister
+Chernomyrdin and Foreign Minister Primakov to prepare proposals
+on that account, and no NATOs should prevent our cooperation and</pre>
+      </article>
+<article>
+        <h3>#48 1997-02-27 Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>■CONFIDENI^iL eONROEWM 1341
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Conversation with Russian President Boris
+Yeltsin
+PARTICIPANTS President Clinton
+Russian President Boris Yeltsin
+Interpreter: Peter Afanasenko
+Notetaker: Elaine Florio, Katherine
+O'Loughlin, Wylma Robinson, David Higgins,
+Ki Fort
+DATE, TIME February 27, 1997, 11:51 a.m.-12:09 p.m.
+AND PLACE: The Oval Office
+President Yeltsin: Hello, Bill. (U)
+President Clinton: Hello, Boris. How are you? (U)
+President Yeltsin: Moving ahead, bit by bit. My health seems to
+be all right now, so I have been working full swing now. I am
+getting ready aggressively for Helsinki. In fact, we are going
+to have some difficult sessions over there, but we shouldn't
+forget about our partnership, mutual understanding and
+interaction. I have taken a look at the message you sent with
+Madame Albright and basically our views coincide. Of course, we
+have to clarify certain details in the course of our talks there.
+I agree that we should have three subjects for our agenda:
+European security; START and ABM; and new economic cooperation.
+And certainly there will be quite a few other compelling
+questions that go along in our talks and I am fully prepared to
+discuss all of these issues.
+President Clinton: That's great, Boris. I had a full report
+from Madeleine on your meeting last Friday; she enjoyed it very
+much. I am looking forward to our meeting in Helsinki and I know
+we can move our historic relationship forward as we have in the
+past. I know we can come to a common understanding on these</pre>
+      </article>
+<article>
+        <h3>#50 1997-03-21 Helsinki Working Lunch with President Boris Yeltsin</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>CONFIDEIfH-AL 2044
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF CONVERSATION
+SUBJECT: Working Lunch with Russian President Yeltsin:
+Economic Issues, Jackson-Vanik, Denver
+Summit, Space Station, Nagorno-Karabakh
+PARTICIPANTS U.S.
+The President
+Madeleine Albright, Secretary of State
+Sandy Berger, Assistant to the President for
+National Security Affairs
+John Shalikashvili, Chairman, JCS
+John Podesta, Deputy Chief of Staff
+Strobe Talbott, Deputy Secretary of State
+Larry Summers, Deputy Secretary of the
+Treasury
+Jim Steinberg, Deputy Assistant to the
+President for National Security Affairs
+Jim Collins, Ambassador-at-Large for the NIS
+Jan Lodal, Principal Deputy for the Under
+Secretary of Defense for Policy
+Steve Pifer, Senior Director for Russian,
+Ukrainian and Eurasian Affairs (NSC)
+Russia
+President Yeltsin
+Yevgeniy Primakov, Foreign Minister
+Oleg Davydov, Deputy Prime Minister
+Yuriy Yarov, Deputy Head of Presidential
+Administration
+Dmitriy Ryurikov, Foreign Policy Assistant
+Yuliy Vorontsov, Ambassador to the United
+States
+Vladimir Lukin, Member, Russian State Duma</pre>
+      </article>
+<article>
+        <h3>#54 1997-06-20 Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>;dcuet- 4607
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF CONVERSATION
+SUBJECT: Meeting with Russian President Yeltsin:
+European Security and Madrid, Arms Control,
+Economics, Iraq, Russian-Iran Missile
+Cooperation, Japanese-Russian Relations [yf
+PARTICIPANTS U.S.
+The President
+Madeleine Albright, Secretary of State
+Robert Rubin, Secretary of the Treasury
+Erskine Bowles, Chief of Staff
+Samuel Berger, Assistant to the President for
+National Security Affairs
+Gene Sperling, Assistant to the President for
+Economic Policy
+Dan Tarullo, Assistant to the President for
+International Economic Policy
+Mike McCurry, White House Press Secretary
+Strobe Talbott, Deputy Secretary of State
+Lawrence Summers, Deputy Treasury Secretary
+Jim Steinberg, Deputy Assistant to the
+President for National Security Affairs
+James Collins, Ambassador for the NIS
+Steve Pifer, Senior Director, NSC (notetaker)
+Russia
+President Yeltsin
+Anatoliy Chubays, Deputy Prime Minister
+Yevgeniy Primakov, Foreign Minister
+Sergey Yastrzhembskiy, Yeltsin Press
+Spokesman
+Georgiy Mamedov, Deputy Foreign Minister
+Sergey Prikhodko, Yeltsin Foreign Policy</pre>
+      </article>
+<article>
+        <h3>#55 1997-10-30 Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>CONFIDE^TTIAL- 7450
+THE WHITE HOUSE
+WAS HIN GTO N
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian
+President Yeltsin
+PARTICIPANTS President Clinton
+Russian President Boris Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetaker: Pete Huggins, Jim Smith,
+Doug Mueller, Bonnie Click
+Tony Campanella, Ki Fort
+DATE, TIME October 30, 1997, 12:52 - 1:21 p.m. EST
+AND PLACE: The Oval Office
+PRESIDENT YELTSIN: Good evening. Bill. (U)
+THE PRESIDENT:' Hello, Boris. (U)
+PRESIDENT YELTSIN: I'm very glad to be able to talk to you on
+the phone. Thanks for making the call. You know, I started
+missing your voice. (U)
+THE PRESIDENT: I miss you too. I'm a little hoarse today, hope
+you can hear me. Congratulations on your new grandson. (U)
+PRESIDENT YELTSIN: Thank you very much. I now have a big
+family -- eleven members, with five grandchildren. You know the
+development of Russia and my family go hand-in-hand. (U)
+THE PRESIDENT: Your family is certainly going to make its
+contribution. (U)
+PRESIDENT YELTSIN: Sure, why not.. Well, it's not going to be a
+very significant contribution, but it will have an impact. !■
+think we will prevail on quality rather than quantity.
+(Laughter) How are things with you. Bill? (U)
+THE PRESIDENT: I'm doing fine here. Jiang Zemin just left.
+eeNFIDENTIAL-
+Classified by: Glyn T. Davies
+Reason: 1.5 (d)</pre>
+      </article>
+<article>
+        <h3>#56 1997-11-16 Telephone call with President Boris Yeltsin of Russia, November 16, 1997, Malibu, California</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>-OTflflBfflftr 7804
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation
+Com with Russian President
+Yeltsin (/)
+PARTICIPANTS President Clinton
+Russian President Boris Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetakers: David Higgins, Mariann
+Papadimitriou, Larry
+Wright, James Smith,
+Pat O'Shaughnessy, Ki Fort
+DATE, TIME: November 16, 1997, 2:04 - 2:15 a.m. EST
+AND PLACE: Malibu, California
+THE PRESIDENT: Boris? (U)
+PRESIDENT YELTSIN: Hello, Bill. (U)
+THE PRESIDENT: Thanks for taking my call. (U)
+PRESIDENT YELTSIN: I'm very glad to have a word with you, to be
+on the line with you. I'd like to transmit best regards from
+Hillary, who visited Sverdlovsk with Naina. It was a good
+program, and they had a very good meeting. (U)
+THE PRESIDENT: Hillary had a good time. I appreciate your
+making her^^ feel welcome. I wanted to talk to you briefly about
+Iraq.
+PRESIDENT YELTSIN: I'm all ears. (U)
+THE PRESIDENT: I'd like to make my points, then listen to you.
+I think Iraq's actions are a very serious challenge to the UN,
+the UN Security Council, and the security of the Persian Gulf.
+We have to find a way to make sure Saddam Husseig doesn't
+rebuild Iraq's weapons of mass destruction.
+eeNFIDENTIAL
+Classified by: Glyn T. Davies DECLASSIFIED</pre>
+      </article>
+<article>
+        <h3>#57 1997-11-22 Telephone call with President Boris Yeltsin of Russia, November 22, 1997, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>-GQN-F^BEMTIAL 7985
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian President
+Yeltsin (jd
+PARTICIPANTS President Clinton
+Russian President Boris Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetakers: Lyle Harrison, Jeff Rathke,
+Cindy Lawrence, Ki Fort
+DATE, TIME: November 22, 1997, 9:00 - 9:43 a.m. EST
+TU^D PLACE: Oval Office
+THE PRESIDENT: Hello, hello, Boris? (U)
+PRESIDENT YELTSIN: Bill? (U)
+THE PRESIDENT: Hello, Boris. I wanted to talk to you briefly
+about where we go on Iraq. First I wanted to tell you I
+appreciate your personal efforts. I think we need to work hard'
+to stay together on these issues. We need to see cooperation on
+the ground and in the air, including especially an end to
+efforts to block or hamper inspection of chemical and biological
+sites and an end to threats to U2 flights. ^ i
+In terms of the composition of UN inspection teams, let me make
+clear my priorities. First, that the teams be autonomous and
+free to pursue their professional obligations. Secondly, they
+need to be composed of properly trained technical experts. iJ2l
+I know you want to send more humanitarian aid to the Iraqi
+people. I agree they deserve our help. {jzf)
+In terms of certifying whether the Iraqis are complying on
+nuclear and missiles inspections, from my point of view, it is
+purely a question of fact and professional judgment. I don't
+believe the United States, Russia, or any other country, should
+make It happen or not make it happen on political grounds. That
+^e?JFIDEN^^A-L -</pre>
+      </article>
+<article>
+        <h3>#58 1998-02-02 Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>■e^j^^ENTIAL
+MWN» 0756
+THE WHITE HOUSE
+WASH I NGTON
+DECLASSIFIED
+PER E.0.13526 ^
+ao\5- oV8a-»^- X
+MEMORANDUM OF TELEPHONE CONVERSATION 3/13/1DV8 K6W
+SUBJECT: Telephone Conversation with Russian
+President Boris Yeltsin
+PARTICIPANTS; President Clinton
+Russian President Boris Yeltsin
+Interpreter: Dimitri Zarechnak
+Notetakers: Jim Smith, Pat O'Shaughnessy,
+Jeff Rathke, Cindy Lawrence,
+Ki Fort, Bill Courtney
+DATE, TIME February 2, 1998, 9:31-9:51 a.m. EST
+AND PLACE: The White House
+THE PRESIDENT: Hello. (U)
+RESIDENT YELTSIN: Hello, Bill. (U)
+THE PRESIDENT: Hello Boris. Thanks for taking my call, and let
+me begin by saying that I hope you had a great birthday
+yesterday. (U)
+PRESIDENT YELTSIN: Oh yes. Bill, I am really glad that we will
+talk now because we have not discussed things over the phone for
+quite awhile, although we have exchanged messages. (U)
+THE PRESIDENT: I agree. I would like to talk to you about Iran
+and Iraq and prove once again that you and I, when we work
+together, can solve even the toughest problems. Before turning
+to Iraq, let me say I was encouraged at the report of the recent
+Wisner-Koptev meeting and Gore-Chernomyrdin call. I understand
+you have put in motion a series of specific steps to stop
+leakage of technology to Iran and to others. It's important
+that you and I show our peoples, including the Duma and</pre>
+      </article>
+<article>
+        <h3>#61 1998-05-12 Telephone call with President Boris Yeltsin of Russia, May 12, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>3457
+THE WHITE HOUSE
+WASH I NGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian
+President Boris Yeltsin
+PARTICIPANTS The President
+Russian President Boris Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetaker: Larry Wright, Tom Crowell,
+Bonnie Click, James Smith, Sean Rice, Ki
+Fort, Jon Elkind
+DATE, TIME May 12, 1998, 11:01 - 11:27 EDT
+AND PLACE: Oval Office
+President Yeltsin: Hello, Bill. (U)
+The President: Hi, Boris. It's nice to hear your voice, and
+I'm glad we have this chance to talk before we see each other in
+Birmingham. (U)
+President Yeltsin: Yes. It's been a year since we met last,
+and of course, we have guite a few things to discuss. (U)
+The President: Yes, absolutely. Before we get into the
+conversation, let me congratulate you on your new government.
+Strobe Talbott and Sandy Berger and Leon Fuerth were there last
+week, and were very impressed with your team. It sends a strong
+message that you're committed to economic progress and is good
+news for our partnership.
+President Yeltsin: Yes, thank you. Bill. Indeed we have a very
+good team, a closely-knit government team, who will continue
+working with your administration. So I think everything will
+work out fine.
+The President: That's good news. I'm very pleased Sandy Berger
+and Audrey Kokoshin agreed on a plan to deal with the Iranian
+proliferation issue. I welcome the recent public statements you
+•GE-CRET</pre>
+      </article>
+<article>
+        <h3>#62 1998-05-17 Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>■COtJFIDENTIAL-
+THE WHITE HOUSE declassified
+WASH I NGTON per E.0.13526,
+3.015-- D7S2.-
+3/i3/J,o\8 V&lt;6W
+MEMORANDUM OF CONVERSATION
+SUBJECT: President Boris Yeltsin of Russia
+PARTICIPANTS The President
+Samuel Berger, Assistant to the President
+for National Security Affairs
+Strobe Talbott, Deputy Secretary of State
+Peter Afanasenko, Interpreter
+President Boris Yeltsin
+Sergei Yastrzhembsky, Deputy Chief of
+Presidential Administration
+Georgy Mamedov, Deputy Foreign Minister
+Interpreter
+DATE, TIME May 17, 1998 — 11:47 a.m. - 12:33 p.m.
+AND PLACE: Birmingham, England
+The President: I told Tony Blair we had to find some way to
+compromise on this matter of Japan or Russia as G-8 host in
+2000. I've asked Jacques if he'd be willing to do something
+around the millennium, and he said yes. I'm working on it and
+will keep working on it. Maybe there's some way we could do
+something in Russia in the year 2000, for the reasons that you
+said [in the wrap-up session of the G-8], but also something in
+Japan. [The President gives Yeltsin his G-8 lapel pin.] (jCl
+President Yeltsin: That's a good idea. We'll have two meetings
+instead of one, and that won't disrupt the sequence for Canada
+and so on and so forth.
+The President: Depending on what happens, we might think about
+devoting one meeting to international economics and one to
+international security issues, or perhaps we can do it in some
+other way. pCi</pre>
+      </article>
+<article>
+        <h3>#63 1998-05-21 Telephone call with President Boris Yeltsin of Russia, May 21, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>Hin ■ fli
+-eONF-IBE-N-T-IALr U unn
+lU - ML 3714
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian
+President Boris Yeltsin ^
+PARTICIPANTS; The President
+President Boris Yeltsin
+Interpreter: Peter Afanasenko
+Notetakers: Larry Wright, Bonnie Click,
+James Smith, Peter Huggins, Jenny McGee,
+Pat 0'Shaughnessy, Ki Fort
+DATE, TIME May 21, 1998, 10:41-1052 a.m. EDT, Oval
+AND PLACE: Office
+THE PRESIDENT: Good morning, Boris. Thank you for taking my
+call. I know you have a lot of things going on over there. I
+hate to bother you, but I have to talk to you.
+PRESIDENT YELTSIN: Let's do so. (U)
+THE PRESIDENT: I am working very hard to keep Pakistan from
+reacting to India's nuclear tests with one of its own, and so
+far have been successful. Now India is making the situation
+more difficult. In the last 48 hours, the Indians have stepped
+up their warlike talk on Kashmir, and the Pakistanis could be
+pushed beyond the point of restraint. I am very worried about
+that, so I called to ask you to call the Prime Minister of India
+at the earliest possible moment to stress the danger stemming
+from India's rhetoric and actions. I know other countries may
+press India, but Russia has a special relationship with India,
+and you have special stature there. I'm doing all I can to keep
+the Pakistanis from testing, but I need some help with the
+Indians.
+PRESIDENT YELTSIN: O.K., I promise you. Bill, that I will</pre>
+      </article>
+<article>
+        <h3>#64 1998-05-28 Telephone call with President Boris Yeltsin of Russia, May 28, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>CONFIBENT-i-AL 3875
+THE WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian
+President Boris Yeltsin
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Kyrill Borissow
+Notetaker: Cindy Lawrence
+DATE, TIME May 28, 1998, 11:53 a.m. - 12:14 p.m. EDT,
+AND PLACE: Oval Office
+THE PRESIDENT: Hello, Boris? (U)
+PRESIDENT YELTSIN: Bill, hello. (U)
+THE PRESIDENT: Hello, Boris. I'm glad you called. (U)
+PRESIDENT YELTSIN: I have a couple of questions to ask you.
+The first question is related to Pakistan. We have to agree
+with you on how to react. And the second question I would like
+to ask you is the following: I would like you to support me
+with regard to financial issues. I would like to ask you. Bill,
+one way or another to state that the Russian leadership and
+government and president will handle the situation, which has
+now developed, and that you are sure of that. And second, I
+would like you to address your investors who work here in Russia
+so that they,will not panic and do not leave Russia with their
+investments, that they do not take away their investments, as we
+have the necessary reserves. And there is no catastrophic
+situation here. We need your support. People in the world must
+know that you support us and that you are sure that Russia will
+handle the situation, that everything will be in order. Well,
+the situation is difficult. Did you get me. Bill? [^)
+THE PRESIDENT: Yes, I hear you. Let me just briefly say
+something about Pakistan. Since they have done these tests,
+obviously you and I have to redouble our efforts to stop the</pre>
+      </article>
+<article>
+        <h3>#65 1998-06-15 Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>CONFIBfiNTIAL - 4474
+THE WHITE HOUSE
+WASH I NGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian
+President Boris Yeltsin
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Kyrill Borissow
+Notetakers: Bob Ford, Cindy Lawrence,
+Andrew Weiss
+DATE, TIME June 15, 1998, 1:21 p.m, - 1:57 p.m. EDT,
+AND PLACE: Oval Office
+PRESIDENT YELTSIN: Hello, Bill. (U)
+THE PRESIDENT: Hello, Boris. (U)
+PRESIDENT YELTSIN: It seems we agreed on the timing of our
+conversation; we did well. Well, I understand the major subject
+is now to be Kosovo. i
+THE PRESIDENT: Yes, I think we should talk about Kosovo as well
+as the Russian financial situation. I wanted to get your
+assessment of where we stand and what we're going to do in the
+days ahead. (^)
+PRESIDENT YELTSIN: Yes, I see. But the most important thing,
+of course, is Kosovo. Well, as you certainly know, I decided to
+invite Milosevic to. Moscow and he will be arriving tomorrow.
+I've prepared a plan for tomorrow's conversation with Milosevic.
+First, we meet one-on-one and then we shall be joined by our
+power ministers [Defense and Security] as well as the Minister
+for Foreign Affairs and others, and then I will turn things over
+to Mr. Primakov to discuss all the details. I am satisfied the
+Contact Group supported my initiative to receive Milosevic in
+Moscow. I believe this advances our joint efforts for the
+soonest possible settlement of the Kosovo problem. And this is
+also in line with our agreements reached in Birmingham. Frankly</pre>
+      </article>
+<article>
+        <h3>#66 1998-06-16 Telephone call with President Boris Yeltsin of Russia, June 16, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>CONFIBENTiAI. GGNTOfflAt 4476
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation wit^ Russian
+President Boris Yeltsin
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetakers: Tom Crowell, Nick Dowling,
+Bonnie Click, Joel Schrader, James Smith,
+Andrew Weiss
+DATE, TIME June 16, 1998, 10:50 a.m - 10:58 a.m. EDT,
+AND PLACE: Oval Office
+PRESIDENT YELTSIN: Hello, Bill. (U)
+THE PRESIDENT: Hello, Boris. It's nice to hear your voice. (U)
+PRESIDENT YELTSIN: Bill, I've done a lot of things today. We
+had a very difficult and, I would say, harsh talk with
+Milosevic. We have worked out a document, a bilateral
+statement, where Milosevic confirmed practically all of the
+points contained in the Contact Group document. &quot;So we will send
+you the bilateral statement. He has supported all the main
+points; that is to say, holding talks and trying to find a
+settlement through political means. So you may congratulate me.
+THE PRESIDENT: Well, I do congratulate you. I want to see the
+statement - I can't wait to see it. I think the real questions
+I have are if he said when will he withdraw his security forces
+and will he engage in political talks with the Kosovars
+immediately. What is the timetable there?
+PRESIDENT YELTSIN: You will find all this in the statement.
+You shall see everything in the statement. I believe this is a
+good document. We have managed to do a lot of things there.
+rnMFT.DBjjTIAfc
+Classified by: Glyn T. Davies DECLASSIFIED</pre>
+      </article>
+<article>
+        <h3>#67 1998-07-10 Telephone call with President Boris Yeltsin of Russia, July 10, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>Gei'JFIDEMTITVfc 4971
+THE WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian
+President Boris Yeltsin
+PARTICIPANTS The President
+President Boris Yeltsin
+Interpreter: Dimitry Zarechnak
+Notetakers: Jim Smith, Jeff Rathke,
+Lyle Harrison, Doug Baylel, Andrew Weiss
+DATE, TIME July 10, 1998, 1:19 p.m. - 1:38 p.m. EDT,
+AND PLACE: Oval Office
+THE PRESIDENT: Hello. (U)
+I
+PRESIDENT YELTSIN: Good afternoon. Bill. (U)
+THE PRESIDENT: Hello, Boris. (U)
+PRESIDENT YELTSIN: Okay, how are you doing? (U)
+THE PRESIDENT: I'm doing great. I had a good trip to China and
+I'm just working on things here, spending a lot of time keeping
+up with the IMF proposal for Russia, and hope we can get it
+worked out quickly. (^)
+PRESIDENT YELTSIN: Yes, Bill, soon is the word and it is not
+enough to describe the urgency of the situation. Otherwise, if
+we do not get a decision soon, by the end of next week, it would
+mean the end of reform and basically the end of Russia. The
+consequences would be catastrophic and drastic, not only for
+Russia but for the global financial system as well. The IMF
+envisages a process of three weeks, but three weeks is too long
+for us. The question is not approval of the program. The
+program is already familiar to the IMF team.and basically
+agreed. We need the decision in one week -- by July 16.
+Because here on the line is not only my authority and honor, but
+also yours and the entire international community, (pf</pre>
+      </article>
+<article>
+        <h3>#68 1998-08-14 Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>■CONn-DDNTI'AL-
+eSHHBBffltt 5782
+THE WHITE HOUSE
+WASH I NGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian
+President Yeltsin {^)
+PARTICIPANTS President Clinton
+Russian President Boris Yeltsin
+Interpreter: Kyril Borissow
+Notetakers: Cindy Lawrence, Sean Tarver,
+Frank Jarosinski, Robert Ford, Daniel Kunin,
+Andrew Weiss
+DATE, TIME August 14, 1998, 10:30 a.m.- 11:06 a.m. EDT,
+AND PLACE: Oval Office
+THE PRESIDENT: Hello Boris. (U)
+PRESIDENT YELTSIN: Bill? (U)
+THE PRESIDENT: Thank you for taking my call. Hillary and I are
+really looking forward to our visit in September. I hope that
+you are getting a chance to rest, though I know that you are
+working even on vacation. (U)
+PRESIDENT YELTSIN: Of course Bill, this is a common job, common
+work we do, and we follow each other closely, and this is the
+only way we can move forward. I am looking forward to our
+meeting in Moscow. (U)
+THE PRESIDENT: Me, too. (U)
+PRESIDENT YELTSIN: I think that this time we have made very
+good preparations on economic points, and the Gore-Kiriyenko
+Commission has done a very good job, and the political aspects
+have been prepared by Mr. Primakov and Madame Albright. I think
+the preparations and discussions within the Commission are
+encouraging, and through their work they facilitate things
+significantly for us. Bill. However, we will face very complex
+and difficult issues when we meet. We will discuss our joint</pre>
+      </article>
+<article>
+        <h3>#69 1998-08-25 Telephone call with President Boris Yeltsin of Russia, August 25, 1998, Martha's Vineyard, Massachusetts</h3>
+        <p><strong>Missing/review:</strong> classification marking, notetaker</p>
+        <pre>■GE€f\'E-¥- 5956
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian
+President Yeltsin 0Zl
+PARTICIPANTS The President
+Russian President Yeltsin
+Interpreter: Dmitry Zarechnak
+Note Takers: Larry Wright, Matt Sibley,
+Jonathan Elkind, Andrew Weiss
+DATE, TIME August 25, 1998, 9:39 a.m. - 10:08 a.m. EDT
+AND PLACE: Martha's Vineyard
+THE PRESIDENT: Hello, Boris? (U)
+PRESIDENT YELTSIN: Hello, Bill. (U)
+THE PRESIDENT: Hi, Boris, thank you for taking my call. I just
+wanted to talk to you directly during this momentous period
+before I come over there. I know the pressure must be enormous
+with so much at stake for Russia. Strobe is coming to Moscow
+this week, and I hope you can find time to meet with him. He
+will have my latest thinking about our upcoming meeting.
+PRESIDENT YELTSIN: Well, we have undertaken a very thorough
+preparation for the upcoming meeting and we analyzed all of the
+previous positions, and we also analyzed the work of the Gore-
+Chernomyrdin Commission and also we went through some of the
+positions we could suggest as far as fighting terrorism is
+concerned. Of course, we will be prepared to discuss
+Afghanistan, Sudan, the troubles in Iraq, and the situation in
+Kosovo. In other words, we have carried out a very thorough
+preparation for the meeting. Of course, we don't want it to
+become an opportunity for mutual recriminations, but a chance for
+constructive work — new ideas and proposals we can stand by
+jointly, you and I. And because of the great significance and
+importance of that particular issue, I have returned Chernomyrdin</pre>
+      </article>
+<article>
+        <h3>#70 1998-09-12 Telephone call with President Boris Yeltsin of Russia, September 12, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>CONFIDEtJTIAfc- 6300
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian
+President Boris Yeltsin on September 12
+PARTICIPANTS The President
+Russian President Boris Yeltsin
+Interpreter: Dmitry Zarechnak
+Notetakers: Bonnie Click, Liz Rogers,
+Cindy Lawrence, Matt Sibley, Joel Schrader
+DATE, TIME September 12, 1998, 11:32 - 11:59 a.m. EDT;
+AND PLACE: Oval Office
+THE PRESIDENT: Boris? (U)
+PRESIDENT YELTSIN: Hello Bill. (U)
+THE PRESIDENT: Thank you for taking my call. I wanted to begin
+by thanking you for my visit to Russia. It was wonderful to see
+you, and congratulations on getting Primakov through the Duma.
+Madeleine Albright thinks highly of him. You can be proud that
+you handled the political crisis under tremendous pressure, and
+you held true to your role of being the father of Russian
+democracy.
+PRESIDENT YELTSIN: Well, Mr. Primakov is, as we say, an
+Americanist. He has been an American expert since long ago when
+he was part of the Academy of Sciences. I wanted very much for
+Chernomyrdin to get this post but it was not to;be, and I
+decided not to press his nomination and to submit the nomination
+of Mr. Primakov. And he got the vote of the overwhelming
+majority.
+And also there are several new names in the government. The
+Chairman of the Central Bank is Mr. Gerashchenko. And also
+there is a new name as deputy chairman of the government.
+■CONFIDE'ItTfAfc
+Classified by: Glyn T. Davies DECLASSIFIED</pre>
+      </article>
+<article>
+        <h3>#72 1998-12-30 Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>8654
+THE WHITE H6u5E
+, WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversa~~ with Russian
+President Yeltsin~J
+PARTICIPANTS:.President Clinton
+President Boris Yel in
+Interpreter: Dmitry Zarechnak
+Notetakers: David Higgins, Matt Sibley,
+Doug Bayley, Jim Smith
+DATE, TIME December 30, 1998, 10:00-10:33 a.m.,
+AND PLACE: Oval Of ce
+PRESIDENT YELTSIN: Hello, Bill. (U)
+THE PRESIDENT: Hello, Boris. It is nice to hear your voice. (U)
+PR~SIDENT YELTSIN: Well, I think it is important r us now to
+talk about the future of Russia-U.S. rel ions. I have always
+shared with you in a very frank way our views about our
+relationship and have always paid heed to what you had to say.
+Through those very frank exchanges, on many occasions we proved
+we were able to find solutions to very critical, and ve crucial
+problems.,)91'
+I want to be quite straightforward. I want to tell you how sad
+and sorry I was about the military action by the U.S. and UK
+against Iraq. Because what is at stake is not just the person
+of Saddam Hussein but our relations with the U.S. I believe
+what we need,to do now is reconstruct the unity of action in the
+UN Security Council, and also to actively work for our joint and
+agreed actions in the future. I am sure that we can draw
+lessons from what has happened because we must not low the
+situation to happen which would impose a threat to the great and
+positive accomplishments that you and,I have scored.,)if
+We are faced now with quite a few very di icult tasks. Some of
+them we discussed when you came to Moscow in September, and we</pre>
+      </article>
+<article>
+        <h3>#74 1999-04-19 Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>C EGRET- 2901
+THE WHITE HOUSE
+WASHINGTON
+DECLASSIFIED
+PER E.0.13526.
+MEMORANDUM OF TELEPHONE CONVERSATION
+ao\6' oTga- KBW ^
+3/13/ toiS
+SUBJECT: Telephone Conversation with Russian
+President Yeltsin tsi
+PARTICIPANTS: President Clinton
+President Boris Yeltsin
+Notetakers: Robert Ford, Michael T.
+Manning, Roger Merletti, Matt Sibley,
+Jim Smith, Andrew Weiss
+Interpreter: Nikolai Sorokin
+DATE, TIME April 19, 1999, 9:30 - 10:13 a.m. EDT,
+AND PLACE: Oval Office
+THE PRESIDENT: Hello Boris. (U)
+PRESIDENT YELTSIN: Good morning, Bill. (U)
+THE PRESIDENT: Thank you for taking the call. I wanted to talk
+to you about Kosovo, today. Kosovo is clearly one of the
+greatest tests we have faced for the Europe you and I have
+worked to achieve, one which is free from communist
+dictatorships and is democratic and undivided. I appreciate
+your heartfelt messages and am glad to see you involved in this
+problem. ^
+We have solved some of the toughest problems by working
+together. The best diplomatic outcome is one Russia helps bring
+about. Russia is central in implementing a solution. The
+meeting that Albright and Foreign Minister Ivanov had in Oslo
+went a long way in managing the differences between us and
+maximizing common ground. I value the way they are working
+together, and they must keep it up. At the same time, I am glad</pre>
+      </article>
+<article>
+        <h3>#76 1999-05-02 Telephone call with President Boris Yeltsin of Russia, May 2, 1999, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>•3E€RE¥- 3364
+THE WHITE HOUSE
+WASH I NGTON declassified
+PER E.0.13526
+MEMORANDUM OF TELEPHONE CONVERSATION 3/13/5.013 KQW
+SUBJECT: Telephone Conversation with Russian
+President Yeltsin (X)
+PARTICIPANTS: The President
+Russian President Yeltsin
+Notetakers: Tony Campanella, Elizabeth
+Rogers, Michael Manning, Sean Tarver,
+Andrew Weiss
+Interpreter: Peter Afanasenko
+DATE, TIME May 2, 1999, 10:18 - 10:31 a.m. EDT,
+AND PLACE: Residence
+The President: Hello, Boris? (U)
+President Yeltsin: Good afternoon. Bill. (U)
+The President: Good afternoon. It is good to hear to hear your
+voice. (U)
+President Yeltsin: Very well. Bill. I decided to call you on
+Sunday because this question is extremely important. As you
+know, on my instructions, my envoy Victor Chernomyrdin engaged
+in extremely difficult negotiations in Belgrade for many hours,
+and there are some results of these negotiations. Moreover, I
+believe that now real prospects have opened for making a
+practical step in reaching a political settlement. That was
+exactly the objective we agreed on with you. Not only the
+people of the U.S., Yugoslavia, and Russia, but the entire world
+needs this. Because of the very urgent nature of these
+developments, I have instructed my special envoy Chernomyrdin to
+go to Washington and deliver my personal message to you. I
+would ask you. Bill, to receive him without delay and want you
+to receive him tomorrow on May 3’^^^. That is all I have to say.
+.SECP.E¥-</pre>
+      </article>
+<article>
+        <h3>#77 1999-06-07 Telephone call with President Boris Yeltsin of Russia, June 7, 1999, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>•COHriDEMTI-Air 4358
+THE WHITE HOUSE
+WASH I NGTON
+DECLASSIFIED
+PER E.0.13526.
+3/l^/0x&gt;\a VASVi
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telcon with President Yeltsin of Russia (U)
+PARTICIPANTS; The President
+Russian President Yeltsin
+Notetakers: Robin Rickard, James Smith
+Michael Manning, Roger Merletti, Stuart
+Kaufman
+Interpreter: Kyrill Borissow
+DATE, TIME 7 June 1999, 11:07 - 11:14 a.m. EST,
+AND PLACE: Oval Office
+President Yeltsin: Good afternoon. Bill. (U)
+The President: Hello, Boris. Thank you for taking this
+call. I think we are on the verge of a very important
+achievement to get an end to the bombing and the return
+of refugees, as we discussed last April. As you remember,
+on that day you suggested that Viktor Stepanovich engage
+with the Vice President, and since then he has worked with
+A1 Gore, President Ahtisaari and Strobe Talbott and has come
+up with an excellent plan, which President Milosevic
+accepted last Friday. i
+President Yeltsin: I think. Bill, we have come a long way
+together, and the only thing remaining is for us to finalize
+this work. {pf)
+The President: I agree with that. If we can get agreement
+today on a UN Security Council resolution covering the
+peacekeeping force in the G-8 meeting going on now in
+Germany, I think everything will work out all right. I
+think it',s important that Ivanov do everything possible to</pre>
+      </article>
+<article>
+        <h3>#81 1999-06-14 Telephone call with President Boris Yeltsin of Russia, June 14, 1999, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>■ S EGRET' 5128
+THE WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian President
+Yeltsin i^)
+PARTICIPANTS: The President
+President Yeltsin
+INTERPRETER; Nikolai Sorokin
+Notetakers: Joel Schrader, Miles Murphy, Matt
+Sibley, Joel Ehrendreich, Roger Merletti, Doug
+Bayley, and Andrew Weiss
+DATE, TIME June 14, 1999, 10:06 - 10:32 a.m.
+AND PLACE: Oval Office
+The President: Hello. (U)
+President Yeltsin: Good morning. Bill. (U)
+The President: Good morning, Boris. Yesterday, you and I agreed
+to instruct our generals to meet and resolve the problem of
+command at the airport and report back to us on what they worked
+out. I was quite disappointed --
+President Yeltsin: Yes, they did. They met yesterday, and I
+gave instructions to hold the necessary negotiations in order to
+come to an agreement with regard to the regulations of the
+support team for the Russian presence at the airport of Slatina
+near Pristina. And we proceed from the understanding that this
+group, in the framework of the first stage, will remain at the
+airport and will be functioning in the interests of the
+international security force. And the cooperation of the group
+with the commanders of the international peacemaking force will
+be portrayed in an accord based on the Bosnia formula.
+The forces that are not there yet, to ensure the full functioning
+of the group, will be deployed upon reaching an agreement and in
+the framework of coordination with General Jackson. Generals
+Zavarzin and Jackson have already exchanged liaison officers.</pre>
+      </article>
+<article>
+        <h3>#82 1999-06-20 Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>4842
+THE WHITE HOUSE
+WASH I NGTON
+MEMORANDUM OF CONVERSATION
+SUBJECT; Meeting with President Yeltsin of Russia
+PARTICIPANTS The President
+Secretary Albright
+Samuel Berger
+Deputy Secretary Talbott
+President Yeltsin
+Minister Ivanov
+Minister Shapovalyants
+Foreign Policy Advisor Prikhodko
+Deputy Minister Mamedov
+Russian Interpreter
+Interpreter: Peter Afanasenko
+Notetaker: Carlos Pascual
+DATE, TIME June 20, 1999, 1:00 - 2:00 p.m.
+AND PLACE: Renaissance Hotel (Russians Host),
+Cologne, Germany
+PRESIDENT YELTSIN: Before we start, let's decide now to revive
+the Gore-Stepashin Commission. (U)
+(Note: Ivanov prompts Yeltsin on Stephasin's name.)
+THE PRESIDENT: Yes. (U)
+PRESIDENT YELTSIN: Let's get them together as fast as they can.
+Let's also have Secretary Albright and Minister Ivanov meet
+soon, too. (U)
+THE PRESIDENT: This is our seventeenth meeting. We met in
+Helsinki once and you gave me a cane. The cane unscrewed and it
+had a spyglass. I still have it and all the gifts that you've
+given me. The best was a miniature painting of my mother. (U)
+-Cei‘JFIDEl!'m:Al7';#€LASSIFIED
+Classified by: Glyn T. Davies ■ PER E.0.13526
+Reason: 1.5 (b,d) 'Xo\5-o-rsx-(^-\ ftn')</pre>
+      </article>
+<article>
+        <h3>#83 1999-09-08 Telephone call with President Boris Yeltsin of Russia, September 8, 1999, White House</h3>
+        <p><strong>Missing/review:</strong> participants, notetaker, interpreter</p>
+        <pre>jECREf 6603
+THE WHITE HOUSE
+WASHINGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telephone Conversation with Russian President
+Yeltsin
+PARTICIP7\NTS The President
+President Yeltsin
+NOTETAKERS: Jenny McGee, Robert Ford, Michael T. Manning,
+Roger Merletti, Jim Smith, Andrew Weiss
+INTERPRETER: Kyrill Borissow
+DATE, TIME September 8, 1999, 11:42 a.m. - 12:21 p.m.,
+AND PLACE: OEOB
+The President: Hello, Boris? (U)
+President Yeltsin: How are you. Bill? (U)
+The President: I'm fine. It's good to hear your voice. (U)
+President Yeltsin: I am also fine, except for international
+relations. We cannot as yet agree fundamentally on the
+Russian-U.S. relationship. Certainly after our meeting in
+Cologne, a lot has been achieved. We have moved ahead on
+START, ABM, and have done several things regarding regional
+problems in a cooperative spirit. Certainly, there will be
+new contacts and meetings between yourself and Mr. Putin,
+chairman of our government, in Auckland, New Zealand; and
+there will be other meetings, including with Ivanov, our
+Foreign Minister, and Secretary Albright and with others. ^
+Bill, I have to speak, unfortunately correctly that the
+U.S.-Russian relationship increasingly suffers from the fact
+that pre-election campaigns are in progress in our two
+countries. I believe it is our task, yours and mine, to try
+our best to protect and limit interference in our
+relationship from attempts to play out political domestic
+cards and intrigues. There are some who even try to think
+of using these in order to affect international</pre>
+      </article>
+<article>
+        <h3>#84 1999-11-19 Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey</h3>
+        <p><strong>Missing/review:</strong> classification marking</p>
+        <pre>8897
+THE WHITE HOUSE
+WASH INGTON
+DECLASSIFIED
+PER E.0,13526,.
+ao\5' 01ZX- j
+MEMORANDUM OF CONVERSATION 3/13/^,016 kQH
+SUBJECT: Meeting with Russian President Yeltsin
+PARTICIPANTS: U.S.
+.President Clinton
+Secretary Albright
+National Security Advisor Berger
+Deputy National Security Advisor Steinberg
+Ambassador Sestanovich
+Carlos Pascual
+Russia
+Russian President Yeltsin
+Foreign Minister Ivanov
+Kremlin Foreign Policy Advisor Prihodko
+Defense Minister Sergeyev
+Interpreter: Peter Afansenko
+Notetaker: Carlos Pascual
+DATE,. TIME November 19, 1999, 10:45 a.m.-ll:40 a.m.
+AND PLACE: Istanbul, Turkey
+President Yeltsin: We are in neutral territory here. I welcome
+you. (U)
+The President: Neither of us has a stake here. It's good to
+see you, (U)
+President Yeltsin: Well, Bill, what about those camps here in
+Turkey that are preparing troops to go into Chechnya? Aren't
+you in■charge of those? I have the details. Minister Ivanov,
+give me the map. I want to show you where the mercenaries are
+being trained and then being sent into Chechnya. They are armed
+to the teeth. (Note: Yeltsin pulls out map of Turkey and</pre>
+      </article>
+<article>
+        <h3>#85 1999-12-31 Telephone call with President Boris Yeltsin of Russia, December 31, 1999, White House</h3>
+        <p><strong>Missing/review:</strong> classification marking, interpreter</p>
+        <pre>CONriDENTIM. 9338
+THE WHITE HOUSE
+WASH INGTON
+MEMORANDUM OF TELEPHONE CONVERSATION
+SUBJECT: Telcon with Russian President Boris Yelstin
+PARTICIPANTS The President
+Russian President Yeltsin
+NOTETAKERS: Jenny McGee, Robert Ford, Joel Ehrendreich,
+and Sean Tarver
+DATE, TIME December 31, 1999, 09:02-09:22 p.m. EST
+AND PLACE: Oval Office
+The President: Boris? (U)
+President Yeltsin: Hello, Bill? How do you do. Bill? (U)
+The President: I'm fine. I just wanted to call you today. I
+know this has been a tough but courageous decision. I just
+wanted to say I read your statement this morning. I'm sad, but I
+am very proud of you. You have guided your country through a
+historic time and you are leaving a legacy that will leave
+Russians better off for years to come. I want you to know that
+we will work with Putin and the Russian people as they make their
+choice for the next democratically elected president, and you can
+be proud that you created a constitution that works and that it
+continues to guide this transfer today.
+I know that the democratic changes you led made it possible for
+Russia to be integrated into the international community. I was
+very proud when Russia joined the G-8, and I am proud of the work
+we did on arms control and other issues. I know we didn't finish
+everything we wanted to do on arms control, but we set the
+framework at Cologne, and I will continue to work with Putin on
+these objectives. (Jt]
+Boris, I believe that historians will say you were the father of
+Russian democracy and that you worked to make the world a safer
+place, and I wanted you to know that Hillary and I are thinking
+of you and Naina. Thank you very much for all the times we have</pre>
+      </article></div>
+    </main>
+  </body>
+</html>

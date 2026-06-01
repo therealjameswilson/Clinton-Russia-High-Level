@@ -337,6 +337,7 @@ function buildCompilerStartHereMarkdown(records) {
     "",
     "- [Combined reading packet PDF](../public/documents/clinton-yeltsin-core-reading-packet.pdf)",
     "- [Topic and name index](topic-index.html)",
+    "- [Face-page metadata audit](face-page-metadata.html)",
     "- [Reading packet manifest](reading-packet-manifest.json)",
     "- [Reading packet TOC CSV](reading-packet-toc.csv)",
     "- [Spreadsheet chronology](compiler-document-chronology.csv)",
@@ -434,6 +435,7 @@ function buildCompilerStartHereHtml(records) {
       <div class="actions">
         <a href="../public/documents/clinton-yeltsin-core-reading-packet.pdf">Open reading packet PDF</a>
         <a href="topic-index.html">Open topic index</a>
+        <a href="face-page-metadata.html">Open face-page audit</a>
         <a href="reading-packet-manifest.json">Open packet manifest</a>
         <a href="reading-packet-toc.csv">Download packet TOC</a>
         <a href="compiler-document-chronology.csv">Download chronology CSV</a>
