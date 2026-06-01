@@ -50,6 +50,7 @@ Compiler-facing handoff files are generated in `reports/`:
 - `reading-packet-manifest.json` and `reading-packet-toc.csv`: packet page ranges, document order, provenance-sheet pages, and source links.
 - `topic-index.html`, `topic-index.json`, and `topic-index.csv`: keyword topic and name/organization index generated from extracted PDF text.
 - `face-page-metadata.html`, `face-page-metadata.json`, and `face-page-metadata.csv`: source-note drafting aid with parsed subject, participants, notetakers/interpreters, date/time/place, and classification lines from each extracted PDF's first page.
+- `source-note-drafts.html`, `source-note-drafts.json`, and `source-note-drafts.csv`: copy-ready source-note drafting packet combining FRUS-style source stems, packet ranges, and OCR-derived face-page metadata for verification.
 - `compiler-document-chronology.csv`: spreadsheet-ready chronology with page counts, source-page ranges, PDFs, source notes, and follow-up actions.
 - `frus-selection-worksheet.csv`: working selection sheet with blank include/document-number columns, suggested treatment, issue tags, and annotation/declassification note columns.
 - `document-page-tallies.json`: machine-readable consolidated page counts and pending extent records.
@@ -77,6 +78,12 @@ To rebuild the face-page metadata audit:
 
 ```sh
 node scripts/build-face-page-audit.js
+```
+
+To rebuild the source-note drafting packet:
+
+```sh
+node scripts/build-source-note-drafts.js
 ```
 
 ## Document Extraction Rule
