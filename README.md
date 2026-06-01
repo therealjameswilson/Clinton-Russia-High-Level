@@ -47,6 +47,7 @@ Compiler-facing handoff files are generated in `reports/`:
 - `compiler-start-here.html`: browser-ready start-here packet with consolidated counts, reading order, and hard source gaps.
 - `compiler-start-here.md`: Markdown copy of the same packet for repo review.
 - `compiler-document-chronology.csv`: spreadsheet-ready chronology with page counts, source-page ranges, PDFs, source notes, and follow-up actions.
+- `frus-selection-worksheet.csv`: working selection sheet with blank include/document-number columns, suggested treatment, issue tags, and annotation/declassification note columns.
 - `document-page-tallies.json`: machine-readable consolidated page counts and pending extent records.
 - `extracted-pdf-validation.json`: mechanical audit of local derivative PDF page counts against the record data and extraction manifest.
 

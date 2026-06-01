@@ -184,6 +184,75 @@ function buildCompilerChronologyCsv(records) {
   return `${fields.join(",")}\n${body.join("\n")}\n`;
 }
 
+function worksheetThemes(row) {
+  const text = `${row.title} ${row.extractionStatus} ${row.frusSourceNote}`.toLowerCase();
+  const tags = [];
+  if (/nato|partnership for peace|helsinki|paris|denver/i.test(text)) tags.push("NATO / European security");
+  if (/ukraine|kravchuk|trilateral|nuclear|security issues/i.test(text)) tags.push("Ukraine / nuclear security");
+  if (/kosovo|serbia|milosevic|balkans/i.test(text)) tags.push("Kosovo / Balkans");
+  if (/chechnya|caucasus/i.test(text)) tags.push("Chechnya / internal Russia");
+  if (/iraq|saddam/i.test(text)) tags.push("Iraq");
+  if (/election|zyuganov|communist|democracy/i.test(text)) tags.push("Russian politics / elections");
+  if (/economic|reform|imf|assistance|aid|loan|market/i.test(text)) tags.push("Economic reform / assistance");
+  if (/arms|abm|start|missile|nuclear/i.test(text)) tags.push("Arms control");
+  return [...new Set(tags)].join("; ");
+}
+
+function buildFrusSelectionWorksheetCsv(records) {
+  const rows = buildCompilerChronologyRows(records);
+  const fields = [
+    "sequence",
+    "includeInVolume",
+    "proposedDocumentNumber",
+    "editorialTreatment",
+    "priority",
+    "date",
+    "type",
+    "actualConversationPages",
+    "documentTitle",
+    "suggestedThemes",
+    "source",
+    "sourcePdfPages",
+    "markerPage",
+    "localDerivativePdf",
+    "sourcePacketUrl",
+    "frusSourceNote",
+    "extractionQaStatus",
+    "declassificationIssues",
+    "annotationNeeds",
+    "compilerNotes"
+  ];
+  const body = rows.map((row) =>
+    [
+      row.order,
+      "",
+      "",
+      row.status === "counted" ? "Document candidate" : "Research gap / possible editorial note",
+      row.status === "counted" ? "Core chronology" : "Hard source gap",
+      row.date,
+      row.type,
+      row.actualConversationPages,
+      row.title,
+      worksheetThemes(row),
+      row.source,
+      row.sourcePdfPages,
+      row.markerPage,
+      row.localDerivativePdf,
+      row.sourcePacketUrl,
+      row.frusSourceNote,
+      row.status === "counted"
+        ? "PDF extent validated separately; final face-page markings still require compiler review"
+        : "No extracted PDF; actual conversation pages not located",
+      "",
+      "",
+      row.compilerAction
+    ]
+      .map(csvCell)
+      .join(",")
+  );
+  return `${fields.join(",")}\n${body.join("\n")}\n`;
+}
+
 function buildConsolidated(rows) {
   const counted = rows.filter((row) => row.status === "counted");
   const memcons = counted.filter((row) => row.type === "Memcon");
@@ -267,6 +336,7 @@ function buildCompilerStartHereMarkdown(records) {
     "## Companion Files",
     "",
     "- [Spreadsheet chronology](compiler-document-chronology.csv)",
+    "- [FRUS selection worksheet](frus-selection-worksheet.csv)",
     "- [Document page tallies](document-page-tallies.json)",
     "- [Extracted PDF validation](extracted-pdf-validation.json)",
     "- [Compiler risk audit](compiler-risk-audit.json)",
@@ -359,6 +429,7 @@ function buildCompilerStartHereHtml(records) {
       <p class="lede">Generated ${htmlCell(now)}. This packet gives the chronological Clinton-Yeltsin memcon/telcon spine for FRUS 1993-2000, Volume XVIII, with actual conversation page counts, extracted PDFs, source-page ranges, and hard pending gaps.</p>
       <div class="actions">
         <a href="compiler-document-chronology.csv">Download chronology CSV</a>
+        <a href="frus-selection-worksheet.csv">Download selection worksheet</a>
         <a href="compiler-start-here.md">Open Markdown packet</a>
         <a href="extracted-pdf-validation.json">Open PDF validation</a>
         <a href="document-page-tallies.json">Open page tallies JSON</a>
@@ -390,6 +461,7 @@ const candidateRecords = candidateConversationRecords(records);
 const reportsDir = path.join(ROOT, "reports");
 fs.mkdirSync(reportsDir, { recursive: true });
 fs.writeFileSync(path.join(reportsDir, "compiler-document-chronology.csv"), buildCompilerChronologyCsv(records));
+fs.writeFileSync(path.join(reportsDir, "frus-selection-worksheet.csv"), buildFrusSelectionWorksheetCsv(records));
 fs.writeFileSync(path.join(reportsDir, "compiler-start-here.md"), buildCompilerStartHereMarkdown(records));
 fs.writeFileSync(path.join(reportsDir, "compiler-start-here.html"), buildCompilerStartHereHtml(records));
 console.log(
@@ -403,7 +475,8 @@ console.log(
       outputs: [
         "reports/compiler-start-here.html",
         "reports/compiler-start-here.md",
-        "reports/compiler-document-chronology.csv"
+        "reports/compiler-document-chronology.csv",
+        "reports/frus-selection-worksheet.csv"
       ]
     },
     null,
