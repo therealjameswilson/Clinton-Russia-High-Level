@@ -1,6 +1,6 @@
 # FRUS Compiler Start-Here Packet
 
-Generated: 2026-06-01T15:56:49.238Z
+Generated: 2026-06-01T17:46:08.721Z
 
 Scope: Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII, Russia. Page counts include only actual conversation pages; administrative sheets, briefing material, duplicate packet copies, and withdrawal sheets are excluded.
 
@@ -128,6 +128,7 @@ Scope: Clinton-Yeltsin memcons and telcons for FRUS 1993-2000, Volume XVIII, Rus
 - [Contact dossier crosswalk](contact-dossier-crosswalk.html)
 - [Hard-source gap follow-up packet](hard-source-gap-packet.html)
 - [Topic and name index](topic-index.html)
+- [Selection-priority workbench](selection-priority-workbench.html)
 - [Annotation workbench](annotation-workbench.html)
 - [Face-page metadata audit](face-page-metadata.html)
 - [Source-note drafting packet](source-note-drafts.html)

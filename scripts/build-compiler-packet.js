@@ -339,6 +339,7 @@ function buildCompilerStartHereMarkdown(records) {
     "- [Contact dossier crosswalk](contact-dossier-crosswalk.html)",
     "- [Hard-source gap follow-up packet](hard-source-gap-packet.html)",
     "- [Topic and name index](topic-index.html)",
+    "- [Selection-priority workbench](selection-priority-workbench.html)",
     "- [Annotation workbench](annotation-workbench.html)",
     "- [Face-page metadata audit](face-page-metadata.html)",
     "- [Source-note drafting packet](source-note-drafts.html)",
@@ -441,6 +442,7 @@ function buildCompilerStartHereHtml(records) {
         <a href="contact-dossier-crosswalk.html">Open dossier crosswalk</a>
         <a href="hard-source-gap-packet.html">Open hard-gap packet</a>
         <a href="topic-index.html">Open topic index</a>
+        <a href="selection-priority-workbench.html">Open selection priorities</a>
         <a href="annotation-workbench.html">Open annotation workbench</a>
         <a href="face-page-metadata.html">Open face-page audit</a>
         <a href="source-note-drafts.html">Open source-note drafts</a>
