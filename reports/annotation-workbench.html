@@ -1,0 +1,1354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FRUS Annotation Workbench</title>
+    <style>
+      body { margin: 0; color: #18212d; font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f4f7f6; }
+      main { width: min(1240px, calc(100% - 32px)); margin: 0 auto; padding: 34px 0 56px; }
+      h1, h2 { font-family: Georgia, "Times New Roman", serif; line-height: 1.08; }
+      h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.7rem); }
+      h2 { margin-top: 34px; font-size: clamp(1.45rem, 3vw, 2.15rem); }
+      a { color: #25364f; font-weight: 800; }
+      .lede { max-width: 940px; color: #5f6874; font-size: 1.05rem; }
+      .actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 24px; }
+      .actions a { display: inline-flex; min-height: 34px; align-items: center; padding: 0 11px; color: white; text-decoration: none; background: #25364f; border-radius: 6px; }
+      .actions a:nth-child(even) { color: #25364f; background: white; border: 1px solid #d7dedb; }
+      .summary { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; margin: 24px 0; }
+      .summary div { padding: 14px; background: white; border: 1px solid #d7dedb; border-radius: 8px; }
+      dt { color: #5f6874; font-size: .78rem; font-weight: 900; text-transform: uppercase; }
+      dd { margin: 4px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.45rem; font-weight: 800; }
+      .table-wrap { overflow-x: auto; border-radius: 8px; box-shadow: 0 18px 46px rgba(22, 31, 43, .08); }
+      table { width: 100%; border-collapse: collapse; background: white; border: 1px solid #d7dedb; }
+      th, td { padding: 8px 9px; border-bottom: 1px solid #d7dedb; vertical-align: top; text-align: left; }
+      th { color: #25364f; font-size: .78rem; text-transform: uppercase; }
+      td:nth-child(1), td:nth-child(4), td:nth-child(5), td:nth-child(6) { white-space: nowrap; }
+      td p { margin: 4px 0 0; color: #5f6874; }
+      @media (max-width: 900px) { .summary { grid-template-columns: 1fr 1fr; } table { font-size: .86rem; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p><a href="../">Back to compiler page</a></p>
+      <h1>FRUS Annotation Workbench</h1>
+      <p class="lede">Generated 2026-06-01T15:56:49.176Z from the topic index, contact dossier crosswalk, and face-page audit. This is a triage aid for authority notes, issue annotations, editorial-note planning, and first-reference checks; it is not a finished FRUS index.</p>
+      <div class="actions">
+        <a href="annotation-targets.csv">Download authority targets CSV</a>
+        <a href="annotation-document-queue.csv">Download document queue CSV</a>
+        <a href="annotation-workbench.json">Open annotation JSON</a>
+        <a href="topic-index.html">Open topic index</a>
+        <a href="contact-dossier-crosswalk.html">Open dossier crosswalk</a>
+      </div>
+      <dl class="summary">
+        <div><dt>Annotation Targets</dt><dd>27</dd></div>
+        <div><dt>Issue Targets</dt><dd>8</dd></div>
+        <div><dt>Authority Targets</dt><dd>19</dd></div>
+        <div><dt>Documents Queued</dt><dd>85</dd></div>
+        <div><dt>Heavy Reviews</dt><dd>61</dd></div>
+      </dl>
+      <h2>Authority And Issue Targets</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Priority</th><th>Target</th><th>Type</th><th>Docs</th><th>Hits</th><th>Span</th><th>Annotation note</th><th>Top documents</th></tr></thead>
+          <tbody><tr>
+        <td>Core issue</td>
+        <td>Economic Reform / Assistance</td>
+        <td>Issue</td>
+        <td>60</td>
+        <td>352</td>
+        <td>1993-01-23 - 1999-06-20</td>
+        <td>Russian reform, assistance packages, IMF support, loans, ruble policy, privatization, and G-7 coordination.<p>Use to identify documents requiring economic-assistance annotations or Public Papers cross-checks.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf">#14 1994-01-13</a> (28 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf">#13 1993-12-22</a> (19 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">#3 1993-04-03</a> (18 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">#4 1993-04-04</a> (17 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-06-28-telcon-08.pdf">#8 1993-06-28</a> (17 hits)</td>
+      </tr>
+<tr>
+        <td>Core issue</td>
+        <td>Russian Politics / Elections</td>
+        <td>Issue</td>
+        <td>57</td>
+        <td>244</td>
+        <td>1993-04-03 - 1999-12-31</td>
+        <td>Russian domestic politics, elections, Duma, Communists, opposition, democracy, and constitutional crisis.<p>High annotation value for 1993 constitutional crisis and 1996 election documents.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf">#37 1996-01-26</a> (15 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf">#14 1994-01-13</a> (11 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf">#42 1996-04-21</a> (11 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-02-21-telcon-34.pdf">#38 1996-02-21</a> (10 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-05-07-telcon-38.pdf">#43 1996-05-07</a> (10 hits)</td>
+      </tr>
+<tr>
+        <td>Core issue</td>
+        <td>Arms Control / Nonproliferation</td>
+        <td>Issue</td>
+        <td>52</td>
+        <td>428</td>
+        <td>1993-01-23 - 1999-12-31</td>
+        <td>START, ABM, CFE, missile defense, nonproliferation, and weapons control.<p>Expect cross-references to arms-control volumes and treaty documentation.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">#49 1997-03-21</a> (43 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">#25 1994-09-27</a> (42 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">#82 1999-06-20</a> (38 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf">#17 1994-01-14</a> (30 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-10-30-telcon-47.pdf">#55 1997-10-30</a> (21 hits)</td>
+      </tr>
+<tr>
+        <td>Core issue</td>
+        <td>NATO / European Security</td>
+        <td>Issue</td>
+        <td>44</td>
+        <td>401</td>
+        <td>1993-01-23 - 1999-06-20</td>
+        <td>NATO enlargement, Partnership for Peace, NATO-Russia security architecture, and summit diplomacy.<p>Likely needs editorial framing where the document is selected for the NATO-Russia pressure line.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">#31 1995-05-10</a> (67 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">#49 1997-03-21</a> (46 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">#53 1997-05-27</a> (29 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf">#35 1995-10-23</a> (21 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf">#32 1995-06-17</a> (18 hits)</td>
+      </tr>
+<tr>
+        <td>Core issue</td>
+        <td>Iraq / Middle East</td>
+        <td>Issue</td>
+        <td>43</td>
+        <td>284</td>
+        <td>1993-01-23 - 1999-12-31</td>
+        <td>Iraq, Saddam Hussein, sanctions, Iran, Jordan, and Middle East diplomacy.<p>Use to flag documents that may require cross-volume Middle East/Iraq coordination.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-10-clinton-yeltsin-iraq-telcon.pdf">#28 1994-10-10</a> (22 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">#15 1994-01-13</a> (20 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf">#17 1994-01-14</a> (17 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-06-13-telcon-20.pdf">#22 1994-06-13</a> (17 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">#31 1995-05-10</a> (17 hits)</td>
+      </tr>
+<tr>
+        <td>Core issue</td>
+        <td>Ukraine / Nuclear Security</td>
+        <td>Issue</td>
+        <td>42</td>
+        <td>303</td>
+        <td>1993-01-23 - 1999-11-19</td>
+        <td>Ukraine, Kravchuk, trilateral nuclear arrangements, and Budapest security assurances.<p>Annotate treaty/security-assurance context where nuclear transfer or Ukraine status drives the exchange.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">#25 1994-09-27</a> (43 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-trilateral-yeltsin-kravchuk.pdf">#16 1994-01-14</a> (29 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">#4 1993-04-04</a> (18 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">#9 1993-07-10</a> (17 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf">#17 1994-01-14</a> (16 hits)</td>
+      </tr>
+<tr>
+        <td>Core issue</td>
+        <td>Kosovo / Balkans</td>
+        <td>Issue</td>
+        <td>33</td>
+        <td>309</td>
+        <td>1993-01-23 - 1999-09-08</td>
+        <td>Bosnia, Kosovo, Serbia/Yugoslavia, Contact Group, KFOR, and Milosevic diplomacy.<p>Use for document-selection clustering and for editorial notes on Balkan diplomacy.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">#75 1999-04-25</a> (48 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf">#74 1999-04-19</a> (33 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf">#65 1998-06-15</a> (25 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-13-telcon-75.pdf">#80 1999-06-13</a> (24 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-10-05-clinton-yeltsin-telcon-actual-pages.pdf">#71 1998-10-05</a> (22 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Yeltsin</td>
+        <td>Person</td>
+        <td>85</td>
+        <td>1481</td>
+        <td>1993-01-23 - 1999-12-31</td>
+        <td>Boris N. Yeltsin; President of the Russian Federation through December 31, 1999.<p>Usually central to volume scope; use sparingly except for former-President references or status transitions.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">#15 1994-01-13</a> (62 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">#4 1993-04-04</a> (61 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">#9 1993-07-10</a> (48 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">#3 1993-04-03</a> (41 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">#82 1999-06-20</a> (41 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Chernomyrdin</td>
+        <td>Person</td>
+        <td>38</td>
+        <td>137</td>
+        <td>1993-04-03 - 1999-06-10</td>
+        <td>Viktor S. Chernomyrdin; Chairman of the Russian Government and Gore-Chernomyrdin Commission co-chair.<p>Often needs an annotation when the Gore-Chernomyrdin channel or Kosovo mediation is central.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">#75 1999-04-25</a> (32 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">#31 1995-05-10</a> (8 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-05-02-telcon-71.pdf">#76 1999-05-02</a> (8 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-05-telcon-24.pdf">#27 1994-10-05</a> (7 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf">#74 1999-04-19</a> (6 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>NATO</td>
+        <td>Organization</td>
+        <td>36</td>
+        <td>267</td>
+        <td>1993-02-10 - 1999-06-20</td>
+        <td>North Atlantic Treaty Organization.<p>Annotate only when the document turns on enlargement, Partnership for Peace, Bosnia, Kosovo, or NATO-Russia structures.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">#31 1995-05-10</a> (41 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">#49 1997-03-21</a> (38 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf">#35 1995-10-23</a> (18 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-04-27-telcon-27.pdf">#30 1995-04-27</a> (14 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf">#32 1995-06-17</a> (13 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Gore</td>
+        <td>Person</td>
+        <td>36</td>
+        <td>114</td>
+        <td>1993-04-04 - 1999-09-08</td>
+        <td>Albert Gore, Jr.; Vice President of the United States.<p>Annotate for the Gore-Chernomyrdin Commission and its relation to presidential-level contacts.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">#75 1999-04-25</a> (29 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">#31 1995-05-10</a> (12 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf">#35 1995-10-23</a> (5 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-05-02-telcon-71.pdf">#76 1999-05-02</a> (5 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">#82 1999-06-20</a> (5 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>UN</td>
+        <td>Organization</td>
+        <td>33</td>
+        <td>100</td>
+        <td>1993-01-23 - 1999-09-08</td>
+        <td>United Nations.<p>Annotate when Bosnia, Iraq, Kosovo, peacekeeping, or Security Council action is material.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-10-telcon-17.pdf">#20 1994-04-10</a> (13 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-20-telcon-18.pdf">#21 1994-04-20</a> (10 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-09-28-second-one-on-one.pdf">#26 1994-09-28</a> (7 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf">#33 1995-07-28</a> (7 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">#82 1999-06-20</a> (6 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Talbott</td>
+        <td>Person</td>
+        <td>33</td>
+        <td>57</td>
+        <td>1993-01-23 - 1999-09-08</td>
+        <td>Strobe Talbott; Ambassador-at-large and special adviser on the newly independent states, then Deputy Secretary of State.<p>Annotate for back-channel and implementation context; cross-link to Talbott FOIA source-copy records where useful.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">#75 1999-04-25</a> (6 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">#9 1993-07-10</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf">#52 1997-03-21</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">#53 1997-05-27</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-06-28-telcon-08.pdf">#8 1993-06-28</a> (3 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Primakov</td>
+        <td>Person</td>
+        <td>29</td>
+        <td>104</td>
+        <td>1994-10-05 - 1999-06-20</td>
+        <td>Yevgeny M. Primakov; Russian Foreign Minister, then Prime Minister.<p>Frequent late-1990s foreign-policy interlocutor; annotate especially around Kosovo and Iraq.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-09-12-telcon-64.pdf">#70 1998-09-12</a> (15 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">#53 1997-05-27</a> (11 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">#49 1997-03-21</a> (7 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf">#54 1997-06-20</a> (7 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-03-13-clinton-yeltsin-sharm-el-sheikh-memcon-cable.pdf">#39 1996-03-13</a> (6 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Christopher</td>
+        <td>Person</td>
+        <td>28</td>
+        <td>65</td>
+        <td>1993-01-23 - 1996-07-05</td>
+        <td>Warren Christopher; Secretary of State, 1993-1997.<p>Usually a first-appearance personnel note; cross-reference early Clinton-Russia policy formation if selected.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">#25 1994-09-27</a> (7 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">#9 1993-07-10</a> (6 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-06-13-telcon-20.pdf">#22 1994-06-13</a> (5 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-01-23-telcon-01.pdf">#1 1993-01-23</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">#3 1993-04-03</a> (4 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Kozyrev</td>
+        <td>Person</td>
+        <td>26</td>
+        <td>76</td>
+        <td>1993-01-23 - 1995-10-23</td>
+        <td>Andrei V. Kozyrev; Russian Foreign Minister, 1990-1996.<p>High-value early-volume authority note; appears in Bosnia, NATO, and reform-assistance discussions.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">#3 1993-04-03</a> (7 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf">#33 1995-07-28</a> (7 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">#25 1994-09-27</a> (6 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-10-clinton-yeltsin-iraq-telcon.pdf">#28 1994-10-10</a> (6 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">#9 1993-07-10</a> (5 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Albright</td>
+        <td>Person</td>
+        <td>22</td>
+        <td>43</td>
+        <td>1997-02-27 - 1999-11-19</td>
+        <td>Madeleine K. Albright; U.S. Permanent Representative to the United Nations, then Secretary of State.<p>Annotate on first use in the selected volume if the document predates her Secretary of State appointment or if her channel with Primakov/Yeltsin matters.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">#53 1997-05-27</a> (6 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf">#54 1997-06-20</a> (5 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">#49 1997-03-21</a> (3 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-10-30-telcon-47.pdf">#55 1997-10-30</a> (3 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">#82 1999-06-20</a> (3 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Milosevic</td>
+        <td>Person</td>
+        <td>21</td>
+        <td>116</td>
+        <td>1993-02-10 - 1999-06-08</td>
+        <td>Slobodan Milosevic; President of Serbia and later President of the Federal Republic of Yugoslavia.<p>Annotate in Bosnia/Kosovo documents; connect to Contact Group and NATO air campaign context if selected.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">#75 1999-04-25</a> (27 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf">#24 1994-09-27</a> (13 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf">#65 1998-06-15</a> (12 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf">#74 1999-04-19</a> (10 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-03-24-telcon-68.pdf">#73 1999-03-24</a> (9 hits)</td>
+      </tr>
+<tr>
+        <td>High</td>
+        <td>Chechnya / Caucasus</td>
+        <td>Issue</td>
+        <td>16</td>
+        <td>81</td>
+        <td>1993-05-10 - 1999-11-19</td>
+        <td>Chechnya, Chechen conflict, Caucasus, and Russian internal security concerns.<p>Annotate carefully as internal-Russia context when retained in a presidential exchange.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-02-13-telcon-26.pdf">#29 1995-02-13</a> (15 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf">#32 1995-06-17</a> (8 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf">#84 1999-11-19</a> (8 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-one-on-one.pdf">#41 1996-04-21</a> (7 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-05-10-telcon-07.pdf">#7 1993-05-10</a> (6 hits)</td>
+      </tr>
+<tr>
+        <td>Medium</td>
+        <td>G-7</td>
+        <td>Organization</td>
+        <td>16</td>
+        <td>51</td>
+        <td>1993-04-03 - 1997-03-21</td>
+        <td>Group of Seven major industrial democracies.<p>Annotate around Tokyo, Halifax, Denver, Birmingham, Cologne, and assistance coordination.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf">#42 1996-04-21</a> (11 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-06-28-telcon-08.pdf">#8 1993-06-28</a> (9 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">#4 1993-04-04</a> (5 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">#3 1993-04-03</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf">#14 1994-01-13</a> (3 hits)</td>
+      </tr>
+<tr>
+        <td>Medium</td>
+        <td>Ivanov</td>
+        <td>Person</td>
+        <td>16</td>
+        <td>42</td>
+        <td>1995-10-23 - 1999-11-19</td>
+        <td>Igor S. Ivanov; Russian Foreign Minister from 1998.<p>Likely relevant in Kosovo-era documents and late Yeltsin/Putin transition context.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">#82 1999-06-20</a> (10 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf">#84 1999-11-19</a> (8 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-08-telcon-73.pdf">#78 1999-06-08</a> (5 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-07-telcon-72.pdf">#77 1999-06-07</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-09-12-telcon-64.pdf">#70 1998-09-12</a> (2 hits)</td>
+      </tr>
+<tr>
+        <td>Medium</td>
+        <td>IMF</td>
+        <td>Organization</td>
+        <td>15</td>
+        <td>40</td>
+        <td>1993-06-28 - 1999-06-20</td>
+        <td>International Monetary Fund.<p>Annotate where loans, conditionality, or Russian financial stabilization are significant.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-28-telcon-56.pdf">#64 1998-05-28</a> (6 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-12-30-clinton-yeltsin-telcon-actual-pages.pdf">#72 1998-12-30</a> (6 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-07-10-telcon-60.pdf">#67 1998-07-10</a> (5 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-14-telcon-61.pdf">#68 1998-08-14</a> (5 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-05-07-telcon-38.pdf">#43 1996-05-07</a> (3 hits)</td>
+      </tr>
+<tr>
+        <td>Medium</td>
+        <td>Berger</td>
+        <td>Person</td>
+        <td>15</td>
+        <td>30</td>
+        <td>1993-04-03 - 1999-11-19</td>
+        <td>Samuel R. Berger; Deputy Assistant to the President for National Security Affairs, then National Security Adviser.<p>Useful for explaining NSC staffing on post-1996 calls and Helsinki/Kosovo documents.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-afternoon.pdf">#51 1997-03-21</a> (6 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">#53 1997-05-27</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf">#54 1997-06-20</a> (3 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-17-memcon-54.pdf">#62 1998-05-17</a> (3 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-12-telcon-53.pdf">#61 1998-05-12</a> (2 hits)</td>
+      </tr>
+<tr>
+        <td>Medium</td>
+        <td>Kohl</td>
+        <td>Person</td>
+        <td>11</td>
+        <td>16</td>
+        <td>1994-02-20 - 1998-04-06</td>
+        <td>Helmut Kohl; Chancellor of Germany.<p>Annotate where NATO enlargement, European security, or G-7 diplomacy depends on German context.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-02-20-telcon-16.pdf">#19 1994-02-20</a> (3 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-02-13-telcon-26.pdf">#29 1995-02-13</a> (2 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">#31 1995-05-10</a> (2 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf">#33 1995-07-28</a> (2 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-20-telcon-18.pdf">#21 1994-04-20</a> (1 hits)</td>
+      </tr>
+<tr>
+        <td>Watch</td>
+        <td>Kravchuk</td>
+        <td>Person</td>
+        <td>5</td>
+        <td>13</td>
+        <td>1993-09-07 - 1994-01-14</td>
+        <td>Leonid M. Kravchuk; President of Ukraine, 1991-1994.<p>Annotate in trilateral/nuclear-security documents and Budapest Memorandum context.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf">#13 1993-12-22</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-trilateral-yeltsin-kravchuk.pdf">#16 1994-01-14</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-09-07-telcon-10.pdf">#10 1993-09-07</a> (3 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf">#14 1994-01-13</a> (1 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">#15 1994-01-13</a> (1 hits)</td>
+      </tr>
+<tr>
+        <td>Watch</td>
+        <td>Tudjman</td>
+        <td>Person</td>
+        <td>3</td>
+        <td>7</td>
+        <td>1994-09-27 - 1995-10-23</td>
+        <td>Franjo Tudjman; President of Croatia.<p>Annotate if Bosnia/Croatia settlement context is retained in the selected document.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf">#35 1995-10-23</a> (4 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf">#33 1995-07-28</a> (2 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf">#24 1994-09-27</a> (1 hits)</td>
+      </tr>
+<tr>
+        <td>Watch</td>
+        <td>Zyuganov</td>
+        <td>Person</td>
+        <td>3</td>
+        <td>5</td>
+        <td>1996-03-13 - 1996-04-21</td>
+        <td>Gennady A. Zyuganov; Communist Party leader and 1996 Russian presidential candidate.<p>Annotate in documents on Russian elections and U.S. policy toward Russian domestic politics.</p></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf">#42 1996-04-21</a> (3 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-03-13-clinton-yeltsin-sharm-el-sheikh-memcon-cable.pdf">#39 1996-03-13</a> (1 hits); <a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-09-telcon-36.pdf">#40 1996-04-09</a> (1 hits)</td>
+      </tr></tbody>
+        </table>
+      </div>
+      <h2>Document Annotation Queue</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Seq</th><th>Date</th><th>Type</th><th>Score</th><th>Treatment</th><th>Packet</th><th>Document</th><th>Top topics</th><th>Top authorities</th><th>Prompt</th></tr></thead>
+          <tbody><tr>
+        <td>75</td>
+        <td>1999-04-25</td>
+        <td>Telcon</td>
+        <td>215</td>
+        <td>Heavy annotation review</td>
+        <td>453-465</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.</a></td>
+        <td>Kosovo / Balkans (48); NATO / European Security (12); Economic Reform / Assistance (7)</td>
+        <td>Yeltsin (34); Chernomyrdin (32); Gore (29); Milosevic (27); NATO (12); Talbott (6)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security, Economic Reform / Assistance. Authority checks: Yeltsin, Chernomyrdin, Gore, Milosevic, NATO, Talbott. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>31</td>
+        <td>1995-05-10</td>
+        <td>Memcon</td>
+        <td>195</td>
+        <td>Heavy annotation review</td>
+        <td>171-187</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia</a></td>
+        <td>NATO / European Security (67); Iraq / Middle East (17); Ukraine / Nuclear Security (16)</td>
+        <td>NATO (41); Gore (12); Yeltsin (11); Chernomyrdin (8); Kozyrev (3); G-7 (2)</td>
+        <td>Issue context: NATO / European Security, Iraq / Middle East, Ukraine / Nuclear Security. Authority checks: NATO, Gore, Yeltsin, Chernomyrdin, Kozyrev, G-7. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting.</td>
+      </tr>
+<tr>
+        <td>49</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>190</td>
+        <td>Heavy annotation review</td>
+        <td>292-303</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">Helsinki Morning Meeting with President Boris Yeltsin</a></td>
+        <td>NATO / European Security (46); Arms Control / Nonproliferation (43); Ukraine / Nuclear Security (12)</td>
+        <td>NATO (38); Yeltsin (17); Primakov (7); Albright (3); Berger (1); Talbott (1)</td>
+        <td>Issue context: NATO / European Security, Arms Control / Nonproliferation, Ukraine / Nuclear Security. Authority checks: NATO, Yeltsin, Primakov, Albright, Berger, Talbott. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>25</td>
+        <td>1994-09-27</td>
+        <td>Memcon</td>
+        <td>146</td>
+        <td>Heavy annotation review</td>
+        <td>134-144</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House</a></td>
+        <td>Ukraine / Nuclear Security (43); Arms Control / Nonproliferation (42); Iraq / Middle East (3)</td>
+        <td>Yeltsin (31); Christopher (7); Kozyrev (6); Gore (1); Milosevic (1)</td>
+        <td>Issue context: Ukraine / Nuclear Security, Arms Control / Nonproliferation, Iraq / Middle East. Authority checks: Yeltsin, Christopher, Kozyrev, Gore, Milosevic. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>82</td>
+        <td>1999-06-20</td>
+        <td>Memcon</td>
+        <td>142</td>
+        <td>Heavy annotation review</td>
+        <td>494-503</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany</a></td>
+        <td>Arms Control / Nonproliferation (38); Kosovo / Balkans (13); Economic Reform / Assistance (7)</td>
+        <td>Yeltsin (41); Ivanov (10); UN (6); Gore (5); Albright (3); Talbott (3)</td>
+        <td>Issue context: Arms Control / Nonproliferation, Kosovo / Balkans, Economic Reform / Assistance. Authority checks: Yeltsin, Ivanov, UN, Gore, Albright, Talbott. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>4</td>
+        <td>1993-04-04</td>
+        <td>Memcon</td>
+        <td>132</td>
+        <td>Heavy annotation review</td>
+        <td>19-31</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">Meeting with Russian President Boris Yeltsin on Security Issues</a></td>
+        <td>Ukraine / Nuclear Security (18); Economic Reform / Assistance (17); Iraq / Middle East (15)</td>
+        <td>Yeltsin (61); G-7 (5); Christopher (4); Kozyrev (3); Chernomyrdin (1); Gore (1)</td>
+        <td>Issue context: Ukraine / Nuclear Security, Economic Reform / Assistance, Iraq / Middle East. Authority checks: Yeltsin, G-7, Christopher, Kozyrev, Chernomyrdin, Gore. Compare same-day/nearby Public Papers for public framing.</td>
+      </tr>
+<tr>
+        <td>15</td>
+        <td>1994-01-13</td>
+        <td>Memcon</td>
+        <td>127</td>
+        <td>Heavy annotation review</td>
+        <td>80-90</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">President's dinner with President Yeltsin, January 13/14, 1994</a></td>
+        <td>Iraq / Middle East (20); NATO / European Security (9); Ukraine / Nuclear Security (9)</td>
+        <td>Yeltsin (62); NATO (6); Kozyrev (4); Chernomyrdin (2); Gore (2); Christopher (1)</td>
+        <td>Issue context: Iraq / Middle East, NATO / European Security, Ukraine / Nuclear Security. Authority checks: Yeltsin, NATO, Kozyrev, Chernomyrdin, Gore, Christopher. Compare same-day/nearby Public Papers for public framing.</td>
+      </tr>
+<tr>
+        <td>53</td>
+        <td>1997-05-27</td>
+        <td>Memcon</td>
+        <td>117</td>
+        <td>Heavy annotation review</td>
+        <td>325-333</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France</a></td>
+        <td>NATO / European Security (29); Arms Control / Nonproliferation (10); Iraq / Middle East (7)</td>
+        <td>Yeltsin (31); Primakov (11); NATO (10); Albright (6); Berger (4); Talbott (4)</td>
+        <td>Issue context: NATO / European Security, Arms Control / Nonproliferation, Iraq / Middle East. Authority checks: Yeltsin, Primakov, NATO, Albright, Berger, Talbott. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>17</td>
+        <td>1994-01-14</td>
+        <td>Memcon</td>
+        <td>112</td>
+        <td>Heavy annotation review</td>
+        <td>94-101</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf">Second Expanded Bilateral Session with President Boris Yeltsin of Russia</a></td>
+        <td>Arms Control / Nonproliferation (30); Iraq / Middle East (17); Ukraine / Nuclear Security (16)</td>
+        <td>Yeltsin (20); Chernomyrdin (2); Christopher (1); Gore (1); Kozyrev (1); Talbott (1)</td>
+        <td>Issue context: Arms Control / Nonproliferation, Iraq / Middle East, Ukraine / Nuclear Security. Authority checks: Yeltsin, Chernomyrdin, Christopher, Gore, Kozyrev, Talbott. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>54</td>
+        <td>1997-06-20</td>
+        <td>Memcon</td>
+        <td>105</td>
+        <td>Heavy annotation review</td>
+        <td>334-342</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf">Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado</a></td>
+        <td>NATO / European Security (14); Iraq / Middle East (13); Arms Control / Nonproliferation (11)</td>
+        <td>Yeltsin (31); Primakov (7); Albright (5); NATO (4); UN (4); Berger (3)</td>
+        <td>Issue context: NATO / European Security, Iraq / Middle East, Arms Control / Nonproliferation. Authority checks: Yeltsin, Primakov, Albright, NATO, UN, Berger. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>9</td>
+        <td>1993-07-10</td>
+        <td>Memcon</td>
+        <td>100</td>
+        <td>Heavy annotation review</td>
+        <td>46-55</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan</a></td>
+        <td>Ukraine / Nuclear Security (17); Iraq / Middle East (7); Economic Reform / Assistance (4)</td>
+        <td>Yeltsin (48); Christopher (6); Kozyrev (5); Talbott (4); Berger (1); Chernomyrdin (1)</td>
+        <td>Issue context: Ukraine / Nuclear Security, Iraq / Middle East, Economic Reform / Assistance. Authority checks: Yeltsin, Christopher, Kozyrev, Talbott, Berger, Chernomyrdin. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>35</td>
+        <td>1995-10-23</td>
+        <td>Memcon</td>
+        <td>97</td>
+        <td>Heavy annotation review</td>
+        <td>206-218</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf">Clinton-Yeltsin One-on-One</a></td>
+        <td>NATO / European Security (21); Ukraine / Nuclear Security (7); Arms Control / Nonproliferation (5)</td>
+        <td>NATO (18); Yeltsin (15); Gore (5); Chernomyrdin (4); Tudjman (4); Milosevic (2)</td>
+        <td>Issue context: NATO / European Security, Ukraine / Nuclear Security, Arms Control / Nonproliferation. Authority checks: NATO, Yeltsin, Gore, Chernomyrdin, Tudjman, Milosevic. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>52</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>95</td>
+        <td>Heavy annotation review</td>
+        <td>318-324</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf">Helsinki Private Dinner with President Boris Yeltsin</a></td>
+        <td>Iraq / Middle East (15); Ukraine / Nuclear Security (12); NATO / European Security (6)</td>
+        <td>Yeltsin (31); Talbott (4); Chernomyrdin (3); NATO (2)</td>
+        <td>Issue context: Iraq / Middle East, Ukraine / Nuclear Security, NATO / European Security. Authority checks: Yeltsin, Talbott, Chernomyrdin, NATO. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>3</td>
+        <td>1993-04-03</td>
+        <td>Memcon</td>
+        <td>92</td>
+        <td>Heavy annotation review</td>
+        <td>9-18</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">Working Dinner with President Boris Yeltsin</a></td>
+        <td>Economic Reform / Assistance (18); Arms Control / Nonproliferation (4); Russian Politics / Elections (3)</td>
+        <td>Yeltsin (41); Kozyrev (7); Christopher (4); G-7 (4); Chernomyrdin (2); UN (2)</td>
+        <td>Issue context: Economic Reform / Assistance, Arms Control / Nonproliferation, Russian Politics / Elections. Authority checks: Yeltsin, Kozyrev, Christopher, G-7, Chernomyrdin, UN. Compare same-day/nearby Public Papers for public framing.</td>
+      </tr>
+<tr>
+        <td>74</td>
+        <td>1999-04-19</td>
+        <td>Telcon</td>
+        <td>90</td>
+        <td>Heavy annotation review</td>
+        <td>446-452</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf">Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House</a></td>
+        <td>Kosovo / Balkans (33); NATO / European Security (11); Economic Reform / Assistance (2)</td>
+        <td>NATO (11); Milosevic (10); Yeltsin (10); Chernomyrdin (6); Ivanov (2); Albright (1)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security, Economic Reform / Assistance. Authority checks: NATO, Milosevic, Yeltsin, Chernomyrdin, Ivanov, Albright. Use Daily Diary row to verify timing/setting.</td>
+      </tr>
+<tr>
+        <td>24</td>
+        <td>1994-09-27</td>
+        <td>Memcon</td>
+        <td>86</td>
+        <td>Heavy annotation review</td>
+        <td>126-133</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf">Clinton-Yeltsin one-on-one memcon, September 27, 1994</a></td>
+        <td>Kosovo / Balkans (16); Economic Reform / Assistance (5); Iraq / Middle East (5)</td>
+        <td>Yeltsin (29); Milosevic (13); UN (2); G-7 (1); Kohl (1); Kozyrev (1)</td>
+        <td>Issue context: Kosovo / Balkans, Economic Reform / Assistance, Iraq / Middle East. Authority checks: Yeltsin, Milosevic, UN, G-7, Kohl, Kozyrev. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>51</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>85</td>
+        <td>Heavy annotation review</td>
+        <td>313-317</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-afternoon.pdf">Helsinki Afternoon Meeting with President Boris Yeltsin</a></td>
+        <td>NATO / European Security (14); Economic Reform / Assistance (5); Arms Control / Nonproliferation (4)</td>
+        <td>Yeltsin (19); NATO (9); Berger (6); G-7 (2); Primakov (2); Talbott (2)</td>
+        <td>Issue context: NATO / European Security, Economic Reform / Assistance, Arms Control / Nonproliferation. Authority checks: Yeltsin, NATO, Berger, G-7, Primakov, Talbott. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>65</td>
+        <td>1998-06-15</td>
+        <td>Telcon</td>
+        <td>83</td>
+        <td>Heavy annotation review</td>
+        <td>401-406</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf">Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House</a></td>
+        <td>Kosovo / Balkans (25); NATO / European Security (7); Arms Control / Nonproliferation (4)</td>
+        <td>Yeltsin (13); Milosevic (12); NATO (7); Primakov (3); IMF (2); UN (2)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security, Arms Control / Nonproliferation. Authority checks: Yeltsin, Milosevic, NATO, Primakov, IMF, UN. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>14</td>
+        <td>1994-01-13</td>
+        <td>Memcon</td>
+        <td>82</td>
+        <td>Heavy annotation review</td>
+        <td>74-79</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf">One-on-One Meeting with President Boris Yeltsin of Russia</a></td>
+        <td>Economic Reform / Assistance (28); Russian Politics / Elections (11); Iraq / Middle East (5)</td>
+        <td>Yeltsin (18); G-7 (3); NATO (2); IMF (1); Kozyrev (1); Kravchuk (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Russian Politics / Elections, Iraq / Middle East. Authority checks: Yeltsin, G-7, NATO, IMF, Kozyrev, Kravchuk. Compare same-day/nearby Public Papers for public framing.</td>
+      </tr>
+<tr>
+        <td>50</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>82</td>
+        <td>Heavy annotation review</td>
+        <td>304-312</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf">Helsinki Working Lunch with President Boris Yeltsin</a></td>
+        <td>NATO / European Security (10); Economic Reform / Assistance (9); Russian Politics / Elections (7)</td>
+        <td>Yeltsin (23); Chernomyrdin (3); Gore (3); IMF (2); Talbott (2); Albright (1)</td>
+        <td>Issue context: NATO / European Security, Economic Reform / Assistance, Russian Politics / Elections. Authority checks: Yeltsin, Chernomyrdin, Gore, IMF, Talbott, Albright. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>62</td>
+        <td>1998-05-17</td>
+        <td>Memcon</td>
+        <td>82</td>
+        <td>Heavy annotation review</td>
+        <td>383-391</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-17-memcon-54.pdf">Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England</a></td>
+        <td>Arms Control / Nonproliferation (10); Kosovo / Balkans (9); NATO / European Security (5)</td>
+        <td>Yeltsin (30); Primakov (4); Berger (3); Chernomyrdin (3); Milosevic (3); UN (3)</td>
+        <td>Issue context: Arms Control / Nonproliferation, Kosovo / Balkans, NATO / European Security. Authority checks: Yeltsin, Primakov, Berger, Chernomyrdin, Milosevic, UN. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>42</td>
+        <td>1996-04-21</td>
+        <td>Memcon</td>
+        <td>79</td>
+        <td>Heavy annotation review</td>
+        <td>261-268</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf">Luncheon Meeting with Russian President Boris Yeltsin</a></td>
+        <td>Economic Reform / Assistance (17); Russian Politics / Elections (11); Arms Control / Nonproliferation (3)</td>
+        <td>Yeltsin (18); G-7 (11); Zyuganov (3); Berger (1); Ivanov (1); Talbott (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Russian Politics / Elections, Arms Control / Nonproliferation. Authority checks: Yeltsin, G-7, Zyuganov, Berger, Ivanov, Talbott. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>13</td>
+        <td>1993-12-22</td>
+        <td>Telcon</td>
+        <td>77</td>
+        <td>Heavy annotation review</td>
+        <td>69-73</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf">Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House</a></td>
+        <td>Economic Reform / Assistance (19); Ukraine / Nuclear Security (14); Russian Politics / Elections (7)</td>
+        <td>Yeltsin (14); NATO (5); Kravchuk (4); Gore (3); G-7 (2); IMF (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Ukraine / Nuclear Security, Russian Politics / Elections. Authority checks: Yeltsin, NATO, Kravchuk, Gore, G-7, IMF. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>32</td>
+        <td>1995-06-17</td>
+        <td>Memcon</td>
+        <td>76</td>
+        <td>Heavy annotation review</td>
+        <td>188-195</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf">Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada</a></td>
+        <td>NATO / European Security (18); Ukraine / Nuclear Security (9); Chechnya / Caucasus (8)</td>
+        <td>NATO (13); Yeltsin (6); Chernomyrdin (4); Gore (4); UN (3); Christopher (1)</td>
+        <td>Issue context: NATO / European Security, Ukraine / Nuclear Security, Chechnya / Caucasus. Authority checks: NATO, Yeltsin, Chernomyrdin, Gore, UN, Christopher. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>33</td>
+        <td>1995-07-28</td>
+        <td>Telcon</td>
+        <td>76</td>
+        <td>Heavy annotation review</td>
+        <td>196-201</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf">Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House</a></td>
+        <td>Kosovo / Balkans (13); NATO / European Security (6); Chechnya / Caucasus (5)</td>
+        <td>Yeltsin (17); Kozyrev (7); Milosevic (7); UN (7); NATO (6); Kohl (2)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security, Chechnya / Caucasus. Authority checks: Yeltsin, Kozyrev, Milosevic, UN, NATO, Kohl. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>84</td>
+        <td>1999-11-19</td>
+        <td>Memcon</td>
+        <td>74</td>
+        <td>Heavy annotation review</td>
+        <td>510-517</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf">Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey</a></td>
+        <td>Arms Control / Nonproliferation (12); Chechnya / Caucasus (8); Ukraine / Nuclear Security (7)</td>
+        <td>Yeltsin (28); Ivanov (8); Albright (3); Berger (2)</td>
+        <td>Issue context: Arms Control / Nonproliferation, Chechnya / Caucasus, Ukraine / Nuclear Security. Authority checks: Yeltsin, Ivanov, Albright, Berger. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>38</td>
+        <td>1996-02-21</td>
+        <td>Telcon</td>
+        <td>72</td>
+        <td>Heavy annotation review</td>
+        <td>231-235</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-02-21-telcon-34.pdf">Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House</a></td>
+        <td>NATO / European Security (12); Russian Politics / Elections (10); Arms Control / Nonproliferation (9)</td>
+        <td>Yeltsin (18); NATO (9); Chernomyrdin (3); Christopher (2); Primakov (2); Gore (1)</td>
+        <td>Issue context: NATO / European Security, Russian Politics / Elections, Arms Control / Nonproliferation. Authority checks: Yeltsin, NATO, Chernomyrdin, Christopher, Primakov, Gore. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>37</td>
+        <td>1996-01-26</td>
+        <td>Telcon</td>
+        <td>71</td>
+        <td>Heavy annotation review</td>
+        <td>225-230</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf">Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House</a></td>
+        <td>Russian Politics / Elections (15); Economic Reform / Assistance (7); Chechnya / Caucasus (6)</td>
+        <td>Yeltsin (20); NATO (6); Chernomyrdin (4); Gore (2); IMF (2); Christopher (1)</td>
+        <td>Issue context: Russian Politics / Elections, Economic Reform / Assistance, Chechnya / Caucasus. Authority checks: Yeltsin, NATO, Chernomyrdin, Gore, IMF, Christopher. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>8</td>
+        <td>1993-06-28</td>
+        <td>Telcon</td>
+        <td>69</td>
+        <td>Heavy annotation review</td>
+        <td>41-45</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-06-28-telcon-08.pdf">Telephone call with President Boris Yeltsin of Russia, June 28, 1993, White House</a></td>
+        <td>Economic Reform / Assistance (17); Arms Control / Nonproliferation (6); Iraq / Middle East (5)</td>
+        <td>Yeltsin (12); G-7 (9); Chernomyrdin (3); Talbott (3); Gore (2); IMF (2)</td>
+        <td>Issue context: Economic Reform / Assistance, Arms Control / Nonproliferation, Iraq / Middle East. Authority checks: Yeltsin, G-7, Chernomyrdin, Talbott, Gore, IMF. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>55</td>
+        <td>1997-10-30</td>
+        <td>Telcon</td>
+        <td>69</td>
+        <td>Heavy annotation review</td>
+        <td>343-349</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-10-30-telcon-47.pdf">Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House</a></td>
+        <td>Arms Control / Nonproliferation (21); Russian Politics / Elections (5); Iraq / Middle East (3)</td>
+        <td>Yeltsin (21); Primakov (5); Albright (3); Chernomyrdin (1)</td>
+        <td>Issue context: Arms Control / Nonproliferation, Russian Politics / Elections, Iraq / Middle East. Authority checks: Yeltsin, Primakov, Albright, Chernomyrdin. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>68</td>
+        <td>1998-08-14</td>
+        <td>Telcon</td>
+        <td>68</td>
+        <td>Heavy annotation review</td>
+        <td>415-421</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-14-telcon-61.pdf">Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House</a></td>
+        <td>Economic Reform / Assistance (11); Kosovo / Balkans (9); Russian Politics / Elections (9)</td>
+        <td>Yeltsin (20); IMF (5); Milosevic (5); Albright (1); Gore (1); Primakov (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Kosovo / Balkans, Russian Politics / Elections. Authority checks: Yeltsin, IMF, Milosevic, Albright, Gore, Primakov. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>16</td>
+        <td>1994-01-14</td>
+        <td>Memcon</td>
+        <td>66</td>
+        <td>Heavy annotation review</td>
+        <td>91-93</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-trilateral-yeltsin-kravchuk.pdf">Trilateral Meeting with President Boris Yeltsin of Russia on Security Issues</a></td>
+        <td>Ukraine / Nuclear Security (29); Arms Control / Nonproliferation (3); Economic Reform / Assistance (1)</td>
+        <td>Yeltsin (7); Kravchuk (4); Chernomyrdin (1); Kozyrev (1); Talbott (1)</td>
+        <td>Issue context: Ukraine / Nuclear Security, Arms Control / Nonproliferation, Economic Reform / Assistance. Authority checks: Yeltsin, Kravchuk, Chernomyrdin, Kozyrev, Talbott. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>41</td>
+        <td>1996-04-21</td>
+        <td>Memcon</td>
+        <td>65</td>
+        <td>Heavy annotation review</td>
+        <td>247-260</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-one-on-one.pdf">POTUS-Yeltsin One-on-One</a></td>
+        <td>Iraq / Middle East (13); Arms Control / Nonproliferation (11); Chechnya / Caucasus (7)</td>
+        <td>Yeltsin (7); Primakov (5); NATO (3); Christopher (2); Talbott (2); Chernomyrdin (1)</td>
+        <td>Issue context: Iraq / Middle East, Arms Control / Nonproliferation, Chechnya / Caucasus. Authority checks: Yeltsin, Primakov, NATO, Christopher, Talbott, Chernomyrdin. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>30</td>
+        <td>1995-04-27</td>
+        <td>Telcon</td>
+        <td>64</td>
+        <td>Heavy annotation review</td>
+        <td>166-170</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-04-27-telcon-27.pdf">Telephone call with President Boris Yeltsin of Russia, April 27, 1995, White House</a></td>
+        <td>NATO / European Security (16); Arms Control / Nonproliferation (4); Chechnya / Caucasus (3)</td>
+        <td>Yeltsin (16); NATO (14); Gore (3); Kozyrev (3); Chernomyrdin (2); Christopher (1)</td>
+        <td>Issue context: NATO / European Security, Arms Control / Nonproliferation, Chechnya / Caucasus. Authority checks: Yeltsin, NATO, Gore, Kozyrev, Chernomyrdin, Christopher.</td>
+      </tr>
+<tr>
+        <td>28</td>
+        <td>1994-10-10</td>
+        <td>Telcon</td>
+        <td>63</td>
+        <td>Heavy annotation review</td>
+        <td>156-160</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-10-clinton-yeltsin-iraq-telcon.pdf">Telephone call with President Boris Yeltsin of Russia, October 10, 1994, White House</a></td>
+        <td>Iraq / Middle East (22); Economic Reform / Assistance (5); Ukraine / Nuclear Security (2)</td>
+        <td>Yeltsin (12); Kozyrev (6); Christopher (3); Chernomyrdin (2); Primakov (2); Kohl (1)</td>
+        <td>Issue context: Iraq / Middle East, Economic Reform / Assistance, Ukraine / Nuclear Security. Authority checks: Yeltsin, Kozyrev, Christopher, Chernomyrdin, Primakov, Kohl. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>72</td>
+        <td>1998-12-30</td>
+        <td>Telcon</td>
+        <td>62</td>
+        <td>Heavy annotation review</td>
+        <td>435-439</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-12-30-clinton-yeltsin-telcon-actual-pages.pdf">Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House</a></td>
+        <td>Economic Reform / Assistance (15); Arms Control / Nonproliferation (9); Iraq / Middle East (8)</td>
+        <td>Yeltsin (7); IMF (6); Primakov (6); NATO (5); Gore (2); UN (2)</td>
+        <td>Issue context: Economic Reform / Assistance, Arms Control / Nonproliferation, Iraq / Middle East. Authority checks: Yeltsin, IMF, Primakov, NATO, Gore, UN.</td>
+      </tr>
+<tr>
+        <td>80</td>
+        <td>1999-06-13</td>
+        <td>Telcon</td>
+        <td>60</td>
+        <td>Heavy annotation review</td>
+        <td>481-488</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-13-telcon-75.pdf">Telephone call with President Boris Yeltsin of Russia, June 13, 1999, White House</a></td>
+        <td>Kosovo / Balkans (24)</td>
+        <td>Yeltsin (24); UN (4); Albright (1); Berger (1); Gore (1); Ivanov (1)</td>
+        <td>Issue context: Kosovo / Balkans. Authority checks: Yeltsin, UN, Albright, Berger, Gore, Ivanov. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>10</td>
+        <td>1993-09-07</td>
+        <td>Telcon</td>
+        <td>59</td>
+        <td>Heavy annotation review</td>
+        <td>56-60</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-09-07-telcon-10.pdf">Telephone call with President Boris Yeltsin of Russia, September 7, 1993, White House</a></td>
+        <td>Ukraine / Nuclear Security (12); Economic Reform / Assistance (7); Arms Control / Nonproliferation (2)</td>
+        <td>Yeltsin (17); Chernomyrdin (4); Kozyrev (3); Kravchuk (3); Gore (2); Christopher (1)</td>
+        <td>Issue context: Ukraine / Nuclear Security, Economic Reform / Assistance, Arms Control / Nonproliferation. Authority checks: Yeltsin, Chernomyrdin, Kozyrev, Kravchuk, Gore, Christopher. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>22</td>
+        <td>1994-06-13</td>
+        <td>Telcon</td>
+        <td>59</td>
+        <td>Heavy annotation review</td>
+        <td>117-121</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-06-13-telcon-20.pdf">Telephone Call with President Boris Yeltsin of Russia, June 13, 1994, White House</a></td>
+        <td>Iraq / Middle East (17); Arms Control / Nonproliferation (3); Economic Reform / Assistance (2)</td>
+        <td>Yeltsin (17); Christopher (5); Kozyrev (5); G-7 (2); UN (2)</td>
+        <td>Issue context: Iraq / Middle East, Arms Control / Nonproliferation, Economic Reform / Assistance. Authority checks: Yeltsin, Christopher, Kozyrev, G-7, UN. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>73</td>
+        <td>1999-03-24</td>
+        <td>Telcon</td>
+        <td>57</td>
+        <td>Heavy annotation review</td>
+        <td>440-445</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-03-24-telcon-68.pdf">Telephone call with President Boris Yeltsin of Russia, March 24, 1999, White House</a></td>
+        <td>Kosovo / Balkans (18); Russian Politics / Elections (4); Ukraine / Nuclear Security (3)</td>
+        <td>Yeltsin (10); Milosevic (9); Ivanov (1); NATO (1); Primakov (1)</td>
+        <td>Issue context: Kosovo / Balkans, Russian Politics / Elections, Ukraine / Nuclear Security. Authority checks: Yeltsin, Milosevic, Ivanov, NATO, Primakov. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting.</td>
+      </tr>
+<tr>
+        <td>21</td>
+        <td>1994-04-20</td>
+        <td>Telcon</td>
+        <td>56</td>
+        <td>Heavy annotation review</td>
+        <td>112-116</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-20-telcon-18.pdf">Telephone call with President Boris Yeltsin of Russia, April 20, 1994, White House</a></td>
+        <td>Kosovo / Balkans (6); NATO / European Security (6); Economic Reform / Assistance (4)</td>
+        <td>Yeltsin (12); UN (10); NATO (6); Kozyrev (3); Christopher (2); Kohl (1)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security, Economic Reform / Assistance. Authority checks: Yeltsin, UN, NATO, Kozyrev, Christopher, Kohl. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>39</td>
+        <td>1996-03-13</td>
+        <td>Memcon</td>
+        <td>56</td>
+        <td>Heavy annotation review</td>
+        <td>236-240</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-03-13-clinton-yeltsin-sharm-el-sheikh-memcon-cable.pdf">Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt</a></td>
+        <td>Russian Politics / Elections (9); Economic Reform / Assistance (2)</td>
+        <td>Yeltsin (27); Primakov (6); Christopher (3); Chernomyrdin (2); Gore (2); Talbott (1)</td>
+        <td>Issue context: Russian Politics / Elections, Economic Reform / Assistance. Authority checks: Yeltsin, Primakov, Christopher, Chernomyrdin, Gore, Talbott. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>40</td>
+        <td>1996-04-09</td>
+        <td>Telcon</td>
+        <td>56</td>
+        <td>Heavy annotation review</td>
+        <td>241-246</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-09-telcon-36.pdf">Telephone call with President Boris Yeltsin of Russia, April 9, 1996, White House</a></td>
+        <td>Ukraine / Nuclear Security (8); Russian Politics / Elections (6); Arms Control / Nonproliferation (5)</td>
+        <td>Yeltsin (19); G-7 (3); Primakov (3); Christopher (2); Talbott (1); Zyuganov (1)</td>
+        <td>Issue context: Ukraine / Nuclear Security, Russian Politics / Elections, Arms Control / Nonproliferation. Authority checks: Yeltsin, G-7, Primakov, Christopher, Talbott, Zyuganov. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>67</td>
+        <td>1998-07-10</td>
+        <td>Telcon</td>
+        <td>56</td>
+        <td>Heavy annotation review</td>
+        <td>410-414</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-07-10-telcon-60.pdf">Telephone call with President Boris Yeltsin of Russia, July 10, 1998, White House</a></td>
+        <td>Russian Politics / Elections (10); Economic Reform / Assistance (7); Iraq / Middle East (3)</td>
+        <td>Yeltsin (17); IMF (5); Berger (2)</td>
+        <td>Issue context: Russian Politics / Elections, Economic Reform / Assistance, Iraq / Middle East. Authority checks: Yeltsin, IMF, Berger. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>29</td>
+        <td>1995-02-13</td>
+        <td>Telcon</td>
+        <td>55</td>
+        <td>Heavy annotation review</td>
+        <td>161-165</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-02-13-telcon-26.pdf">Telephone call with President Boris Yeltsin of Russia, February 13, 1995, White House</a></td>
+        <td>Chechnya / Caucasus (15); Economic Reform / Assistance (12); Russian Politics / Elections (7)</td>
+        <td>Yeltsin (15); Kohl (2)</td>
+        <td>Issue context: Chechnya / Caucasus, Economic Reform / Assistance, Russian Politics / Elections. Authority checks: Yeltsin, Kohl. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>48</td>
+        <td>1997-02-27</td>
+        <td>Telcon</td>
+        <td>54</td>
+        <td>Heavy annotation review</td>
+        <td>288-291</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-02-27-telcon-43.pdf">Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House</a></td>
+        <td>NATO / European Security (16); Arms Control / Nonproliferation (11); Economic Reform / Assistance (3)</td>
+        <td>Yeltsin (10); Chernomyrdin (3); NATO (3); Gore (2); Albright (1); Talbott (1)</td>
+        <td>Issue context: NATO / European Security, Arms Control / Nonproliferation, Economic Reform / Assistance. Authority checks: Yeltsin, Chernomyrdin, NATO, Gore, Albright, Talbott. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>61</td>
+        <td>1998-05-12</td>
+        <td>Telcon</td>
+        <td>54</td>
+        <td>Heavy annotation review</td>
+        <td>377-382</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-12-telcon-53.pdf">Telephone call with President Boris Yeltsin of Russia, May 12, 1998, White House</a></td>
+        <td>Arms Control / Nonproliferation (13); Ukraine / Nuclear Security (6); Kosovo / Balkans (5)</td>
+        <td>Yeltsin (17); Berger (2); Talbott (1)</td>
+        <td>Issue context: Arms Control / Nonproliferation, Ukraine / Nuclear Security, Kosovo / Balkans. Authority checks: Yeltsin, Berger, Talbott. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>26</td>
+        <td>1994-09-28</td>
+        <td>Memcon</td>
+        <td>50</td>
+        <td>Heavy annotation review</td>
+        <td>145-150</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-09-28-second-one-on-one.pdf">Second Clinton/Yeltsin One-on-One</a></td>
+        <td>NATO / European Security (12); Ukraine / Nuclear Security (6); Iraq / Middle East (4)</td>
+        <td>NATO (11); UN (7); Talbott (3); Yeltsin (2); Kohl (1)</td>
+        <td>Issue context: NATO / European Security, Ukraine / Nuclear Security, Iraq / Middle East. Authority checks: NATO, UN, Talbott, Yeltsin, Kohl. Compare same-day/nearby Public Papers for public framing.</td>
+      </tr>
+<tr>
+        <td>34</td>
+        <td>1995-09-27</td>
+        <td>Telcon</td>
+        <td>50</td>
+        <td>Heavy annotation review</td>
+        <td>202-205</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-09-27-telcon-31.pdf">Telephone call with President Boris Yeltsin of Russia, September 27, 1995, White House</a></td>
+        <td>NATO / European Security (8); Ukraine / Nuclear Security (5); Arms Control / Nonproliferation (4)</td>
+        <td>Yeltsin (17); NATO (6); Chernomyrdin (2); Gore (1); Kozyrev (1)</td>
+        <td>Issue context: NATO / European Security, Ukraine / Nuclear Security, Arms Control / Nonproliferation. Authority checks: Yeltsin, NATO, Chernomyrdin, Gore, Kozyrev. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>43</td>
+        <td>1996-05-07</td>
+        <td>Telcon</td>
+        <td>50</td>
+        <td>Heavy annotation review</td>
+        <td>269-273</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-05-07-telcon-38.pdf">Telephone call with President Boris Yeltsin of Russia, May 7, 1996, White House</a></td>
+        <td>Russian Politics / Elections (10); Chechnya / Caucasus (5); Economic Reform / Assistance (5)</td>
+        <td>Yeltsin (18); IMF (3); Chernomyrdin (1)</td>
+        <td>Issue context: Russian Politics / Elections, Chechnya / Caucasus, Economic Reform / Assistance. Authority checks: Yeltsin, IMF, Chernomyrdin. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>70</td>
+        <td>1998-09-12</td>
+        <td>Telcon</td>
+        <td>50</td>
+        <td>Heavy annotation review</td>
+        <td>427-431</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-09-12-telcon-64.pdf">Telephone call with President Boris Yeltsin of Russia, September 12, 1998, White House</a></td>
+        <td>Economic Reform / Assistance (8); Russian Politics / Elections (4); Iraq / Middle East (1)</td>
+        <td>Primakov (15); Yeltsin (10); Gore (2); Ivanov (2); Albright (1); Berger (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Russian Politics / Elections, Iraq / Middle East. Authority checks: Primakov, Yeltsin, Gore, Ivanov, Albright, Berger. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>18</td>
+        <td>1994-01-15</td>
+        <td>Memcon</td>
+        <td>49</td>
+        <td>Heavy annotation review</td>
+        <td>102-103</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-15-memcon-one-on-one.pdf">One-on-One Meeting with President Boris Yeltsin of Russia</a></td>
+        <td>Economic Reform / Assistance (7); Russian Politics / Elections (3)</td>
+        <td>Yeltsin (25); G-7 (3); IMF (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Russian Politics / Elections. Authority checks: Yeltsin, G-7, IMF. Compare same-day/nearby Public Papers for public framing.</td>
+      </tr>
+<tr>
+        <td>60</td>
+        <td>1998-04-06</td>
+        <td>Telcon</td>
+        <td>49</td>
+        <td>Heavy annotation review</td>
+        <td>371-376</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-04-06-telcon-52.pdf">Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House</a></td>
+        <td>Arms Control / Nonproliferation (8); Kosovo / Balkans (8); Iraq / Middle East (4)</td>
+        <td>Yeltsin (14); Milosevic (3); Gore (2); Primakov (2); Albright (1); Chernomyrdin (1)</td>
+        <td>Issue context: Arms Control / Nonproliferation, Kosovo / Balkans, Iraq / Middle East. Authority checks: Yeltsin, Milosevic, Gore, Primakov, Albright, Chernomyrdin. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>20</td>
+        <td>1994-04-10</td>
+        <td>Telcon</td>
+        <td>48</td>
+        <td>Heavy annotation review</td>
+        <td>108-111</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-10-telcon-17.pdf">Telephone call with President Boris Yeltsin of Russia, April 10, 1994, White House</a></td>
+        <td>NATO / European Security (5); Kosovo / Balkans (2)</td>
+        <td>UN (13); Yeltsin (12); NATO (5); Kozyrev (2); Milosevic (2); Christopher (1)</td>
+        <td>Issue context: NATO / European Security, Kosovo / Balkans. Authority checks: UN, Yeltsin, NATO, Kozyrev, Milosevic, Christopher. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>27</td>
+        <td>1994-10-05</td>
+        <td>Telcon</td>
+        <td>48</td>
+        <td>Heavy annotation review</td>
+        <td>151-155</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-05-telcon-24.pdf">Telephone call with President Boris Yeltsin, October 5, 1994, White House</a></td>
+        <td>Iraq / Middle East (6); Economic Reform / Assistance (4); Russian Politics / Elections (1)</td>
+        <td>Yeltsin (13); Chernomyrdin (7); Gore (4); Christopher (1); Kozyrev (1); Primakov (1)</td>
+        <td>Issue context: Iraq / Middle East, Economic Reform / Assistance, Russian Politics / Elections. Authority checks: Yeltsin, Chernomyrdin, Gore, Christopher, Kozyrev, Primakov. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>36</td>
+        <td>1995-10-23</td>
+        <td>Memcon</td>
+        <td>48</td>
+        <td>Heavy annotation review</td>
+        <td>219-224</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-lunch.pdf">Lunch with Boris Yeltsin, President of Russian Federation</a></td>
+        <td>NATO / European Security (1); Ukraine / Nuclear Security (1)</td>
+        <td>Yeltsin (27); Kozyrev (2); Christopher (1); NATO (1); Talbott (1)</td>
+        <td>Issue context: NATO / European Security, Ukraine / Nuclear Security. Authority checks: Yeltsin, Kozyrev, Christopher, NATO, Talbott. Compare same-day/nearby Public Papers for public framing.</td>
+      </tr>
+<tr>
+        <td>64</td>
+        <td>1998-05-28</td>
+        <td>Telcon</td>
+        <td>48</td>
+        <td>Heavy annotation review</td>
+        <td>396-400</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-28-telcon-56.pdf">Telephone call with President Boris Yeltsin of Russia, May 28, 1998, White House</a></td>
+        <td>Economic Reform / Assistance (15); Russian Politics / Elections (1); Ukraine / Nuclear Security (1)</td>
+        <td>Yeltsin (12); IMF (6); Albright (1); Primakov (1); UN (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Russian Politics / Elections, Ukraine / Nuclear Security. Authority checks: Yeltsin, IMF, Albright, Primakov, UN. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>57</td>
+        <td>1997-11-22</td>
+        <td>Telcon</td>
+        <td>46</td>
+        <td>Heavy annotation review</td>
+        <td>354-360</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-11-22-telcon-49.pdf">Telephone call with President Boris Yeltsin of Russia, November 22, 1997, White House</a></td>
+        <td>Iraq / Middle East (10); Arms Control / Nonproliferation (7); Russian Politics / Elections (5)</td>
+        <td>Yeltsin (12); Primakov (3); Albright (2); UN (1)</td>
+        <td>Issue context: Iraq / Middle East, Arms Control / Nonproliferation, Russian Politics / Elections. Authority checks: Yeltsin, Primakov, Albright, UN. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>76</td>
+        <td>1999-05-02</td>
+        <td>Telcon</td>
+        <td>45</td>
+        <td>Heavy annotation review</td>
+        <td>466-470</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-05-02-telcon-71.pdf">Telephone call with President Boris Yeltsin of Russia, May 2, 1999, White House</a></td>
+        <td>Kosovo / Balkans (5)</td>
+        <td>Yeltsin (16); Chernomyrdin (8); Gore (5); Milosevic (1)</td>
+        <td>Issue context: Kosovo / Balkans. Authority checks: Yeltsin, Chernomyrdin, Gore, Milosevic. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>78</td>
+        <td>1999-06-08</td>
+        <td>Telcon</td>
+        <td>45</td>
+        <td>Heavy annotation review</td>
+        <td>474-477</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-08-telcon-73.pdf">Telephone call with President Boris Yeltsin of Russia, June 8, 1999, White House</a></td>
+        <td>Kosovo / Balkans (9); NATO / European Security (1)</td>
+        <td>Yeltsin (7); Chernomyrdin (5); Ivanov (5); Milosevic (5); UN (4); NATO (1)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security. Authority checks: Yeltsin, Chernomyrdin, Ivanov, Milosevic, UN, NATO. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting.</td>
+      </tr>
+<tr>
+        <td>83</td>
+        <td>1999-09-08</td>
+        <td>Telcon</td>
+        <td>45</td>
+        <td>Heavy annotation review</td>
+        <td>504-509</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-09-08-telcon-78.pdf">Telephone call with President Boris Yeltsin of Russia, September 8, 1999, White House</a></td>
+        <td>Arms Control / Nonproliferation (19); Chechnya / Caucasus (3); Russian Politics / Elections (3)</td>
+        <td>Yeltsin (12); Ivanov (2); Albright (1); Gore (1); Talbott (1); UN (1)</td>
+        <td>Issue context: Arms Control / Nonproliferation, Chechnya / Caucasus, Russian Politics / Elections. Authority checks: Yeltsin, Ivanov, Albright, Gore, Talbott, UN. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>58</td>
+        <td>1998-02-02</td>
+        <td>Telcon</td>
+        <td>44</td>
+        <td>Standard annotation review</td>
+        <td>361-365</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-02-02-telcon-50.pdf">Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House</a></td>
+        <td>Iraq / Middle East (15); Arms Control / Nonproliferation (1); Russian Politics / Elections (1)</td>
+        <td>Yeltsin (13); Primakov (3); Albright (2); Chernomyrdin (2); Gore (1)</td>
+        <td>Issue context: Iraq / Middle East, Arms Control / Nonproliferation, Russian Politics / Elections. Authority checks: Yeltsin, Primakov, Albright, Chernomyrdin, Gore. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>71</td>
+        <td>1998-10-05</td>
+        <td>Telcon</td>
+        <td>43</td>
+        <td>Standard annotation review</td>
+        <td>432-434</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-10-05-clinton-yeltsin-telcon-actual-pages.pdf">Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House</a></td>
+        <td>Kosovo / Balkans (22); NATO / European Security (1)</td>
+        <td>Yeltsin (8); Milosevic (5); Ivanov (1); NATO (1); UN (1)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security. Authority checks: Yeltsin, Milosevic, Ivanov, NATO, UN. Use Daily Diary row to verify timing/setting.</td>
+      </tr>
+<tr>
+        <td>59</td>
+        <td>1998-02-23</td>
+        <td>Telcon</td>
+        <td>42</td>
+        <td>Standard annotation review</td>
+        <td>366-370</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-02-23-telcon-51.pdf">Telephone call with President Boris Yeltsin of Russia, February 23, 1998, White House</a></td>
+        <td>Iraq / Middle East (7); Arms Control / Nonproliferation (6); Russian Politics / Elections (3)</td>
+        <td>Yeltsin (16); Primakov (2); UN (2)</td>
+        <td>Issue context: Iraq / Middle East, Arms Control / Nonproliferation, Russian Politics / Elections. Authority checks: Yeltsin, Primakov, UN. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>69</td>
+        <td>1998-08-25</td>
+        <td>Telcon</td>
+        <td>39</td>
+        <td>Standard annotation review</td>
+        <td>422-426</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-25-telcon-62.pdf">Telephone call with President Boris Yeltsin of Russia, August 25, 1998, Martha's Vineyard, Massachusetts</a></td>
+        <td>Iraq / Middle East (7); Kosovo / Balkans (4); Arms Control / Nonproliferation (3)</td>
+        <td>Yeltsin (14); Chernomyrdin (2); Gore (2); Milosevic (1); UN (1)</td>
+        <td>Issue context: Iraq / Middle East, Kosovo / Balkans, Arms Control / Nonproliferation. Authority checks: Yeltsin, Chernomyrdin, Gore, Milosevic, UN. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>2</td>
+        <td>1993-02-10</td>
+        <td>Telcon</td>
+        <td>37</td>
+        <td>Standard annotation review</td>
+        <td>5-8</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-02-10-telcon-02.pdf">Telephone call with President Boris Yeltsin of Russia, February 10, 1993, White House</a></td>
+        <td>Kosovo / Balkans (7); NATO / European Security (3); Iraq / Middle East (1)</td>
+        <td>Yeltsin (7); UN (4); Christopher (3); Kozyrev (3); NATO (3); Milosevic (2)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security, Iraq / Middle East. Authority checks: Yeltsin, UN, Christopher, Kozyrev, NATO, Milosevic. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>19</td>
+        <td>1994-02-20</td>
+        <td>Telcon</td>
+        <td>37</td>
+        <td>Standard annotation review</td>
+        <td>104-107</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-02-20-telcon-16.pdf">Telephone call with President Boris Yeltsin of Russia, February 20, 1994, White House White House</a></td>
+        <td>Kosovo / Balkans (6); NATO / European Security (1)</td>
+        <td>Yeltsin (12); Kohl (3); Milosevic (3); UN (2); Christopher (1); Kozyrev (1)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security. Authority checks: Yeltsin, Kohl, Milosevic, UN, Christopher, Kozyrev. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>44</td>
+        <td>1996-06-18</td>
+        <td>Telcon</td>
+        <td>37</td>
+        <td>Standard annotation review</td>
+        <td>274-276</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-06-18-telcon-39.pdf">Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House</a></td>
+        <td>Russian Politics / Elections (4); Economic Reform / Assistance (2); NATO / European Security (1)</td>
+        <td>Yeltsin (12); Chernomyrdin (1); NATO (1)</td>
+        <td>Issue context: Russian Politics / Elections, Economic Reform / Assistance, NATO / European Security. Authority checks: Yeltsin, Chernomyrdin, NATO. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>45</td>
+        <td>1996-07-05</td>
+        <td>Telcon</td>
+        <td>37</td>
+        <td>Standard annotation review</td>
+        <td>277-280</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-07-05-telcon-40.pdf">Telephone call with President Boris Yeltsin of Russia, July 5, 1996, White House</a></td>
+        <td>Russian Politics / Elections (5); Arms Control / Nonproliferation (2); NATO / European Security (1)</td>
+        <td>Yeltsin (10); Chernomyrdin (4); Gore (4); Christopher (1); Kohl (1); NATO (1)</td>
+        <td>Issue context: Russian Politics / Elections, Arms Control / Nonproliferation, NATO / European Security. Authority checks: Yeltsin, Chernomyrdin, Gore, Christopher, Kohl, NATO. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>11</td>
+        <td>1993-09-21</td>
+        <td>Telcon</td>
+        <td>35</td>
+        <td>Standard annotation review</td>
+        <td>61-64</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-09-21-telcon-11.pdf">Telephone call with President Boris Yeltsin of Russia, September 21, 1993, White House</a></td>
+        <td>Economic Reform / Assistance (7); Russian Politics / Elections (4)</td>
+        <td>Yeltsin (13); Christopher (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Russian Politics / Elections. Authority checks: Yeltsin, Christopher. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>56</td>
+        <td>1997-11-16</td>
+        <td>Telcon</td>
+        <td>35</td>
+        <td>Standard annotation review</td>
+        <td>350-353</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-11-16-telcon-48.pdf">Telephone call with President Boris Yeltsin of Russia, November 16, 1997, Malibu, California</a></td>
+        <td>Iraq / Middle East (9); Arms Control / Nonproliferation (2); Ukraine / Nuclear Security (1)</td>
+        <td>Yeltsin (11); Primakov (4); Albright (2); UN (2)</td>
+        <td>Issue context: Iraq / Middle East, Arms Control / Nonproliferation, Ukraine / Nuclear Security. Authority checks: Yeltsin, Primakov, Albright, UN. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>81</td>
+        <td>1999-06-14</td>
+        <td>Telcon</td>
+        <td>34</td>
+        <td>Standard annotation review</td>
+        <td>489-493</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-14-telcon-76.pdf">Telephone call with President Boris Yeltsin of Russia, June 14, 1999, White House</a></td>
+        <td>Kosovo / Balkans (9); NATO / European Security (1)</td>
+        <td>Yeltsin (15); Albright (1); Gore (1); Ivanov (1)</td>
+        <td>Issue context: Kosovo / Balkans, NATO / European Security. Authority checks: Yeltsin, Albright, Gore, Ivanov. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>1</td>
+        <td>1993-01-23</td>
+        <td>Telcon</td>
+        <td>33</td>
+        <td>Standard annotation review</td>
+        <td>1-4</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-01-23-telcon-01.pdf">Telephone call with President Boris Yeltsin of Russia, January 23, 1993, White House</a></td>
+        <td>Economic Reform / Assistance (4); Arms Control / Nonproliferation (3); Iraq / Middle East (2)</td>
+        <td>Yeltsin (7); Christopher (4); Kozyrev (3); UN (3); Talbott (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Arms Control / Nonproliferation, Iraq / Middle East. Authority checks: Yeltsin, Christopher, Kozyrev, UN, Talbott. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>47</td>
+        <td>1996-12-05</td>
+        <td>Telcon</td>
+        <td>31</td>
+        <td>Standard annotation review</td>
+        <td>284-287</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-12-05-telcon-42.pdf">Telephone call with President Boris Yeltsin of Russia, December 5, 1996, White House</a></td>
+        <td>Russian Politics / Elections (3); Economic Reform / Assistance (1)</td>
+        <td>Yeltsin (14); Chernomyrdin (4); Gore (2); Primakov (1)</td>
+        <td>Issue context: Russian Politics / Elections, Economic Reform / Assistance. Authority checks: Yeltsin, Chernomyrdin, Gore, Primakov. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>63</td>
+        <td>1998-05-21</td>
+        <td>Telcon</td>
+        <td>30</td>
+        <td>Standard annotation review</td>
+        <td>392-395</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-21-telcon-55.pdf">Telephone call with President Boris Yeltsin of Russia, May 21, 1998, White House</a></td>
+        <td>Arms Control / Nonproliferation (2); Iraq / Middle East (1); Russian Politics / Elections (1)</td>
+        <td>Yeltsin (10)</td>
+        <td>Issue context: Arms Control / Nonproliferation, Iraq / Middle East, Russian Politics / Elections. Authority checks: Yeltsin. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>12</td>
+        <td>1993-10-05</td>
+        <td>Telcon</td>
+        <td>26</td>
+        <td>Standard annotation review</td>
+        <td>65-68</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-10-05-telcon-12.pdf">Telephone call with President Boris Yeltsin of Russia, October 5, 1993, Air Force One</a></td>
+        <td>Russian Politics / Elections (4); Economic Reform / Assistance (1)</td>
+        <td>Yeltsin (12); Christopher (1)</td>
+        <td>Issue context: Russian Politics / Elections, Economic Reform / Assistance. Authority checks: Yeltsin, Christopher. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>77</td>
+        <td>1999-06-07</td>
+        <td>Telcon</td>
+        <td>24</td>
+        <td>Standard annotation review</td>
+        <td>471-473</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-07-telcon-72.pdf">Telephone call with President Boris Yeltsin of Russia, June 7, 1999, White House</a></td>
+        <td>Kosovo / Balkans (2)</td>
+        <td>Yeltsin (9); Ivanov (4); Milosevic (2); Chernomyrdin (1); Gore (1); Talbott (1)</td>
+        <td>Issue context: Kosovo / Balkans. Authority checks: Yeltsin, Ivanov, Milosevic, Chernomyrdin, Gore, Talbott. Use Daily Diary row to verify timing/setting.</td>
+      </tr>
+<tr>
+        <td>85</td>
+        <td>1999-12-31</td>
+        <td>Telcon</td>
+        <td>24</td>
+        <td>Standard annotation review</td>
+        <td>518-521</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-12-31-telcon-80.pdf">Telephone call with President Boris Yeltsin of Russia, December 31, 1999, White House</a></td>
+        <td>Russian Politics / Elections (5); Arms Control / Nonproliferation (1); Iraq / Middle East (1)</td>
+        <td>Yeltsin (8)</td>
+        <td>Issue context: Russian Politics / Elections, Arms Control / Nonproliferation, Iraq / Middle East. Authority checks: Yeltsin. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>5</td>
+        <td>1993-04-26</td>
+        <td>Telcon</td>
+        <td>23</td>
+        <td>Light annotation check</td>
+        <td>32-34</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-26-telcon-05.pdf">Telephone call with President Boris Yeltsin of Russia, April 26, 1993, White House</a></td>
+        <td>Economic Reform / Assistance (1)</td>
+        <td>Yeltsin (12)</td>
+        <td>Issue context: Economic Reform / Assistance. Authority checks: Yeltsin. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>6</td>
+        <td>1993-05-02</td>
+        <td>Telcon</td>
+        <td>23</td>
+        <td>Light annotation check</td>
+        <td>35-37</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-05-02-telcon-06.pdf">Telephone call with President Boris Yeltsin of Russia, May 2, 1993, White House</a></td>
+        <td></td>
+        <td>Yeltsin (9); Christopher (4)</td>
+        <td>Authority checks: Yeltsin, Christopher. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>23</td>
+        <td>1994-07-05</td>
+        <td>Telcon</td>
+        <td>23</td>
+        <td>Light annotation check</td>
+        <td>122-125</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-07-05-telcon-21.pdf">Telephone call with President Boris Yeltsin of Russia, July 5, 1994, White House</a></td>
+        <td>NATO / European Security (4)</td>
+        <td>Yeltsin (13); NATO (2)</td>
+        <td>Issue context: NATO / European Security. Authority checks: Yeltsin, NATO. Check duplicate/source-copy controls before final citation.</td>
+      </tr>
+<tr>
+        <td>7</td>
+        <td>1993-05-10</td>
+        <td>Telcon</td>
+        <td>22</td>
+        <td>Light annotation check</td>
+        <td>38-40</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-05-10-telcon-07.pdf">Telephone call with President Boris Yeltsin of Russia, May 10, 1993, White House</a></td>
+        <td>Chechnya / Caucasus (6); Ukraine / Nuclear Security (6)</td>
+        <td>Yeltsin (6)</td>
+        <td>Issue context: Chechnya / Caucasus, Ukraine / Nuclear Security. Authority checks: Yeltsin. Use Daily Diary row to verify timing/setting.</td>
+      </tr>
+<tr>
+        <td>66</td>
+        <td>1998-06-16</td>
+        <td>Telcon</td>
+        <td>22</td>
+        <td>Light annotation check</td>
+        <td>407-409</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-16-telcon-59.pdf">Telephone call with President Boris Yeltsin of Russia, June 16, 1998, White House</a></td>
+        <td>Kosovo / Balkans (3)</td>
+        <td>Yeltsin (8); Milosevic (2); Primakov (2); Talbott (1)</td>
+        <td>Issue context: Kosovo / Balkans. Authority checks: Yeltsin, Milosevic, Primakov, Talbott. Use Daily Diary row to verify timing/setting.</td>
+      </tr>
+<tr>
+        <td>79</td>
+        <td>1999-06-10</td>
+        <td>Telcon</td>
+        <td>20</td>
+        <td>Light annotation check</td>
+        <td>478-480</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-10-telcon-74.pdf">Telephone call with President Boris Yeltsin of Russia, June 10, 1999, White House</a></td>
+        <td>Economic Reform / Assistance (1); Kosovo / Balkans (1)</td>
+        <td>Yeltsin (8); Chernomyrdin (1); UN (1)</td>
+        <td>Issue context: Economic Reform / Assistance, Kosovo / Balkans. Authority checks: Yeltsin, Chernomyrdin, UN. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting.</td>
+      </tr>
+<tr>
+        <td>46</td>
+        <td>1996-09-15</td>
+        <td>Telcon</td>
+        <td>16</td>
+        <td>Light annotation check</td>
+        <td>281-283</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-09-15-telcon-41.pdf">Telephone call with President Boris Yeltsin of Russia, September 15, 1996, White House</a></td>
+        <td>Russian Politics / Elections (1)</td>
+        <td>Yeltsin (13)</td>
+        <td>Issue context: Russian Politics / Elections. Authority checks: Yeltsin.</td>
+      </tr></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

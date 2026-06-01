@@ -339,6 +339,7 @@ function buildCompilerStartHereMarkdown(records) {
     "- [Contact dossier crosswalk](contact-dossier-crosswalk.html)",
     "- [Hard-source gap follow-up packet](hard-source-gap-packet.html)",
     "- [Topic and name index](topic-index.html)",
+    "- [Annotation workbench](annotation-workbench.html)",
     "- [Face-page metadata audit](face-page-metadata.html)",
     "- [Source-note drafting packet](source-note-drafts.html)",
     "- [Reading packet manifest](reading-packet-manifest.json)",
@@ -440,6 +441,7 @@ function buildCompilerStartHereHtml(records) {
         <a href="contact-dossier-crosswalk.html">Open dossier crosswalk</a>
         <a href="hard-source-gap-packet.html">Open hard-gap packet</a>
         <a href="topic-index.html">Open topic index</a>
+        <a href="annotation-workbench.html">Open annotation workbench</a>
         <a href="face-page-metadata.html">Open face-page audit</a>
         <a href="source-note-drafts.html">Open source-note drafts</a>
         <a href="reading-packet-manifest.json">Open packet manifest</a>

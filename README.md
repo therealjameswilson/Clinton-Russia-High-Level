@@ -51,6 +51,7 @@ Compiler-facing handoff files are generated in `reports/`:
 - `public/documents/clinton-yeltsin-core-reading-packet.pdf`: single chronological PDF packet of the 85 page-counted memcons/telcons.
 - `reading-packet-manifest.json` and `reading-packet-toc.csv`: packet page ranges, document order, provenance-sheet pages, and source links.
 - `topic-index.html`, `topic-index.json`, and `topic-index.csv`: keyword topic and name/organization index generated from extracted PDF text.
+- `annotation-workbench.html`, `annotation-workbench.json`, `annotation-targets.csv`, and `annotation-document-queue.csv`: annotation triage workbench with authority targets, issue clusters, first-reference prompts, and a document-level annotation queue.
 - `face-page-metadata.html`, `face-page-metadata.json`, and `face-page-metadata.csv`: source-note drafting aid with parsed subject, participants, notetakers/interpreters, date/time/place, and classification lines from each extracted PDF's first page.
 - `source-note-drafts.html`, `source-note-drafts.json`, and `source-note-drafts.csv`: copy-ready source-note drafting packet combining FRUS-style source stems, packet ranges, and OCR-derived face-page metadata for verification.
 - `compiler-document-chronology.csv`: spreadsheet-ready chronology with page counts, source-page ranges, PDFs, source notes, and follow-up actions.
@@ -74,6 +75,12 @@ To rebuild the topic/name index from the extracted PDFs:
 
 ```sh
 node scripts/build-topic-index.js
+```
+
+To rebuild the annotation workbench from the topic index and dossier crosswalk:
+
+```sh
+node scripts/build-annotation-workbench.js
 ```
 
 To rebuild the face-page metadata audit:
