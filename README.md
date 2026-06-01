@@ -5,12 +5,13 @@ Working compiler page for the planned Office of the Historian volume:
 - FRUS 1993-2000, Volume XVIII, Russia
 - Planned destination: https://history.state.gov/historicaldocuments/frus1993-00v18
 
-The site follows the Bush41 Western Europe page pattern and organizes records into four research lanes:
+The site follows the Bush41 Western Europe page pattern and organizes records into five research lanes:
 
 1. Clinton-Yeltsin Chronology
 2. Released Clinton Library Packets
 3. Talbott FOIA Context
-4. NARA Scout Leads
+4. Clinton Public Statements
+5. NARA Scout Leads
 
 ## Sources
 
@@ -34,6 +35,19 @@ node scripts/build-data.js
 The builder expects the Clinton foreign-leader master-list text at `/private/tmp/clinton-foreign-meetings.txt`
 unless `CLINTON_FOREIGN_MEETINGS_TXT` is set. It reads the Strobe manifest from the sibling
 `strobe-talbott-foia` checkout unless `STROBE_MANIFEST` is set.
+
+If only the compiler handoff packet needs to be refreshed from the already-generated site data:
+
+```sh
+node scripts/build-compiler-packet.js
+```
+
+Compiler-facing handoff files are generated in `reports/`:
+
+- `compiler-start-here.html`: browser-ready start-here packet with consolidated counts, reading order, and hard source gaps.
+- `compiler-start-here.md`: Markdown copy of the same packet for repo review.
+- `compiler-document-chronology.csv`: spreadsheet-ready chronology with page counts, source-page ranges, PDFs, source notes, and follow-up actions.
+- `document-page-tallies.json`: machine-readable consolidated page counts and pending extent records.
 
 ## Document Extraction Rule
 
