@@ -336,6 +336,7 @@ function buildCompilerStartHereMarkdown(records) {
     "## Companion Files",
     "",
     "- [Combined reading packet PDF](../public/documents/clinton-yeltsin-core-reading-packet.pdf)",
+    "- [Contact dossier crosswalk](contact-dossier-crosswalk.html)",
     "- [Topic and name index](topic-index.html)",
     "- [Face-page metadata audit](face-page-metadata.html)",
     "- [Source-note drafting packet](source-note-drafts.html)",
@@ -435,6 +436,7 @@ function buildCompilerStartHereHtml(records) {
       <p class="lede">Generated ${htmlCell(now)}. This packet gives the chronological Clinton-Yeltsin memcon/telcon spine for FRUS 1993-2000, Volume XVIII, with actual conversation page counts, extracted PDFs, source-page ranges, and hard pending gaps.</p>
       <div class="actions">
         <a href="../public/documents/clinton-yeltsin-core-reading-packet.pdf">Open reading packet PDF</a>
+        <a href="contact-dossier-crosswalk.html">Open dossier crosswalk</a>
         <a href="topic-index.html">Open topic index</a>
         <a href="face-page-metadata.html">Open face-page audit</a>
         <a href="source-note-drafts.html">Open source-note drafts</a>
