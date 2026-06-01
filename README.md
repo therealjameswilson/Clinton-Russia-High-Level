@@ -47,6 +47,7 @@ Compiler-facing handoff files are generated in `reports/`:
 - `compiler-start-here.html`: browser-ready start-here packet with consolidated counts, reading order, and hard source gaps.
 - `compiler-start-here.md`: Markdown copy of the same packet for repo review.
 - `contact-dossier-crosswalk.html`, `contact-dossier-crosswalk.json`, and `contact-dossier-crosswalk.csv`: one-row-per-contact dossier joining each Clinton-Yeltsin memcon/telcon to Presidential Daily Diary references, Public Papers context, source-copy controls, and nearby NARA/Strobe support leads.
+- `hard-source-gap-packet.html`, `hard-source-gap-packet.json`, and `hard-source-gap-packet.csv`: archival/MDR follow-up packet for the six uncounted direct Clinton-Yeltsin contacts, with corroborating hooks, false leads, and draft request language.
 - `public/documents/clinton-yeltsin-core-reading-packet.pdf`: single chronological PDF packet of the 85 page-counted memcons/telcons.
 - `reading-packet-manifest.json` and `reading-packet-toc.csv`: packet page ranges, document order, provenance-sheet pages, and source links.
 - `topic-index.html`, `topic-index.json`, and `topic-index.csv`: keyword topic and name/organization index generated from extracted PDF text.
@@ -91,6 +92,12 @@ To rebuild the contact dossier crosswalk:
 
 ```sh
 node scripts/build-contact-dossier-crosswalk.js
+```
+
+To rebuild the hard-source gap follow-up packet:
+
+```sh
+node scripts/build-hard-source-gap-packet.js
 ```
 
 ## Document Extraction Rule
