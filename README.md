@@ -46,6 +46,8 @@ Compiler-facing handoff files are generated in `reports/`:
 
 - `compiler-start-here.html`: browser-ready start-here packet with consolidated counts, reading order, and hard source gaps.
 - `compiler-start-here.md`: Markdown copy of the same packet for repo review.
+- `public/documents/clinton-yeltsin-core-reading-packet.pdf`: single chronological PDF packet of the 85 page-counted memcons/telcons.
+- `reading-packet-manifest.json` and `reading-packet-toc.csv`: packet page ranges, document order, provenance-sheet pages, and source links.
 - `compiler-document-chronology.csv`: spreadsheet-ready chronology with page counts, source-page ranges, PDFs, source notes, and follow-up actions.
 - `frus-selection-worksheet.csv`: working selection sheet with blank include/document-number columns, suggested treatment, issue tags, and annotation/declassification note columns.
 - `document-page-tallies.json`: machine-readable consolidated page counts and pending extent records.
@@ -55,6 +57,12 @@ To re-run the local PDF extent/provenance audit:
 
 ```sh
 node scripts/audit-extracted-pdfs.js
+```
+
+To rebuild the combined chronological reading packet:
+
+```sh
+node scripts/build-reading-packet.js
 ```
 
 ## Document Extraction Rule

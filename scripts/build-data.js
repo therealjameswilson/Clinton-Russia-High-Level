@@ -4794,6 +4794,9 @@ function buildCompilerStartHereMarkdown(records, pageTallies, compilerRiskAudit)
     "",
     "## Companion Files",
     "",
+    "- [Combined reading packet PDF](../public/documents/clinton-yeltsin-core-reading-packet.pdf)",
+    "- [Reading packet manifest](reading-packet-manifest.json)",
+    "- [Reading packet TOC CSV](reading-packet-toc.csv)",
     "- [Spreadsheet chronology](compiler-document-chronology.csv)",
     "- [FRUS selection worksheet](frus-selection-worksheet.csv)",
     "- [Document page tallies](document-page-tallies.json)",
@@ -4884,6 +4887,9 @@ function buildCompilerStartHereHtml(records, pageTallies, compilerRiskAudit) {
       <h1>FRUS Compiler Start-Here Packet</h1>
       <p class="lede">Generated ${htmlCell(now)}. This packet gives the chronological Clinton-Yeltsin memcon/telcon spine for FRUS 1993-2000, Volume XVIII, with actual conversation page counts, extracted PDFs, source-page ranges, and hard pending gaps.</p>
       <div class="actions">
+        <a href="../public/documents/clinton-yeltsin-core-reading-packet.pdf">Open reading packet PDF</a>
+        <a href="reading-packet-manifest.json">Open packet manifest</a>
+        <a href="reading-packet-toc.csv">Download packet TOC</a>
         <a href="compiler-document-chronology.csv">Download chronology CSV</a>
         <a href="frus-selection-worksheet.csv">Download selection worksheet</a>
         <a href="compiler-start-here.md">Open Markdown packet</a>
