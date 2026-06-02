@@ -322,6 +322,7 @@ function buildHtml(report) {
         <a href="compiler-start-here.html">Open start-here packet</a>
         <a href="selection-priority-workbench.html">Open selection priorities</a>
         <a href="source-note-drafts.html">Open source-note drafts</a>
+        <a href="source-note-element-audit.html">Open source-note elements</a>
         <a href="face-page-metadata.html">Open face-page audit</a>
         <a href="annotation-workbench.html">Open annotation workbench</a>
         <a href="hard-source-gap-packet.html">Open hard-gap packet</a>

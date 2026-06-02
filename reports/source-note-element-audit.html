@@ -1,0 +1,1250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FRUS Source-Note Element Audit</title>
+    <style>
+      body { margin: 0; color: #18212d; font: 15px/1.52 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f7f8; }
+      main { width: min(1320px, calc(100% - 32px)); margin: 0 auto; padding: 34px 0 56px; }
+      h1, h2 { font-family: Georgia, "Times New Roman", serif; line-height: 1.08; }
+      h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.65rem); }
+      h2 { margin-top: 34px; font-size: clamp(1.4rem, 3vw, 2.05rem); }
+      a { color: #243d63; font-weight: 800; }
+      .lede { max-width: 980px; color: #5b6470; font-size: 1.04rem; }
+      .actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 24px; }
+      .actions a { display: inline-flex; min-height: 34px; align-items: center; padding: 0 11px; color: white; text-decoration: none; background: #243d63; border-radius: 6px; }
+      .actions a:nth-child(even) { color: #243d63; background: white; border: 1px solid #d7dedb; }
+      dl.summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin: 24px 0; }
+      dl.summary div { padding: 13px; background: white; border: 1px solid #d7dedb; border-radius: 8px; }
+      dt { color: #5b6470; font-size: .76rem; font-weight: 900; text-transform: uppercase; }
+      dd { margin: 4px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.3rem; font-weight: 800; }
+      .note { max-width: 980px; padding: 12px 14px; background: #fffaf0; border: 1px solid #ead8aa; border-radius: 8px; color: #645233; }
+      .table-wrap { overflow-x: auto; border-radius: 8px; box-shadow: 0 18px 46px rgba(22, 31, 43, .08); }
+      table { width: 100%; border-collapse: collapse; background: white; border: 1px solid #d7dedb; }
+      th, td { padding: 8px 9px; border-bottom: 1px solid #d7dedb; vertical-align: top; text-align: left; }
+      th { color: #243d63; font-size: .76rem; text-transform: uppercase; white-space: nowrap; }
+      td:nth-child(1), td:nth-child(8) { text-align: right; white-space: nowrap; }
+      td:nth-child(5) { min-width: 250px; }
+      span { color: #687483; font-size: .9em; }
+      .ok { color: #2f675f; font-weight: 900; }
+      .check { color: #9a5a00; font-weight: 900; }
+      @media (max-width: 900px) { dl.summary { grid-template-columns: 1fr 1fr; } table { font-size: .86rem; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p><a href="../">Back to compiler page</a></p>
+      <h1>FRUS Source-Note Element Audit</h1>
+      <p class="lede">Generated 2026-06-02T01:45:47.170Z. This audit breaks every direct Clinton-Yeltsin memcon/telcon source note into checkable elements: repository stem, collection and series NAIDs, release authority, folder/document identifiers, source-page map, derivative PDF, face-page review flags, and the next source-note action.</p>
+      <div class="actions">
+        <a href="source-note-element-audit.csv">Download element CSV</a>
+        <a href="source-note-element-audit.json">Open element JSON</a>
+        <a href="source-note-drafts.html">Open source-note drafts</a>
+        <a href="face-page-metadata.html">Open face-page audit</a>
+        <a href="production-readiness-checklist.html">Open production checklist</a>
+        <a href="compiler-start-here.html">Open start-here packet</a>
+      </div>
+      <p class="note">This report audits citation elements and OCR-derived face-page addenda. It does not certify final FRUS style; rows marked ready still need final compiler judgment before publication.</p>
+      <dl class="summary"><div><dt>Contacts</dt><dd>91</dd></div>
+<div><dt>Counted</dt><dd>85</dd></div>
+<div><dt>Pending</dt><dd>6</dd></div>
+<div><dt>Ready</dt><dd>7</dd></div>
+<div><dt>Face/Note Review</dt><dd>77</dd></div>
+<div><dt>MDR Cases</dt><dd>74</dd></div>
+<div><dt>Catalog Items</dt><dd>4</dd></div>
+<div><dt>Digital Items</dt><dd>7</dd></div>
+<div><dt>FOIA</dt><dd>5</dd></div>
+<div><dt>IDs</dt><dd>76</dd></div></dl>
+      <h2>Element Queue</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Seq</th><th>Date</th><th>Type</th><th>Bucket</th><th>Document</th><th>Elements</th><th>Authority / ID</th><th>Pages</th><th>Source note</th><th>Face page</th><th>Next action</th></tr></thead>
+          <tbody><tr>
+        <td>1</td>
+        <td>1993-01-23</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-01-23-telcon-01.pdf">Telephone call with President Boris Yeltsin of Russia, January 23, 1993, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9300052</span></td>
+        <td>9-11<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>2</td>
+        <td>1993-02-10</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-02-10-telcon-02.pdf">Telephone call with President Boris Yeltsin of Russia, February 10, 1993, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9300488</span></td>
+        <td>19-21<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</td>
+      </tr>
+<tr>
+        <td>3</td>
+        <td>1993-04-01</td>
+        <td>Telcon</td>
+        <td>Pending source text<br><span>Pending source text</span></td>
+        <td>Telephone call with President Boris Yeltsin of Russia, April 1, 1993, Portland, Oregon</td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="check">CHECK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span></span></td>
+        <td>No released April 1 telcon pages located in 2015-0782-M-1<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Pending source text</td>
+        <td>Pending source text</td>
+        <td>Do not finalize a source note until released conversation pages are found; preserve current lead and source-page problem.</td>
+      </tr>
+<tr>
+        <td>4</td>
+        <td>1993-04-03</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>NARA Catalog item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">Working Dinner with President Boris Yeltsin</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> catalog item<br><span class="ok">OK</span> item NAID</td>
+        <td>2014-0901-M<br><span>9302226</span></td>
+        <td>9-17<br><span><a href="https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>5</td>
+        <td>1993-04-04</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>NARA Catalog item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">Meeting with Russian President Boris Yeltsin on Security Issues</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> catalog item<br><span class="ok">OK</span> item NAID</td>
+        <td>2014-0901-M<br><span>9302226</span></td>
+        <td>19-30<br><span><a href="https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>6</td>
+        <td>1993-04-26</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-26-telcon-05.pdf">Telephone call with President Boris Yeltsin of Russia, April 26, 1993, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9302835</span></td>
+        <td>51-52<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>7</td>
+        <td>1993-05-02</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-05-02-telcon-06.pdf">Telephone call with President Boris Yeltsin of Russia, May 2, 1993, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9303034</span></td>
+        <td>60-61<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>8</td>
+        <td>1993-05-10</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-05-10-telcon-07.pdf">Telephone call with President Boris Yeltsin of Russia, May 10, 1993, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9303261</span></td>
+        <td>68-69<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>9</td>
+        <td>1993-06-28</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-06-28-telcon-08.pdf">Telephone call with President Boris Yeltsin of Russia, June 28, 1993, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9304871</span></td>
+        <td>76-79<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>10</td>
+        <td>1993-07-10</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0996-M<br><span>9305178</span></td>
+        <td>81-89<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>11</td>
+        <td>1993-09-07</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-09-07-telcon-10.pdf">Telephone call with President Boris Yeltsin of Russia, September 7, 1993, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9306715</span></td>
+        <td>95-98<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</td>
+      </tr>
+<tr>
+        <td>12</td>
+        <td>1993-09-21</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-09-21-telcon-11.pdf">Telephone call with President Boris Yeltsin of Russia, September 21, 1993, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9307171</span></td>
+        <td>107-109<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>13</td>
+        <td>1993-10-05</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-10-05-telcon-12.pdf">Telephone call with President Boris Yeltsin of Russia, October 5, 1993, Air Force One</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9307653</span></td>
+        <td>119-121<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>14</td>
+        <td>1993-12-22</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf">Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9309998</span></td>
+        <td>142-145<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>15</td>
+        <td>1994-01-13</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Digital Library item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf">One-on-One Meeting with President Boris Yeltsin of Russia</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Digital Library item<br><span class="ok">OK</span> release/item identifier<br><span class="ok">OK</span> collection or records stem</td>
+        <td><br><span></span></td>
+        <td>1-6<br><span><a href="https://clinton.presidentiallibraries.us/files/original/19662f645b0b622a95717322e238c1ec.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>16</td>
+        <td>1994-01-13</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Digital Library item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">President's dinner with President Yeltsin, January 13/14, 1994</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Digital Library item<br><span class="ok">OK</span> release/item identifier<br><span class="ok">OK</span> collection or records stem</td>
+        <td><br><span></span></td>
+        <td>1-11<br><span><a href="https://clinton.presidentiallibraries.us/files/original/c016beef71be071cd9c96fcf0972fd57.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Review fields<br><span>participants; classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed; face-page participants; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>17</td>
+        <td>1994-01-14</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Department of State FOIA/Strobe</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-trilateral-yeltsin-kravchuk.pdf">Trilateral Meeting with President Boris Yeltsin of Russia on Security Issues</a></td>
+        <td><span class="ok">OK</span> Department of State<br><span class="ok">OK</span> FOIA Virtual Reading Room<br><span class="ok">OK</span> Strobe Talbott FOIA<br><span class="ok">OK</span> FOIA case<br><span class="ok">OK</span> document number</td>
+        <td><br><span></span></td>
+        <td>State FOIA document C06694499, conversation pages 1-3<br><span><a href="https://drive.google.com/file/d/1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r/view">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</td>
+      </tr>
+<tr>
+        <td>18</td>
+        <td>1994-01-14</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Department of State FOIA/Strobe</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf">Second Expanded Bilateral Session with President Boris Yeltsin of Russia</a></td>
+        <td><span class="ok">OK</span> Department of State<br><span class="ok">OK</span> FOIA Virtual Reading Room<br><span class="ok">OK</span> Strobe Talbott FOIA<br><span class="ok">OK</span> FOIA case<br><span class="ok">OK</span> document number</td>
+        <td><br><span></span></td>
+        <td>State FOIA document C06694502, conversation pages 1-8<br><span><a href="https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</td>
+      </tr>
+<tr>
+        <td>19</td>
+        <td>1994-01-15</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Digital Library item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-15-memcon-one-on-one.pdf">One-on-One Meeting with President Boris Yeltsin of Russia</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Digital Library item<br><span class="ok">OK</span> release/item identifier<br><span class="ok">OK</span> collection or records stem</td>
+        <td><br><span></span></td>
+        <td>1-2<br><span><a href="https://clinton.presidentiallibraries.us/files/original/67bc3e4fc7cc0ed1ba4f438e510624d8.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>20</td>
+        <td>1994-02-20</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-02-20-telcon-16.pdf">Telephone call with President Boris Yeltsin of Russia, February 20, 1994, White House White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9401529</span></td>
+        <td>155-157<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>21</td>
+        <td>1994-04-10</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-10-telcon-17.pdf">Telephone call with President Boris Yeltsin of Russia, April 10, 1994, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9402775</span></td>
+        <td>164-166<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>22</td>
+        <td>1994-04-20</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-20-telcon-18.pdf">Telephone call with President Boris Yeltsin of Russia, April 20, 1994, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9403047</span></td>
+        <td>181-184<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>23</td>
+        <td>1994-06-03</td>
+        <td>Telcon</td>
+        <td>Pending source text<br><span>Pending source text</span></td>
+        <td>Telephone call with President Boris Yeltsin of Russia, June 3, 1994, Rome, Italy</td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9404692</span></td>
+        <td>Marker/withdrawal packet pages 187-190 only; no released telcon pages<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Pending source text</td>
+        <td>Pending source text</td>
+        <td>Do not finalize a source note until released conversation pages are found; preserve current lead and source-page problem.</td>
+      </tr>
+<tr>
+        <td>24</td>
+        <td>1994-06-13</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-06-13-telcon-20.pdf">Telephone Call with President Boris Yeltsin of Russia, June 13, 1994, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9404692</span></td>
+        <td>191-194<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>25</td>
+        <td>1994-07-05</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-07-05-telcon-21.pdf">Telephone call with President Boris Yeltsin of Russia, July 5, 1994, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9405387</span></td>
+        <td>202-204<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>26</td>
+        <td>1994-07-10</td>
+        <td>Memcon</td>
+        <td>Pending source text<br><span>Pending source text</span></td>
+        <td>Meeting with President Boris Yeltsin of Russia, July 10, 1994, Naples Italy</td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="check">CHECK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span></span></td>
+        <td>No released July 10, 1994 Naples memcon pages located in 2015-0782-M-1<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Pending source text</td>
+        <td>Pending source text</td>
+        <td>Do not finalize a source note until released conversation pages are found; preserve current lead and source-page problem.</td>
+      </tr>
+<tr>
+        <td>27</td>
+        <td>1994-09-27</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf">Clinton-Yeltsin one-on-one memcon, September 27, 1994</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9408090</span></td>
+        <td>213-219<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>28</td>
+        <td>1994-09-27</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9408513</span></td>
+        <td>251-260<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>29</td>
+        <td>1994-09-28</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Digital Library item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-09-28-second-one-on-one.pdf">Second Clinton/Yeltsin One-on-One</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Digital Library item<br><span class="ok">OK</span> release/item identifier<br><span class="ok">OK</span> collection or records stem</td>
+        <td><br><span></span></td>
+        <td>3-7,9<br><span><a href="https://clinton.presidentiallibraries.us/files/original/2509827ca57f98e07eec584b3d69250f.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Review fields<br><span>participants; classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed; face-page participants; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>30</td>
+        <td>1994-10-05</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-05-telcon-24.pdf">Telephone call with President Boris Yeltsin, October 5, 1994, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9408162</span></td>
+        <td>227-230<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>31</td>
+        <td>1994-10-10</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-10-clinton-yeltsin-iraq-telcon.pdf">Telephone call with President Boris Yeltsin of Russia, October 10, 1994, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9408229</span></td>
+        <td>238-241<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>32</td>
+        <td>1995-02-13</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-02-13-telcon-26.pdf">Telephone call with President Boris Yeltsin of Russia, February 13, 1995, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9500995</span></td>
+        <td>268-271<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>participants; notetaker; interpreter; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>participants; notetaker; interpreter</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: participants; notetaker; interpreter; classified-by line not parsed; classification reason not parsed; face-page participants; face-page notetaker; face-page interpreter</td>
+      </tr>
+<tr>
+        <td>33</td>
+        <td>1995-04-27</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-04-27-telcon-27.pdf">Telephone call with President Boris Yeltsin of Russia, April 27, 1995, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9503572</span></td>
+        <td>280-283<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed; classification reason not parsed</td>
+      </tr>
+<tr>
+        <td>34</td>
+        <td>1995-05-10</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0904-M-Release-A<br><span>9503774</span></td>
+        <td>285-300<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Review fields<br><span>participants; classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed; face-page participants; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>35</td>
+        <td>1995-06-17</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Department of State FOIA/Strobe</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf">Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada</a></td>
+        <td><span class="ok">OK</span> Department of State<br><span class="ok">OK</span> FOIA Virtual Reading Room<br><span class="ok">OK</span> Strobe Talbott FOIA<br><span class="ok">OK</span> FOIA case<br><span class="ok">OK</span> document number</td>
+        <td><br><span></span></td>
+        <td>Strobe FOIA document C06835181, conversation pages 1-8<br><span><a href="https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html">source packet</a></span></td>
+        <td>Needs source-note review<br><span>participants; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Review fields<br><span>participants</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: participants; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed; face-page participants</td>
+      </tr>
+<tr>
+        <td>36</td>
+        <td>1995-07-28</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf">Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9505860</span></td>
+        <td>309-313<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>37</td>
+        <td>1995-09-27</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-09-27-telcon-31.pdf">Telephone call with President Boris Yeltsin of Russia, September 27, 1995, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9507137</span></td>
+        <td>324-326<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed; classification reason not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; classification reason not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>38</td>
+        <td>1995-10-23</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>NARA Catalog item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf">Clinton-Yeltsin One-on-One</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> catalog item<br><span class="ok">OK</span> item NAID</td>
+        <td>2014-0948-M<br><span>9507853</span></td>
+        <td>5-16<br><span><a href="https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Review fields<br><span>participants; classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed; face-page participants; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>39</td>
+        <td>1995-10-23</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>NARA Catalog item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-lunch.pdf">Lunch with Boris Yeltsin, President of Russian Federation</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> catalog item<br><span class="ok">OK</span> item NAID</td>
+        <td>2014-0948-M<br><span>9507991</span></td>
+        <td>31-35<br><span><a href="https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>40</td>
+        <td>1996-01-26</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf">Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9600480</span></td>
+        <td>342-346<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>41</td>
+        <td>1996-02-21</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-02-21-telcon-34.pdf">Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9601097</span></td>
+        <td>354-357<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed</td>
+      </tr>
+<tr>
+        <td>42</td>
+        <td>1996-03-13</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Digital Library item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-03-13-clinton-yeltsin-sharm-el-sheikh-memcon-cable.pdf">Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Digital Library item<br><span class="ok">OK</span> release/item identifier<br><span class="ok">OK</span> collection or records stem</td>
+        <td><br><span></span></td>
+        <td>Google Drive file 1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c, pages 2-5<br><span><a href="https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view">source packet</a></span></td>
+        <td>Needs source-note review<br><span>declassify-on line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: declassify-on line not parsed</td>
+      </tr>
+<tr>
+        <td>43</td>
+        <td>1996-04-09</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-09-telcon-36.pdf">Telephone call with President Boris Yeltsin of Russia, April 9, 1996, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9602172</span></td>
+        <td>369-373<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed</td>
+      </tr>
+<tr>
+        <td>44</td>
+        <td>1996-04-21</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-one-on-one.pdf">POTUS-Yeltsin One-on-One</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-1<br><span>9602708</span></td>
+        <td>381-393<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Review fields<br><span>participants; classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed; face-page participants; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>45</td>
+        <td>1996-04-21</td>
+        <td>Memcon</td>
+        <td>Citation elements present<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf">Luncheon Meeting with Russian President Boris Yeltsin</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9602963</span></td>
+        <td>7-13<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Parsed face-page fields available</td>
+        <td>Parsed</td>
+        <td>Citation elements are present; final FRUS style review still belongs with the compiler.</td>
+      </tr>
+<tr>
+        <td>46</td>
+        <td>1996-05-07</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-05-07-telcon-38.pdf">Telephone call with President Boris Yeltsin of Russia, May 7, 1996, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9603149</span></td>
+        <td>25-28<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>47</td>
+        <td>1996-06-18</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-06-18-telcon-39.pdf">Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9604219</span></td>
+        <td>39-40<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>48</td>
+        <td>1996-07-05</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-07-05-telcon-40.pdf">Telephone call with President Boris Yeltsin of Russia, July 5, 1996, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9604660</span></td>
+        <td>49-51<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>49</td>
+        <td>1996-09-15</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-09-15-telcon-41.pdf">Telephone call with President Boris Yeltsin of Russia, September 15, 1996, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9606243</span></td>
+        <td>64-65<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>50</td>
+        <td>1996-12-05</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-12-05-telcon-42.pdf">Telephone call with President Boris Yeltsin of Russia, December 5, 1996, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9607896</span></td>
+        <td>77-79<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>51</td>
+        <td>1997-02-27</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-02-27-telcon-43.pdf">Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9701361</span></td>
+        <td>87-89<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>52</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">Helsinki Morning Meeting with President Boris Yeltsin</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9702044</span></td>
+        <td>105-115<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed</td>
+      </tr>
+<tr>
+        <td>53</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf">Helsinki Working Lunch with President Boris Yeltsin</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9702044</span></td>
+        <td>116-123<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>54</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-afternoon.pdf">Helsinki Afternoon Meeting with President Boris Yeltsin</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9702044</span></td>
+        <td>124-127<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed</td>
+      </tr>
+<tr>
+        <td>55</td>
+        <td>1997-03-21</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf">Helsinki Private Dinner with President Boris Yeltsin</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9702044</span></td>
+        <td>128-133<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed</td>
+      </tr>
+<tr>
+        <td>56</td>
+        <td>1997-05-27</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9703720</span></td>
+        <td>143-150<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed</td>
+      </tr>
+<tr>
+        <td>57</td>
+        <td>1997-06-20</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf">Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9704607</span></td>
+        <td>165-172<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>58</td>
+        <td>1997-10-30</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-10-30-telcon-47.pdf">Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9707450</span></td>
+        <td>183-188<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>59</td>
+        <td>1997-11-16</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-11-16-telcon-48.pdf">Telephone call with President Boris Yeltsin of Russia, November 16, 1997, Malibu, California</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9707804</span></td>
+        <td>206-208<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>60</td>
+        <td>1997-11-22</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-11-22-telcon-49.pdf">Telephone call with President Boris Yeltsin of Russia, November 22, 1997, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9707985</span></td>
+        <td>218-223<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>61</td>
+        <td>1998-02-02</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-02-02-telcon-50.pdf">Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9800756</span></td>
+        <td>236-239<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>62</td>
+        <td>1998-02-23</td>
+        <td>Telcon</td>
+        <td>Citation elements present<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-02-23-telcon-51.pdf">Telephone call with President Boris Yeltsin of Russia, February 23, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9801337</span></td>
+        <td>253-256<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Parsed face-page fields available</td>
+        <td>Parsed</td>
+        <td>Citation elements are present; final FRUS style review still belongs with the compiler.</td>
+      </tr>
+<tr>
+        <td>63</td>
+        <td>1998-04-06</td>
+        <td>Telcon</td>
+        <td>Citation elements present<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-04-06-telcon-52.pdf">Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9802448</span></td>
+        <td>274-278<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Parsed face-page fields available</td>
+        <td>Parsed</td>
+        <td>Citation elements are present; final FRUS style review still belongs with the compiler.</td>
+      </tr>
+<tr>
+        <td>64</td>
+        <td>1998-05-12</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-12-telcon-53.pdf">Telephone call with President Boris Yeltsin of Russia, May 12, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9803457</span></td>
+        <td>286-290<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>65</td>
+        <td>1998-05-17</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-17-memcon-54.pdf">Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0999-M<br><span>9803752</span></td>
+        <td>312-319<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>66</td>
+        <td>1998-05-21</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-21-telcon-55.pdf">Telephone call with President Boris Yeltsin of Russia, May 21, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9803714</span></td>
+        <td>301-303<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>67</td>
+        <td>1998-05-28</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-28-telcon-56.pdf">Telephone call with President Boris Yeltsin of Russia, May 28, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9803875</span></td>
+        <td>329-332<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>68</td>
+        <td>1998-06-15</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf">Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9804474</span></td>
+        <td>342-346<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>69</td>
+        <td>1998-06-16</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-16-telcon-59.pdf">Telephone call with President Boris Yeltsin of Russia, June 16, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9804476</span></td>
+        <td>359-360<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>70</td>
+        <td>1998-07-10</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-07-10-telcon-60.pdf">Telephone call with President Boris Yeltsin of Russia, July 10, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9804971</span></td>
+        <td>371-374<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>71</td>
+        <td>1998-08-14</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-14-telcon-61.pdf">Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9805782</span></td>
+        <td>384-389<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>72</td>
+        <td>1998-08-25</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-25-telcon-62.pdf">Telephone call with President Boris Yeltsin of Russia, August 25, 1998, Martha's Vineyard, Massachusetts</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9805956</span></td>
+        <td>405-408<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; notetaker</span></td>
+        <td>Review fields<br><span>classification marking; notetaker</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; notetaker; face-page classification marking; face-page notetaker</td>
+      </tr>
+<tr>
+        <td>73</td>
+        <td>1998-09-01</td>
+        <td>Memcon</td>
+        <td>Pending source text<br><span>Pending source text</span></td>
+        <td>Meetings with President Boris Yeltsin of Russia, September 1-2, 1998, Moscow, Russia</td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="check">CHECK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span></span></td>
+        <td>No released September 1-2, 1998 Moscow memcon pages located in 2015-0782-M-2<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Pending source text</td>
+        <td>Pending source text</td>
+        <td>Do not finalize a source note until released conversation pages are found; preserve current lead and source-page problem.</td>
+      </tr>
+<tr>
+        <td>74</td>
+        <td>1998-09-12</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-09-12-telcon-64.pdf">Telephone call with President Boris Yeltsin of Russia, September 12, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9806300</span></td>
+        <td>422-425<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; declassify-on line not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; declassify-on line not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>75</td>
+        <td>1998-10-05</td>
+        <td>Telcon</td>
+        <td>Citation elements present<br><span>Clinton Digital Library item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-10-05-clinton-yeltsin-telcon-actual-pages.pdf">Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Digital Library item<br><span class="ok">OK</span> release/item identifier<br><span class="ok">OK</span> collection or records stem</td>
+        <td><br><span></span></td>
+        <td>3-5<br><span><a href="https://clinton.presidentiallibraries.us/files/original/dac856cd6bbd10b93c2eb815862bce44.pdf">source packet</a></span></td>
+        <td>Parsed face-page fields available</td>
+        <td>Parsed</td>
+        <td>Citation elements are present; final FRUS style review still belongs with the compiler.</td>
+      </tr>
+<tr>
+        <td>76</td>
+        <td>1998-12-30</td>
+        <td>Telcon</td>
+        <td>Citation element verification<br><span>Clinton Digital Library item</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-12-30-clinton-yeltsin-telcon-actual-pages.pdf">Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Digital Library item<br><span class="check">CHECK</span> release/item identifier<br><span class="ok">OK</span> collection or records stem</td>
+        <td><br><span></span></td>
+        <td>1-5<br><span><a href="https://clinton.presidentiallibraries.us/files/original/1ec29c3214c0ccb6c6ed30fd7e5b06af.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; declassify-on line not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify source-family citation elements before final source-note use: release/item identifier.</td>
+      </tr>
+<tr>
+        <td>77</td>
+        <td>1999-02-08</td>
+        <td>Memcon</td>
+        <td>Pending source text<br><span>Pending source text</span></td>
+        <td>Meeting with President Boris Yeltsin of Russia, February 8, 1999, Amman, Jordan</td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="check">CHECK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span></span></td>
+        <td>No released February 8, 1999 Amman memcon pages located in 2015-0782-M-2<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Pending source text</td>
+        <td>Pending source text</td>
+        <td>Do not finalize a source note until released conversation pages are found; preserve current lead and source-page problem.</td>
+      </tr>
+<tr>
+        <td>78</td>
+        <td>1999-03-24</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-03-24-telcon-68.pdf">Telephone call with President Boris Yeltsin of Russia, March 24, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0546-M<br><span>9902107</span></td>
+        <td>432-436<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification reason not parsed; declassify-on line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification reason not parsed; declassify-on line not parsed</td>
+      </tr>
+<tr>
+        <td>79</td>
+        <td>1999-04-19</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf">Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9902901</span></td>
+        <td>438-443<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>80</td>
+        <td>1999-04-25</td>
+        <td>Telcon</td>
+        <td>Citation elements present<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0546-M<br><span>9903106</span></td>
+        <td>445-456<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Parsed face-page fields available</td>
+        <td>Parsed</td>
+        <td>Citation elements are present; final FRUS style review still belongs with the compiler.</td>
+      </tr>
+<tr>
+        <td>81</td>
+        <td>1999-05-02</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-05-02-telcon-71.pdf">Telephone call with President Boris Yeltsin of Russia, May 2, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0546-M<br><span>9903364</span></td>
+        <td>470-473<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>82</td>
+        <td>1999-06-07</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-07-telcon-72.pdf">Telephone call with President Boris Yeltsin of Russia, June 7, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0546-M<br><span>9904358</span></td>
+        <td>479-480<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>83</td>
+        <td>1999-06-08</td>
+        <td>Telcon</td>
+        <td>Citation elements present<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-08-telcon-73.pdf">Telephone call with President Boris Yeltsin of Russia, June 8, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0546-M<br><span>9904397</span></td>
+        <td>482-484<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Parsed face-page fields available</td>
+        <td>Parsed</td>
+        <td>Citation elements are present; final FRUS style review still belongs with the compiler.</td>
+      </tr>
+<tr>
+        <td>84</td>
+        <td>1999-06-10</td>
+        <td>Telcon</td>
+        <td>Citation elements present<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-10-telcon-74.pdf">Telephone call with President Boris Yeltsin of Russia, June 10, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0546-M<br><span>9904501</span></td>
+        <td>488-489<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Parsed face-page fields available</td>
+        <td>Parsed</td>
+        <td>Citation elements are present; final FRUS style review still belongs with the compiler.</td>
+      </tr>
+<tr>
+        <td>85</td>
+        <td>1999-06-13</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library FOIA request</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-13-telcon-75.pdf">Telephone call with President Boris Yeltsin of Russia, June 13, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> FOIA request<br><span class="ok">OK</span> box/folder identifier</td>
+        <td><br><span>9905271</span></td>
+        <td>531-537<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classified-by line not parsed</span></td>
+        <td>Parsed</td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classified-by line not parsed</td>
+      </tr>
+<tr>
+        <td>86</td>
+        <td>1999-06-14</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library FOIA request</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-14-telcon-76.pdf">Telephone call with President Boris Yeltsin of Russia, June 14, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> FOIA request<br><span class="ok">OK</span> box/folder identifier</td>
+        <td><br><span>9905128</span></td>
+        <td>521-524<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; classified-by line not parsed</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; classified-by line not parsed; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>87</td>
+        <td>1999-06-20</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9904842</span></td>
+        <td>497-505<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>88</td>
+        <td>1999-09-08</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-09-08-telcon-78.pdf">Telephone call with President Boris Yeltsin of Russia, September 8, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9906603</span></td>
+        <td>548-552<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>participants; notetaker; interpreter</span></td>
+        <td>Review fields<br><span>participants; notetaker; interpreter</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: participants; notetaker; interpreter; face-page participants; face-page notetaker; face-page interpreter</td>
+      </tr>
+<tr>
+        <td>89</td>
+        <td>1999-11-19</td>
+        <td>Memcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf">Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2014-0974-M<br><span>9908997</span></td>
+        <td>560-566<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking</span></td>
+        <td>Review fields<br><span>classification marking</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; face-page classification marking</td>
+      </tr>
+<tr>
+        <td>90</td>
+        <td>1999-12-31</td>
+        <td>Telcon</td>
+        <td>Face-page/source-note review<br><span>Clinton Library MDR</span></td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-12-31-telcon-80.pdf">Telephone call with President Boris Yeltsin of Russia, December 31, 1999, White House</a></td>
+        <td><span class="ok">OK</span> repository<br><span class="ok">OK</span> Clinton Presidential Records<br><span class="ok">OK</span> NSC RMO collection<br><span class="ok">OK</span> parent NAID 7388808<br><span class="ok">OK</span> PRS series NAID 7585721<br><span class="ok">OK</span> MDR case<br><span class="ok">OK</span> box/folder/document identifier</td>
+        <td>2015-0782-M-2<br><span>9909338</span></td>
+        <td>582-584<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></span></td>
+        <td>Needs source-note review<br><span>classification marking; interpreter</span></td>
+        <td>Review fields<br><span>classification marking; interpreter</span></td>
+        <td>Verify OCR-derived face-page addenda before final source-note use: classification marking; interpreter; face-page classification marking; face-page interpreter</td>
+      </tr>
+<tr>
+        <td>91</td>
+        <td>2000-06-05</td>
+        <td>Memcon</td>
+        <td>Pending source text<br><span>Pending source text</span></td>
+        <td>Meeting with former President Boris Yeltsin of Russia, June 5, 2000, Moscow, Russia</td>
+        <td><span class="ok">OK</span> repository<br><span class="check">CHECK</span> Clinton Presidential Records<br><span class="check">CHECK</span> NSC RMO collection<br><span class="check">CHECK</span> parent NAID 7388808<br><span class="check">CHECK</span> PRS series NAID 7585721<br><span class="check">CHECK</span> MDR case<br><span class="check">CHECK</span> box/folder/document identifier</td>
+        <td><br><span></span></td>
+        <td>Leader chronology lead only; no released memcon PDF located<br><span><a href="https://www.clintonlibrary.gov/sites/default/files/documents/clinton-foreign-meetings.pdf">source packet</a></span></td>
+        <td>Pending source text</td>
+        <td>Pending source text</td>
+        <td>Do not finalize a source note until released conversation pages are found; preserve current lead and source-page problem.</td>
+      </tr></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

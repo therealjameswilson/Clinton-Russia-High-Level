@@ -347,6 +347,7 @@ function buildCompilerStartHereMarkdown(records) {
     "- [Annotation workbench](annotation-workbench.html)",
     "- [Face-page metadata audit](face-page-metadata.html)",
     "- [Source-note drafting packet](source-note-drafts.html)",
+    "- [Source-note element audit](source-note-element-audit.html)",
     "- [Reading packet manifest](reading-packet-manifest.json)",
     "- [Reading packet TOC CSV](reading-packet-toc.csv)",
     "- [Spreadsheet chronology](compiler-document-chronology.csv)",
@@ -454,6 +455,7 @@ function buildCompilerStartHereHtml(records) {
         <a href="annotation-workbench.html">Open annotation workbench</a>
         <a href="face-page-metadata.html">Open face-page audit</a>
         <a href="source-note-drafts.html">Open source-note drafts</a>
+        <a href="source-note-element-audit.html">Open source-note elements</a>
         <a href="reading-packet-manifest.json">Open packet manifest</a>
         <a href="reading-packet-toc.csv">Download packet TOC</a>
         <a href="compiler-document-chronology.csv">Download chronology CSV</a>

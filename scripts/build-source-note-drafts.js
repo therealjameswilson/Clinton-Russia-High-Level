@@ -251,6 +251,7 @@ function writeHtml(report) {
       <div class="actions">
         <a href="source-note-drafts.csv">Download source-note CSV</a>
         <a href="source-note-drafts.json">Open JSON</a>
+        <a href="source-note-element-audit.html">Open source-note element audit</a>
         <a href="face-page-metadata.html">Open face-page audit</a>
         <a href="../public/documents/clinton-yeltsin-core-reading-packet.pdf">Open reading packet PDF</a>
       </div>

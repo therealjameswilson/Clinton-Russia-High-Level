@@ -59,6 +59,7 @@ Compiler-facing handoff files are generated in `reports/`:
 - `annotation-workbench.html`, `annotation-workbench.json`, `annotation-targets.csv`, and `annotation-document-queue.csv`: annotation triage workbench with authority targets, issue clusters, first-reference prompts, and a document-level annotation queue.
 - `face-page-metadata.html`, `face-page-metadata.json`, and `face-page-metadata.csv`: source-note drafting aid with parsed subject, participants, notetakers/interpreters, date/time/place, and classification lines from each extracted PDF's first page.
 - `source-note-drafts.html`, `source-note-drafts.json`, and `source-note-drafts.csv`: copy-ready source-note drafting packet combining FRUS-style source stems, packet ranges, and OCR-derived face-page metadata for verification.
+- `source-note-element-audit.html`, `source-note-element-audit.json`, and `source-note-element-audit.csv`: source-family-aware citation element checklist for repository stems, NAIDs, MDR/FOIA/catalog authority, identifiers, page maps, and face-page/source-note review flags.
 - `compiler-document-chronology.csv`: spreadsheet-ready chronology with page counts, source-page ranges, PDFs, source notes, and follow-up actions.
 - `frus-selection-worksheet.csv`: working selection sheet with blank include/document-number columns, suggested treatment, issue tags, and annotation/declassification note columns.
 - `document-page-tallies.json`: machine-readable consolidated page counts and pending extent records.
@@ -128,6 +129,12 @@ To rebuild the source-note drafting packet:
 
 ```sh
 node scripts/build-source-note-drafts.js
+```
+
+To rebuild the source-note element audit:
+
+```sh
+node scripts/build-source-note-element-audit.js
 ```
 
 To rebuild the contact dossier crosswalk:
