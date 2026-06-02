@@ -54,6 +54,7 @@ Compiler-facing handoff files are generated in `reports/`:
 - `topic-index.html`, `topic-index.json`, and `topic-index.csv`: keyword topic and name/organization index generated from extracted PDF text.
 - `selection-priority-workbench.html`, `selection-priority-workbench.json`, and `selection-priority-workbench.csv`: nonbinding selection-priority triage for the direct Clinton-Yeltsin chronology, with tiers, issue coverage, source hooks, and decision prompts.
 - `draft-selection-spine.html`, `draft-selection-spine.json`, and `draft-selection-spine.csv`: nonbinding starting document-selection spine that keeps all Tier 1 likely core documents and adds Tier 2 representatives for undercovered themes and thin narrative phases.
+- `draft-spine-worksheet.html`, `draft-spine-worksheet.json`, and `draft-spine-worksheet.csv`: print-and-spreadsheet first-pass worksheet joining the draft spine to source-note drafts, face-page flags, annotation prompts, packet ranges, companion-source counts, and blank compiler decision fields.
 - `compiler-next-actions.html`, `compiler-next-actions.json`, and `compiler-next-actions.csv`: prioritized production queue that turns the hard-gap, draft-spine, source-note, face-page, annotation, and selection reports into day-one tasks and cleanup batches.
 - `page-budget-scenarios.html`, `page-budget-scenarios.json`, and `page-budget-scenarios.csv`: nonbinding document/page-budget scenarios for Tier 1, Tier 1-2, heavy annotation, broad draft, full counted set, and hard-gap estimates.
 - `thematic-selection-matrix.html`, `thematic-selection-matrix.json`, and `thematic-selection-matrix.csv`: issue-by-scenario coverage matrix showing strong, adequate, and Tier 2-dependent thematic coverage across selection tiers.
@@ -113,6 +114,12 @@ To rebuild the draft selection spine from the selection, thematic, outline, and 
 
 ```sh
 node scripts/build-draft-selection-spine.js
+```
+
+To rebuild the draft spine working worksheet from the spine, source-note, face-page, annotation, dossier, packet, readiness, and next-action reports:
+
+```sh
+node scripts/build-draft-spine-worksheet.js
 ```
 
 To rebuild the compiler next-action queue from the spine, readiness, source-note, face-page, and hard-gap reports:

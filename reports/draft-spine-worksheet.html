@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FRUS Draft Spine Worksheet</title>
+    <style>
+      body { margin: 0; color: #18212d; font: 15px/1.52 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f7f8; }
+      main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; padding: 34px 0 56px; }
+      h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.08; }
+      h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.65rem); }
+      h2 { margin: 0 0 8px; font-size: clamp(1.35rem, 3vw, 2.05rem); }
+      h3 { margin: 18px 0 8px; font-size: 1.05rem; }
+      a { color: #243d63; font-weight: 800; }
+      .lede { max-width: 980px; color: #5b6470; font-size: 1.04rem; }
+      .actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 24px; }
+      .actions a { display: inline-flex; min-height: 34px; align-items: center; padding: 0 11px; color: white; text-decoration: none; background: #243d63; border-radius: 6px; }
+      .actions a:nth-child(even) { color: #243d63; background: white; border: 1px solid #d7dedb; }
+      dl.summary { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; margin: 24px 0; }
+      dl.summary div { padding: 13px; background: white; border: 1px solid #d7dedb; border-radius: 8px; }
+      dt { color: #5b6470; font-size: .76rem; font-weight: 900; text-transform: uppercase; }
+      dd { margin: 4px 0 0; }
+      dl.summary dd { font-family: Georgia, "Times New Roman", serif; font-size: 1.32rem; font-weight: 800; }
+      .note { max-width: 980px; padding: 12px 14px; background: #eef7f2; border: 1px solid #bdd6c9; border-radius: 8px; color: #335849; }
+      .worksheet-card { margin: 18px 0; padding: 18px; background: white; border: 1px solid #d7dedb; border-radius: 8px; box-shadow: 0 18px 46px rgba(22, 31, 43, .08); break-inside: avoid; }
+      .meta { margin: 0 0 7px; color: #5b6470; font-size: .78rem; font-weight: 900; text-transform: uppercase; }
+      .decision-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 14px 0; }
+      .decision-grid div { padding: 10px; background: #f5f7f8; border: 1px solid #d7dedb; border-radius: 8px; }
+      .decision-grid strong { display: block; margin-bottom: 6px; }
+      .decision-grid span { display: inline-block; margin-right: 12px; white-space: nowrap; }
+      .details { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px; margin: 12px 0; }
+      .details div { padding-bottom: 8px; border-bottom: 1px solid #edf1ef; }
+      pre { overflow-x: auto; white-space: pre-wrap; padding: 12px; background: #f6f3ec; border: 1px solid #e0d3bd; border-radius: 8px; }
+      .blank-lines { min-height: 74px; background: repeating-linear-gradient(to bottom, transparent 0 27px, #d7dedb 27px 28px); }
+      @media (max-width: 760px) { dl.summary, .decision-grid, .details { grid-template-columns: 1fr; } }
+      @media print {
+        body { background: white; }
+        main { width: auto; padding: 0; }
+        .actions, main > p, .note { display: none; }
+        .worksheet-card { box-shadow: none; page-break-inside: avoid; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p><a href="../">Back to compiler page</a></p>
+      <h1>FRUS Draft Spine Worksheet</h1>
+      <p class="lede">Generated 2026-06-02T10:44:54.844Z. This print-and-spreadsheet worksheet joins the 16-document draft spine to source-note drafts, face-page flags, annotation prompts, companion-source counts, packet pages, and blank compiler decision fields.</p>
+      <div class="actions">
+        <a href="draft-spine-worksheet.csv">Download worksheet CSV</a>
+        <a href="draft-spine-worksheet.json">Open worksheet JSON</a>
+        <a href="draft-selection-spine.html">Open draft spine</a>
+        <a href="compiler-next-actions.html">Open next-action queue</a>
+        <a href="source-note-drafts.html">Open source-note drafts</a>
+        <a href="face-page-metadata.html">Open face-page audit</a>
+        <a href="annotation-workbench.html">Open annotation workbench</a>
+      </div>
+      <p class="note">Blank checkbox fields are intentional: they are for compiler decisions, not generated claims.</p>
+      <dl class="summary"><div><dt>Docs</dt><dd>16</dd></div>
+<div><dt>Pages</dt><dd>155</dd></div>
+<div><dt>Tier 1</dt><dd>11</dd></div>
+<div><dt>Tier 2</dt><dd>5</dd></div>
+<div><dt>Source-Note Review</dt><dd>14</dd></div>
+<div><dt>Face-Page Review</dt><dd>9</dd></div>
+<div><dt>Heavy Annotation</dt><dd>16</dd></div>
+<div><dt>PDD Refs</dt><dd>5</dd></div>
+<div><dt>Public Papers</dt><dd>14</dd></div>
+<div><dt>Source Copies</dt><dd>12</dd></div></dl>
+      <article class="worksheet-card">
+        <header>
+          <p class="meta">#1 / Seq. 4 / 1993-04-03 / Memcon / Tier 2 - strong candidate / 9 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">Working Dinner with President Boris Yeltsin</a></h2>
+          <p>Opening channel, Vancouver, and Tokyo. Tier 2 representative for Russian Politics / Elections</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>9-18; conversation 9-17; provenance sheet 18</dd></div>
+          <div><dt>Source Pages</dt><dd>9-17; marker 2; <a href="https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classification marking; classified-by line not parsed; classification reason not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Review fields: classification marking</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Working Dinner with President Boris Yeltsin (U) April 3, 1993, 6:30 - 8:30pm Vancouver, Canada (Both Presidents opened the dinner by giving prepared toasts) Notetaker: Director for Russian, Ukrainian and Eurasian Affairs, NSC Staff. </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Economic Reform / Assistance, Arms Control / Nonproliferation, Russian Politics / Elections. Authority checks: Yeltsin, Kozyrev, Christopher, G-7, Chernomyrdin, UN. Compare same-day/nearby Public Papers for public framing.</dd></div>
+          <div><dt>Topics</dt><dd>Economic Reform / Assistance (18); Arms Control / Nonproliferation (4); Russian Politics / Elections (3)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (41); Kozyrev (7); Christopher (4); G-7 (4); Chernomyrdin (2); UN (2)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 3 Public Papers; 0 source copies; 0 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P1 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, OA/Box Number 145, Folder Title/Record ID 9302226, National Archives Catalog item 2014-0901-M, Memcons between President William Jefferson Clinton and President Boris Yeltsin, NAID 163545404. Source PDF pages 9-17. Compiler packet pages 9-18; actual conversation pages 9-17. Face-page metadata for verification: Subject: Working Dinner with President Boris Yeltsin (U) | Date/time/place: April 3, 1993, 6:30 - 8:30pm Vancouver, Canada (Both Presidents opened the dinner by giving prepared toasts) | Declassify on: OADR | Notetaker: Director for Russian, Ukrainian and Eurasian Affairs, NSC Staff | Participants block: The President Warren Christopher, Secretary of State Lloyd Bentsen, Secretary of Treasury Mack McLarty, Chief of Staff George Stephanopoulos, Assistant to the President and Director of Communications Anthony Lake, Assistant to the President for National Security Affairs Samuel Berger, Deputy Assistant to the President for National Security Affairs Thomas....</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#2 / Seq. 5 / 1993-04-04 / Memcon / Tier 1 - likely core / 12 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">Meeting with Russian President Boris Yeltsin on Security Issues</a></h2>
+          <p>Opening channel, Vancouver, and Tokyo. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>19-31; conversation 19-30; provenance sheet 31</dd></div>
+          <div><dt>Source Pages</dt><dd>19-30; marker 2; <a href="https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classification marking; classified-by line not parsed; classification reason not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Review fields: classification marking</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Meeting with Russian President Boris Yeltsin on Security Issues (U) April 4, 1993, 10:00 a.m. to 1:00 p.m. Pan Pacific Hotel, Vancouver, Canada Notetaker: Assistant to the President for National Security Affairs Daniel Poneman, Senior Director for Nonproliferation, NSC Staff. </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Ukraine / Nuclear Security, Economic Reform / Assistance, Iraq / Middle East. Authority checks: Yeltsin, G-7, Christopher, Kozyrev, Chernomyrdin, Gore. Compare same-day/nearby Public Papers for public framing.</dd></div>
+          <div><dt>Topics</dt><dd>Ukraine / Nuclear Security (18); Economic Reform / Assistance (17); Iraq / Middle East (15)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (61); G-7 (5); Christopher (4); Kozyrev (3); Chernomyrdin (1); Gore (1)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 3 Public Papers; 0 source copies; 0 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, OA/Box Number 145, Folder Title/Record ID 9302226, National Archives Catalog item 2014-0901-M, Memcons between President William Jefferson Clinton and President Boris Yeltsin, NAID 163545404. Source PDF pages 19-30. Compiler packet pages 19-31; actual conversation pages 19-30. Face-page metadata for verification: Subject: Meeting with Russian President Boris Yeltsin on Security Issues (U) | Date/time/place: April 4, 1993, 10:00 a.m. to 1:00 p.m. Pan Pacific Hotel, Vancouver, Canada | Declassify on: OADR DECLASSIFIED | Notetaker: Assistant to the President for National Security Affairs Daniel Poneman, Senior Director for Nonproliferation, NSC Staff | Participants block: The President Warren Christopher, Secretary of State Lloyd Bentsen, Secretary of the Treasury George Stephanopolous, Assistant to the President and Director of Communications Strobe Talbott, Ambassador-at-Large and Special Advisor to the Secretary of State Anthony Lake, Advisor to the President for National Security Affairs Thomas Pickering, Ambassador-de....</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#3 / Seq. 10 / 1993-07-10 / Memcon / Tier 1 - likely core / 9 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan</a></h2>
+          <p>Opening channel, Vancouver, and Tokyo. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>46-55; conversation 46-54; provenance sheet 55</dd></div>
+          <div><dt>Source Pages</dt><dd>81-89; marker 80; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classified-by line not parsed; classification reason not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Parsed</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Memcon with President Boris Yeltsin of Russia (U) July 10, 1993, 7:45 - 9:15am Ambassador's Residence, Tokyo Notetaker: Acting Senior Director for Russia, Ukraine and Eurasia Affairs, NSC staff. </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Ukraine / Nuclear Security, Iraq / Middle East, Economic Reform / Assistance. Authority checks: Yeltsin, Christopher, Kozyrev, Talbott, Berger, Chernomyrdin. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>Ukraine / Nuclear Security (17); Iraq / Middle East (7); Economic Reform / Assistance (4)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (48); Christopher (6); Kozyrev (5); Talbott (4); Berger (1); Chernomyrdin (1)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 1 Public Papers; 2 source copies; 0 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9305178, Original OA/ID 153, Mandatory Declassification Review 2014-0996-M, Declassified documents concerning Russian President Boris Yeltsin. Source PDF pages 81-89. Compiler packet pages 46-55; actual conversation pages 46-54. Face-page metadata for verification: Subject: Memcon with President Boris Yeltsin of Russia (U) | Date/time/place: July 10, 1993, 7:45 - 9:15am Ambassador's Residence, Tokyo | Face-page marking: SECRET- CLINTON LIBRARY PHOTOCOPY | Declassify on: OADR | Notetaker: Acting Senior Director for Russia, Ukraine and Eurasia Affairs, NSC staff | Participants block: The President Warren Christopher, Secretary of State Lloyd Bentsen, Secretary of the Treasury Samuel Berger, Deputy Assistant to the President for National Security Affairs Strobe Talbott, Ambassador at Large and Special Adviser to the Secretary on the New Independent States Nicholas Burns, Acting Senior Director for Russia, Ukraine and Eurasia Affairs, N....</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#4 / Seq. 16 / 1994-01-13 / Memcon / Tier 1 - likely core / 11 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">President's dinner with President Yeltsin, January 13/14, 1994</a></h2>
+          <p>Ukraine, Partnership for Peace, and the 1994 balance. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>80-90; conversation 80-90; provenance sheet check</dd></div>
+          <div><dt>Source Pages</dt><dd>1-11; marker check; <a href="https://clinton.presidentiallibraries.us/files/original/c016beef71be071cd9c96fcf0972fd57.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Review fields: participants; classification marking</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>PRESIDENT'S DINNER WITH PRESIDENT YELTSIN JANUARY 14, 1994 1. ' -S-ECReT - ENTIRE TEXT 2. THIS CABLE IS FORWARDED FOR YOUR CLEARANCE. DECLASSIFIED 3. SUMMARY: IN A SERIES OF DISCUSSIONS ABOUT PER E.0.13526 DOMESTIC AND WORLD AFFAIRS ON THE EVENING OF JANUARY I3TH. PRESIDENT YELTSIN AND PRESIDENT CLINTON ■Xo\v&gt; • owT • ro TALKED ABOUT THE TRILATERAL AGREEMENT FOR UKRAINE AND \o/y2.ovs \xe,v4 ITS CHANCES FOR SUCCESS. THEY ALSO DISCUSSED ATTITUDES IN THE COUNTRY AMONG THE RUSSIAN PEOPLE, PRESIDENT YELTSIN'S NEW EFFORTS TO ORGANIZE THE PARLIAMENT, AND RUSSIAN INTEREST IN REDUCING ARMS TRADE WITH IRAN AND OPENING UP THE SANCTIONS REGIME AGAINST IRAQ IN AN EFFORT TO ENSURE IRAQI REPAYMENT OF A PORTION OF ITS DEBT 00 RUSSIA. THERE WAS A DISCUSSION OF MILITARY COOPERATION AS WELL AS BOSNIA. PRESIDENT CLINTON AND PRESIDENT YELTSIN BOTH DISCUSSED THE NATURE OF THE U.S.-RUSSIAN RELATIONSHIP AND THE IMPORTANCE OF THAT RELATIONSHIP TO THE FUTURE OF WORLD STABILITY AND PEACE, PARTICULARLY IN EUROPE AND IN THE CONTEXT OF THE PARTNERSHIP FOR PEACE. PRESIDENT YELTSIN SIGNALED A POSSIBLE CHANGE IN HIS CABINET, DROPPING FORMER PRIME MINISTER GAYDAR TO WORK IN THE LOWER-HOUSE OF THE NEW FEDERAL LEGISLATURE. PRESIDENT CLINTON EXPLAINED THE CONCEPT OF ENSURING A LONG TERM PEACE IN EUROPE THROUGH FRANK CONSULTATION AND STRONG AND CLOSE COOPERATION BETWEEN RUSSIA AND THE UNITED STATES, BUT WITH CARE TAKEN TO ENSURE RESPECT FOR THE INTEREST OF OTHERS. END SUMMARY. 4.THE PRESIDENT MET WITH PRESIDENT YELTSIN AT THE DACHA AT NOVA OGAREVA OUTSIDE OF MOSCOW ON JANUARY I4TH FOR A DINNER IN WHICH A NUMBER OF BUSINESS ISSUES AROSE. THIS MEMCOM RECORDS THE BUSINESS DISCUSSION. THE PRESIDENT WAS ACCOMPANIED BY SECRETARY CHRISTOPHER, SECRETARY BENSON, NATIONAL SECURITY ADVISOR LAKE, AMBASSADOR AT LARGE STROBE TALBOTT AND AMBASSADOR PICKERING. PRESIDENT YELTSIN WAS ACCOMPANIED BY PRIME MINISTER CHRNOMYRDIN, FIRST DEPUTY PRIME MINISTER SOSKOVETS, FOREIGN MINISTER KOZYREV, DEFENSE MINISTER GRACHEV AND BY HIS LEGAL ADVISOR ILLYUSHIN. 5. AFTER OPENING PLEASANTRIES, PRESIDENT CLINTON NOTED THE IMPORTANCE HE ATTACHED TO HAVING HAD A CHANCE TO SEE RUSSIAN PEOPLE ON THE STREETS OF MOSCOW. HE TOLD PRESIDENT YELTSIN THAT HE HAD PASSED ON HIS CONCERNS TO PRESIDENT YELTSIN'S ADVISORS ABOUT THE PEOPLE AND THEIR REACTIONS. 6. PRESIDENT YELTSIN CHANGED THE SUBJECT AND NOTED MRS. YELTSIN HAD CALLED HIS ATTENTION TO A WONDERFUL ARTICLE &quot;IZVESTIA&quot; NEWSPAPER HAD RUN ON PRESIDENT CLINTON. THE ARTICLE ALSO COVERED MRS. CLINTON'S ACTIVITIES. 7. PRESIDENT YELTSIN THEN RETURNED TO THE INITIAL COMMENT ABOUT PEOPLE BEING WORRIED. THEY ARE CRITICAL OF US AND THEY ARE CERTAINLY RIGHT, HE SAID. TO DO BETTER, I HAVE SENT SERGEI ALEXANDROVICH FILATOV, THE KREMLIN CHIEF-OF-STAFF, TO LEARN ABOUT YOUR SYSTEM. WE ARE TRYING TO FIND OUT ABOUT HOW TO BE MORE EFFICIENT AT OUR WORK AND TO SPREAD THE RESPONSIBILITIES TO THOSE WHO CAN CARRY THEM OUT. THE COLLABORATION BETWEEN OUR COLLKAGUES IN THE CABINET IS STRONG AND WE HAVE A STRONG CABINET. January 13/14, 1994, Nova Ogareva, outside Moscow (source item date January 13; cable subject says January 14)  </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Iraq / Middle East, NATO / European Security, Ukraine / Nuclear Security. Authority checks: Yeltsin, NATO, Kozyrev, Chernomyrdin, Gore, Christopher. Compare same-day/nearby Public Papers for public framing.</dd></div>
+          <div><dt>Topics</dt><dd>Iraq / Middle East (20); NATO / European Security (9); Ukraine / Nuclear Security (9)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (62); NATO (6); Kozyrev (4); Chernomyrdin (2); Gore (2); Christopher (1)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 4 Public Papers; 0 source copies; 0 Strobe; 2 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Digital Library item 101370, &quot;Memorandum of Conversation - President Boris Yeltsin of Russia,&quot; January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Item description: &quot;This Memcon was received as a NSC Cable.&quot; Source PDF pages 1-11. Compiler packet pages 80-90; actual conversation pages 80-90. Face-page metadata for verification: Subject: PRESIDENT'S DINNER WITH PRESIDENT YELTSIN JANUARY 14, 1994 1. ' -S-ECReT - ENTIRE TEXT 2. THIS CABLE IS FORWARDED FOR YOUR CLEARANCE. DECLASSIFIED 3. SUMMARY: IN A SERIES OF DISCUSSIONS ABOUT PER E.0.13526 DOMESTIC AND WORLD AFFAIRS ON THE EVENING OF JANUARY I3TH. PRESIDENT YELTSIN AND PRESIDENT CLINTON ■Xo\v&gt; • owT • ro TALKED ABOUT THE TRILATERAL AGREEMENT FOR UKRAINE AND \o/y2.ovs \xe,v4 ITS CHANCES FOR SUCCESS. THEY ALSO DISCUSSED ATTITUDES IN THE COUNTRY AMONG THE RUSSIAN PEOPLE, PRESIDENT YELTSIN'S NEW EFFORTS TO ORGANIZE THE PARLIAMENT, AND RUSSIAN INTEREST IN REDUCING ARMS TRADE WITH IRAN AND OPENING UP THE SANCTIONS REGIME AGAINST IRAQ IN AN EFFORT TO ENSURE IRAQI REPAYMENT OF A PORTION OF ITS DEBT 00 RUSSIA. THERE WAS A DISCUSSION OF MILITARY COOPERATION AS WELL AS BOSNIA. PRESIDENT CLINTON AND PRESIDENT YELTSIN BOTH DISCUSSED THE NATURE OF THE U.S.-RUSSIAN RELATIONSHIP AND THE IMPORTANCE OF THAT RELATIONSHIP TO THE FUTURE OF WORLD STABILITY AND PEACE, PARTICULARLY IN EUROPE AND IN THE CONTEXT OF THE PARTNERSHIP FOR PEACE. PRESIDENT YELTSIN SIGNALED A POSSIBLE CHANGE IN HIS CABINET, DROPPING FORMER PRIME MINISTER GAYDAR TO WORK IN THE LOWER-HOUSE OF...</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#5 / Seq. 18 / 1994-01-14 / Memcon / Tier 1 - likely core / 8 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf">Second Expanded Bilateral Session with President Boris Yeltsin of Russia</a></h2>
+          <p>Ukraine, Partnership for Peace, and the 1994 balance. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>94-101; conversation 94-101; provenance sheet check</dd></div>
+          <div><dt>Source Pages</dt><dd>State FOIA document C06694502, conversation pages 1-8; marker check; <a href="https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Parsed</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Second.ExpandeB Bilatexal Session with President Boris Yeltsin of Russia (U) January 14, 1994, 9:35 - 11:15 a.m. St. Catherine's Hall, The Kremlin Notetaker: Director for Russia, Ukraine and Eurasia Affairs, NSC Staff. </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Arms Control / Nonproliferation, Iraq / Middle East, Ukraine / Nuclear Security. Authority checks: Yeltsin, Chernomyrdin, Christopher, Gore, Kozyrev, Talbott. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>Arms Control / Nonproliferation (30); Iraq / Middle East (17); Ukraine / Nuclear Security (16)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (20); Chernomyrdin (2); Christopher (1); Gore (1); Kozyrev (1); Talbott (1)</dd></div>
+          <div><dt>Companion Controls</dt><dd>1 PDD; 6 Public Papers; 2 source copies; 0 Strobe; 2 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694502. Source PDF pages State FOIA document C06694502, conversation pages 1-8. Compiler packet pages 94-101; actual conversation pages 94-101. Face-page metadata for verification: Subject: Second.ExpandeB Bilatexal Session with President Boris Yeltsin of Russia (U) | Date/time/place: January 14, 1994, 9:35 - 11:15 a.m. St. Catherine's Hall, The Kremlin | Face-page marking: CONFIDENTIAL | Notetaker: Director for Russia, Ukraine and Eurasia Affairs, NSC Staff | Participants block: The President Warren Christopher, Secretary of State Thomas Pickering, U.S. Ambassador to Russia Mack McLarty, Chief of Staff David Gergen, Counselor to the President Anthony Lake, Assistant to the President for National Security Affairs Leon Fuerth, Assistant to the Vice President for National Security Affairs Strobe Talbott,. Deputy Secretary of State (....</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#6 / Seq. 28 / 1994-09-27 / Memcon / Tier 1 - likely core / 10 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House</a></h2>
+          <p>Ukraine, Partnership for Peace, and the 1994 balance. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>134-144; conversation 134-143; provenance sheet 144</dd></div>
+          <div><dt>Source Pages</dt><dd>251-260; marker 245; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classified-by line not parsed; classification reason not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Parsed</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Expanded Session on Security Issues with President Yeltsin of the Russian Federation September 27, 1994; 4:35-5:35pm Cabinet Room DECLASSIFIED PER E.0.13526 •CONFIDENTIAL- Declassify on: OADR 3/iyi.ol8 K6H  </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Ukraine / Nuclear Security, Arms Control / Nonproliferation, Iraq / Middle East. Authority checks: Yeltsin, Christopher, Kozyrev, Gore, Milosevic. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>Ukraine / Nuclear Security (43); Arms Control / Nonproliferation (42); Iraq / Middle East (3)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (31); Christopher (7); Kozyrev (6); Gore (1); Milosevic (1)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 4 Public Papers; 1 source copies; 1 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 482, Folder Title/Record ID 9408513, Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin. Source PDF pages 251-260. Compiler packet pages 134-144; actual conversation pages 134-143. Face-page metadata for verification: Subject: Expanded Session on Security Issues with President Yeltsin of the Russian Federation | Date/time/place: September 27, 1994; 4:35-5:35pm Cabinet Room DECLASSIFIED PER E.0.13526 •CONFIDENTIAL- Declassify on: OADR 3/iyi.ol8 K6H | Face-page marking: •CONFIDENTIAL- | Declassify on: OADR 3/iyi.ol8 K6H | Participants block: The President The Vice President Warren Christopher, The Secretary of State William Perry, The Secretary of Defense Anthony Lake, Assistant to the President for National Security Affairs Leon Fuerth, Assistant to the Vice President for National Security Affairs Lynn Davis, Undersecretary for International Security Affairs Thomas Pickering, U.S. Ambassador....</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#7 / Seq. 34 / 1995-05-10 / Memcon / Tier 1 - likely core / 16 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia</a></h2>
+          <p>1995 summits, reform assistance, and NATO pressure. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>171-187; conversation 171-186; provenance sheet 187</dd></div>
+          <div><dt>Source Pages</dt><dd>285-300; marker 284; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Review fields: participants; classification marking</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>One-On-One Meeting 10:10 a.m. - 1:19 p.m.  </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: NATO / European Security, Iraq / Middle East, Ukraine / Nuclear Security. Authority checks: NATO, Gore, Yeltsin, Chernomyrdin, Kozyrev, G-7. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting.</dd></div>
+          <div><dt>Topics</dt><dd>NATO / European Security (67); Iraq / Middle East (17); Ukraine / Nuclear Security (16)</dd></div>
+          <div><dt>Authorities</dt><dd>NATO (41); Gore (12); Yeltsin (11); Chernomyrdin (8); Kozyrev (3); G-7 (2)</dd></div>
+          <div><dt>Companion Controls</dt><dd>1 PDD; 7 Public Papers; 0 source copies; 0 Strobe; 1 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9503774, Original OA/ID 582, Mandatory Declassification Review 2014-0904-M-Release-A, Declassified documents concerning Russia. Source PDF pages 285-300. Compiler packet pages 171-187; actual conversation pages 171-186. Face-page metadata for verification: Subject: One-On-One Meeting | Date/time/place: 10:10 a.m. - 1:19 p.m..</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#8 / Seq. 35 / 1995-06-17 / Memcon / Tier 2 - strong candidate / 8 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf">Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada</a></h2>
+          <p>1995 summits, reform assistance, and NATO pressure. Tier 2 representative for Chechnya / Caucasus</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>188-195; conversation 188-195; provenance sheet check</dd></div>
+          <div><dt>Source Pages</dt><dd>Strobe FOIA document C06835181, conversation pages 1-8; marker check; <a href="https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: participants; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Review fields: participants</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Cl'inton-Yeltsin Meeting June 17, 1995, Halifax, Nova Scotia, Canada  </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: NATO / European Security, Ukraine / Nuclear Security, Chechnya / Caucasus. Authority checks: NATO, Yeltsin, Chernomyrdin, Gore, UN, Christopher. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>NATO / European Security (18); Ukraine / Nuclear Security (9); Chechnya / Caucasus (8)</dd></div>
+          <div><dt>Authorities</dt><dd>NATO (13); Yeltsin (6); Chernomyrdin (4); Gore (4); UN (3); Christopher (1)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 1 Public Papers; 1 source copies; 2 Strobe; 1 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P1 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835181. Source PDF pages Strobe FOIA document C06835181, conversation pages 1-8. Compiler packet pages 188-195; actual conversation pages 188-195. Face-page metadata for verification: Subject: Cl'inton-Yeltsin Meeting | Date/time/place: June 17, 1995, Halifax, Nova Scotia, Canada | Face-page marking: UNCLASSIFIED U.S. Department of State Case No. F-2017-13804 Doc No. C06835181 Date: 12/28/2020.</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#9 / Seq. 38 / 1995-10-23 / Memcon / Tier 2 - strong candidate / 12 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf">Clinton-Yeltsin One-on-One</a></h2>
+          <p>1995 summits, reform assistance, and NATO pressure. Phase-balance anchor: 1995 summits, reform assistance, and NATO pressure has one Tier 1 document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>206-218; conversation 206-217; provenance sheet 218</dd></div>
+          <div><dt>Source Pages</dt><dd>5-16; marker 2; <a href="https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: participants; classification marking; classified-by line not parsed; classification reason not parsed; declassify-on line not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Review fields: participants; classification marking</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Clinton-Yeltsin One-on-One 11:30 a.m.-1:35 p.m.  </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: NATO / European Security, Ukraine / Nuclear Security, Arms Control / Nonproliferation. Authority checks: NATO, Yeltsin, Gore, Chernomyrdin, Tudjman, Milosevic. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>NATO / European Security (21); Ukraine / Nuclear Security (7); Arms Control / Nonproliferation (5)</dd></div>
+          <div><dt>Authorities</dt><dd>NATO (18); Yeltsin (15); Gore (5); Chernomyrdin (4); Tudjman (4); Milosevic (2)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 2 Public Papers; 1 source copies; 5 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P1 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin], OA/Box Number 43319, Folder Title/Record ID 9507853, National Archives Catalog item 2014-0948-M, Memcon between President William Jefferson Clinton and President Boris Yeltsin, NAID 163545436. Source PDF pages 5-16. Compiler packet pages 206-218; actual conversation pages 206-217. Face-page metadata for verification: Subject: Clinton-Yeltsin One-on-One | Date/time/place: 11:30 a.m.-1:35 p.m..</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#10 / Seq. 45 / 1996-04-21 / Memcon / Tier 2 - strong candidate / 7 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf">Luncheon Meeting with Russian President Boris Yeltsin</a></h2>
+          <p>1996 election and enlargement management. Phase-continuity anchor: 1996 election and enlargement management has no Tier 1 document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>261-268; conversation 261-267; provenance sheet 268</dd></div>
+          <div><dt>Source Pages</dt><dd>7-13; marker 2; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Parsed face-page fields available</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Parsed</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Luncheon Meeting with Russian President Boris Yeltsin (U) April 21, 1996, 12:50 -- 2:15 p.m. The Kremlin Notetaker: Ambassador-at-Large to the New Independent States Ashton Carter, Assistant Secretary of Defense Coit Blacker, NSC. </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Economic Reform / Assistance, Russian Politics / Elections, Arms Control / Nonproliferation. Authority checks: Yeltsin, G-7, Zyuganov, Berger, Ivanov, Talbott. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>Economic Reform / Assistance (17); Russian Politics / Elections (11); Arms Control / Nonproliferation (3)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (18); G-7 (11); Zyuganov (3); Berger (1); Ivanov (1); Talbott (1)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 4 Public Papers; 1 source copies; 1 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P1 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1100, Folder Title/Record ID 9602963, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin. Source PDF pages 7-13. Compiler packet pages 261-268; actual conversation pages 261-267. Face-page metadata for verification: Subject: Luncheon Meeting with Russian President Boris Yeltsin (U) | Date/time/place: April 21, 1996, 12:50 -- 2:15 p.m. The Kremlin | Face-page marking: SEGRS¥- 2963 | Classified by: Andrew D. Sens ?mm. 13526 | Reason: 1.5 (d) io\5 - 0781- - X ^ l.o\^ | Declassify on: X6 | Notetaker: Ambassador-at-Large to the New Independent States Ashton Carter, Assistant Secretary of Defense Coit Blacker, NSC | Participants block: U.S. The President Thomas Pickering, U.S. Ambassador to Russia Leon Panetta, Chief of Staff to the President Strobe Talbott, Deputy Secretary of State Samuel Berger, Deputy Assistant to the President for National Security Affairs James Collins, Ambassador-at-Large to the New Independent States Ashton Carter, Assistant Secretary of Defense Coit Blacker, NS....</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#11 / Seq. 52 / 1997-03-21 / Memcon / Tier 1 - likely core / 11 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">Helsinki Morning Meeting with President Boris Yeltsin</a></h2>
+          <p>1997 Helsinki, Founding Act, and Denver. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>292-303; conversation 292-302; provenance sheet 303</dd></div>
+          <div><dt>Source Pages</dt><dd>105-115; marker 97; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classified-by line not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Parsed</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Morning Meeting with Russian President Yeltsin: NATO-Russia, START, ABM/TMD (Jt) March 21, 1997, 9:50-11:55 a.m. The Finnish President's Residence, Helsinki  </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: NATO / European Security, Arms Control / Nonproliferation, Ukraine / Nuclear Security. Authority checks: NATO, Yeltsin, Primakov, Albright, Berger, Talbott. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>NATO / European Security (46); Arms Control / Nonproliferation (43); Ukraine / Nuclear Security (12)</dd></div>
+          <div><dt>Authorities</dt><dd>NATO (38); Yeltsin (17); Primakov (7); Albright (3); Berger (1); Talbott (1)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 8 Public Papers; 1 source copies; 1 Strobe; 1 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1609, Folder Title/Record ID 9702044, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin. Source PDF pages 105-115. Compiler packet pages 292-303; actual conversation pages 292-302. Face-page metadata for verification: Subject: Morning Meeting with Russian President Yeltsin: NATO-Russia, START, ABM/TMD (Jt) | Date/time/place: March 21, 1997, 9:50-11:55 a.m. The Finnish President's Residence, Helsinki | Face-page marking: COMF1 DENT I7YE- 2044 | Reason: 1.5 (d) | Declassify on: X6 3/21/17 | Participants block: U.S. The President Madeleine Albright, Secretary of State Sandy Berger, Assistant to the President for National Security Affairs Strobe Talbott, Deputy Secretary of State Russia President Yeltsin Yevgeniy Primakov, Foreign Minister Dmitriy Ryurikov, Foreign Policy Assistant Yuriy Mamedov, Deputy Foreign Minister.</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#12 / Seq. 56 / 1997-05-27 / Memcon / Tier 1 - likely core / 8 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France</a></h2>
+          <p>1997 Helsinki, Founding Act, and Denver. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>325-333; conversation 325-332; provenance sheet 333</dd></div>
+          <div><dt>Source Pages</dt><dd>143-150; marker 137; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classified-by line not parsed</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Parsed</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Meeting with Russian President Yeltsin: NATQ-Russi.a, Arms Control, Economics, Denver Summit of the Eight, Afghanistan, Iran May 27, 1997, 5:00-5:55 p.m. The American Ambassador's Residence, Paris Notetaker: Assistant to the President for National Security Affairs Strobe Talbott, Deputy Secretary of State Steve Pifer, NSC staff. </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: NATO / European Security, Arms Control / Nonproliferation, Iraq / Middle East. Authority checks: Yeltsin, Primakov, NATO, Albright, Berger, Talbott. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>NATO / European Security (29); Arms Control / Nonproliferation (10); Iraq / Middle East (7)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (31); Primakov (11); NATO (10); Albright (6); Berger (4); Talbott (4)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 1 Public Papers; 1 source copies; 0 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1623, Folder Title/Record ID 9703720, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin. Source PDF pages 143-150. Compiler packet pages 325-333; actual conversation pages 325-332. Face-page metadata for verification: Subject: Meeting with Russian President Yeltsin: NATQ-Russi.a, Arms Control, Economics, Denver Summit of the Eight, Afghanistan, Iran | Date/time/place: May 27, 1997, 5:00-5:55 p.m. The American Ambassador's Residence, Paris | Face-page marking: CONFIDENTIAL DECIASSIFIED IN PART | Reason: 1.5 (d) PER E. O. 13526 | Declassify on: X6 5/27/17 | Notetaker: Assistant to the President for National Security Affairs Strobe Talbott, Deputy Secretary of State Steve Pifer, NSC staff | Participants block: U.S. The President Madeleine Albright, Secretary of State Samuel Berger, Assistant to the President for National Security Affairs Strobe Talbott, Deputy Secretary of State Steve Pifer, NSC staff (notetaker) Russia President Yeltsin Yevgeniy Primakov, Foreign Minister Sergey Yastrzhembskiy, Press Spokesman Sergey Prikhodko, Foreign Policy Assistant Nikolay....</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#13 / Seq. 57 / 1997-06-20 / Memcon / Tier 1 - likely core / 8 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf">Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado</a></h2>
+          <p>1997 Helsinki, Founding Act, and Denver. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>334-342; conversation 334-341; provenance sheet 342</dd></div>
+          <div><dt>Source Pages</dt><dd>165-172; marker 158; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classification marking</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Review fields: classification marking</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Meeting with Russian President Yeltsin: European Security and Madrid, Arms Control, Economics, Iraq, Russian-Iran Missile Cooperation, Japanese-Russian Relations [yf June 20, 1997, 1:05-2:05 p.m. The Gold Room, The Brown Palace, Denver (The meeting opened with ten minutes of press pool sprays.) ■SECR-S-I^ Classified by: Glyn T. Davies DECLASSIFIED Reason: 1.5 (d) PER E.0.13526 lP- cOJty^DoS -IW-I Declassify on: X6 6/20/17 o5f'Xh/'i£&gt;\l» Notetaker: Ambassador for the NIS Steve Pifer, Senior Director, NSC. </dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: NATO / European Security, Iraq / Middle East, Arms Control / Nonproliferation. Authority checks: Yeltsin, Primakov, Albright, NATO, UN, Berger. Compare same-day/nearby Public Papers for public framing. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>NATO / European Security (14); Iraq / Middle East (13); Arms Control / Nonproliferation (11)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (31); Primakov (7); Albright (5); NATO (4); UN (4); Berger (3)</dd></div>
+          <div><dt>Companion Controls</dt><dd>0 PDD; 5 Public Papers; 1 source copies; 0 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1629, Folder Title/Record ID 9704607, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin. Source PDF pages 165-172. Compiler packet pages 334-342; actual conversation pages 334-341. Face-page metadata for verification: Subject: Meeting with Russian President Yeltsin: European Security and Madrid, Arms Control, Economics, Iraq, Russian-Iran Missile Cooperation, Japanese-Russian Relations [yf | Date/time/place: June 20, 1997, 1:05-2:05 p.m. The Gold Room, The Brown Palace, Denver (The meeting opened with ten minutes of press pool sprays.) ■SECR-S-I^ Classified by: Glyn T. Davies DECLASSIFIED Reason: 1.5 (d) PER E.0.13526 lP- cOJty^DoS -IW-I Declassify on: X6 6/20/17 o5f'Xh/'i£&gt;\l» | Classified by: Glyn T. Davies DECLASSIFIED | Reason: 1.5 (d) PER E.0.13526 | Declassify on: X6 6/20/17 | Notetaker: Ambassador for the NIS Steve Pifer, Senior Director, NSC | Participants block: U.S. The President Madeleine Albright, Secretary of State Robert Rubin, Secretary of the Treasury Erskine Bowles, Chief of Staff Samuel Berger, Assistant to the President for National Security Affairs Gene Sperling, Assistant to the President for Economic Policy Dan Tarullo, Assistant to the President for International Economic Policy Mike McCu...</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#14 / Seq. 68 / 1998-06-15 / Telcon / Tier 2 - strong candidate / 5 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf">Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House</a></h2>
+          <p>1998 financial crisis and succession uncertainty. Phase-continuity anchor: 1998 financial crisis and succession uncertainty has no Tier 1 document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>401-406; conversation 401-405; provenance sheet 406</dd></div>
+          <div><dt>Source Pages</dt><dd>342-346; marker 336; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classification marking</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Review fields: classification marking</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Telephone Conversation with Russian President Boris Yeltsin June 15, 1998, 1:21 p.m, - 1:57 p.m. EDT, Oval Office Notetaker: Bob Ford, Cindy Lawrence, Andrew Weiss. Interpreter: Kyrill Borissow.</dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Kosovo / Balkans, NATO / European Security, Arms Control / Nonproliferation. Authority checks: Yeltsin, Milosevic, NATO, Primakov, IMF, UN. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>Kosovo / Balkans (25); NATO / European Security (7); Arms Control / Nonproliferation (4)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (13); Milosevic (12); NATO (7); Primakov (3); IMF (2); UN (2)</dd></div>
+          <div><dt>Companion Controls</dt><dd>1 PDD; 0 Public Papers; 1 source copies; 0 Strobe; 1 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P1 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 2045, Folder Title/Record ID 9804474, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin. Source PDF pages 342-346. Compiler packet pages 401-406; actual conversation pages 401-405. Face-page metadata for verification: Subject: Telephone Conversation with Russian President Boris Yeltsin | Date/time/place: June 15, 1998, 1:21 p.m, - 1:57 p.m. EDT, Oval Office | Classified by: Glyn T. Davies DECLASSIFIED | Reason: 1.5(b) PER E.0.13526 | Declassify on: 6/19/08 2Lo\5-o732.- X | Notetaker: Bob Ford, Cindy Lawrence, Andrew Weiss | Interpreter: Kyrill Borissow | Participants block: The President President Boris Yeltsin Interpreter: Kyrill Borissow Notetakers: Bob Ford, Cindy Lawrence, Andrew Weiss.</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#15 / Seq. 80 / 1999-04-25 / Telcon / Tier 1 - likely core / 12 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.</a></h2>
+          <p>1999 Kosovo, arms control, and transfer of power. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>453-465; conversation 453-464; provenance sheet 465</dd></div>
+          <div><dt>Source Pages</dt><dd>445-456; marker 444; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Parsed face-page fields available</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Parsed</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>Telephone Conversation with Russian President Yeltsin ^ April 25, 1999, 10:35 - 11:58 a.m. EDT, NATO Summit Trip Building Notetaker: George Chastain, Doug Bailey, Frank Jarosinski, Joel Schrader, Andrew Weiss. Interpreter: Yuriy Shkeyrov,.</dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Kosovo / Balkans, NATO / European Security, Economic Reform / Assistance. Authority checks: Yeltsin, Chernomyrdin, Gore, Milosevic, NATO, Talbott. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>Kosovo / Balkans (48); NATO / European Security (12); Economic Reform / Assistance (7)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (34); Chernomyrdin (32); Gore (29); Milosevic (27); NATO (12); Talbott (6)</dd></div>
+          <div><dt>Companion Controls</dt><dd>1 PDD; 0 Public Papers; 1 source copies; 1 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9903106, Original OA/ID 2725, Mandatory Declassification Review 2014-0546-M, Declassified documents concerning Russian President Boris Yeltsin and Kosovo. Source PDF pages 445-456. Compiler packet pages 453-465; actual conversation pages 453-464. Face-page metadata for verification: Subject: Telephone Conversation with Russian President Yeltsin ^ | Date/time/place: April 25, 1999, 10:35 - 11:58 a.m. EDT, NATO Summit Trip Building | Face-page marking: ■■SEGR.ETL | Classified by: Glyn T. Davies | Reason: 1.5(d) CLINTON LIBRARY PHOTOCOPY | Declassify on: 4/26/09 | Notetaker: George Chastain, Doug Bailey, Frank Jarosinski, Joel Schrader, Andrew Weiss | Interpreter: Yuriy Shkeyrov, | Participants block: President Clinton President Boris Yeltsin Notetakers: George Chastain, Doug Bailey, Frank Jarosinski, Joel Schrader, Andrew Weiss Interpreter: Yuriy Shkeyrov,.</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+<article class="worksheet-card">
+        <header>
+          <p class="meta">#16 / Seq. 87 / 1999-06-20 / Memcon / Tier 1 - likely core / 9 pp.</p>
+          <h2><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany</a></h2>
+          <p>1999 Kosovo, arms control, and transfer of power. Core Tier 1 likely FRUS document</p>
+        </header>
+        <div class="decision-grid">
+          <div><strong>Compiler Decision</strong><span>[ ] include</span> <span>[ ] excerpt</span> <span>[ ] editorial note</span> <span>[ ] background</span> <span>[ ] drop</span></div>
+          <div><strong>Production Checks</strong><span>[ ] source note</span> <span>[ ] face page</span> <span>[ ] annotation</span> <span>[ ] declass/excisions</span></div>
+        </div>
+        <dl class="details">
+          <div><dt>Packet Pages</dt><dd>494-503; conversation 494-502; provenance sheet 503</dd></div>
+          <div><dt>Source Pages</dt><dd>497-505; marker 491; <a href="https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf">source packet</a></dd></div>
+          <div><dt>Source Note Flags</dt><dd>Needs source-note review: classification marking</dd></div>
+          <div><dt>Face Page Flags</dt><dd>Review fields: classification marking</dd></div>
+          <div><dt>Meeting/Call Metadata</dt><dd>MEMORANDUM OF CONVERSATION June 20, 1999, 1:00 - 2:00 p.m. Renaissance Hotel (Russians Host), Cologne, Germany Notetaker: Carlos Pascual. Interpreter: Peter Afanasenko.</dd></div>
+          <div><dt>Annotation Prompt</dt><dd>Issue context: Arms Control / Nonproliferation, Kosovo / Balkans, Economic Reform / Assistance. Authority checks: Yeltsin, Ivanov, UN, Gore, Albright, Talbott. Compare same-day/nearby Public Papers for public framing. Use Daily Diary row to verify timing/setting. Check duplicate/source-copy controls before final citation.</dd></div>
+          <div><dt>Topics</dt><dd>Arms Control / Nonproliferation (38); Kosovo / Balkans (13); Economic Reform / Assistance (7)</dd></div>
+          <div><dt>Authorities</dt><dd>Yeltsin (41); Ivanov (10); UN (6); Gore (5); Albright (3); Talbott (3)</dd></div>
+          <div><dt>Companion Controls</dt><dd>1 PDD; 5 Public Papers; 1 source copies; 0 Strobe; 0 NARA.</dd></div>
+          <div><dt>Next Actions</dt><dd>P0 Draft spine closeout: Read the derivative PDF, verify source-note/face-page addenda, capture annotation hooks, and make the include/excerpt/background call.</dd></div>
+        </dl>
+        <h3>Source Note Draft For Verification</h3>
+        <pre>Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 2736, Folder Title/Record ID 9904842, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin. Source PDF pages 497-505. Compiler packet pages 494-503; actual conversation pages 494-502. Face-page metadata for verification: Subject: MEMORANDUM OF CONVERSATION | Date/time/place: June 20, 1999, 1:00 - 2:00 p.m. Renaissance Hotel (Russians Host), Cologne, Germany | Classified by: Glyn T. Davies ■ PER E.0.13526 | Reason: 1.5 (b,d) 'Xo\5-o-rsx-(^-\ ftn') | Declassify on: 6/25/09 3/\2/ 3LO\8 KSH | Notetaker: Carlos Pascual | Interpreter: Peter Afanasenko | Participants block: The President Secretary Albright Samuel Berger Deputy Secretary Talbott President Yeltsin Minister Ivanov Minister Shapovalyants Foreign Policy Advisor Prikhodko Deputy Minister Mamedov Russian Interpreter Interpreter: Peter Afanasenko Notetaker: Carlos Pascual.</pre>
+        <h3>Compiler Notes</h3>
+        <div class="blank-lines"></div>
+      </article>
+    </main>
+  </body>
+</html>

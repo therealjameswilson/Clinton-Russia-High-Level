@@ -487,6 +487,7 @@ function buildHtml(report) {
         <a href="compiler-next-actions.json">Open task JSON</a>
         <a href="compiler-start-here.html">Open start-here packet</a>
         <a href="draft-selection-spine.html">Open draft selection spine</a>
+        <a href="draft-spine-worksheet.html">Open spine worksheet</a>
         <a href="production-readiness-checklist.html">Open production checklist</a>
         <a href="hard-source-gap-packet.html">Open hard-gap packet</a>
         <a href="source-note-element-audit.html">Open source-note elements</a>
