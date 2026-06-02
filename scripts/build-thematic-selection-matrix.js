@@ -327,6 +327,7 @@ function buildHtml(report) {
         <a href="thematic-selection-matrix.csv">Download matrix CSV</a>
         <a href="thematic-selection-matrix.json">Open matrix JSON</a>
         <a href="draft-selection-spine.html">Open draft selection spine</a>
+        <a href="compiler-next-actions.html">Open next-action queue</a>
         <a href="page-budget-scenarios.html">Open page budgets</a>
         <a href="selection-priority-workbench.html">Open selection priorities</a>
         <a href="topic-index.html">Open topic index</a>

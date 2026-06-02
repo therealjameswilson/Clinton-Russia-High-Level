@@ -350,6 +350,7 @@ function buildHtml(report) {
         <a href="draft-selection-spine.csv">Download spine CSV</a>
         <a href="draft-selection-spine.json">Open spine JSON</a>
         <a href="compiler-start-here.html">Open start-here packet</a>
+        <a href="compiler-next-actions.html">Open next-action queue</a>
         <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="thematic-selection-matrix.html">Open thematic matrix</a>
         <a href="page-budget-scenarios.html">Open page budgets</a>

@@ -342,6 +342,7 @@ function buildCompilerStartHereMarkdown(records) {
     "- [Topic and name index](topic-index.html)",
     "- [Selection-priority workbench](selection-priority-workbench.html)",
     "- [Draft selection spine](draft-selection-spine.html)",
+    "- [Compiler next-action queue](compiler-next-actions.html)",
     "- [Page-budget scenarios](page-budget-scenarios.html)",
     "- [Thematic selection matrix](thematic-selection-matrix.html)",
     "- [Production-readiness checklist](production-readiness-checklist.html)",
@@ -451,6 +452,7 @@ function buildCompilerStartHereHtml(records) {
         <a href="topic-index.html">Open topic index</a>
         <a href="selection-priority-workbench.html">Open selection priorities</a>
         <a href="draft-selection-spine.html">Open draft selection spine</a>
+        <a href="compiler-next-actions.html">Open next-action queue</a>
         <a href="page-budget-scenarios.html">Open page budgets</a>
         <a href="thematic-selection-matrix.html">Open thematic matrix</a>
         <a href="production-readiness-checklist.html">Open production checklist</a>
