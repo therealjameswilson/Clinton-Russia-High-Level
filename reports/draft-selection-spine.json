@@ -1,0 +1,1108 @@
+{
+  "generatedAt": "2026-06-02T10:08:24.011Z",
+  "scope": "Nonbinding draft document-selection spine for the direct Clinton-Yeltsin memcon/telcon chronology.",
+  "selectionRules": [
+    "Include every Tier 1 likely core document.",
+    "Add the top Tier 2 representative for each thematic matrix row marked Needs Tier 2 representative.",
+    "Add the strongest Tier 2 phase-continuity anchor for phases with no Tier 1 document.",
+    "Add the strongest Tier 2 phase-balance anchor for phases with only one Tier 1 document and multiple Tier 2 anchors.",
+    "Keep strong remaining Tier 2 candidates in a watchlist rather than automatically selecting them."
+  ],
+  "summary": {
+    "selectedDocuments": 16,
+    "selectedActualPages": 155,
+    "tierOneDocuments": 11,
+    "tierTwoDocuments": 5,
+    "heavyAnnotationRows": 16,
+    "rowsNeedingSourceNoteReview": 14,
+    "watchlistDocuments": 12,
+    "issuesCovered": 8,
+    "phasesCovered": 7
+  },
+  "rows": [
+    {
+      "sequence": 4,
+      "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
+      "date": "1993-04-03",
+      "type": "Memcon",
+      "title": "Working Dinner with President Boris Yeltsin",
+      "phaseId": "opening-channel-vancouver-tokyo",
+      "phaseLabel": "Opening channel, Vancouver, and Tokyo",
+      "selectionTier": "Tier 2 - strong candidate",
+      "selectionScore": 92,
+      "actualConversationPages": 9,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Economic Reform / Assistance (18)",
+        "Arms Control / Nonproliferation (4)",
+        "Russian Politics / Elections (3)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Economic Reform / Assistance",
+          "hits": 18
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 4
+        },
+        {
+          "issue": "Russian Politics / Elections",
+          "hits": 3
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 3,
+      "sourceCopyControls": 0,
+      "supportLeads": 0,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Review fields",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf",
+      "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf",
+      "selectionReasons": [
+        "Tier 2 representative for Russian Politics / Elections"
+      ]
+    },
+    {
+      "sequence": 5,
+      "id": "contact-1993-04-04-memcon-vancouver-security-issues",
+      "date": "1993-04-04",
+      "type": "Memcon",
+      "title": "Meeting with Russian President Boris Yeltsin on Security Issues",
+      "phaseId": "opening-channel-vancouver-tokyo",
+      "phaseLabel": "Opening channel, Vancouver, and Tokyo",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 132,
+      "actualConversationPages": 12,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Ukraine / Nuclear Security (18)",
+        "Economic Reform / Assistance (17)",
+        "Iraq / Middle East (15)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "hits": 18
+        },
+        {
+          "issue": "Economic Reform / Assistance",
+          "hits": 17
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "hits": 15
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 3,
+      "sourceCopyControls": 0,
+      "supportLeads": 0,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Review fields",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf",
+      "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 10,
+      "id": "contact-1993-07-10-memcon-09",
+      "date": "1993-07-10",
+      "type": "Memcon",
+      "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan",
+      "phaseId": "opening-channel-vancouver-tokyo",
+      "phaseLabel": "Opening channel, Vancouver, and Tokyo",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 100,
+      "actualConversationPages": 9,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Ukraine / Nuclear Security (17)",
+        "Iraq / Middle East (7)",
+        "Economic Reform / Assistance (4)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "hits": 17
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "hits": 7
+        },
+        {
+          "issue": "Economic Reform / Assistance",
+          "hits": 4
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 1,
+      "sourceCopyControls": 2,
+      "supportLeads": 0,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Parsed",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 16,
+      "id": "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+      "date": "1994-01-13",
+      "type": "Memcon",
+      "title": "President's dinner with President Yeltsin, January 13/14, 1994",
+      "phaseId": "ukraine-pfp-and-1994-balance",
+      "phaseLabel": "Ukraine, Partnership for Peace, and the 1994 balance",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 127,
+      "actualConversationPages": 11,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Iraq / Middle East (20)",
+        "NATO / European Security (9)",
+        "Ukraine / Nuclear Security (9)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Iraq / Middle East",
+          "hits": 20
+        },
+        {
+          "issue": "NATO / European Security",
+          "hits": 9
+        },
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "hits": 9
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 4,
+      "sourceCopyControls": 0,
+      "supportLeads": 2,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Review fields",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf",
+      "sourcePacketUrl": "https://clinton.presidentiallibraries.us/files/original/c016beef71be071cd9c96fcf0972fd57.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 18,
+      "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+      "date": "1994-01-14",
+      "type": "Memcon",
+      "title": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+      "phaseId": "ukraine-pfp-and-1994-balance",
+      "phaseLabel": "Ukraine, Partnership for Peace, and the 1994 balance",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 112,
+      "actualConversationPages": 8,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Arms Control / Nonproliferation (30)",
+        "Iraq / Middle East (17)",
+        "Ukraine / Nuclear Security (16)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 30
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "hits": 17
+        },
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "hits": 16
+        }
+      ],
+      "pddReferences": 1,
+      "publicPapers": 6,
+      "sourceCopyControls": 2,
+      "supportLeads": 2,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Parsed",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf",
+      "sourcePacketUrl": "https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 28,
+      "id": "contact-1994-09-27-memcon-23",
+      "date": "1994-09-27",
+      "type": "Memcon",
+      "title": "Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House",
+      "phaseId": "ukraine-pfp-and-1994-balance",
+      "phaseLabel": "Ukraine, Partnership for Peace, and the 1994 balance",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 146,
+      "actualConversationPages": 10,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Ukraine / Nuclear Security (43)",
+        "Arms Control / Nonproliferation (42)",
+        "Iraq / Middle East (3)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "hits": 43
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 42
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "hits": 3
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 4,
+      "sourceCopyControls": 1,
+      "supportLeads": 1,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Parsed",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 34,
+      "id": "contact-1995-05-10-memcon-28",
+      "date": "1995-05-10",
+      "type": "Memcon",
+      "title": "Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia",
+      "phaseId": "1995-summits-reform-and-nato-pressure",
+      "phaseLabel": "1995 summits, reform assistance, and NATO pressure",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 195,
+      "actualConversationPages": 16,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "NATO / European Security (67)",
+        "Iraq / Middle East (17)",
+        "Ukraine / Nuclear Security (16)"
+      ],
+      "issueScores": [
+        {
+          "issue": "NATO / European Security",
+          "hits": 67
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "hits": 17
+        },
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "hits": 16
+        }
+      ],
+      "pddReferences": 1,
+      "publicPapers": 7,
+      "sourceCopyControls": 0,
+      "supportLeads": 1,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Review fields",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 35,
+      "id": "contact-1995-06-17-memcon-29",
+      "date": "1995-06-17",
+      "type": "Memcon",
+      "title": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada",
+      "phaseId": "1995-summits-reform-and-nato-pressure",
+      "phaseLabel": "1995 summits, reform assistance, and NATO pressure",
+      "selectionTier": "Tier 2 - strong candidate",
+      "selectionScore": 76,
+      "actualConversationPages": 8,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "NATO / European Security (18)",
+        "Ukraine / Nuclear Security (9)",
+        "Chechnya / Caucasus (8)"
+      ],
+      "issueScores": [
+        {
+          "issue": "NATO / European Security",
+          "hits": 18
+        },
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "hits": 9
+        },
+        {
+          "issue": "Chechnya / Caucasus",
+          "hits": 8
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 1,
+      "sourceCopyControls": 1,
+      "supportLeads": 3,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Review fields",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf",
+      "sourcePacketUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+      "selectionReasons": [
+        "Tier 2 representative for Chechnya / Caucasus"
+      ]
+    },
+    {
+      "sequence": 38,
+      "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
+      "date": "1995-10-23",
+      "type": "Memcon",
+      "title": "Clinton-Yeltsin One-on-One",
+      "phaseId": "1995-summits-reform-and-nato-pressure",
+      "phaseLabel": "1995 summits, reform assistance, and NATO pressure",
+      "selectionTier": "Tier 2 - strong candidate",
+      "selectionScore": 97,
+      "actualConversationPages": 12,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "NATO / European Security (21)",
+        "Ukraine / Nuclear Security (7)",
+        "Arms Control / Nonproliferation (5)"
+      ],
+      "issueScores": [
+        {
+          "issue": "NATO / European Security",
+          "hits": 21
+        },
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "hits": 7
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 5
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 2,
+      "sourceCopyControls": 1,
+      "supportLeads": 5,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Review fields",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf",
+      "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf",
+      "selectionReasons": [
+        "Phase-balance anchor: 1995 summits, reform assistance, and NATO pressure has one Tier 1 document"
+      ]
+    },
+    {
+      "sequence": 45,
+      "id": "contact-1996-04-21-memcon-moscow-luncheon",
+      "date": "1996-04-21",
+      "type": "Memcon",
+      "title": "Luncheon Meeting with Russian President Boris Yeltsin",
+      "phaseId": "1996-election-and-enlargement-management",
+      "phaseLabel": "1996 election and enlargement management",
+      "selectionTier": "Tier 2 - strong candidate",
+      "selectionScore": 79,
+      "actualConversationPages": 7,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Economic Reform / Assistance (17)",
+        "Russian Politics / Elections (11)",
+        "Arms Control / Nonproliferation (3)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Economic Reform / Assistance",
+          "hits": 17
+        },
+        {
+          "issue": "Russian Politics / Elections",
+          "hits": 11
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 3
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 4,
+      "sourceCopyControls": 1,
+      "supportLeads": 1,
+      "readinessBucket": "Ready for selection reading",
+      "sourceNoteStatus": "Parsed face-page fields available",
+      "facePageStatus": "Parsed",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "selectionReasons": [
+        "Phase-continuity anchor: 1996 election and enlargement management has no Tier 1 document"
+      ]
+    },
+    {
+      "sequence": 52,
+      "id": "contact-1997-03-21-memcon-helsinki-morning",
+      "date": "1997-03-21",
+      "type": "Memcon",
+      "title": "Helsinki Morning Meeting with President Boris Yeltsin",
+      "phaseId": "1997-helsinki-founding-act-and-denver",
+      "phaseLabel": "1997 Helsinki, Founding Act, and Denver",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 190,
+      "actualConversationPages": 11,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "NATO / European Security (46)",
+        "Arms Control / Nonproliferation (43)",
+        "Ukraine / Nuclear Security (12)"
+      ],
+      "issueScores": [
+        {
+          "issue": "NATO / European Security",
+          "hits": 46
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 43
+        },
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "hits": 12
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 8,
+      "sourceCopyControls": 1,
+      "supportLeads": 2,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Parsed",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 56,
+      "id": "contact-1997-05-27-memcon-45",
+      "date": "1997-05-27",
+      "type": "Memcon",
+      "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+      "phaseId": "1997-helsinki-founding-act-and-denver",
+      "phaseLabel": "1997 Helsinki, Founding Act, and Denver",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 117,
+      "actualConversationPages": 8,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "NATO / European Security (29)",
+        "Arms Control / Nonproliferation (10)",
+        "Iraq / Middle East (7)"
+      ],
+      "issueScores": [
+        {
+          "issue": "NATO / European Security",
+          "hits": 29
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 10
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "hits": 7
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 1,
+      "sourceCopyControls": 1,
+      "supportLeads": 0,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Parsed",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 57,
+      "id": "contact-1997-06-20-memcon-46",
+      "date": "1997-06-20",
+      "type": "Memcon",
+      "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+      "phaseId": "1997-helsinki-founding-act-and-denver",
+      "phaseLabel": "1997 Helsinki, Founding Act, and Denver",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 105,
+      "actualConversationPages": 8,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "NATO / European Security (14)",
+        "Iraq / Middle East (13)",
+        "Arms Control / Nonproliferation (11)"
+      ],
+      "issueScores": [
+        {
+          "issue": "NATO / European Security",
+          "hits": 14
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "hits": 13
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 11
+        }
+      ],
+      "pddReferences": 0,
+      "publicPapers": 5,
+      "sourceCopyControls": 1,
+      "supportLeads": 0,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Review fields",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 68,
+      "id": "contact-1998-06-15-telcon-57",
+      "date": "1998-06-15",
+      "type": "Telcon",
+      "title": "Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House",
+      "phaseId": "1998-crisis-and-succession-uncertainty",
+      "phaseLabel": "1998 financial crisis and succession uncertainty",
+      "selectionTier": "Tier 2 - strong candidate",
+      "selectionScore": 83,
+      "actualConversationPages": 5,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Kosovo / Balkans (25)",
+        "NATO / European Security (7)",
+        "Arms Control / Nonproliferation (4)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Kosovo / Balkans",
+          "hits": 25
+        },
+        {
+          "issue": "NATO / European Security",
+          "hits": 7
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 4
+        }
+      ],
+      "pddReferences": 1,
+      "publicPapers": 0,
+      "sourceCopyControls": 1,
+      "supportLeads": 1,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Review fields",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "selectionReasons": [
+        "Phase-continuity anchor: 1998 financial crisis and succession uncertainty has no Tier 1 document"
+      ]
+    },
+    {
+      "sequence": 80,
+      "id": "contact-1999-04-25-telcon-70",
+      "date": "1999-04-25",
+      "type": "Telcon",
+      "title": "Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.",
+      "phaseId": "1999-kosovo-arms-control-and-transfer",
+      "phaseLabel": "1999 Kosovo, arms control, and transfer of power",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 215,
+      "actualConversationPages": 12,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Kosovo / Balkans (48)",
+        "NATO / European Security (12)",
+        "Economic Reform / Assistance (7)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Kosovo / Balkans",
+          "hits": 48
+        },
+        {
+          "issue": "NATO / European Security",
+          "hits": 12
+        },
+        {
+          "issue": "Economic Reform / Assistance",
+          "hits": 7
+        }
+      ],
+      "pddReferences": 1,
+      "publicPapers": 0,
+      "sourceCopyControls": 1,
+      "supportLeads": 1,
+      "readinessBucket": "Ready for selection reading",
+      "sourceNoteStatus": "Parsed face-page fields available",
+      "facePageStatus": "Parsed",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    },
+    {
+      "sequence": 87,
+      "id": "contact-1999-06-20-memcon-77",
+      "date": "1999-06-20",
+      "type": "Memcon",
+      "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany",
+      "phaseId": "1999-kosovo-arms-control-and-transfer",
+      "phaseLabel": "1999 Kosovo, arms control, and transfer of power",
+      "selectionTier": "Tier 1 - likely core",
+      "selectionScore": 142,
+      "actualConversationPages": 9,
+      "annotationTreatment": "Heavy annotation review",
+      "dominantIssues": [
+        "Arms Control / Nonproliferation (38)",
+        "Kosovo / Balkans (13)",
+        "Economic Reform / Assistance (7)"
+      ],
+      "issueScores": [
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "hits": 38
+        },
+        {
+          "issue": "Kosovo / Balkans",
+          "hits": 13
+        },
+        {
+          "issue": "Economic Reform / Assistance",
+          "hits": 7
+        }
+      ],
+      "pddReferences": 1,
+      "publicPapers": 5,
+      "sourceCopyControls": 1,
+      "supportLeads": 0,
+      "readinessBucket": "Ready to read; source-note review",
+      "sourceNoteStatus": "Needs source-note review",
+      "facePageStatus": "Review fields",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf",
+      "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "selectionReasons": [
+        "Core Tier 1 likely FRUS document"
+      ]
+    }
+  ],
+  "issueCoverage": [
+    {
+      "issue": "Iraq / Middle East",
+      "assessmentBeforeSpine": "Strong first-pass coverage",
+      "selectedDocuments": 8,
+      "selectedPages": 82,
+      "selectedSequences": [
+        5,
+        10,
+        16,
+        18,
+        28,
+        34,
+        56,
+        57
+      ],
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "Ukraine / Nuclear Security",
+      "assessmentBeforeSpine": "Strong first-pass coverage",
+      "selectedDocuments": 9,
+      "selectedPages": 97,
+      "selectedSequences": [
+        5,
+        10,
+        16,
+        18,
+        28,
+        34,
+        35,
+        38,
+        52
+      ],
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "Arms Control / Nonproliferation",
+      "assessmentBeforeSpine": "Strong first-pass coverage",
+      "selectedDocuments": 10,
+      "selectedPages": 87,
+      "selectedSequences": [
+        4,
+        18,
+        28,
+        38,
+        45,
+        52,
+        56,
+        57,
+        68,
+        87
+      ],
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "NATO / European Security",
+      "assessmentBeforeSpine": "Strong first-pass coverage",
+      "selectedDocuments": 9,
+      "selectedPages": 91,
+      "selectedSequences": [
+        16,
+        34,
+        35,
+        38,
+        52,
+        56,
+        57,
+        68,
+        80
+      ],
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "Economic Reform / Assistance",
+      "assessmentBeforeSpine": "Strong first-pass coverage",
+      "selectedDocuments": 6,
+      "selectedPages": 58,
+      "selectedSequences": [
+        4,
+        5,
+        10,
+        45,
+        80,
+        87
+      ],
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "Kosovo / Balkans",
+      "assessmentBeforeSpine": "Adequate first-pass coverage",
+      "selectedDocuments": 3,
+      "selectedPages": 26,
+      "selectedSequences": [
+        68,
+        80,
+        87
+      ],
+      "suggestedCompilerMove": "Use Tier 1 as the spine, then test whether one Tier 2 document is needed for chronology or nuance."
+    },
+    {
+      "issue": "Russian Politics / Elections",
+      "assessmentBeforeSpine": "Needs Tier 2 representative",
+      "selectedDocuments": 2,
+      "selectedPages": 16,
+      "selectedSequences": [
+        4,
+        45
+      ],
+      "suggestedCompilerMove": "Review Tier 2 documents closely; this issue lacks a Tier 1 anchor but has strong candidates."
+    },
+    {
+      "issue": "Chechnya / Caucasus",
+      "assessmentBeforeSpine": "Needs Tier 2 representative",
+      "selectedDocuments": 1,
+      "selectedPages": 8,
+      "selectedSequences": [
+        35
+      ],
+      "suggestedCompilerMove": "Review Tier 2 documents closely; this issue lacks a Tier 1 anchor but has strong candidates."
+    }
+  ],
+  "phaseCoverage": [
+    {
+      "phaseId": "opening-channel-vancouver-tokyo",
+      "phaseLabel": "Opening channel, Vancouver, and Tokyo",
+      "phaseContacts": 10,
+      "phaseCountedDocuments": 9,
+      "phasePendingDocuments": 1,
+      "selectedDocuments": 3,
+      "selectedPages": 30,
+      "selectedSequences": [
+        4,
+        5,
+        10
+      ],
+      "remainingHardGaps": [
+        "#3 1993-04-01"
+      ]
+    },
+    {
+      "phaseId": "ukraine-pfp-and-1994-balance",
+      "phaseLabel": "Ukraine, Partnership for Peace, and the 1994 balance",
+      "phaseContacts": 21,
+      "phaseCountedDocuments": 19,
+      "phasePendingDocuments": 2,
+      "selectedDocuments": 3,
+      "selectedPages": 29,
+      "selectedSequences": [
+        16,
+        18,
+        28
+      ],
+      "remainingHardGaps": [
+        "#23 1994-06-03",
+        "#26 1994-07-10"
+      ]
+    },
+    {
+      "phaseId": "1995-summits-reform-and-nato-pressure",
+      "phaseLabel": "1995 summits, reform assistance, and NATO pressure",
+      "phaseContacts": 8,
+      "phaseCountedDocuments": 8,
+      "phasePendingDocuments": 0,
+      "selectedDocuments": 3,
+      "selectedPages": 36,
+      "selectedSequences": [
+        34,
+        35,
+        38
+      ],
+      "remainingHardGaps": []
+    },
+    {
+      "phaseId": "1996-election-and-enlargement-management",
+      "phaseLabel": "1996 election and enlargement management",
+      "phaseContacts": 11,
+      "phaseCountedDocuments": 11,
+      "phasePendingDocuments": 0,
+      "selectedDocuments": 1,
+      "selectedPages": 7,
+      "selectedSequences": [
+        45
+      ],
+      "remainingHardGaps": []
+    },
+    {
+      "phaseId": "1997-helsinki-founding-act-and-denver",
+      "phaseLabel": "1997 Helsinki, Founding Act, and Denver",
+      "phaseContacts": 10,
+      "phaseCountedDocuments": 10,
+      "phasePendingDocuments": 0,
+      "selectedDocuments": 3,
+      "selectedPages": 27,
+      "selectedSequences": [
+        52,
+        56,
+        57
+      ],
+      "remainingHardGaps": []
+    },
+    {
+      "phaseId": "1998-crisis-and-succession-uncertainty",
+      "phaseLabel": "1998 financial crisis and succession uncertainty",
+      "phaseContacts": 16,
+      "phaseCountedDocuments": 15,
+      "phasePendingDocuments": 1,
+      "selectedDocuments": 1,
+      "selectedPages": 5,
+      "selectedSequences": [
+        68
+      ],
+      "remainingHardGaps": [
+        "#73 1998-09-01"
+      ]
+    },
+    {
+      "phaseId": "1999-kosovo-arms-control-and-transfer",
+      "phaseLabel": "1999 Kosovo, arms control, and transfer of power",
+      "phaseContacts": 14,
+      "phaseCountedDocuments": 13,
+      "phasePendingDocuments": 1,
+      "selectedDocuments": 2,
+      "selectedPages": 21,
+      "selectedSequences": [
+        80,
+        87
+      ],
+      "remainingHardGaps": [
+        "#77 1999-02-08"
+      ]
+    },
+    {
+      "phaseId": "2000-coda",
+      "phaseLabel": "Post-presidential coda",
+      "phaseContacts": 1,
+      "phaseCountedDocuments": 0,
+      "phasePendingDocuments": 1,
+      "selectedDocuments": 0,
+      "selectedPages": 0,
+      "selectedSequences": [],
+      "remainingHardGaps": [
+        "#91 2000-06-05"
+      ]
+    }
+  ],
+  "watchlistRows": [
+    {
+      "id": "contact-1997-03-21-memcon-helsinki-private-dinner",
+      "sequence": 55,
+      "date": "1997-03-21",
+      "title": "Helsinki Private Dinner with President Boris Yeltsin",
+      "pages": 6,
+      "score": 95,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for 1997 Helsinki, Founding Act, and Denver",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf"
+    },
+    {
+      "id": "contact-1999-04-19-telcon-69",
+      "sequence": 79,
+      "date": "1999-04-19",
+      "title": "Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House",
+      "pages": 6,
+      "score": 90,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for 1999 Kosovo, arms control, and transfer of power",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf"
+    },
+    {
+      "id": "drive-candidate-1994-09-27-memcon-one-on-one",
+      "sequence": 27,
+      "date": "1994-09-27",
+      "title": "Clinton-Yeltsin one-on-one memcon, September 27, 1994",
+      "pages": 7,
+      "score": 86,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for Ukraine, Partnership for Peace, and the 1994 balance",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf"
+    },
+    {
+      "id": "contact-1997-03-21-memcon-helsinki-afternoon",
+      "sequence": 54,
+      "date": "1997-03-21",
+      "title": "Helsinki Afternoon Meeting with President Boris Yeltsin",
+      "pages": 4,
+      "score": 85,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for 1997 Helsinki, Founding Act, and Denver",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-afternoon.pdf"
+    },
+    {
+      "id": "clinton-standalone-1994-01-13-memcon-one-on-one",
+      "sequence": 15,
+      "date": "1994-01-13",
+      "title": "One-on-One Meeting with President Boris Yeltsin of Russia",
+      "pages": 6,
+      "score": 82,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for Ukraine, Partnership for Peace, and the 1994 balance",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf"
+    },
+    {
+      "id": "contact-1997-03-21-memcon-helsinki-working-lunch",
+      "sequence": 53,
+      "date": "1997-03-21",
+      "title": "Helsinki Working Lunch with President Boris Yeltsin",
+      "pages": 8,
+      "score": 82,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for 1997 Helsinki, Founding Act, and Denver",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf"
+    },
+    {
+      "id": "contact-1998-05-17-memcon-54",
+      "sequence": 65,
+      "date": "1998-05-17",
+      "title": "Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England",
+      "pages": 8,
+      "score": 82,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for 1998 financial crisis and succession uncertainty",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-17-memcon-54.pdf"
+    },
+    {
+      "id": "contact-1993-12-22-telcon-13",
+      "sequence": 14,
+      "date": "1993-12-22",
+      "title": "Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House",
+      "pages": 4,
+      "score": 77,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for Ukraine, Partnership for Peace, and the 1994 balance",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf"
+    },
+    {
+      "id": "contact-1995-07-28-telcon-30",
+      "sequence": 36,
+      "date": "1995-07-28",
+      "title": "Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House",
+      "pages": 5,
+      "score": 76,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for 1995 summits, reform assistance, and NATO pressure",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf"
+    },
+    {
+      "id": "contact-1999-11-18-memcon-79",
+      "sequence": 89,
+      "date": "1999-11-19",
+      "title": "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
+      "pages": 7,
+      "score": 74,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for 1999 Kosovo, arms control, and transfer of power",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf"
+    },
+    {
+      "id": "contact-1996-02-21-telcon-34",
+      "sequence": 41,
+      "date": "1996-02-21",
+      "title": "Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House",
+      "pages": 4,
+      "score": 72,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for 1996 election and enlargement management",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-02-21-telcon-34.pdf"
+    },
+    {
+      "id": "contact-1996-01-26-telcon-33",
+      "sequence": 40,
+      "date": "1996-01-26",
+      "title": "Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House",
+      "pages": 5,
+      "score": 71,
+      "tier": "Tier 2 - strong candidate",
+      "reason": "Phase alternate for 1996 election and enlargement management",
+      "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf"
+    }
+  ]
+}

@@ -342,6 +342,7 @@ function buildHtml(report) {
         <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="page-budget-scenarios.csv">Download scenario CSV</a>
         <a href="page-budget-scenarios.json">Open scenario JSON</a>
+        <a href="draft-selection-spine.html">Open draft selection spine</a>
         <a href="thematic-selection-matrix.html">Open thematic matrix</a>
         <a href="selection-priority-workbench.html">Open selection priorities</a>
         <a href="production-readiness-checklist.html">Open production checklist</a>

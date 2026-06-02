@@ -307,6 +307,7 @@ function buildHtml(report) {
         <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="selection-priority-workbench.csv">Download priority CSV</a>
         <a href="selection-priority-workbench.json">Open priority JSON</a>
+        <a href="draft-selection-spine.html">Open draft selection spine</a>
         <a href="page-budget-scenarios.html">Open page budgets</a>
         <a href="thematic-selection-matrix.html">Open thematic matrix</a>
         <a href="frus-selection-worksheet.csv">Open blank selection worksheet</a>

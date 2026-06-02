@@ -317,6 +317,7 @@ function buildHtml(report) {
         <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="production-readiness-checklist.csv">Download checklist CSV</a>
         <a href="production-readiness-checklist.json">Open checklist JSON</a>
+        <a href="draft-selection-spine.html">Open draft selection spine</a>
         <a href="page-budget-scenarios.html">Open page budgets</a>
         <a href="thematic-selection-matrix.html">Open thematic matrix</a>
         <a href="compiler-start-here.html">Open start-here packet</a>

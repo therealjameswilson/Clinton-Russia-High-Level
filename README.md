@@ -53,6 +53,7 @@ Compiler-facing handoff files are generated in `reports/`:
 - `reading-packet-manifest.json` and `reading-packet-toc.csv`: packet page ranges, document order, provenance-sheet pages, and source links.
 - `topic-index.html`, `topic-index.json`, and `topic-index.csv`: keyword topic and name/organization index generated from extracted PDF text.
 - `selection-priority-workbench.html`, `selection-priority-workbench.json`, and `selection-priority-workbench.csv`: nonbinding selection-priority triage for the direct Clinton-Yeltsin chronology, with tiers, issue coverage, source hooks, and decision prompts.
+- `draft-selection-spine.html`, `draft-selection-spine.json`, and `draft-selection-spine.csv`: nonbinding starting document-selection spine that keeps all Tier 1 likely core documents and adds Tier 2 representatives for undercovered themes and thin narrative phases.
 - `page-budget-scenarios.html`, `page-budget-scenarios.json`, and `page-budget-scenarios.csv`: nonbinding document/page-budget scenarios for Tier 1, Tier 1-2, heavy annotation, broad draft, full counted set, and hard-gap estimates.
 - `thematic-selection-matrix.html`, `thematic-selection-matrix.json`, and `thematic-selection-matrix.csv`: issue-by-scenario coverage matrix showing strong, adequate, and Tier 2-dependent thematic coverage across selection tiers.
 - `production-readiness-checklist.html`, `production-readiness-checklist.json`, and `production-readiness-checklist.csv`: production-control checklist that consolidates PDF/provenance validation, source-note review, face-page metadata, annotation workload, selection tier, companion evidence, and next action for each direct contact.
@@ -105,6 +106,12 @@ To rebuild the page-budget scenarios from the selection-priority workbench:
 
 ```sh
 node scripts/build-page-budget-scenarios.js
+```
+
+To rebuild the draft selection spine from the selection, thematic, outline, and readiness reports:
+
+```sh
+node scripts/build-draft-selection-spine.js
 ```
 
 To rebuild the thematic selection matrix from the selection, page-budget, topic, and annotation reports:
