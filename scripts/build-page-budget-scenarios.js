@@ -341,6 +341,7 @@ function buildHtml(report) {
       <div class="actions">
         <a href="page-budget-scenarios.csv">Download scenario CSV</a>
         <a href="page-budget-scenarios.json">Open scenario JSON</a>
+        <a href="thematic-selection-matrix.html">Open thematic matrix</a>
         <a href="selection-priority-workbench.html">Open selection priorities</a>
         <a href="production-readiness-checklist.html">Open production checklist</a>
         <a href="compiler-start-here.html">Open start-here packet</a>

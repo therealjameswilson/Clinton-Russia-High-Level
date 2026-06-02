@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FRUS Thematic Selection Matrix</title>
+    <style>
+      body { margin: 0; color: #18212d; font: 15px/1.52 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f7f8; }
+      main { width: min(1320px, calc(100% - 32px)); margin: 0 auto; padding: 34px 0 56px; }
+      h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.08; }
+      h1 { margin: 0 0 10px; font-size: clamp(2rem, 5vw, 3.65rem); }
+      h2 { margin-top: 34px; font-size: clamp(1.4rem, 3vw, 2.05rem); }
+      h3 { margin: 0 0 6px; font-size: 1.2rem; }
+      a { color: #243d63; font-weight: 800; }
+      .lede { max-width: 980px; color: #5b6470; font-size: 1.04rem; }
+      .actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 24px; }
+      .actions a { display: inline-flex; min-height: 34px; align-items: center; padding: 0 11px; color: white; text-decoration: none; background: #243d63; border-radius: 6px; }
+      .actions a:nth-child(even) { color: #243d63; background: white; border: 1px solid #d7dedb; }
+      dl.summary { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; margin: 24px 0; }
+      dl.summary div { padding: 13px; background: white; border: 1px solid #d7dedb; border-radius: 8px; }
+      dt { color: #5b6470; font-size: .76rem; font-weight: 900; text-transform: uppercase; }
+      dd { margin: 4px 0 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.42rem; font-weight: 800; }
+      .note { max-width: 980px; padding: 12px 14px; background: #eef7f2; border: 1px solid #bdd6c9; border-radius: 8px; color: #335849; }
+      .table-wrap { overflow-x: auto; border-radius: 8px; box-shadow: 0 18px 46px rgba(22, 31, 43, .08); }
+      table { width: 100%; border-collapse: collapse; background: white; border: 1px solid #d7dedb; }
+      th, td { padding: 8px 9px; border-bottom: 1px solid #d7dedb; vertical-align: top; text-align: left; }
+      th { color: #243d63; font-size: .76rem; text-transform: uppercase; white-space: nowrap; }
+      td:nth-child(3), td:nth-child(4), td:nth-child(5), td:nth-child(6), td:nth-child(7) { text-align: right; white-space: nowrap; }
+      span { color: #687483; font-size: .9em; }
+      .year-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+      .year-card { padding: 14px; background: white; border: 1px solid #d7dedb; border-radius: 8px; }
+      .year-card p { margin: 0 0 10px; color: #5b6470; }
+      @media (max-width: 900px) { dl.summary, .year-grid { grid-template-columns: 1fr; } table { font-size: .86rem; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p><a href="../">Back to compiler page</a></p>
+      <h1>FRUS Thematic Selection Matrix</h1>
+      <p class="lede">Generated 2026-06-02T01:32:07.772Z. This matrix compares the recurring issue clusters across the published selection tiers and page-budget scenarios, so the compiler can see where the first-pass document spine is strong, thin, or likely to need a Tier 2 representative.</p>
+      <div class="actions">
+        <a href="thematic-selection-matrix.csv">Download matrix CSV</a>
+        <a href="thematic-selection-matrix.json">Open matrix JSON</a>
+        <a href="page-budget-scenarios.html">Open page budgets</a>
+        <a href="selection-priority-workbench.html">Open selection priorities</a>
+        <a href="topic-index.html">Open topic index</a>
+        <a href="annotation-workbench.html">Open annotation workbench</a>
+      </div>
+      <p class="note">Counts in the scenario columns are shown as documents/pages. Issue totals are non-exclusive because a single Clinton-Yeltsin conversation can carry several policy lines.</p>
+      <dl class="summary"><div><dt>Issues</dt><dd>8</dd></div>
+<div><dt>Strong</dt><dd>5</dd></div>
+<div><dt>Adequate</dt><dd>1</dd></div>
+<div><dt>Needs Tier 2</dt><dd>2</dd></div>
+<div><dt>Background</dt><dd>0</dd></div>
+<div><dt>Thin</dt><dd>0</dd></div></dl>
+      <h2>Issue Coverage Matrix</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Issue</th><th>Assessment</th><th>Tier 1</th><th>Tier 1-2</th><th>Heavy</th><th>Tier 1-3</th><th>All counted</th><th>Top documents</th><th>Compiler move</th></tr></thead>
+          <tbody><tr>
+        <td>Iraq / Middle East<br><span>Core issue</span></td>
+        <td>Strong first-pass coverage</td>
+        <td>8 / 82</td>
+        <td>11 / 101</td>
+        <td>23 / 166</td>
+        <td>23 / 166</td>
+        <td>31 / 193</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">#34 1995-05-10</a> <span>Tier 1 - likely core; 16 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">#28 1994-09-27</a> <span>Tier 1 - likely core; 10 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">#5 1993-04-04</a> <span>Tier 1 - likely core; 12 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">#16 1994-01-13</a> <span>Tier 1 - likely core; 11 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">#56 1997-05-27</a> <span>Tier 1 - likely core; 8 pp.</span></td>
+        <td>Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume.<br><span>Use to flag documents that may require cross-volume Middle East/Iraq coordination.</span></td>
+      </tr>
+<tr>
+        <td>Ukraine / Nuclear Security<br><span>Core issue</span></td>
+        <td>Strong first-pass coverage</td>
+        <td>7 / 77</td>
+        <td>12 / 114</td>
+        <td>22 / 158</td>
+        <td>22 / 158</td>
+        <td>24 / 163</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">#34 1995-05-10</a> <span>Tier 1 - likely core; 16 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">#52 1997-03-21</a> <span>Tier 1 - likely core; 11 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">#28 1994-09-27</a> <span>Tier 1 - likely core; 10 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">#5 1993-04-04</a> <span>Tier 1 - likely core; 12 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">#16 1994-01-13</a> <span>Tier 1 - likely core; 11 pp.</span></td>
+        <td>Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume.<br><span>Annotate treaty/security-assurance context where nuclear transfer or Ukraine status drives the exchange.</span></td>
+      </tr>
+<tr>
+        <td>Arms Control / Nonproliferation<br><span>Core issue</span></td>
+        <td>Strong first-pass coverage</td>
+        <td>6 / 54</td>
+        <td>14 / 110</td>
+        <td>29 / 185</td>
+        <td>29 / 185</td>
+        <td>37 / 212</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">#52 1997-03-21</a> <span>Tier 1 - likely core; 11 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf">#28 1994-09-27</a> <span>Tier 1 - likely core; 10 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">#87 1999-06-20</a> <span>Tier 1 - likely core; 9 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">#56 1997-05-27</a> <span>Tier 1 - likely core; 8 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf">#18 1994-01-14</a> <span>Tier 1 - likely core; 8 pp.</span></td>
+        <td>Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume.<br><span>Expect cross-references to arms-control volumes and treaty documentation.</span></td>
+      </tr>
+<tr>
+        <td>NATO / European Security<br><span>Core issue</span></td>
+        <td>Strong first-pass coverage</td>
+        <td>6 / 66</td>
+        <td>16 / 132</td>
+        <td>24 / 163</td>
+        <td>24 / 163</td>
+        <td>31 / 184</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">#80 1999-04-25</a> <span>Tier 1 - likely core; 12 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf">#34 1995-05-10</a> <span>Tier 1 - likely core; 16 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf">#52 1997-03-21</a> <span>Tier 1 - likely core; 11 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf">#16 1994-01-13</a> <span>Tier 1 - likely core; 11 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf">#56 1997-05-27</a> <span>Tier 1 - likely core; 8 pp.</span></td>
+        <td>Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume.<br><span>Likely needs editorial framing where the document is selected for the NATO-Russia pressure line.</span></td>
+      </tr>
+<tr>
+        <td>Economic Reform / Assistance<br><span>Core issue</span></td>
+        <td>Strong first-pass coverage</td>
+        <td>4 / 42</td>
+        <td>13 / 98</td>
+        <td>30 / 165</td>
+        <td>30 / 165</td>
+        <td>37 / 183</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">#80 1999-04-25</a> <span>Tier 1 - likely core; 12 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">#87 1999-06-20</a> <span>Tier 1 - likely core; 9 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf">#5 1993-04-04</a> <span>Tier 1 - likely core; 12 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf">#10 1993-07-10</a> <span>Tier 1 - likely core; 9 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">#4 1993-04-03</a> <span>Tier 2 - strong candidate; 9 pp.</span></td>
+        <td>Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume.<br><span>Use to identify documents requiring economic-assistance annotations or Public Papers cross-checks.</span></td>
+      </tr>
+<tr>
+        <td>Kosovo / Balkans<br><span>Core issue</span></td>
+        <td>Adequate first-pass coverage</td>
+        <td>2 / 21</td>
+        <td>7 / 52</td>
+        <td>16 / 94</td>
+        <td>16 / 94</td>
+        <td>24 / 117</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf">#80 1999-04-25</a> <span>Tier 1 - likely core; 12 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf">#87 1999-06-20</a> <span>Tier 1 - likely core; 9 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf">#79 1999-04-19</a> <span>Tier 2 - strong candidate; 6 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf">#27 1994-09-27</a> <span>Tier 2 - strong candidate; 7 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf">#68 1998-06-15</a> <span>Tier 2 - strong candidate; 5 pp.</span></td>
+        <td>Use Tier 1 as the spine, then test whether one Tier 2 document is needed for chronology or nuance.<br><span>Use for document-selection clustering and for editorial notes on Balkan diplomacy.</span></td>
+      </tr>
+<tr>
+        <td>Russian Politics / Elections<br><span>Core issue</span></td>
+        <td>Needs Tier 2 representative</td>
+        <td>0 / 0</td>
+        <td>7 / 43</td>
+        <td>21 / 106</td>
+        <td>21 / 106</td>
+        <td>31 / 136</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf">#4 1993-04-03</a> <span>Tier 2 - strong candidate; 9 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf">#15 1994-01-13</a> <span>Tier 2 - strong candidate; 6 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf">#53 1997-03-21</a> <span>Tier 2 - strong candidate; 8 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf">#45 1996-04-21</a> <span>Tier 2 - strong candidate; 7 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf">#14 1993-12-22</a> <span>Tier 2 - strong candidate; 4 pp.</span></td>
+        <td>Review Tier 2 documents closely; this issue lacks a Tier 1 anchor but has strong candidates.<br><span>High annotation value for 1993 constitutional crisis and 1996 election documents.</span></td>
+      </tr>
+<tr>
+        <td>Chechnya / Caucasus<br><span>High</span></td>
+        <td>Needs Tier 2 representative</td>
+        <td>0 / 0</td>
+        <td>4 / 25</td>
+        <td>9 / 55</td>
+        <td>9 / 55</td>
+        <td>10 / 57</td>
+        <td><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf">#35 1995-06-17</a> <span>Tier 2 - strong candidate; 8 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf">#36 1995-07-28</a> <span>Tier 2 - strong candidate; 5 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf">#89 1999-11-19</a> <span>Tier 2 - strong candidate; 7 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf">#40 1996-01-26</a> <span>Tier 2 - strong candidate; 5 pp.</span><br><a href="https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-one-on-one.pdf">#44 1996-04-21</a> <span>Tier 3 - supporting candidate; 13 pp.</span></td>
+        <td>Review Tier 2 documents closely; this issue lacks a Tier 1 anchor but has strong candidates.<br><span>Annotate carefully as internal-Russia context when retained in a presidential exchange.</span></td>
+      </tr></tbody>
+        </table>
+      </div>
+      <h2>Year Spread By Issue</h2>
+      <div class="year-grid"><section class="year-card">
+        <h3>Iraq / Middle East</h3>
+        <p>Strong first-pass coverage</p>
+        <table>
+          <thead><tr><th>Year</th><th>Docs</th><th>Pages</th></tr></thead>
+          <tbody><tr><td>1993</td><td>5</td><td>31</td></tr>
+<tr><td>1994</td><td>9</td><td>60</td></tr>
+<tr><td>1995</td><td>1</td><td>16</td></tr>
+<tr><td>1996</td><td>1</td><td>13</td></tr>
+<tr><td>1997</td><td>6</td><td>37</td></tr>
+<tr><td>1998</td><td>8</td><td>33</td></tr>
+<tr><td>1999</td><td>1</td><td>3</td></tr></tbody>
+        </table>
+      </section>
+<section class="year-card">
+        <h3>Ukraine / Nuclear Security</h3>
+        <p>Strong first-pass coverage</p>
+        <table>
+          <thead><tr><th>Year</th><th>Docs</th><th>Pages</th></tr></thead>
+          <tbody><tr><td>1993</td><td>5</td><td>31</td></tr>
+<tr><td>1994</td><td>6</td><td>42</td></tr>
+<tr><td>1995</td><td>5</td><td>44</td></tr>
+<tr><td>1996</td><td>1</td><td>5</td></tr>
+<tr><td>1997</td><td>3</td><td>20</td></tr>
+<tr><td>1998</td><td>2</td><td>9</td></tr>
+<tr><td>1999</td><td>2</td><td>12</td></tr></tbody>
+        </table>
+      </section>
+<section class="year-card">
+        <h3>Arms Control / Nonproliferation</h3>
+        <p>Strong first-pass coverage</p>
+        <table>
+          <thead><tr><th>Year</th><th>Docs</th><th>Pages</th></tr></thead>
+          <tbody><tr><td>1993</td><td>4</td><td>20</td></tr>
+<tr><td>1994</td><td>4</td><td>25</td></tr>
+<tr><td>1995</td><td>3</td><td>19</td></tr>
+<tr><td>1996</td><td>5</td><td>32</td></tr>
+<tr><td>1997</td><td>8</td><td>49</td></tr>
+<tr><td>1998</td><td>9</td><td>43</td></tr>
+<tr><td>1999</td><td>4</td><td>24</td></tr></tbody>
+        </table>
+      </section>
+<section class="year-card">
+        <h3>NATO / European Security</h3>
+        <p>Strong first-pass coverage</p>
+        <table>
+          <thead><tr><th>Year</th><th>Docs</th><th>Pages</th></tr></thead>
+          <tbody><tr><td>1993</td><td>1</td><td>3</td></tr>
+<tr><td>1994</td><td>6</td><td>30</td></tr>
+<tr><td>1995</td><td>7</td><td>53</td></tr>
+<tr><td>1996</td><td>3</td><td>9</td></tr>
+<tr><td>1997</td><td>7</td><td>48</td></tr>
+<tr><td>1998</td><td>3</td><td>16</td></tr>
+<tr><td>1999</td><td>4</td><td>25</td></tr></tbody>
+        </table>
+      </section>
+<section class="year-card">
+        <h3>Economic Reform / Assistance</h3>
+        <p>Strong first-pass coverage</p>
+        <table>
+          <thead><tr><th>Year</th><th>Docs</th><th>Pages</th></tr></thead>
+          <tbody><tr><td>1993</td><td>10</td><td>53</td></tr>
+<tr><td>1994</td><td>8</td><td>34</td></tr>
+<tr><td>1995</td><td>1</td><td>4</td></tr>
+<tr><td>1996</td><td>6</td><td>25</td></tr>
+<tr><td>1997</td><td>3</td><td>15</td></tr>
+<tr><td>1998</td><td>5</td><td>23</td></tr>
+<tr><td>1999</td><td>4</td><td>29</td></tr></tbody>
+        </table>
+      </section>
+<section class="year-card">
+        <h3>Kosovo / Balkans</h3>
+        <p>Adequate first-pass coverage</p>
+        <table>
+          <thead><tr><th>Year</th><th>Docs</th><th>Pages</th></tr></thead>
+          <tbody><tr><td>1993</td><td>1</td><td>3</td></tr>
+<tr><td>1994</td><td>4</td><td>17</td></tr>
+<tr><td>1995</td><td>1</td><td>5</td></tr>
+<tr><td>1998</td><td>8</td><td>38</td></tr>
+<tr><td>1999</td><td>10</td><td>54</td></tr></tbody>
+        </table>
+      </section>
+<section class="year-card">
+        <h3>Russian Politics / Elections</h3>
+        <p>Needs Tier 2 representative</p>
+        <table>
+          <thead><tr><th>Year</th><th>Docs</th><th>Pages</th></tr></thead>
+          <tbody><tr><td>1993</td><td>4</td><td>19</td></tr>
+<tr><td>1994</td><td>3</td><td>12</td></tr>
+<tr><td>1995</td><td>1</td><td>4</td></tr>
+<tr><td>1996</td><td>10</td><td>39</td></tr>
+<tr><td>1997</td><td>3</td><td>20</td></tr>
+<tr><td>1998</td><td>7</td><td>29</td></tr>
+<tr><td>1999</td><td>3</td><td>13</td></tr></tbody>
+        </table>
+      </section>
+<section class="year-card">
+        <h3>Chechnya / Caucasus</h3>
+        <p>Needs Tier 2 representative</p>
+        <table>
+          <thead><tr><th>Year</th><th>Docs</th><th>Pages</th></tr></thead>
+          <tbody><tr><td>1993</td><td>1</td><td>2</td></tr>
+<tr><td>1995</td><td>4</td><td>21</td></tr>
+<tr><td>1996</td><td>3</td><td>22</td></tr>
+<tr><td>1999</td><td>2</td><td>12</td></tr></tbody>
+        </table>
+      </section></div>
+    </main>
+  </body>
+</html>

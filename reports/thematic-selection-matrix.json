@@ -1,0 +1,1767 @@
+{
+  "generatedAt": "2026-06-02T01:32:07.772Z",
+  "scope": "Thematic issue coverage matrix for direct Clinton-Yeltsin memcons/telcons in the FRUS 1993-2000, Volume XVIII compiler packet.",
+  "note": "Issue rows are non-exclusive. A document can contribute pages to multiple issue clusters when it appears in multiple dominant-issue tags.",
+  "scenarioColumns": [
+    {
+      "id": "tier-1-likely-core",
+      "label": "Tier 1"
+    },
+    {
+      "id": "tier-1-2-strong-core",
+      "label": "Tier 1-2"
+    },
+    {
+      "id": "heavy-annotation-review",
+      "label": "Heavy annotation"
+    },
+    {
+      "id": "tier-1-3-broad-draft",
+      "label": "Tier 1-3"
+    },
+    {
+      "id": "all-counted-documents",
+      "label": "All counted"
+    }
+  ],
+  "summary": {
+    "issueRows": 8,
+    "strongFirstPassIssues": 5,
+    "adequateFirstPassIssues": 1,
+    "needsTier2Representative": 2,
+    "backgroundOnlyIssues": 0,
+    "thinOrUnresolvedIssues": 0,
+    "tierOneIssuePages": 342,
+    "tierOneTwoIssuePages": 675,
+    "allCountedIssuePages": 1245
+  },
+  "rows": [
+    {
+      "issue": "Iraq / Middle East",
+      "annotationPriority": "Core issue",
+      "annotationNote": "Use to flag documents that may require cross-volume Middle East/Iraq coordination.",
+      "role": "Iraq, Saddam Hussein, sanctions, Iran, Jordan, and Middle East diplomacy.",
+      "topicIndexDocuments": 43,
+      "topicIndexHits": 284,
+      "countedDocuments": 31,
+      "countedPages": 193,
+      "scenarioStats": {
+        "tier-1-likely-core": {
+          "documents": 8,
+          "pages": 82,
+          "tier1": 8,
+          "tier2": 0
+        },
+        "tier-1-2-strong-core": {
+          "documents": 11,
+          "pages": 101,
+          "tier1": 8,
+          "tier2": 3
+        },
+        "heavy-annotation-review": {
+          "documents": 23,
+          "pages": 166,
+          "tier1": 8,
+          "tier2": 3
+        },
+        "tier-1-3-broad-draft": {
+          "documents": 23,
+          "pages": 166,
+          "tier1": 8,
+          "tier2": 3
+        },
+        "all-counted-documents": {
+          "documents": 31,
+          "pages": 193,
+          "tier1": 8,
+          "tier2": 3
+        }
+      },
+      "topDocuments": [
+        {
+          "sequence": 34,
+          "id": "contact-1995-05-10-memcon-28",
+          "date": "1995-05-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia",
+          "pages": 16,
+          "score": 195,
+          "issueHits": 17,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf",
+          "pddReferences": 1,
+          "publicPapers": 7,
+          "sourceCopyControls": 0,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 28,
+          "id": "contact-1994-09-27-memcon-23",
+          "date": "1994-09-27",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House",
+          "pages": 10,
+          "score": 146,
+          "issueHits": 3,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 5,
+          "id": "contact-1993-04-04-memcon-vancouver-security-issues",
+          "date": "1993-04-04",
+          "type": "Memcon",
+          "title": "Meeting with Russian President Boris Yeltsin on Security Issues",
+          "pages": 12,
+          "score": 132,
+          "issueHits": 15,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf",
+          "pddReferences": 0,
+          "publicPapers": 3,
+          "sourceCopyControls": 0,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 16,
+          "id": "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+          "date": "1994-01-13",
+          "type": "Memcon",
+          "title": "President's dinner with President Yeltsin, January 13/14, 1994",
+          "pages": 11,
+          "score": 127,
+          "issueHits": 20,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 0,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 56,
+          "id": "contact-1997-05-27-memcon-45",
+          "date": "1997-05-27",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+          "pages": 8,
+          "score": 117,
+          "issueHits": 7,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf",
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 18,
+          "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+          "date": "1994-01-14",
+          "type": "Memcon",
+          "title": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+          "pages": 8,
+          "score": 112,
+          "issueHits": 17,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf",
+          "pddReferences": 1,
+          "publicPapers": 6,
+          "sourceCopyControls": 2,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 57,
+          "id": "contact-1997-06-20-memcon-46",
+          "date": "1997-06-20",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+          "pages": 8,
+          "score": 105,
+          "issueHits": 13,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf",
+          "pddReferences": 0,
+          "publicPapers": 5,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 10,
+          "id": "contact-1993-07-10-memcon-09",
+          "date": "1993-07-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan",
+          "pages": 9,
+          "score": 100,
+          "issueHits": 7,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf",
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 2,
+          "supportLeads": 0
+        }
+      ],
+      "yearSpread": [
+        {
+          "year": "1993",
+          "documents": 5,
+          "pages": 31
+        },
+        {
+          "year": "1994",
+          "documents": 9,
+          "pages": 60
+        },
+        {
+          "year": "1995",
+          "documents": 1,
+          "pages": 16
+        },
+        {
+          "year": "1996",
+          "documents": 1,
+          "pages": 13
+        },
+        {
+          "year": "1997",
+          "documents": 6,
+          "pages": 37
+        },
+        {
+          "year": "1998",
+          "documents": 8,
+          "pages": 33
+        },
+        {
+          "year": "1999",
+          "documents": 1,
+          "pages": 3
+        }
+      ],
+      "coverageAssessment": "Strong first-pass coverage",
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "Ukraine / Nuclear Security",
+      "annotationPriority": "Core issue",
+      "annotationNote": "Annotate treaty/security-assurance context where nuclear transfer or Ukraine status drives the exchange.",
+      "role": "Ukraine, Kravchuk, trilateral nuclear arrangements, and Budapest security assurances.",
+      "topicIndexDocuments": 42,
+      "topicIndexHits": 303,
+      "countedDocuments": 24,
+      "countedPages": 163,
+      "scenarioStats": {
+        "tier-1-likely-core": {
+          "documents": 7,
+          "pages": 77,
+          "tier1": 7,
+          "tier2": 0
+        },
+        "tier-1-2-strong-core": {
+          "documents": 12,
+          "pages": 114,
+          "tier1": 7,
+          "tier2": 5
+        },
+        "heavy-annotation-review": {
+          "documents": 22,
+          "pages": 158,
+          "tier1": 7,
+          "tier2": 5
+        },
+        "tier-1-3-broad-draft": {
+          "documents": 22,
+          "pages": 158,
+          "tier1": 7,
+          "tier2": 5
+        },
+        "all-counted-documents": {
+          "documents": 24,
+          "pages": 163,
+          "tier1": 7,
+          "tier2": 5
+        }
+      },
+      "topDocuments": [
+        {
+          "sequence": 34,
+          "id": "contact-1995-05-10-memcon-28",
+          "date": "1995-05-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia",
+          "pages": 16,
+          "score": 195,
+          "issueHits": 16,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf",
+          "pddReferences": 1,
+          "publicPapers": 7,
+          "sourceCopyControls": 0,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 52,
+          "id": "contact-1997-03-21-memcon-helsinki-morning",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Morning Meeting with President Boris Yeltsin",
+          "pages": 11,
+          "score": 190,
+          "issueHits": 12,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf",
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 28,
+          "id": "contact-1994-09-27-memcon-23",
+          "date": "1994-09-27",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House",
+          "pages": 10,
+          "score": 146,
+          "issueHits": 43,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 5,
+          "id": "contact-1993-04-04-memcon-vancouver-security-issues",
+          "date": "1993-04-04",
+          "type": "Memcon",
+          "title": "Meeting with Russian President Boris Yeltsin on Security Issues",
+          "pages": 12,
+          "score": 132,
+          "issueHits": 18,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf",
+          "pddReferences": 0,
+          "publicPapers": 3,
+          "sourceCopyControls": 0,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 16,
+          "id": "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+          "date": "1994-01-13",
+          "type": "Memcon",
+          "title": "President's dinner with President Yeltsin, January 13/14, 1994",
+          "pages": 11,
+          "score": 127,
+          "issueHits": 9,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 0,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 18,
+          "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+          "date": "1994-01-14",
+          "type": "Memcon",
+          "title": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+          "pages": 8,
+          "score": 112,
+          "issueHits": 16,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf",
+          "pddReferences": 1,
+          "publicPapers": 6,
+          "sourceCopyControls": 2,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 10,
+          "id": "contact-1993-07-10-memcon-09",
+          "date": "1993-07-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan",
+          "pages": 9,
+          "score": 100,
+          "issueHits": 17,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf",
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 2,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 38,
+          "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
+          "date": "1995-10-23",
+          "type": "Memcon",
+          "title": "Clinton-Yeltsin One-on-One",
+          "pages": 12,
+          "score": 97,
+          "issueHits": 7,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf",
+          "pddReferences": 0,
+          "publicPapers": 2,
+          "sourceCopyControls": 1,
+          "supportLeads": 5
+        }
+      ],
+      "yearSpread": [
+        {
+          "year": "1993",
+          "documents": 5,
+          "pages": 31
+        },
+        {
+          "year": "1994",
+          "documents": 6,
+          "pages": 42
+        },
+        {
+          "year": "1995",
+          "documents": 5,
+          "pages": 44
+        },
+        {
+          "year": "1996",
+          "documents": 1,
+          "pages": 5
+        },
+        {
+          "year": "1997",
+          "documents": 3,
+          "pages": 20
+        },
+        {
+          "year": "1998",
+          "documents": 2,
+          "pages": 9
+        },
+        {
+          "year": "1999",
+          "documents": 2,
+          "pages": 12
+        }
+      ],
+      "coverageAssessment": "Strong first-pass coverage",
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "Arms Control / Nonproliferation",
+      "annotationPriority": "Core issue",
+      "annotationNote": "Expect cross-references to arms-control volumes and treaty documentation.",
+      "role": "START, ABM, CFE, missile defense, nonproliferation, and weapons control.",
+      "topicIndexDocuments": 52,
+      "topicIndexHits": 428,
+      "countedDocuments": 37,
+      "countedPages": 212,
+      "scenarioStats": {
+        "tier-1-likely-core": {
+          "documents": 6,
+          "pages": 54,
+          "tier1": 6,
+          "tier2": 0
+        },
+        "tier-1-2-strong-core": {
+          "documents": 14,
+          "pages": 110,
+          "tier1": 6,
+          "tier2": 8
+        },
+        "heavy-annotation-review": {
+          "documents": 29,
+          "pages": 185,
+          "tier1": 6,
+          "tier2": 8
+        },
+        "tier-1-3-broad-draft": {
+          "documents": 29,
+          "pages": 185,
+          "tier1": 6,
+          "tier2": 8
+        },
+        "all-counted-documents": {
+          "documents": 37,
+          "pages": 212,
+          "tier1": 6,
+          "tier2": 8
+        }
+      },
+      "topDocuments": [
+        {
+          "sequence": 52,
+          "id": "contact-1997-03-21-memcon-helsinki-morning",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Morning Meeting with President Boris Yeltsin",
+          "pages": 11,
+          "score": 190,
+          "issueHits": 43,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf",
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 28,
+          "id": "contact-1994-09-27-memcon-23",
+          "date": "1994-09-27",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House",
+          "pages": 10,
+          "score": 146,
+          "issueHits": 42,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 87,
+          "id": "contact-1999-06-20-memcon-77",
+          "date": "1999-06-20",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany",
+          "pages": 9,
+          "score": 142,
+          "issueHits": 38,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf",
+          "pddReferences": 1,
+          "publicPapers": 5,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 56,
+          "id": "contact-1997-05-27-memcon-45",
+          "date": "1997-05-27",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+          "pages": 8,
+          "score": 117,
+          "issueHits": 10,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf",
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 18,
+          "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+          "date": "1994-01-14",
+          "type": "Memcon",
+          "title": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+          "pages": 8,
+          "score": 112,
+          "issueHits": 30,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf",
+          "pddReferences": 1,
+          "publicPapers": 6,
+          "sourceCopyControls": 2,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 57,
+          "id": "contact-1997-06-20-memcon-46",
+          "date": "1997-06-20",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+          "pages": 8,
+          "score": 105,
+          "issueHits": 11,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf",
+          "pddReferences": 0,
+          "publicPapers": 5,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 38,
+          "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
+          "date": "1995-10-23",
+          "type": "Memcon",
+          "title": "Clinton-Yeltsin One-on-One",
+          "pages": 12,
+          "score": 97,
+          "issueHits": 5,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf",
+          "pddReferences": 0,
+          "publicPapers": 2,
+          "sourceCopyControls": 1,
+          "supportLeads": 5
+        },
+        {
+          "sequence": 4,
+          "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
+          "date": "1993-04-03",
+          "type": "Memcon",
+          "title": "Working Dinner with President Boris Yeltsin",
+          "pages": 9,
+          "score": 92,
+          "issueHits": 4,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf",
+          "pddReferences": 0,
+          "publicPapers": 3,
+          "sourceCopyControls": 0,
+          "supportLeads": 0
+        }
+      ],
+      "yearSpread": [
+        {
+          "year": "1993",
+          "documents": 4,
+          "pages": 20
+        },
+        {
+          "year": "1994",
+          "documents": 4,
+          "pages": 25
+        },
+        {
+          "year": "1995",
+          "documents": 3,
+          "pages": 19
+        },
+        {
+          "year": "1996",
+          "documents": 5,
+          "pages": 32
+        },
+        {
+          "year": "1997",
+          "documents": 8,
+          "pages": 49
+        },
+        {
+          "year": "1998",
+          "documents": 9,
+          "pages": 43
+        },
+        {
+          "year": "1999",
+          "documents": 4,
+          "pages": 24
+        }
+      ],
+      "coverageAssessment": "Strong first-pass coverage",
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "NATO / European Security",
+      "annotationPriority": "Core issue",
+      "annotationNote": "Likely needs editorial framing where the document is selected for the NATO-Russia pressure line.",
+      "role": "NATO enlargement, Partnership for Peace, NATO-Russia security architecture, and summit diplomacy.",
+      "topicIndexDocuments": 44,
+      "topicIndexHits": 401,
+      "countedDocuments": 31,
+      "countedPages": 184,
+      "scenarioStats": {
+        "tier-1-likely-core": {
+          "documents": 6,
+          "pages": 66,
+          "tier1": 6,
+          "tier2": 0
+        },
+        "tier-1-2-strong-core": {
+          "documents": 16,
+          "pages": 132,
+          "tier1": 6,
+          "tier2": 10
+        },
+        "heavy-annotation-review": {
+          "documents": 24,
+          "pages": 163,
+          "tier1": 6,
+          "tier2": 10
+        },
+        "tier-1-3-broad-draft": {
+          "documents": 24,
+          "pages": 163,
+          "tier1": 6,
+          "tier2": 10
+        },
+        "all-counted-documents": {
+          "documents": 31,
+          "pages": 184,
+          "tier1": 6,
+          "tier2": 10
+        }
+      },
+      "topDocuments": [
+        {
+          "sequence": 80,
+          "id": "contact-1999-04-25-telcon-70",
+          "date": "1999-04-25",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.",
+          "pages": 12,
+          "score": 215,
+          "issueHits": 12,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 34,
+          "id": "contact-1995-05-10-memcon-28",
+          "date": "1995-05-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia",
+          "pages": 16,
+          "score": 195,
+          "issueHits": 67,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf",
+          "pddReferences": 1,
+          "publicPapers": 7,
+          "sourceCopyControls": 0,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 52,
+          "id": "contact-1997-03-21-memcon-helsinki-morning",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Morning Meeting with President Boris Yeltsin",
+          "pages": 11,
+          "score": 190,
+          "issueHits": 46,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf",
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 16,
+          "id": "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+          "date": "1994-01-13",
+          "type": "Memcon",
+          "title": "President's dinner with President Yeltsin, January 13/14, 1994",
+          "pages": 11,
+          "score": 127,
+          "issueHits": 9,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 0,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 56,
+          "id": "contact-1997-05-27-memcon-45",
+          "date": "1997-05-27",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+          "pages": 8,
+          "score": 117,
+          "issueHits": 29,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf",
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 57,
+          "id": "contact-1997-06-20-memcon-46",
+          "date": "1997-06-20",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+          "pages": 8,
+          "score": 105,
+          "issueHits": 14,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf",
+          "pddReferences": 0,
+          "publicPapers": 5,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 38,
+          "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
+          "date": "1995-10-23",
+          "type": "Memcon",
+          "title": "Clinton-Yeltsin One-on-One",
+          "pages": 12,
+          "score": 97,
+          "issueHits": 21,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf",
+          "pddReferences": 0,
+          "publicPapers": 2,
+          "sourceCopyControls": 1,
+          "supportLeads": 5
+        },
+        {
+          "sequence": 55,
+          "id": "contact-1997-03-21-memcon-helsinki-private-dinner",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Private Dinner with President Boris Yeltsin",
+          "pages": 6,
+          "score": 95,
+          "issueHits": 6,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf",
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2
+        }
+      ],
+      "yearSpread": [
+        {
+          "year": "1993",
+          "documents": 1,
+          "pages": 3
+        },
+        {
+          "year": "1994",
+          "documents": 6,
+          "pages": 30
+        },
+        {
+          "year": "1995",
+          "documents": 7,
+          "pages": 53
+        },
+        {
+          "year": "1996",
+          "documents": 3,
+          "pages": 9
+        },
+        {
+          "year": "1997",
+          "documents": 7,
+          "pages": 48
+        },
+        {
+          "year": "1998",
+          "documents": 3,
+          "pages": 16
+        },
+        {
+          "year": "1999",
+          "documents": 4,
+          "pages": 25
+        }
+      ],
+      "coverageAssessment": "Strong first-pass coverage",
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "Economic Reform / Assistance",
+      "annotationPriority": "Core issue",
+      "annotationNote": "Use to identify documents requiring economic-assistance annotations or Public Papers cross-checks.",
+      "role": "Russian reform, assistance packages, IMF support, loans, ruble policy, privatization, and G-7 coordination.",
+      "topicIndexDocuments": 60,
+      "topicIndexHits": 352,
+      "countedDocuments": 37,
+      "countedPages": 183,
+      "scenarioStats": {
+        "tier-1-likely-core": {
+          "documents": 4,
+          "pages": 42,
+          "tier1": 4,
+          "tier2": 0
+        },
+        "tier-1-2-strong-core": {
+          "documents": 13,
+          "pages": 98,
+          "tier1": 4,
+          "tier2": 9
+        },
+        "heavy-annotation-review": {
+          "documents": 30,
+          "pages": 165,
+          "tier1": 4,
+          "tier2": 9
+        },
+        "tier-1-3-broad-draft": {
+          "documents": 30,
+          "pages": 165,
+          "tier1": 4,
+          "tier2": 9
+        },
+        "all-counted-documents": {
+          "documents": 37,
+          "pages": 183,
+          "tier1": 4,
+          "tier2": 9
+        }
+      },
+      "topDocuments": [
+        {
+          "sequence": 80,
+          "id": "contact-1999-04-25-telcon-70",
+          "date": "1999-04-25",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.",
+          "pages": 12,
+          "score": 215,
+          "issueHits": 7,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 87,
+          "id": "contact-1999-06-20-memcon-77",
+          "date": "1999-06-20",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany",
+          "pages": 9,
+          "score": 142,
+          "issueHits": 7,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf",
+          "pddReferences": 1,
+          "publicPapers": 5,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 5,
+          "id": "contact-1993-04-04-memcon-vancouver-security-issues",
+          "date": "1993-04-04",
+          "type": "Memcon",
+          "title": "Meeting with Russian President Boris Yeltsin on Security Issues",
+          "pages": 12,
+          "score": 132,
+          "issueHits": 17,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf",
+          "pddReferences": 0,
+          "publicPapers": 3,
+          "sourceCopyControls": 0,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 10,
+          "id": "contact-1993-07-10-memcon-09",
+          "date": "1993-07-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan",
+          "pages": 9,
+          "score": 100,
+          "issueHits": 4,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf",
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 2,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 4,
+          "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
+          "date": "1993-04-03",
+          "type": "Memcon",
+          "title": "Working Dinner with President Boris Yeltsin",
+          "pages": 9,
+          "score": 92,
+          "issueHits": 18,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf",
+          "pddReferences": 0,
+          "publicPapers": 3,
+          "sourceCopyControls": 0,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 79,
+          "id": "contact-1999-04-19-telcon-69",
+          "date": "1999-04-19",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House",
+          "pages": 6,
+          "score": 90,
+          "issueHits": 2,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 0,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 27,
+          "id": "drive-candidate-1994-09-27-memcon-one-on-one",
+          "date": "1994-09-27",
+          "type": "Memcon",
+          "title": "Clinton-Yeltsin one-on-one memcon, September 27, 1994",
+          "pages": 7,
+          "score": 86,
+          "issueHits": 5,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 54,
+          "id": "contact-1997-03-21-memcon-helsinki-afternoon",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Afternoon Meeting with President Boris Yeltsin",
+          "pages": 4,
+          "score": 85,
+          "issueHits": 5,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-afternoon.pdf",
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2
+        }
+      ],
+      "yearSpread": [
+        {
+          "year": "1993",
+          "documents": 10,
+          "pages": 53
+        },
+        {
+          "year": "1994",
+          "documents": 8,
+          "pages": 34
+        },
+        {
+          "year": "1995",
+          "documents": 1,
+          "pages": 4
+        },
+        {
+          "year": "1996",
+          "documents": 6,
+          "pages": 25
+        },
+        {
+          "year": "1997",
+          "documents": 3,
+          "pages": 15
+        },
+        {
+          "year": "1998",
+          "documents": 5,
+          "pages": 23
+        },
+        {
+          "year": "1999",
+          "documents": 4,
+          "pages": 29
+        }
+      ],
+      "coverageAssessment": "Strong first-pass coverage",
+      "suggestedCompilerMove": "Select a small number of exemplars and use the rest for annotation/background to avoid overloading the volume."
+    },
+    {
+      "issue": "Kosovo / Balkans",
+      "annotationPriority": "Core issue",
+      "annotationNote": "Use for document-selection clustering and for editorial notes on Balkan diplomacy.",
+      "role": "Bosnia, Kosovo, Serbia/Yugoslavia, Contact Group, KFOR, and Milosevic diplomacy.",
+      "topicIndexDocuments": 33,
+      "topicIndexHits": 309,
+      "countedDocuments": 24,
+      "countedPages": 117,
+      "scenarioStats": {
+        "tier-1-likely-core": {
+          "documents": 2,
+          "pages": 21,
+          "tier1": 2,
+          "tier2": 0
+        },
+        "tier-1-2-strong-core": {
+          "documents": 7,
+          "pages": 52,
+          "tier1": 2,
+          "tier2": 5
+        },
+        "heavy-annotation-review": {
+          "documents": 16,
+          "pages": 94,
+          "tier1": 2,
+          "tier2": 5
+        },
+        "tier-1-3-broad-draft": {
+          "documents": 16,
+          "pages": 94,
+          "tier1": 2,
+          "tier2": 5
+        },
+        "all-counted-documents": {
+          "documents": 24,
+          "pages": 117,
+          "tier1": 2,
+          "tier2": 5
+        }
+      },
+      "topDocuments": [
+        {
+          "sequence": 80,
+          "id": "contact-1999-04-25-telcon-70",
+          "date": "1999-04-25",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.",
+          "pages": 12,
+          "score": 215,
+          "issueHits": 48,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 87,
+          "id": "contact-1999-06-20-memcon-77",
+          "date": "1999-06-20",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany",
+          "pages": 9,
+          "score": 142,
+          "issueHits": 13,
+          "tier": "Tier 1 - likely core",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf",
+          "pddReferences": 1,
+          "publicPapers": 5,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 79,
+          "id": "contact-1999-04-19-telcon-69",
+          "date": "1999-04-19",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House",
+          "pages": 6,
+          "score": 90,
+          "issueHits": 33,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 0,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 27,
+          "id": "drive-candidate-1994-09-27-memcon-one-on-one",
+          "date": "1994-09-27",
+          "type": "Memcon",
+          "title": "Clinton-Yeltsin one-on-one memcon, September 27, 1994",
+          "pages": 7,
+          "score": 86,
+          "issueHits": 16,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 68,
+          "id": "contact-1998-06-15-telcon-57",
+          "date": "1998-06-15",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House",
+          "pages": 5,
+          "score": 83,
+          "issueHits": 25,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 65,
+          "id": "contact-1998-05-17-memcon-54",
+          "date": "1998-05-17",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England",
+          "pages": 8,
+          "score": 82,
+          "issueHits": 9,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-17-memcon-54.pdf",
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 2,
+          "supportLeads": 3
+        },
+        {
+          "sequence": 36,
+          "id": "contact-1995-07-28-telcon-30",
+          "date": "1995-07-28",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House",
+          "pages": 5,
+          "score": 76,
+          "issueHits": 13,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 71,
+          "id": "contact-1998-08-14-telcon-61",
+          "date": "1998-08-14",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House",
+          "pages": 6,
+          "score": 68,
+          "issueHits": 9,
+          "tier": "Tier 3 - supporting candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-14-telcon-61.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        }
+      ],
+      "yearSpread": [
+        {
+          "year": "1993",
+          "documents": 1,
+          "pages": 3
+        },
+        {
+          "year": "1994",
+          "documents": 4,
+          "pages": 17
+        },
+        {
+          "year": "1995",
+          "documents": 1,
+          "pages": 5
+        },
+        {
+          "year": "1998",
+          "documents": 8,
+          "pages": 38
+        },
+        {
+          "year": "1999",
+          "documents": 10,
+          "pages": 54
+        }
+      ],
+      "coverageAssessment": "Adequate first-pass coverage",
+      "suggestedCompilerMove": "Use Tier 1 as the spine, then test whether one Tier 2 document is needed for chronology or nuance."
+    },
+    {
+      "issue": "Russian Politics / Elections",
+      "annotationPriority": "Core issue",
+      "annotationNote": "High annotation value for 1993 constitutional crisis and 1996 election documents.",
+      "role": "Russian domestic politics, elections, Duma, Communists, opposition, democracy, and constitutional crisis.",
+      "topicIndexDocuments": 57,
+      "topicIndexHits": 244,
+      "countedDocuments": 31,
+      "countedPages": 136,
+      "scenarioStats": {
+        "tier-1-likely-core": {
+          "documents": 0,
+          "pages": 0,
+          "tier1": 0,
+          "tier2": 0
+        },
+        "tier-1-2-strong-core": {
+          "documents": 7,
+          "pages": 43,
+          "tier1": 0,
+          "tier2": 7
+        },
+        "heavy-annotation-review": {
+          "documents": 21,
+          "pages": 106,
+          "tier1": 0,
+          "tier2": 7
+        },
+        "tier-1-3-broad-draft": {
+          "documents": 21,
+          "pages": 106,
+          "tier1": 0,
+          "tier2": 7
+        },
+        "all-counted-documents": {
+          "documents": 31,
+          "pages": 136,
+          "tier1": 0,
+          "tier2": 7
+        }
+      },
+      "topDocuments": [
+        {
+          "sequence": 4,
+          "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
+          "date": "1993-04-03",
+          "type": "Memcon",
+          "title": "Working Dinner with President Boris Yeltsin",
+          "pages": 9,
+          "score": 92,
+          "issueHits": 3,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf",
+          "pddReferences": 0,
+          "publicPapers": 3,
+          "sourceCopyControls": 0,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 15,
+          "id": "clinton-standalone-1994-01-13-memcon-one-on-one",
+          "date": "1994-01-13",
+          "type": "Memcon",
+          "title": "One-on-One Meeting with President Boris Yeltsin of Russia",
+          "pages": 6,
+          "score": 82,
+          "issueHits": 11,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 0,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 53,
+          "id": "contact-1997-03-21-memcon-helsinki-working-lunch",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Working Lunch with President Boris Yeltsin",
+          "pages": 8,
+          "score": 82,
+          "issueHits": 7,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf",
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2
+        },
+        {
+          "sequence": 45,
+          "id": "contact-1996-04-21-memcon-moscow-luncheon",
+          "date": "1996-04-21",
+          "type": "Memcon",
+          "title": "Luncheon Meeting with Russian President Boris Yeltsin",
+          "pages": 7,
+          "score": 79,
+          "issueHits": 11,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 14,
+          "id": "contact-1993-12-22-telcon-13",
+          "date": "1993-12-22",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House",
+          "pages": 4,
+          "score": 77,
+          "issueHits": 7,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf",
+          "pddReferences": 1,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 41,
+          "id": "contact-1996-02-21-telcon-34",
+          "date": "1996-02-21",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House",
+          "pages": 4,
+          "score": 72,
+          "issueHits": 10,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-02-21-telcon-34.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 40,
+          "id": "contact-1996-01-26-telcon-33",
+          "date": "1996-01-26",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House",
+          "pages": 5,
+          "score": 71,
+          "issueHits": 15,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf",
+          "pddReferences": 1,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 58,
+          "id": "contact-1997-10-30-telcon-47",
+          "date": "1997-10-30",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House",
+          "pages": 6,
+          "score": 69,
+          "issueHits": 5,
+          "tier": "Tier 3 - supporting candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-10-30-telcon-47.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 2,
+          "supportLeads": 1
+        }
+      ],
+      "yearSpread": [
+        {
+          "year": "1993",
+          "documents": 4,
+          "pages": 19
+        },
+        {
+          "year": "1994",
+          "documents": 3,
+          "pages": 12
+        },
+        {
+          "year": "1995",
+          "documents": 1,
+          "pages": 4
+        },
+        {
+          "year": "1996",
+          "documents": 10,
+          "pages": 39
+        },
+        {
+          "year": "1997",
+          "documents": 3,
+          "pages": 20
+        },
+        {
+          "year": "1998",
+          "documents": 7,
+          "pages": 29
+        },
+        {
+          "year": "1999",
+          "documents": 3,
+          "pages": 13
+        }
+      ],
+      "coverageAssessment": "Needs Tier 2 representative",
+      "suggestedCompilerMove": "Review Tier 2 documents closely; this issue lacks a Tier 1 anchor but has strong candidates."
+    },
+    {
+      "issue": "Chechnya / Caucasus",
+      "annotationPriority": "High",
+      "annotationNote": "Annotate carefully as internal-Russia context when retained in a presidential exchange.",
+      "role": "Chechnya, Chechen conflict, Caucasus, and Russian internal security concerns.",
+      "topicIndexDocuments": 16,
+      "topicIndexHits": 81,
+      "countedDocuments": 10,
+      "countedPages": 57,
+      "scenarioStats": {
+        "tier-1-likely-core": {
+          "documents": 0,
+          "pages": 0,
+          "tier1": 0,
+          "tier2": 0
+        },
+        "tier-1-2-strong-core": {
+          "documents": 4,
+          "pages": 25,
+          "tier1": 0,
+          "tier2": 4
+        },
+        "heavy-annotation-review": {
+          "documents": 9,
+          "pages": 55,
+          "tier1": 0,
+          "tier2": 4
+        },
+        "tier-1-3-broad-draft": {
+          "documents": 9,
+          "pages": 55,
+          "tier1": 0,
+          "tier2": 4
+        },
+        "all-counted-documents": {
+          "documents": 10,
+          "pages": 57,
+          "tier1": 0,
+          "tier2": 4
+        }
+      },
+      "topDocuments": [
+        {
+          "sequence": 35,
+          "id": "contact-1995-06-17-memcon-29",
+          "date": "1995-06-17",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada",
+          "pages": 8,
+          "score": 76,
+          "issueHits": 8,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf",
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 3
+        },
+        {
+          "sequence": 36,
+          "id": "contact-1995-07-28-telcon-30",
+          "date": "1995-07-28",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House",
+          "pages": 5,
+          "score": 76,
+          "issueHits": 5,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 89,
+          "id": "contact-1999-11-18-memcon-79",
+          "date": "1999-11-19",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
+          "pages": 7,
+          "score": 74,
+          "issueHits": 8,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf",
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 40,
+          "id": "contact-1996-01-26-telcon-33",
+          "date": "1996-01-26",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House",
+          "pages": 5,
+          "score": 71,
+          "issueHits": 6,
+          "tier": "Tier 2 - strong candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf",
+          "pddReferences": 1,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 44,
+          "id": "contact-1996-04-21-memcon-moscow-one-on-one",
+          "date": "1996-04-21",
+          "type": "Memcon",
+          "title": "POTUS-Yeltsin One-on-One",
+          "pages": 13,
+          "score": 65,
+          "issueHits": 7,
+          "tier": "Tier 3 - supporting candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-one-on-one.pdf",
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 2,
+          "supportLeads": 1
+        },
+        {
+          "sequence": 33,
+          "id": "contact-1995-04-27-telcon-27",
+          "date": "1995-04-27",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 27, 1995, White House",
+          "pages": 4,
+          "score": 64,
+          "issueHits": 3,
+          "tier": "Tier 3 - supporting candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-04-27-telcon-27.pdf",
+          "pddReferences": 0,
+          "publicPapers": 0,
+          "sourceCopyControls": 0,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 32,
+          "id": "contact-1995-02-13-telcon-26",
+          "date": "1995-02-13",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 13, 1995, White House",
+          "pages": 4,
+          "score": 55,
+          "issueHits": 15,
+          "tier": "Tier 3 - supporting candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-02-13-telcon-26.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 0
+        },
+        {
+          "sequence": 46,
+          "id": "contact-1996-05-07-telcon-38",
+          "date": "1996-05-07",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, May 7, 1996, White House",
+          "pages": 4,
+          "score": 50,
+          "issueHits": 5,
+          "tier": "Tier 3 - supporting candidate",
+          "annotationTreatment": "Heavy annotation review",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-05-07-telcon-38.pdf",
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 1
+        }
+      ],
+      "yearSpread": [
+        {
+          "year": "1993",
+          "documents": 1,
+          "pages": 2
+        },
+        {
+          "year": "1995",
+          "documents": 4,
+          "pages": 21
+        },
+        {
+          "year": "1996",
+          "documents": 3,
+          "pages": 22
+        },
+        {
+          "year": "1999",
+          "documents": 2,
+          "pages": 12
+        }
+      ],
+      "coverageAssessment": "Needs Tier 2 representative",
+      "suggestedCompilerMove": "Review Tier 2 documents closely; this issue lacks a Tier 1 anchor but has strong candidates."
+    }
+  ]
+}

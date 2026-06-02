@@ -53,6 +53,7 @@ Compiler-facing handoff files are generated in `reports/`:
 - `topic-index.html`, `topic-index.json`, and `topic-index.csv`: keyword topic and name/organization index generated from extracted PDF text.
 - `selection-priority-workbench.html`, `selection-priority-workbench.json`, and `selection-priority-workbench.csv`: nonbinding selection-priority triage for the direct Clinton-Yeltsin chronology, with tiers, issue coverage, source hooks, and decision prompts.
 - `page-budget-scenarios.html`, `page-budget-scenarios.json`, and `page-budget-scenarios.csv`: nonbinding document/page-budget scenarios for Tier 1, Tier 1-2, heavy annotation, broad draft, full counted set, and hard-gap estimates.
+- `thematic-selection-matrix.html`, `thematic-selection-matrix.json`, and `thematic-selection-matrix.csv`: issue-by-scenario coverage matrix showing strong, adequate, and Tier 2-dependent thematic coverage across selection tiers.
 - `production-readiness-checklist.html`, `production-readiness-checklist.json`, and `production-readiness-checklist.csv`: production-control checklist that consolidates PDF/provenance validation, source-note review, face-page metadata, annotation workload, selection tier, companion evidence, and next action for each direct contact.
 - `annotation-workbench.html`, `annotation-workbench.json`, `annotation-targets.csv`, and `annotation-document-queue.csv`: annotation triage workbench with authority targets, issue clusters, first-reference prompts, and a document-level annotation queue.
 - `face-page-metadata.html`, `face-page-metadata.json`, and `face-page-metadata.csv`: source-note drafting aid with parsed subject, participants, notetakers/interpreters, date/time/place, and classification lines from each extracted PDF's first page.
@@ -96,6 +97,12 @@ To rebuild the page-budget scenarios from the selection-priority workbench:
 
 ```sh
 node scripts/build-page-budget-scenarios.js
+```
+
+To rebuild the thematic selection matrix from the selection, page-budget, topic, and annotation reports:
+
+```sh
+node scripts/build-thematic-selection-matrix.js
 ```
 
 To rebuild the production-readiness checklist from the validation, source-note, metadata, annotation, dossier, hard-gap, and selection reports:
