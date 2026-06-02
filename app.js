@@ -22,6 +22,7 @@ const candidatePageCount = document.querySelector("#candidate-page-count");
 const pendingSummary = document.querySelector("#pending-summary");
 const pendingList = document.querySelector("#pending-list");
 const sourceCopySummary = document.querySelector("#source-copy-summary");
+const nextActionsRoot = document.querySelector("#next-actions-root");
 const auditRoot = document.querySelector("#audit-root");
 const coverageRoot = document.querySelector("#coverage-root");
 const sourceLedgerRoot = document.querySelector("#source-ledger-root");
@@ -315,6 +316,130 @@ function renderWorkbench(records) {
     }
     sourceCopySummary.textContent += ` The Public Statements lane adds ${formatNumber(publicStatementRows)} GovInfo Public Papers items over ${formatNumber(publicStatementPages)} Public Papers pages.`;
   }
+}
+
+function nextActionReportUrl(path) {
+  if (!path) return "reports/compiler-next-actions.html";
+  return path.startsWith("reports/") ? path : `reports/${path}`;
+}
+
+function nextActionCard(label, value, detail) {
+  const card = document.createElement("article");
+  card.className = "next-action-card";
+
+  const heading = document.createElement("h3");
+  heading.textContent = label;
+  const stat = document.createElement("p");
+  stat.className = "next-action-stat";
+  stat.textContent = formatNumber(value);
+  const body = document.createElement("p");
+  body.textContent = detail;
+
+  card.append(heading, stat, body);
+  return card;
+}
+
+function createNextTask(task) {
+  const item = document.createElement("li");
+  item.className = `next-task priority-${String(task.priority || "").toLowerCase()}`;
+
+  const meta = document.createElement("p");
+  meta.className = "next-task-meta";
+  meta.textContent = [
+    task.priority,
+    task.workstream,
+    task.sequence ? `Seq. ${task.sequence}` : "",
+    task.date ? formatDate(task.date) : "",
+    task.selectionTier
+  ]
+    .filter(Boolean)
+    .join(" / ");
+
+  const title = document.createElement(task.derivativePdfUrl ? "a" : "strong");
+  title.className = "next-task-title";
+  if (task.derivativePdfUrl) {
+    title.href = task.derivativePdfUrl;
+    title.rel = "noreferrer";
+    title.target = "_blank";
+  }
+  title.textContent = task.title;
+
+  const action = document.createElement("p");
+  action.textContent = task.action;
+
+  const why = document.createElement("p");
+  why.className = "next-task-why";
+  why.textContent = task.why;
+
+  const links = document.createElement("div");
+  links.className = "next-task-links";
+  for (const reportLink of task.reportLinks || []) {
+    const link = document.createElement("a");
+    link.href = nextActionReportUrl(reportLink);
+    link.textContent = reportLink.replace(/\.html$/, "").replaceAll("-", " ");
+    links.append(link);
+  }
+  if (task.sourcePacketUrl) {
+    const source = document.createElement("a");
+    source.href = task.sourcePacketUrl;
+    source.rel = "noreferrer";
+    source.target = "_blank";
+    source.textContent = "source packet";
+    links.append(source);
+  }
+
+  item.append(meta, title, action, why, links);
+  return item;
+}
+
+function batchLine(row) {
+  const item = document.createElement("li");
+  const count = document.createElement("strong");
+  count.textContent = formatNumber(row.count);
+  item.append(count, document.createTextNode(` ${row.label}`));
+  return item;
+}
+
+function renderNextActionsDashboard() {
+  if (!nextActionsRoot) return;
+  const queue = window.COMPILER_NEXT_ACTIONS;
+  if (!queue) {
+    nextActionsRoot.innerHTML = '<p class="loading">Next-action queue data is unavailable.</p>';
+    return;
+  }
+
+  const summary = queue.summary || {};
+  const cards = document.createElement("div");
+  cards.className = "next-action-cards";
+  cards.append(
+    nextActionCard("Day-One Tasks", summary.dayOneTasks, `${formatNumber(summary.p0Tasks)} P0 and ${formatNumber(summary.p1Tasks)} P1 tasks.`),
+    nextActionCard("Hard Gaps", summary.hardGapTasks, "Resolve source text before any page-count or selection claim."),
+    nextActionCard("Spine Closeout", summary.draftSpineTasks, `${formatNumber(summary.draftSpinePages)} pages in the draft spine.`),
+    nextActionCard("Watchlist Calls", summary.watchlistTasks, "Tier 2 alternates to add, swap, excerpt, or hold.")
+  );
+
+  const taskList = document.createElement("ol");
+  taskList.className = "next-task-list";
+  for (const task of queue.dayOneTasks || []) taskList.append(createNextTask(task));
+
+  const batchGrid = document.createElement("div");
+  batchGrid.className = "next-batch-grid";
+  const sourceBatch = document.createElement("article");
+  const sourceHeading = document.createElement("h3");
+  sourceHeading.textContent = "Source-Note Cleanup";
+  const sourceList = document.createElement("ul");
+  for (const row of queue.sourceNoteBatches?.byFlag || []) sourceList.append(batchLine(row));
+  sourceBatch.append(sourceHeading, sourceList);
+
+  const faceBatch = document.createElement("article");
+  const faceHeading = document.createElement("h3");
+  faceHeading.textContent = "Face-Page Cleanup";
+  const faceList = document.createElement("ul");
+  for (const row of queue.facePageBatches?.byMissingField || []) faceList.append(batchLine(row));
+  faceBatch.append(faceHeading, faceList);
+  batchGrid.append(sourceBatch, faceBatch);
+
+  nextActionsRoot.replaceChildren(cards, taskList, batchGrid);
 }
 
 function auditCard(title, value, detail, meta) {
@@ -1226,6 +1351,7 @@ async function init() {
     renderCompilerAudit(allRecords);
     renderFrusMethod(allRecords);
     renderWorkbench(allRecords);
+    renderNextActionsDashboard();
     renderRecords(allRecords);
     enableFilters();
     enableChapterCards();

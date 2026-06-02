@@ -121,6 +121,8 @@ To rebuild the compiler next-action queue from the spine, readiness, source-note
 node scripts/build-compiler-next-actions.js
 ```
 
+This command also refreshes `data/compiler-next-actions.js`, the compact landing-page dashboard payload.
+
 To rebuild the thematic selection matrix from the selection, page-budget, topic, and annotation reports:
 
 ```sh

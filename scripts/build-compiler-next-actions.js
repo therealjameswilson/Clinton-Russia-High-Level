@@ -355,6 +355,41 @@ function writeCsv(tasks) {
   fs.writeFileSync(path.join(REPORTS_DIR, "compiler-next-actions.csv"), `${fields.join(",")}\n${body.join("\n")}\n`);
 }
 
+function writeFrontendData(report) {
+  const payload = {
+    generatedAt: report.generatedAt,
+    summary: report.summary,
+    dayOneTasks: report.tasks
+      .filter((task) => ["P0", "P1"].includes(task.priority))
+      .slice(0, 10)
+      .map((task) => ({
+        priority: task.priority,
+        workstream: task.workstream,
+        sequence: task.sequence,
+        date: task.date,
+        type: task.type,
+        selectionTier: task.selectionTier,
+        pages: task.pages,
+        title: task.title,
+        action: task.action,
+        why: task.why,
+        derivativePdfUrl: task.derivativePdfUrl,
+        sourcePacketUrl: task.sourcePacketUrl,
+        reportLinks: task.reportLinks
+      })),
+    sourceNoteBatches: {
+      byFlag: report.sourceNoteBatches.byFlag.slice(0, 5)
+    },
+    facePageBatches: {
+      byMissingField: report.facePageBatches.byMissingField.slice(0, 5)
+    }
+  };
+  fs.writeFileSync(
+    path.join(ROOT, "data", "compiler-next-actions.js"),
+    `window.COMPILER_NEXT_ACTIONS = ${JSON.stringify(payload, null, 2)};\n`
+  );
+}
+
 function summaryCards(summary) {
   const rows = [
     ["Tasks", summary.totalTasks],
@@ -516,4 +551,5 @@ const report = buildReport();
 fs.writeFileSync(path.join(REPORTS_DIR, "compiler-next-actions.json"), `${JSON.stringify(report, null, 2)}\n`);
 writeCsv(report.tasks);
 fs.writeFileSync(path.join(REPORTS_DIR, "compiler-next-actions.html"), buildHtml(report));
+writeFrontendData(report);
 console.log(JSON.stringify(report.summary, null, 2));

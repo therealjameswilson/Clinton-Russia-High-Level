@@ -8,7 +8,7 @@
       name="description"
       content="A working FRUS compiler page for Clinton-Russia high-level records, Clinton-Yeltsin memcons and telcons, Strobe Talbott FOIA context, and NARA Scout leads for FRUS 1993-2000, Volume XVIII, Russia."
     />
-    <link rel="stylesheet" href="styles.css?v=20260602-chronology-first" />
+    <link rel="stylesheet" href="styles.css?v=20260602-next-dashboard" />
     <style id="compiler-network-style">
       .compiler-network {
         border-bottom: 1px solid rgba(31, 41, 51, 0.14);
@@ -250,6 +250,29 @@
         <div>
           <span id="public-statements">0</span>
           <p>public statements</p>
+        </div>
+      </section>
+
+      <section class="section next-actions-section" id="next-actions" aria-labelledby="next-actions-title">
+        <div class="section-heading">
+          <div>
+            <p class="kicker">Compiler Queue</p>
+            <h2 id="next-actions-title">Day-One Next Actions</h2>
+          </div>
+          <p class="section-note">
+            A live landing-page view of the prioritized task queue: hard source gaps first,
+            then draft-spine closeout, Tier 2 decisions, and repeatable cleanup batches.
+          </p>
+        </div>
+        <div id="next-actions-root" class="next-actions-root" aria-live="polite">
+          <p class="loading">Loading next-action queue...</p>
+        </div>
+        <div class="workbench-actions">
+          <a href="reports/compiler-next-actions.html">Open full next-action queue</a>
+          <a href="reports/compiler-next-actions.csv">Download task CSV</a>
+          <a href="reports/draft-selection-spine.html">Open draft selection spine</a>
+          <a href="reports/hard-source-gap-packet.html">Open hard-gap packet</a>
+          <a href="reports/production-readiness-checklist.html">Open production checklist</a>
         </div>
       </section>
 
@@ -927,7 +950,8 @@
       <a href="https://github.com/therealjameswilson/Clinton-Russia-High-Level">Repository</a>
     </footer>
     <script src="data/memcons.js?v=20260601-compiler-packet"></script>
-    <script src="app.js?v=20260601-compiler-packet"></script>
+    <script src="data/compiler-next-actions.js?v=20260602-next-dashboard"></script>
+    <script src="app.js?v=20260602-next-dashboard"></script>
     <script id="compiler-network-script">
       (() => {
         const button = document.querySelector("[data-compiler-handoff]");
