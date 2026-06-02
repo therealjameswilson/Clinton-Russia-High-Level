@@ -108,6 +108,12 @@ main {
   padding: clamp(44px, 8vw, 96px) 0 40px;
 }
 
+.overview-hero {
+  min-height: auto;
+  padding: 56px 0 48px;
+  border-top: 1px solid var(--line);
+}
+
 .hero-copy {
   align-self: center;
 }
@@ -305,7 +311,20 @@ dd {
 }
 
 .priority-chronology-section {
+  padding-top: 56px;
   scroll-margin-top: 88px;
+  border-top: 0;
+}
+
+.chronology-heading {
+  align-items: flex-start;
+}
+
+.page-title {
+  max-width: 920px;
+  margin-bottom: 0;
+  font-size: 4.35rem;
+  line-height: 0.98;
 }
 
 .priority-summary {
@@ -1329,6 +1348,10 @@ footer a {
 
   h1 {
     font-size: clamp(2.6rem, 15vw, 4rem);
+  }
+
+  .page-title {
+    font-size: 2.85rem;
   }
 
   .stats,

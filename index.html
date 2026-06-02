@@ -8,7 +8,7 @@
       name="description"
       content="A working FRUS compiler page for Clinton-Russia high-level records, Clinton-Yeltsin memcons and telcons, Strobe Talbott FOIA context, and NARA Scout leads for FRUS 1993-2000, Volume XVIII, Russia."
     />
-    <link rel="stylesheet" href="styles.css?v=20260601-compiler-packet" />
+    <link rel="stylesheet" href="styles.css?v=20260602-chronology-first" />
     <style id="compiler-network-style">
       .compiler-network {
         border-bottom: 1px solid rgba(31, 41, 51, 0.14);
@@ -135,58 +135,15 @@
     </header>
 
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="kicker">FRUS 1993-2000, Volume XVIII</p>
-          <h1 id="hero-title">Clinton-Russia High-Level Files</h1>
-          <p class="lede">
-            A working compiler page for the planned <em>Foreign Relations of the United
-            States, 1993-2000, Volume XVIII, Russia</em>. It now leads with the
-            chronological spine of declassified Clinton-Yeltsin memcons and telcons, then
-            adds released Clinton Library MDR packets, Strobe Talbott FOIA policy context,
-            Clinton's public statements from the Public Papers, and provenance-aware
-            controls for FRUS review.
-          </p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="#declassified-chronology">Open Chronology</a>
-            <a class="button secondary" href="#records" data-quick-filter="pending">Pending Extents</a>
-          </div>
-        </div>
-        <aside class="brief" aria-label="Archive scope">
-          <div class="dossier-visual" aria-hidden="true">
-            <span class="dossier-sheet"></span>
-          </div>
-          <p class="brief-label">Volume Scope</p>
-          <dl>
-            <div>
-              <dt>FRUS Volume</dt>
-              <dd>1993-2000, XVIII</dd>
-            </div>
-            <div>
-              <dt>Subject</dt>
-              <dd>Russia</dd>
-            </div>
-            <div>
-              <dt>Current FRUS Status</dt>
-              <dd>Planned; not yet compiled</dd>
-            </div>
-            <div>
-              <dt>Arrangement</dt>
-              <dd>Chronology plus source packets</dd>
-            </div>
-          </dl>
-        </aside>
-      </section>
-
       <section
-        class="section records-section priority-chronology-section"
+        class="section records-section priority-chronology-section chronology-lead"
         id="declassified-chronology"
         aria-labelledby="declassified-chronology-title"
       >
-        <div class="section-heading">
+        <div class="section-heading chronology-heading">
           <div>
             <p class="kicker">Declassified Documents</p>
-            <h2 id="declassified-chronology-title">Chronology of Declassified Documents</h2>
+            <h1 id="declassified-chronology-title" class="page-title">Chronology of Declassified Documents</h1>
           </div>
           <p class="section-note">
             The page-counted Clinton-Yeltsin memcons and telcons come first, in date order,
@@ -220,6 +177,49 @@
         <div id="declassified-chronology-root" class="records-root priority-records-root" aria-live="polite">
           <p class="loading">Loading declassified document chronology...</p>
         </div>
+      </section>
+
+      <section class="hero overview-hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="kicker">FRUS 1993-2000, Volume XVIII</p>
+          <h2 id="hero-title">Clinton-Russia High-Level Files</h2>
+          <p class="lede">
+            A working compiler page for the planned <em>Foreign Relations of the United
+            States, 1993-2000, Volume XVIII, Russia</em>. The page now opens with the
+            chronological spine of declassified Clinton-Yeltsin memcons and telcons, then
+            adds released Clinton Library MDR packets, Strobe Talbott FOIA policy context,
+            Clinton's public statements from the Public Papers, and provenance-aware
+            controls for FRUS review.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#records" data-quick-filter="candidate">Open Full Candidate Set</a>
+            <a class="button secondary" href="#records" data-quick-filter="pending">Pending Extents</a>
+          </div>
+        </div>
+        <aside class="brief" aria-label="Archive scope">
+          <div class="dossier-visual" aria-hidden="true">
+            <span class="dossier-sheet"></span>
+          </div>
+          <p class="brief-label">Volume Scope</p>
+          <dl>
+            <div>
+              <dt>FRUS Volume</dt>
+              <dd>1993-2000, XVIII</dd>
+            </div>
+            <div>
+              <dt>Subject</dt>
+              <dd>Russia</dd>
+            </div>
+            <div>
+              <dt>Current FRUS Status</dt>
+              <dd>Planned; not yet compiled</dd>
+            </div>
+            <div>
+              <dt>Arrangement</dt>
+              <dd>Chronology plus source packets</dd>
+            </div>
+          </dl>
+        </aside>
       </section>
 
       <section class="stats" aria-label="Archive summary">
