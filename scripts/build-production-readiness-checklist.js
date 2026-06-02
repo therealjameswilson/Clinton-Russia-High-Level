@@ -316,6 +316,7 @@ function buildHtml(report) {
       <div class="actions">
         <a href="production-readiness-checklist.csv">Download checklist CSV</a>
         <a href="production-readiness-checklist.json">Open checklist JSON</a>
+        <a href="page-budget-scenarios.html">Open page budgets</a>
         <a href="compiler-start-here.html">Open start-here packet</a>
         <a href="selection-priority-workbench.html">Open selection priorities</a>
         <a href="source-note-drafts.html">Open source-note drafts</a>
