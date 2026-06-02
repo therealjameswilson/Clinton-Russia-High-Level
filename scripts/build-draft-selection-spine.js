@@ -351,6 +351,7 @@ function buildHtml(report) {
         <a href="draft-selection-spine.json">Open spine JSON</a>
         <a href="compiler-start-here.html">Open start-here packet</a>
         <a href="draft-spine-worksheet.html">Open spine worksheet</a>
+        <a href="provisional-document-list.html">Open provisional document list</a>
         <a href="compiler-next-actions.html">Open next-action queue</a>
         <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="thematic-selection-matrix.html">Open thematic matrix</a>

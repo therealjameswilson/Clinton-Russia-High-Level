@@ -315,6 +315,7 @@ function buildHtml(report) {
         <a href="draft-spine-worksheet.csv">Download worksheet CSV</a>
         <a href="draft-spine-worksheet.json">Open worksheet JSON</a>
         <a href="draft-selection-spine.html">Open draft spine</a>
+        <a href="provisional-document-list.html">Open provisional document list</a>
         <a href="compiler-next-actions.html">Open next-action queue</a>
         <a href="source-note-drafts.html">Open source-note drafts</a>
         <a href="face-page-metadata.html">Open face-page audit</a>

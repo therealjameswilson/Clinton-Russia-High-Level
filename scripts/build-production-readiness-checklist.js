@@ -319,6 +319,7 @@ function buildHtml(report) {
         <a href="production-readiness-checklist.json">Open checklist JSON</a>
         <a href="draft-selection-spine.html">Open draft selection spine</a>
         <a href="draft-spine-worksheet.html">Open spine worksheet</a>
+        <a href="provisional-document-list.html">Open provisional document list</a>
         <a href="compiler-next-actions.html">Open next-action queue</a>
         <a href="page-budget-scenarios.html">Open page budgets</a>
         <a href="thematic-selection-matrix.html">Open thematic matrix</a>
