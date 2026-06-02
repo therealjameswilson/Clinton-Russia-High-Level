@@ -339,6 +339,7 @@ function buildHtml(report) {
       <h1>FRUS Page Budget Scenarios</h1>
       <p class="lede">Generated ${htmlCell(report.generatedAt)}. These nonbinding scenarios translate the Clinton-Yeltsin chronology into document and page budgets for first-pass selection, broad drafting, annotation planning, and hard-gap follow-up.</p>
       <div class="actions">
+        <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="page-budget-scenarios.csv">Download scenario CSV</a>
         <a href="page-budget-scenarios.json">Open scenario JSON</a>
         <a href="thematic-selection-matrix.html">Open thematic matrix</a>

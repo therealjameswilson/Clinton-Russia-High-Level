@@ -46,6 +46,7 @@ Compiler-facing handoff files are generated in `reports/`:
 
 - `compiler-start-here.html`: browser-ready start-here packet with consolidated counts, reading order, and hard source gaps.
 - `compiler-start-here.md`: Markdown copy of the same packet for repo review.
+- `chronological-chapter-outline.html`, `chronological-chapter-outline.json`, and `chronological-chapter-outline.csv`: draft phase-by-phase outline grouping the direct Clinton-Yeltsin chronology by narrative period, page load, selection anchors, issues, and hard gaps.
 - `contact-dossier-crosswalk.html`, `contact-dossier-crosswalk.json`, and `contact-dossier-crosswalk.csv`: one-row-per-contact dossier joining each Clinton-Yeltsin memcon/telcon to Presidential Daily Diary references, Public Papers context, source-copy controls, and nearby NARA/Strobe support leads.
 - `hard-source-gap-packet.html`, `hard-source-gap-packet.json`, and `hard-source-gap-packet.csv`: archival/MDR follow-up packet for the six uncounted direct Clinton-Yeltsin contacts, with corroborating hooks, false leads, and draft request language.
 - `public/documents/clinton-yeltsin-core-reading-packet.pdf`: single chronological PDF packet of the 85 page-counted memcons/telcons.
@@ -62,6 +63,12 @@ Compiler-facing handoff files are generated in `reports/`:
 - `frus-selection-worksheet.csv`: working selection sheet with blank include/document-number columns, suggested treatment, issue tags, and annotation/declassification note columns.
 - `document-page-tallies.json`: machine-readable consolidated page counts and pending extent records.
 - `extracted-pdf-validation.json`: mechanical audit of local derivative PDF page counts against the record data and extraction manifest.
+
+To rebuild the draft chronological chapter outline from the selection-priority workbench:
+
+```sh
+node scripts/build-chronological-chapter-outline.js
+```
 
 To re-run the local PDF extent/provenance audit:
 

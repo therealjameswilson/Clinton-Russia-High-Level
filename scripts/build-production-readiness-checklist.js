@@ -314,6 +314,7 @@ function buildHtml(report) {
       <h1>FRUS Production Readiness Checklist</h1>
       <p class="lede">Generated ${htmlCell(report.generatedAt)}. This checklist consolidates the current production state for every direct Clinton-Yeltsin memcon and telcon: extraction/provenance, source-note review, face-page metadata, annotation workload, selection tier, companion evidence, and the next action still owed.</p>
       <div class="actions">
+        <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="production-readiness-checklist.csv">Download checklist CSV</a>
         <a href="production-readiness-checklist.json">Open checklist JSON</a>
         <a href="page-budget-scenarios.html">Open page budgets</a>

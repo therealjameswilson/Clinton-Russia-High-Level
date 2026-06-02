@@ -335,6 +335,7 @@ function buildCompilerStartHereMarkdown(records) {
     "",
     "## Companion Files",
     "",
+    "- [Draft chronological chapter outline](chronological-chapter-outline.html)",
     "- [Combined reading packet PDF](../public/documents/clinton-yeltsin-core-reading-packet.pdf)",
     "- [Contact dossier crosswalk](contact-dossier-crosswalk.html)",
     "- [Hard-source gap follow-up packet](hard-source-gap-packet.html)",
@@ -441,6 +442,7 @@ function buildCompilerStartHereHtml(records) {
       <h1>FRUS Compiler Start-Here Packet</h1>
       <p class="lede">Generated ${htmlCell(now)}. This packet gives the chronological Clinton-Yeltsin memcon/telcon spine for FRUS 1993-2000, Volume XVIII, with actual conversation page counts, extracted PDFs, source-page ranges, and hard pending gaps.</p>
       <div class="actions">
+        <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="../public/documents/clinton-yeltsin-core-reading-packet.pdf">Open reading packet PDF</a>
         <a href="contact-dossier-crosswalk.html">Open dossier crosswalk</a>
         <a href="hard-source-gap-packet.html">Open hard-gap packet</a>

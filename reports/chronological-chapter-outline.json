@@ -1,0 +1,3267 @@
+{
+  "generatedAt": "2026-06-02T01:38:21.580Z",
+  "scope": "Draft chronological chapter outline for direct Clinton-Yeltsin memcons/telcons in the FRUS 1993-2000, Volume XVIII compiler packet.",
+  "note": "Phase boundaries are editorial aids. They can be revised without changing the underlying chronological document inventory.",
+  "medians": {
+    "Telcon": 4,
+    "Memcon": 8
+  },
+  "summary": {
+    "phases": 8,
+    "totalContacts": 91,
+    "countedDocuments": 85,
+    "pendingDocuments": 6,
+    "actualConversationPages": 445,
+    "estimatedHardGapPages": 40,
+    "tierOneDocuments": 11,
+    "tierTwoDocuments": 17
+  },
+  "phases": [
+    {
+      "id": "opening-channel-vancouver-tokyo",
+      "label": "Opening channel, Vancouver, and Tokyo",
+      "dateStart": "1993-01-20",
+      "dateEnd": "1993-07-31",
+      "narrativeUse": "Establishes the Clinton-Yeltsin relationship, Vancouver aid package, early security agenda, and G-7 framing.",
+      "totalContacts": 10,
+      "countedDocuments": 9,
+      "pendingDocuments": 1,
+      "actualConversationPages": 46,
+      "estimatedHardGapPages": 4,
+      "tierCounts": {
+        "Tier 4 - concise/confirmatory": 5,
+        "Hard source gap": 1,
+        "Tier 2 - strong candidate": 1,
+        "Tier 1 - likely core": 2,
+        "Tier 3 - supporting candidate": 1
+      },
+      "topIssues": [
+        {
+          "issue": "Economic Reform / Assistance",
+          "documents": 6,
+          "hitScore": 61,
+          "pages": 39
+        },
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "documents": 3,
+          "hitScore": 41,
+          "pages": 23
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "documents": 5,
+          "hitScore": 30,
+          "pages": 31
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "documents": 3,
+          "hitScore": 13,
+          "pages": 16
+        },
+        {
+          "issue": "Kosovo / Balkans",
+          "documents": 1,
+          "hitScore": 7,
+          "pages": 3
+        },
+        {
+          "issue": "Chechnya / Caucasus",
+          "documents": 1,
+          "hitScore": 6,
+          "pages": 2
+        }
+      ],
+      "selectionAnchors": [
+        {
+          "sequence": 5,
+          "id": "contact-1993-04-04-memcon-vancouver-security-issues",
+          "date": "1993-04-04",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with Russian President Boris Yeltsin on Security Issues",
+          "actualConversationPages": 12,
+          "packetPages": "19-31",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf",
+          "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf",
+          "sourcePdfPages": "19-30",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, OA/Box Number 145, Folder Title/Record ID 9302226, National Archives Catalog item 2014-0901-M, Memcons between President William Jefferson Clinton and President Boris Yeltsin, NAID 163545404.",
+          "selectionScore": 132,
+          "dominantIssues": [
+            "Ukraine / Nuclear Security (18)",
+            "Economic Reform / Assistance (17)",
+            "Iraq / Middle East (15)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (61)",
+            "G-7 (5)",
+            "Christopher (4)",
+            "Kozyrev (3)",
+            "Chernomyrdin (1)",
+            "Gore (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 3,
+          "sourceCopyControls": 0,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; public framing available"
+        },
+        {
+          "sequence": 10,
+          "id": "contact-1993-07-10-memcon-09",
+          "date": "1993-07-10",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan",
+          "actualConversationPages": 9,
+          "packetPages": "46-55",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "sourcePdfPages": "81-89",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9305178, Original OA/ID 153, Mandatory Declassification Review 2014-0996-M, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 100,
+          "dominantIssues": [
+            "Ukraine / Nuclear Security (17)",
+            "Iraq / Middle East (7)",
+            "Economic Reform / Assistance (4)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (48)",
+            "Christopher (6)",
+            "Kozyrev (5)",
+            "Talbott (4)",
+            "Berger (1)",
+            "Chernomyrdin (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 2,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control"
+        },
+        {
+          "sequence": 4,
+          "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
+          "date": "1993-04-03",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Working Dinner with President Boris Yeltsin",
+          "actualConversationPages": 9,
+          "packetPages": "9-18",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf",
+          "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf",
+          "sourcePdfPages": "9-17",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, OA/Box Number 145, Folder Title/Record ID 9302226, National Archives Catalog item 2014-0901-M, Memcons between President William Jefferson Clinton and President Boris Yeltsin, NAID 163545404.",
+          "selectionScore": 92,
+          "dominantIssues": [
+            "Economic Reform / Assistance (18)",
+            "Arms Control / Nonproliferation (4)",
+            "Russian Politics / Elections (3)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (41)",
+            "Kozyrev (7)",
+            "Christopher (4)",
+            "G-7 (4)",
+            "Chernomyrdin (2)",
+            "UN (2)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 3,
+          "sourceCopyControls": 0,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available"
+        }
+      ],
+      "hardGaps": [
+        {
+          "sequence": 3,
+          "date": "1993-04-01",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 1, 1993, Portland, Oregon",
+          "sourcePdfPages": "No released April 1 telcon pages located in 2015-0782-M-1",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "estimatedPages": 4,
+          "hardGapClass": "No released conversation pages located"
+        }
+      ],
+      "documents": [
+        {
+          "sequence": 1,
+          "id": "contact-1993-01-23-telcon-01",
+          "date": "1993-01-23",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, January 23, 1993, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 33,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (4)",
+            "Arms Control / Nonproliferation (3)",
+            "Iraq / Middle East (2)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-01-23-telcon-01.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 2,
+          "id": "contact-1993-02-10-telcon-02",
+          "date": "1993-02-10",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 10, 1993, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 37,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (7)",
+            "NATO / European Security (3)",
+            "Iraq / Middle East (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-02-10-telcon-02.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 3,
+          "id": "contact-1993-04-01-telcon-03",
+          "date": "1993-04-01",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 1, 1993, Portland, Oregon",
+          "status": "pending",
+          "selectionTier": "Hard source gap",
+          "selectionScore": "",
+          "actualConversationPages": "",
+          "annotationTreatment": "Hard source follow-up",
+          "dominantIssues": [],
+          "pdfUrl": "",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 4,
+          "id": "contact-1993-04-03-memcon-vancouver-working-dinner",
+          "date": "1993-04-03",
+          "type": "Memcon",
+          "title": "Working Dinner with President Boris Yeltsin",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 92,
+          "actualConversationPages": 9,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (18)",
+            "Arms Control / Nonproliferation (4)",
+            "Russian Politics / Elections (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-03-clinton-yeltsin-vancouver-working-dinner.pdf",
+          "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf"
+        },
+        {
+          "sequence": 5,
+          "id": "contact-1993-04-04-memcon-vancouver-security-issues",
+          "date": "1993-04-04",
+          "type": "Memcon",
+          "title": "Meeting with Russian President Boris Yeltsin on Security Issues",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 132,
+          "actualConversationPages": 12,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Ukraine / Nuclear Security (18)",
+            "Economic Reform / Assistance (17)",
+            "Iraq / Middle East (15)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-04-clinton-yeltsin-vancouver-security-issues.pdf",
+          "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf"
+        },
+        {
+          "sequence": 6,
+          "id": "contact-1993-04-26-telcon-05",
+          "date": "1993-04-26",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 26, 1993, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 23,
+          "actualConversationPages": 2,
+          "annotationTreatment": "Light annotation check",
+          "dominantIssues": [
+            "Economic Reform / Assistance (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-04-26-telcon-05.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 7,
+          "id": "contact-1993-05-02-telcon-06",
+          "date": "1993-05-02",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, May 2, 1993, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 23,
+          "actualConversationPages": 2,
+          "annotationTreatment": "Light annotation check",
+          "dominantIssues": [],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-05-02-telcon-06.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 8,
+          "id": "contact-1993-05-10-telcon-07",
+          "date": "1993-05-10",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, May 10, 1993, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 22,
+          "actualConversationPages": 2,
+          "annotationTreatment": "Light annotation check",
+          "dominantIssues": [
+            "Chechnya / Caucasus (6)",
+            "Ukraine / Nuclear Security (6)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-05-10-telcon-07.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 9,
+          "id": "contact-1993-06-28-telcon-08",
+          "date": "1993-06-28",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 28, 1993, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 69,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (17)",
+            "Arms Control / Nonproliferation (6)",
+            "Iraq / Middle East (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-06-28-telcon-08.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 10,
+          "id": "contact-1993-07-10-memcon-09",
+          "date": "1993-07-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1993, Tokyo, Japan",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 100,
+          "actualConversationPages": 9,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Ukraine / Nuclear Security (17)",
+            "Iraq / Middle East (7)",
+            "Economic Reform / Assistance (4)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-07-10-memcon-09.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-pfp-and-1994-balance",
+      "label": "Ukraine, Partnership for Peace, and the 1994 balance",
+      "dateStart": "1993-08-01",
+      "dateEnd": "1994-12-31",
+      "narrativeUse": "Covers Ukraine nuclear settlement, early NATO/PfP management, Russian politics, and the shift from aid optimism to strategic friction.",
+      "totalContacts": 21,
+      "countedDocuments": 19,
+      "pendingDocuments": 2,
+      "actualConversationPages": 92,
+      "estimatedHardGapPages": 12,
+      "tierCounts": {
+        "Tier 3 - supporting candidate": 9,
+        "Tier 4 - concise/confirmatory": 4,
+        "Tier 2 - strong candidate": 3,
+        "Tier 1 - likely core": 3,
+        "Hard source gap": 2
+      },
+      "topIssues": [
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "documents": 8,
+          "hitScore": 131,
+          "pages": 50
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "documents": 9,
+          "hitScore": 99,
+          "pages": 60
+        },
+        {
+          "issue": "Economic Reform / Assistance",
+          "documents": 12,
+          "hitScore": 90,
+          "pages": 48
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "documents": 5,
+          "hitScore": 80,
+          "pages": 29
+        },
+        {
+          "issue": "NATO / European Security",
+          "documents": 6,
+          "hitScore": 37,
+          "pages": 30
+        },
+        {
+          "issue": "Russian Politics / Elections",
+          "documents": 6,
+          "hitScore": 30,
+          "pages": 22
+        }
+      ],
+      "selectionAnchors": [
+        {
+          "sequence": 28,
+          "id": "contact-1994-09-27-memcon-23",
+          "date": "1994-09-27",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House",
+          "actualConversationPages": 10,
+          "packetPages": "134-144",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "sourcePdfPages": "251-260",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 482, Folder Title/Record ID 9408513, Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 146,
+          "dominantIssues": [
+            "Ukraine / Nuclear Security (43)",
+            "Arms Control / Nonproliferation (42)",
+            "Iraq / Middle East (3)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (31)",
+            "Christopher (7)",
+            "Kozyrev (6)",
+            "Gore (1)",
+            "Milosevic (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 1,
+          "supportLeads": 1,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 16,
+          "id": "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+          "date": "1994-01-13",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "President's dinner with President Yeltsin, January 13/14, 1994",
+          "actualConversationPages": 11,
+          "packetPages": "80-90",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf",
+          "sourcePacketUrl": "https://clinton.presidentiallibraries.us/files/original/c016beef71be071cd9c96fcf0972fd57.pdf",
+          "sourcePdfPages": "1-11",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101370, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation. Item description: \"This Memcon was received as a NSC Cable.\"",
+          "selectionScore": 127,
+          "dominantIssues": [
+            "Iraq / Middle East (20)",
+            "NATO / European Security (9)",
+            "Ukraine / Nuclear Security (9)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (62)",
+            "NATO (6)",
+            "Kozyrev (4)",
+            "Chernomyrdin (2)",
+            "Gore (2)",
+            "Christopher (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 0,
+          "supportLeads": 2,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; public framing available; support/context leads"
+        },
+        {
+          "sequence": 18,
+          "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+          "date": "1994-01-14",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+          "actualConversationPages": 8,
+          "packetPages": "94-101",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf",
+          "sourcePacketUrl": "https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view",
+          "sourcePdfPages": "State FOIA document C06694502, conversation pages 1-8",
+          "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06694502.",
+          "selectionScore": 112,
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (30)",
+            "Iraq / Middle East (17)",
+            "Ukraine / Nuclear Security (16)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (20)",
+            "Chernomyrdin (2)",
+            "Christopher (1)",
+            "Gore (1)",
+            "Kozyrev (1)",
+            "Talbott (1)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 6,
+          "sourceCopyControls": 2,
+          "supportLeads": 2,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; PDD timing check; public framing available; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 27,
+          "id": "drive-candidate-1994-09-27-memcon-one-on-one",
+          "date": "1994-09-27",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Clinton-Yeltsin one-on-one memcon, September 27, 1994",
+          "actualConversationPages": 7,
+          "packetPages": "126-133",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "sourcePdfPages": "213-219",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 481, Folder Title/Record ID 9408090, Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 86,
+          "dominantIssues": [
+            "Kosovo / Balkans (16)",
+            "Economic Reform / Assistance (5)",
+            "Iraq / Middle East (5)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (29)",
+            "Milosevic (13)",
+            "UN (2)",
+            "G-7 (1)",
+            "Kohl (1)",
+            "Kozyrev (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 1,
+          "supportLeads": 1,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 15,
+          "id": "clinton-standalone-1994-01-13-memcon-one-on-one",
+          "date": "1994-01-13",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "One-on-One Meeting with President Boris Yeltsin of Russia",
+          "actualConversationPages": 6,
+          "packetPages": "74-79",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf",
+          "sourcePacketUrl": "https://clinton.presidentiallibraries.us/files/original/19662f645b0b622a95717322e238c1ec.pdf",
+          "sourcePdfPages": "1-6",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Digital Library item 101363, \"Memorandum of Conversation - President Boris Yeltsin of Russia,\" January 13, 1994, part of 2016-0117-M, Memcons - Memoranda of Conversation.",
+          "selectionScore": 82,
+          "dominantIssues": [
+            "Economic Reform / Assistance (28)",
+            "Russian Politics / Elections (11)",
+            "Iraq / Middle East (5)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (18)",
+            "G-7 (3)",
+            "NATO (2)",
+            "IMF (1)",
+            "Kozyrev (1)",
+            "Kravchuk (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 0,
+          "supportLeads": 2,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; support/context leads"
+        },
+        {
+          "sequence": 14,
+          "id": "contact-1993-12-22-telcon-13",
+          "date": "1993-12-22",
+          "type": "Telcon",
+          "status": "counted",
+          "title": "Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House",
+          "actualConversationPages": 4,
+          "packetPages": "69-73",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "sourcePdfPages": "142-145",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 178, Folder Title/Record ID 9309998, Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 77,
+          "dominantIssues": [
+            "Economic Reform / Assistance (19)",
+            "Ukraine / Nuclear Security (14)",
+            "Russian Politics / Elections (7)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (14)",
+            "NATO (5)",
+            "Kravchuk (4)",
+            "Gore (3)",
+            "G-7 (2)",
+            "IMF (1)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; PDD timing check; public framing available; source-copy control"
+        }
+      ],
+      "hardGaps": [
+        {
+          "sequence": 23,
+          "date": "1994-06-03",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 3, 1994, Rome, Italy",
+          "sourcePdfPages": "Marker/withdrawal packet pages 187-190 only; no released telcon pages",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "estimatedPages": 4,
+          "hardGapClass": "Marker/withdrawal only"
+        },
+        {
+          "sequence": 26,
+          "date": "1994-07-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1994, Naples Italy",
+          "sourcePdfPages": "No released July 10, 1994 Naples memcon pages located in 2015-0782-M-1",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "estimatedPages": 8,
+          "hardGapClass": "No released conversation pages located"
+        }
+      ],
+      "documents": [
+        {
+          "sequence": 11,
+          "id": "contact-1993-09-07-telcon-10",
+          "date": "1993-09-07",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, September 7, 1993, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 59,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Ukraine / Nuclear Security (12)",
+            "Economic Reform / Assistance (7)",
+            "Arms Control / Nonproliferation (2)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-09-07-telcon-10.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 12,
+          "id": "contact-1993-09-21-telcon-11",
+          "date": "1993-09-21",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, September 21, 1993, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 35,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (7)",
+            "Russian Politics / Elections (4)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-09-21-telcon-11.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 13,
+          "id": "contact-1993-10-05-telcon-12",
+          "date": "1993-10-05",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, October 5, 1993, Air Force One",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 26,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Russian Politics / Elections (4)",
+            "Economic Reform / Assistance (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-10-05-telcon-12.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 14,
+          "id": "contact-1993-12-22-telcon-13",
+          "date": "1993-12-22",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, December 22, 1993, White House",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 77,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (19)",
+            "Ukraine / Nuclear Security (14)",
+            "Russian Politics / Elections (7)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1993-12-22-telcon-13.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 15,
+          "id": "clinton-standalone-1994-01-13-memcon-one-on-one",
+          "date": "1994-01-13",
+          "type": "Memcon",
+          "title": "One-on-One Meeting with President Boris Yeltsin of Russia",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 82,
+          "actualConversationPages": 6,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (28)",
+            "Russian Politics / Elections (11)",
+            "Iraq / Middle East (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-memcon-one-on-one.pdf",
+          "sourcePacketUrl": "https://clinton.presidentiallibraries.us/files/original/19662f645b0b622a95717322e238c1ec.pdf"
+        },
+        {
+          "sequence": 16,
+          "id": "clinton-standalone-1994-01-13-yeltsin-dinner-cable",
+          "date": "1994-01-13",
+          "type": "Memcon",
+          "title": "President's dinner with President Yeltsin, January 13/14, 1994",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 127,
+          "actualConversationPages": 11,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (20)",
+            "NATO / European Security (9)",
+            "Ukraine / Nuclear Security (9)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-13-yeltsin-dinner-cable.pdf",
+          "sourcePacketUrl": "https://clinton.presidentiallibraries.us/files/original/c016beef71be071cd9c96fcf0972fd57.pdf"
+        },
+        {
+          "sequence": 17,
+          "id": "contact-1994-01-14-memcon-trilateral-yeltsin-kravchuk",
+          "date": "1994-01-14",
+          "type": "Memcon",
+          "title": "Trilateral Meeting with President Boris Yeltsin of Russia on Security Issues",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 66,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Ukraine / Nuclear Security (29)",
+            "Arms Control / Nonproliferation (3)",
+            "Economic Reform / Assistance (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-trilateral-yeltsin-kravchuk.pdf",
+          "sourcePacketUrl": "https://drive.google.com/file/d/1mA2m1fonXTwvzmbdVLzjWV7iGpBWAC1r/view"
+        },
+        {
+          "sequence": 18,
+          "id": "contact-1994-01-14-memcon-second-expanded-bilateral-session",
+          "date": "1994-01-14",
+          "type": "Memcon",
+          "title": "Second Expanded Bilateral Session with President Boris Yeltsin of Russia",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 112,
+          "actualConversationPages": 8,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (30)",
+            "Iraq / Middle East (17)",
+            "Ukraine / Nuclear Security (16)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-01-14-memcon-second-expanded-bilateral-session.pdf",
+          "sourcePacketUrl": "https://drive.google.com/file/d/1pr42yhINujL_px_Y5aXD_MmChhc5sy9v/view"
+        },
+        {
+          "sequence": 19,
+          "id": "clinton-standalone-1994-01-15-memcon-one-on-one",
+          "date": "1994-01-15",
+          "type": "Memcon",
+          "title": "One-on-One Meeting with President Boris Yeltsin of Russia",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 49,
+          "actualConversationPages": 2,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (7)",
+            "Russian Politics / Elections (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-01-15-memcon-one-on-one.pdf",
+          "sourcePacketUrl": "https://clinton.presidentiallibraries.us/files/original/67bc3e4fc7cc0ed1ba4f438e510624d8.pdf"
+        },
+        {
+          "sequence": 20,
+          "id": "contact-1994-02-20-telcon-16",
+          "date": "1994-02-20",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 20, 1994, White House White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 37,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (6)",
+            "NATO / European Security (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-02-20-telcon-16.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 21,
+          "id": "contact-1994-04-10-telcon-17",
+          "date": "1994-04-10",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 10, 1994, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 48,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (5)",
+            "Kosovo / Balkans (2)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-10-telcon-17.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 22,
+          "id": "contact-1994-04-20-telcon-18",
+          "date": "1994-04-20",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 20, 1994, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 56,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (6)",
+            "NATO / European Security (6)",
+            "Economic Reform / Assistance (4)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-04-20-telcon-18.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 23,
+          "id": "contact-1994-06-03-telcon-19",
+          "date": "1994-06-03",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 3, 1994, Rome, Italy",
+          "status": "pending",
+          "selectionTier": "Hard source gap",
+          "selectionScore": "",
+          "actualConversationPages": "",
+          "annotationTreatment": "Hard source follow-up",
+          "dominantIssues": [],
+          "pdfUrl": "",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 24,
+          "id": "contact-1994-06-13-telcon-20",
+          "date": "1994-06-13",
+          "type": "Telcon",
+          "title": "Telephone Call with President Boris Yeltsin of Russia, June 13, 1994, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 59,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (17)",
+            "Arms Control / Nonproliferation (3)",
+            "Economic Reform / Assistance (2)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-06-13-telcon-20.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 25,
+          "id": "contact-1994-07-05-telcon-21",
+          "date": "1994-07-05",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, July 5, 1994, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 23,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Light annotation check",
+          "dominantIssues": [
+            "NATO / European Security (4)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-07-05-telcon-21.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 26,
+          "id": "contact-1994-07-10-memcon-22",
+          "date": "1994-07-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, July 10, 1994, Naples Italy",
+          "status": "pending",
+          "selectionTier": "Hard source gap",
+          "selectionScore": "",
+          "actualConversationPages": "",
+          "annotationTreatment": "Hard source follow-up",
+          "dominantIssues": [],
+          "pdfUrl": "",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 27,
+          "id": "drive-candidate-1994-09-27-memcon-one-on-one",
+          "date": "1994-09-27",
+          "type": "Memcon",
+          "title": "Clinton-Yeltsin one-on-one memcon, September 27, 1994",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 86,
+          "actualConversationPages": 7,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (16)",
+            "Economic Reform / Assistance (5)",
+            "Iraq / Middle East (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-white-house-one-on-one.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 28,
+          "id": "contact-1994-09-27-memcon-23",
+          "date": "1994-09-27",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, September 27, 1994, White House",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 146,
+          "actualConversationPages": 10,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Ukraine / Nuclear Security (43)",
+            "Arms Control / Nonproliferation (42)",
+            "Iraq / Middle East (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-09-27-clinton-yeltsin-expanded-security-session.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 29,
+          "id": "clinton-standalone-1994-09-28-second-one-on-one",
+          "date": "1994-09-28",
+          "type": "Memcon",
+          "title": "Second Clinton/Yeltsin One-on-One",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 50,
+          "actualConversationPages": 6,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (12)",
+            "Ukraine / Nuclear Security (6)",
+            "Iraq / Middle East (4)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/clinton-standalone-1994-09-28-second-one-on-one.pdf",
+          "sourcePacketUrl": "https://clinton.presidentiallibraries.us/files/original/2509827ca57f98e07eec584b3d69250f.pdf"
+        },
+        {
+          "sequence": 30,
+          "id": "contact-1994-10-05-telcon-24",
+          "date": "1994-10-05",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin, October 5, 1994, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 48,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (6)",
+            "Economic Reform / Assistance (4)",
+            "Russian Politics / Elections (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-05-telcon-24.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 31,
+          "id": "contact-1994-10-10-telcon-25",
+          "date": "1994-10-10",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, October 10, 1994, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 63,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (22)",
+            "Economic Reform / Assistance (5)",
+            "Ukraine / Nuclear Security (2)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1994-10-10-clinton-yeltsin-iraq-telcon.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "1995-summits-reform-and-nato-pressure",
+      "label": "1995 summits, reform assistance, and NATO pressure",
+      "dateStart": "1995-01-01",
+      "dateEnd": "1995-12-31",
+      "narrativeUse": "Tracks the Moscow, Halifax, Hyde Park, and New York sequence as economic reform, Chechnya, Bosnia, arms control, and NATO enlargement converge.",
+      "totalContacts": 8,
+      "countedDocuments": 8,
+      "pendingDocuments": 0,
+      "actualConversationPages": 57,
+      "estimatedHardGapPages": 0,
+      "tierCounts": {
+        "Tier 3 - supporting candidate": 4,
+        "Tier 1 - likely core": 1,
+        "Tier 2 - strong candidate": 3
+      },
+      "topIssues": [
+        {
+          "issue": "NATO / European Security",
+          "documents": 7,
+          "hitScore": 137,
+          "pages": 53
+        },
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "documents": 5,
+          "hitScore": 38,
+          "pages": 44
+        },
+        {
+          "issue": "Chechnya / Caucasus",
+          "documents": 4,
+          "hitScore": 31,
+          "pages": 21
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "documents": 1,
+          "hitScore": 17,
+          "pages": 16
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "documents": 3,
+          "hitScore": 13,
+          "pages": 19
+        },
+        {
+          "issue": "Kosovo / Balkans",
+          "documents": 1,
+          "hitScore": 13,
+          "pages": 5
+        }
+      ],
+      "selectionAnchors": [
+        {
+          "sequence": 34,
+          "id": "contact-1995-05-10-memcon-28",
+          "date": "1995-05-10",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia",
+          "actualConversationPages": 16,
+          "packetPages": "171-187",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "sourcePdfPages": "285-300",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9503774, Original OA/ID 582, Mandatory Declassification Review 2014-0904-M-Release-A, Declassified documents concerning Russia.",
+          "selectionScore": 195,
+          "dominantIssues": [
+            "NATO / European Security (67)",
+            "Iraq / Middle East (17)",
+            "Ukraine / Nuclear Security (16)"
+          ],
+          "authorityChecks": [
+            "NATO (41)",
+            "Gore (12)",
+            "Yeltsin (11)",
+            "Chernomyrdin (8)",
+            "Kozyrev (3)",
+            "G-7 (2)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 7,
+          "sourceCopyControls": 0,
+          "supportLeads": 1,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; PDD timing check; public framing available; support/context leads"
+        },
+        {
+          "sequence": 38,
+          "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
+          "date": "1995-10-23",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Clinton-Yeltsin One-on-One",
+          "actualConversationPages": 12,
+          "packetPages": "206-218",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf",
+          "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf",
+          "sourcePdfPages": "5-16",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin], OA/Box Number 43319, Folder Title/Record ID 9507853, National Archives Catalog item 2014-0948-M, Memcon between President William Jefferson Clinton and President Boris Yeltsin, NAID 163545436.",
+          "selectionScore": 97,
+          "dominantIssues": [
+            "NATO / European Security (21)",
+            "Ukraine / Nuclear Security (7)",
+            "Arms Control / Nonproliferation (5)"
+          ],
+          "authorityChecks": [
+            "NATO (18)",
+            "Yeltsin (15)",
+            "Gore (5)",
+            "Chernomyrdin (4)",
+            "Tudjman (4)",
+            "Milosevic (2)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 2,
+          "sourceCopyControls": 1,
+          "supportLeads": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 35,
+          "id": "contact-1995-06-17-memcon-29",
+          "date": "1995-06-17",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada",
+          "actualConversationPages": 8,
+          "packetPages": "188-195",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf",
+          "sourcePacketUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html",
+          "sourcePdfPages": "Strobe FOIA document C06835181, conversation pages 1-8",
+          "frusSourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, case F-2017-13804, document C06835181.",
+          "selectionScore": 76,
+          "dominantIssues": [
+            "NATO / European Security (18)",
+            "Ukraine / Nuclear Security (9)",
+            "Chechnya / Caucasus (8)"
+          ],
+          "authorityChecks": [
+            "NATO (13)",
+            "Yeltsin (6)",
+            "Chernomyrdin (4)",
+            "Gore (4)",
+            "UN (3)",
+            "Christopher (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 3,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 36,
+          "id": "contact-1995-07-28-telcon-30",
+          "date": "1995-07-28",
+          "type": "Telcon",
+          "status": "counted",
+          "title": "Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House",
+          "actualConversationPages": 5,
+          "packetPages": "196-201",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "sourcePdfPages": "309-313",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 597, Folder Title/Record ID 9505860, Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 76,
+          "dominantIssues": [
+            "Kosovo / Balkans (13)",
+            "NATO / European Security (6)",
+            "Chechnya / Caucasus (5)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (17)",
+            "Kozyrev (7)",
+            "Milosevic (7)",
+            "UN (7)",
+            "NATO (6)",
+            "Kohl (2)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; PDD timing check; source-copy control"
+        }
+      ],
+      "hardGaps": [],
+      "documents": [
+        {
+          "sequence": 32,
+          "id": "contact-1995-02-13-telcon-26",
+          "date": "1995-02-13",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 13, 1995, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 55,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Chechnya / Caucasus (15)",
+            "Economic Reform / Assistance (12)",
+            "Russian Politics / Elections (7)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-02-13-telcon-26.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 33,
+          "id": "contact-1995-04-27-telcon-27",
+          "date": "1995-04-27",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 27, 1995, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 64,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (16)",
+            "Arms Control / Nonproliferation (4)",
+            "Chechnya / Caucasus (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-04-27-telcon-27.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 34,
+          "id": "contact-1995-05-10-memcon-28",
+          "date": "1995-05-10",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 10, 1995, The Kremlin, Moscow, Russia",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 195,
+          "actualConversationPages": 16,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (67)",
+            "Iraq / Middle East (17)",
+            "Ukraine / Nuclear Security (16)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-05-10-memcon-28.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 35,
+          "id": "contact-1995-06-17-memcon-29",
+          "date": "1995-06-17",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 17, 1995, Halifax, Nova Scotia, Canada",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 76,
+          "actualConversationPages": 8,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (18)",
+            "Ukraine / Nuclear Security (9)",
+            "Chechnya / Caucasus (8)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-06-17-memcon-29.pdf",
+          "sourcePacketUrl": "https://therealjameswilson.github.io/strobe-talbott-foia/manifest.html"
+        },
+        {
+          "sequence": 36,
+          "id": "contact-1995-07-28-telcon-30",
+          "date": "1995-07-28",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, July 28, 1995, White House",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 76,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (13)",
+            "NATO / European Security (6)",
+            "Chechnya / Caucasus (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-07-28-telcon-30.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 37,
+          "id": "contact-1995-09-27-telcon-31",
+          "date": "1995-09-27",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, September 27, 1995, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 50,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (8)",
+            "Ukraine / Nuclear Security (5)",
+            "Arms Control / Nonproliferation (4)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-09-27-telcon-31.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 38,
+          "id": "contact-1995-10-23-memcon-hyde-park-one-on-one",
+          "date": "1995-10-23",
+          "type": "Memcon",
+          "title": "Clinton-Yeltsin One-on-One",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 97,
+          "actualConversationPages": 12,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (21)",
+            "Ukraine / Nuclear Security (7)",
+            "Arms Control / Nonproliferation (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-one-on-one.pdf",
+          "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf"
+        },
+        {
+          "sequence": 39,
+          "id": "contact-1995-10-23-memcon-hyde-park-lunch",
+          "date": "1995-10-23",
+          "type": "Memcon",
+          "title": "Lunch with Boris Yeltsin, President of Russian Federation",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 48,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (1)",
+            "Ukraine / Nuclear Security (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1995-10-23-clinton-yeltsin-hyde-park-lunch.pdf",
+          "sourcePacketUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/7-YeltsinHydePark.pdf"
+        }
+      ]
+    },
+    {
+      "id": "1996-election-and-enlargement-management",
+      "label": "1996 election and enlargement management",
+      "dateStart": "1996-01-01",
+      "dateEnd": "1996-12-31",
+      "narrativeUse": "Captures the Russian election year, Clinton support for Yeltsin, NATO timing, and post-election attempts to stabilize the relationship.",
+      "totalContacts": 11,
+      "countedDocuments": 11,
+      "pendingDocuments": 0,
+      "actualConversationPages": 52,
+      "estimatedHardGapPages": 0,
+      "tierCounts": {
+        "Tier 2 - strong candidate": 3,
+        "Tier 3 - supporting candidate": 4,
+        "Tier 4 - concise/confirmatory": 4
+      },
+      "topIssues": [
+        {
+          "issue": "Russian Politics / Elections",
+          "documents": 10,
+          "hitScore": 74,
+          "pages": 39
+        },
+        {
+          "issue": "Economic Reform / Assistance",
+          "documents": 6,
+          "hitScore": 34,
+          "pages": 25
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "documents": 5,
+          "hitScore": 30,
+          "pages": 32
+        },
+        {
+          "issue": "Chechnya / Caucasus",
+          "documents": 3,
+          "hitScore": 18,
+          "pages": 22
+        },
+        {
+          "issue": "NATO / European Security",
+          "documents": 3,
+          "hitScore": 14,
+          "pages": 9
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "documents": 1,
+          "hitScore": 13,
+          "pages": 13
+        }
+      ],
+      "selectionAnchors": [
+        {
+          "sequence": 45,
+          "id": "contact-1996-04-21-memcon-moscow-luncheon",
+          "date": "1996-04-21",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Luncheon Meeting with Russian President Boris Yeltsin",
+          "actualConversationPages": 7,
+          "packetPages": "261-268",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "7-13",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1100, Folder Title/Record ID 9602963, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 79,
+          "dominantIssues": [
+            "Economic Reform / Assistance (17)",
+            "Russian Politics / Elections (11)",
+            "Arms Control / Nonproliferation (3)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (18)",
+            "G-7 (11)",
+            "Zyuganov (3)",
+            "Berger (1)",
+            "Ivanov (1)",
+            "Talbott (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 4,
+          "sourceCopyControls": 1,
+          "supportLeads": 1,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 41,
+          "id": "contact-1996-02-21-telcon-34",
+          "date": "1996-02-21",
+          "type": "Telcon",
+          "status": "counted",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House",
+          "actualConversationPages": 4,
+          "packetPages": "231-235",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-02-21-telcon-34.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "sourcePdfPages": "354-357",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9601097, Original OA/ID 1086, Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 72,
+          "dominantIssues": [
+            "NATO / European Security (12)",
+            "Russian Politics / Elections (10)",
+            "Arms Control / Nonproliferation (9)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (18)",
+            "NATO (9)",
+            "Chernomyrdin (3)",
+            "Christopher (2)",
+            "Primakov (2)",
+            "Gore (1)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; PDD timing check; source-copy control"
+        },
+        {
+          "sequence": 40,
+          "id": "contact-1996-01-26-telcon-33",
+          "date": "1996-01-26",
+          "type": "Telcon",
+          "status": "counted",
+          "title": "Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House",
+          "actualConversationPages": 5,
+          "packetPages": "225-230",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf",
+          "sourcePdfPages": "342-346",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1082, Folder Title/Record ID 9600480, Mandatory Declassification Review 2015-0782-M-1, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 71,
+          "dominantIssues": [
+            "Russian Politics / Elections (15)",
+            "Economic Reform / Assistance (7)",
+            "Chechnya / Caucasus (6)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (20)",
+            "NATO (6)",
+            "Chernomyrdin (4)",
+            "Gore (2)",
+            "IMF (2)",
+            "Christopher (1)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; PDD timing check; public framing available; source-copy control"
+        }
+      ],
+      "hardGaps": [],
+      "documents": [
+        {
+          "sequence": 40,
+          "id": "contact-1996-01-26-telcon-33",
+          "date": "1996-01-26",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, January 26, 1996, White House",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 71,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Russian Politics / Elections (15)",
+            "Economic Reform / Assistance (7)",
+            "Chechnya / Caucasus (6)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-01-26-telcon-33.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 41,
+          "id": "contact-1996-02-21-telcon-34",
+          "date": "1996-02-21",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 21, 1996, White House",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 72,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (12)",
+            "Russian Politics / Elections (10)",
+            "Arms Control / Nonproliferation (9)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-02-21-telcon-34.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 42,
+          "id": "contact-1996-03-13-memcon-35",
+          "date": "1996-03-13",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, March 13, 1996, Sharm El-Sheikh, Egypt",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 56,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Russian Politics / Elections (9)",
+            "Economic Reform / Assistance (2)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-03-13-clinton-yeltsin-sharm-el-sheikh-memcon-cable.pdf",
+          "sourcePacketUrl": "https://drive.google.com/file/d/1kqpS-sURsWvTfRqKhA-09YXKX5fVVh7c/view"
+        },
+        {
+          "sequence": 43,
+          "id": "contact-1996-04-09-telcon-36",
+          "date": "1996-04-09",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 9, 1996, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 56,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Ukraine / Nuclear Security (8)",
+            "Russian Politics / Elections (6)",
+            "Arms Control / Nonproliferation (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-09-telcon-36.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 44,
+          "id": "contact-1996-04-21-memcon-moscow-one-on-one",
+          "date": "1996-04-21",
+          "type": "Memcon",
+          "title": "POTUS-Yeltsin One-on-One",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 65,
+          "actualConversationPages": 13,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (13)",
+            "Arms Control / Nonproliferation (11)",
+            "Chechnya / Caucasus (7)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-one-on-one.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-05/2015-0782-M-1.pdf"
+        },
+        {
+          "sequence": 45,
+          "id": "contact-1996-04-21-memcon-moscow-luncheon",
+          "date": "1996-04-21",
+          "type": "Memcon",
+          "title": "Luncheon Meeting with Russian President Boris Yeltsin",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 79,
+          "actualConversationPages": 7,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (17)",
+            "Russian Politics / Elections (11)",
+            "Arms Control / Nonproliferation (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-04-21-memcon-moscow-luncheon.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 46,
+          "id": "contact-1996-05-07-telcon-38",
+          "date": "1996-05-07",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, May 7, 1996, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 50,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Russian Politics / Elections (10)",
+            "Chechnya / Caucasus (5)",
+            "Economic Reform / Assistance (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-05-07-telcon-38.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 47,
+          "id": "contact-1996-06-18-telcon-39",
+          "date": "1996-06-18",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 18, 1996, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 37,
+          "actualConversationPages": 2,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Russian Politics / Elections (4)",
+            "Economic Reform / Assistance (2)",
+            "NATO / European Security (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-06-18-telcon-39.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 48,
+          "id": "contact-1996-07-05-telcon-40",
+          "date": "1996-07-05",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, July 5, 1996, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 37,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Russian Politics / Elections (5)",
+            "Arms Control / Nonproliferation (2)",
+            "NATO / European Security (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-07-05-telcon-40.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 49,
+          "id": "contact-1996-09-15-telcon-41",
+          "date": "1996-09-15",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, September 15, 1996, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 16,
+          "actualConversationPages": 2,
+          "annotationTreatment": "Light annotation check",
+          "dominantIssues": [
+            "Russian Politics / Elections (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-09-15-telcon-41.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 50,
+          "id": "contact-1996-12-05-telcon-42",
+          "date": "1996-12-05",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, December 5, 1996, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 31,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Russian Politics / Elections (3)",
+            "Economic Reform / Assistance (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1996-12-05-telcon-42.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "1997-helsinki-founding-act-and-denver",
+      "label": "1997 Helsinki, Founding Act, and Denver",
+      "dateStart": "1997-01-01",
+      "dateEnd": "1997-12-31",
+      "narrativeUse": "Centers on Helsinki, NATO-Russia Founding Act diplomacy, Denver, arms-control bargaining, and institutionalizing the post-Cold War settlement.",
+      "totalContacts": 10,
+      "countedDocuments": 10,
+      "pendingDocuments": 0,
+      "actualConversationPages": 63,
+      "estimatedHardGapPages": 0,
+      "tierCounts": {
+        "Tier 3 - supporting candidate": 3,
+        "Tier 1 - likely core": 3,
+        "Tier 2 - strong candidate": 3,
+        "Tier 4 - concise/confirmatory": 1
+      },
+      "topIssues": [
+        {
+          "issue": "NATO / European Security",
+          "documents": 7,
+          "hitScore": 135,
+          "pages": 48
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "documents": 8,
+          "hitScore": 109,
+          "pages": 49
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "documents": 6,
+          "hitScore": 57,
+          "pages": 37
+        },
+        {
+          "issue": "Ukraine / Nuclear Security",
+          "documents": 3,
+          "hitScore": 25,
+          "pages": 20
+        },
+        {
+          "issue": "Russian Politics / Elections",
+          "documents": 3,
+          "hitScore": 17,
+          "pages": 20
+        },
+        {
+          "issue": "Economic Reform / Assistance",
+          "documents": 3,
+          "hitScore": 17,
+          "pages": 15
+        }
+      ],
+      "selectionAnchors": [
+        {
+          "sequence": 52,
+          "id": "contact-1997-03-21-memcon-helsinki-morning",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Helsinki Morning Meeting with President Boris Yeltsin",
+          "actualConversationPages": 11,
+          "packetPages": "292-303",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "105-115",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1609, Folder Title/Record ID 9702044, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 190,
+          "dominantIssues": [
+            "NATO / European Security (46)",
+            "Arms Control / Nonproliferation (43)",
+            "Ukraine / Nuclear Security (12)"
+          ],
+          "authorityChecks": [
+            "NATO (38)",
+            "Yeltsin (17)",
+            "Primakov (7)",
+            "Albright (3)",
+            "Berger (1)",
+            "Talbott (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 56,
+          "id": "contact-1997-05-27-memcon-45",
+          "date": "1997-05-27",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+          "actualConversationPages": 8,
+          "packetPages": "325-333",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "143-150",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1623, Folder Title/Record ID 9703720, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 117,
+          "dominantIssues": [
+            "NATO / European Security (29)",
+            "Arms Control / Nonproliferation (10)",
+            "Iraq / Middle East (7)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (31)",
+            "Primakov (11)",
+            "NATO (10)",
+            "Albright (6)",
+            "Berger (4)",
+            "Talbott (4)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control"
+        },
+        {
+          "sequence": 57,
+          "id": "contact-1997-06-20-memcon-46",
+          "date": "1997-06-20",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+          "actualConversationPages": 8,
+          "packetPages": "334-342",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "165-172",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1629, Folder Title/Record ID 9704607, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 105,
+          "dominantIssues": [
+            "NATO / European Security (14)",
+            "Iraq / Middle East (13)",
+            "Arms Control / Nonproliferation (11)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (31)",
+            "Primakov (7)",
+            "Albright (5)",
+            "NATO (4)",
+            "UN (4)",
+            "Berger (3)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 5,
+          "sourceCopyControls": 1,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control"
+        },
+        {
+          "sequence": 55,
+          "id": "contact-1997-03-21-memcon-helsinki-private-dinner",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Helsinki Private Dinner with President Boris Yeltsin",
+          "actualConversationPages": 6,
+          "packetPages": "318-324",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "128-133",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1609, Folder Title/Record ID 9702044, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 95,
+          "dominantIssues": [
+            "Iraq / Middle East (15)",
+            "Ukraine / Nuclear Security (12)",
+            "NATO / European Security (6)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (31)",
+            "Talbott (4)",
+            "Chernomyrdin (3)",
+            "NATO (2)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 54,
+          "id": "contact-1997-03-21-memcon-helsinki-afternoon",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Helsinki Afternoon Meeting with President Boris Yeltsin",
+          "actualConversationPages": 4,
+          "packetPages": "313-317",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-afternoon.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "124-127",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1609, Folder Title/Record ID 9702044, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 85,
+          "dominantIssues": [
+            "NATO / European Security (14)",
+            "Economic Reform / Assistance (5)",
+            "Arms Control / Nonproliferation (4)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (19)",
+            "NATO (9)",
+            "Berger (6)",
+            "G-7 (2)",
+            "Primakov (2)",
+            "Talbott (2)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 53,
+          "id": "contact-1997-03-21-memcon-helsinki-working-lunch",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Helsinki Working Lunch with President Boris Yeltsin",
+          "actualConversationPages": 8,
+          "packetPages": "304-312",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "116-123",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 1609, Folder Title/Record ID 9702044, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 82,
+          "dominantIssues": [
+            "NATO / European Security (10)",
+            "Economic Reform / Assistance (9)",
+            "Russian Politics / Elections (7)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (23)",
+            "Chernomyrdin (3)",
+            "Gore (3)",
+            "IMF (2)",
+            "Talbott (2)",
+            "Albright (1)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 8,
+          "sourceCopyControls": 1,
+          "supportLeads": 2,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        }
+      ],
+      "hardGaps": [],
+      "documents": [
+        {
+          "sequence": 51,
+          "id": "contact-1997-02-27-telcon-43",
+          "date": "1997-02-27",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 54,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (16)",
+            "Arms Control / Nonproliferation (11)",
+            "Economic Reform / Assistance (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-02-27-telcon-43.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 52,
+          "id": "contact-1997-03-21-memcon-helsinki-morning",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Morning Meeting with President Boris Yeltsin",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 190,
+          "actualConversationPages": 11,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (46)",
+            "Arms Control / Nonproliferation (43)",
+            "Ukraine / Nuclear Security (12)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-morning.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 53,
+          "id": "contact-1997-03-21-memcon-helsinki-working-lunch",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Working Lunch with President Boris Yeltsin",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 82,
+          "actualConversationPages": 8,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (10)",
+            "Economic Reform / Assistance (9)",
+            "Russian Politics / Elections (7)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-working-lunch.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 54,
+          "id": "contact-1997-03-21-memcon-helsinki-afternoon",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Afternoon Meeting with President Boris Yeltsin",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 85,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (14)",
+            "Economic Reform / Assistance (5)",
+            "Arms Control / Nonproliferation (4)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-afternoon.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 55,
+          "id": "contact-1997-03-21-memcon-helsinki-private-dinner",
+          "date": "1997-03-21",
+          "type": "Memcon",
+          "title": "Helsinki Private Dinner with President Boris Yeltsin",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 95,
+          "actualConversationPages": 6,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (15)",
+            "Ukraine / Nuclear Security (12)",
+            "NATO / European Security (6)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-03-21-memcon-helsinki-private-dinner.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 56,
+          "id": "contact-1997-05-27-memcon-45",
+          "date": "1997-05-27",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 117,
+          "actualConversationPages": 8,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (29)",
+            "Arms Control / Nonproliferation (10)",
+            "Iraq / Middle East (7)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-05-27-memcon-45.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 57,
+          "id": "contact-1997-06-20-memcon-46",
+          "date": "1997-06-20",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 105,
+          "actualConversationPages": 8,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "NATO / European Security (14)",
+            "Iraq / Middle East (13)",
+            "Arms Control / Nonproliferation (11)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-06-20-memcon-46.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 58,
+          "id": "contact-1997-10-30-telcon-47",
+          "date": "1997-10-30",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 69,
+          "actualConversationPages": 6,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (21)",
+            "Russian Politics / Elections (5)",
+            "Iraq / Middle East (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-10-30-telcon-47.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 59,
+          "id": "contact-1997-11-16-telcon-48",
+          "date": "1997-11-16",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, November 16, 1997, Malibu, California",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 35,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (9)",
+            "Arms Control / Nonproliferation (2)",
+            "Ukraine / Nuclear Security (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-11-16-telcon-48.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 60,
+          "id": "contact-1997-11-22-telcon-49",
+          "date": "1997-11-22",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, November 22, 1997, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 46,
+          "actualConversationPages": 6,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (10)",
+            "Arms Control / Nonproliferation (7)",
+            "Russian Politics / Elections (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1997-11-22-telcon-49.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "1998-crisis-and-succession-uncertainty",
+      "label": "1998 financial crisis and succession uncertainty",
+      "dateStart": "1998-01-01",
+      "dateEnd": "1998-12-31",
+      "narrativeUse": "Follows economic crisis, weakened Yeltsin authority, Iraq, Kosovo buildup, and the late-1990s erosion of the bilateral bargain.",
+      "totalContacts": 16,
+      "countedDocuments": 15,
+      "pendingDocuments": 1,
+      "actualConversationPages": 66,
+      "estimatedHardGapPages": 8,
+      "tierCounts": {
+        "Tier 4 - concise/confirmatory": 6,
+        "Tier 3 - supporting candidate": 7,
+        "Tier 2 - strong candidate": 2,
+        "Hard source gap": 1
+      },
+      "topIssues": [
+        {
+          "issue": "Kosovo / Balkans",
+          "documents": 8,
+          "hitScore": 85,
+          "pages": 38
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "documents": 9,
+          "hitScore": 56,
+          "pages": 43
+        },
+        {
+          "issue": "Economic Reform / Assistance",
+          "documents": 5,
+          "hitScore": 56,
+          "pages": 23
+        },
+        {
+          "issue": "Iraq / Middle East",
+          "documents": 8,
+          "hitScore": 46,
+          "pages": 33
+        },
+        {
+          "issue": "Russian Politics / Elections",
+          "documents": 7,
+          "hitScore": 29,
+          "pages": 29
+        },
+        {
+          "issue": "NATO / European Security",
+          "documents": 3,
+          "hitScore": 13,
+          "pages": 16
+        }
+      ],
+      "selectionAnchors": [
+        {
+          "sequence": 68,
+          "id": "contact-1998-06-15-telcon-57",
+          "date": "1998-06-15",
+          "type": "Telcon",
+          "status": "counted",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House",
+          "actualConversationPages": 5,
+          "packetPages": "401-406",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "342-346",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 2045, Folder Title/Record ID 9804474, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 83,
+          "dominantIssues": [
+            "Kosovo / Balkans (25)",
+            "NATO / European Security (7)",
+            "Arms Control / Nonproliferation (4)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (13)",
+            "Milosevic (12)",
+            "NATO (7)",
+            "Primakov (3)",
+            "IMF (2)",
+            "UN (2)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 1,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; PDD timing check; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 65,
+          "id": "contact-1998-05-17-memcon-54",
+          "date": "1998-05-17",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England",
+          "actualConversationPages": 8,
+          "packetPages": "383-391",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-17-memcon-54.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "312-319",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9803752, Original OA/ID 2039, Mandatory Declassification Review 2014-0999-M, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 82,
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (10)",
+            "Kosovo / Balkans (9)",
+            "NATO / European Security (5)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (30)",
+            "Primakov (4)",
+            "Berger (3)",
+            "Chernomyrdin (3)",
+            "Milosevic (3)",
+            "UN (3)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 2,
+          "supportLeads": 3,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control; support/context leads"
+        }
+      ],
+      "hardGaps": [
+        {
+          "sequence": 73,
+          "date": "1998-09-01",
+          "type": "Memcon",
+          "title": "Meetings with President Boris Yeltsin of Russia, September 1-2, 1998, Moscow, Russia",
+          "sourcePdfPages": "No released September 1-2, 1998 Moscow memcon pages located in 2015-0782-M-2",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "estimatedPages": 8,
+          "hardGapClass": "No released conversation pages located"
+        }
+      ],
+      "documents": [
+        {
+          "sequence": 61,
+          "id": "contact-1998-02-02-telcon-50",
+          "date": "1998-02-02",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 44,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (15)",
+            "Arms Control / Nonproliferation (1)",
+            "Russian Politics / Elections (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-02-02-telcon-50.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 62,
+          "id": "contact-1998-02-23-telcon-51",
+          "date": "1998-02-23",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, February 23, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 42,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (7)",
+            "Arms Control / Nonproliferation (6)",
+            "Russian Politics / Elections (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-02-23-telcon-51.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 63,
+          "id": "contact-1998-04-06-telcon-52",
+          "date": "1998-04-06",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 49,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (8)",
+            "Kosovo / Balkans (8)",
+            "Iraq / Middle East (4)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-04-06-telcon-52.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 64,
+          "id": "contact-1998-05-12-telcon-53",
+          "date": "1998-05-12",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, May 12, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 54,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (13)",
+            "Ukraine / Nuclear Security (6)",
+            "Kosovo / Balkans (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-12-telcon-53.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 65,
+          "id": "contact-1998-05-17-memcon-54",
+          "date": "1998-05-17",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, May 17, 1998, Birmingham, England",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 82,
+          "actualConversationPages": 8,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (10)",
+            "Kosovo / Balkans (9)",
+            "NATO / European Security (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-17-memcon-54.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 66,
+          "id": "contact-1998-05-21-telcon-55",
+          "date": "1998-05-21",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, May 21, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 30,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (2)",
+            "Iraq / Middle East (1)",
+            "Russian Politics / Elections (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-21-telcon-55.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 67,
+          "id": "contact-1998-05-28-telcon-56",
+          "date": "1998-05-28",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, May 28, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 48,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (15)",
+            "Russian Politics / Elections (1)",
+            "Ukraine / Nuclear Security (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-05-28-telcon-56.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 68,
+          "id": "contact-1998-06-15-telcon-57",
+          "date": "1998-06-15",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 15, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 83,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (25)",
+            "NATO / European Security (7)",
+            "Arms Control / Nonproliferation (4)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-15-telcon-57.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 69,
+          "id": "contact-1998-06-16-telcon-59",
+          "date": "1998-06-16",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 16, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 22,
+          "actualConversationPages": 2,
+          "annotationTreatment": "Light annotation check",
+          "dominantIssues": [
+            "Kosovo / Balkans (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-06-16-telcon-59.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 70,
+          "id": "contact-1998-07-10-telcon-60",
+          "date": "1998-07-10",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, July 10, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 56,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Russian Politics / Elections (10)",
+            "Economic Reform / Assistance (7)",
+            "Iraq / Middle East (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-07-10-telcon-60.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 71,
+          "id": "contact-1998-08-14-telcon-61",
+          "date": "1998-08-14",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 68,
+          "actualConversationPages": 6,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (11)",
+            "Kosovo / Balkans (9)",
+            "Russian Politics / Elections (9)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-14-telcon-61.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 72,
+          "id": "contact-1998-08-25-telcon-62",
+          "date": "1998-08-25",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, August 25, 1998, Martha's Vineyard, Massachusetts",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 39,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Iraq / Middle East (7)",
+            "Kosovo / Balkans (4)",
+            "Arms Control / Nonproliferation (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-08-25-telcon-62.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 73,
+          "id": "contact-1998-09-01-memcon-63",
+          "date": "1998-09-01",
+          "type": "Memcon",
+          "title": "Meetings with President Boris Yeltsin of Russia, September 1-2, 1998, Moscow, Russia",
+          "status": "pending",
+          "selectionTier": "Hard source gap",
+          "selectionScore": "",
+          "actualConversationPages": "",
+          "annotationTreatment": "Hard source follow-up",
+          "dominantIssues": [],
+          "pdfUrl": "",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 74,
+          "id": "contact-1998-09-12-telcon-64",
+          "date": "1998-09-12",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, September 12, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 50,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (8)",
+            "Russian Politics / Elections (4)",
+            "Iraq / Middle East (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-09-12-telcon-64.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 75,
+          "id": "contact-1998-10-05-telcon-65",
+          "date": "1998-10-05",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 43,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (22)",
+            "NATO / European Security (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-10-05-clinton-yeltsin-telcon-actual-pages.pdf",
+          "sourcePacketUrl": "https://clinton.presidentiallibraries.us/files/original/dac856cd6bbd10b93c2eb815862bce44.pdf"
+        },
+        {
+          "sequence": 76,
+          "id": "contact-1998-12-30-telcon-66",
+          "date": "1998-12-30",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 62,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Economic Reform / Assistance (15)",
+            "Arms Control / Nonproliferation (9)",
+            "Iraq / Middle East (8)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1998-12-30-clinton-yeltsin-telcon-actual-pages.pdf",
+          "sourcePacketUrl": "https://clinton.presidentiallibraries.us/files/original/1ec29c3214c0ccb6c6ed30fd7e5b06af.pdf"
+        }
+      ]
+    },
+    {
+      "id": "1999-kosovo-arms-control-and-transfer",
+      "label": "1999 Kosovo, arms control, and transfer of power",
+      "dateStart": "1999-01-01",
+      "dateEnd": "1999-12-31",
+      "narrativeUse": "Documents the Kosovo war, NATO-Russia rupture and repair attempts, arms-control strain, economic issues, and Yeltsin's final calls as president.",
+      "totalContacts": 14,
+      "countedDocuments": 13,
+      "pendingDocuments": 1,
+      "actualConversationPages": 69,
+      "estimatedHardGapPages": 8,
+      "tierCounts": {
+        "Hard source gap": 1,
+        "Tier 3 - supporting candidate": 5,
+        "Tier 2 - strong candidate": 2,
+        "Tier 1 - likely core": 2,
+        "Tier 4 - concise/confirmatory": 4
+      },
+      "topIssues": [
+        {
+          "issue": "Kosovo / Balkans",
+          "documents": 10,
+          "hitScore": 162,
+          "pages": 54
+        },
+        {
+          "issue": "Arms Control / Nonproliferation",
+          "documents": 4,
+          "hitScore": 70,
+          "pages": 24
+        },
+        {
+          "issue": "NATO / European Security",
+          "documents": 4,
+          "hitScore": 25,
+          "pages": 25
+        },
+        {
+          "issue": "Economic Reform / Assistance",
+          "documents": 4,
+          "hitScore": 17,
+          "pages": 29
+        },
+        {
+          "issue": "Russian Politics / Elections",
+          "documents": 3,
+          "hitScore": 12,
+          "pages": 13
+        },
+        {
+          "issue": "Chechnya / Caucasus",
+          "documents": 2,
+          "hitScore": 11,
+          "pages": 12
+        }
+      ],
+      "selectionAnchors": [
+        {
+          "sequence": 80,
+          "id": "contact-1999-04-25-telcon-70",
+          "date": "1999-04-25",
+          "type": "Telcon",
+          "status": "counted",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.",
+          "actualConversationPages": 12,
+          "packetPages": "453-465",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "445-456",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9903106, Original OA/ID 2725, Mandatory Declassification Review 2014-0546-M, Declassified documents concerning Russian President Boris Yeltsin and Kosovo.",
+          "selectionScore": 215,
+          "dominantIssues": [
+            "Kosovo / Balkans (48)",
+            "NATO / European Security (12)",
+            "Economic Reform / Assistance (7)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (34)",
+            "Chernomyrdin (32)",
+            "Gore (29)",
+            "Milosevic (27)",
+            "NATO (12)",
+            "Talbott (6)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 1,
+          "supportLeads": 1,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; PDD timing check; source-copy control; support/context leads"
+        },
+        {
+          "sequence": 87,
+          "id": "contact-1999-06-20-memcon-77",
+          "date": "1999-06-20",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany",
+          "actualConversationPages": 9,
+          "packetPages": "494-503",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "497-505",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, NSC Records Management, [Yeltsin and Telcons], OA/Box Number 2736, Folder Title/Record ID 9904842, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 142,
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (38)",
+            "Kosovo / Balkans (13)",
+            "Economic Reform / Assistance (7)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (41)",
+            "Ivanov (10)",
+            "UN (6)",
+            "Gore (5)",
+            "Albright (3)",
+            "Talbott (3)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 5,
+          "sourceCopyControls": 1,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 1 - likely core",
+          "suggestedTreatment": "Read first; strong candidate for full document treatment unless displaced by final thematic balance.",
+          "rationale": "Heavy annotation review; PDD timing check; public framing available; source-copy control"
+        },
+        {
+          "sequence": 79,
+          "id": "contact-1999-04-19-telcon-69",
+          "date": "1999-04-19",
+          "type": "Telcon",
+          "status": "counted",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House",
+          "actualConversationPages": 6,
+          "packetPages": "446-452",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "438-443",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9902901, Original OA/ID 2724, Mandatory Declassification Review 2015-0782-M-2, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 90,
+          "dominantIssues": [
+            "Kosovo / Balkans (33)",
+            "NATO / European Security (11)",
+            "Economic Reform / Assistance (2)"
+          ],
+          "authorityChecks": [
+            "NATO (11)",
+            "Milosevic (10)",
+            "Yeltsin (10)",
+            "Chernomyrdin (6)",
+            "Ivanov (2)",
+            "Albright (1)"
+          ],
+          "pddReferences": 1,
+          "publicPapers": 0,
+          "sourceCopyControls": 0,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; PDD timing check"
+        },
+        {
+          "sequence": 89,
+          "id": "contact-1999-11-18-memcon-79",
+          "date": "1999-11-19",
+          "type": "Memcon",
+          "status": "counted",
+          "title": "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
+          "actualConversationPages": 7,
+          "packetPages": "510-517",
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "sourcePdfPages": "560-566",
+          "frusSourceNote": "Source: William J. Clinton Presidential Library, Clinton Presidential Records, Records of the National Security Council Records Management Office (Clinton Administration), NAID 7388808, Presidential Records Series (PRS) Files, NAID 7585721, Document ID 9908997, Original OA/ID 2764, Mandatory Declassification Review 2014-0974-M, Declassified documents concerning Russian President Boris Yeltsin.",
+          "selectionScore": 74,
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (12)",
+            "Chechnya / Caucasus (8)",
+            "Ukraine / Nuclear Security (7)"
+          ],
+          "authorityChecks": [
+            "Yeltsin (28)",
+            "Ivanov (8)",
+            "Albright (3)",
+            "Berger (2)"
+          ],
+          "pddReferences": 0,
+          "publicPapers": 1,
+          "sourceCopyControls": 1,
+          "supportLeads": 0,
+          "annotationTreatment": "Heavy annotation review",
+          "hardGapClass": "",
+          "decisionRemaining": "Compiler selection decision: include, excerpt/use in note, or retain as background after final thematic balancing.",
+          "selectionTier": "Tier 2 - strong candidate",
+          "suggestedTreatment": "Strong candidate; compare against adjacent documents in same issue cluster.",
+          "rationale": "Heavy annotation review; public framing available; source-copy control"
+        }
+      ],
+      "hardGaps": [
+        {
+          "sequence": 77,
+          "date": "1999-02-08",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, February 8, 1999, Amman, Jordan",
+          "sourcePdfPages": "No released February 8, 1999 Amman memcon pages located in 2015-0782-M-2",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+          "estimatedPages": 8,
+          "hardGapClass": "No released conversation pages located"
+        }
+      ],
+      "documents": [
+        {
+          "sequence": 77,
+          "id": "contact-1999-02-08-memcon-67",
+          "date": "1999-02-08",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, February 8, 1999, Amman, Jordan",
+          "status": "pending",
+          "selectionTier": "Hard source gap",
+          "selectionScore": "",
+          "actualConversationPages": "",
+          "annotationTreatment": "Hard source follow-up",
+          "dominantIssues": [],
+          "pdfUrl": "",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 78,
+          "id": "contact-1999-03-24-telcon-68",
+          "date": "1999-03-24",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, March 24, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 57,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (18)",
+            "Russian Politics / Elections (4)",
+            "Ukraine / Nuclear Security (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-03-24-telcon-68.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 79,
+          "id": "contact-1999-04-19-telcon-69",
+          "date": "1999-04-19",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 90,
+          "actualConversationPages": 6,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (33)",
+            "NATO / European Security (11)",
+            "Economic Reform / Assistance (2)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-19-telcon-69.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 80,
+          "id": "contact-1999-04-25-telcon-70",
+          "date": "1999-04-25",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, April 25, 1999, Washington, D.C.",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 215,
+          "actualConversationPages": 12,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (48)",
+            "NATO / European Security (12)",
+            "Economic Reform / Assistance (7)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-04-25-telcon-70.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 81,
+          "id": "contact-1999-05-02-telcon-71",
+          "date": "1999-05-02",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, May 2, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 45,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (5)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-05-02-telcon-71.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 82,
+          "id": "contact-1999-06-07-telcon-72",
+          "date": "1999-06-07",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 7, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 24,
+          "actualConversationPages": 2,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (2)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-07-telcon-72.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 83,
+          "id": "contact-1999-06-08-telcon-73",
+          "date": "1999-06-08",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 8, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 45,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (9)",
+            "NATO / European Security (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-08-telcon-73.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 84,
+          "id": "contact-1999-06-10-telcon-74",
+          "date": "1999-06-10",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 10, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 20,
+          "actualConversationPages": 2,
+          "annotationTreatment": "Light annotation check",
+          "dominantIssues": [
+            "Economic Reform / Assistance (1)",
+            "Kosovo / Balkans (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-10-telcon-74.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 85,
+          "id": "contact-1999-06-13-telcon-75",
+          "date": "1999-06-13",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 13, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 60,
+          "actualConversationPages": 7,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (24)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-13-telcon-75.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 86,
+          "id": "contact-1999-06-14-telcon-76",
+          "date": "1999-06-14",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, June 14, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 34,
+          "actualConversationPages": 4,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Kosovo / Balkans (9)",
+            "NATO / European Security (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-14-telcon-76.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 87,
+          "id": "contact-1999-06-20-memcon-77",
+          "date": "1999-06-20",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany",
+          "status": "counted",
+          "selectionTier": "Tier 1 - likely core",
+          "selectionScore": 142,
+          "actualConversationPages": 9,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (38)",
+            "Kosovo / Balkans (13)",
+            "Economic Reform / Assistance (7)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-06-20-memcon-77.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 88,
+          "id": "contact-1999-09-08-telcon-78",
+          "date": "1999-09-08",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, September 8, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 3 - supporting candidate",
+          "selectionScore": 45,
+          "actualConversationPages": 5,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (19)",
+            "Chechnya / Caucasus (3)",
+            "Russian Politics / Elections (3)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-09-08-telcon-78.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 89,
+          "id": "contact-1999-11-18-memcon-79",
+          "date": "1999-11-19",
+          "type": "Memcon",
+          "title": "Meeting with President Boris Yeltsin of Russia, November 19, 1999, Istanbul, Turkey",
+          "status": "counted",
+          "selectionTier": "Tier 2 - strong candidate",
+          "selectionScore": 74,
+          "actualConversationPages": 7,
+          "annotationTreatment": "Heavy annotation review",
+          "dominantIssues": [
+            "Arms Control / Nonproliferation (12)",
+            "Chechnya / Caucasus (8)",
+            "Ukraine / Nuclear Security (7)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-11-18-memcon-79.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        },
+        {
+          "sequence": 90,
+          "id": "contact-1999-12-31-telcon-80",
+          "date": "1999-12-31",
+          "type": "Telcon",
+          "title": "Telephone call with President Boris Yeltsin of Russia, December 31, 1999, White House",
+          "status": "counted",
+          "selectionTier": "Tier 4 - concise/confirmatory",
+          "selectionScore": 24,
+          "actualConversationPages": 3,
+          "annotationTreatment": "Standard annotation review",
+          "dominantIssues": [
+            "Russian Politics / Elections (5)",
+            "Arms Control / Nonproliferation (1)",
+            "Iraq / Middle East (1)"
+          ],
+          "pdfUrl": "https://therealjameswilson.github.io/Clinton-Russia-High-Level/public/documents/1999-12-31-telcon-80.pdf",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "2000-coda",
+      "label": "Post-presidential coda",
+      "dateStart": "2000-01-01",
+      "dateEnd": "2000-12-31",
+      "narrativeUse": "Keeps the located 2000 former-President Yeltsin lead visible as a follow-up source problem rather than a counted document.",
+      "totalContacts": 1,
+      "countedDocuments": 0,
+      "pendingDocuments": 1,
+      "actualConversationPages": 0,
+      "estimatedHardGapPages": 8,
+      "tierCounts": {
+        "Hard source gap": 1
+      },
+      "topIssues": [],
+      "selectionAnchors": [],
+      "hardGaps": [
+        {
+          "sequence": 91,
+          "date": "2000-06-05",
+          "type": "Memcon",
+          "title": "Meeting with former President Boris Yeltsin of Russia, June 5, 2000, Moscow, Russia",
+          "sourcePdfPages": "Leader chronology lead only; no released memcon PDF located",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/documents/clinton-foreign-meetings.pdf",
+          "estimatedPages": 8,
+          "hardGapClass": "Leader chronology lead only"
+        }
+      ],
+      "documents": [
+        {
+          "sequence": 91,
+          "id": "contact-2000-06-05-memcon-81",
+          "date": "2000-06-05",
+          "type": "Memcon",
+          "title": "Meeting with former President Boris Yeltsin of Russia, June 5, 2000, Moscow, Russia",
+          "status": "pending",
+          "selectionTier": "Hard source gap",
+          "selectionScore": "",
+          "actualConversationPages": "",
+          "annotationTreatment": "Hard source follow-up",
+          "dominantIssues": [],
+          "pdfUrl": "",
+          "sourcePacketUrl": "https://www.clintonlibrary.gov/sites/default/files/documents/clinton-foreign-meetings.pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -323,6 +323,7 @@ function buildHtml(report) {
       <h1>FRUS Thematic Selection Matrix</h1>
       <p class="lede">Generated ${htmlCell(report.generatedAt)}. This matrix compares the recurring issue clusters across the published selection tiers and page-budget scenarios, so the compiler can see where the first-pass document spine is strong, thin, or likely to need a Tier 2 representative.</p>
       <div class="actions">
+        <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="thematic-selection-matrix.csv">Download matrix CSV</a>
         <a href="thematic-selection-matrix.json">Open matrix JSON</a>
         <a href="page-budget-scenarios.html">Open page budgets</a>

@@ -304,6 +304,7 @@ function buildHtml(report) {
       <h1>FRUS Selection Priority Workbench</h1>
       <p class="lede">Generated ${htmlCell(report.generatedAt)} from the annotation workbench, dossier crosswalk, and hard-gap packet. Tiers are triage aids only: they are meant to focus first-pass reading and thematic balancing, not to make final FRUS selection decisions.</p>
       <div class="actions">
+        <a href="chronological-chapter-outline.html">Open chapter outline</a>
         <a href="selection-priority-workbench.csv">Download priority CSV</a>
         <a href="selection-priority-workbench.json">Open priority JSON</a>
         <a href="page-budget-scenarios.html">Open page budgets</a>
