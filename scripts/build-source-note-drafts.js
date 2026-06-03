@@ -71,6 +71,15 @@ function facePageAddenda(face) {
   return parts.join(" | ");
 }
 
+function cleanClassification(marking) {
+  const value = clean(marking).replace(/^[-.\s]+|[-.\s]+$/g, "");
+  if (/^secret$/i.test(value)) return "Secret.";
+  if (/^confidential$/i.test(value)) return "Confidential.";
+  if (/^top secret$/i.test(value)) return "Top Secret.";
+  if (/^unclassified$/i.test(value)) return "Unclassified.";
+  return "";
+}
+
 function reviewFlags(face) {
   const flags = [...(face.missingFields || [])];
   if (face.reviewStatus !== "Parsed" && !flags.length) flags.push("face-page parse review");
@@ -82,12 +91,28 @@ function reviewFlags(face) {
 
 function sourceNoteDraft(record, face, packet) {
   const base = record.frusSourceNote || record.sourceNote || "Source: [source note pending].";
-  const packetText = packet
-    ? ` Compiler packet pages ${packet.packetPageStart}-${packet.packetPageEnd}; actual conversation pages ${packet.actualConversationPacketPageStart}-${packet.actualConversationPacketPageEnd}.`
-    : "";
-  const sourcePages = record.sourcePdfPages ? ` Source PDF pages ${record.sourcePdfPages}.` : "";
-  const addenda = facePageAddenda(face);
-  return clean(`${base}${sourcePages}${packetText}${addenda ? ` Face-page metadata for verification: ${addenda}.` : ""}`);
+  const sentences = [base];
+  const classification = cleanClassification(face.classification?.marking);
+  sentences.push(classification || "[Classification marking to be verified against the source PDF].");
+  if (face.notetaker) sentences.push(`The face page identifies ${face.notetaker} as notetaker.`);
+  if (face.interpreter) sentences.push(`The face page identifies ${face.interpreter} as interpreter.`);
+  if (face.dateTimePlace) sentences.push(`The face page gives the date/time/place as: ${face.dateTimePlace}.`);
+  return clean(sentences.join(" "));
+}
+
+function workingProvenance(record, packet) {
+  const parts = [];
+  if (record.sourcePdfPages) parts.push(`Source PDF pages ${record.sourcePdfPages}.`);
+  if (record.markerPage) parts.push(`Source marker/provenance page ${record.markerPage}.`);
+  if (packet?.packetPageStart) {
+    const provenanceSheet = packet.provenanceSheetPacketPage
+      ? `; provenance sheet page ${packet.provenanceSheetPacketPage}`
+      : "";
+    parts.push(
+      `Compiler packet pages ${packet.packetPageStart}-${packet.packetPageEnd}; actual conversation pages ${packet.actualConversationPacketPageStart}-${packet.actualConversationPacketPageEnd}${provenanceSheet}.`
+    );
+  }
+  return parts.join(" ");
 }
 
 function buildRows(records, faceAudit, packetManifest) {
@@ -107,6 +132,7 @@ function buildRows(records, faceAudit, packetManifest) {
       reviewFlags: flags,
       baseFrusSourceNote: record.frusSourceNote || record.sourceNote || "",
       sourceNoteDraftForReview: sourceNoteDraft(record, face, packet),
+      workingProvenanceForAudit: workingProvenance(record, packet),
       facePageAddendaForReview: facePageAddenda(face),
       subject: face.subject || "",
       dateTimePlace: face.dateTimePlace || "",
@@ -138,6 +164,7 @@ function writeCsv(rows) {
     "reviewFlags",
     "title",
     "sourceNoteDraftForReview",
+    "workingProvenanceForAudit",
     "baseFrusSourceNote",
     "facePageAddendaForReview",
     "subject",
@@ -165,6 +192,7 @@ function writeCsv(rows) {
       row.reviewFlags.join("; "),
       row.title,
       row.sourceNoteDraftForReview,
+      row.workingProvenanceForAudit,
       row.baseFrusSourceNote,
       row.facePageAddendaForReview,
       row.subject,
@@ -201,8 +229,12 @@ function writeHtml(report) {
           <h2><a href="${htmlCell(row.pdfUrl)}">${htmlCell(row.title)}</a></h2>
         </header>
         <p><strong>Status:</strong> ${htmlCell(row.sourceNoteReviewStatus)}${row.reviewFlags.length ? ` / ${htmlCell(row.reviewFlags.join(", "))}` : ""}</p>
-        <h3>Draft Source Note For Review</h3>
+        <h3>FRUS-Style Source Note Draft For Review</h3>
         <pre>${htmlCell(row.sourceNoteDraftForReview)}</pre>
+        <h3>Working Provenance Not For Source Note</h3>
+        <pre>${htmlCell(row.workingProvenanceForAudit)}</pre>
+        <h3>Face-Page Metadata To Verify</h3>
+        <pre>${htmlCell(row.facePageAddendaForReview)}</pre>
         <dl>
           <div><dt>Subject</dt><dd>${htmlCell(row.subject)}</dd></div>
           <div><dt>Date / Time / Place</dt><dd>${htmlCell(row.dateTimePlace)}</dd></div>
@@ -247,19 +279,22 @@ function writeHtml(report) {
     <main>
       <p><a href="../">Back to compiler page</a></p>
       <h1>FRUS Source-Note Drafts</h1>
-      <p class="lede">Generated ${htmlCell(report.generatedAt)} from the FRUS-style source-note stems, packet page ranges, and face-page metadata audit. These are copy-ready drafting aids, not final source notes; verify all OCR-derived face-page markings against the PDFs.</p>
+      <p class="lede">Generated ${htmlCell(report.generatedAt)} from the FRUS-style source-note stems, packet page ranges, and face-page metadata audit. The draft note follows the published FRUS pattern: source repository and file path first, then classification and document-production notes. Page maps, packet ranges, marker pages, and raw OCR metadata stay in separate working-provenance fields.</p>
       <div class="actions">
         <a href="source-note-drafts.csv">Download source-note CSV</a>
         <a href="source-note-drafts.json">Open JSON</a>
         <a href="source-note-element-audit.html">Open source-note element audit</a>
         <a href="face-page-metadata.html">Open face-page audit</a>
         <a href="../public/documents/clinton-yeltsin-core-reading-packet.pdf">Open reading packet PDF</a>
+        <a href="https://history.state.gov/historicaldocuments/frus1989-92v31/ch1">Compare FRUS source notes</a>
       </div>
       <dl class="summary">
         <div><dt>Drafts</dt><dd>${htmlCell(report.summary.drafts)}</dd></div>
         <div><dt>Base Source Stems</dt><dd>${htmlCell(report.summary.baseSourceStems)}</dd></div>
         <div><dt>Needs Review</dt><dd>${htmlCell(report.summary.rowsNeedingSourceNoteReview)}</dd></div>
         <div><dt>Face Addenda</dt><dd>${htmlCell(report.summary.rowsWithFacePageAddenda)}</dd></div>
+        <div><dt>Separated Provenance</dt><dd>${htmlCell(report.summary.rowsWithSeparatedWorkingProvenance)}</dd></div>
+        <div><dt>Clean Class Text</dt><dd>${htmlCell(report.summary.rowsWithCleanClassificationInDraft)}</dd></div>
       </dl>
       ${cards}
     </main>
@@ -278,13 +313,15 @@ const report = {
   scope:
     "Source-note drafting packet for the 85 page-counted Clinton-Yeltsin memcons and telcons. Combines FRUS-style source-note stems with packet ranges and OCR-derived face-page metadata for verification.",
   warning:
-    "Face-page metadata is OCR-derived and must be checked against the PDF image before final FRUS source-note use.",
+    "Face-page metadata is OCR-derived and must be checked against the PDF image before final FRUS source-note use. Working page maps and provenance-sheet locations are deliberately excluded from the formal source-note draft.",
   summary: {
     drafts: rows.length,
     baseSourceStems: rows.filter((row) => /^Source: /.test(row.baseFrusSourceNote)).length,
     rowsNeedingSourceNoteReview: rows.filter((row) => row.reviewFlags.length).length,
     rowsWithFacePageAddenda: rows.filter((row) => row.facePageAddendaForReview).length,
     rowsWithClassificationMarking: rows.filter((row) => row.classificationMarking).length,
+    rowsWithCleanClassificationInDraft: rows.filter((row) => / (Secret|Confidential|Top Secret|Unclassified)\./.test(row.sourceNoteDraftForReview)).length,
+    rowsWithSeparatedWorkingProvenance: rows.filter((row) => row.workingProvenanceForAudit).length,
     rowsWithNotetaker: rows.filter((row) => row.notetaker).length,
     rowsWithInterpreter: rows.filter((row) => row.interpreter).length
   },

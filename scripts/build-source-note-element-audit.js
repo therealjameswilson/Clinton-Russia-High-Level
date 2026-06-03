@@ -169,6 +169,8 @@ function familyChecks(row) {
 function elementChecklist(row) {
   const checks = [
     ...familyChecks(row),
+    ["formal source-note draft excludes page maps", row.status === "pending" ? true : row.formalDraftHasNoWorkingPageMap],
+    ["working provenance separated", row.status === "pending" ? true : Boolean(row.workingProvenanceForAudit)],
     ["source page map", Boolean(row.sourcePdfPages)],
     ["source packet URL", Boolean(row.sourcePacketUrl)],
     ["derivative PDF", row.status === "counted" ? Boolean(row.derivativePdfUrl) : true]
@@ -233,6 +235,7 @@ function buildRows(inputs) {
       markerPage: dossier.markerPage || record.markerPage || "",
       frusSourceNote,
       sourceNoteDraftForReview: sourceNote.sourceNoteDraftForReview || "",
+      workingProvenanceForAudit: sourceNote.workingProvenanceForAudit || "",
       sourceNoteReviewStatus: counted ? sourceNote.sourceNoteReviewStatus || "Needs source-note review" : "Pending source text",
       sourceNoteFlags: counted ? sourceNote.reviewFlags || [] : [],
       facePageStatus: counted ? face.reviewStatus || readiness.facePageStatus || "Review fields" : "Pending source text",
@@ -244,6 +247,7 @@ function buildRows(inputs) {
       classificationMarking: face.classification?.marking || sourceNote.classificationMarking || "",
       elements: parseElements(frusSourceNote)
     };
+    row.formalDraftHasNoWorkingPageMap = !/Source PDF pages|Compiler packet pages|actual conversation pages|provenance sheet page/i.test(row.sourceNoteDraftForReview);
     row.sourceFamily = sourceFamily(row, record, row.elements);
     row.reviewBucket = reviewBucket(row);
     row.elementChecklist = elementChecklist(row);
@@ -268,7 +272,9 @@ function buildSummary(rows) {
     rowsWithFoiaCase: rows.filter((row) => row.elements.foiaCase || row.elements.foiaRequest).length,
     rowsWithDocumentOrRecordId: rows.filter((row) => row.elements.documentId || row.elements.folderRecordId || row.elements.originalOaId).length,
     rowsWithSourcePageMap: rows.filter((row) => row.sourcePdfPages).length,
-    rowsWithSourcePacketUrl: rows.filter((row) => row.sourcePacketUrl).length
+    rowsWithSourcePacketUrl: rows.filter((row) => row.sourcePacketUrl).length,
+    countedFormalDraftsWithoutWorkingPageMaps: rows.filter((row) => row.status === "counted" && row.formalDraftHasNoWorkingPageMap).length,
+    countedRowsWithSeparatedWorkingProvenance: rows.filter((row) => row.status === "counted" && row.workingProvenanceForAudit).length
   };
 }
 
@@ -311,6 +317,8 @@ function writeCsv(rows) {
     "notetaker",
     "interpreter",
     "classificationMarking",
+    "formalDraftHasNoWorkingPageMap",
+    "workingProvenanceForAudit",
     "elementChecklist",
     "nextAction",
     "derivativePdfUrl",
@@ -364,7 +372,9 @@ function buildHtml(report) {
     ["Catalog Items", report.summary.rowsWithCatalogItem],
     ["Digital Items", report.summary.rowsWithDigitalLibraryItem],
     ["FOIA", report.summary.rowsWithFoiaCase],
-    ["IDs", report.summary.rowsWithDocumentOrRecordId]
+    ["IDs", report.summary.rowsWithDocumentOrRecordId],
+    ["Clean Drafts", report.summary.countedFormalDraftsWithoutWorkingPageMaps],
+    ["Separated Provenance", report.summary.countedRowsWithSeparatedWorkingProvenance]
   ]
     .map(([label, value]) => `<div><dt>${htmlCell(label)}</dt><dd>${htmlCell(value)}</dd></div>`)
     .join("\n");
@@ -425,7 +435,7 @@ function buildHtml(report) {
     <main>
       <p><a href="../">Back to compiler page</a></p>
       <h1>FRUS Source-Note Element Audit</h1>
-      <p class="lede">Generated ${htmlCell(report.generatedAt)}. This audit breaks every direct Clinton-Yeltsin memcon/telcon source note into checkable elements: repository stem, collection and series NAIDs, release authority, folder/document identifiers, source-page map, derivative PDF, face-page review flags, and the next source-note action.</p>
+      <p class="lede">Generated ${htmlCell(report.generatedAt)}. This audit breaks every direct Clinton-Yeltsin memcon/telcon source note into checkable elements: repository stem, collection and series NAIDs, release authority, folder/document identifiers, formal source-note draft, separated working provenance, derivative PDF, face-page review flags, and the next source-note action.</p>
       <div class="actions">
         <a href="source-note-element-audit.csv">Download element CSV</a>
         <a href="source-note-element-audit.json">Open element JSON</a>
@@ -433,8 +443,9 @@ function buildHtml(report) {
         <a href="face-page-metadata.html">Open face-page audit</a>
         <a href="production-readiness-checklist.html">Open production checklist</a>
         <a href="compiler-start-here.html">Open start-here packet</a>
+        <a href="https://history.state.gov/historicaldocuments/frus1989-92v31/ch1">Compare FRUS source notes</a>
       </div>
-      <p class="note">This report audits citation elements and OCR-derived face-page addenda. It does not certify final FRUS style; rows marked ready still need final compiler judgment before publication.</p>
+      <p class="note">Published FRUS notes put the repository/file path first, then classification and document-production notes. This report therefore checks that page maps, packet ranges, marker pages, and provenance-sheet locations stay outside the formal source-note draft and remain in separate working-provenance fields.</p>
       <dl class="summary">${summaryRows}</dl>
       <h2>Element Queue</h2>
       <div class="table-wrap">
@@ -464,6 +475,17 @@ function buildReport() {
       "Source-note element audit for direct Clinton-Yeltsin memcons/telcons in the FRUS 1993-2000, Volume XVIII compiler packet.",
     warning:
       "Element checks are mechanical. Final FRUS source-note style and archival citation judgment remain compiler tasks.",
+    publishedFrusStandardModel: {
+      pattern:
+        "Repository and file path first; classification marking next; drafting, clearance, meeting-place, delivery, or editorial notes after the classification sentence.",
+      workingProvenanceRule:
+        "Source PDF pages, compiler packet pages, derivative packet ranges, marker pages, and provenance-sheet locations are working controls and should not be folded into the formal source-note draft.",
+      officialExamples: [
+        "https://history.state.gov/historicaldocuments/frus1989-92v31/ch1",
+        "https://history.state.gov/historicaldocuments/frus1989-92v31/ch2",
+        "https://history.state.gov/historicaldocuments/frus1989-92v31/d73"
+      ]
+    },
     summary: buildSummary(rows),
     rows
   };
