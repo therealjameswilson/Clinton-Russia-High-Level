@@ -776,8 +776,8 @@ function renderFrusMethod(records) {
     methodCard(
       "Mission Boundary",
       "Set",
-      "This page is an evidence inventory for compiler review. It is not a proposed document selection list or volume outline.",
-      "Records stay in research lanes but candidate conversations remain chronologically sortable."
+      "This page is an evidence inventory for compiler review. Generated lists are prompts, not authority.",
+      "Final include, excerpt, annotation, and source-note decisions stay with the compiler."
     ),
     methodCard(
       "Chronological Control",
@@ -788,7 +788,7 @@ function renderFrusMethod(records) {
     methodCard(
       "Citation Discipline",
       sourceNotes.length === records.length ? "Ready" : "Partial",
-      "Displayed citations use a FRUS-style source-note stem while extraction, duplicate, and page-count notes stay separate.",
+      "Displayed citations use a FRUS-style source-note stem while generated extraction, duplicate, and page-count notes stay separate.",
       `${sourceNotes.length}/${records.length} records have FRUS-style source-note text.`
     ),
     methodCard(

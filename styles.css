@@ -310,6 +310,39 @@ dd {
   line-height: 1.56;
 }
 
+.trust-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 16px 0 18px;
+}
+
+.trust-strip article {
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(215, 222, 219, 0.96);
+  border-left: 4px solid rgba(47, 103, 95, 0.7);
+  border-radius: 8px;
+}
+
+.trust-strip h2 {
+  margin: 0 0 5px;
+  color: var(--navy);
+  font-family: inherit;
+  font-size: 0.84rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.trust-strip p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.48;
+}
+
 .priority-chronology-section {
   padding-top: 56px;
   scroll-margin-top: 88px;
@@ -1433,6 +1466,7 @@ footer a {
   .feature-grid,
   .chapter-grid,
   .source-list,
+  .trust-strip,
   .next-action-cards,
   .research-grid,
   .audit-grid,
@@ -1490,6 +1524,7 @@ footer a {
   .chapter-grid,
   .source-list,
   .research-grid,
+  .trust-strip,
   .audit-grid,
   .frus-method-grid,
   .metric-list,

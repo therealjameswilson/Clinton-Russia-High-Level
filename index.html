@@ -152,9 +152,24 @@
           <p class="section-note">
             The page-counted Clinton-Yeltsin memcons and telcons come first, in date order,
             with source notes, extraction status, and provenance checks attached to each row.
+            Draft lists and triage labels are aids for review, not substitutes for source judgment.
           </p>
         </div>
         <p id="declassified-chronology-summary" class="priority-summary" aria-live="polite"></p>
+        <div class="trust-strip" aria-label="Review safeguards">
+          <article>
+            <h2>Source First</h2>
+            <p>Every count and page range points back to a PDF, packet page, catalog lead, or audit file.</p>
+          </article>
+          <article>
+            <h2>Human Decision</h2>
+            <p>Generated rankings stay provisional; the compiler keeps the include, excerpt, and annotation calls.</p>
+          </article>
+          <article>
+            <h2>Open Trail</h2>
+            <p>CSV, JSON, source notes, and gap packets make the work easy to check, correct, or reject.</p>
+          </article>
+        </div>
         <div class="workbench-actions">
           <a href="reports/compiler-start-here.html">Open start-here packet</a>
           <a href="reports/chronological-chapter-outline.html">Open chapter outline</a>
@@ -197,7 +212,8 @@
             chronological spine of declassified Clinton-Yeltsin memcons and telcons, then
             adds released Clinton Library MDR packets, Strobe Talbott FOIA policy context,
             Clinton's public statements from the Public Papers, and provenance-aware
-            controls for FRUS review.
+            controls for FRUS review. The purpose is to shorten source-checking, not to
+            ask the compiler to accept a black-box selection.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="button primary" href="#records" data-quick-filter="candidate">Open Full Candidate Set</a>
@@ -308,7 +324,8 @@
           <p class="section-note">
             This inventory follows the FRUS source-note discipline: citation stems are
             separated from extraction notes, and unresolved PDF-level facts are kept in a
-            visible worklist.
+            visible worklist. Generated queues are treated as clerical prompts until a
+            reader verifies the underlying source.
           </p>
         </div>
         <div id="frus-method-root" class="frus-method-grid" aria-live="polite"></div>
@@ -411,7 +428,9 @@
             </dl>
             <p>
               The core queue is the Clinton-Yeltsin memcon/telcon chronology, arranged by
-              conversation date and counted only by actual conversation pages.
+              conversation date and counted only by actual conversation pages. The site
+              surfaces evidence and unresolved checks; it does not make final selection
+              decisions.
             </p>
             <div class="workbench-actions">
               <a href="#records" data-quick-filter="candidate">Show candidates</a>
@@ -953,7 +972,7 @@
     </main>
 
     <footer>
-      <p>Published with GitHub Pages as a working companion archive.</p>
+      <p>Published with GitHub Pages as a working companion archive; verify against the linked sources.</p>
       <a href="https://github.com/therealjameswilson/Clinton-Russia-High-Level">Repository</a>
     </footer>
     <script src="data/memcons.js?v=20260601-compiler-packet"></script>
