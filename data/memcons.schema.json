@@ -58,7 +58,7 @@
         "number": {
           "type": "integer",
           "minimum": 1,
-          "maximum": 4
+          "maximum": 6
         },
         "name": {
           "type": "string",
@@ -66,7 +66,7 @@
             "Clinton-Yeltsin Chronology",
             "Released Clinton Library Packets",
             "Talbott FOIA Context",
-            "NARA Scout Leads"
+            "NARA Scout Leads", "Clinton Public Statements", "October 2026 Release Review"
           ]
         }
       }
